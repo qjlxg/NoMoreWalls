@@ -9,6 +9,18 @@ proxies:
   tls: false
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- name: 4Nika-6044
+  password: bpb-trojan
+  port: 443
+  server: 45.80.110.224
+  sni: bpb.my79801.com
+  type: trojan
+- name: '4Sarina-7072 #1'
+  password: bpb-trojan
+  port: 443
+  server: 37.252.5.75
+  sni: skwygx.top
+  type: trojan
 - name: V1-爱沙尼亚
   password: ce71384b-7966-4139-a2f5-5d2ef263afb3
   port: 41760
