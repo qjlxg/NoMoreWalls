@@ -47,33 +47,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇭-瑞士-mumbai-arm2.egg.run
-  network: ws
-  port: '80'
-  server: mumbai-arm2.egg.run
-  tls: false
-  type: vmess
-  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
-  ws-opts:
-    headers:
-      Host: mumbai-arm2.egg.run
-    path: mumbai-arm2.egg.run/
-- alterId: 64
-  cipher: auto
-  name: 🇨🇭 瑞士_1206005
-  network: ws
-  port: '443'
-  server: 213.202.233.147
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.95438290.xyz
-    path: /path/243535322906
-- alterId: 0
-  cipher: auto
   name: '🇨🇭CH-45.90.59.186-3584 #1'
   network: ws
   port: 10000
@@ -136,7 +109,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇨🇭 瑞士CH #1'
+  name: 🇨🇭-瑞士-mumbai-arm2.egg.run
+  network: ws
+  port: '80'
+  server: mumbai-arm2.egg.run
+  tls: false
+  type: vmess
+  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
+  ws-opts:
+    headers:
+      Host: mumbai-arm2.egg.run
+    path: mumbai-arm2.egg.run/
+- alterId: 64
+  cipher: auto
+  name: 瑞士_1208005
+  network: ws
+  port: '443'
+  server: 213.202.233.147
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.95438290.xyz
+    path: /path/243535322906
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭 瑞士CH
   network: ws
   port: '6616'
   server: 5.182.36.199
