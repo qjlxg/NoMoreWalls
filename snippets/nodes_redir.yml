@@ -512,11 +512,10 @@ proxies:
   uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
 - alterId: 0
   cipher: auto
-  name: 中国_0404322
+  name: 🇨🇳_CN_中国->🇭🇰_HK_香港_2_由快嘴科技提...
   network: ''
-  port: '16609'
+  port: 16609
   server: d0cd89648587.sanfen001.pics
-  servername: ''
   tls: false
   type: vmess
   uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f
@@ -717,11 +716,11 @@ proxies:
   uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
 - alterId: 0
   cipher: auto
-  name: 🇦🇶-欧盟-45.85.119.18
+  name: 🇷🇴_RO_罗马尼亚->🇩🇪_DE_德国_2_39
   network: ws
-  port: '443'
+  port: 443
   server: 45.85.119.18
-  tls: false
+  tls: true
   type: vmess
   uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
   ws-opts:
@@ -941,6 +940,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #2'
+  network: tcp
+  port: 45070
+  server: 111.23.252.215
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: _CN_中国->🇩🇿_DZ_阿尔及利亚
@@ -953,6 +961,28 @@ proxies:
   ws-opts:
     headers:
       Host: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  network: tcp
+  port: 35914
+  server: 156.225.67.122
+  tls: false
+  type: vmess
+  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 _CN_中国->🇭🇰_HK_香港 #1'
+  network: ws
+  port: '63078'
+  server: in02.my1188.org
+  tls: true
+  type: vmess
+  uuid: e150c7fc-4297-3a40-a9d8-ff7e38bc1c63
+  ws-opts:
+    headers:
+      Host: hk-balancer.airport-v2.com
     path: /
 - alterId: 64
   cipher: auto

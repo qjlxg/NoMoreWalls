@@ -71,12 +71,12 @@ proxies:
     path: /kvw0870h/
 - alterId: 64
   cipher: auto
-  name: 4Sarina-27675
+  name: 新加坡_0626005
   network: ws
-  port: 443
+  port: '443'
   server: 202.79.172.53
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 30216206-14b7-40e7-995d-61c1219ba584
   ws-opts:
@@ -85,9 +85,9 @@ proxies:
     path: /path/220128071100
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26504
+  name: 新加坡_0626006
   network: ws
-  port: 80
+  port: '80'
   server: 143.198.219.182
   servername: ''
   tls: false
@@ -99,47 +99,47 @@ proxies:
     path: /v2ray
 - alterId: 64
   cipher: auto
-  name: 4Sarina-27674
+  name: 新加坡_0626007
   network: ws
-  port: 443
+  port: '443'
   server: 202.79.171.157
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: fb3583a3-7717-4fe5-9146-3301861f9f41
   ws-opts:
     headers:
       Host: ''
     path: /path/243535322906
-- name: '4Sarina-7107 #1'
+- name: '新加坡_0626008 #2'
   password: c3d6d2e4-05a5-4a48-b91a-070b5e9fcdfb
   port: 443
   server: sg2-full.privateip.net
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: '4Nika-6083 #1'
+- name: '新加坡_0626009 #2'
   password: d4bdfc72-7f0c-4ff0-aa4d-3530736f4088
   port: 443
   server: sg-full.privateip.net
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: '4Nika-4009 #1'
+- name: '新加坡_0626011 #2'
   password: 71086710-33eb-11ed-adce-1239d0255272
   port: 443
   server: sg1-trojan.bonds.id
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: '4Nika-6046 #1'
+- name: '新加坡_0626012 #2'
   password: cd39f62aed7b90f6
   port: 3389
   server: 5.44.249.43
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: '4Nika-4001 #1'
+- name: '新加坡_0626013 #2'
   password: 6f0a9d0fa39d65fa
   port: 3389
   server: 5.44.249.43
@@ -148,12 +148,12 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26273
+  name: 新加坡_0626014
   network: ws
-  port: 443
+  port: '443'
   server: 139.162.33.70
-  servername: 139.162.33.70
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
   ws-opts:
@@ -162,12 +162,12 @@ proxies:
     path: /BqVwBioP
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27917
+  name: 新加坡_0626015
   network: ws
-  port: 2096
+  port: '2096'
   server: 27.50.48.44
-  servername: pages.dev
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
   ws-opts:
@@ -246,9 +246,9 @@ proxies:
     path: /54f634fs
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26690
+  name: 🇸🇬 _SG_新加坡_6
   network: tcp
-  port: 443
+  port: '443'
   server: 168.138.171.65
   tls: true
   type: vmess
@@ -268,11 +268,10 @@ proxies:
     path: /
 - alterId: 32
   cipher: auto
-  name: 4Sarina-26290
+  name: SG_139.99.91.95_03152023b7fd-4...
   network: tcp
-  port: 443
+  port: '443'
   server: 139.99.91.95
-  servername: ''
   tls: false
   type: vmess
   uuid: c0156451-4efb-45e2-84fc-8d315c4650db
@@ -6439,11 +6438,11 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: '🇸🇬_SG_新加坡_3_33 #1'
+  name: 🇸🇬-新加坡-43.156.19.14
   network: ws
-  port: 30203
+  port: '30203'
   server: 43.156.19.14
-  tls: true
+  tls: false
   type: vmess
   uuid: 98821111-93ab-4562-946a-61ba95f472f1
   ws-opts: {}
@@ -11437,6 +11436,16 @@ proxies:
     headers:
       Host: n1674862942.zhidemy.cn
     path: /
+- alterId: 64
+  cipher: auto
+  name: '🇸🇬_SG_新加坡_3_33 #1'
+  network: ws
+  port: 30203
+  server: 43.156.19.14
+  tls: true
+  type: vmess
+  uuid: 98821111-93ab-4562-946a-61ba95f472f1
+  ws-opts: {}
 - alterId: 0
   cipher: auto
   name: 🇸🇬-新加坡-awssg5-tg-data.amazonwe...
@@ -14484,6 +14493,16 @@ proxies:
     path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 - alterId: 0
   cipher: auto
+  name: 新加坡_0106811
+  network: tcp
+  port: '12356'
+  server: 00000000000000000000000000000000000000000000000000000000000035a.node-for-bigairport.win
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+- alterId: 0
+  cipher: auto
   name: 新加坡_0106670
   network: ''
   port: '80'
@@ -14703,6 +14722,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '🇸🇬-新加坡-zf.622888.xyz #2'
+  network: ws
+  port: '203'
+  server: zf.622888.xyz
+  tls: false
+  type: vmess
+  uuid: 4753033a-3779-4459-adf7-88970190c90a
+  ws-opts:
+    headers:
+      Host: zf.622888.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 新加坡_1208440
   network: ''
   port: '443'
@@ -14767,6 +14799,12 @@ proxies:
     headers:
       Host: sg-gcore.sharecentre.online
     path: /shirker
+- name: '@Hope_Net-join-us-on-Telegram #33'
+  password: Aimer
+  port: 2087
+  server: 206.238.236.90
+  sni: agept.ambercc.filegear-sg.me
+  type: trojan
 - alterId: 233
   cipher: auto
   name: V2-SG1
@@ -18728,6 +18766,60 @@ proxies:
     headers:
       Host: fysg.fyy.asia
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_697 | 5.92Mb
+  network: tcp
+  port: 44396
+  server: 84.247.148.192
+  tls: false
+  type: vmess
+  uuid: 3ca35e0a-e430-43fe-9c12-2e2eea70f873
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_698 | 8.58Mb
+  network: tcp
+  port: 56051
+  server: 38.47.176.251
+  tls: false
+  type: vmess
+  uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_700 | 2.37Mb
+  network: tcp
+  port: 47211
+  server: 84.247.149.77
+  tls: false
+  type: vmess
+  uuid: fb674260-1c21-4f99-8bd0-3d1d341c6771
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_701 |13.25Mb
+  network: tcp
+  port: 39530
+  server: 84.247.146.161
+  tls: false
+  type: vmess
+  uuid: 7aa56e39-29b8-45c3-8b53-6d2a23b2461c
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_702 | 5.06Mb
+  network: tcp
+  port: 36141
+  server: 84.247.150.177
+  tls: false
+  type: vmess
+  uuid: d31ee52f-b6e4-4db8-9c95-98855ec823cc
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_703 | 9.84Mb
+  network: tcp
+  port: 57143
+  server: 154.26.129.247
+  tls: false
+  type: vmess
+  uuid: 28efbf36-079a-4c98-8470-d13458db6ee6
 - alterId: 0
   cipher: auto
   name: 🔒 VM-WS-TLS 🇸🇬 SG-129.150.52.1...

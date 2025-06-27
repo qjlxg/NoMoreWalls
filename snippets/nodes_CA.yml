@@ -64,12 +64,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27886
+  name: 加拿大_0626004
   network: ws
-  port: 443
+  port: '443'
   server: 23.227.38.23
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   ws-opts:
@@ -78,12 +78,12 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27883
+  name: 加拿大_0626005
   network: ws
-  port: 443
+  port: '443'
   server: 23.227.38.22
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   ws-opts:
@@ -92,12 +92,12 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27881
+  name: 加拿大_0626006
   network: ws
-  port: 443
+  port: '443'
   server: 23.227.38.20
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   ws-opts:
@@ -106,12 +106,12 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27882
+  name: 加拿大_0626007
   network: ws
-  port: 443
+  port: '443'
   server: 23.227.38.21
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   ws-opts:
@@ -120,12 +120,12 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27878
+  name: 加拿大_0626008
   network: ws
-  port: 443
+  port: '443'
   server: 23.227.38.25
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   ws-opts:
@@ -134,12 +134,12 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27877
+  name: 加拿大_0626009
   network: ws
-  port: 443
+  port: '443'
   server: 23.227.38.24
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   ws-opts:
@@ -148,12 +148,12 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27892
+  name: 加拿大_0626010
   network: ws
-  port: 443
+  port: '443'
   server: 23.227.38.39
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   ws-opts:
@@ -162,12 +162,12 @@ proxies:
     path: /5QNROSRV
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27880
+  name: 加拿大_0626011
   network: ws
-  port: 443
+  port: '443'
   server: 23.227.38.27
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   ws-opts:
@@ -176,12 +176,12 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27894
+  name: 加拿大_0626012
   network: ws
-  port: 443
+  port: '443'
   server: 23.227.38.40
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   ws-opts:
@@ -190,12 +190,12 @@ proxies:
     path: /A2DJOPFT
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27879
+  name: 加拿大_0626013
   network: ws
-  port: 443
+  port: '443'
   server: 23.227.38.26
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   ws-opts:
@@ -204,12 +204,12 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27890
+  name: 加拿大_0626014
   network: ws
-  port: 443
+  port: '443'
   server: 23.227.38.38
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   ws-opts:
@@ -218,12 +218,12 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27874
+  name: 加拿大_0626015
   network: ws
-  port: 443
+  port: '443'
   server: 23.227.38.100
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 7b1b2fa3-e361-48cc-b73d-2c9636c76f4b
   ws-opts:
@@ -232,26 +232,26 @@ proxies:
     path: /UMW36262
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27889
+  name: 加拿大_0626016
   network: ws
-  port: 443
+  port: '443'
   server: 23.227.38.38
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
   ws-opts:
     headers:
       Host: ''
     path: /ECTCJ0DF
-- name: '4Nika-4187 #1'
+- name: '加拿大_0626017 #2'
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: 149.56.141.11
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: '4Sarina-6874 #1'
+- name: '加拿大_0626018 #2'
   password: acfef609-b3c7-4e52-b292-8921d5fca90d
   port: 443
   server: ca-full.privateip.net
@@ -260,12 +260,12 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26631
+  name: 加拿大_0626020
   network: ws
-  port: 443
+  port: '443'
   server: 15.235.50.172
-  servername: baradiha.com
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
@@ -274,12 +274,12 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26635
+  name: 加拿大_0626021
   network: ws
-  port: 443
+  port: '443'
   server: 15.235.83.228
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
@@ -288,12 +288,12 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26633
+  name: 加拿大_0626022
   network: ws
-  port: 443
+  port: '443'
   server: 15.235.83.227
-  servername: mankadmu.com
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
@@ -302,9 +302,9 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26256
+  name: 加拿大_0626023
   network: ws
-  port: 80
+  port: '80'
   server: 137.184.164.233
   servername: ''
   tls: false
@@ -316,12 +316,12 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 🇨🇦CA-134.195.198.147-6928
+  name: 加拿大_0626024
   network: ws
-  port: 443
+  port: '443'
   server: 134.195.198.147
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
@@ -330,12 +330,12 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 4Sarina-28995
+  name: 加拿大_0626025
   network: ws
-  port: 443
+  port: '443'
   server: kapelleng.com
-  servername: kapelleng.com
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
@@ -364,7 +364,6 @@ proxies:
   password: opentunnel.net-wd3dzt4j9yoy
   port: 443
   server: cat-1.opensvr.net
-  skip-cert-verify: true
   type: trojan
 - alterId: 0
   cipher: auto
@@ -1367,7 +1366,6 @@ proxies:
   network: ws
   port: 2052
   server: dearmb.76898102.xyz
-  servername: ''
   tls: false
   type: vmess
   uuid: d264f990-a6a5-3832-bf37-1fccaed298dd
@@ -2198,11 +2196,11 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 🇨🇦 加拿大_1208045
+  name: 🇨🇦-加拿大-23jnd.mealstream.xyz
   network: tcp
   port: '15323'
   server: 23jnd.mealstream.xyz
-  tls: true
+  tls: false
   type: vmess
   uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
 - alterId: 2
@@ -2275,6 +2273,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 4dfe7515-5080-41bc-9899-df1be1a246fc
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦-加拿大-afn.ircf.space
+  network: ws
+  port: '2096'
+  server: afn.ircf.space
+  tls: false
+  type: vmess
+  uuid: fa5a6f0e-ab9d-45bf-e3ed-102dd5fee6b2
+  ws-opts:
+    headers:
+      Host: dl.filmino.online
+    path: /nodejs
 - alterId: 0
   cipher: auto
   name: 加拿大_0320032
@@ -2586,6 +2597,15 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
+  name: 🇨🇦 加拿大_1208045
+  network: tcp
+  port: '15323'
+  server: 23jnd.mealstream.xyz
+  tls: true
+  type: vmess
+  uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
+- alterId: 0
+  cipher: auto
   name: '🇨🇦 加拿大(TG频道@kxswa) #1'
   network: tcp
   port: '38793'
@@ -2743,6 +2763,20 @@ proxies:
     headers:
       Host: 51.79.102.253
     path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦CA-134.195.198.147-6928
+  network: ws
+  port: 443
+  server: 134.195.198.147
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: inna.cfd
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 🇨🇦CA-23.162.200.227-6935

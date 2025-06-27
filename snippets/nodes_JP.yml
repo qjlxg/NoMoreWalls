@@ -64,12 +64,12 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 4Sarina-28991
+  name: 日本_0626003
   network: ws
-  port: 443
+  port: '443'
   server: fullaccesstojapannetsubnode1.azurewebsites.net
-  servername: fullaccesstojapannetsubnode1.azurewebsites.net
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
   ws-opts:
@@ -78,12 +78,12 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 4Sarina-29316
+  name: 日本_0626004
   network: ws
-  port: 33443
+  port: '33443'
   server: tls.05.node-for-bigairport.win
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: b71f9e84-86c9-49c4-b5f4-b33b35ee7410
   ws-opts:
@@ -99,12 +99,12 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26801
+  name: 日本_0626006
   network: ws
-  port: 443
+  port: '443'
   server: 172.104.78.98
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 927094d3-d678-4763-8591-e240d0bcae87
   ws-opts:
@@ -113,12 +113,12 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26302
+  name: 日本_0626007
   network: ws
-  port: 443
+  port: '443'
   server: 131.186.57.111
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
@@ -177,13 +177,12 @@ proxies:
     headers:
       Host: sg6.verichains.co
     path: /sg6/getData
-- alterId: 0
+- alterId: 4
   cipher: auto
-  name: 4Sarina-26320
+  name: 🇯🇵 日本-vmess-146.56.40.11727675...
   network: ws
-  port: 27675
+  port: '27675'
   server: 146.56.40.117
-  servername: ''
   tls: false
   type: vmess
   uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c
@@ -6005,9 +6004,9 @@ proxies:
   uuid: f16424d6-899b-4e22-9f19-e5ff6501579f
 - alterId: 0
   cipher: auto
-  name: '日本 V2CROSS.COM #4'
+  name: 🇯🇵-日本-hk80.8b750e3e20aa.sanfen...
   network: ws
-  port: 80
+  port: '80'
   server: hk80.8b750e3e20aa.sanfen001.pics
   tls: false
   type: vmess
@@ -11980,6 +11979,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 7c7c7de2-020b-436a-b23c-6a0bee5c4876
+- alterId: 0
+  cipher: auto
+  name: '日本 V2CROSS.COM #4'
+  network: ws
+  port: 80
+  server: hk80.8b750e3e20aa.sanfen001.pics
+  tls: false
+  type: vmess
+  uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /zh-cn/
 - alterId: 0
   cipher: auto
   name: '🇯🇵-日本-4o5a3u04.mcfront.xyz #9'
@@ -18347,7 +18359,7 @@ proxies:
   skip-cert-verify: true
   sni: us01.trojanyyds.xyz
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #38'
+- name: '@Hope_Net-join-us-on-Telegram #35'
   password: Aimer
   port: 587
   server: 47.79.86.103
@@ -18369,9 +18381,9 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 4Sarina-29358
+  name: '日本(yudou123.top 玉豆免费节点) #1'
   network: ws
-  port: 30812
+  port: '30812'
   server: v12.heduian.link
   servername: ''
   tls: false
@@ -18467,6 +18479,12 @@ proxies:
   port: 443
   server: de01.trojanyyds.xyz
   sni: de01.trojanyyds.xyz
+  type: trojan
+- name: '🇯🇵JP-74.226.136.204-0499 #2'
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: hk03.trojanyyds.xyz
+  sni: hk03.trojanyyds.xyz
   type: trojan
 - name: '🇯🇵JP-74.226.136.204-0499 #3'
   password: 243eab52-9ac1-405c-887c-eb112c0985b8

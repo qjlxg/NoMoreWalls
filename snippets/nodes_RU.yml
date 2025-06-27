@@ -15,9 +15,9 @@ proxies:
     path: /xrenvws
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27256
+  name: 俄罗斯联邦_0626007
   network: ws
-  port: 2095
+  port: '2095'
   server: 185.174.138.209
   servername: ''
   tls: false
@@ -29,9 +29,9 @@ proxies:
     path: /az05.beyondy.cfd/link?/TM
 - alterId: 0
   cipher: auto
-  name: 4Sarina-28176
+  name: 俄罗斯联邦_0626008
   network: ws
-  port: 2082
+  port: '2082'
   server: 45.142.120.190
   servername: ''
   tls: false
@@ -71,12 +71,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27409
+  name: 俄罗斯联邦_0626011
   network: ws
-  port: 443
+  port: '443'
   server: 194.76.18.113
-  servername: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
@@ -85,12 +85,12 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27408
+  name: 俄罗斯联邦_0626012
   network: ws
-  port: 443
+  port: '443'
   server: 194.76.18.197
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
@@ -99,12 +99,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27289
+  name: 俄罗斯联邦_0626013
   network: ws
-  port: 443
+  port: '443'
   server: 185.59.218.177
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
   ws-opts:
@@ -126,11 +126,10 @@ proxies:
     path: /6e9EtZ2dL
 - alterId: 0
   cipher: auto
-  name: 4Sarina-28651
+  name: RU_91.193.181.192_03152023b7fd...
   network: ws
-  port: 8090
+  port: '8090'
   server: 91.193.181.192
-  servername: ''
   tls: false
   type: vmess
   uuid: 08bc30e1-be39-4eb4-e887-e6579be15a45
@@ -707,11 +706,11 @@ proxies:
   uuid: 5c0156ab-576b-424b-9bb5-34a2b368540b
 - alterId: 0
   cipher: auto
-  name: 🇮🇷 _IR_伊朗
+  name: 🇷🇺-俄罗斯-wp.zanbil-mo.cf
   network: tcp
   port: '25605'
   server: wp.zanbil-mo.cf
-  tls: true
+  tls: false
   type: vmess
   uuid: 688984ba-5219-4c56-8c16-0257c6351f5e
 - alterId: 0
@@ -1488,7 +1487,7 @@ proxies:
   server: 46.254.93.251
   sni: epmd.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #39'
+- name: '@Hope_Net-join-us-on-Telegram #36'
   network: ws
   password: Aimer
   port: 2083
@@ -1498,22 +1497,21 @@ proxies:
   ws-opts:
     headers:
       Host: ngepx.ambercc.filegear-sg.me
-- name: '@Hope_Net-join-us-on-Telegram #21'
+- name: '@Hope_Net-join-us-on-Telegram #18'
   network: tcp
   password: '!!str 3747000103274291200'
   port: 443
   server: 77.73.70.64
   sni: better-crappie.treefrog761.one
   type: trojan
-- name: '4Nika-5443 #1'
+- name: ' TR-TCP-TLS  RU-5.182.85.255:2... #1'
   network: tcp
   password: Aimer
   port: 2096
   server: 5.182.85.255
-  skip-cert-verify: true
   sni: epccf.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #37'
+- name: '@Hope_Net-join-us-on-Telegram #34'
   password: Aimer
   port: 8443
   server: 46.254.93.243

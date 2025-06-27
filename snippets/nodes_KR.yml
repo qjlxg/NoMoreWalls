@@ -83,12 +83,12 @@ proxies:
   type: trojan
 - alterId: 64
   cipher: auto
-  name: 4Sarina-27916
+  name: 韩国_0626001
   network: ws
-  port: 443
+  port: '443'
   server: 27.124.8.141
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: c7e645be-1704-4f0a-afe9-8b21f9c711d6
   ws-opts:
@@ -97,12 +97,12 @@ proxies:
     path: /path/220128071100
 - alterId: 0
   cipher: auto
-  name: 4Sarina-28989
+  name: 韩国_0626002
   network: ws
-  port: 443
+  port: '443'
   server: fullaccesstokoreannetsubnode1.azurewebsites.net
-  servername: fullaccesstokoreannetsubnode1.azurewebsites.net
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
   ws-opts:
@@ -111,19 +111,19 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 4Sarina-28997
+  name: 韩国_0626003
   network: ws
-  port: 443
+  port: '443'
   server: kr-arm2.018999.xyz
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: e98fc1a0-9c52-4091-91a5-c159b0aa274e
   ws-opts:
     headers:
       Host: kr-arm2.018999.xyz
     path: /e98fc1a0-9c52-4091-91a5-c159b0aa274e
-- name: '4Nika-4236 #1'
+- name: '韩国_0626004 #2'
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.seoulcitygovernment.com.ua
@@ -132,12 +132,12 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26259
+  name: 韩国_0626005
   network: ws
-  port: 443
+  port: '443'
   server: 138.2.123.70
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
@@ -146,12 +146,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26659
+  name: 韩国_0626006
   network: ws
-  port: 443
+  port: '443'
   server: 152.70.232.151
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
@@ -360,6 +360,14 @@ proxies:
     headers:
       Host: hk09.bp777.buzz
     path: /
+- name: 4Sarina-4991
+  network: tcp
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 203.156.253.12
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 🇰🇷 韩国 56
@@ -1675,7 +1683,7 @@ proxies:
   uuid: f394c025-939b-3342-9fe6-7f2deda19582
 - alterId: 0
   cipher: auto
-  name: '🇺🇸-美国-130.162.143.109 #3'
+  name: 韩国【付费推荐：https://tt.vg/vip】406
   network: ws
   port: '42411'
   server: 130.162.143.109
@@ -1684,6 +1692,8 @@ proxies:
   type: vmess
   uuid: 417c5108-ef6b-49f0-a13d-8746fe6e204c
   ws-opts:
+    headers:
+      Host: ''
     path: /hgg
 - alterId: 0
   cipher: auto
@@ -1728,7 +1738,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇺🇸-美国-130.162.143.109 #2'
+  name: 韩国【付费推荐：https://tt.vg/vip】328
   network: ws
   port: '45575'
   server: 130.162.143.109
@@ -1737,6 +1747,8 @@ proxies:
   type: vmess
   uuid: bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2
   ws-opts:
+    headers:
+      Host: ''
     path: /ww
 - alterId: 0
   cipher: auto
@@ -2196,7 +2208,7 @@ proxies:
   uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
 - alterId: 0
   cipher: auto
-  name: 🇰🇷-韩国-13.124.228.70
+  name: 🇰🇷 [VMess] 🇰🇷 KR【付费推荐：goo.gs/v...
   network: ws
   port: '42517'
   server: 13.124.228.70
@@ -2204,6 +2216,8 @@ proxies:
   type: vmess
   uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -2883,6 +2897,17 @@ proxies:
     headers:
       Host: ''
     path: /ny
+- alterId: 64
+  cipher: auto
+  name: 🇰🇷-韩国-210.87.202.3
+  network: ws
+  port: '25271'
+  server: 210.87.202.3
+  tls: false
+  type: vmess
+  uuid: a23f272d-2186-4d68-8f2a-2d8847c603be
+  ws-opts:
+    path: /kor1/getData
 - alterId: 0
   cipher: auto
   name: 韩国_0401038
@@ -2907,6 +2932,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 9ca9e106-76be-488b-8b3e-ccfb80d2228d
+- alterId: 0
+  cipher: auto
+  name: 韩国_0318009
+  network: ws
+  port: '47971'
+  server: 130.162.134.218
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c66fe225-648d-4d6b-8d31-94dca65268a4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /www
 - alterId: 0
   cipher: auto
   name: 🇰🇷-韩国-140.238.13.78
@@ -3462,6 +3501,17 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
+  name: 🇰🇷-韩国-13.124.228.70
+  network: ws
+  port: '42517'
+  server: 13.124.228.70
+  tls: false
+  type: vmess
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   name: 韩国_1208136
   network: tcp
   port: '8870'
@@ -3480,6 +3530,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国_1208109
+  network: ws
+  port: '443'
+  server: kr3.622888.xyz
+  tls: true
+  type: vmess
+  uuid: 4753033a-3779-4459-adf7-88970190c90a
+  ws-opts:
+    headers:
+      Host: kr3.622888.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: '韩国_1208113 #1'

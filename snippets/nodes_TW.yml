@@ -27,14 +27,14 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: '4Sarina-6837 #1'
+- name: 台湾_0626003
   password: a348278e-71ac-499c-8069-28b1af18c372
   port: 3663
   server: tw40.453521.xyz
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: 4Nika-3999
+- name: '台湾_0626004 #1'
   password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
   port: 443
   server: taifo03a.kbservice.club
@@ -43,21 +43,20 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 4Sarina-29326
+  name: 台湾_0626005
   network: http
-  port: 1443
+  port: '1443'
   server: tw2.sdklkd.org
-  servername: tw2.sdklkd.org
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: fa98714c-1d2b-3b60-81e0-f7151110e801
 - alterId: 0
   cipher: auto
-  name: 4Sarina-28445
+  name: 🇨🇳 mattkaydiary.com|中国台湾(TW)Ta...
   network: ws
-  port: 33792
+  port: '33792'
   server: 61.222.202.140
-  servername: ''
   tls: false
   type: vmess
   uuid: e55cd182-01b0-4fb7-a510-363701a491c5
@@ -359,7 +358,6 @@ proxies:
   network: tcp
   port: 80
   server: 18c035a5-cfa0-6e07-6906-834de3b3eb73.cnnic.rip
-  servername: ''
   tls: false
   type: vmess
   uuid: 17c5c13d-0c5b-4a57-a721-e5db4959c189
@@ -5444,6 +5442,16 @@ proxies:
   uuid: f0b8df2b-adde-4d02-82be-a7ac8f33de31
 - alterId: 0
   cipher: auto
+  name: 台湾_0404565
+  network: tcp
+  port: '80'
+  server: 18c035a5-cfa0-6e07-6906-834de3b3eb73.cnnic.rip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 17c5c13d-0c5b-4a57-a721-e5db4959c189
+- alterId: 0
+  cipher: auto
   name: '浙江省台州市-6w7j3p04.mcfront.xyz #6'
   network: tcp
   port: '31116'
@@ -7858,6 +7866,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cb7001c7-e495-41ac-b942-f25f60523414
+- name: ' TR-TCP-TLS  TW-210.203.60.189... #1'
+  network: tcp
+  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
+  port: 443
+  server: 210.203.60.189
+  sni: 45.32.28.232
+  type: trojan
 - name: Trojan-台湾2 | 低倍率
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
   port: 43156
@@ -8799,3 +8814,12 @@ proxies:
   uuid: 0dc29615-8f0e-308f-ab69-b15694366dfc
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: TW DCBG 12
+  network: tcp
+  port: 27001
+  server: a.lemonyun.xyz
+  tls: false
+  type: vmess
+  uuid: 3e7d92de-76b0-3975-bb10-c0d35ce6f6ab

@@ -78,9 +78,9 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26774
+  name: 德国_0626008
   network: ws
-  port: 80
+  port: '80'
   server: 162.55.174.135
   servername: ''
   tls: false
@@ -92,9 +92,9 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26776
+  name: 德国_0626009
   network: ws
-  port: 80
+  port: '80'
   server: 162.55.62.193
   servername: ''
   tls: false
@@ -106,9 +106,9 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 4Sarina-28312
+  name: 德国_0626010
   network: ws
-  port: 80
+  port: '80'
   server: 5.75.173.189
   servername: ''
   tls: false
@@ -120,9 +120,9 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26681
+  name: 德国_0626011
   network: ws
-  port: 80
+  port: '80'
   server: 167.235.78.112
   servername: ''
   tls: false
@@ -134,9 +134,9 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 4Sarina-28317
+  name: 德国_0626012
   network: http
-  port: 443
+  port: '443'
   server: 5.75.247.192
   servername: ''
   tls: false
@@ -165,12 +165,12 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 4Sarina-28381
+  name: 德国_0626017
   network: ws
-  port: 443
+  port: '443'
   server: 51.75.70.34
-  servername: goodfamily19.site
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
   ws-opts:
@@ -179,12 +179,12 @@ proxies:
     path: /wmzmvws
 - alterId: 0
   cipher: auto
-  name: 4Sarina-28382
+  name: 德国_0626018
   network: ws
-  port: 443
+  port: '443'
   server: 51.75.70.34
-  servername: lg30.cfcdn3.xyz
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   ws-opts:
@@ -193,12 +193,12 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 4Sarina-26797
+  name: 德国_0626019
   network: ws
-  port: 443
+  port: '443'
   server: 170.187.185.37
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 927094d3-d678-4763-8591-e240d0bcae87
   ws-opts:
@@ -221,9 +221,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27269
+  name: 德国_0626021
   network: ws
-  port: 2095
+  port: '2095'
   server: 185.135.9.247
   servername: ''
   tls: false
@@ -235,9 +235,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 4Sarina-27268
+  name: 德国_0626022
   network: ws
-  port: 2095
+  port: '2095'
   server: 185.135.9.19
   servername: ''
   tls: false
@@ -247,7 +247,7 @@ proxies:
     headers:
       Host: yellow-paper-029c.yvonna.workers.dev
     path: /
-- name: '4Nika-3498 #1'
+- name: '德国_0626023 #2'
   password: 254aa898-bc2a-4ec8-87d1-9f5d37658f6c
   port: 443
   server: spkr.1234567890spcloud.com
@@ -314,13 +314,11 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: aes-256-cfb
-  name: 6Iux5Zu9XzEyMDQwOTI
+  name: NEZyZWVJcmFuLTMxMDE%3D
   obfs: http_simple
-  obfs-param: ''
   password: sEscPBiAD9K$&@79
   port: '11708'
   protocol: origin
-  protocol-param: ''
   server: 94.102.57.163
   type: ssr
 - alterId: 64
@@ -1681,13 +1679,13 @@ proxies:
   server: 42.157.195.229
   type: ssr
 - cipher: chacha20-ietf
-  name: '8J-HrfCfh7AgLemmmea4ry0xMTkuMj... #5'
+  name: '6aaZ5rivXzExMTI4NDE #1'
   obfs: plain
   obfs-param: ''
   password: mblank1port
   port: '543'
   protocol: auth_aes128_md5
-  protocol-param: Mzg3MzU6TExMTGhndWpoamg2Nzc4Nmdo
+  protocol-param: ''
   server: 119.237.195.230
   type: ssr
 - alterId: 0
@@ -2322,9 +2320,9 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: '德国 V2CROSS.COM #1'
+  name: 德国_0226017
   network: ws
-  port: 10000
+  port: '10000'
   server: 213.202.216.212
   servername: ''
   tls: false
@@ -2425,6 +2423,16 @@ proxies:
     headers:
       Host: sptest.hostiran.net.prod.hosts.ooklaserver.net
     path: /
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzEyMjYxMjQ4
+  obfs: plain
+  obfs-param: ''
+  password: mblank1port
+  port: '561'
+  protocol: auth_aes128_md5
+  protocol-param: NTE4MDk6MTExMTEx
+  server: 116.162.120.27
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 🇩🇪-德国-ns7-de.dvrlists.com
@@ -2665,6 +2673,15 @@ proxies:
     headers:
       Host: digikala.com
     path: /@hashmakvpn 🇩🇪
+- cipher: aes-256-cfb
+  name: MTg1LjIyLjE1NC4yNDE=
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: dongtaiwang.com
+  port: '20022'
+  protocol: origin
+  server: 185.22.154.241
+  type: ssr
 - cipher: aes-256-cfb
   name: 'MTg1LjIyLjE1NC4yNDE= #1'
   obfs: tls1.2_ticket_auth
@@ -3218,11 +3235,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #32'
+  name: 🇩🇪 德国_1208010
   network: ws
   port: '8443'
   server: kp.ourkian.cf
-  tls: true
+  tls: false
   type: vmess
   uuid: a00400ef-1cb1-990e-8170-38c0128d5749
   ws-opts:
@@ -3594,6 +3611,16 @@ proxies:
   protocol-param: MTUxNTg3OjNqYWU4MA
   server: jupiter.maailman.cyou
   type: ssr
+- cipher: chacha20-ietf
+  name: '5Lit5Zu9XzEyMTQwNTQ #1'
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: '561'
+  protocol: auth_aes128_md5
+  protocol-param: NDUwMjpTVklQVElaOA
+  server: 116.162.120.27
+  type: ssr
 - alterId: 4
   cipher: auto
   name: 🇩🇪-德国-deguo.kctr2038.icu
@@ -3649,6 +3676,16 @@ proxies:
   tls: false
   type: vmess
   uuid: f5a7887d-afbe-4414-f07e-5d0de462ce0e
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzAxMTQxMTI
+  obfs: plain
+  obfs-param: ''
+  password: mblank1port
+  port: '561'
+  protocol: auth_aes128_md5
+  protocol-param: MjE4MDU6Z3VqZ2pqZzg2ODZMTA
+  server: 116.162.120.31
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 德国【付费推荐：https://tt.vg/vip】197
@@ -3806,6 +3843,17 @@ proxies:
   uuid: 253bfd24-755f-411e-98f4-bba3a8aa0ea0
 - alterId: 0
   cipher: auto
+  name: 🇩🇪-德国-217.160.33.100
+  network: ws
+  port: '10001'
+  server: 217.160.33.100
+  tls: false
+  type: vmess
+  uuid: bee7ec3e-cc6d-11ed-b37b-f3d22884c6a9
+  ws-opts:
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
   name: 德国_0325053
   network: ws
   port: '2052'
@@ -3818,6 +3866,16 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzEyMjMxNDE2
+  obfs: plain
+  obfs-param: ''
+  password: mblank1port
+  port: '566'
+  protocol: auth_aes128_md5
+  protocol-param: NDU2NzY6U1ZJUFRJWjg
+  server: cncutw2.eucdurl.me
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 德国_0331024
@@ -4422,6 +4480,16 @@ proxies:
   protocol-param: MTI0OTE1OklUeTJDbHhRRFY
   server: gzyd-01.cctelescope.xyz
   type: ssr
+- cipher: aes-256-cfb
+  name: '8J+HuvCfh7gt576O5Zu9LWd6eWQtMD... #2'
+  obfs: tls1.2_ticket_auth
+  obfs-param: YWpheC5taWNyb3NvZnQuY29t
+  password: hGkQ6915tD
+  port: '41999'
+  protocol: auth_aes128_md5
+  protocol-param: MzczODA6azRWSjlTeUF1Mw
+  server: gzyd-01.cctelescope.xyz
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 🇩🇪 德国_1120032
@@ -4435,6 +4503,16 @@ proxies:
     headers:
       Host: v58.idcloudhost.de
     path: /
+- cipher: aes-256-cfb
+  name: '8J+HuvCfh7gt576O5Zu9LWd6eWQtMD... #1'
+  obfs: tls1.2_ticket_auth
+  obfs-param: YWpheC5taWNyb3NvZnQuY29t
+  password: hGkQ6915tD
+  port: '41999'
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: gzyd-01.cctelescope.xyz
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 🇩🇪 德国_1120003
@@ -4572,6 +4650,20 @@ proxies:
   protocol-param: MTUxOTQ6U1ZJUFRJWjg
   server: inlayer7.standurls.co
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: '德国 V2CROSS.COM #1'
+  network: ws
+  port: 10000
+  server: 213.202.216.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaec9a3e-b275-11ed-b3af-00163c082f65
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vpnjantit
 - alterId: 0
   cipher: auto
   name: 德国_0315061
@@ -5195,6 +5287,20 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: 🇩🇪DE-57.129.24.141-5725
+  network: ws
+  port: 443
+  server: 57.129.24.141
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
   name: 🇩🇪DE-18.184.55.249-0950
   network: ws
   port: 443
@@ -5237,6 +5343,15 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
+  name: 德国 - Frankfurt Am Main - Hetzn...
+  network: tcp
+  port: 33203
+  server: 91.107.164.255
+  tls: false
+  type: vmess
+  uuid: a82148dd-4f11-4472-b341-f63f57dce17f
+- alterId: 0
+  cipher: auto
   name: '德国 - Frankfurt Am Main - Hetzn... #1'
   network: tcp
   port: 7600
@@ -5255,6 +5370,18 @@ proxies:
   uuid: e95e35ba-f874-4eb3-9600-4dbd6d099f4e
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: vmess-grpc
+  name: 🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  network: grpc
+  port: 443
+  server: de.vmess.comnpmjs.com
+  servername: de.vmess.comnpmjs.com
+  tls: true
+  type: vmess
+  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - alterId: 0
   cipher: auto
   name: Relay_-🇩🇪DE_26 |32.20Mb
@@ -5284,6 +5411,29 @@ proxies:
   tls: false
   type: vmess
   uuid: 943961b8-4e27-4bdf-a048-c2f724f542fb
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪德国9 | ⬇️ 21.2MB/s
+  network: tcp
+  port: 22839
+  server: 45.12.138.47
+  tls: false
+  type: vmess
+  uuid: 2858a404-d0ca-4d67-80a6-ce8e95e383ff
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪德国3 | ⬇️ 10.4MB/s
+  network: ws
+  port: 2096
+  server: 104.21.112.1
+  servername: de01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  uuid: 3988dfba-e9ee-40ba-a87e-553aee1c5993
+  ws-opts:
+    headers:
+      Host: de01.sh-cloudflare.sbs
+    path: /
 - alterId: 0
   cipher: auto
   name: TG频道:@hkaa0▓德国

@@ -101,14 +101,14 @@ proxies:
   uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
   ws-opts:
     path: /?ed=2560
-- name: '4Sarina-6837 #1'
+- name: 台湾_0626003
   password: a348278e-71ac-499c-8069-28b1af18c372
   port: 3663
   server: tw40.453521.xyz
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: 4Nika-3999
+- name: '台湾_0626004 #1'
   password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
   port: 443
   server: taifo03a.kbservice.club
@@ -117,21 +117,20 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 4Sarina-29326
+  name: 台湾_0626005
   network: http
-  port: 1443
+  port: '1443'
   server: tw2.sdklkd.org
-  servername: tw2.sdklkd.org
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: fa98714c-1d2b-3b60-81e0-f7151110e801
 - alterId: 0
   cipher: auto
-  name: 4Sarina-28445
+  name: 🇨🇳 mattkaydiary.com|中国台湾(TW)Ta...
   network: ws
-  port: 33792
+  port: '33792'
   server: 61.222.202.140
-  servername: ''
   tls: false
   type: vmess
   uuid: e55cd182-01b0-4fb7-a510-363701a491c5
@@ -450,7 +449,6 @@ proxies:
   network: tcp
   port: 80
   server: 18c035a5-cfa0-6e07-6906-834de3b3eb73.cnnic.rip
-  servername: ''
   tls: false
   type: vmess
   uuid: 17c5c13d-0c5b-4a57-a721-e5db4959c189
@@ -5535,6 +5533,16 @@ proxies:
   uuid: f0b8df2b-adde-4d02-82be-a7ac8f33de31
 - alterId: 0
   cipher: auto
+  name: 台湾_0404565
+  network: tcp
+  port: '80'
+  server: 18c035a5-cfa0-6e07-6906-834de3b3eb73.cnnic.rip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 17c5c13d-0c5b-4a57-a721-e5db4959c189
+- alterId: 0
+  cipher: auto
   name: '浙江省台州市-6w7j3p04.mcfront.xyz #6'
   network: tcp
   port: '31116'
@@ -7985,6 +7993,13 @@ proxies:
   sni: tw.bailian.uk
   tls: false
   type: hysteria2
+- name: ' TR-TCP-TLS  TW-210.203.60.189... #1'
+  network: tcp
+  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
+  port: 443
+  server: 210.203.60.189
+  sni: 45.32.28.232
+  type: trojan
 - name: 🇹🇼 台湾-02-奈非
   password: 164cbcd8-4df9-4a9e-a73b-30261afae921
   port: 30001
@@ -9143,11 +9158,21 @@ proxies:
   uuid: 444b4959-8578-4e41-aa49-d4c6ea692c8e
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇹🇼台湾38 | ⬇️ 4.2MB/s |19%|Youtu... #1'
+  name: 🇹🇼台湾38 | ⬇️ 4.2MB/s |19%|Youtu...
   network: tcp
   port: 47531
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: gateway.icloud.com
+  tls: false
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇹🇼台湾38 | ⬇️ 4.2MB/s |19%|Youtu... #1'
+  network: tcp
+  port: 47531
   server: bsuqian01.dynu.net
   servername: gateway.icloud.com
   tls: true
@@ -9155,11 +9180,21 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇹🇼台湾19 | ⬇️ 2.7MB/s |19%|Youtu... #1'
+  name: 🇹🇼台湾19 | ⬇️ 2.7MB/s |19%|Youtu...
   network: tcp
   port: 12477
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
+  tls: false
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇹🇼台湾19 | ⬇️ 2.7MB/s |19%|Youtu... #1'
+  network: tcp
+  port: 12477
   server: gysz0000.dynu.net
   servername: www.nvidia.com
   tls: true
@@ -9167,11 +9202,21 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇹🇼台湾23 | ⬇️ 12.2MB/s|Netflix|Y... #1'
+  name: 🇹🇼台湾23 | ⬇️ 12.2MB/s|Netflix|Y...
   network: tcp
   port: 37809
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.yahoo.com
+  tls: false
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇹🇼台湾23 | ⬇️ 12.2MB/s|Netflix|Y... #1'
+  network: tcp
+  port: 37809
   server: shenzhou05.mysynology.net
   servername: www.yahoo.com
   tls: true
@@ -9179,11 +9224,21 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇹🇼台湾5 | ⬇️ 10.0MB/s |19%|Netfl... #1'
+  name: 🇹🇼台湾5 | ⬇️ 10.0MB/s |19%|Netfl...
   network: tcp
   port: 15700
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.nvidia.com
+  tls: false
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇹🇼台湾5 | ⬇️ 10.0MB/s |19%|Netfl... #1'
+  network: tcp
+  port: 15700
   server: zhee01.dynu.net
   servername: www.nvidia.com
   tls: true
@@ -9191,11 +9246,21 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇹🇼台湾25 | ⬇️ 10.5MB/s |0%|Netfl... #1'
+  name: 🇹🇼台湾25 | ⬇️ 10.5MB/s |0%|Netfl...
   network: tcp
   port: 16704
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.yahoo.com
+  tls: false
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇹🇼台湾25 | ⬇️ 10.5MB/s |0%|Netfl... #1'
+  network: tcp
+  port: 16704
   server: zhee01.dynu.net
   servername: www.yahoo.com
   tls: true
@@ -10269,6 +10334,16 @@ proxies:
     headers:
       Host: twa.cayuo.me
     path: '%2Fbing'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: Taiwan_Banqiao_reality_0
+  network: tcp
+  port: 37898
+  server: 1.162.51.106
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: ec302de4-6b3d-4f03-a228-3c6d303ed370
 - name: 🇹🇼台湾4 | ⬇️ 1.6MB/s |0%|Netflix...
   network: ws
   port: 8443
@@ -10732,6 +10807,15 @@ proxies:
   uuid: 0dc29615-8f0e-308f-ab69-b15694366dfc
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: TW DCBG 12
+  network: tcp
+  port: 27001
+  server: a.lemonyun.xyz
+  tls: false
+  type: vmess
+  uuid: 3e7d92de-76b0-3975-bb10-c0d35ce6f6ab
 - name: 🇹🇼 台湾家宽 19
   password: 82f62bd2-71db-4128-8993-b429b6f4d522
   port: 26900
