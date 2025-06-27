@@ -1,85 +1,165 @@
 #!/usr/bin/env python3
 import re
 import datetime
-import requests
-import threading
-from typing import Set
+import aiohttp
+import asyncio
+import logging
+from typing import Union, Set, Optional
 from fetch import raw2fastly, session, LOCAL
 
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
-# def kkzui():
-#     # 密码在视频中口述, no use any more.
-#     if LOCAL: return
-#     res = session.get("https://kkzui.com/jd?orderby=modified")
-#     article_url = re.search(r'<a href="(https://kkzui.com/(.*?)\.html)" title="20(.*?)节点(.*?)</a>',res.text).groups()[0]
-#     res = session.get(article_url)
-#     passwd = re.search(r'<strong>本期密码：(.*?)</strong>',res.text).groups()[0]
-#     # print("Unlock kkzui.com with password:", passwd)
-#     res = session.post(article_url, data={'secret-key': passwd})
-#     sub = res.text.split('<pre')[1].split('</pre>')[0]
-#     if '</' in sub:
-#         sub = sub.split('</')[-2]
-#     if '>' in sub:
-#         sub = sub.split('>')[-1]
-#     return sub
+# Trusted domains for security
+TRUSTED_DOMAINS = {'github.com', 'gist.github.com', 'proxycompass.com', 'raw.githubusercontent.com'}
 
-def sharkdoor():
-    res_json = session.get(datetime.datetime.now().strftime(
-        'https://api.github.com/repos/sharkDoor/vpn-free-nodes/contents/node-list/%Y-%m?ref=master')).json()
-    res = session.get(raw2fastly(res_json[-1]['download_url']))
-    nodes: Set[str] = set()
-    for line in res.text.split('\n'):
-        if '://' in line:
-            nodes.add(line.split('|')[-2])
-    return nodes
+async def fetch_url(url: str, timeout: int = 10) -> Optional[str]:
+    """Asynchronously fetch content from a URL with error handling."""
+    if LOCAL and not url.startswith('file://'):
+        logger.warning(f"Skipping network request in LOCAL mode: {url}")
+        return None
+    try:
+        async with aiohttp.ClientSession() as async_session:
+            async with async_session.get(raw2fastly(url), timeout=timeout) as response:
+                if response.status != 200:
+                    logger.error(f"Failed to fetch {url}: HTTP {response.status}")
+                    return None
+                return await response.text()
+    except aiohttp.ClientError as e:
+        logger.error(f"Error fetching {url}: {str(e)}")
+        return None
+    except asyncio.TimeoutError:
+        logger.error(f"Timeout fetching {url}")
+        return None
 
-def changfengoss():
-    # Unused
-    res = session.get(datetime.datetime.now().strftime(
-        "https://api.github.com/repos/changfengoss/pub/contents/data/%Y_%m_%d?ref=main")).json()
-    return [_['download_url'] for _ in res]
+def validate_node(node: str) -> bool:
+    """Basic validation for proxy node format."""
+    if not node or '://' not in node:
+        return False
+    protocol = node.split('://')[0].lower()
+    if protocol not in ('vmess', 'ss', 'ssr', 'trojan', 'vless', 'hysteria2'):
+        logger.warning(f"Invalid protocol in node: {protocol}")
+        return False
+    return True
 
-# def vpn_fail():
-#     # The site has been closed
-#     # if LOCAL: return
-#     response = session.get("https://vpn.fail/free-proxy/type/v2ray").text
-#     lines = re.findall(r'<article(.*?)</article', response, re.DOTALL)
-#     links = set()
-#     ips = set()
-#     for line in lines:
-#         result = re.search(r'<span>(\d+)%</span>', line)
-#         if result and result.group(1) == '100':
-#             ips.add(re.search(r'<a href=\"https://vpn\.fail/free-proxy/ip/(.*?)\" style=', line).group(1))
-#     def get_link(ip: str) -> None:
-#         try:
-#             response = session.get(f"https://vpn.fail/free-proxy/ip/{ip}").text
-#             link = response.split('class="form-control text-center" id="pp2" value="')[1].split('"')[0]
-#             links.add(link)
-#         except requests.exceptions.RequestException: pass
-#     threads = [threading.Thread(target=get_link, args=(ip,)) for ip in ips]
-#     for thread in threads: thread.start()
-#     for thread in threads: thread.join()
-#     return links
+async def sharkdoor() -> Optional[Set[str]]:
+    """Fetch V2Ray nodes from sharkDoor/vpn-free-nodes GitHub repository."""
+    year_month = datetime.datetime.now().strftime('%Y-%m')
+    api_url = f"https://api.github.com/repos/sharkDoor/vpn-free-nodes/contents/node-list/{year_month}?ref=master"
+    content = await fetch_url(api_url)
+    if not content:
+        return None
+    try:
+        res_json = json.loads(content)
+        latest_file = res_json[-1]['download_url']
+        file_content = await fetch_url(latest_file)
+        if not file_content:
+            return None
+        nodes: Set[str] = set()
+        for line in file_content.split('\n'):
+            if '://' in line:
+                node = line.split('|')[-2].strip()
+                if validate_node(node):
+                    nodes.add(node)
+        logger.info(f"Fetched {len(nodes)} nodes from sharkdoor")
+        return nodes
+    except (json.JSONDecodeError, IndexError, KeyError) as e:
+        logger.error(f"Error parsing sharkdoor content: {str(e)}")
+        return None
 
-def w1770946466():
-    if LOCAL: return
-    res = session.get(raw2fastly("https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/README.md")).text
+async def w1770946466() -> Optional[Set[str]]:
+    """Fetch subscription URLs from w1770946466/Auto_proxy GitHub README."""
+    if LOCAL:
+        logger.warning("Skipping w1770946466 in LOCAL mode")
+        return None
+    url = "https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/README.md"
+    content = await fetch_url(url)
+    if not content:
+        return None
     subs: Set[str] = set()
-    for line in res.strip().split('\n'):
-        if line.startswith("`http"):
-            sub = line.strip().strip('`')
-            if not sub.startswith("https://raw.githubusercontent.com"):
-                subs.add(sub)
-    return subs
+    try:
+        for line in content.strip().split('\n'):
+            if line.startswith("`http"):
+                sub = line.strip().strip('`')
+                parsed_url = urlparse(sub)
+                if parsed_url.hostname in TRUSTED_DOMAINS and not sub.startswith("https://raw.githubusercontent.com"):
+                    subs.add(sub)
+        logger.info(f"Fetched {len(subs)} subscriptions from w1770946466")
+        return subs
+    except Exception as e:
+        logger.error(f"Error parsing w1770946466 content: {str(e)}")
+        return None
 
-def NOTICE():
+async def NOTICE() -> str:
+    """Return a fixed Gist subscription URL."""
     return "https://gist.githubusercontent.com/peasoft/7907a8ee2a4fa5e80cd1bd006664442c/raw/"
 
-AUTOURLS = [NOTICE]
-AUTOFETCH = []
+async def free_proxy_list() -> Optional[Set[str]]:
+    """Fetch proxy nodes from TheSpeedX/PROXY-List GitHub repository."""
+    url = "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/v2ray.txt"
+    content = await fetch_url(url)
+    if not content:
+        return None
+    nodes: Set[str] = set()
+    try:
+        for line in content.strip().split('\n'):
+            if validate_node(line):
+                nodes.add(line)
+        logger.info(f"Fetched {len(nodes)} nodes from free_proxy_list")
+        return nodes
+    except Exception as e:
+        logger.error(f"Error parsing free_proxy_list content: {str(e)}")
+        return None
+
+async def proxy_compass() -> Optional[Set[str]]:
+    """Fetch proxy nodes from proxycompass.com (USA proxies, updated daily)."""
+    url = "https://proxycompass.com/free-united-states-proxy-list/"
+    content = await fetch_url(url)
+    if not content:
+        return None
+    nodes: Set[str] = set()
+    try:
+        # Extract proxy nodes (assuming V2Ray/Trojan format in text or JSON)
+        pattern = r'(vmess|trojan|vless|ss|ssr|hysteria2)://[^\s<"]+'
+        matches = re.findall(pattern, content, re.MULTILINE)
+        for node in matches:
+            if validate_node(node):
+                nodes.add(node)
+        logger.info(f"Fetched {len(nodes)} nodes from proxy_compass")
+        return nodes
+    except Exception as e:
+        logger.error(f"Error parsing proxy_compass content: {str(e)}")
+        return None
+
+async def mmpx12_proxy() -> Optional[Set[str]]:
+    """Fetch proxy nodes from mmpx12/proxy-list GitHub repository (hourly updates)."""
+    url = "https://raw.githubusercontent.com/mmpx12/proxy-list/master/proxies.txt"
+    content = await fetch_url(url)
+    if not content:
+        return None
+    nodes: Set[str] = set()
+    try:
+        for line in content.strip().split('\n'):
+            if validate_node(line):
+                nodes.add(line)
+        logger.info(f"Fetched {len(nodes)} nodes from mmpx12_proxy")
+        return nodes
+    except Exception as e:
+        logger.error(f"Error parsing mmpx12_proxy content: {str(e)}")
+        return None
+
+# Define AUTOURLS and AUTOFETCH with async wrappers
+AUTOURLS = [NOTICE, w1770946466]
+AUTOFETCH = [sharkdoor, free_proxy_list, proxy_compass, mmpx12_proxy]
 
 if __name__ == '__main__':
-    print("URL 抓取："+', '.join([_.__name__ for _ in AUTOURLS]))
-    print("内容抓取："+', '.join([_.__name__ for _ in AUTOFETCH]))
-    import code
-    code.interact(banner='', exitmsg='', local=globals())
+    async def main():
+        print("URL 抓取：" + ', '.join([_.__name__ for _ in AUTOURLS]))
+        print("内容抓取：" + ', '.join([_.__name__ for _ in AUTOFETCH]))
+        for func in AUTOURLS + AUTOFETCH:
+            logger.info(f"Testing {func.__name__}")
+            result = await func()
+            logger.info(f"Result from {func.__name__}: {result}")
+
+    asyncio.run(main())
