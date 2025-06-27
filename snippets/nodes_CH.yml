@@ -50,43 +50,17 @@ proxies:
     path: /vpnjantit
 - alterId: 0
   cipher: auto
-  name: 🇨🇭 瑞士 002
+  name: 🇨🇭-瑞士-mumbai-arm2.egg.run
   network: ws
-  port: '443'
-  server: www.kehuai.tk
-  tls: true
-  type: vmess
-  uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514
-  ws-opts:
-    headers:
-      Host: www.kehuai.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: CH 1 → openitsub.com
-  network: ws
-  port: '443'
-  server: www.liuyiyang19891222.tk
-  tls: true
-  type: vmess
-  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
-  ws-opts:
-    headers:
-      Host: www.liuyiyang19891222.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇭 瑞士CH
-  network: ws
-  port: '6616'
-  server: 5.182.36.199
+  port: '80'
+  server: mumbai-arm2.egg.run
   tls: false
   type: vmess
-  uuid: 459d23f4-dcfd-4fef-9ba3-ef0ad10fc336
+  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: mumbai-arm2.egg.run
+    path: mumbai-arm2.egg.run/
 - alterId: 64
   cipher: auto
   name: 瑞士_1208005
@@ -112,6 +86,19 @@ proxies:
   uuid: 95a17ae9-207d-4f63-b5f2-c00430bee1bb
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭 瑞士CH
+  network: ws
+  port: '6616'
+  server: 5.182.36.199
+  tls: false
+  type: vmess
+  uuid: 459d23f4-dcfd-4fef-9ba3-ef0ad10fc336
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 64
   cipher: auto
   name: 🇨🇭 瑞士_1120004
@@ -127,17 +114,30 @@ proxies:
     path: /path/041629110712
 - alterId: 0
   cipher: auto
-  name: 🇨🇭-瑞士-mumbai-arm2.egg.run
+  name: 🇨🇭-瑞士-www.kehuai.tk
   network: ws
-  port: '80'
-  server: mumbai-arm2.egg.run
+  port: '443'
+  server: www.kehuai.tk
   tls: false
   type: vmess
-  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
+  uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514
   ws-opts:
     headers:
-      Host: mumbai-arm2.egg.run
-    path: mumbai-arm2.egg.run/
+      Host: www.kehuai.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭-瑞士-www.liuyiyang19891222.tk
+  network: ws
+  port: '443'
+  server: www.liuyiyang19891222.tk
+  tls: false
+  type: vmess
+  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
+  ws-opts:
+    headers:
+      Host: www.liuyiyang19891222.tk
+    path: /
 - name: V1-瑞士
   password: ce71384b-7966-4139-a2f5-5d2ef263afb3
   port: 42453

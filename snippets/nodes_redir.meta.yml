@@ -55,7 +55,7 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- name: 4FreeIran-5928
+- name: 4Jadi-5940
   network: ws
   password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
   port: 443
@@ -317,7 +317,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #9'
+  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #8'
   network: tcp
   port: 52112
   server: 183.236.51.23
@@ -453,7 +453,7 @@ proxies:
     path: /aries?ed=2048
 - alterId: 64
   cipher: auto
-  name: '🇺🇸 _CN_中国->🇺🇸_US_美国 #5'
+  name: '🇺🇸 _CN_中国->🇺🇸_US_美国 #4'
   network: tcp
   port: 40095
   server: 183.237.20.147
@@ -546,11 +546,10 @@ proxies:
   uuid: ebec2adf-e940-446f-bed4-d8c91143b54a
 - alterId: 0
   cipher: auto
-  name: 中国【付费推荐：https://tt.vg/vip】284
+  name: 🇬🇧 _CN_中国->🇬🇧_GB_英国
   network: ws
   port: '63091'
   server: in06.my1188.org
-  servername: ''
   tls: false
   type: vmess
   uuid: e150c7fc-4297-3a40-a9d8-ff7e38bc1c63
@@ -571,15 +570,16 @@ proxies:
     headers:
       Host: els200.jslist.tk
     path: /wo.php
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: _CN_中国->🇧🇭_BH_巴林_1
-  network: tcp
-  port: '16103'
-  server: zfd-unicom.gatknqh.cn
+  name: 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
+  network: ws
+  port: 21800
+  server: tw3.iggfastweb.com
   tls: false
   type: vmess
-  uuid: ee867204-3f52-3faf-8de4-6f4180939d7c
+  uuid: 9e0822c2-75ea-4d30-8895-9fe59da9935c
+  ws-opts: {}
 - alterId: 2
   cipher: auto
   name: ⒐V2RAY [vip1]广移-中转-韩国
@@ -639,16 +639,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2_来源：kkzui....
-  network: ws
-  port: 443
-  server: quran-audio4.xyz
-  tls: true
-  type: vmess
-  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
-  ws-opts: {}
 - alterId: 2
   cipher: auto
   name: ⒔V2RAY [vip1]广移-中转-日本
@@ -766,15 +756,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡_45
-  network: tcp
-  port: 15526
-  server: 2f36c18cfe75.sanfen001.pics
-  tls: false
-  type: vmess
-  uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f
 - alterId: 2
   cipher: auto
   name: ⒌[vip1]广移-中转-日本
@@ -806,16 +787,6 @@ proxies:
     headers:
       Host: holyquran4.store
     path: /current_time
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇬🇧_GB_英国_来源：kkzui.co...
-  network: ws
-  port: 443
-  server: quranweb20.xyz
-  tls: true
-  type: vmess
-  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
-  ws-opts: {}
 - alterId: 0
   cipher: auto
   name: 🇺🇸 _US_美国->🇩🇪_DE_德国
@@ -883,261 +854,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇹🇼 _US_美国->🇹🇼_TW_台湾
-  network: ws
-  port: '2082'
-  server: cf.noaries.de
-  tls: false
-  type: vmess
-  uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288
-  ws-opts:
-    headers:
-      Host: ovh.cloudflare.quest
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
   name: 🇫🇷_FR_法国->🇺🇸_US_美国
-  network: ws
-  port: 8080
-  server: 173.245.49.66
-  tls: false
-  type: vmess
-  uuid: 5ed400e1-e23e-4665-8abe-5af1ebd3a29a
-  ws-opts:
-    headers:
-      Host: us202345.wyhkaa0.ml
-    path: /tg:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 中转 🇺🇸 US 3 TG@airproxies
-  network: ws
-  port: '22102'
-  server: a16m.jpl.cdn.01.njser.xyz
-  tls: false
-  type: vmess
-  uuid: 849a9495-5af5-4e54-bff5-1ab670eaebea
-  ws-opts:
-    headers:
-      Host: a16m.jpl.cdn.01.njser.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 25  ⌜すごい⌟ cdn -> 🇱🇺 2
-  network: ws
-  port: '443'
-  server: cacerts.digicert.com
-  tls: true
-  type: vmess
-  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-  ws-opts:
-    headers:
-      Host: lu1.gogogoo.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11  ⌜すごい⌟ cdn -> 🇺🇸
-  network: ws
-  port: '2053'
-  server: cacerts.digicert.com
-  tls: true
-  type: vmess
-  uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
-  ws-opts:
-    headers:
-      Host: v2ray.wefuckgfw.ga
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
-  network: ws
-  port: 443
-  server: 98b5.v9966.shop
-  tls: true
-  type: vmess
-  uuid: 6aacb8f0-c1b9-11ed-b035-205c6d5f5d78
-  ws-opts: {}
-- alterId: 1
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇭🇰_HK_香港
-  network: tcp
-  port: 10002
-  server: 112.33.32.148
-  tls: false
-  type: vmess
-  uuid: cb7001c7-e495-41ac-b942-f25f60523414
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_9
-  network: ws
-  port: 443
-  server: wwwow.ir
-  tls: true
-  type: vmess
-  uuid: 84b4d2ac-699b-4ba5-a6b2-adaaa82b667d
-  ws-opts:
-    headers:
-      Host: wwwow.ir
-    path: /84b4d2ac-699b-4ba5-a6b2-adaaa82b667d-vm
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇬🇧_GB_英国_35
-  network: ws
-  port: 63091
-  server: 59.36.84.180
-  tls: false
-  type: vmess
-  uuid: e8fab7d8-364b-3c49-89b5-c0c9bac84327
-  ws-opts:
-    headers:
-      Host: uk01-cdn.airport-v2.com
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇰🇷_KR_韩国
-  network: tcp
-  port: 10040
-  server: AZHK-NODE-01.PL2020.XYZ
-  tls: true
-  type: vmess
-  uuid: 7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  network: ws
-  port: 443
-  server: quran-audio5.xyz
-  tls: true
-  type: vmess
-  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
-  ws-opts: {}
-- alterId: 64
-  cipher: auto
-  name: '🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
-  network: tcp
-  port: '48767'
-  server: 111.23.252.215
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #2'
-  network: tcp
-  port: 45070
-  server: 111.23.252.215
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: _CN_中国->🇩🇿_DZ_阿尔及利亚
-  network: ws
-  port: '20310'
-  server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
-  tls: false
-  type: vmess
-  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
-  ws-opts:
-    headers:
-      Host: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  network: tcp
-  port: 35914
-  server: 156.225.67.122
-  tls: false
-  type: vmess
-  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 _CN_中国->🇭🇰_HK_香港 #1'
-  network: ws
-  port: '63078'
-  server: in02.my1188.org
-  tls: true
-  type: vmess
-  uuid: e150c7fc-4297-3a40-a9d8-ff7e38bc1c63
-  ws-opts:
-    headers:
-      Host: hk-balancer.airport-v2.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '🇺🇸 _CN_中国->🇺🇸_US_美国 #3'
-  network: tcp
-  port: '59629'
-  server: 120.240.163.62
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
-  network: ws
-  port: '20003'
-  server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
-  tls: false
-  type: vmess
-  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
-  ws-opts:
-    headers:
-      Host: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  network: ws
-  port: 443
-  server: quranweb25.xyz
-  tls: true
-  type: vmess
-  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 _CN_中国->🇭🇰_HK_香港 #2'
-  network: tcp
-  port: '12541'
-  server: rk1.mrlizhuanfa.com
-  tls: false
-  type: vmess
-  uuid: 287320fe-ee8e-3641-a142-0a268f429630
-- alterId: 64
-  cipher: auto
-  name: '🇺🇸 _CN_中国->🇺🇸_US_美国 #4'
-  network: tcp
-  port: '49914'
-  server: 120.240.163.62
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 _CN_中国->🇭🇰_HK_香港 #3'
-  network: ws
-  port: '30015'
-  server: v02.gutingting.com
-  tls: false
-  type: vmess
-  uuid: 423cd09a-8ca0-4a8a-be43-15a10076342a
-  ws-opts:
-    headers:
-      Host: gz.fastcloud.club
-    path: /aceamedv
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  network: tcp
-  port: 54251
-  server: cn-hk-v2.okss.us
-  tls: true
-  type: vmess
-  uuid: 5a96d1f3-55de-4834-b19a-72e5fbc34b2f
-- alterId: 0
-  cipher: auto
-  name: '🇫🇷_FR_法国->🇺🇸_US_美国 #1'
   network: ws
   port: 2052
   server: 173.245.49.221
@@ -1164,6 +881,19 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡
+  network: ws
+  port: '2095'
+  server: 172.67.69.120
+  tls: false
+  type: vmess
+  uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3
+  ws-opts:
+    headers:
+      Host: lin.d.sg.wyhkaa0.gq
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1'
   network: ws
   port: '2095'
   server: 172.67.64.228
@@ -1216,7 +946,7 @@ proxies:
     path: /TG:@hkaa0
 - alterId: 1
   cipher: auto
-  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #3'
+  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #2'
   network: tcp
   port: 10017
   server: AZHK-NODE-01.PL2020.XYZ
@@ -1225,7 +955,7 @@ proxies:
   uuid: 7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5
 - alterId: 1
   cipher: auto
-  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #4'
+  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #3'
   network: tcp
   port: 10016
   server: AZHK-NODE-01.PL2020.XYZ
@@ -1269,7 +999,7 @@ proxies:
     path: /TG:@hkaa0
 - alterId: 0
   cipher: auto
-  name: '🇨🇳_CN_中国->🇰🇷_KR_韩国 #1'
+  name: 🇨🇳_CN_中国->🇰🇷_KR_韩国
   network: ws
   port: '22307'
   server: 111.22.142.145
@@ -1289,18 +1019,150 @@ proxies:
   tls: false
   type: vmess
   uuid: b52256b3-4b69-4ab5-a913-ba3674ada13b
+- alterId: 1
+  cipher: auto
+  name: '🇨🇳_CN_中国->🇰🇷_KR_韩国 #1'
+  network: tcp
+  port: 10040
+  server: AZHK-NODE-01.PL2020.XYZ
+  tls: true
+  type: vmess
+  uuid: 7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 _CN_中国->🇯🇵_JP_日本
+  name: _CN_中国->🇩🇿_DZ_阿尔及利亚
   network: ws
-  port: '30044'
-  server: ns01.gutingting.com
+  port: '20310'
+  server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
   tls: false
   type: vmess
-  uuid: d3d90998-7bfd-4fc6-930e-35bf96083d8b
+  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
   ws-opts:
     headers:
-      Host: ns01.gutingting.com
+      Host: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
+  network: tcp
+  port: '59629'
+  server: 120.240.163.62
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
+  network: ws
+  port: '20003'
+  server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
+  tls: false
+  type: vmess
+  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
+  ws-opts:
+    headers:
+      Host: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 _CN_中国->🇭🇰_HK_香港 #1'
+  network: tcp
+  port: '12541'
+  server: rk1.mrlizhuanfa.com
+  tls: false
+  type: vmess
+  uuid: 287320fe-ee8e-3641-a142-0a268f429630
+- alterId: 64
+  cipher: auto
+  name: '🇺🇸 _CN_中国->🇺🇸_US_美国 #3'
+  network: tcp
+  port: '49914'
+  server: 120.240.163.62
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 _CN_中国->🇭🇰_HK_香港 #2'
+  network: ws
+  port: '30015'
+  server: v02.gutingting.com
+  tls: false
+  type: vmess
+  uuid: 423cd09a-8ca0-4a8a-be43-15a10076342a
+  ws-opts:
+    headers:
+      Host: gz.fastcloud.club
+    path: /aceamedv
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  network: tcp
+  port: 54251
+  server: cn-hk-v2.okss.us
+  tls: true
+  type: vmess
+  uuid: 5a96d1f3-55de-4834-b19a-72e5fbc34b2f
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 中转 🇺🇸 US 3 TG@airproxies
+  network: ws
+  port: '22102'
+  server: a16m.jpl.cdn.01.njser.xyz
+  tls: false
+  type: vmess
+  uuid: 849a9495-5af5-4e54-bff5-1ab670eaebea
+  ws-opts:
+    headers:
+      Host: a16m.jpl.cdn.01.njser.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 25  ⌜すごい⌟ cdn -> 🇱🇺 2
+  network: ws
+  port: '443'
+  server: cacerts.digicert.com
+  tls: true
+  type: vmess
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  ws-opts:
+    headers:
+      Host: lu1.gogogoo.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11  ⌜すごい⌟ cdn -> 🇺🇸
+  network: ws
+  port: '2053'
+  server: cacerts.digicert.com
+  tls: true
+  type: vmess
+  uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
+  ws-opts:
+    headers:
+      Host: v2ray.wefuckgfw.ga
+    path: /
+- alterId: 0
+  cipher: auto
+  name: _CN_中国->🇧🇭_BH_巴林_1
+  network: tcp
+  port: '16103'
+  server: zfd-unicom.gatknqh.cn
+  tls: false
+  type: vmess
+  uuid: ee867204-3f52-3faf-8de4-6f4180939d7c
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 中转 🇭🇰 HK 40 Amazon.com TG@n...
+  network: ws
+  port: '80'
+  server: hkhk.idcloudhost.de
+  tls: false
+  type: vmess
+  uuid: a1e8f9a6-dee5-47fd-bbc9-e9307e0b0ee1
+  ws-opts:
+    headers:
+      Host: hkhk.idcloudhost.de
     path: /
 - alterId: 0
   cipher: auto
