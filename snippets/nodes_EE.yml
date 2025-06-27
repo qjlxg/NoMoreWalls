@@ -1,1 +1,28 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: YEEY5712
+  network: tcp
+  port: '8881'
+  server: 170.187.163.89
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: chacha20-ietf
+  name: '5rW35Y2X55yB5rW35Y-j5biCLWllcG... #6'
+  obfs: http_simple
+  obfs-param: ZmU5OTM2NjAzLm1pY3Jvc29mdC5jb20
+  password: cxssr911
+  port: '2051'
+  protocol: auth_aes128_md5
+  protocol-param: NjYwMzpmbEpxbE0
+  server: iepl1.nnooddee.xyz
+  type: ssr
+- name: V1-爱沙尼亚
+  password: ce71384b-7966-4139-a2f5-5d2ef263afb3
+  port: 41760
+  server: 18b3e92b648d55211503157a60688272.v1.cac.node-is.green
+  skip-cert-verify: true
+  sni: ee.cacnord.bilibili.com_454ms
+  type: trojan

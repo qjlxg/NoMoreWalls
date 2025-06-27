@@ -1,1 +1,521 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 4Sarina-26365
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /
+- name: '🇨🇭 #1'
+  network: ws
+  port: 80
+  server: 45.90.57.107
+  tls: false
+  type: vless
+  uuid: e78435e5-57b4-4e89-9775-4b067e18bacc
+  ws-opts:
+    headers:
+      Host: ch1.v2vless.xyz
+    path: '%2Fvless'
+- name: 'Mahsa+:+🇨🇭+Switzerland #1'
+  network: ws
+  port: 80
+  server: 45.90.57.107
+  tls: false
+  type: vless
+  uuid: 5b2b6e7a-fc72-4823-9ee5-733ec0b6a882
+  ws-opts:
+    headers:
+      Host: ch1.v2vless.xyz
+    path: '%2Fvless'
+- alterId: 0
+  cipher: auto
+  name: '1|🇨🇭2 |  5.0MB/s #1'
+  network: tcp
+  port: 22324
+  server: 186.190.215.193
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- name: 'ꜱᴡɪᴛᴢᴇʀʟᴀɴᴅ🇨🇭 | پرسرعت #1'
+  port: 443
+  server: cdn.getasa.ir
+  tls: false
+  type: vless
+  uuid: 740b2fbe-6d3a-4061-ad0f-b5c5486dc92d
+  ws-opts:
+    path: '%2Fwp-admin'
+- alterId: 0
+  cipher: auto
+  name: 瑞士_121320001
+  network: ws
+  port: '15139'
+  server: 136.0.9.8
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ca13f999-6ac7-4b49-ed57-cf6abcd371e0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇨🇭CH-45.90.59.186-3584 #1'
+  network: ws
+  port: 10000
+  server: 45.90.59.186
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7235ae8e-c115-11ed-8faf-2356d170eaf3
+  ws-opts:
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭 瑞士 002
+  network: ws
+  port: '443'
+  server: www.kehuai.tk
+  tls: true
+  type: vmess
+  uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514
+  ws-opts:
+    headers:
+      Host: www.kehuai.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: CH 1 → openitsub.com
+  network: ws
+  port: '443'
+  server: www.liuyiyang19891222.tk
+  tls: true
+  type: vmess
+  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
+  ws-opts:
+    headers:
+      Host: www.liuyiyang19891222.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭 瑞士CH
+  network: ws
+  port: '6616'
+  server: 5.182.36.199
+  tls: false
+  type: vmess
+  uuid: 459d23f4-dcfd-4fef-9ba3-ef0ad10fc336
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 瑞士_1208005
+  network: ws
+  port: '443'
+  server: 213.202.233.147
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.95438290.xyz
+    path: /path/243535322906
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭-瑞士-20.38.39.18
+  network: ws
+  port: '8080'
+  server: 20.38.39.18
+  tls: false
+  type: vmess
+  uuid: 95a17ae9-207d-4f63-b5f2-c00430bee1bb
+  ws-opts:
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 🇨🇭 瑞士_1120004
+  network: ws
+  port: '443'
+  server: 213.202.233.129
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.77525289.xyz
+    path: /path/041629110712
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭-瑞士-mumbai-arm2.egg.run
+  network: ws
+  port: '80'
+  server: mumbai-arm2.egg.run
+  tls: false
+  type: vmess
+  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
+  ws-opts:
+    headers:
+      Host: mumbai-arm2.egg.run
+    path: mumbai-arm2.egg.run/
+- name: '🇨🇭瑞士苏黎世 | 高速专线-hy2 #1'
+  password: 38c31b4c-117d-429a-9469-aa2a420ac04e
+  port: 35000
+  server: 152.67.95.183
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: V1-瑞士
+  password: ce71384b-7966-4139-a2f5-5d2ef263afb3
+  port: 42453
+  server: 8fbf85807403e9194c9f2d80dc2fcd21.v1.cac.node-is.green
+  skip-cert-verify: true
+  sni: ch.cacnord.bilibili.com_225ms
+  type: trojan
+- name: '🇨🇭专线VIP1|1x 瑞士 #1'
+  password: fe066c73-d2f4-4471-9d38-beb1ea6c2068
+  port: 17725
+  server: ch1.pptv-tv.store
+  skip-cert-verify: true
+  sni: data.52daishu.life
+  type: trojan
+- name: ' VL-WS-NA  CH-140.238.212.95:4... #1'
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  servername: lx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+- name: 'CH【ccbaohe.com】免费资源导航+(1) #2'
+  network: ws
+  port: 13338
+  server: 179.43.156.113
+  servername: vbb.wxgqlfx.cn
+  tls: true
+  type: vless
+  uuid: 0e70a07d-0968-4d7a-b268-4a927e830d99
+  ws-opts:
+    headers:
+      Host: vbb.wxgqlfx.cn
+    path: '%2fTG%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa%3fed%3d2560'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭瑞士3 | ⬇️ 8.5MB/s |28%|Netfli...
+  network: tcp
+  port: 443
+  server: 152.67.68.116
+  servername: YAPC-1.afshin.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭瑞士1 | ⬇️ 6.0MB/s |28%|Netfli...
+  network: tcp
+  port: 443
+  server: yapc-1.afshin.ir
+  servername: YAPC-1.afshin.ir
+  tls: true
+  type: vless
+  uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
+- name: 'TG:@JUZIBAIPIAO++瑞士_1 #1'
+  network: ws
+  port: 443
+  server: 64.110.104.30
+  servername: av.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: av.ylks.xyz
+    path: '%2f'
+- name: '瑞士_2 #1'
+  network: ws
+  port: 443
+  server: 64.110.104.30
+  servername: vx.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: vx.ylks.xyz
+    path: '%2Fpai6buclahf9cxx3%3Fed%3D2560'
+- name: 'TG:@JUZIBAIPIAO++瑞士_2 #1'
+  network: ws
+  port: 443
+  server: 64.110.104.30
+  servername: ah.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: ah.ylks.xyz
+    path: '%2ffreecodes'
+- name: '瑞士_1 #1'
+  network: ws
+  port: 443
+  server: 64.110.104.30
+  servername: hx.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: hx.ylks.xyz
+    path: '%2Fblue'
+- name: 'juzi8186_🇨🇭_CH_198 #1'
+  network: ws
+  port: 443
+  server: 141.148.229.106
+  servername: purtuf.paGES.deV
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: a67297b9-b6ea-4f9c-b296-300d57d3f773
+  ws-opts:
+    headers:
+      Host: purtuf.pages.dev
+    path: '%2FTLOr21QwqDu1oMgk%3Fed%3D2560'
+- name: 'juzi8186_🇨🇭_CH_199 #1'
+  network: ws
+  port: 443
+  server: 141.148.229.106
+  servername: BPb005.paGEs.DEv
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
+  ws-opts:
+    headers:
+      Host: bpb005.pages.dev
+    path: '%2F7IO1PIBTHqEJD1wu%2FMTUyLjY3LjIzNC40OQ%3D%3D%3Fed%3D2560'
+- name: 瑞士 - 温特图尔 - 4
+  network: ws
+  port: 8080
+  server: 176.120.66.65
+  servername: a.mifeng.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: 瑞士 - 梅兰 - 5
+  network: ws
+  port: 8989
+  server: 188.213.129.120
+  servername: a.mifeng.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: 瑞士 - 温特图尔 - 2
+  network: ws
+  port: 2052
+  server: 194.87.178.106
+  servername: a.mifeng.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: 瑞士 - 梅兰 - 1
+  network: ws
+  port: 104
+  server: 195.15.201.27
+  servername: a.mifeng.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: '瑞士 - 梅兰 - 1 #1'
+  network: ws
+  port: 8989
+  server: 195.15.254.76
+  servername: a.mifeng.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: 瑞士 - 温特图尔 - 6
+  network: ws
+  port: 3001
+  server: 2.189.242.35
+  servername: a.mifeng.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: '瑞士 - 温特图尔 - 2 #1'
+  network: ws
+  port: 9898
+  server: 2.189.242.35
+  servername: a.mifeng.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: '瑞士 - 梅兰 - 4 #1'
+  network: ws
+  port: 8880
+  server: 37.156.44.154
+  servername: 3th.go4sharing.free.nf
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: '瑞士 - 梅兰 - 3 #1'
+  network: ws
+  port: 8880
+  server: 37.156.45.113
+  servername: 3th.go4sharing.free.nf
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: '瑞士 - 梅兰 - 1 #2'
+  network: ws
+  port: 8060
+  server: 37.156.45.139
+  servername: a.xn--6cs.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: '瑞士 - 梅兰 - 2 #1'
+  network: ws
+  port: 8880
+  server: 37.156.45.68
+  servername: 3th.go4sharing.free.nf
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: '瑞士 - 温特图尔 - 5 #3'
+  network: ws
+  port: 2223
+  server: 5.182.36.31
+  servername: 3th.go4sharing.free.nf
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: '瑞士 - 梅兰 - 1 #4'
+  network: ws
+  port: 8880
+  server: 84.234.28.26
+  servername: 3th.go4sharing.free.nf
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: '瑞士 - 温特图尔 - 6 #4'
+  network: ws
+  port: 7500
+  server: 86.106.158.101
+  servername: 3th.go4sharing.free.nf
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: ' VL-TCP-RLT  CH-195.15.215.198... #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FpsSPBGXGa6c1mIGmCMmrnsdnVSHQAYnQNur-QMiDTw
+    short-id: 65bd65cb739aeebe_96ms
+  server: 195.15.215.198
+  servername: www.samsung.com
+  tls: false
+  type: vless
+  uuid: e40799ef-6343-450a-95cf-88b12749e492
+- name: 'CH【ccbaohe.com】免费资源导航+(8) #1'
+  network: ws
+  port: 443
+  server: 45.90.59.204
+  servername: vdd.wxgqlfx.cn
+  tls: true
+  type: vless
+  uuid: f184c89c-80a4-4a3a-bc67-97db43266c11
+  ws-opts:
+    headers:
+      Host: vdd.wxgqlfx.cn
+    path: '%2fTG%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa%3fed%3d2560'
+- name: 'CH【ccbaohe.com】免费资源导航+(3) #1'
+  network: ws
+  port: 8443
+  server: 45.95.232.209
+  servername: vdd.wxgqlfx.cn
+  tls: true
+  type: vless
+  uuid: f184c89c-80a4-4a3a-bc67-97db43266c11
+  ws-opts:
+    headers:
+      Host: vdd.wxgqlfx.cn
+    path: '%2fTG%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa%3fed%3d2560'
+- name: 'CH【ccbaohe.com】免费资源导航+(1) #3'
+  network: ws
+  port: 443
+  server: 91.192.102.92
+  servername: vdd.wxgqlfx.cn
+  tls: true
+  type: vless
+  uuid: f184c89c-80a4-4a3a-bc67-97db43266c11
+  ws-opts:
+    headers:
+      Host: vdd.wxgqlfx.cn
+    path: '%2fTG%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa%3fed%3d2560'
+- name: ' VL-WS-NA  CH-185.18.250.29:88... #1'
+  network: ws
+  port: 8880
+  server: 185.18.250.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- alterId: 0
+  cipher: auto
+  name: CH ORACLE 02
+  network: ws
+  port: 39963
+  server: sd3.jiehuaa.xyz
+  tls: false
+  type: vmess
+  uuid: 83e7283d-2a50-4b84-814a-4b489dee47da
+  ws-opts:
+    path: /
