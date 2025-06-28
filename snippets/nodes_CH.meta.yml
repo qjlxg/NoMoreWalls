@@ -37,7 +37,7 @@ proxies:
     path: '%2Fvless'
 - alterId: 0
   cipher: auto
-  name: '1|🇨🇭2 |  5.0MB/s #2'
+  name: '1|🇨🇭2 |  5.0MB/s #1'
   network: tcp
   port: 22324
   server: 186.190.215.193
@@ -129,32 +129,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇭 瑞士 002
-  network: ws
-  port: '443'
-  server: www.kehuai.tk
-  tls: true
-  type: vmess
-  uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514
-  ws-opts:
-    headers:
-      Host: www.kehuai.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: CH 1 → openitsub.com
-  network: ws
-  port: '443'
-  server: www.liuyiyang19891222.tk
-  tls: true
-  type: vmess
-  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
-  ws-opts:
-    headers:
-      Host: www.liuyiyang19891222.tk
-    path: /
 - alterId: 64
   cipher: auto
   name: 🇨🇭 瑞士_1120004
@@ -168,6 +142,32 @@ proxies:
     headers:
       Host: www.77525289.xyz
     path: /path/041629110712
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭-瑞士-www.kehuai.tk
+  network: ws
+  port: '443'
+  server: www.kehuai.tk
+  tls: false
+  type: vmess
+  uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514
+  ws-opts:
+    headers:
+      Host: www.kehuai.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭-瑞士-www.liuyiyang19891222.tk
+  network: ws
+  port: '443'
+  server: www.liuyiyang19891222.tk
+  tls: false
+  type: vmess
+  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
+  ws-opts:
+    headers:
+      Host: www.liuyiyang19891222.tk
+    path: /
 - name: '🇨🇭瑞士苏黎世 | 高速专线-hy2 #1'
   password: 38c31b4c-117d-429a-9469-aa2a420ac04e
   port: 35000
