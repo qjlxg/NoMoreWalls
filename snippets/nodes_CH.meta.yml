@@ -44,6 +44,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭_定制专线：@QS00008
+  network: ''
+  port: 16650
+  server: jp.mousse.tk
+  tls: false
+  type: vmess
+  uuid: d66a47f2-5136-492c-c82a-74835bb03a76
 - name: 'ꜱᴡɪᴛᴢᴇʀʟᴀɴᴅ🇨🇭 | پرسرعت #1'
   port: 443
   server: cdn.getasa.ir
@@ -104,10 +113,11 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 🇨🇭 瑞士_1206005
+  name: 瑞士_1208005
   network: ws
   port: '443'
   server: 213.202.233.147
+  servername: ''
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -128,6 +138,32 @@ proxies:
     headers:
       Host: mumbai-arm2.egg.run
     path: mumbai-arm2.egg.run/
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭 瑞士 002
+  network: ws
+  port: '443'
+  server: www.kehuai.tk
+  tls: true
+  type: vmess
+  uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514
+  ws-opts:
+    headers:
+      Host: www.kehuai.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: CH 1 → openitsub.com
+  network: ws
+  port: '443'
+  server: www.liuyiyang19891222.tk
+  tls: true
+  type: vmess
+  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
+  ws-opts:
+    headers:
+      Host: www.liuyiyang19891222.tk
+    path: /
 - alterId: 64
   cipher: auto
   name: 🇨🇭 瑞士_1120004
@@ -141,32 +177,6 @@ proxies:
     headers:
       Host: www.77525289.xyz
     path: /path/041629110712
-- alterId: 0
-  cipher: auto
-  name: 🇨🇭-瑞士-www.kehuai.tk
-  network: ws
-  port: '443'
-  server: www.kehuai.tk
-  tls: false
-  type: vmess
-  uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514
-  ws-opts:
-    headers:
-      Host: www.kehuai.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇭-瑞士-www.liuyiyang19891222.tk
-  network: ws
-  port: '443'
-  server: www.liuyiyang19891222.tk
-  tls: false
-  type: vmess
-  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
-  ws-opts:
-    headers:
-      Host: www.liuyiyang19891222.tk
-    path: /
 - name: '🇨🇭瑞士苏黎世 | 高速专线-hy2 #1'
   password: 38c31b4c-117d-429a-9469-aa2a420ac04e
   port: 35000
