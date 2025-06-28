@@ -15,7 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1|🇨🇭2 |  5.0MB/s #1'
+  name: '1|🇨🇭2 |  5.0MB/s #2'
   network: tcp
   port: 22324
   server: 186.190.215.193
@@ -50,6 +50,17 @@ proxies:
     path: /vpnjantit
 - alterId: 0
   cipher: auto
+  name: 🇨🇭-瑞士-20.38.39.18
+  network: ws
+  port: '8080'
+  server: 20.38.39.18
+  tls: false
+  type: vmess
+  uuid: 95a17ae9-207d-4f63-b5f2-c00430bee1bb
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇨🇭-瑞士-mumbai-arm2.egg.run
   network: ws
   port: '80'
@@ -77,17 +88,6 @@ proxies:
     path: /path/243535322906
 - alterId: 0
   cipher: auto
-  name: 🇨🇭-瑞士-20.38.39.18
-  network: ws
-  port: '8080'
-  server: 20.38.39.18
-  tls: false
-  type: vmess
-  uuid: 95a17ae9-207d-4f63-b5f2-c00430bee1bb
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇨🇭 瑞士CH
   network: ws
   port: '6616'
@@ -98,6 +98,32 @@ proxies:
   ws-opts:
     headers:
       Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭 瑞士 002
+  network: ws
+  port: '443'
+  server: www.kehuai.tk
+  tls: true
+  type: vmess
+  uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514
+  ws-opts:
+    headers:
+      Host: www.kehuai.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: CH 1 → openitsub.com
+  network: ws
+  port: '443'
+  server: www.liuyiyang19891222.tk
+  tls: true
+  type: vmess
+  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
+  ws-opts:
+    headers:
+      Host: www.liuyiyang19891222.tk
     path: /
 - alterId: 64
   cipher: auto

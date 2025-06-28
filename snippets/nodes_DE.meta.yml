@@ -1,74 +1,4 @@
 proxies:
-- name: '德国_1 #5'
-  network: ws
-  port: 443
-  server: 81.95.4.189
-  servername: v033.ylkszy.eu.org
-  tls: true
-  type: vless
-  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
-  ws-opts:
-    path: /?ed=2560
-- name: '德国_2 #4'
-  network: ws
-  port: 8443
-  server: 188.244.122.57
-  servername: xin033.ylks.link
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    path: /blue
-- name: '德国_3 #5'
-  network: ws
-  port: 8443
-  server: 188.244.122.57
-  servername: jp033.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    path: /blue
-- name: '德国_4 #4'
-  network: ws
-  port: 443
-  server: 188.244.122.57
-  servername: xin033.ylks.link
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    path: /blue
-- name: '德国_5 #3'
-  network: ws
-  port: 443
-  server: 188.244.122.57
-  servername: kk033.ylks.link
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    path: /blue
-- name: '德国_10 #3'
-  network: ws
-  port: 443
-  server: 188.244.122.202
-  servername: v033.ylkszy.eu.org
-  tls: true
-  type: vless
-  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
-  ws-opts:
-    path: /?ed=2560
-- name: '德国_11 #3'
-  network: ws
-  port: 443
-  server: 188.244.122.152
-  servername: v033.ylkszy.eu.org
-  tls: true
-  type: vless
-  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
-  ws-opts:
-    path: /?proxyip=proxyip.oracle.fxxk.dedyn.io
 - alterId: 0
   cipher: auto
   name: 4Sarina-27411
@@ -111,14 +41,14 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: 4Sarina-7933
+- name: '4Sarina-7933 #1'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
   server: 18.196.39.57
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: 4Sarina-7960
+- name: '4Sarina-7960 #1'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -212,14 +142,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- name: '4Sarina-4633 #1'
+- name: '4Sarina-4633 #2'
   password: 665c944d-047d-4659-80d5-3eaac70241a9
   port: 443
   server: 139.162.158.172
   skip-cert-verify: false
   sni: de2-full.privateip.net
   type: trojan
-- name: '4Sarina-4387 #1'
+- name: '4Sarina-4387 #2'
   password: 4732adfa16c6450bbef87264e41332db
   port: 443
   server: 165.22.74.230
@@ -324,6 +254,19 @@ proxies:
   skip-cert-verify: false
   sni: ''
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: DE_89.163.213.20_03152023a5cc-...
+  network: ws
+  port: '80'
+  server: 89.163.213.20
+  tls: false
+  type: vmess
+  uuid: 5668ff97-631f-4602-a13f-b56552c67abe
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇩🇪 DE-91.107.191.61-0122
@@ -541,28 +484,6 @@ proxies:
     headers:
       Host: de1.v2vless.xyz
     path: '%2Fvless'
-- name: 'adi|0603+-+VLESS德国 #2'
-  network: ws
-  port: 443
-  server: 104.17.32.10
-  tls: true
-  type: vless
-  uuid: 3ead7294-b782-42e4-968c-f93ce3bfbdd6
-  ws-opts:
-    headers:
-      Host: v2rayge2.free3333.xyz
-    path: '%2fray'
-- name: 'adi|0620+-+VLESS德国 #2'
-  network: ws
-  port: 443
-  server: 1.1.1.0
-  tls: true
-  type: vless
-  uuid: 3ead7294-b782-42e4-968c-f93ce3bfbdd6
-  ws-opts:
-    headers:
-      Host: v2rayge2.free3333.xyz
-    path: '%2fray'
 - cipher: chacha20-ietf
   name: 8J+HqPCfh7MgQ04g5Lit5Zu9IDE=
   obfs: tls1.2_ticket_auth
@@ -673,6 +594,28 @@ proxies:
   protocol-param: MjQ6WnhiRjhm
   server: 120.232.234.246
   type: ssr
+- name: 'adi|0603+-+VLESS德国 #2'
+  network: ws
+  port: 443
+  server: 104.17.32.10
+  tls: true
+  type: vless
+  uuid: 3ead7294-b782-42e4-968c-f93ce3bfbdd6
+  ws-opts:
+    headers:
+      Host: v2rayge2.free3333.xyz
+    path: '%2fray'
+- name: 'adi|0620+-+VLESS德国 #2'
+  network: ws
+  port: 443
+  server: 1.1.1.0
+  tls: true
+  type: vless
+  uuid: 3ead7294-b782-42e4-968c-f93ce3bfbdd6
+  ws-opts:
+    headers:
+      Host: v2rayge2.free3333.xyz
+    path: '%2fray'
 - name: '🇩🇪_DE_德国_1 #1'
   network: tcp
   password: 4732adfa16c6450bbef87264e41332db
@@ -694,6 +637,23 @@ proxies:
   tls: false
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: '🇩🇪 德国 10 #2'
+  password: b2c1fa85-7dcf-40dd-bec7-87140bd06d2d
+  port: 26900
+  server: diwu94.di5ji.lat
+  skip-cert-verify: true
+  sni: diwu94.di5ji.lat
+  tls: false
+  type: hysteria2
+- name: '🇩🇪 德国 24 #2'
+  obfs: salamander
+  obfs-password: salamander
+  password: 6a517a11-30cf-4844-9f49-05e9637226c6
+  port: 443
+  server: de1.vip.edu.kg
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - alpn:
   - h2
   client-fingerprint: chrome
@@ -707,548 +667,6 @@ proxies:
   uuid: 0dbad6ba-be87-46e1-ab90-30c53ef1878d
   ws-opts:
     path: '%2Fsreztjsterw4j'
-- name: '🇩🇪 德国 10 #1'
-  password: b2c1fa85-7dcf-40dd-bec7-87140bd06d2d
-  port: 26900
-  server: diwu94.di5ji.lat
-  skip-cert-verify: true
-  sni: diwu94.di5ji.lat
-  tls: false
-  type: hysteria2
-- name: '🇩🇪 德国 24 #1'
-  obfs: salamander
-  obfs-password: salamander
-  password: 6a517a11-30cf-4844-9f49-05e9637226c6
-  port: 443
-  server: de1.vip.edu.kg
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '4Sarina-6782 #1'
-  network: httpupgrade
-  password: X22ZAo5vGF
-  port: 443
-  server: 104.21.112.1
-  sni: esna.twn24.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: esna.twn24.ir
-- name: ' TR-TCP-TLS  DE-45.76.84.14:44... #1'
-  network: tcp
-  password: Bw5Mz7QkVp
-  port: 443
-  server: 45.76.84.14
-  sni: z-v2-082550.kailib.com
-  type: trojan
-- name: '4Sarina-6654 #1'
-  network: httpupgrade
-  password: IY4gWQIsHV
-  port: 2087
-  server: 104.21.96.1
-  sni: esna.twn24.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: esna.twn24.ir
-    path: /mehdi
-- alpn:
-  - http/1.1
-  name: ' TR-TCP-TLS  DE-63.178.144.147... #3'
-  network: tcp
-  password: telegram-id-v2rayvpnchannel
-  port: 22223
-  server: 63.178.144.147
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: ' TR-TCP-TLS  DE-209.250.236.20... #1'
-  network: tcp
-  password: Bw5Mz7QkVp
-  port: 443
-  server: 209.250.236.200
-  sni: z-v2-076774.kailib.com
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '(S102) #11'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.159.150.95
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alpn:
-  - http/1.1
-  name: ' TR-TCP-TLS  DE-18.159.150.95:... #3'
-  network: tcp
-  password: telegram-id-v2rayvpnchannel
-  port: 22223
-  server: 18.159.150.95
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: ' VL-TCP-RLT  DE-91.99.140.98:6... #1'
-  network: tcp
-  port: 65530
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-  server: 91.99.140.98
-  servername: refersion.com
-  tls: false
-  type: vless
-  uuid: 61bf12ed-a82d-4b83-9807-cf08b9f0de54
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: chessgame
-  name: ' VL-GRPC-RLT  DE-91.99.150.159... #1'
-  network: grpc
-  port: 2182
-  reality-opts:
-    public-key: hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I
-  server: 91.99.150.159
-  servername: www.chess.com
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-- client-fingerprint: chrome
-  name: ' VL-TCP-RLT  DE-91.99.205.88:2... #1'
-  network: tcp
-  port: 2434
-  reality-opts:
-    public-key: yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA
-  server: 91.99.205.88
-  servername: www.chess.com
-  tls: false
-  type: vless
-  uuid: 58d001a7-7969-42a7-a39d-62b4b17402ac
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: chessgame
-  name: ' VL-GRPC-RLT  DE-91.99.150.157... #1'
-  network: grpc
-  port: 3184
-  reality-opts:
-    public-key: hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I
-  server: 91.99.150.157
-  servername: www.chess.com
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-- client-fingerprint: chrome
-  name: ' VL-TCP-RLT  DE-91.99.150.156:... #1'
-  network: tcp
-  port: 2434
-  reality-opts:
-    public-key: yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA
-  server: 91.99.150.156
-  servername: www.chess.com
-  tls: false
-  type: vless
-  uuid: 58d001a7-7969-42a7-a39d-62b4b17402ac
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: chessgame
-  name: '4Sarina-14840 #1'
-  network: grpc
-  port: 3184
-  reality-opts:
-    public-key: hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I
-  server: 91.99.205.88
-  servername: chess.com
-  tls: false
-  type: vless
-  uuid: 617d0c4f-4623-44ac-867a-d34626969a5a
-- client-fingerprint: chrome
-  name: 4Nika-15879
-  network: tcp
-  port: 2434
-  reality-opts:
-    public-key: yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA
-  server: 91.99.148.251
-  servername: www.chess.com
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: chessgame
-  name: 4Nika-15880
-  network: grpc
-  port: 3184
-  reality-opts:
-    public-key: hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I
-  server: 91.99.148.251
-  servername: www.chess.com
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-- client-fingerprint: chrome
-  name: '@Filter_breaker #36'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QYWJdS4JDdSmQKeMkJfPshFuz0bC3jhm9yW3uJfQFmw
-    short-id: b4
-  server: 85.9.206.79
-  servername: www.refersion.com
-  tls: false
-  type: vless
-  uuid: 48735946-f706-4873-b9b6-d9f0255475cc
-- client-fingerprint: chrome
-  name: 4Nika-15891
-  network: tcp
-  port: 2434
-  reality-opts:
-    public-key: yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA
-  server: 91.99.150.157
-  servername: www.chess.com
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: chessgame
-  name: 4Nika-15878
-  network: grpc
-  port: 2182
-  reality-opts:
-    public-key: hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I
-  server: 91.99.148.251
-  servername: www.chess.com
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-- client-fingerprint: chrome
-  name: '4Sarina-23912 #1'
-  network: tcp
-  port: 1010
-  reality-opts:
-    public-key: a0_d-hjj7ByzOdLnniZTHPcRIEnT9DtI1icnlrekuDM
-    short-id: 8a1fb5d015ab108c
-  server: 185.204.171.31
-  servername: canva.com
-  tls: false
-  type: vless
-  uuid: f8729660-82eb-47e0-9f45-2984113316ca
-- name: 4Nika-15898
-  network: tcp
-  port: 3789
-  server: 91.99.150.159
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-  ws-opts:
-    headers:
-      Host: varzesh3.com
-    path: /
-- name: ' VL-TCP-NONE  DE-91.99.150.157... #3'
-  network: tcp
-  port: 1429
-  server: 91.99.150.157
-  tls: false
-  type: vless
-  uuid: 58d001a7-7969-42a7-a39d-62b4b17402ac
-  ws-opts:
-    headers:
-      Host: speedtest.net
-    path: '%2F'
-- name: ' VL-TCP-NONE  DE-91.99.205.88:... #5'
-  network: tcp
-  port: 1429
-  server: 91.99.205.88
-  tls: false
-  type: vless
-  uuid: 58d001a7-7969-42a7-a39d-62b4b17402ac
-  ws-opts:
-    headers:
-      Host: speedtest.net
-    path: '%2F'
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #7'
-  network: httpupgrade
-  port: 8080
-  server: 104.16.53.11
-  tls: false
-  type: vless
-  uuid: 8960c969-eebb-4b5a-b480-4662e51893ca
-  ws-opts:
-    headers:
-      Host: okamideoijwqomqwedmqweodimpqo.okatestoka.ir
-    path: /
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #12'
-  network: httpupgrade
-  port: 2086
-  server: 104.17.147.22
-  tls: false
-  type: vless
-  uuid: f06c8dbf-f0e2-4a91-ca38-8dc7103af844
-  ws-opts:
-    headers:
-      Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-- name: '4Sarina-20689 #1'
-  network: httpupgrade
-  port: 8880
-  server: 104.17.147.22
-  tls: false
-  type: vless
-  uuid: c0fabb39-9866-4659-8641-a1bf1f69179d
-  ws-opts:
-    headers:
-      Host: 19e2c9a05f149655.raymond2.ir
-    path: '%2F'
-- name: 4Nika-15882
-  network: tcp
-  port: 4928
-  server: 91.99.148.251
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-  ws-opts:
-    headers:
-      Host: speedtest.net
-    path: /
-- name: ' VL-TCP-NONE  DE-91.99.205.88:... #4'
-  network: tcp
-  port: 3789
-  server: 91.99.205.88
-  tls: false
-  type: vless
-  uuid: 3d9a3ca9-7cd1-4650-8036-29303da81669
-  ws-opts:
-    headers:
-      Host: varzesh3.com
-- name: '4Sarina-12478 #1'
-  network: httpupgrade
-  port: 2095
-  server: 104.21.16.1
-  tls: false
-  type: vless
-  uuid: 4290621f-483f-4e40-a15a-07c8cfb93873
-  ws-opts:
-    headers:
-      Host: speeDxpnte.socksChangeRt.ir.
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #3'
-  network: httpupgrade
-  port: 8080
-  server: 104.17.147.22
-  tls: false
-  type: vless
-  uuid: 406f9109-b416-4c3e-b72c-16441cc9776a
-  ws-opts:
-    headers:
-      Host: UsErAnDoM.97hEzAr.Ir.AcAdEmIgRoUp.IR.
-- name: 4Nika-14799
-  network: httpupgrade
-  port: 2052
-  server: 173.245.59.100
-  tls: false
-  type: vless
-  uuid: 94fa689f-363d-4274-a5d5-f64144da8501
-  ws-opts:
-    headers:
-      Host: Espa.serrjioo.ir
-- name: '4Sarina-12479 #1'
-  network: httpupgrade
-  port: 2095
-  server: 104.21.48.1
-  tls: false
-  type: vless
-  uuid: 4290621f-483f-4e40-a15a-07c8cfb93873
-  ws-opts:
-    headers:
-      Host: speeDxpnte.socksChangeRt.ir.
-    path: '%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%3Fed%3D2048'
-- name: 4Nika-15895
-  network: tcp
-  port: 1429
-  server: 91.99.150.159
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-  ws-opts:
-    headers:
-      Host: speedtest.net
-    path: /
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #10'
-  network: httpupgrade
-  port: 8880
-  server: 104.17.148.22
-  tls: false
-  type: vless
-  uuid: c5cc765f-9b1e-4fdb-bca4-f2a889bc8ecb
-  ws-opts:
-    headers:
-      Host: Www.soft98.ir.snap.ir.Www.Abantether.ir.te1450.ir
-    path: '%2F2048'
-- name: 4Nika-15888
-  network: tcp
-  port: 4928
-  server: 91.99.150.156
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-  ws-opts:
-    headers:
-      Host: speedtest.net
-    path: /
-- name: '4Sarina-15941 #1'
-  network: httpupgrade
-  port: 2052
-  server: 172.67.21.239
-  tls: false
-  type: vless
-  uuid: 7d197c79-92f2-46fa-80d6-eb74ff7693f5
-  ws-opts:
-    headers:
-      Host: v2ngfast.nanvrfood.ir.
-- name: '4Sarina-19094 #1'
-  network: httpupgrade
-  port: 2086
-  server: 173.245.59.100
-  tls: false
-  type: vless
-  uuid: a2e4c95a-9257-4833-81ca-2c4e634a521a
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.dana.ir.digikala.ir.coffeback.ir.
-    path: '%2FGoodLuck%3Fed%3D2560'
-- name: 4Nika-9905
-  network: tcp
-  port: 6890
-  server: 138.68.96.231
-  tls: false
-  type: vless
-  uuid: 498b2237-0990-41b3-921d-dc69f23d3c93
-- name: ' VL-TCP-NONE  DE-91.99.205.88:... #6'
-  network: tcp
-  port: 1517
-  server: 91.99.205.88
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-  ws-opts:
-    headers:
-      Host: testspeed-foreign.tci.ir
-    path: /
-- name: 4Nika-15896
-  network: tcp
-  port: 1517
-  server: 91.99.150.159
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-  ws-opts:
-    headers:
-      Host: testspeed-foreign.tci.ir
-    path: /
-- name: '4Sarina-18332 #1'
-  network: tcp
-  port: 5969
-  server: 91.99.150.159
-  tls: false
-  type: vless
-  uuid: 953d71f0-9241-4903-95b4-cce61e90015e
-  ws-opts:
-    headers:
-      Host: speedtest.net
-- name: '4Nika-15906 #1'
-  network: tcp
-  port: 4928
-  server: 91.99.205.88
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-  ws-opts:
-    headers:
-      Host: speedtest.net
-    path: /
-- name: 4Nika-15883
-  network: tcp
-  port: 1429
-  server: 91.99.150.156
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-  ws-opts:
-    headers:
-      Host: speedtest.net
-    path: /
-- name: 4Nika-15886
-  network: tcp
-  port: 3789
-  server: 91.99.150.156
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-  ws-opts:
-    headers:
-      Host: varzesh3.com
-    path: /
-- name: 4Nika-15894
-  network: tcp
-  port: 4928
-  server: 91.99.150.157
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-  ws-opts:
-    headers:
-      Host: speedtest.net
-    path: /
-- name: 4Nika-15889
-  network: tcp
-  port: 1517
-  server: 91.99.150.157
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-  ws-opts:
-    headers:
-      Host: testspeed-foreign.tci.ir
-    path: /
-- name: 4Nika-15876
-  network: tcp
-  port: 1429
-  server: 91.99.148.251
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-  ws-opts:
-    headers:
-      Host: speedtest.net
-    path: /
-- name: ' VL-WS-TLS  DE-18.159.150.95:2...'
-  network: ws
-  port: 22224
-  server: 18.159.150.95
-  servername: trojan.burgerip.co.uk
-  tls: true
-  type: vless
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  ws-opts:
-    path: '%2Ftelegram-channel-vlessconfig'
-- name: '4Nika-15877 #1'
-  network: tcp
-  port: 1517
-  server: 91.99.148.251
-  tls: false
-  type: vless
-  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
-  ws-opts:
-    headers:
-      Host: testspeed-foreign.tci.ir
-    path: /
-- name: ' VL-TCP-NONE  DE-91.99.150.156... #4'
-  network: tcp
-  port: 3799
-  server: 91.99.150.156
-  tls: false
-  type: vless
-  uuid: 58d001a7-7969-42a7-a39d-62b4b17402ac
-  ws-opts:
-    headers:
-      Host: speedtest.net
-    path: '%2F'
 - alpn:
   - h2
   - http/1.1
@@ -1453,7 +871,7 @@ proxies:
     headers:
       Host: fra1-5.trollfunny.net
     path: ''
-- name: '(@VmessProtocol)برای خرید و ات... #82'
+- name: '(@VmessProtocol)برای خرید و ات... #83'
   port: 80
   server: 151.101.128.155
   tls: false
@@ -1461,7 +879,7 @@ proxies:
   uuid: e2286c5e-d910-405f-9bcb-b0e81188ad53
   ws-opts:
     path: '%2FPak91jqn-Mehskl.ir.shop.com%3Fed%3D2048%2F%3FJoin_Bade_Channel%40JOKERRVPN'
-- name: '(@VmessProtocol)برای خرید و ات... #56'
+- name: '(@VmessProtocol)برای خرید و ات... #57'
   port: 8880
   server: 167.235.238.146
   tls: false
@@ -1473,12 +891,20 @@ proxies:
   tls: false
   type: vless
   uuid: 005a0678-9847-4954-83ef-2d253a88b7f8
-- name: '(@VmessProtocol)برای خرید و ات... #49'
+- name: '(@VmessProtocol)برای خرید و ات... #50'
   port: 443
   server: 164.92.243.66
   tls: false
   type: vless
   uuid: 7b63ed50-f1f8-4776-b7f2-60e73f6b66c0
+- name: '(@VmessProtocol)برای خرید و ات... #12'
+  port: 8880
+  server: 104.17.148.22
+  tls: false
+  type: vless
+  uuid: 6ec52bc7-fcd7-4841-ab69-70d6e03a6eda
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
 - name: '🇩🇪 | MsV2ray - All #5'
   port: 8880
   server: www.speedtest.net
@@ -1517,7 +943,7 @@ proxies:
   tls: false
   type: vless
   uuid: dd4b9b8a-2718-46bd-bc9b-fe947b0ed16c
-- name: '(@VmessProtocol)برای خرید و ات... #46'
+- name: '(@VmessProtocol)برای خرید و ات... #47'
   port: 22940
   server: 116.203.149.50
   tls: false
@@ -1530,7 +956,7 @@ proxies:
   type: vless
   uuid: 63b1b7e2-6878-432b-9545-29d8013eb8d2
 - flow: xtls-rprx-vision
-  name: '(@VmessProtocol)برای خرید و ات... #70'
+  name: '(@VmessProtocol)برای خرید و ات... #71'
   port: 443
   server: 91.107.219.8
   tls: false
@@ -1560,19 +986,19 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%2F%40Parsashonam%3Fed%3D2048'
-- name: '(@VmessProtocol)برای خرید و ات... #59'
+- name: '(@VmessProtocol)برای خرید و ات... #60'
   port: 8880
   server: 84.32.131.108
   tls: false
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: '(@VmessProtocol)برای خرید و ات... #57'
+- name: '(@VmessProtocol)برای خرید و ات... #58'
   port: 8880
   server: 5.199.173.104
   tls: false
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: '(@VmessProtocol)برای خرید و ات... #52'
+- name: '(@VmessProtocol)برای خرید و ات... #53'
   port: 57065
   server: 128.140.113.136
   tls: false
@@ -1584,7 +1010,7 @@ proxies:
   tls: false
   type: vless
   uuid: f939e99b-5f02-41cc-ae7a-b09289a3d160
-- name: '(@VmessProtocol)برای خرید و ات... #48'
+- name: '(@VmessProtocol)برای خرید و ات... #49'
   port: 25574
   server: 38.242.196.10
   tls: false
@@ -1606,33 +1032,33 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%2F%40Parsashonam%3Fed%3D2048'
-- name: '(@VmessProtocol)برای خرید و ات... #80'
+- name: '(@VmessProtocol)برای خرید و ات... #81'
   network: ws
   port: 2096
   server: 104.17.128.1
   tls: false
   type: vless
   uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
-- name: '(@VmessProtocol)برای خرید و ات... #44'
+- name: '(@VmessProtocol)برای خرید و ات... #45'
   port: 24871
   server: 188.34.201.88
   tls: false
   type: vless
   uuid: 5585e301-33c4-454c-99fb-3bf82eed48f4
-- name: '(@VmessProtocol)برای خرید و ات... #47'
+- name: '(@VmessProtocol)برای خرید و ات... #48'
   port: 25720
   server: 152.70.23.50
   tls: false
   type: vless
   uuid: 73ef5ea7-6452-4c44-88f5-d088aad4ba4a
-- name: '(@VmessProtocol)برای خرید و ات... #65'
+- name: '(@VmessProtocol)برای خرید و ات... #66'
   network: grpc
   port: 8880
   server: 84.32.9.44
   tls: false
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: '(@VmessProtocol)برای خرید و ات... #73'
+- name: '(@VmessProtocol)برای خرید و ات... #74'
   port: 4191
   server: 136.244.89.150
   tls: false
@@ -1644,7 +1070,7 @@ proxies:
   tls: false
   type: vless
   uuid: d00e3d7c-522f-4047-87b6-67685f5f281f
-- name: '(@VmessProtocol)برای خرید و ات... #83'
+- name: '(@VmessProtocol)برای خرید و ات... #84'
   port: 80
   server: 151.101.192.155
   tls: false
@@ -1666,7 +1092,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%2F%40MsV2ray-%40MsV2ray-%40MsV2ray-%40MsV2ray-%40MsV2ray-%40MsV2ray-%40MsV2ray-%40MsV2ray%3Fed%3D2560'
-- name: '(@VmessProtocol)برای خرید و ات... #61'
+- name: '(@VmessProtocol)برای خرید و ات... #62'
   port: 8880
   server: 84.32.9.29
   tls: false
@@ -1678,7 +1104,7 @@ proxies:
   tls: false
   type: vless
   uuid: 2fe2f807-e81b-4134-afb5-1d41564c73c7
-- name: '(@VmessProtocol)برای خرید و ات... #63'
+- name: '(@VmessProtocol)برای خرید و ات... #64'
   port: 8880
   server: 84.32.9.37
   tls: false
@@ -1690,7 +1116,7 @@ proxies:
   tls: false
   type: vless
   uuid: b0a577db-0841-480c-9014-014197f92d28
-- name: '(@VmessProtocol)برای خرید و ات... #62'
+- name: '(@VmessProtocol)برای خرید و ات... #63'
   port: 8880
   server: 84.32.9.31
   tls: false
@@ -1702,7 +1128,7 @@ proxies:
   tls: false
   type: vless
   uuid: dc6f405f-9d5e-41b0-8b6b-fbee3318edc8
-- name: '(@VmessProtocol)برای خرید و ات... #74'
+- name: '(@VmessProtocol)برای خرید و ات... #75'
   network: tcp
   port: 36916
   server: 85.9.104.89
@@ -1735,7 +1161,7 @@ proxies:
   uuid: d66e0084-c2cd-4eba-e803-7d842b1bf075
   ws-opts:
     path: '%2Folem%2Fws%3Fed%3D1024'
-- name: '(@VmessProtocol)برای خرید و ات... #81'
+- name: '(@VmessProtocol)برای خرید و ات... #82'
   port: 443
   server: 198.62.62.4
   tls: false
@@ -1765,7 +1191,7 @@ proxies:
   tls: false
   type: vless
   uuid: 38ed1e08-b164-43b8-b9cb-6cf869bb0964
-- name: '(@VmessProtocol)برای خرید و ات... #78'
+- name: '(@VmessProtocol)برای خرید و ات... #79'
   network: httpupgrade
   port: 8880
   server: 185.146.173.39
@@ -1780,20 +1206,20 @@ proxies:
   uuid: c6ebff0f-7786-4bff-bdfc-d0557bf4b152
   ws-opts:
     path: '%2Folem%2Fws%3Fed%3D1024'
-- name: '(@VmessProtocol)برای خرید و ات... #66'
+- name: '(@VmessProtocol)برای خرید و ات... #67'
   port: 8880
   server: 84.32.9.52
   tls: false
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: '(@VmessProtocol)برای خرید و ات... #58'
+- name: '(@VmessProtocol)برای خرید و ات... #59'
   network: grpc
   port: 8880
   server: 638804002452812281.oslo-shleprx-aaaj.info
   tls: false
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: '(@VmessProtocol)برای خرید و ات... #86'
+- name: '(@VmessProtocol)برای خرید و ات... #87'
   port: 2052
   server: www.speedtest.net
   tls: false
@@ -1801,7 +1227,7 @@ proxies:
   uuid: f2ab5930-b3d2-56f1-b78d-05ab292a6ff0
   ws-opts:
     path: '%2Fvless'
-- name: '(@VmessProtocol)برای خرید و ات... #50'
+- name: '(@VmessProtocol)برای خرید و ات... #51'
   network: grpc
   port: 1773
   server: germany.khoreshtsabzi.ir
@@ -1820,7 +1246,7 @@ proxies:
   tls: false
   type: vless
   uuid: 7d5badcc-19d6-4d81-87ef-9440e7ae86e4
-- name: '(@VmessProtocol)برای خرید و ات... #76'
+- name: '(@VmessProtocol)برای خرید و ات... #77'
   port: 8080
   server: 104.26.15.85
   tls: false
@@ -1852,13 +1278,13 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%2F%40Parsashonam%3Fed%3D2048'
-- name: '(@VmessProtocol)برای خرید و ات... #64'
+- name: '(@VmessProtocol)برای خرید و ات... #65'
   port: 8880
   server: 84.32.9.43
   tls: false
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: '(@VmessProtocol)برای خرید و ات... #84'
+- name: '(@VmessProtocol)برای خرید و ات... #85'
   port: 80
   server: 151.101.64.155
   tls: false
@@ -1866,13 +1292,13 @@ proxies:
   uuid: e2286c5e-d910-405f-9bcb-b0e81188ad53
   ws-opts:
     path: '%2FPak91jqn-Mehskl.ir.shop.com%3Fed%3D2048%2F%3FJoin_Bade_Channel%40JOKERRVPN'
-- name: '(@VmessProtocol)برای خرید و ات... #60'
+- name: '(@VmessProtocol)برای خرید و ات... #61'
   port: 8880
   server: 84.32.25.106
   tls: false
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: '(@VmessProtocol)برای خرید و ات... #85'
+- name: '(@VmessProtocol)برای خرید و ات... #86'
   port: 443
   server: zula.ir
   tls: false
@@ -1880,14 +1306,14 @@ proxies:
   uuid: f12977e6-d296-4d94-9aaf-d31770b70f84
   ws-opts:
     path: '%2F%3Fed'
-- name: '(@VmessProtocol)برای خرید و ات... #79'
+- name: '(@VmessProtocol)برای خرید و ات... #80'
   network: ws
   port: 443
   server: 103.160.204.59
   tls: false
   type: vless
   uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
-- name: '(@VmessProtocol)برای خرید و ات... #77'
+- name: '(@VmessProtocol)برای خرید و ات... #78'
   port: 443
   server: de02.abvpn.ru
   tls: false
@@ -1916,6 +1342,19 @@ proxies:
     headers:
       Host: vle.amclubsdns.dpdns.org
     path: '%2F%3Fed%3D2560%26PROT_TYPE%3Dvless'
+- client-fingerprint: random
+  name: '19به یاد سارینا #1'
+  network: ws
+  port: 80
+  server: 172.67.21.2
+  servername: delam.ahaysiahzangi.dpdns.org
+  tls: false
+  type: vless
+  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
+  ws-opts:
+    headers:
+      Host: delam.ahaysiahzangi.dpdns.org
+    path: '%2F%3Fed%3D2560'
 - name: '🇩🇪 机场推荐:dafei.de 德国 03 #1'
   obfs: salamander
   obfs-password: iFtJGgYHs8fWP5mg
@@ -2093,24 +1532,449 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '德国频_14 #1'
-  network: ws
-  port: 8880
-  server: 185.143.233.122
-  tls: false
-  type: vmess
-  uuid: 14d3d01e-94f7-4704-de0f-8ab1ad0e9aca
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 'DE_130.61.179.77_04072023a7d7-... #1'
-  network: tcp
+  name: 德国_0407067
+  network: ''
   port: 20574
   server: 130.61.179.77
-  servername: ''
   tls: false
   type: vmess
   uuid: 87e3048a-5932-457a-84b9-deb51b5c91cd
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国黑森州法兰克福-35.157.193.176
+  network: ws
+  port: 8080
+  server: 35.157.193.176
+  tls: false
+  type: vmess
+  uuid: 7a173658-c9f9-4194-84dd-4c50a83134ee
+  ws-opts: {}
+- alterId: 64
+  cipher: auto
+  name: '🇩🇪-德国-au1.qiangdong.xyz #1'
+  network: ws
+  port: 153
+  server: au1.qiangdong.xyz
+  tls: false
+  type: vmess
+  uuid: 81ebe818-5eb2-3f4a-aece-425f7db5e6bc
+  ws-opts:
+    headers:
+      Host: f2348123663.laowanxiang.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 德国 023
+  network: ws
+  port: 8080
+  server: 172.105.0.66
+  tls: false
+  type: vmess
+  uuid: 95a17ae9-207d-4f63-b5f2-c00430bee1bb
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 'DE-联通-2|倍率0.7 #1'
+  network: tcp
+  port: 8965
+  server: pop.dew.gfwcaonimanmsl.ml
+  tls: false
+  type: vmess
+  uuid: 03ff74d0-474e-4645-9ef5-7e04b4dc6c94
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 Germany(ChatGPT) 05 TG:@...
+  network: ws
+  port: '2052'
+  server: spectra.aryogen.store
+  tls: false
+  type: vmess
+  uuid: 606da12b-c5e2-43fc-e3b8-800c81ace4a6
+  ws-opts:
+    headers:
+      Host: spectra.aryogen.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: DE_45.77.141.230_04062023989e-...
+  network: tcp
+  port: 5400
+  server: 45.77.141.230
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 227596cc-67a2-4127-e274-b65c196ba52f
+- alterId: 0
+  cipher: auto
+  name: Relay 🇩🇪 Germany 04 TG...
+  network: tcp
+  port: '36016'
+  server: 42.7.24.12
+  tls: false
+  type: vmess
+  uuid: adc04d85-a644-3741-a14c-29115c70866f
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨德国19丨 #61'
+  network: tcp
+  port: 22019
+  server: jafi19.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 7ae71e0d-d9f1-3d69-8df9-29ee82a0d121
+- alterId: 0
+  cipher: auto
+  name: 德国 065
+  network: ws
+  port: 443
+  server: 139.177.182.248
+  tls: false
+  type: vmess
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE(AzadNet.t.me)_6
+  network: ws
+  port: '80'
+  server: 162.55.165.209
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bb8595d3-25f9-4378-8500-64910472cd7e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /Mb5EFyHBJsWwPpDh5KFsLfQ/vmessws
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨德国19丨 #53'
+  network: tcp
+  port: 22019
+  server: jafi19.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 5b505198-a6da-3d76-a8a6-4d183aeb1d3f
+- alterId: 0
+  cipher: auto
+  name: Relay 🇩🇪 Germany 04 TG:@nodpai
+  network: tcp
+  port: '36016'
+  server: 42.7.24.12
+  tls: false
+  type: vmess
+  uuid: bf126585-a40a-38e4-9efa-0ca4fc9a8878
+- cipher: aes-256-cfb
+  name: '8J-HqPCfh7MgQ04gMyDihpIgb3Blbm... #5'
+  obfs: http_simple
+  obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA
+  password: 68xdgu9eyif
+  port: '12127'
+  protocol: auth_aes128_sha1
+  protocol-param: NjAwNzc3OjE1NFQ4Yg
+  server: 42.157.195.246
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-144.76.110.76-2917
+  network: ws
+  port: 443
+  server: domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net
+  servername: domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net
+  tls: true
+  type: vmess
+  uuid: 3445bb7a-7dcb-408e-be51-a8912bad94ea
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 德国_0407034
+  network: tcp
+  port: 443
+  server: 167.235.65.232
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨德国19丨 #72'
+  network: tcp
+  port: 22019
+  server: jafi19.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: a333fe24-29e4-38a7-9425-03518cee02a4
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-91.107.241.189-6585
+  network: ws
+  port: 8081
+  server: 91.107.241.189
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 35acf7b9-051c-4f47-f4ab-fffa99a7ef24
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪b6@oneclickvpnkeys
+  network: tcp
+  port: '54956'
+  server: vpn0free.devhrtz2.gq
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2831f86c-5fba-4f81-8de1-53d14a2358b6
+- alterId: 0
+  cipher: auto
+  name: 德国_0407182
+  network: tcp
+  port: 81
+  server: 91.107.246.131
+  tls: false
+  type: vmess
+  uuid: f5f30168-9539-4c71-e2b3-e27725d163b7
+- alterId: 0
+  cipher: auto
+  name: 德国_0407180
+  network: tcp
+  port: 443
+  server: 91.107.246.131
+  tls: false
+  type: vmess
+  uuid: cca44c8d-ad01-4996-9b82-495eda8dd7c7
+- alterId: 0
+  cipher: auto
+  name: Relay 🇩🇪 Germany 02 TG:@nodpai
+  network: tcp
+  port: '36016'
+  server: 42.7.24.12
+  tls: false
+  type: vmess
+  uuid: 766fdd69-fcbe-3374-99bd-af37278e0632
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国-159.69.208.90
+  network: tcp
+  port: 443
+  server: 159.69.208.90
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 德国 061
+  network: tcp
+  port: 443
+  server: 195.201.45.93
+  tls: false
+  type: vmess
+  uuid: cca44c8d-ad01-4996-9b82-495eda8dd7c7
+- alterId: 0
+  cipher: auto
+  name: 'DE2 #2'
+  network: ws
+  port: 2083
+  server: 8.219.95.226
+  tls: true
+  type: vmess
+  uuid: c2fc4742-33d1-4fcd-e8f5-44f2cfeb297b
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪DE-116.203.13.135-4489 #1'
+  network: ws
+  port: 664
+  server: profile.progbyrazyar.ir
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: cbf10897-87ab-4af6-aeed-6f9a988395dc
+  ws-opts:
+    path: /graphql
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-91.107.238.118-21138
+  network: ws
+  port: 2083
+  server: 91.107.238.118
+  servername: 281.webshecan.ro.to
+  tls: true
+  type: vmess
+  uuid: 39305385-2076-4e65-bb9c-da5c2fde0151
+  ws-opts:
+    path: /benten
+- alterId: 0
+  cipher: auto
+  name: 德国 053
+  network: tcp
+  port: 443
+  server: 91.107.159.27
+  tls: false
+  type: vmess
+  uuid: cca44c8d-ad01-4996-9b82-495eda8dd7c7
+- alterId: 0
+  cipher: auto
+  name: 德国 012
+  network: ws
+  port: 80
+  server: 168.119.58.112
+  tls: false
+  type: vmess
+  uuid: e42d68db-4297-4c17-b5cf-44d421aef400
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸-美国-143.42.30.152
+  network: ws
+  port: 443
+  server: 143.42.30.152
+  tls: false
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 德国 055
+  network: ws
+  port: 8880
+  server: 91.107.242.127
+  tls: false
+  type: vmess
+  uuid: 3d589c52-2f10-4e7f-9243-2a9799238432
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪DE-217.160.33.100-1326 #1'
+  network: ws
+  port: 10001
+  server: 217.160.33.100
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bee7ec3e-cc6d-11ed-b37b-f3d22884c6a9
+  ws-opts:
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国-195.201.98.61
+  network: tcp
+  port: '443'
+  server: 195.201.98.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: DE-联通-1|倍率0.7
+  network: tcp
+  port: '8964'
+  server: pop.dew.gfwcaonimanmsl.ml
+  tls: false
+  type: vmess
+  uuid: 03ff74d0-474e-4645-9ef5-7e04b4dc6c94
+- alterId: 2
+  cipher: auto
+  name: 🇩🇪DE-207.180.243.54-8051
+  network: ws
+  port: 24100
+  server: de.edgehelper.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e0822c2-75ea-4d30-8895-9fe59da9935c
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-144.76.110.76-6143
+  network: ws
+  port: 443
+  server: 144.76.110.76
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 3445bb7a-7dcb-408e-be51-a8912bad94ea
+  ws-opts:
+    path: /vmess
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨德国19丨 #73'
+  network: tcp
+  port: 22019
+  server: jafi19.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: ac649670-d37e-3435-9908-b4c04876090e
+- alterId: 0
+  cipher: auto
+  name: 'DE #14'
+  network: ws
+  port: 443
+  server: init.blog
+  tls: true
+  type: vmess
+  uuid: 2162672f-a83a-47ad-c901-a561b98be911
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 032
+  network: ws
+  port: 8080
+  server: 194.233.169.146
+  tls: false
+  type: vmess
+  uuid: 95a17ae9-207d-4f63-b5f2-c00430bee1bb
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: DE-联通-4|倍率0.7
+  network: tcp
+  port: '8967'
+  server: pop.dew.gfwcaonimanmsl.ml
+  tls: false
+  type: vmess
+  uuid: 03ff74d0-474e-4645-9ef5-7e04b4dc6c94
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-91.107.241.189-5911
+  network: ws
+  port: 8080
+  server: 91.107.241.189
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e3879d98-396b-4155-d5a5-f6b64164817d
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪DE-143.42.55.133-21374 #1'
+  network: ws
+  port: 443
+  server: 143.42.55.133
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    path: /
+- alterId: 4
+  cipher: auto
+  name: '🇩🇪DE-146.0.42.87-15667 #1'
+  network: ws
+  port: 443
+  server: germany-dusseldorf.mah3Hoet.com
+  servername: germany-dusseldorf.mah3Hoet.com
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    path: /ws
 - alterId: 2
   cipher: auto
   name: 'Vip1丨德国19丨 #75'
@@ -2119,10 +1983,120 @@ proxies:
   server: jafi19.jafiyun.world
   tls: false
   type: vmess
-  uuid: 326ddcd9-b338-3acd-8949-9ea70c8b2be3
+  uuid: c556c947-74e5-37c0-9a9d-4c87b6c345d7
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪DE-217.160.33.100-4569 #1'
+  network: ws
+  port: 10000
+  server: 217.160.33.100
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aae9b3e6-b275-11ed-8872-b3c4498300e6
+  ws-opts:
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: '德国best #1'
+  network: ws
+  port: 443
+  server: init.blog
+  tls: true
+  type: vmess
+  uuid: 20f14598-35f4-41b6-b540-4a1ed7560c0f
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪DE-146.190.207.29-21164 #1'
+  network: ws
+  port: 80
+  server: mmm85.test19380.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84668c29-3a49-4550-dbba-358a87115a67
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪DE-51.68.188.150-5031 #1'
+  network: ws
+  port: 443
+  server: 51.68.188.150
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 69523c61-0a1c-4a01-9d19-433e5a686631
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 德国 040
+  network: http
+  port: 22301
+  server: 91.107.244.178
+  servername: 91.107.244.178
+  tls: false
+  type: vmess
+  uuid: 176ed834-75dc-4e4c-a536-f05479b39b3c
+- alterId: 0
+  cipher: auto
+  name: '德国 033 #1'
+  network: http
+  port: 22301
+  server: wew.rest8746.ml
+  servername: wew.rest8746.ml
+  tls: false
+  type: vmess
+  uuid: 176ed834-75dc-4e4c-a536-f05479b39b3c
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪DE-5.75.198.117-4533 #1'
+  network: ws
+  port: 80
+  server: 5.75.198.117
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e30cf2d5-1210-4c9d-8c1b-6c9acb773579
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-91.107.175.208-21130
+  network: ws
+  port: 2086
+  server: z.dachef.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a06e3a23-e81c-4040-a2fc-53a50d080890
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨德国19丨 #65'
+  network: tcp
+  port: 22019
+  server: jafi19.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 06957dde-400c-35d8-8e08-b4327b5a41af
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzEyMjMxMDMy
+  obfs: plain
+  obfs-param: MjNmZmQ3MTEubWljcm9zb2Z0LmNvJSXvv70
+  password: mblank1port
+  port: '560'
+  protocol: auth_aes128_md5
+  protocol-param: NDU2NzY6U1ZJUFRJJe+/vQ
+  server: 2cnrelay2.initcloud.pro
+  type: ssr
 - alterId: 64
   cipher: auto
-  name: '德国 Edge #2'
+  name: 德国 Edge
   network: ws
   port: 153
   server: de1.qiangdong.xyz
@@ -2130,21 +2104,151 @@ proxies:
   type: vmess
   uuid: 52c223dd-c6cc-3a0c-b865-9e5e0ddfe10a
   ws-opts:
-    headers:
-      Host: f2348123663.laowanxiang.com
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '德国 059 #2'
+  name: 德国 059
   network: tcp
   port: 8443
   server: 195.201.45.93
   tls: false
   type: vmess
   uuid: cece8ab1-d1d0-4274-e9c4-3451da463ac9
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨德国19丨 #86'
+  network: tcp
+  port: 22019
+  server: jafi19.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: f5a68098-273e-3ce0-942e-2fa853498f81
 - alterId: 0
   cipher: auto
-  name: '德国 042 #2'
+  name: '🇺🇸-美国-104.19.145.95 #18'
+  network: ws
+  port: 443
+  server: 104.19.145.95
+  servername: milad2.sudizo7748.workers.dev
+  tls: true
+  type: vmess
+  uuid: 3445bb7a-7dcb-408e-be51-a8912bad94ea
+  ws-opts:
+    path: /domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨德国19丨 #60'
+  network: tcp
+  port: 22019
+  server: jafi19.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 769193c2-2e3e-3659-8c71-3e1ab6d089b2
+- alterId: 0
+  cipher: auto
+  name: 德国 069
+  network: tcp
+  port: 443
+  server: 91.107.241.189
+  tls: false
+  type: vmess
+  uuid: cca44c8d-ad01-4996-9b82-495eda8dd7c7
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸-美国-hi.murix.de
+  network: ws
+  port: 80
+  server: hi.murix.de
+  tls: false
+  type: vmess
+  uuid: bb8595d3-25f9-4378-8500-64910472cd7e
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 德国 014
+  network: tcp
+  port: 81
+  server: 195.201.45.93
+  tls: false
+  type: vmess
+  uuid: f5f30168-9539-4c71-e2b3-e27725d163b7
+- alterId: 0
+  cipher: auto
+  name: 德国 011
+  network: tcp
+  port: 443
+  server: 159.69.19.101
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 德国 034
+  network: ws
+  port: 2096
+  server: webdw.online
+  tls: false
+  type: vmess
+  uuid: de7db179-abd7-4cda-ea4c-1e1292ad0ee6
+  ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨德国19丨 #77'
+  network: tcp
+  port: 22019
+  server: jafi19.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: d6e863b3-f13f-3052-8eec-78d9c6cb1658
+- alterId: 0
+  cipher: auto
+  name: '德国 041 #1'
+  network: tcp
+  port: 855
+  server: 195.201.45.93
+  tls: false
+  type: vmess
+  uuid: 349bb58c-3cb2-467c-a5ce-c7adecc84045
+- alterId: 0
+  cipher: auto
+  name: 隧道德_72
+  network: tcp
+  port: 20021
+  server: hn-cu.32jr.com
+  tls: false
+  type: vmess
+  uuid: 4d6d0fb1-aa98-4116-be88-01b3bdc102ac
+- alterId: 0
+  cipher: auto
+  name: 德国 009
+  network: tcp
+  port: 443
+  server: 78.47.24.227
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨德国19丨 #48'
+  network: tcp
+  port: 22019
+  server: jafi19.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 4c7da0a5-0fd8-3c68-b973-1c1902e562ea
+- alterId: 0
+  cipher: auto
+  name: '德国 053 #1'
+  network: ws
+  port: 88
+  server: au-ws.magic-catvpn.ga
+  tls: false
+  type: vmess
+  uuid: 0ee70f84-4fa6-40bd-97ca-1a019d175e45
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 德国 042
   network: ws
   port: 47459
   server: de1.netflix6.com
@@ -2154,115 +2258,755 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '德国 009 #5'
-  network: ws
-  port: 8081
-  server: 91.107.241.189
-  tls: false
-  type: vmess
-  uuid: 35acf7b9-051c-4f47-f4ab-fffa99a7ef24
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪-德国-domaindemom4xe.eu-ffa... #1'
-  network: ws
-  port: 443
-  server: domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 3445bb7a-7dcb-408e-be51-a8912bad94ea
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '德国 071 #2'
-  network: tcp
-  port: 443
-  server: 91.107.144.117
-  tls: false
-  type: vmess
-  uuid: cca44c8d-ad01-4996-9b82-495eda8dd7c7
-- alterId: 0
-  cipher: auto
-  name: 'DE_45.77.141.230_04062023989e-... #1'
-  network: tcp
-  port: 5400
-  server: 45.77.141.230
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 227596cc-67a2-4127-e274-b65c196ba52f
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #61'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 617ed0b1-dbd5-3e29-8312-e536a968f5d4
-- alterId: 0
-  cipher: auto
-  name: '德国 038 #2'
-  network: ws
-  port: 443
-  server: 144.76.110.76
-  tls: false
-  type: vmess
-  uuid: 3445bb7a-7dcb-408e-be51-a8912bad94ea
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '德国 044 #2'
-  network: ws
-  port: 8081
-  server: 91.107.144.117
-  tls: false
-  type: vmess
-  uuid: 35acf7b9-051c-4f47-f4ab-fffa99a7ef24
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪-德国-195.201.45.93 #4'
+  name: 🇩🇪-德国-195.201.45.93
   network: tcp
   port: 80
   server: 195.201.45.93
   tls: false
   type: vmess
   uuid: ca58104f-8962-4f39-a92e-dd01123b8ccd
-- alterId: 0
-  cipher: auto
-  name: '隧道德_72 #2'
-  network: tcp
-  port: 20021
-  server: hn-cu.32jr.com
-  tls: false
-  type: vmess
-  uuid: 4d6d0fb1-aa98-4116-be88-01b3bdc102ac
-- alterId: 0
-  cipher: auto
-  name: '德国 064 #2'
-  network: ws
-  port: 8080
-  server: 91.107.144.117
-  tls: false
-  type: vmess
-  uuid: e3879d98-396b-4155-d5a5-f6b64164817d
-  ws-opts: {}
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #69'
+  name: 'Vip1丨德国19丨 #80'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
   tls: false
   type: vmess
-  uuid: 9c898291-d4d5-363d-8ee8-9a01f4af8d49
+  uuid: db07b99d-5eff-33cd-95e1-76d88221d4e1
 - cipher: aes-256-cfb
-  name: '5Lit5Zu9XzEyMjYxMDEw #2'
+  name: '5bm/5Lic55yB5Lic6I6e5biCLTQyLj... #92'
+  obfs: http_simple
+  obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA
+  password: 68xdgu9eyif
+  port: '12127'
+  protocol: auth_aes128_sha1
+  protocol-param: NjAwNzc3OjE1NFQ4Yg
+  server: 42.157.195.235
+  type: ssr
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzEyMDg3MDA
+  obfs: plain
+  obfs-param: ''
+  password: mblank1port
+  port: '563'
+  protocol: auth_aes128_md5
+  protocol-param: MzIzMjk6ZmYxMTIyMzM
+  server: 116.162.120.32
+  type: ssr
+- cipher: aes-256-cfb
+  name: '5Lit5Zu9XzAxMTYxNzEw #1'
+  obfs: tls1.2_ticket_auth
+  obfs-param: MDg5NmM1MTI2LmlrZWEuY29t
+  password: hrkycyiepu
+  port: '30502'
+  protocol: auth_aes128_sha1
+  protocol-param: NTEyNjpYNE1rJe+/vQ
+  server: pro-twb.ginfem.net
+  type: ssr
+- cipher: aes-256-cfb
+  name: '5bm/5Lic55yB5Lic6I6e5biCLTQyLj... #64'
+  obfs: http_simple
+  obfs-param: TUdZd09UazJNREEzTnpjdWRqSXpaamR1VFRB
+  password: 68xdgu9eyif
+  port: '12127'
+  protocol: auth_aes128_sha1
+  protocol-param: NjAwNzc3OjE1NFQ4JSXvv70
+  server: 42.157.195.231
+  type: ssr
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzExMzAzNzE
+  obfs: plain
+  obfs-param: ''
+  password: mblank1port
+  port: '561'
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: 116.162.120.27
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_0324011
+  network: ws
+  port: '8880'
+  server: my.coienx.de
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3d589c52-2f10-4e7f-9243-2a9799238432
+  ws-opts:
+    headers:
+      Host: my.coienx.de
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国_0402177
+  network: tcp
+  port: '29247'
+  server: mm1.filmvaserial.cfd
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 22835730-f8ff-4720-df18-8a16ddb05b4d
+- cipher: aes-128-ctr
+  name: 5Lit5Zu9XzAxMjY2NDE3
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: v0nxhydtt4
+  port: '20001'
+  protocol: auth_aes128_md5
+  protocol-param: MTUxNTg3OjNqYWU4MA
+  server: jupiter.maailman.cyou
+  type: ssr
+- cipher: aes-256-cfb
+  name: 5Lit5Zu9XzExMTA3NjA
+  obfs: http_simple
+  obfs-param: TUdZd09UazJNREEzTnpjdWRqSXpaamR1VFRB
+  password: 68xdgu9eyif
+  port: '12127'
+  protocol: auth_aes128_sha1
+  protocol-param: NjAwNzc3OjE1NFQ4Yg
+  server: 42.157.195.241
+  type: ssr
+- cipher: chacha20-ietf
+  name: 576O5Zu9XzAxMDgzNTI
+  obfs: plain
+  obfs-param: ''
+  password: Hucloud12
+  port: '6983'
+  protocol: auth_sha1_v4
+  protocol-param: ''
+  server: playweb.ml
+  type: ssr
+- cipher: chacha20-ietf
+  name: '5Lit5Zu9XzEyMTQwNTQ #1'
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: '561'
+  protocol: auth_aes128_md5
+  protocol-param: NDUwMjpTVklQVElaOA
+  server: 116.162.120.27
+  type: ssr
+- cipher: aes-256-cfb
+  name: '5bm/5Lic55yB5Lic6I6e5biCLTQyLj... #99'
+  obfs: http_simple
+  obfs-param: TUdZd09UazJNREEzTnpjdWRqSXpaamR1VFRB
+  password: 68xdgu9eyif
+  port: '12127'
+  protocol: auth_aes128_sha1
+  protocol-param: NjAwNzc3OjE1NFQ4Yg
+  server: 42.157.195.245
+  type: ssr
+- cipher: aes-256-cfb
+  name: '5bm/5Lic55yB5Lic6I6e5biCLTQyLj... #91'
+  obfs: http_simple
+  obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA
+  password: 68xdgu9eyif
+  port: '12127'
+  protocol: auth_aes128_sha1
+  protocol-param: NjAwNzc3OjE1NFQ4Yg
+  server: 42.157.195.234
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_0403287
+  network: tcp
+  port: '855'
+  server: 88.198.122.139
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 349bb58c-3cb2-467c-a5ce-c7adecc84045
+- alterId: 4
+  cipher: auto
+  name: 🇩🇪-德国-deguo.kctr2038.icu
+  network: ws
+  port: '45831'
+  server: deguo.kctr2038.icu
+  tls: false
+  type: vmess
+  uuid: 5d27c07e-ad30-4dbf-a6bb-1fc0fa87f70a
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 德国_0314019
+  network: tcp
+  port: '8881'
+  server: 143.42.21.248
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzExMzA4MjE
+  obfs: plain
+  obfs-param: ''
+  password: mblank1port
+  port: '561'
+  protocol: auth_aes128_md5
+  protocol-param: NTE4MDk6MTExMTEx
+  server: 116.162.120.27
+  type: ssr
+- cipher: chacha20-ietf
+  name: '5Lit5Zu9XzEyMDg2ODU #1'
+  obfs: plain
+  obfs-param: MjNmZmQ3MTEubWljcm9zb2Z0LmNvbQ
+  password: mblank1port
+  port: '561'
+  protocol: auth_aes128_md5
+  protocol-param: NjM4MDk6U1ZJUFRJWjg
+  server: usstand2.eucdurl.me
+  type: ssr
+- cipher: chacha20-ietf
+  name: '5Lit5Zu9XzEyMjgxMTk2 #1'
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: jL76UJd
+  port: '40112'
+  protocol: auth_aes128_sha1
+  protocol-param: Nzk2MzI6ZDJrMDc4Y2x4ZmE
+  server: bf98.cdn.node.a.ddns-ounk.com
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_0328007
+  network: ws
+  port: '8080'
+  server: 52.28.158.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e6383b10-a368-4433-bcdf-79d2b5e173af
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国-3.120.248.17
+  network: ws
+  port: '8080'
+  server: 3.120.248.17
+  tls: false
+  type: vmess
+  uuid: f9605fe5-dec0-4043-cbb7-1a1e0e3ecb63
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国_0322024
+  network: tcp
+  port: '15447'
+  server: 142.93.167.90
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f5a7887d-afbe-4414-f07e-5d0de462ce0e
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzAxMTQxMTI
+  obfs: plain
+  obfs-param: ''
+  password: mblank1port
+  port: '561'
+  protocol: auth_aes128_md5
+  protocol-param: MjE4MDU6Z3VqZ2pqZzg2ODZMTA
+  server: 116.162.120.31
+  type: ssr
+- cipher: aes-256-cfb
+  name: 5Lit5Zu9XzEyMjg3ODg
+  obfs: http_simple
+  obfs-param: MGYwOTk2MDA3NzcudjIzZjduJe+/vQ
+  password: 68xdgu9eyif
+  port: '12127'
+  protocol: auth_aes128_sha1
+  protocol-param: NjAwNzc3OjE1NFQ4JSXvv70
+  server: 14.152.92.78
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国【付费推荐：https://tt.vg/vip】197
+  network: ws
+  port: '8080'
+  server: kiava.swanndvr.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e6383b10-a368-4433-bcdf-79d2b5e173af
+  ws-opts:
+    headers:
+      Host: kiava.swanndvr.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国_0330171
+  network: tcp
+  port: '8443'
+  server: 91.107.142.190
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cc9067c9-c9fe-4239-f08c-26cf48fab629
+- alterId: 0
+  cipher: auto
+  name: 德国_0327024
+  network: ws
+  port: '8080'
+  server: de-cd.duckdns.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6858c722-f5eb-455c-bf9d-132dfa230c55
+  ws-opts:
+    headers:
+      Host: sptest.hostiran.net.prod.hosts.ooklaserver.net
+    path: /
+- cipher: chacha20-ietf
+  name: 6aaZ5rivXzExMTA0NTQ
+  obfs: plain
+  obfs-param: ''
+  password: mblank1port
+  port: '543'
+  protocol: auth_aes128_md5
+  protocol-param: NTEzNjE6NjdtZklUb0w4NFBuWnEwZA
+  server: 42.98.27.183
+  type: ssr
+- cipher: aes-256-cfb
+  name: '5Lit5Zu9XzAxMTQxNTc4 #1'
+  obfs: http_simple
+  obfs-param: MGYwOTk2MDA3NzcudjIzZjduJe+/vQ
+  password: 68xdgu9eyif
+  port: '12127'
+  protocol: auth_aes128_sha1
+  protocol-param: NjAwNzc3OjE1NFQ4JSXvv70
+  server: 42.157.195.239
+  type: ssr
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzAxMDI5MDk
+  obfs: http_simple
+  obfs-param: YjliZTE0MDIxLm1pY3Jvc29mdC5jb20
+  password: zztw9jk7gu
+  port: '30891'
+  protocol: auth_aes128_sha1
+  protocol-param: NDAyMTp5V0hBQnY
+  server: adns.defucloud.shop
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国-3.121.174.133
+  network: ws
+  port: '8080'
+  server: 3.121.174.133
+  tls: false
+  type: vmess
+  uuid: fd494398-ae13-452b-d255-e491b51adfa0
+  ws-opts:
+    headers:
+      Host: sptest.hostiran.net.prod.hosts.ooklaserver.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国_0224122
+  network: tcp
+  port: '855'
+  server: 91.107.176.32
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e087f34e-0f0d-4b0e-867f-e2fe2ebf536a
+- cipher: aes-256-cfb
+  name: '5Lit5Zu9XzEyMjgxNjk2 #1'
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: di15PV
+  port: '6305'
+  protocol: auth_aes128_md5
+  protocol-param: MjEwODEwOjEzNDcxMXdhbg
+  server: 183.60.211.71
+  type: ssr
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzAxMTAxMTk2
+  obfs: http_simple
+  obfs-param: YjliZTE0MDIxLm1pY3Jvc29mdC5jJe+/vQ
+  password: zztw9jk7gu
+  port: '32012'
+  protocol: auth_aes128_sha1
+  protocol-param: NDAyMTp5V0hBJe+/vQ
+  server: ddns.defucloud.me
+  type: ssr
+- cipher: chacha20-ietf
+  name: '576O5Zu9XzAxMDQ0NTk #1'
+  obfs: plain
+  obfs-param: ''
+  password: Hucloud12
+  port: '6983'
+  protocol: auth_sha1_v4
+  protocol-param: ''
+  server: 3.92.205.245
+  type: ssr
+- cipher: aes-256-cfb
+  name: '576O5Zu9XzEyMjMxMTAz #1'
+  obfs: plain
+  obfs-param: ''
+  password: 9d6cceaa373bf2c8acb22e60b6a58be6
+  port: '443'
+  protocol: origin
+  protocol-param: ''
+  server: 45.33.88.190
+  type: ssr
+- cipher: chacha20-ietf
+  name: '5Lit5Zu9XzEyMjM5NzM #1'
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: '561'
+  protocol: auth_aes128_md5
+  protocol-param: NDUwMjpTVklQVElaOA
+  server: 120.240.163.163
+  type: ssr
+- alterId: 64
+  cipher: auto
+  name: 🇩🇪-德国-89.163.157.146
+  network: ws
+  port: '443'
+  server: 89.163.157.146
+  tls: false
+  type: vmess
+  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
+  ws-opts:
+    path: /path/220128071100
+- alterId: 0
+  cipher: auto
+  name: 德国_0320025
+  network: tcp
+  port: '8080'
+  server: 78.46.238.119
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 33abd052-1858-4c7e-99b9-793bfc8adb9b
+- alterId: 0
+  cipher: auto
+  name: 德国_0330174
+  network: ws
+  port: '8081'
+  server: 91.107.142.190
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ad0e4358-1cfb-4aac-f53d-5ddc6abbc36d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /@hashmakvpn 🇩🇪
+- cipher: chacha20-ietf
+  name: 'MTIwLjE5OC43MS4xNDE= #4'
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ=
+  password: mblank1port
+  port: '561'
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: 120.198.71.141
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_0330168
+  network: tcp
+  port: '443'
+  server: 91.107.142.190
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b927e34b-e8bb-4238-e2e6-6f8cb46cb011
+- alterId: 0
+  cipher: auto
+  name: 德国_0327023
+  network: tcp
+  port: '17580'
+  server: 88.198.201.128
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 253bfd24-755f-411e-98f4-bba3a8aa0ea0
+- cipher: aes-256-cfb
+  name: '5Lit5Zu9XzEyMzA2OTQ #1'
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: di15PV
+  port: '2603'
+  protocol: auth_aes128_md5
+  protocol-param: MjEwODEwOjEzNDcxMXdhbg
+  server: 183.60.211.71
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_0325053
+  network: ws
+  port: '2052'
+  server: 91.107.142.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e526a74d-1e43-4e76-8904-749f946640cd
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzEyMjMxNDE2
+  obfs: plain
+  obfs-param: ''
+  password: mblank1port
+  port: '566'
+  protocol: auth_aes128_md5
+  protocol-param: NDU2NzY6U1ZJUFRJWjg
+  server: cncutw2.eucdurl.me
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_0324025
+  network: tcp
+  port: '443'
+  server: 128.140.0.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 德国_0331024
+  network: tcp
+  port: '443'
+  server: 167.235.62.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国-80.94.83.75
+  network: ws
+  port: '443'
+  server: 80.94.83.75
+  tls: false
+  type: vmess
+  uuid: 20D2D265-F8E9-4B71-860F-181F5B54C489
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 德国_0330170
+  network: tcp
+  port: '81'
+  server: 91.107.142.190
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c6d3c9b4-4b32-4335-e497-5bad241578ba
+- alterId: 0
+  cipher: auto
+  name: 德国_0326187
+  network: ws
+  port: '47447'
+  server: de1.netflix6.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 90a9fa37-cbae-3b06-a2b8-e3879d01fc59
+  ws-opts:
+    headers:
+      Host: de1.netflix6.com
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 德国_0310016
+  network: tcp
+  port: '443'
+  server: 91.107.237.170
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- cipher: chacha20-ietf
+  name: '5Lit5Zu9XzEyMjM5NzU #1'
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: '562'
+  protocol: auth_aes128_md5
+  protocol-param: NDUwMjpTVklQVElaOA
+  server: 116.162.120.38
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_0224129
+  network: tcp
+  port: '443'
+  server: 167.235.156.25
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 德国_0330169
+  network: tcp
+  port: '80'
+  server: 91.107.142.190
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 66da57a5-41b6-405d-f547-fc6e5660410d
+- alterId: 0
+  cipher: auto
+  name: 德国_0314065
+  network: tcp
+  port: '443'
+  server: 91.107.131.201
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c9316a0f-37e8-4b6b-d55d-291882987999
+- alterId: 0
+  cipher: auto
+  name: 德国 巴伐利亚州纽伦堡Hetzner数据中心
+  network: ws
+  port: '36998'
+  server: srv2.pouyaa.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 28adccb5-5eab-4031-89e2-db36a070422d
+  ws-opts:
+    headers:
+      Host: srv2.pouyaa.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国_0316165
+  network: tcp
+  port: '8080'
+  server: 3.68.187.239
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2723e7f3-c22d-45e1-d225-dacfa6fdeedd
+- cipher: aes-128-ctr
+  name: 5Lit5Zu9XzAxMjY2NDE4
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: v0nxhydtt4
+  port: '20002'
+  protocol: auth_aes128_md5
+  protocol-param: MTUxNTg3OjNqYWU4MA
+  server: neptune.maailman.cyou
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_0312016
+  network: tcp
+  port: '8443'
+  server: 18.159.62.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 344febbc-c651-4355-cf2d-4c047f897fa6
+- alterId: 0
+  cipher: auto
+  name: 德国_0327049
+  network: ws
+  port: '8080'
+  server: kiava-d2.duckdns.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9605fe5-dec0-4043-cbb7-1a1e0e3ecb63
+  ws-opts:
+    headers:
+      Host: kiava-d2.duckdns.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国_0310049
+  network: tcp
+  port: '80'
+  server: 35.158.232.96
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6558575e-baa8-4dc7-b6a8-69578c27dbdb
+- alterId: 0
+  cipher: auto
+  name: 德国_0310091
+  network: tcp
+  port: '22222'
+  server: 116.202.6.102
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 55ba4fca-fe2d-469b-a8c5-8fdd20174eee
+- alterId: 0
+  cipher: auto
+  name: 德国_0318023
+  network: tcp
+  port: '35352'
+  server: 94.177.225.5
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0cc91298-a77d-483b-a079-2716111379b6
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国-ns7-de.dvrlists.com
+  network: ws
+  port: '8080'
+  server: ns7-de.dvrlists.com
+  tls: false
+  type: vmess
+  uuid: 4831b5e2-8cca-4691-a5d1-78d24a7dd407
+  ws-opts:
+    headers:
+      Host: sptest.hostiran.net.prod.hosts.ooklaserver.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国_1204050
+  network: ws
+  port: '24748'
+  server: 35.156.177.79
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 413f1279-4c68-4350-c731-dcac4cc693ed
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国_0326021
+  network: tcp
+  port: '22942'
+  server: 164.92.237.89
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 573f30f2-68c8-4907-8022-e5c4eca95dbd
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国-dga2.6bbt.tk
+  network: ws
+  port: '443'
+  server: dga2.6bbt.tk
+  tls: false
+  type: vmess
+  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
+  ws-opts:
+    headers:
+      Host: 6bbt.tk
+    path: /6bbt.tk
+- cipher: aes-256-cfb
+  name: '5Lit5Zu9XzEyMjYxMDEw #1'
   obfs: http_simple
   obfs-param: ''
   password: 68xdgu9eyif
@@ -2273,7 +3017,97 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: '德国 041 #5'
+  name: 德国_0320171
+  network: ws
+  port: '27443'
+  server: de1.netflix6.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 168beb38-4172-3b52-bec4-91eaaa2954ff
+  ws-opts:
+    headers:
+      Host: de1.netflix6.com
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 德国_0330172
+  network: tcp
+  port: '855'
+  server: 91.107.142.190
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fcf8b461-e551-4475-8f2d-191c037cc0cc
+- alterId: 0
+  cipher: auto
+  name: 德国_0226104
+  network: tcp
+  port: '443'
+  server: 168.119.115.72
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 德国_0222133
+  network: tcp
+  port: '8443'
+  server: 91.107.176.32
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1f292053-c964-426c-fde9-04bf7a12cfd2
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨德国19丨 #69'
+  network: tcp
+  port: 22019
+  server: jafi19.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 326ddcd9-b338-3acd-8949-9ea70c8b2be3
+- alterId: 0
+  cipher: auto
+  name: '德国 071 #1'
+  network: tcp
+  port: 443
+  server: 91.107.144.117
+  tls: false
+  type: vmess
+  uuid: cca44c8d-ad01-4996-9b82-495eda8dd7c7
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨德国19丨 #55'
+  network: tcp
+  port: 22019
+  server: jafi19.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 617ed0b1-dbd5-3e29-8312-e536a968f5d4
+- alterId: 0
+  cipher: auto
+  name: '德国 044 #1'
+  network: ws
+  port: 8081
+  server: 91.107.144.117
+  tls: false
+  type: vmess
+  uuid: 35acf7b9-051c-4f47-f4ab-fffa99a7ef24
+  ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨德国19丨 #63'
+  network: tcp
+  port: 22019
+  server: jafi19.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 9c898291-d4d5-363d-8ee8-9a01f4af8d49
+- alterId: 0
+  cipher: auto
+  name: '德国 041 #2'
   network: ws
   port: 13795
   server: irc1227.we4all2me.shop
@@ -2283,7 +3117,7 @@ proxies:
   ws-opts: {}
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #84'
+  name: 'Vip1丨德国19丨 #78'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -2292,262 +3126,22 @@ proxies:
   uuid: d803e4b5-77e0-31be-86c0-dd8dc67a4557
 - alterId: 0
   cipher: auto
-  name: '德国 034 #2'
-  network: ws
-  port: 2096
-  server: webdw.online
-  tls: false
-  type: vmess
-  uuid: de7db179-abd7-4cda-ea4c-1e1292ad0ee6
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '德国_0407184 #1'
-  network: tcp
-  port: '855'
-  server: 91.107.246.131
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 349bb58c-3cb2-467c-a5ce-c7adecc84045
-- alterId: 0
-  cipher: auto
-  name: '德国_0407180 #1'
-  network: tcp
-  port: '443'
-  server: 91.107.246.131
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cca44c8d-ad01-4996-9b82-495eda8dd7c7
-- alterId: 0
-  cipher: auto
-  name: '德国_0407034 #1'
-  network: tcp
-  port: '443'
-  server: 167.235.65.232
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- alterId: 0
-  cipher: auto
-  name: '德国 009 #4'
-  network: tcp
-  port: 443
-  server: 78.47.24.227
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- alterId: 0
-  cipher: auto
-  name: '德国 053 #2'
+  name: '德国 053 #3'
   network: tcp
   port: 50813
   server: 64.226.96.134
   tls: false
   type: vmess
   uuid: 3eeed142-8169-477e-df1b-459a27ab3242
-- alterId: 0
-  cipher: auto
-  name: '德国 067 #2'
-  network: tcp
-  port: 43710
-  server: 142.93.167.90
-  tls: false
-  type: vmess
-  uuid: 65eafafa-d8b9-452a-943d-d2e7cfdad77d
-- alterId: 0
-  cipher: auto
-  name: '德国 040 #1'
-  network: http
-  port: 22301
-  server: 91.107.244.178
-  tls: false
-  type: vmess
-  uuid: 176ed834-75dc-4e4c-a536-f05479b39b3c
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪-德国-195.201.45.93 #3'
-  network: tcp
-  port: '443'
-  server: 195.201.45.93
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cca44c8d-ad01-4996-9b82-495eda8dd7c7
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪-德国-159.69.208.90 #1'
-  network: tcp
-  port: '443'
-  server: 159.69.208.90
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- alterId: 0
-  cipher: auto
-  name: '德国 014 #2'
-  network: tcp
-  port: 81
-  server: 195.201.45.93
-  tls: false
-  type: vmess
-  uuid: f5f30168-9539-4c71-e2b3-e27725d163b7
-- alterId: 0
-  cipher: auto
-  name: '德国 066 #2'
-  network: ws
-  port: 31982
-  server: deguo.kctr2038.icu
-  tls: false
-  type: vmess
-  uuid: 895eff47-4efa-4f60-9aaf-40e4edd05bcf
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '德国 023 #2'
-  network: ws
-  port: 8080
-  server: 172.105.0.66
-  tls: false
-  type: vmess
-  uuid: 95a17ae9-207d-4f63-b5f2-c00430bee1bb
-  ws-opts: {}
-- alterId: 64
-  cipher: auto
-  name: '德国 043 #2'
-  network: ws
-  port: 443
-  server: 51.38.110.143
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts: {}
 - alterId: 2
   cipher: auto
-  name: '德国 036 #2'
-  network: ws
-  port: 443
-  server: ls2.pcshushu.xyz
-  tls: false
-  type: vmess
-  uuid: 4e6b0b0f-1b35-3be3-b16c-b8304bb1e50a
-  ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #88'
+  name: 'Vip1丨德国19丨 #82'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
   tls: false
   type: vmess
   uuid: dbfbbd9b-e741-36bc-8ab0-3488adac5064
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE(AzadNet.t.me)_4
-  network: ws
-  port: '80'
-  server: 168.119.58.112
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e42d68db-4297-4c17-b5cf-44d421aef400
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '德国 037 #2'
-  network: ws
-  port: 47023
-  server: deguo.kctr2038.icu
-  tls: false
-  type: vmess
-  uuid: 895eff47-4efa-4f60-9aaf-40e4edd05bcf
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪-德国-159.69.19.101 #1'
-  network: tcp
-  port: '443'
-  server: 159.69.19.101
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- alterId: 0
-  cipher: auto
-  name: '德国 069 #2'
-  network: tcp
-  port: 443
-  server: 91.107.241.189
-  tls: false
-  type: vmess
-  uuid: cca44c8d-ad01-4996-9b82-495eda8dd7c7
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪86@oneclickvpnkeys #1'
-  network: tcp
-  port: '443'
-  server: 37.27.7.86
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- alterId: 0
-  cipher: auto
-  name: '德国 055 #2'
-  network: ws
-  port: 8880
-  server: 91.107.242.127
-  tls: false
-  type: vmess
-  uuid: 3d589c52-2f10-4e7f-9243-2a9799238432
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪-德国-webdw.online-Worker-GEN #2'
-  network: ws
-  port: 443
-  server: 104.19.145.95
-  servername: milad2.sudizo7748.workers.dev
-  tls: true
-  type: vmess
-  uuid: de7db179-abd7-4cda-ea4c-1e1292ad0ee6
-  ws-opts:
-    path: /webdw.online:2096/
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪DE-51.75.70.34-22970-Work... #2'
-  network: ws
-  port: 443
-  server: 104.19.145.95
-  servername: milad2.sudizo7748.workers.dev
-  tls: true
-  type: vmess
-  uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
-  ws-opts:
-    path: /goodfamily19.site:443/wmzmvws
-- alterId: 0
-  cipher: auto
-  name: '德国 035 #2'
-  network: ws
-  port: 45533
-  server: 188.34.159.157
-  tls: false
-  type: vmess
-  uuid: 9a6f9a10-e0f9-4d0a-d48d-d095d147e66f
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '德国 041 #4'
-  network: tcp
-  port: 855
-  server: 195.201.45.93
-  tls: false
-  type: vmess
-  uuid: 349bb58c-3cb2-467c-a5ce-c7adecc84045
 - alterId: 0
   cipher: auto
   name: '德国 012 #2'
@@ -2558,15 +3152,6 @@ proxies:
   type: vmess
   uuid: c9defc63-6646-4fff-b03d-acb20eac45cf
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '德国 033 #1'
-  network: http
-  port: 22301
-  server: wew.rest8746.ml
-  tls: false
-  type: vmess
-  uuid: 176ed834-75dc-4e4c-a536-f05479b39b3c
 - cipher: aes-256-cfb
   name: 5Lit5Zu9XzEyMjg3ODk
   obfs: http_simple
@@ -2579,7 +3164,7 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: '🇩🇪 德国｜隧道 01 - 爱猫论坛 #2'
+  name: '🇩🇪 德国｜隧道 01 - 爱猫论坛 #1'
   network: tcp
   port: 36016
   server: 42.7.24.12
@@ -2588,7 +3173,7 @@ proxies:
   uuid: 460a2103-d051-345d-8154-b696875bbed4
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #63'
+  name: 'Vip1丨德国19丨 #57'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -2597,7 +3182,7 @@ proxies:
   uuid: 6738c25a-d929-3319-8119-b7427b6f3d96
 - alterId: 0
   cipher: auto
-  name: '德国 032 #1'
+  name: '德国 032 #2'
   network: tcp
   port: 26901
   server: 00000000000000000000000000000000000000000000000000000000000011a.node-for-bigairport.win
@@ -2614,20 +3199,621 @@ proxies:
   protocol-param: NjAwNzc3OjE1NFQ4JSXvv70
   server: 14.152.92.77
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_0320026
+  network: tcp
+  port: '80'
+  server: 116.203.15.238
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9db058d4-0520-4617-d8a5-836f3a6b6b33
+- alterId: 0
+  cipher: auto
+  name: 德国_0318025
+  network: tcp
+  port: '443'
+  server: 167.235.238.239
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- cipher: chacha20-ietf
+  name: '5Lit5Zu9XzEyMjMxNDE0 #1'
+  obfs: http_simple
+  obfs-param: OTE3ODgzOTU4Ny5taWNyb3NvZnQuY29t
+  password: lbNVOz
+  port: '7000'
+  protocol: auth_aes128_md5
+  protocol-param: Mzk1ODc6dGlpanY1
+  server: iplc3.npo.red
+  type: ssr
+- cipher: chacha20-ietf
+  name: '5Lit5Zu9XzAxMDQwMDE #1'
+  obfs: http_simple
+  obfs-param: ZTVhYjAzNC5taWNyb3NvZnQuY29t
+  password: zztw9jk7gu
+  port: '23018'
+  protocol: auth_aes128_sha1
+  protocol-param: MzQ6RHJEWFhv
+  server: 42.237.112.208
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_0310096
+  network: ws
+  port: '10000'
+  server: 213.202.216.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0da1d040-bdd4-11ed-8233-00163c082f65
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vpnjantit
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzEyMjgxODEx
+  obfs: plain
+  obfs-param: MjNmZmQ3MTEubWljcm9zb2Z0LmNvbQ
+  password: mblank1port
+  port: '562'
+  protocol: auth_aes128_md5
+  protocol-param: MTUxOTQ6U1ZJUFRJWjg
+  server: inlayer7.standurls.co
+  type: ssr
+- cipher: aes-256-cfb
+  name: '5Lit5Zu9XzExMDg0NDE #1'
+  obfs: tls1.2_ticket_auth
+  obfs-param: 77+9a++/ve+/vTc177+977+9MO+/vWrvv713bmxvZ++/vXdpbmrvv713ee+/vXLvv71277+977+9b20
+  password: 9ifast
+  port: '761'
+  protocol: auth_aes128_md5
+  protocol-param: 77+927nvv73vv71677+9Gu+/ve+/ve+/vQ
+  server: vphk-8.gito.cc
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国 V2CROSS.COM
+  network: ws
+  port: 10000
+  server: 213.202.216.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaec9a3e-b275-11ed-b3af-00163c082f65
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: 德国_0315061
+  network: tcp
+  port: '81'
+  server: 91.107.131.201
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 77818e90-ed4b-4ec5-9c21-5fff806e86a6
+- alterId: 0
+  cipher: auto
+  name: 德国_0315017
+  network: tcp
+  port: '855'
+  server: 91.107.131.201
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8bdbcc26-2f2b-48b4-caae-acf875cd7407
+- alterId: 0
+  cipher: auto
+  name: 德国_0310244
+  network: tcp
+  port: '57853'
+  server: 140.82.39.119
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6790027d-a2b6-41fe-b2bb-9bcdbd292f16
+- alterId: 0
+  cipher: auto
+  name: 德国_0310093
+  network: tcp
+  port: '8080'
+  server: 3.126.120.201
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b748cb80-d752-4300-cac8-af23b0545ab6
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国-11de.networklinkpro.net
+  network: ws
+  port: '15357'
+  server: 11de.networklinkpro.net
+  tls: false
+  type: vmess
+  uuid: 50452f3e-f904-42b0-a21f-a690552bb4f6
+  ws-opts:
+    headers:
+      Host: 11de.networklinkpro.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国_0310048
+  network: tcp
+  port: '80'
+  server: 3.77.53.114
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f934e91a-6109-4e02-c19a-264babea79ca
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzEyMjI3MDE
+  obfs: plain
+  obfs-param: ''
+  password: mblank1port
+  port: '565'
+  protocol: auth_aes128_md5
+  protocol-param: NDU2NzY6U1ZJUFRJJe+/vQ
+  server: cncutw2.eucdurl.me
+  type: ssr
+- cipher: chacha20-ietf
+  name: '5Lit5Zu9XzAxMDExNzU5 #1'
+  obfs: http_simple
+  obfs-param: YjliZTE0MDIxLm1pY3Jvc29mdC5jb20
+  password: zztw9jk7gu
+  port: '32013'
+  protocol: auth_aes128_sha1
+  protocol-param: NDAyMTp5V0hBQnY
+  server: ddns.defucloud.me
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_0314021
+  network: tcp
+  port: '8080'
+  server: 35.158.214.46
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: deb426d8-375e-4c78-dbfa-6d3428b7896b
+- cipher: chacha20-ietf
+  name: '5Lit5Zu9XzEyMjIwODQ #1'
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: '561'
+  protocol: auth_aes128_md5
+  protocol-param: NDUwMjpTVklQVElaOA
+  server: 116.162.120.38
+  type: ssr
+- cipher: chacha20-ietf
+  name: 'aWVwbDEubm5vb2RkZWUueHl6 #1'
+  obfs: http_simple
+  obfs-param: YTA5NzMzNzU4Lm1pY3Jvc29mdC5jb20=
+  password: cxssr911
+  port: '2011'
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: iepl1.nnooddee.xyz
+  type: ssr
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzAxMjQyOTEw
+  obfs: http_simple
+  obfs-param: YjliZTE0MDIxLm1pY3Jvc29mdC5jb20
+  password: zztw9jk7gu
+  port: '32986'
+  protocol: auth_aes128_sha1
+  protocol-param: NDAyMTp5V0hBQnY
+  server: adns.defucloud.shop
+  type: ssr
+- cipher: chacha20-ietf
+  name: 5Lit5Zu9XzAxMDExNjU0
+  obfs: http_simple
+  obfs-param: YjliZTE0MDIxLm1pY3Jvc29mdC5jJe+/vQ
+  password: zztw9jk7gu
+  port: '30918'
+  protocol: auth_aes128_sha1
+  protocol-param: NDAyMTp5V0hBJe+/vQ
+  server: ddns.defucloud.me
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_0222127
+  network: tcp
+  port: '443'
+  server: 116.202.102.234
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 德国_0222131
+  network: tcp
+  port: '443'
+  server: 91.107.176.32
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f5ec445c-44ef-4db0-b5b4-d71268d5b63a
+- cipher: chacha20-ietf
+  name: dXNzdGFuZDEuZXVjZHVybC5tZQ==
+  obfs: plain
+  obfs-param: MjNmZmQ3MTEubWljcm9zb2Z0LmNvbQ==
+  password: mblank1port
+  port: '560'
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: usstand1.eucdurl.me
+  type: ssr
+- cipher: chacha20-ietf
+  name: '5Lit5Zu9XzAxMDExNzQw #1'
+  obfs: http_simple
+  obfs-param: YjliZTE0MDIxLm1pY3Jvc29mdC5jb20
+  password: zztw9jk7gu
+  port: '32019'
+  protocol: auth_aes128_sha1
+  protocol-param: NDAyMTp5V0hBQnY
+  server: ddns.defucloud.me
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_0314168
+  network: ws
+  port: '15443'
+  server: de1.netflix6.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 61176083-1cca-3f59-8636-0263bf43c409
+  ws-opts:
+    headers:
+      Host: de1.netflix6.com
+    path: /v2ray
+- cipher: chacha20-ietf
+  name: '5bm/5Lic55yB5bm/5bee5biCLWNtMD... #1'
+  obfs: plain
+  obfs-param: Vm0xMGEwNUdWWGhWYmxKWFlURndUMVpyV25kV1JscHlWbTFHVmxKdGVGbFVWbVIzWWtaS2MxTnNaRmRTYkVwSVdWUkdTbVF4WkhOaVJtUlRaV3hhTmxkV1dsWmtNbEYzVGxaV1ZHSkhhSEJXYTFwaFZrWmtjbGR0Um1waVZscFhWREZhYzFac1ZsVk5SR3M=
+  password: jFa4F1
+  port: '5703'
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: cm01.newcome.xyz
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国-detls4.goloo.icu
+  network: tcp
+  port: '8880'
+  server: detls4.goloo.icu
+  tls: false
+  type: vmess
+  uuid: c9c27130-e057-4264-be86-5a4381ee9014
+- alterId: 0
+  cipher: auto
+  name: 德国_0310094
+  network: tcp
+  port: '32'
+  server: 116.202.6.102
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e0d875f3-0992-437d-f284-5fe1c3db5614
+- alterId: 0
+  cipher: auto
+  name: 德国_0310051
+  network: tcp
+  port: '443'
+  server: 91.107.228.178
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 德国_0112198
+  network: ''
+  port: '443'
+  server: 5.75.174.227
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 德国_0316025
+  network: tcp
+  port: '8080'
+  server: 18.184.33.85
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 78132261-0b71-4e08-874d-cfd5dac6a3ba
+- alterId: 0
+  cipher: auto
+  name: 德国_0220153
+  network: ws
+  port: '8082'
+  server: 91.107.171.113
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dddea2dc-3493-4bef-b25f-e9a30f8522ab
+  ws-opts:
+    headers:
+      Host: ''
+    path: /@hashmakvpn 🇩🇪
+- cipher: aes-256-cfb
+  name: 'ejAwMDEuc2VjdXJpdHktY2xvdWRmcm... #1'
+  obfs: http_simple
+  obfs-param: ''
+  password: YpX2opBbrfqJzzMs
+  port: '42833'
+  protocol: origin
+  protocol-param: ''
+  server: z0001.security-cloudfront-cdn.com
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_0220131
+  network: ws
+  port: '8080'
+  server: 91.107.171.113
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4737ece-f41d-42f2-ef9a-5f0f29d43dbe
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /@hashmakvpn 🇩🇪
+- alterId: 0
+  cipher: auto
+  name: 德国_0314020
+  network: tcp
+  port: '8080'
+  server: 18.193.3.76
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 78bf9fe4-70c6-4681-d999-bf5e46df17eb
+- alterId: 0
+  cipher: auto
+  name: 德国_0312015
+  network: ws
+  port: '10000'
+  server: 212.227.228.91
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 77ac99fc-bdd4-11ed-bd74-0f8d25d3b7fa
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: 德国_0310088
+  network: tcp
+  port: '8443'
+  server: 18.193.71.156
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ed6f61c-c315-4da5-a513-dbc2766ba066
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国-195.201.251.124
+  network: ws
+  port: '11111'
+  server: 195.201.251.124
+  tls: false
+  type: vmess
+  uuid: fc1ce0c1-248d-4dbf-9c61-f1839490447d
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 德国_0226105
+  network: tcp
+  port: '443'
+  server: 167.235.132.236
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 4
+  cipher: auto
+  name: 🇩🇪-德国-srv2.pouyaa.xyz
+  network: ws
+  port: '42886'
+  server: srv2.pouyaa.xyz
+  tls: false
+  type: vmess
+  uuid: f3835baf-0ff7-444b-ba20-cdfaf704e858
+  ws-opts: {}
+- cipher: chacha20-ietf
+  name: 'MTIwLjE5OC43MS4xNDE= #3'
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ=
+  password: mblank1port
+  port: '560'
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: 120.198.71.141
+  type: ssr
+- alterId: 4
+  cipher: auto
+  name: '🇩🇪-德国-srv2.pouyaa.xyz #1'
+  network: ws
+  port: '45856'
+  server: srv2.pouyaa.xyz
+  tls: false
+  type: vmess
+  uuid: cd61723b-8a4e-4132-8b03-2f5b49efb48c
+  ws-opts: {}
+- alterId: 32
+  cipher: auto
+  name: 🇩🇪-德国-159.69.181.133
+  network: tcp
+  port: '443'
+  server: 159.69.181.133
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国-fra-arm1.egg.run
+  network: ws
+  port: '80'
+  server: fra-arm1.egg.run
+  tls: false
+  type: vmess
+  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
+  ws-opts:
+    headers:
+      Host: fra-arm1.egg.run
+    path: fra-arm1.egg.run/
+- alterId: 0
+  cipher: auto
+  name: 德国_1209019
+  network: ws
+  port: '443'
+  server: 130.61.187.26
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 16
+  cipher: auto
+  name: 🇩🇪 德国_1208028
+  network: ws
+  port: '80'
+  server: 116.203.188.159
+  tls: false
+  type: vmess
+  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /opentunnel?user=opentunnel.net-as
 - alterId: 64
   cipher: auto
-  name: 🇩🇪 德国 002
+  name: 🇩🇪 德国_1208015
+  network: ws
+  port: '443'
+  server: 93.186.201.86
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.29117898.xyz
+    path: /path/243535322906
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国_1204077
+  network: tcp
+  port: '1001'
+  server: de1.tejiewm.com
+  tls: false
+  type: vmess
+  uuid: 273b1302-3f63-4ef0-b520-d01545166d71
+- alterId: 0
+  cipher: auto
+  name: 德国_1206060
+  network: tcp
+  port: '26901'
+  server: 00000000000000000000000000000000000000000000000000000000000011a.node-for-bigairport.win
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+- alterId: 64
+  cipher: auto
+  name: 德国_1208009
   network: ws
   port: '443'
   server: 89.163.155.5
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
       Host: www.45237996.xyz
     path: /path/243535322906
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国-195.201.24.247
+  network: ws
+  port: '80'
+  server: 195.201.24.247
+  tls: false
+  type: vmess
+  uuid: 4c3fb737-de59-4b78-a66f-5f4f039252a4
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇩🇪 德国_1208023
+  network: ws
+  port: '443'
+  server: de.wespanl.club
+  tls: true
+  type: vmess
+  uuid: 4f55901a-626f-3df4-be38-dfa35785355d
+  ws-opts:
+    headers:
+      Host: de.wespanl.club
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: DE_AzadNet
+  network: ws
+  port: '35855'
+  server: 188.34.159.186
+  tls: false
+  type: vmess
+  uuid: 97e8fba7-327a-4752-8aca-043858a7e518
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 [VMess] 🇩🇪 DE【付费推荐：goo.gs/v...
+  network: ws
+  port: '80'
+  server: 47.91.78.144
+  tls: false
+  type: vmess
+  uuid: 0f1f1cca-56dc-4feb-8b4b-50ab074f4467
+  ws-opts:
+    headers:
+      Host: w1.800876.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 'DE-Hetzner Online GmbH_tls #1'
+  network: ws
+  port: 443
+  server: speed.cloudflare.com
+  servername: scenario-dot-hu-optimum.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 6b00bdb7-0811-421f-9bba-3301b3025d57
+  ws-opts:
+    headers:
+      Host: scenario-dot-hu-optimum.trycloudflare.com
+    path: ''
 - alterId: 0
   cipher: auto
   name: 德国_0411179
@@ -2644,7 +3830,7 @@ proxies:
     path: /@hashmakvpn 🇩🇪
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #76'
+  name: 'Vip1丨德国19丨 #70'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -2653,7 +3839,7 @@ proxies:
   uuid: 37fdb20e-4bb6-3b37-a788-8b96bab63886
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #68'
+  name: 'Vip1丨德国19丨 #62'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -2662,7 +3848,7 @@ proxies:
   uuid: 7c0f3d97-b6ca-30f2-8e1d-60beff21f954
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #72'
+  name: 'Vip1丨德国19丨 #66'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -2685,7 +3871,7 @@ proxies:
     path: /speedtest/Dusseldorf.kotick.site
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #51'
+  name: 'Vip1丨德国19丨 #45'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -2694,7 +3880,7 @@ proxies:
   uuid: 44c27b10-f357-314b-9039-64d37e904388
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #91'
+  name: 'Vip1丨德国19丨 #85'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -2794,23 +3980,13 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #58'
+  name: 'Vip1丨德国19丨 #52'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
   tls: false
   type: vmess
   uuid: 5421c9b4-3d12-3191-aa61-9f739d0fe418
-- alterId: 0
-  cipher: auto
-  name: 德国_0407182
-  network: tcp
-  port: '81'
-  server: 91.107.246.131
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f5f30168-9539-4c71-e2b3-e27725d163b7
 - alterId: 0
   cipher: auto
   name: '🇩🇪 德国01|原生|x5 #1'
@@ -2825,15 +4001,6 @@ proxies:
     headers:
       Host: bgpde1.amazon-azure.com
     path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-- alterId: 0
-  cipher: auto
-  name: '德国_0407181 #1'
-  network: tcp
-  port: 80
-  server: 91.107.246.131
-  tls: false
-  type: vmess
-  uuid: ca58104f-8962-4f39-a92e-dd01123b8ccd
 - alterId: 0
   cipher: auto
   name: 德国_0411178
@@ -2886,7 +4053,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #62'
+  name: 'Vip1丨德国19丨 #56'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -2904,20 +4071,6 @@ proxies:
   uuid: f9b9476e-d697-4739-adf9-bb3202f48db9
 - alterId: 0
   cipher: auto
-  name: 🇩🇪web@oneclickvpnkeys
-  network: ws
-  port: '2083'
-  server: mci.webshecan.cloud
-  servername: 281.webshecan.ro.to
-  tls: true
-  type: vmess
-  uuid: 39305385-2076-4e65-bb9c-da5c2fde0151
-  ws-opts:
-    headers:
-      Host: 281.webshecan.ro.to
-    path: /benten
-- alterId: 0
-  cipher: auto
   name: '🇩🇪 德国01|原生|x5 #2'
   network: ws
   port: '443'
@@ -2932,7 +4085,7 @@ proxies:
     path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #82'
+  name: 'Vip1丨德国19丨 #76'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -2951,7 +4104,7 @@ proxies:
   uuid: e84bf6cf-d6e7-40d6-f3ae-215687d31599
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #57'
+  name: 'Vip1丨德国19丨 #51'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -3016,7 +4169,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #85'
+  name: 'Vip1丨德国19丨 #79'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -3033,18 +4186,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 2e788935-fc0e-471d-e9c1-7f170431669b
-- alterId: 64
-  cipher: auto
-  name: '🇩🇪DE-89.163.157.146-21090 #1'
-  network: ws
-  port: 443
-  server: 89.163.157.146
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: 德国_0410196
@@ -3057,7 +4198,7 @@ proxies:
   uuid: a6a1c682-ab7d-4148-edfd-abe4e663e561
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #80'
+  name: 'Vip1丨德国19丨 #74'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -3075,7 +4216,7 @@ proxies:
   uuid: b1ef5d72-a79a-3362-ace0-6c2225921039
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #77'
+  name: 'Vip1丨德国19丨 #71'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -3094,15 +4235,6 @@ proxies:
   uuid: 7b3a745f-eb30-42b9-e8b9-bdc78bfea4f4
 - alterId: 0
   cipher: auto
-  name: '德国_0407183 #1'
-  network: tcp
-  port: 8443
-  server: 91.107.246.131
-  tls: false
-  type: vmess
-  uuid: cece8ab1-d1d0-4274-e9c4-3451da463ac9
-- alterId: 0
-  cipher: auto
   name: '🇩🇪 德国01|原生|x5 #4'
   network: ws
   port: '443'
@@ -3115,20 +4247,6 @@ proxies:
     headers:
       Host: bgpde1.amazon-azure.com
     path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪118@oneclickvpnkeys
-  network: ws
-  port: '2083'
-  server: 91.107.238.118
-  servername: 281.webshecan.ro.to
-  tls: true
-  type: vmess
-  uuid: 39305385-2076-4e65-bb9c-da5c2fde0151
-  ws-opts:
-    headers:
-      Host: 281.webshecan.ro.to
-    path: /benten
 - alterId: 0
   cipher: auto
   name: '🇩🇪 德国01|原生|x5 #5'
@@ -3145,7 +4263,7 @@ proxies:
     path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #70'
+  name: 'Vip1丨德国19丨 #64'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -3162,586 +4280,6 @@ proxies:
   tls: false
   type: vmess
   uuid: c72e8361-1e5e-427c-a695-554ceb816ee3
-- alterId: 64
-  cipher: auto
-  name: '🇩🇪-德国-au1.qiangdong.xyz #1'
-  network: ws
-  port: 153
-  server: au1.qiangdong.xyz
-  tls: false
-  type: vmess
-  uuid: 81ebe818-5eb2-3f4a-aece-425f7db5e6bc
-  ws-opts:
-    headers:
-      Host: f2348123663.laowanxiang.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 'DE-联通-2|倍率0.7 #1'
-  network: tcp
-  port: 8965
-  server: pop.dew.gfwcaonimanmsl.ml
-  tls: false
-  type: vmess
-  uuid: 03ff74d0-474e-4645-9ef5-7e04b4dc6c94
-- alterId: 0
-  cipher: auto
-  name: Relay 🇩🇪 Germany 04 TG...
-  network: tcp
-  port: '36016'
-  server: 42.7.24.12
-  tls: false
-  type: vmess
-  uuid: adc04d85-a644-3741-a14c-29115c70866f
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #67'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 7ae71e0d-d9f1-3d69-8df9-29ee82a0d121
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #59'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 5b505198-a6da-3d76-a8a6-4d183aeb1d3f
-- alterId: 0
-  cipher: auto
-  name: Relay 🇩🇪 Germany 04 TG:@nodpai
-  network: tcp
-  port: '36016'
-  server: 42.7.24.12
-  tls: false
-  type: vmess
-  uuid: bf126585-a40a-38e4-9efa-0ca4fc9a8878
-- cipher: aes-256-cfb
-  name: '8J-HqPCfh7MgQ04gMyDihpIgb3Blbm... #5'
-  obfs: http_simple
-  obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA
-  password: 68xdgu9eyif
-  port: '12127'
-  protocol: auth_aes128_sha1
-  protocol-param: NjAwNzc3OjE1NFQ4Yg
-  server: 42.157.195.246
-  type: ssr
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #78'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: a333fe24-29e4-38a7-9425-03518cee02a4
-- alterId: 0
-  cipher: auto
-  name: Relay 🇩🇪 Germany 02 TG:@nodpai
-  network: tcp
-  port: '36016'
-  server: 42.7.24.12
-  tls: false
-  type: vmess
-  uuid: 766fdd69-fcbe-3374-99bd-af37278e0632
-- alterId: 0
-  cipher: auto
-  name: 'DE2 #2'
-  network: ws
-  port: 2083
-  server: 8.219.95.226
-  tls: true
-  type: vmess
-  uuid: c2fc4742-33d1-4fcd-e8f5-44f2cfeb297b
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪DE-116.203.13.135-4489 #1'
-  network: ws
-  port: 664
-  server: profile.progbyrazyar.ir
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: cbf10897-87ab-4af6-aeed-6f9a988395dc
-  ws-opts:
-    path: /graphql
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪DE-217.160.33.100-1326 #1'
-  network: ws
-  port: 10001
-  server: 217.160.33.100
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: bee7ec3e-cc6d-11ed-b37b-f3d22884c6a9
-  ws-opts:
-    path: /vpnjantit
-- alterId: 0
-  cipher: auto
-  name: DE-联通-1|倍率0.7
-  network: tcp
-  port: '8964'
-  server: pop.dew.gfwcaonimanmsl.ml
-  tls: false
-  type: vmess
-  uuid: 03ff74d0-474e-4645-9ef5-7e04b4dc6c94
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #79'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: ac649670-d37e-3435-9908-b4c04876090e
-- alterId: 0
-  cipher: auto
-  name: 'DE #15'
-  network: ws
-  port: 443
-  server: init.blog
-  tls: true
-  type: vmess
-  uuid: 2162672f-a83a-47ad-c901-a561b98be911
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: DE-联通-4|倍率0.7
-  network: tcp
-  port: '8967'
-  server: pop.dew.gfwcaonimanmsl.ml
-  tls: false
-  type: vmess
-  uuid: 03ff74d0-474e-4645-9ef5-7e04b4dc6c94
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪DE-143.42.55.133-21374 #1'
-  network: ws
-  port: 443
-  server: 143.42.55.133
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    path: /
-- alterId: 4
-  cipher: auto
-  name: '🇩🇪DE-146.0.42.87-15667 #1'
-  network: ws
-  port: 443
-  server: germany-dusseldorf.mah3Hoet.com
-  servername: germany-dusseldorf.mah3Hoet.com
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    path: /ws
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #81'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: c556c947-74e5-37c0-9a9d-4c87b6c345d7
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪DE-217.160.33.100-4569 #1'
-  network: ws
-  port: 10000
-  server: 217.160.33.100
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aae9b3e6-b275-11ed-8872-b3c4498300e6
-  ws-opts:
-    path: /vpnjantit
-- alterId: 0
-  cipher: auto
-  name: '德国best #1'
-  network: ws
-  port: 443
-  server: init.blog
-  tls: true
-  type: vmess
-  uuid: 20f14598-35f4-41b6-b540-4a1ed7560c0f
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪DE-146.190.207.29-21164 #1'
-  network: ws
-  port: 80
-  server: mmm85.test19380.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 84668c29-3a49-4550-dbba-358a87115a67
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪DE-51.68.188.150-5031 #1'
-  network: ws
-  port: 443
-  server: 51.68.188.150
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 69523c61-0a1c-4a01-9d19-433e5a686631
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪DE-5.75.198.117-4533 #1'
-  network: ws
-  port: 80
-  server: 5.75.198.117
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e30cf2d5-1210-4c9d-8c1b-6c9acb773579
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #71'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 06957dde-400c-35d8-8e08-b4327b5a41af
-- cipher: chacha20-ietf
-  name: 5Lit5Zu9XzEyMjQ2NTg
-  obfs: plain
-  obfs-param: MjNmZmQ3MTEubWljcm9zb2Z0LmNvJSXvv70
-  password: mblank1port
-  port: '560'
-  protocol: auth_aes128_md5
-  protocol-param: NDU2NzY6U1ZJUFRJJe+/vQ
-  server: 2cnrelay2.initcloud.pro
-  type: ssr
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #92'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: f5a68098-273e-3ce0-942e-2fa853498f81
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #66'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 769193c2-2e3e-3659-8c71-3e1ab6d089b2
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #83'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: d6e863b3-f13f-3052-8eec-78d9c6cb1658
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #54'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 4c7da0a5-0fd8-3c68-b973-1c1902e562ea
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #86'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: db07b99d-5eff-33cd-95e1-76d88221d4e1
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #52'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 456448f5-495e-3454-a051-134dce38c31c
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #87'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: dbad380f-6388-3a61-9c83-03ee5b2c277d
-- cipher: chacha20-ietf
-  name: 'MTIwLjE5OC43MS4xNDE= #5'
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ=
-  password: mblank1port
-  port: '562'
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: 120.198.71.141
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪 德国14 #1'
-  network: tcp
-  port: 12383
-  server: rk1.mrlizhuanfa.com
-  tls: false
-  type: vmess
-  uuid: 442ad47a-278c-3f71-ab69-fc80dd1ef3a2
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨德国19丨 #90'
-  network: tcp
-  port: 22019
-  server: jafi19.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: ec09fbca-2b27-38e0-93f8-74d8be1ac882
-- cipher: aes-256-cfb
-  name: '5Lit5Zu9XzEyMjQxNDky #1'
-  obfs: http_simple
-  obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA
-  password: 68xdgu9eyif
-  port: '12127'
-  protocol: auth_aes128_sha1
-  protocol-param: NjAwNzc3OjE1NFQ4Yg
-  server: 42.157.195.233
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪-德国-88.198.122.139
-  network: tcp
-  port: '8443'
-  server: 88.198.122.139
-  tls: false
-  type: vmess
-  uuid: cece8ab1-d1d0-4274-e9c4-3451da463ac9
-- cipher: aes-256-cfb
-  name: '5Lit5Zu9XzAxMDExMzU0 #1'
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: di15PV
-  port: '2602'
-  protocol: auth_aes128_md5
-  protocol-param: MjEwODEwOjEzNDcxMXdhbg
-  server: 183.60.211.71
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 德国_0320023
-  network: ws
-  port: '8080'
-  server: 3.121.99.101
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 99336e49-5f1c-4dfe-88fa-5b332b55552b
-  ws-opts:
-    headers:
-      Host: sptest.hostiran.net.prod.hosts.ooklaserver.net
-    path: /
-- cipher: aes-256-cfb
-  name: '5pel5pysXzAzMDQ0ODE #1'
-  obfs: plain
-  obfs-param: ''
-  password: vyunme
-  port: '443'
-  protocol: auth_aes128_sha1
-  protocol-param: MTY5NTI6OWJpazhJ
-  server: 52.196.194.233
-  type: ssr
-- cipher: aes-256-cfb
-  name: 5pel5pysXzAxMTQ1NjQ
-  obfs: tls1.2_ticket_auth
-  obfs-param: PT09PQ
-  password: eAokbaDN6
-  port: '8081'
-  protocol: origin
-  protocol-param: PT09PQ
-  server: jp-am48-6.eqnode.net
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 德国_0222128
-  network: tcp
-  port: '21472'
-  server: 5.75.200.176
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1e026c45-d7b2-484f-c012-fad3ee11fe23
-- cipher: chacha20-ietf
-  name: 5Lit5Zu9XzAxMTQxOTUx
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: '1352'
-  protocol: auth_aes128_md5
-  protocol-param: MTg1MzA6RlRzeGlq
-  server: b20tox4scvhj.nodelist.club
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 德国_0404193
-  network: ws
-  port: '8081'
-  server: 91.107.159.27
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 35acf7b9-051c-4f47-f4ab-fffa99a7ef24
-  ws-opts:
-    headers:
-      Host: bmi.ir
-    path: /@hashmakvpn 🇩🇪
-- alterId: 0
-  cipher: auto
-  name: 德国_0326196
-  network: ws
-  port: '47447'
-  server: de1.netflix6.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8da6963e-151b-359c-848b-e32fe27a8473
-  ws-opts:
-    headers:
-      Host: de1.netflix6.com
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪-德国-88.198.122.139 #1'
-  network: tcp
-  port: '855'
-  server: 88.198.122.139
-  tls: false
-  type: vmess
-  uuid: 349bb58c-3cb2-467c-a5ce-c7adecc84045
-- alterId: 0
-  cipher: auto
-  name: 德国_0314142
-  network: tcp
-  port: '59629'
-  server: 45.136.186.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9f73134-ebe8-4ccb-ca09-b5ee22be59d2
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪-德国-kiava.swanndvr.net
-  network: ws
-  port: '8080'
-  server: kiava.swanndvr.net
-  tls: false
-  type: vmess
-  uuid: e6383b10-a368-4433-bcdf-79d2b5e173af
-  ws-opts:
-    headers:
-      Host: sptest.hostiran.net.prod.hosts.ooklaserver.net
-    path: /
-- cipher: chacha20-ietf
-  name: 5Lit5Zu9XzExMzA4MjE
-  obfs: plain
-  obfs-param: ''
-  password: mblank1port
-  port: '561'
-  protocol: auth_aes128_md5
-  protocol-param: NTE4MDk6MTExMTEx
-  server: 116.162.120.27
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 德国_0326186
-  network: ws
-  port: '8080'
-  server: ns7-de.dvrlists.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4831b5e2-8cca-4691-a5d1-78d24a7dd407
-  ws-opts:
-    headers:
-      Host: sptest.hostiran.net.prod.hosts.ooklaserver.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国_0326026
-  network: ws
-  port: '8080'
-  server: kiava-d2.duckdns.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9605fe5-dec0-4043-cbb7-1a1e0e3ecb63
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国_0316164
-  network: ws
-  port: '25443'
-  server: de1.netflix6.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9f4b652a-0f2c-398d-b6b9-476c6e6e4362
-  ws-opts:
-    headers:
-      Host: de1.netflix6.com
-    path: /v2ray
-- cipher: aes-256-cfb
-  name: '5bm/5Lic55yB5Lic6I6e5biCLTQyLj... #86'
-  obfs: http_simple
-  obfs-param: ''
-  password: 68xdgu9eyif
-  port: '12127'
-  protocol: auth_aes128_sha1
-  protocol-param: NjAwNzc3OjE1NFQ4Yg
-  server: 42.157.195.245
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 德国_0404063
-  network: ws
-  port: '8080'
-  server: 91.107.159.27
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e3879d98-396b-4155-d5a5-f6b64164817d
-  ws-opts:
-    headers:
-      Host: 91.107.159.27
-    path: /@hashmakvpn 🇩🇪
 - alterId: 0
   cipher: auto
   name: 德国_0410201
@@ -3772,16 +4310,6 @@ proxies:
     path: /@hashmakvpn 🇩🇪
 - alterId: 0
   cipher: auto
-  name: 🇩🇪-德国-116.203.15.238
-  network: tcp
-  port: '80'
-  server: 116.203.15.238
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9db058d4-0520-4617-d8a5-836f3a6b6b33
-- alterId: 0
-  cipher: auto
   name: '🇩🇪DE-51.68.188.150-4603 #1'
   network: ws
   port: 443
@@ -3794,7 +4322,7 @@ proxies:
     path: /vmess
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #73'
+  name: 'Vip1丨德国19丨 #67'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -3803,7 +4331,7 @@ proxies:
   uuid: 2388449f-8566-3c40-965f-9ffcda19b729
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #65'
+  name: 'Vip1丨德国19丨 #59'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -3823,7 +4351,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #95'
+  name: 'Vip1丨德国19丨 #89'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -3832,7 +4360,7 @@ proxies:
   uuid: fecb0851-a0b0-309f-a733-7fe854178b98
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #53'
+  name: 'Vip1丨德国19丨 #47'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -3841,7 +4369,7 @@ proxies:
   uuid: 4ccf42fa-f398-3a7a-9bb5-759da37a1775
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #74'
+  name: 'Vip1丨德国19丨 #68'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -3850,7 +4378,7 @@ proxies:
   uuid: 25313110-6801-313e-9e67-f6f589d04dbc
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #60'
+  name: 'Vip1丨德国19丨 #54'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -3989,7 +4517,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #89'
+  name: 'Vip1丨德国19丨 #83'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -4012,7 +4540,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #56'
+  name: 'Vip1丨德国19丨 #50'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -4021,7 +4549,7 @@ proxies:
   uuid: 5052af18-5ae5-3d81-b274-53bde9597ce5
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #64'
+  name: 'Vip1丨德国19丨 #58'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -4030,7 +4558,7 @@ proxies:
   uuid: 6cbae775-0646-3865-b370-43fd73723831
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #55'
+  name: 'Vip1丨德国19丨 #49'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -4039,7 +4567,7 @@ proxies:
   uuid: 4e4253bd-48cc-3fec-859b-8e2f87b24784
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #93'
+  name: 'Vip1丨德国19丨 #87'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
@@ -4048,1000 +4576,140 @@ proxies:
   uuid: fd6cfc3e-06d4-3c52-bd9b-d3ef9960f4b4
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨德国19丨 #94'
+  name: 'Vip1丨德国19丨 #88'
   network: tcp
   port: 22019
   server: jafi19.jafiyun.world
   tls: false
   type: vmess
   uuid: fe7f5eaa-82bf-3857-99ef-780452a72a7c
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 德国_0324022
-  network: ws
-  port: '2052'
-  server: 91.107.142.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e526a74d-1e43-4e76-8904-749f946640cd
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国_0222129
+  name: 'Vip1丨德国19丨 #46'
   network: tcp
-  port: '855'
-  server: 91.107.176.32
-  servername: ''
+  port: 22019
+  server: jafi19.jafiyun.world
   tls: false
   type: vmess
-  uuid: e087f34e-0f0d-4b0e-867f-e2fe2ebf536a
-- cipher: chacha20-ietf
-  name: '5Lit5Zu9XzEyMjMxNDE0 #1'
-  obfs: http_simple
-  obfs-param: OTE3ODgzOTU4Ny5taWNyb3NvZnQuY29t
-  password: lbNVOz
-  port: '7000'
-  protocol: auth_aes128_md5
-  protocol-param: Mzk1ODc6dGlpanY1
-  server: iplc3.npo.red
-  type: ssr
-- cipher: chacha20-ietf
-  name: '5Lit5Zu9XzAxMDQwMDE #1'
-  obfs: http_simple
-  obfs-param: ZTVhYjAzNC5taWNyb3NvZnQuY29t
-  password: zztw9jk7gu
-  port: '23018'
-  protocol: auth_aes128_sha1
-  protocol-param: MzQ6RHJEWFhv
-  server: 42.237.112.208
-  type: ssr
-- cipher: chacha20-ietf
-  name: '5Lit5Zu9XzEyMTk2MDE #1'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: '1395'
-  protocol: auth_aes128_md5
-  protocol-param: MTg1MzA6RlRzeGlq
-  server: xopvoatv.nodelist.xyz
-  type: ssr
-- alterId: 0
+  uuid: 456448f5-495e-3454-a051-134dce38c31c
+- alterId: 2
   cipher: auto
-  name: 德国_0310096
-  network: ws
-  port: '10000'
-  server: 213.202.216.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0da1d040-bdd4-11ed-8233-00163c082f65
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vpnjantit
-- cipher: aes-128-cfb
-  name: 576O5Zu9XzEyMjIxMDEw
-  obfs: plain
-  obfs-param: ''
-  password: iluulrzviik
-  port: '19035'
-  protocol: auth_aes128_md5
-  protocol-param: NDI2MTM6NGd2cXhY
-  server: us.he.06.nekocloud.cn
-  type: ssr
-- cipher: chacha20-ietf
-  name: '5Lit5Zu9XzEyMjM5NzM #1'
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
-  password: mblank1port
-  port: '561'
-  protocol: auth_aes128_md5
-  protocol-param: NDUwMjpTVklQVElaOA
-  server: 120.240.163.163
-  type: ssr
-- cipher: chacha20-ietf
-  name: '8J+HrfCfh7At6aaZ5rivLTQyLjk4Lj... #6'
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
-  password: mblank1port
-  port: '543'
-  protocol: auth_aes128_md5
-  protocol-param: Mzg3MzU6TExMTGhndWpoamg2Nzc4Nmdo
-  server: 42.98.27.183
-  type: ssr
-- cipher: chacha20-ietf
-  name: '8J-HrfCfh7AgX0NOX-S4reWbvS0-8J... #3'
-  obfs: http_simple
-  obfs-param: YjliZTE0MDIxLm1pY3Jvc29mdC5jb20
-  password: zztw9jk7gu
-  port: '32982'
-  protocol: auth_aes128_sha1
-  protocol-param: NDAyMTp5V0hBQnY
-  server: adns.defucloud.shop
-  type: ssr
-- cipher: aes-256-cfb
-  name: 5Lit5Zu9XzEyMjY2NTU
-  obfs: tls1.2_ticket_auth
-  obfs-param: MDg5NmM1MTI2LmlrZWEuY29t
-  password: hrkycyiepu
-  port: '30405'
-  protocol: auth_aes128_sha1
-  protocol-param: NTEyNjpYNE1rJe+/vQ
-  server: use.ginfem.net
-  type: ssr
-- cipher: chacha20-ietf
-  name: '5Lit5Zu9XzEyMTQ4MDE #3'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: '1393'
-  protocol: auth_aes128_md5
-  protocol-param: MTg1MzA6RlRzeGlq
-  server: xopvoatv.nodelist.xyz
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 德国_0224125
+  name: 'Vip1丨德国19丨 #81'
   network: tcp
-  port: '8443'
-  server: 91.107.176.32
-  servername: ''
+  port: 22019
+  server: jafi19.jafiyun.world
   tls: false
   type: vmess
-  uuid: 1f292053-c964-426c-fde9-04bf7a12cfd2
+  uuid: dbad380f-6388-3a61-9c83-03ee5b2c277d
 - cipher: chacha20-ietf
-  name: 5Lit5Zu9XzEyMjgxODEx
+  name: 'MTIwLjE5OC43MS4xNDE= #5'
   obfs: plain
-  obfs-param: MjNmZmQ3MTEubWljcm9zb2Z0LmNvbQ
+  obfs-param: dC5tZS92cG5oYXQ=
   password: mblank1port
   port: '562'
   protocol: auth_aes128_md5
-  protocol-param: MTUxOTQ6U1ZJUFRJWjg
-  server: inlayer7.standurls.co
-  type: ssr
-- cipher: aes-256-cfb
-  name: '5Lit5Zu9XzExMDg0NDE #1'
-  obfs: tls1.2_ticket_auth
-  obfs-param: 77+9a++/ve+/vTc177+977+9MO+/vWrvv713bmxvZ++/vXdpbmrvv713ee+/vXLvv71277+977+9b20
-  password: 9ifast
-  port: '761'
-  protocol: auth_aes128_md5
-  protocol-param: 77+927nvv73vv71677+9Gu+/ve+/ve+/vQ
-  server: vphk-8.gito.cc
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 德国_0310097
-  network: tcp
-  port: '443'
-  server: 91.107.131.201
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c9316a0f-37e8-4b6b-d55d-291882987999
-- alterId: 0
-  cipher: auto
-  name: 德国_0315061
-  network: tcp
-  port: '81'
-  server: 91.107.131.201
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 77818e90-ed4b-4ec5-9c21-5fff806e86a6
-- cipher: chacha20-ietf
-  name: 5Lit5Zu9XzAxMTYyMzM
-  obfs: plain
-  obfs-param: ''
-  password: mblank1port
-  port: '563'
-  protocol: auth_aes128_md5
-  protocol-param: NTE3MzM6U1ZJUFRJWjg
-  server: usstand1.eucdurl.me
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 德国_0315017
-  network: tcp
-  port: '855'
-  server: 91.107.131.201
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8bdbcc26-2f2b-48b4-caae-acf875cd7407
-- alterId: 0
-  cipher: auto
-  name: 德国_0310244
-  network: tcp
-  port: '57853'
-  server: 140.82.39.119
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6790027d-a2b6-41fe-b2bb-9bcdbd292f16
-- alterId: 0
-  cipher: auto
-  name: 德国_0310093
-  network: tcp
-  port: '8080'
-  server: 3.126.120.201
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b748cb80-d752-4300-cac8-af23b0545ab6
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪-德国-11de.networklinkpro.net
-  network: ws
-  port: '15357'
-  server: 11de.networklinkpro.net
-  tls: false
-  type: vmess
-  uuid: 50452f3e-f904-42b0-a21f-a690552bb4f6
-  ws-opts:
-    headers:
-      Host: 11de.networklinkpro.net
-    path: /
-- cipher: chacha20-ietf
-  name: 5Lit5Zu9XzAxMjQyOTIy
-  obfs: http_simple
-  obfs-param: YjliZTE0MDIxLm1pY3Jvc29mdC5jb20
-  password: zztw9jk7gu
-  port: '32992'
-  protocol: auth_aes128_sha1
-  protocol-param: NDAyMTp5V0hBQnY
-  server: adns.defucloud.shop
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 德国_0310048
-  network: tcp
-  port: '80'
-  server: 3.77.53.114
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f934e91a-6109-4e02-c19a-264babea79ca
-- cipher: chacha20-ietf
-  name: 5Lit5Zu9XzEyMjI3MDE
-  obfs: plain
-  obfs-param: ''
-  password: mblank1port
-  port: '565'
-  protocol: auth_aes128_md5
-  protocol-param: NDU2NzY6U1ZJUFRJJe+/vQ
-  server: cncutw2.eucdurl.me
-  type: ssr
-- cipher: chacha20-ietf
-  name: '5Lit5Zu9XzAxMDExNzU5 #1'
-  obfs: http_simple
-  obfs-param: YjliZTE0MDIxLm1pY3Jvc29mdC5jb20
-  password: zztw9jk7gu
-  port: '32013'
-  protocol: auth_aes128_sha1
-  protocol-param: NDAyMTp5V0hBQnY
-  server: ddns.defucloud.me
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 德国_0314021
-  network: tcp
-  port: '8080'
-  server: 35.158.214.46
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: deb426d8-375e-4c78-dbfa-6d3428b7896b
-- cipher: chacha20-ietf
-  name: 'aWVwbDEubm5vb2RkZWUueHl6 #1'
-  obfs: http_simple
-  obfs-param: YTA5NzMzNzU4Lm1pY3Jvc29mdC5jb20=
-  password: cxssr911
-  port: '2011'
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: iepl1.nnooddee.xyz
-  type: ssr
-- cipher: chacha20-ietf
-  name: 5Lit5Zu9XzAxMjQyOTEw
-  obfs: http_simple
-  obfs-param: YjliZTE0MDIxLm1pY3Jvc29mdC5jb20
-  password: zztw9jk7gu
-  port: '32986'
-  protocol: auth_aes128_sha1
-  protocol-param: NDAyMTp5V0hBQnY
-  server: adns.defucloud.shop
-  type: ssr
-- cipher: chacha20-ietf
-  name: 5Lit5Zu9XzAxMDExNjU0
-  obfs: http_simple
-  obfs-param: YjliZTE0MDIxLm1pY3Jvc29mdC5jJe+/vQ
-  password: zztw9jk7gu
-  port: '30918'
-  protocol: auth_aes128_sha1
-  protocol-param: NDAyMTp5V0hBJe+/vQ
-  server: ddns.defucloud.me
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 德国_0222127
-  network: tcp
-  port: '443'
-  server: 116.202.102.234
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- alterId: 0
-  cipher: auto
-  name: 德国_0222131
-  network: tcp
-  port: '443'
-  server: 91.107.176.32
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f5ec445c-44ef-4db0-b5b4-d71268d5b63a
-- cipher: chacha20-ietf
-  name: dXNzdGFuZDEuZXVjZHVybC5tZQ==
-  obfs: plain
-  obfs-param: MjNmZmQ3MTEubWljcm9zb2Z0LmNvbQ==
-  password: mblank1port
-  port: '560'
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: usstand1.eucdurl.me
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 德国_0314168
-  network: ws
-  port: '15443'
-  server: de1.netflix6.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 61176083-1cca-3f59-8636-0263bf43c409
-  ws-opts:
-    headers:
-      Host: de1.netflix6.com
-    path: /v2ray
-- cipher: chacha20-ietf
-  name: '5rW35Y2X55yB5rW35Y+j5biCLWNtMD... #1'
-  obfs: plain
-  obfs-param: Vm0xMGEwNUdWWGhWYmxKWFlURndUMVpyV25kV1JscHlWbTFHVmxKdGVGbFVWbVIzWWtaS2MxTnNaRmRTYkVwSVdWUkdTbVF4WkhOaVJtUlRaV3hhTmxkV1dsWmtNbEYzVGxaV1ZHSkhhSEJXYTFwaFZrWmtjbGR0Um1waVZscFhWREZhYzFac1ZsVk5SR3M=
-  password: jFa4F1
-  port: '5703'
-  protocol: auth_aes128_sha1
-  protocol-param: ''
-  server: cm01.newcome.xyz
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪-德国-detls4.goloo.icu
-  network: tcp
-  port: '8880'
-  server: detls4.goloo.icu
-  tls: false
-  type: vmess
-  uuid: c9c27130-e057-4264-be86-5a4381ee9014
-- alterId: 0
-  cipher: auto
-  name: 德国_0310094
-  network: tcp
-  port: '32'
-  server: 116.202.6.102
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e0d875f3-0992-437d-f284-5fe1c3db5614
-- alterId: 0
-  cipher: auto
-  name: 德国_0112198
-  network: ''
-  port: '443'
-  server: 5.75.174.227
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- alterId: 0
-  cipher: auto
-  name: 德国_0316025
-  network: tcp
-  port: '8080'
-  server: 18.184.33.85
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 78132261-0b71-4e08-874d-cfd5dac6a3ba
-- alterId: 0
-  cipher: auto
-  name: 德国_0220153
-  network: ws
-  port: '8082'
-  server: 91.107.171.113
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dddea2dc-3493-4bef-b25f-e9a30f8522ab
-  ws-opts:
-    headers:
-      Host: ''
-    path: /@hashmakvpn 🇩🇪
-- cipher: aes-256-cfb
-  name: 'ejAwMDEuc2VjdXJpdHktY2xvdWRmcm... #1'
-  obfs: http_simple
-  obfs-param: ''
-  password: YpX2opBbrfqJzzMs
-  port: '42833'
-  protocol: origin
-  protocol-param: ''
-  server: z0001.security-cloudfront-cdn.com
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 德国_0220131
-  network: ws
-  port: '8080'
-  server: 91.107.171.113
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4737ece-f41d-42f2-ef9a-5f0f29d43dbe
-  ws-opts:
-    headers:
-      Host: google.com
-    path: /@hashmakvpn 🇩🇪
-- alterId: 0
-  cipher: auto
-  name: 德国_0314020
-  network: tcp
-  port: '8080'
-  server: 18.193.3.76
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 78bf9fe4-70c6-4681-d999-bf5e46df17eb
-- alterId: 0
-  cipher: auto
-  name: 德国_0312015
-  network: ws
-  port: '10000'
-  server: 212.227.228.91
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 77ac99fc-bdd4-11ed-bd74-0f8d25d3b7fa
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vpnjantit
-- alterId: 0
-  cipher: auto
-  name: 德国_0310088
-  network: tcp
-  port: '8443'
-  server: 18.193.71.156
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0ed6f61c-c315-4da5-a513-dbc2766ba066
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪-德国-195.201.251.124
-  network: ws
-  port: '11111'
-  server: 195.201.251.124
-  tls: false
-  type: vmess
-  uuid: fc1ce0c1-248d-4dbf-9c61-f1839490447d
-  ws-opts: {}
-- alterId: 4
-  cipher: auto
-  name: 🇩🇪-德国-srv2.pouyaa.xyz
-  network: ws
-  port: '42886'
-  server: srv2.pouyaa.xyz
-  tls: false
-  type: vmess
-  uuid: f3835baf-0ff7-444b-ba20-cdfaf704e858
-  ws-opts: {}
-- cipher: chacha20-ietf
-  name: 'MTIwLjE5OC43MS4xNDE= #3'
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ=
-  password: mblank1port
-  port: '560'
-  protocol: auth_aes128_md5
   protocol-param: ''
   server: 120.198.71.141
   type: ssr
-- alterId: 4
-  cipher: auto
-  name: '🇩🇪-德国-srv2.pouyaa.xyz #1'
-  network: ws
-  port: '36998'
-  server: srv2.pouyaa.xyz
-  tls: false
-  type: vmess
-  uuid: 28adccb5-5eab-4031-89e2-db36a070422d
-  ws-opts: {}
-- alterId: 4
-  cipher: auto
-  name: '🇩🇪-德国-srv2.pouyaa.xyz #2'
-  network: ws
-  port: '45856'
-  server: srv2.pouyaa.xyz
-  tls: false
-  type: vmess
-  uuid: cd61723b-8a4e-4132-8b03-2f5b49efb48c
-  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 🇩🇪-德国-fra-arm1.egg.run
-  network: ws
-  port: '80'
-  server: fra-arm1.egg.run
-  tls: false
-  type: vmess
-  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
-  ws-opts:
-    headers:
-      Host: fra-arm1.egg.run
-    path: fra-arm1.egg.run/
-- alterId: 0
-  cipher: auto
-  name: 德国_1209019
-  network: ws
-  port: '443'
-  server: 130.61.187.26
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 16
-  cipher: auto
-  name: 🇩🇪 德国_1208028
-  network: ws
-  port: '80'
-  server: 116.203.188.159
-  tls: false
-  type: vmess
-  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /opentunnel?user=opentunnel.net-as
-- alterId: 64
-  cipher: auto
-  name: 🇩🇪 德国_1208015
-  network: ws
-  port: '443'
-  server: 93.186.201.86
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.29117898.xyz
-    path: /path/243535322906
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国_1204077
+  name: '🇩🇪 德国14 #1'
   network: tcp
-  port: '1001'
-  server: de1.tejiewm.com
+  port: 12383
+  server: rk1.mrlizhuanfa.com
   tls: false
   type: vmess
-  uuid: 273b1302-3f63-4ef0-b520-d01545166d71
-- alterId: 0
-  cipher: auto
-  name: 德国_1206060
-  network: tcp
-  port: '26901'
-  server: 00000000000000000000000000000000000000000000000000000000000011a.node-for-bigairport.win
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪-德国-195.201.24.247
-  network: ws
-  port: '80'
-  server: 195.201.24.247
-  tls: false
-  type: vmess
-  uuid: 4c3fb737-de59-4b78-a66f-5f4f039252a4
-  ws-opts:
-    path: /
+  uuid: 442ad47a-278c-3f71-ab69-fc80dd1ef3a2
 - alterId: 2
   cipher: auto
-  name: 🇩🇪 德国_1208023
-  network: ws
-  port: '443'
-  server: de.wespanl.club
-  tls: true
-  type: vmess
-  uuid: 4f55901a-626f-3df4-be38-dfa35785355d
-  ws-opts:
-    headers:
-      Host: de.wespanl.club
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: DE_AzadNet
-  network: ws
-  port: '35855'
-  server: 188.34.159.186
-  tls: false
-  type: vmess
-  uuid: 97e8fba7-327a-4752-8aca-043858a7e518
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 [VMess] 🇩🇪 DE【付费推荐：goo.gs/v...
-  network: ws
-  port: '80'
-  server: 47.91.78.144
-  tls: false
-  type: vmess
-  uuid: 0f1f1cca-56dc-4feb-8b4b-50ab074f4467
-  ws-opts:
-    headers:
-      Host: w1.800876.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 'DE-Hetzner Online GmbH_tls #1'
-  network: ws
-  port: 443
-  server: speed.cloudflare.com
-  servername: scenario-dot-hu-optimum.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 6b00bdb7-0811-421f-9bba-3301b3025d57
-  ws-opts:
-    headers:
-      Host: scenario-dot-hu-optimum.trycloudflare.com
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 德国_0324011
-  network: ws
-  port: '8880'
-  server: my.coienx.de
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3d589c52-2f10-4e7f-9243-2a9799238432
-  ws-opts:
-    headers:
-      Host: my.coienx.de
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国_0402177
+  name: 'Vip1丨德国19丨 #84'
   network: tcp
-  port: '29247'
-  server: mm1.filmvaserial.cfd
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 22835730-f8ff-4720-df18-8a16ddb05b4d
-- cipher: aes-128-ctr
-  name: 5Lit5Zu9XzAxMjY2NDE3
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: v0nxhydtt4
-  port: '20001'
-  protocol: auth_aes128_md5
-  protocol-param: MTUxNTg3OjNqYWU4MA
-  server: jupiter.maailman.cyou
-  type: ssr
-- alterId: 4
-  cipher: auto
-  name: 🇩🇪-德国-deguo.kctr2038.icu
-  network: ws
-  port: '45831'
-  server: deguo.kctr2038.icu
+  port: 22019
+  server: jafi19.jafiyun.world
   tls: false
   type: vmess
-  uuid: 5d27c07e-ad30-4dbf-a6bb-1fc0fa87f70a
-  ws-opts: {}
+  uuid: ec09fbca-2b27-38e0-93f8-74d8be1ac882
 - alterId: 0
   cipher: auto
-  name: 德国_0314019
-  network: tcp
-  port: '8881'
-  server: 143.42.21.248
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- alterId: 0
-  cipher: auto
-  name: 德国_0328007
-  network: ws
-  port: '8080'
-  server: 52.28.158.191
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e6383b10-a368-4433-bcdf-79d2b5e173af
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪-德国-3.120.248.17
-  network: ws
-  port: '8080'
-  server: 3.120.248.17
-  tls: false
-  type: vmess
-  uuid: f9605fe5-dec0-4043-cbb7-1a1e0e3ecb63
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国_0322024
-  network: tcp
-  port: '15447'
-  server: 142.93.167.90
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f5a7887d-afbe-4414-f07e-5d0de462ce0e
-- alterId: 0
-  cipher: auto
-  name: 德国_0330171
+  name: 🇩🇪-德国-88.198.122.139
   network: tcp
   port: '8443'
-  server: 91.107.142.190
-  servername: ''
+  server: 88.198.122.139
   tls: false
   type: vmess
-  uuid: cc9067c9-c9fe-4239-f08c-26cf48fab629
+  uuid: cece8ab1-d1d0-4274-e9c4-3451da463ac9
 - alterId: 0
   cipher: auto
-  name: 德国_0327024
+  name: 德国_0320023
   network: ws
   port: '8080'
-  server: de-cd.duckdns.org
+  server: 3.121.99.101
   servername: ''
   tls: false
   type: vmess
-  uuid: 6858c722-f5eb-455c-bf9d-132dfa230c55
+  uuid: 99336e49-5f1c-4dfe-88fa-5b332b55552b
   ws-opts:
     headers:
       Host: sptest.hostiran.net.prod.hosts.ooklaserver.net
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪-德国-3.121.174.133
-  network: ws
-  port: '8080'
-  server: 3.121.174.133
-  tls: false
-  type: vmess
-  uuid: fd494398-ae13-452b-d255-e491b51adfa0
-  ws-opts:
-    headers:
-      Host: sptest.hostiran.net.prod.hosts.ooklaserver.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国_0320025
-  network: tcp
-  port: '8080'
-  server: 78.46.238.119
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 33abd052-1858-4c7e-99b9-793bfc8adb9b
-- alterId: 0
-  cipher: auto
-  name: 德国_0330174
-  network: ws
-  port: '8081'
-  server: 91.107.142.190
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ad0e4358-1cfb-4aac-f53d-5ddc6abbc36d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /@hashmakvpn 🇩🇪
-- cipher: chacha20-ietf
-  name: 'MTIwLjE5OC43MS4xNDE= #4'
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ=
-  password: mblank1port
-  port: '561'
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: 120.198.71.141
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 德国_0330168
-  network: tcp
-  port: '443'
-  server: 91.107.142.190
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b927e34b-e8bb-4238-e2e6-6f8cb46cb011
-- alterId: 0
-  cipher: auto
-  name: 德国_0327023
-  network: tcp
-  port: '17580'
-  server: 88.198.201.128
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 253bfd24-755f-411e-98f4-bba3a8aa0ea0
-- cipher: chacha20-ietf
-  name: 5Lit5Zu9XzEyMjMxNDE2
+- cipher: aes-256-cfb
+  name: '5pel5pysXzAzMDQ0ODE #1'
   obfs: plain
   obfs-param: ''
-  password: mblank1port
-  port: '566'
-  protocol: auth_aes128_md5
-  protocol-param: NDU2NzY6U1ZJUFRJWjg
-  server: cncutw2.eucdurl.me
+  password: vyunme
+  port: '443'
+  protocol: auth_aes128_sha1
+  protocol-param: MTY5NTI6OWJpazhJ
+  server: 52.196.194.233
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 🇩🇪-德国-80.94.83.75
-  network: ws
-  port: '443'
-  server: 80.94.83.75
-  tls: false
-  type: vmess
-  uuid: 20D2D265-F8E9-4B71-860F-181F5B54C489
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 德国_0330170
+  name: 德国_0222128
   network: tcp
-  port: '81'
-  server: 91.107.142.190
+  port: '21472'
+  server: 5.75.200.176
   servername: ''
   tls: false
   type: vmess
-  uuid: c6d3c9b4-4b32-4335-e497-5bad241578ba
+  uuid: 1e026c45-d7b2-484f-c012-fad3ee11fe23
 - alterId: 0
   cipher: auto
-  name: 德国_0326187
+  name: 德国_0326196
   network: ws
   port: '47447'
   server: de1.netflix6.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 90a9fa37-cbae-3b06-a2b8-e3879d01fc59
+  uuid: 8da6963e-151b-359c-848b-e32fe27a8473
   ws-opts:
     headers:
       Host: de1.netflix6.com
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 德国_0330169
+  name: 德国_0314142
   network: tcp
-  port: '80'
-  server: 91.107.142.190
+  port: '59629'
+  server: 45.136.186.183
   servername: ''
   tls: false
   type: vmess
-  uuid: 66da57a5-41b6-405d-f547-fc6e5660410d
-- cipher: aes-128-ctr
-  name: 5Lit5Zu9XzAxMjY2NDE4
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: v0nxhydtt4
-  port: '20002'
-  protocol: auth_aes128_md5
-  protocol-param: MTUxNTg3OjNqYWU4MA
-  server: neptune.maailman.cyou
-  type: ssr
+  uuid: f9f73134-ebe8-4ccb-ca09-b5ee22be59d2
 - alterId: 0
   cipher: auto
-  name: 德国_0310091
-  network: tcp
-  port: '22222'
-  server: 116.202.6.102
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 55ba4fca-fe2d-469b-a8c5-8fdd20174eee
-- alterId: 0
-  cipher: auto
-  name: 德国_1204050
+  name: 德国_0316164
   network: ws
-  port: '24748'
-  server: 35.156.177.79
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 413f1279-4c68-4350-c731-dcac4cc693ed
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国_0326021
-  network: tcp
-  port: '22942'
-  server: 164.92.237.89
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 573f30f2-68c8-4907-8022-e5c4eca95dbd
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪-德国-dga2.6bbt.tk
-  network: ws
-  port: '443'
-  server: dga2.6bbt.tk
-  tls: false
-  type: vmess
-  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
-  ws-opts:
-    headers:
-      Host: 6bbt.tk
-    path: /6bbt.tk
-- alterId: 0
-  cipher: auto
-  name: 德国_0320171
-  network: ws
-  port: '27443'
+  port: '25443'
   server: de1.netflix6.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 168beb38-4172-3b52-bec4-91eaaa2954ff
+  uuid: 9f4b652a-0f2c-398d-b6b9-476c6e6e4362
   ws-opts:
     headers:
       Host: de1.netflix6.com
     path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 德国_0330172
-  network: tcp
-  port: '855'
-  server: 91.107.142.190
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fcf8b461-e551-4475-8f2d-191c037cc0cc
-- alterId: 0
-  cipher: auto
-  name: 德国_0226104
-  network: tcp
-  port: '443'
-  server: 168.119.115.72
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
   name: 德国_1208044
@@ -5382,7 +5050,7 @@ proxies:
   server: cm01.newcome.xyz
   type: ssr
 - cipher: aes-256-cfb
-  name: '5bm_5Lic55yB5Lic6I6e5biCLTQyLj... #29'
+  name: '5bm_5Lic55yB5Lic6I6e5biCLTQyLj... #25'
   obfs: http_simple
   obfs-param: TUdZd09UazJNREEzTnpjdWRqSXpaamR1VFRB
   password: 68xdgu9eyif
@@ -5533,7 +5201,7 @@ proxies:
       Host: ''
     path: /
 - cipher: rc4-md5
-  name: '5bm/5Lic55yB5L2b5bGx5biCLTE4My... #50'
+  name: '5bm/5Lic55yB5L2b5bGx5biCLTE4My... #66'
   obfs: plain
   obfs-param: dC5tZS92cG5oYXQ
   password: di15PV
@@ -5693,6 +5361,244 @@ proxies:
     headers:
       Host: sggs4.vpnjantit.com
     path: /
+- cipher: aes-256-cfb
+  name: '5bm_5Lic55yB5Lic6I6e5biCLTQyLj... #27'
+  obfs: http_simple
+  obfs-param: MGYwOTk2MDA3NzcudjIzZjduJQ
+  password: 68xdgu9eyif
+  port: '12127'
+  protocol: auth_aes128_sha1
+  protocol-param: NjAwNzc3OjE1NFQ4JSU
+  server: 42.157.195.229
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 -德国-sg9.vpnjantit.com
+  network: ws
+  port: '10000'
+  server: sg9.vpnjantit.com
+  tls: false
+  type: vmess
+  uuid: 22ce30e2-59e0-11ed-96c7-00163e22c969
+  ws-opts:
+    headers:
+      Host: sg9.vpnjantit.com
+    path: /
+- cipher: aes-256-cfb
+  name: '5Lit5Zu9XzExMDg1NTQ #1'
+  obfs: tls1.2_ticket_auth
+  obfs-param: OTQwYzIzMDg1NS5kb3dubG9hZC53aW5kb3dzdXBkYXRlLmNvbQ
+  password: 9ifast
+  port: '36815'
+  protocol: auth_aes128_md5
+  protocol-param: MzA4NTU6MEZ2WlJ5
+  server: udp-001.gito.cc
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 德国_1124055
+  network: ws
+  port: '2087'
+  server: vipde02.ajdkjaljdj.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cad23ca0-336a-3463-a4b4-44c1ece96b30
+  ws-opts:
+    headers:
+      Host: live.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国_1124048
+  network: ws
+  port: '36182'
+  server: cdnfxtransi.fastiqiyi.xyz
+  tls: false
+  type: vmess
+  uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd
+  ws-opts:
+    headers:
+      Host: fxtransi.fastiqiyi.xyz
+    path: /
+- cipher: chacha20-ietf
+  name: '8J+HpvCfh7Yt5rmW5Y2X55yBLXVzc3... #2'
+  obfs: plain
+  obfs-param: ''
+  password: mblank1port
+  port: '569'
+  protocol: auth_aes128_md5
+  protocol-param: NTEzNjE6NjdtZklUb0w4NFBuWnEwZA
+  server: usstartus2.eucdurl.me
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国-v12.583181.xyz
+  network: ws
+  port: '443'
+  server: v12.583181.xyz
+  tls: false
+  type: vmess
+  uuid: d53c1b44-915a-413c-b1a5-3877df394a5a
+  ws-opts:
+    headers:
+      Host: pull.free.video.10010.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国_1120163
+  network: ws
+  port: '443'
+  server: ger01.paopaocloud.cyou
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
+  ws-opts:
+    headers:
+      Host: ger01.ssru4.fun
+    path: /v2ray
+- alterId: 64
+  cipher: auto
+  name: 🇩🇪 德国_1122030
+  network: ws
+  port: '443'
+  server: 213.202.223.218
+  tls: true
+  type: vmess
+  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
+  ws-opts:
+    headers:
+      Host: www.67279397.xyz
+    path: /path/243535322906
+- alterId: 0
+  cipher: auto
+  name: 德国_1124057
+  network: ws
+  port: '80'
+  server: de1.elknode.top
+  servername: baiducdncmn2.inter.iqiyi.com
+  tls: false
+  type: vmess
+  uuid: 1eded6fc-8b28-33df-a93f-6491de5f7a12
+  ws-opts:
+    headers:
+      Host: baiducdncmn2.inter.iqiyi.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国_1120157
+  network: ws
+  port: '443'
+  server: 172.104.146.93
+  tls: false
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: ''
+    path: /chat
+- cipher: chacha20-ietf
+  name: 5bm/5Lic55yB5bm/5bee5biCLXp4MD...
+  obfs: plain
+  obfs-param: ''
+  password: jFa4F1
+  port: '2406'
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: zx01.endhigh.xyz
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 -本机地址-v28.idcloudhost.de
+  network: ws
+  port: '80'
+  server: v28.idcloudhost.de
+  tls: false
+  type: vmess
+  uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
+  ws-opts:
+    headers:
+      Host: v28.idcloudhost.de
+    path: /
+- cipher: aes-256-cfb
+  name: '8J-HuvCfh7ggMS42OXwg576O5Zu9ID... #1'
+  obfs: http_simple
+  obfs-param: MGYwOTk2MDA3NzcudjIzZjduJQ
+  password: 68xdgu9eyif
+  port: '12127'
+  protocol: auth_aes128_sha1
+  protocol-param: NjAwNzc3OjE1NFQ4JSU
+  server: 42.157.195.230
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国_1122038
+  network: ws
+  port: '80'
+  server: germany-1.4g.mkvn.net
+  tls: false
+  type: vmess
+  uuid: 83637f44-65c2-4086-9049-3a6016247cc6
+  ws-opts:
+    headers:
+      Host: v9-vn.tiktokcdn.com
+    path: /4g.mkvn.net
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国_1122019
+  network: ws
+  port: '80'
+  server: 168.119.174.242
+  tls: false
+  type: vmess
+  uuid: 2827aa96-4018-11ed-9359-13a8d17b47f9
+  ws-opts:
+    headers:
+      Host: www.google.com
+    path: /vmess
+- cipher: chacha20-ietf
+  name: 5rW35Y2X55yB5rW35Y-j5biCLWNtMD...
+  obfs: plain
+  obfs-param: Vkd4U1RtVkZNVFpTVkVaUFlXMWplRlJWVFRGa1IwWllWRzVzYVUwd05USlhiVFZTWkZacmVVOVlVUQ
+  password: jFa4F1
+  port: '5703'
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: cm01.newcome.xyz
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪-德国-v62.idcloudhost.de
+  network: ws
+  port: '10000'
+  server: v62.idcloudhost.de
+  tls: false
+  type: vmess
+  uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
+  ws-opts:
+    headers:
+      Host: v62.idcloudhost.de
+    path: /
+- cipher: aes-256-cfb
+  name: '8J+HpvCfh7Yt5rGf6IuP55yBLW9wdD... #2'
+  obfs: http_simple
+  obfs-param: Wkc5M2JteHZZV1F1ZDJsdVpHOTNjM1Z3WkdGMFpTNWpiMjA9
+  password: Uk92CS
+  port: '23000'
+  protocol: auth_aes128_sha1
+  protocol-param: MzI4NDIyOkhPV2lhQw
+  server: opt13.boom.skin
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国_1122039
+  network: tcp
+  port: '31251'
+  server: 213.226.71.209
+  tls: false
+  type: vmess
+  uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
 - alterId: 0
   cipher: auto
   name: 德国_1122124
@@ -5754,36 +5660,6 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: MzczODA6azRWSjlTeUF1Mw
   server: gzyd-01.cctelescope.xyz
-  type: ssr
-- cipher: chacha20-ietf
-  name: '8J+HpvCfh7Yt5rmW5Y2X55yBLWNucm... #12'
-  obfs: plain
-  obfs-param: ''
-  password: mblank1port
-  port: '562'
-  protocol: auth_aes128_md5
-  protocol-param: NTI4NzU6QWExMTIyMTE
-  server: cnrefhk01.standurl.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  name: 5Lit5Zu9XzExMDYzNTY
-  obfs: tls1.2_ticket_auth
-  obfs-param: 77+9a++/ve+/vTc177+977+9MO+/vWrvv713bmxvZ++/vXdpbmrvv713ee+/vXLvv71277+977+9b20
-  password: 9ifast
-  port: '651'
-  protocol: auth_aes128_md5
-  protocol-param: 77+927nvv73vv71677+9Gu+/ve+/ve+/vQ
-  server: us-5.gito.cc
-  type: ssr
-- cipher: chacha20-ietf
-  name: 56aP5bu655yB5rOJ5bee5biCLXp4MD...
-  obfs: plain
-  obfs-param: ''
-  password: jFa4F1
-  port: '2406'
-  protocol: auth_aes128_sha1
-  protocol-param: ''
-  server: zx01.endhigh.xyz
   type: ssr
 - alterId: 0
   cipher: auto
@@ -5888,63 +5764,6 @@ proxies:
     headers:
       Host: www.google.com
     path: /vmess
-- cipher: aes-256-cfb
-  name: '5bm_5Lic55yB5Lic6I6e5biCLTQyLj... #31'
-  obfs: http_simple
-  obfs-param: MGYwOTk2MDA3NzcudjIzZjduJQ
-  password: 68xdgu9eyif
-  port: '12127'
-  protocol: auth_aes128_sha1
-  protocol-param: NjAwNzc3OjE1NFQ4JSU
-  server: 42.157.195.229
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 -德国-sg9.vpnjantit.com
-  network: ws
-  port: '10000'
-  server: sg9.vpnjantit.com
-  tls: false
-  type: vmess
-  uuid: 22ce30e2-59e0-11ed-96c7-00163e22c969
-  ws-opts:
-    headers:
-      Host: sg9.vpnjantit.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国_1124057
-  network: ws
-  port: '80'
-  server: de1.elknode.top
-  servername: baiducdncmn2.inter.iqiyi.com
-  tls: false
-  type: vmess
-  uuid: 1eded6fc-8b28-33df-a93f-6491de5f7a12
-  ws-opts:
-    headers:
-      Host: baiducdncmn2.inter.iqiyi.com
-    path: /
-- cipher: aes-256-cfb
-  name: '8J-HuvCfh7ggMS42OXwg576O5Zu9ID... #1'
-  obfs: http_simple
-  obfs-param: MGYwOTk2MDA3NzcudjIzZjduJQ
-  password: 68xdgu9eyif
-  port: '12127'
-  protocol: auth_aes128_sha1
-  protocol-param: NjAwNzc3OjE1NFQ4JSU
-  server: 42.157.195.230
-  type: ssr
-- cipher: chacha20-ietf
-  name: 5rW35Y2X55yB5rW35Y-j5biCLWNtMD...
-  obfs: plain
-  obfs-param: Vkd4U1RtVkZNVFpTVkVaUFlXMWplRlJWVFRGa1IwWllWRzVzYVUwd05USlhiVFZTWkZacmVVOVlVUQ
-  password: jFa4F1
-  port: '5703'
-  protocol: auth_aes128_sha1
-  protocol-param: ''
-  server: cm01.newcome.xyz
-  type: ssr
 - alterId: 0
   cipher: auto
   name: 德国11|11.5M/s(youtube阿伟科技)
@@ -5959,20 +5778,22 @@ proxies:
     headers:
       Host: hstr1675520106270.aidapp.life
     path: /aidapp.lifevws
-- name: ' HYSTERIA-UDP  DE-45.138.99.10...'
+- name: ' HYSTERIA-UDP  DE-45.76.82.254...'
   obfs: salamander
-  obfs-password: PassWord1
-  password: PassWord2
-  port: 8443
-  server: 45.138.99.106
+  obfs-password: 3JuQOL32nT5rUt1nNxAX
+  password: 6b389472-9094-4c8a-a780-3d371b2eade5
+  port: 25444
+  server: 45.76.82.254
   skip-cert-verify: true
+  sni: vkvd127.mycdn.me
   tls: false
   type: hysteria2
-- name: ' HYSTERIA-UDP  DE-94.159.107.1...'
-  password: fcfea73c-d5c6-484c-b5ae-caf9fee6be6a
-  port: 1443
-  server: 94.159.107.136
-  sni: de2.587458.xyz
+- name: ' HYSTERIA-UDP  DE-202.61.241.1...'
+  password: dec336f6-e5da-40f4-a4de-986c7b34d587
+  port: 2056
+  server: 202.61.241.142
+  skip-cert-verify: true
+  sni: de2.eyucdn.xyz
   tls: false
   type: hysteria2
 - name: ' HYSTERIA-UDP  DE-77.90.52.69:...'
@@ -5982,25 +5803,6 @@ proxies:
   port: 35000
   server: 77.90.52.69
   sni: pichondan.com
-  tls: false
-  type: hysteria2
-- name: ' HYSTERIA-UDP  DE-45.152.240.4...'
-  obfs: salamander
-  obfs-password: '%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  port: 35000
-  server: 45.152.240.49
-  sni: pichondan.com
-  tls: false
-  type: hysteria2
-- name: '🇩🇪德国13 | ⬇️ 1.9MB/s |0%|Netfli... #1'
-  obfs: salamander
-  obfs-password: 6c80ade6
-  password: 18463200c271aa6d
-  port: 443
-  server: 45.63.116.113
-  skip-cert-verify: true
-  sni: vkvd127.mycdn.me
   tls: false
   type: hysteria2
 - name: ' HYSTERIA-UDP  DE-5.39.252.72:...'
@@ -6019,12 +5821,13 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: ' HYSTERIA-UDP  DE-202.61.241.1...'
-  password: dec336f6-e5da-40f4-a4de-986c7b34d587
-  port: 2056
-  server: 202.61.241.142
-  skip-cert-verify: true
-  sni: de2.eyucdn.xyz
+- name: ' HYSTERIA-UDP  DE-45.152.240.4...'
+  obfs: salamander
+  obfs-password: '%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  port: 35000
+  server: 45.152.240.49
+  sni: pichondan.com
   tls: false
   type: hysteria2
 - name: ' HYSTERIA-UDP  DE-91.149.233.1...'
@@ -6036,20 +5839,12 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: ' HYSTERIA-UDP  DE-152.53.125.7...'
-  password: 43326134-a0c8-4149-8a6d-8128791a16c7
-  port: 5002
-  server: 152.53.125.70
-  skip-cert-verify: true
-  sni: d1--cn-gotcha204-3.bilivideo.com
-  tls: false
-  type: hysteria2
-- name: ' HYSTERIA-UDP  DE-45.76.82.254...'
+- name: '🇩🇪德国13 | ⬇️ 1.9MB/s |0%|Netfli... #1'
   obfs: salamander
-  obfs-password: 3JuQOL32nT5rUt1nNxAX
-  password: 6b389472-9094-4c8a-a780-3d371b2eade5
-  port: 25444
-  server: 45.76.82.254
+  obfs-password: 6c80ade6
+  password: 18463200c271aa6d
+  port: 443
+  server: 45.63.116.113
   skip-cert-verify: true
   sni: vkvd127.mycdn.me
   tls: false
@@ -6063,82 +5858,100 @@ proxies:
   sni: pichondan.com
   tls: false
   type: hysteria2
-- name: ' VL-HTTPUPGRADE-NONE  NA-173.2... #7'
-  network: httpupgrade
-  port: 2052
-  server: 173.245.58.100
+- name: ' HYSTERIA-UDP  DE-152.53.125.7...'
+  password: 43326134-a0c8-4149-8a6d-8128791a16c7
+  port: 5002
+  server: 152.53.125.70
+  skip-cert-verify: true
+  sni: d1--cn-gotcha204-3.bilivideo.com
+  tls: false
+  type: hysteria2
+- name: ' HYSTERIA-UDP  DE-45.138.99.10...'
+  obfs: salamander
+  obfs-password: PassWord1
+  password: PassWord2
+  port: 8443
+  server: 45.138.99.106
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: ' HYSTERIA-UDP  DE-94.159.107.1...'
+  password: fcfea73c-d5c6-484c-b5ae-caf9fee6be6a
+  port: 1443
+  server: 94.159.107.136
+  sni: de2.587458.xyz
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: t.me/entryNET
+  name: 4Mohsen-9354
+  network: grpc
+  port: 2182
+  reality-opts:
+    public-key: hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I
+  server: 91.99.148.251
+  servername: www.chess.com
   tls: false
   type: vless
-  uuid: b3dfdcfa-a791-4f73-9c06-e90a11ff24ea
-  ws-opts:
-    headers:
-      Host: 1.dreshghi.ir.ferialmostofi.c-om.padaco.ir.arashnasiri.com.shafashiraz.ir.honartandis.com.shouba.ir.iran-dental.com.sardkhoone.com.mohammadsalehpour.ir.abadgan.com.arvijpub.com.chmctruck.com.gandom-yar.ir
-    path: '%2FGoodLuck%3Fed%3D2560'
-- name: ' VL-TCP-NONE  DE-91.99.150.159... #5'
+  uuid: 3d9a3ca9-7cd1-4650-8036-29303da81669
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: chessgame
+  name: '4Sarina-8608 #1'
+  network: grpc
+  port: 2182
+  reality-opts:
+    public-key: hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I
+  server: 91.99.205.88
+  servername: www.chess.com
+  tls: false
+  type: vless
+  uuid: 01aff676-9e7e-45d7-840b-6ef6bf9f00bd
+- client-fingerprint: chrome
+  name: 4Mohsen-11546
   network: tcp
-  port: 3799
-  server: 91.99.150.159
+  port: 2434
+  reality-opts:
+    public-key: yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA
+  server: 91.99.150.157
+  servername: www.chess.com
   tls: false
   type: vless
   uuid: 58d001a7-7969-42a7-a39d-62b4b17402ac
-  ws-opts:
-    headers:
-      Host: speedtest.net
-    path: '%2F'
-- name: 4Nika-7506
+- name: 4Nika-7880
   network: httpupgrade
-  port: 8880
-  server: 173.245.59.100
+  port: 2095
+  server: 104.16.53.11
   tls: false
   type: vless
-  uuid: 0a022137-d5d7-48f9-96cf-11b57210d12d
+  uuid: 17c57f8a-a760-48f3-ab5f-205c11ca25f9
   ws-opts:
     headers:
-      Host: vihypercloud.academigroup.ir.
-    path: '%2FJoin--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420%3Fed%3D2048'
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #13'
+      Host: gggooooooooooooooooooogggoooooolimaaaaaaaaaagoooooooli.torob.com.myloveiran.site.
+    path: '%2Ftelegram-radixvpn%2Ctelegram-radixvpn%2Ctelegram-radixvpn%2Ctelegram-radixvpn%2Ctelegram-radixvpn%2Ctelegram-radixvpn%3Fed%3D2560'
+- name: '4Sarina-18183 #2'
+  network: tcp
+  port: 1517
+  server: 91.99.205.88
+  tls: false
+  type: vless
+  uuid: 90fda067-2e64-4dff-9a74-60417664d8b7
+  ws-opts:
+    headers:
+      Host: testspeed-foreign.tci.ir
+    path: '%2F'
+- name: '4Sarina-14056 #2'
   network: httpupgrade
-  port: 2086
+  port: 2095
   server: 104.17.148.22
   tls: false
   type: vless
-  uuid: f06c8dbf-f0e2-4a91-ca38-8dc7103af844
+  uuid: 54cbc2a1-c905-4d8b-864a-9ce5e5dada94
   ws-opts:
     headers:
-      Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D2086'
-- name: '4Sarina-12481 #1'
-  network: httpupgrade
-  port: 2095
-  server: 104.21.96.1
-  tls: false
-  type: vless
-  uuid: 4290621f-483f-4e40-a15a-07c8cfb93873
-  ws-opts:
-    headers:
-      Host: speeDxpnte.socksChangeRt.ir.
-- name: '4Sarina-15388 #1'
-  network: httpupgrade
-  port: 8880
-  server: 173.245.58.100
-  tls: false
-  type: vless
-  uuid: 70cb13d1-90b8-4aa3-bda8-2e8725221403
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.fatsly.com.webnilo.tech
-    path: '%2F%3Fed%3D2048'
-- name: '4Sarina-21078 #1'
-  network: httpupgrade
-  port: 8080
-  server: 198.41.216.98
-  tls: false
-  type: vless
-  uuid: c8a1edae-1acc-4c98-90e5-fb052f708213
-  ws-opts:
-    headers:
-      Host: masterserver1.nanvrfood.ir.
-    path: '%2F%40MaSTeRSeRVeR1-%40-MaSTeRSeRVeR1%40MaSTeRSeRVeR1-%40MaSTeRSeRVeR1-%40MaSTeRSeRVeR1-%40MaSTeRSeRVeR1%3Fed%3D2048'
+      Host: tadrisonlin-tadrisonlin-tadrisonlin-tadrisonlin-tadrisonlinCD1.kiWiJuiCe.IR
+    path: '%2F'
 - client-fingerprint: chrome
   name: '4Sarina-20833 #1'
   network: httpupgrade
@@ -6152,7 +5965,185 @@ proxies:
     headers:
       Host: geremi.newtechstoon.ir
     path: '%2Fgereminewtech%3Fed%3D2048'
-- name: 'DE #14'
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: '4Sarina-17990 #2'
+  network: httpupgrade
+  port: 8443
+  server: 104.21.80.1
+  servername: mEHrnewS.tWN24.ir
+  tls: true
+  type: vless
+  uuid: 8e09a4d7-80fc-4bb3-b3fb-1eb23211756a
+  ws-opts:
+    headers:
+      Host: mehrnews.twn24.ir
+    path: '%2F1TEFUc8jfdS517rirmowmH'
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '4Sarina-15349 #2'
+  network: tcp
+  port: 443
+  server: 204.10.194.78
+  servername: yfnl1.xn--4gq62f52gppi29k.com
+  tls: true
+  type: vless
+  uuid: 6f786c4e-6402-4269-98d3-c383fb1708da
+- name: 4FreeIran-11799
+  network: tcp
+  port: 1429
+  server: 91.99.148.251
+  tls: false
+  type: vless
+  uuid: 58d001a7-7969-42a7-a39d-62b4b17402ac
+  ws-opts:
+    headers:
+      Host: speedtest.net
+    path: '%2F'
+- name: 4Mohsen-11542
+  network: tcp
+  port: 1429
+  server: 91.99.150.156
+  tls: false
+  type: vless
+  uuid: 58d001a7-7969-42a7-a39d-62b4b17402ac
+  ws-opts:
+    headers:
+      Host: speedtest.net
+    path: '%2F'
+- name: ' VL-HTTPUPGRADE-NONE  NA-173.2...'
+  network: httpupgrade
+  port: 2052
+  server: 173.245.58.100
+  tls: false
+  type: vless
+  uuid: 52a44898-e5f7-4876-9c99-80babc1c782a
+  ws-opts:
+    headers:
+      Host: 1.dreshghi.ir.ferialmostofi.c-om.padaco.ir.arashnasiri.com.shafashiraz.ir.honartandis.com.shouba.ir.iran-dental.com.sardkhoone.com.mohammadsalehpour.ir.abadgan.com.arvijpub.com.chmctruck.com.gandom-yar.ir
+    path: '%2FGoodLuck%3Fed%3D2560'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #2'
+  network: httpupgrade
+  port: 2086
+  server: 104.17.147.22
+  tls: false
+  type: vless
+  uuid: 40c70d18-8b4d-4dfd-9183-774fcf12b70c
+  ws-opts:
+    headers:
+      Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D2086'
+- client-fingerprint: chrome
+  name: '4Sarina-18283 #2'
+  network: ws
+  port: 443
+  server: 91.107.131.168
+  servername: mw5.asalemaraghe.ir
+  tls: true
+  type: vless
+  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
+  ws-opts:
+    headers:
+      Host: mw5.asalemaraghe.ir
+- name: 4Mohsen-11548
+  network: tcp
+  port: 4928
+  server: 91.99.150.157
+  tls: false
+  type: vless
+  uuid: 58d001a7-7969-42a7-a39d-62b4b17402ac
+  ws-opts:
+    headers:
+      Host: speedtest.net
+    path: '%2F'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #15'
+  network: httpupgrade
+  port: 2052
+  server: 104.17.148.22
+  tls: false
+  type: vless
+  uuid: 2476b968-3130-44f5-81e9-97a9701cffd9
+  ws-opts:
+    headers:
+      Host: web-cdn-829ytdd0zy-rubika.ir.google.xn--aaaaaaaaaaaaaaaaaaaaaa-v150bgai.apaspeedtest.netrat.com.eu.com.shw814.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaacdamaagg.tnw.of.to
+    path: '%2FphpMyAdmin%3Fq%3D%E4%B8%80%E4%BD%8D%E8%99%95%E5%A5%B3%E5%9C%A8%E5%AD%AB%E5%85%88%E7%94%9F%E7%9A%84%E8%BE%B2%E5%A0%B4%E5%B7%A5%E4%BD%9C%E3%80%82'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #4'
+  network: httpupgrade
+  port: 2086
+  server: 104.17.148.22
+  tls: false
+  type: vless
+  uuid: 40c70d18-8b4d-4dfd-9183-774fcf12b70c
+  ws-opts:
+    headers:
+      Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D2086'
+- name: 4Mohsen-17125
+  network: httpupgrade
+  port: 8880
+  server: 104.17.147.22
+  tls: false
+  type: vless
+  uuid: c5cc765f-9b1e-4fdb-bca4-f2a889bc8ecb
+  ws-opts:
+    headers:
+      Host: Www.soft98.ir.snap.ir.Www.Abantether.ir.te1450.ir
+    path: '%2F2048'
+- name: '4Sarina-15512 #2'
+  network: httpupgrade
+  port: 2082
+  server: 104.21.23.63
+  tls: false
+  type: vless
+  uuid: 728fc5ea-a265-4539-a286-0c664509a23b
+  ws-opts:
+    headers:
+      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
+    path: '%2FJoin--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420%3Fed%3D2048'
+- name: '4Sarina-15141 #2'
+  network: httpupgrade
+  port: 8880
+  server: 172.67.204.84
+  tls: false
+  type: vless
+  uuid: 68d511b0-91eb-4541-b983-21bc1617314a
+  ws-opts:
+    headers:
+      Host: wS.lasTofUsGame.Ir.
+- name: ' VL-TCP-NONE  DE-91.99.148.251... #1'
+  network: tcp
+  port: 3789
+  server: 91.99.148.251
+  tls: false
+  type: vless
+  uuid: b1509a08-9585-428a-a71a-4345edae7a2c
+  ws-opts:
+    headers:
+      Host: varzesh3.com
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #6'
+  network: httpupgrade
+  port: 2052
+  server: 104.16.53.11
+  tls: false
+  type: vless
+  uuid: edaf7e13-15d4-4430-b20e-2eb7ef10d447
+  ws-opts:
+    headers:
+      Host: tormci.xn--nevergiveupy.nipytee.info
+    path: '%2F%3Fed%3D2087'
+- name: '4Sarina-7550 #2'
+  network: httpupgrade
+  password: fivh9CYhgT
+  port: 443
+  server: 104.21.64.1
+  sni: esna.twn24.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: esna.twn24.ir
+    path: /16338/mehdi
+- name: 'DE #13'
   network: tcp
   port: 4928
   server: 233923233.webnama.com.tr
@@ -6284,7 +6275,7 @@ proxies:
   server: 51.195.47.243
   sni: epcch.ambercc.filegear-sg.me_93ms
   type: trojan
-- name: ' TR-HTTPUPGRADE-TLS  NA-104.21... #22'
+- name: ' TR-HTTPUPGRADE-TLS  NA-104.21... #21'
   network: httpupgrade
   password: QTKsqSws9Sgc
   port: 2087
@@ -6295,7 +6286,7 @@ proxies:
     headers:
       Host: hamshahri.twn24.ir
     path: /@M3HDIO1_1ms
-- name: ' TR-HTTPUPGRADE-TLS  NA-104.21... #23'
+- name: ' TR-HTTPUPGRADE-TLS  NA-104.21... #22'
   network: httpupgrade
   password: QTKsqSws9Sgc
   port: 2087
@@ -6306,7 +6297,7 @@ proxies:
     headers:
       Host: hamshahri.twn24.ir
     path: /@M3HDIO1_1ms
-- name: ' TR-HTTPUPGRADE-TLS  NA-104.21... #24'
+- name: ' TR-HTTPUPGRADE-TLS  NA-104.21... #23'
   network: httpupgrade
   password: QTKsqSws9Sgc
   port: 2087
@@ -6324,7 +6315,7 @@ proxies:
   skip-cert-verify: true
   sni: de.cacnord.bilibili.com_548ms
   type: trojan
-- name: ' TR-HTTPUPGRADE-TLS  NA-104.21... #25'
+- name: ' TR-HTTPUPGRADE-TLS  NA-104.21... #24'
   network: httpupgrade
   password: eZFUYsXGBLab
   port: 2087
@@ -6424,6 +6415,24 @@ proxies:
   port: 22222
   server: 63.177.163.91
   skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: ' TR-TCP-TLS  DE-18.159.150.95:... #2'
+  network: tcp
+  password: telegram-id-v2rayvpnchannel
+  port: 22223
+  server: 18.159.150.95
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: ' TR-TCP-TLS  DE-63.178.144.147... #2'
+  network: tcp
+  password: telegram-id-v2rayvpnchannel
+  port: 22223
+  server: 63.178.144.147
   sni: trojan.burgerip.co.uk
   type: trojan
 - name: '德国稳定 #6'
@@ -6576,7 +6585,7 @@ proxies:
     headers:
       Host: forchannel.global.ssl.fastly.net
     path: /azadi?ed=2560
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #11'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #10'
   network: httpupgrade
   port: 80
   server: 104.21.74.214
@@ -6909,7 +6918,7 @@ proxies:
     headers:
       Host: Kanal-polproxy.Vipnufilter.Online.
     path: /telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #12'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #11'
   network: httpupgrade
   port: 8080
   server: 104.21.64.1
@@ -6988,7 +6997,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024_1ms'
-- name: ' VL-HTTPUPGRADE-TLS  NA-104.21... #1'
+- name: ' VL-HTTPUPGRADE-TLS  NA-104.21... #2'
   network: httpupgrade
   port: 443
   server: 104.21.16.1
@@ -7203,6 +7212,16 @@ proxies:
   tls: true
   type: vless
   uuid: 38c31b4c-117d-429a-9469-aa2a420ac04e
+- name: ' VL-TCP-NONE  DE-91.99.205.88:... #1'
+  network: tcp
+  port: 3789
+  server: 91.99.205.88
+  tls: false
+  type: vless
+  uuid: 3d9a3ca9-7cd1-4650-8036-29303da81669
+  ws-opts:
+    headers:
+      Host: varzesh3.com
 - name: 🇩🇪德国11+|+⬇️+2.6MB/s
   network: ws
   port: 8880
@@ -7255,7 +7274,7 @@ proxies:
     headers:
       Host: 2.v2.www.speedtest.net.blue99shop.ir
     path: /
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #15'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #16'
   network: httpupgrade
   port: 8080
   server: 104.17.147.22
@@ -7276,7 +7295,7 @@ proxies:
     headers:
       Host: dE-sNaPp.MaStErSrV.iR.aCaDeMiGrOuP.Ir.
     path: '%2fEXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420%3fed%3d2048'
-- name: ' VL-HTTPUPGRADE-NONE  NA-172.6... #3'
+- name: ' VL-HTTPUPGRADE-NONE  NA-172.6... #4'
   network: httpupgrade
   port: 2095
   server: 172.67.209.117
@@ -7390,7 +7409,7 @@ proxies:
     headers:
       Host: bx.ylks.xyz
     path: '%2f'
-- name: '德国_3 #4'
+- name: '德国_3 #2'
   network: ws
   port: 443
   server: 185.16.110.91
@@ -7402,6 +7421,26 @@ proxies:
     headers:
       Host: xx.ylks.xyz
     path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- name: '德国_4 #2'
+  network: ws
+  port: 443
+  server: 188.244.122.57
+  servername: xin033.ylks.link
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    path: /blue
+- name: '德国_2 #2'
+  network: ws
+  port: 8443
+  server: 188.244.122.57
+  servername: xin033.ylks.link
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    path: /blue
 - name: '橘子公益-德国DE-1 #2'
   network: grpc
   port: 6666
@@ -7471,7 +7510,7 @@ proxies:
   tls: false
   type: vless
   uuid: 5333992c-07eb-474b-af06-e217209bfeb7
-- name: ' VL-HTTPUPGRADE-NA  NA-173.245... #4'
+- name: ' VL-HTTPUPGRADE-NA  NA-173.245... #3'
   network: httpupgrade
   port: 2052
   server: 173.245.59.100
@@ -7765,6 +7804,17 @@ proxies:
     headers:
       Host: varzesh3.varzesh.dpdns.org
     path: '%2f%3fed%3d2560'
+- client-fingerprint: chrome
+  name: ' Germany #1'
+  network: tcp
+  port: 2434
+  reality-opts:
+    public-key: yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA
+  server: 91.99.148.251
+  servername: chess.com
+  tls: false
+  type: vless
+  uuid: 69110f6d-a7f8-4742-b04b-f498f9b932fd
 - name: ' Germany #3'
   network: tcp
   port: 1517
@@ -7812,7 +7862,7 @@ proxies:
     headers:
       Host: sib.sibzamini.dpdns.org
     path: '%2f%3fed%3d2560'
-- name: ' VL-HTTPUPGRADE-NONE  NA-173.2... #8'
+- name: ' VL-HTTPUPGRADE-NONE  NA-173.2... #5'
   network: httpupgrade
   port: 8880
   server: 173.245.59.100
@@ -7899,7 +7949,7 @@ proxies:
       Host: all22.kikforwindows.com
     path: '%2Fcontainers%2Fde'
 - flow: xtls-rprx-vision-udp443-udp443
-  name: ' VL-TCP-TLS  DE-204.10.194.78:... #1'
+  name: ' VL-TCP-TLS  DE-204.10.194.78:... #2'
   port: 443
   server: 204.10.194.78
   servername: yfnl1.xn--4gq62f52gppi29k.com_96ms
@@ -7986,7 +8036,7 @@ proxies:
   tls: false
   type: vless
   uuid: 851df771-b34d-4fc4-b4c5-a22202bc6a8a
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #13'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #12'
   network: httpupgrade
   port: 2082
   server: 104.21.56.233
@@ -8027,6 +8077,17 @@ proxies:
     headers:
       Host: inbarzendegi.site
     path: /azadi?ed=2560
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #8'
+  network: httpupgrade
+  port: 8080
+  server: 104.16.53.11
+  tls: false
+  type: vless
+  uuid: 8960c969-eebb-4b5a-b480-4662e51893ca
+  ws-opts:
+    headers:
+      Host: okamideoijwqomqwedmqweodimpqo.okatestoka.ir
+    path: /
 - name: 'TG:@JUZIBAIPIAO++德国_3 #1'
   network: ws
   port: 443
@@ -8039,7 +8100,7 @@ proxies:
     headers:
       Host: av.ylks.xyz
     path: '%2f'
-- name: '德国_1 #4'
+- name: '德国_1 #2'
   network: ws
   port: 443
   server: 185.16.110.91
@@ -8264,7 +8325,7 @@ proxies:
   tls: true
   type: vless
   uuid: 976d14a2-7464-4882-a3d8-97cc0ab3f350
-- name: ' VL-HTTPUPGRADE-NONE  NA-172.6... #4'
+- name: ' VL-HTTPUPGRADE-NONE  NA-172.6... #5'
   network: httpupgrade
   port: 80
   server: 172.67.21.239
@@ -8307,7 +8368,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER_3ms
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #18'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #19'
   network: httpupgrade
   port: 8080
   server: 104.16.53.11
@@ -8340,7 +8401,7 @@ proxies:
   - h2
   - http/1.1_93ms
   client-fingerprint: chrome
-  name: ' VL-WS-TLS  DE-91.107.131.168:... #1'
+  name: ' VL-WS-TLS  DE-91.107.131.168:... #2'
   network: ws
   port: 443
   server: 91.107.131.168
@@ -8431,7 +8492,7 @@ proxies:
   tls: true
   type: vless
   uuid: 9e55e24c-8de9-4357-8a37-9cf1212c6491
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #14'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #13'
   network: httpupgrade
   port: 8080
   server: 104.21.32.1
@@ -8509,7 +8570,7 @@ proxies:
     headers:
       Host: bk.ylks.xyz
     path: '%2f'
-- name: '德国_2 #3'
+- name: '德国_2 #1'
   network: ws
   port: 443
   server: 130.61.87.219
@@ -8521,7 +8582,7 @@ proxies:
     headers:
       Host: kx.ylks.xyz
     path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
-- name: '德国_4 #5'
+- name: '德国_4 #3'
   network: ws
   port: 443
   server: 185.135.9.15
@@ -8569,6 +8630,26 @@ proxies:
     headers:
       Host: jx.ylks01.eu.org
     path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- name: '德国_5 #1'
+  network: ws
+  port: 443
+  server: 188.244.122.57
+  servername: kk033.ylks.link
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    path: /blue
+- name: '德国_3 #3'
+  network: ws
+  port: 8443
+  server: 188.244.122.57
+  servername: jp033.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    path: /blue
 - name: '橘子公益-德国DE-3 #3'
   network: ws
   port: 443
@@ -8617,7 +8698,7 @@ proxies:
     headers:
       Host: dg.xiaoqi555.xyz_1ms
     path: '%2F'
-- name: ' VL-HTTPUPGRADE-NONE  NA-173.2... #9'
+- name: ' VL-HTTPUPGRADE-NONE  NA-173.2... #6'
   network: httpupgrade
   port: 2052
   server: 173.245.59.132
@@ -8643,7 +8724,7 @@ proxies:
     headers:
       Host: faruzan.changli.ddns-ip.net
     path: '%2Fproxyip%3Dnavia.shorekeeper.ir'
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #19'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #20'
   network: httpupgrade
   port: 2052
   server: 104.17.148.22
@@ -8653,7 +8734,7 @@ proxies:
   ws-opts:
     headers:
       Host: mostaghim-chap.ok-exor.ir_1ms
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #15'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #14'
   network: httpupgrade
   port: 8080
   server: 104.21.96.1
@@ -8745,6 +8826,65 @@ proxies:
     headers:
       Host: ''
     path: ''
+- name: 4Nika-15888
+  network: tcp
+  port: 4928
+  server: 91.99.150.156
+  tls: false
+  type: vless
+  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
+  ws-opts:
+    headers:
+      Host: speedtest.net
+    path: /
+- name: 4Nika-15889
+  network: tcp
+  port: 1517
+  server: 91.99.150.157
+  tls: false
+  type: vless
+  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
+  ws-opts:
+    headers:
+      Host: testspeed-foreign.tci.ir
+    path: /
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: chessgame
+  name: ' VL-GRPC-RLT  DE-91.99.150.157...'
+  network: grpc
+  port: 3184
+  reality-opts:
+    public-key: hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I
+  server: 91.99.150.157
+  servername: www.chess.com
+  tls: false
+  type: vless
+  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: chessgame
+  name: ' VL-GRPC-RLT  DE-91.99.150.159...'
+  network: grpc
+  port: 2182
+  reality-opts:
+    public-key: hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I
+  server: 91.99.150.159
+  servername: www.chess.com
+  tls: false
+  type: vless
+  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
+- name: '4Nika-15906 #1'
+  network: tcp
+  port: 4928
+  server: 91.99.205.88
+  tls: false
+  type: vless
+  uuid: b2edea1f-ac0b-46b2-9bd6-e82a5a2d2f85
+  ws-opts:
+    headers:
+      Host: speedtest.net
+    path: /
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: '🇩🇪德国 #26'
@@ -8758,6 +8898,17 @@ proxies:
   tls: false
   type: vless
   uuid: b3db0023-5114-46e6-b495-1d95a7da13b4
+- name: ' VL-HTTPUPGRADE-NONE  NA-173.2... #4'
+  network: httpupgrade
+  port: 2052
+  server: 173.245.58.100
+  tls: false
+  type: vless
+  uuid: b3dfdcfa-a791-4f73-9c06-e90a11ff24ea
+  ws-opts:
+    headers:
+      Host: 1.dreshghi.ir.ferialmostofi.c-om.padaco.ir.arashnasiri.com.shafashiraz.ir.honartandis.com.shouba.ir.iran-dental.com.sardkhoone.com.mohammadsalehpour.ir.abadgan.com.arvijpub.com.chmctruck.com.gandom-yar.ir
+    path: '%2FGoodLuck%3Fed%3D2560'
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: '德国 01 #1'
@@ -9055,7 +9206,7 @@ proxies:
   uuid: be784c9e-a372-4b69-ae81-1f3364a01508
   ws-opts:
     path: '%2F'
-- name: 4Sarina-20699
+- name: '4Sarina-20699 #1'
   network: tcp
   port: 24161
   server: 102.215.228.122
@@ -9160,6 +9311,17 @@ proxies:
   uuid: c5293efa-28f8-4a0f-8f34-541078970cee
   ws-opts:
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #11'
+  network: httpupgrade
+  port: 8880
+  server: 104.17.148.22
+  tls: false
+  type: vless
+  uuid: c5cc765f-9b1e-4fdb-bca4-f2a889bc8ecb
+  ws-opts:
+    headers:
+      Host: Www.soft98.ir.snap.ir.Www.Abantether.ir.te1450.ir
+    path: '%2F2048'
 - client-fingerprint: chrome
   name: '🇩🇪德国1 | ⬇️ 2.3MB/s #1'
   network: ws
@@ -9173,6 +9335,36 @@ proxies:
     headers:
       Host: lmn1745139604097.lmn17701.info
     path: '%2FlVrw7K'
+- name: '德国_11 #1'
+  network: ws
+  port: 443
+  server: 188.244.122.152
+  servername: v033.ylkszy.eu.org
+  tls: true
+  type: vless
+  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
+  ws-opts:
+    path: /?proxyip=proxyip.oracle.fxxk.dedyn.io
+- name: '德国_10 #1'
+  network: ws
+  port: 443
+  server: 188.244.122.202
+  servername: v033.ylkszy.eu.org
+  tls: true
+  type: vless
+  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
+  ws-opts:
+    path: /?ed=2560
+- name: '德国_1 #3'
+  network: ws
+  port: 443
+  server: 81.95.4.189
+  servername: v033.ylkszy.eu.org
+  tls: true
+  type: vless
+  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
+  ws-opts:
+    path: /?ed=2560
 - name: '🇩🇪德国39+|+⬇️+1.3MB/s #1'
   network: ws
   port: 443
@@ -9185,7 +9377,7 @@ proxies:
     headers:
       Host: WWW.EsfahAnsimaN.infO.
     path: '%2fTELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config'
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #16'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #15'
   network: httpupgrade
   port: 8880
   server: 104.21.69.44
@@ -11682,7 +11874,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     path: '%2F%3Fed%3D2560'
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #17'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #16'
   network: httpupgrade
   port: 2086
   server: 104.24.196.20
@@ -11712,7 +11904,7 @@ proxies:
   tls: false
   type: vless
   uuid: d6e8d163-049d-407a-847c-7b7633bc8caa
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #18'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #17'
   network: httpupgrade
   port: 8080
   server: 104.21.80.1
@@ -11889,7 +12081,7 @@ proxies:
     headers:
       Host: Kanal-polproxy.Vipnufilter.Online.
     path: /telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #20'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #21'
   network: httpupgrade
   port: 2086
   server: 104.16.102.112
@@ -11914,6 +12106,16 @@ proxies:
     headers:
       Host: verina.ccantarella.dns-dynamic.net
     path: '%2Fproxyip%3Drobin.yaemiko.ggff.net'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #13'
+  network: httpupgrade
+  port: 2086
+  server: 104.17.147.22
+  tls: false
+  type: vless
+  uuid: f06c8dbf-f0e2-4a91-ca38-8dc7103af844
+  ws-opts:
+    headers:
+      Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
 - client-fingerprint: chrome
   name: 🇩🇪德国2 | ⬇️ 16.5MB/s |26%|Opena...
   network: tcp
@@ -12067,7 +12269,7 @@ proxies:
     headers:
       Host: vdd.wxgqlfx.cn
     path: '%2fTG%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa%3fed%3d2560'
-- name: ' VL-HTTPUPGRADE-NONE  NA-172.6... #5'
+- name: ' VL-HTTPUPGRADE-NONE  NA-172.6... #6'
   network: httpupgrade
   port: 8880
   server: 172.67.212.185
@@ -12092,7 +12294,7 @@ proxies:
     headers:
       Host: esna.onetwothree123.ir
     path: '%2Fm3PXEz1aEnAZ7wba2GqlkGpBhZ'
-- name: ' VL-HTTPUPGRADE-NA  NA-173.245... #5'
+- name: ' VL-HTTPUPGRADE-NA  NA-173.245... #4'
   network: httpupgrade
   port: 2052
   server: 173.245.58.100
@@ -12230,7 +12432,7 @@ proxies:
   tls: true
   type: vless
   uuid: fce886cf-9623-4ba0-9599-edba06c7877c
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #19'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.2... #18'
   network: httpupgrade_1ms
   port: 2095
   server: 104.21.96.1
@@ -12318,6 +12520,87 @@ proxies:
   uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 0
   cipher: auto
+  name: 德国频_14
+  network: ws
+  port: 8880
+  server: 185.143.233.122
+  tls: false
+  type: vmess
+  uuid: 14d3d01e-94f7-4704-de0f-8ab1ad0e9aca
+  ws-opts: {}
+- alterId: 64
+  cipher: auto
+  name: 德国 043
+  network: ws
+  port: 443
+  server: 51.38.110.143
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 德国 066
+  network: ws
+  port: 31982
+  server: deguo.kctr2038.icu
+  tls: false
+  type: vmess
+  uuid: 895eff47-4efa-4f60-9aaf-40e4edd05bcf
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '德国 009 #1'
+  network: ws
+  port: 8081
+  server: 91.107.241.189
+  tls: false
+  type: vmess
+  uuid: 35acf7b9-051c-4f47-f4ab-fffa99a7ef24
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 德国 038
+  network: ws
+  port: 443
+  server: 144.76.110.76
+  tls: false
+  type: vmess
+  uuid: 3445bb7a-7dcb-408e-be51-a8912bad94ea
+  ws-opts: {}
+- alterId: 64
+  cipher: auto
+  name: '德国 Edge #1'
+  network: ws
+  port: 153
+  server: de1.qiangdong.xyz
+  tls: false
+  type: vmess
+  uuid: 52c223dd-c6cc-3a0c-b865-9e5e0ddfe10a
+  ws-opts:
+    headers:
+      Host: f2348123663.laowanxiang.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 德国_0407181
+  network: tcp
+  port: 80
+  server: 91.107.246.131
+  tls: false
+  type: vmess
+  uuid: ca58104f-8962-4f39-a92e-dd01123b8ccd
+- alterId: 0
+  cipher: auto
+  name: 德国_0407183
+  network: tcp
+  port: 8443
+  server: 91.107.246.131
+  tls: false
+  type: vmess
+  uuid: cece8ab1-d1d0-4274-e9c4-3451da463ac9
+- alterId: 0
+  cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
   name: 🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
@@ -12328,6 +12611,42 @@ proxies:
   tls: true
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪-德国-domaindemom4xe.eu-ffa... #1'
+  network: ws
+  port: 443
+  server: domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 3445bb7a-7dcb-408e-be51-a8912bad94ea
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 64
+  cipher: auto
+  name: 🇩🇪DE-89.163.157.146-21090
+  network: ws
+  port: 443
+  server: 89.163.157.146
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: DE_130.61.179.77_04072023a7d7-...
+  network: tcp
+  port: 20574
+  server: 130.61.179.77
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 87e3048a-5932-457a-84b9-deb51b5c91cd
 - alterId: 0
   cipher: auto
   name: Relay_-🇩🇪DE_26 |32.20Mb
@@ -12473,7 +12792,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #16'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #17'
   network: httpupgrade
   port: 2086
   server: 104.17.147.22
@@ -12484,7 +12803,7 @@ proxies:
     headers:
       Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
     path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D2086'
-- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #17'
+- name: ' VL-HTTPUPGRADE-NONE  NA-104.1... #18'
   network: httpupgrade
   port: 2086
   server: 104.17.148.22

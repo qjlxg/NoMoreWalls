@@ -1,27 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: YEEY5712
-  network: tcp
-  port: '8881'
-  server: 170.187.163.89
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '4Sarina-19534 #1'
-  network: tcp
-  port: 4768
-  reality-opts:
-    public-key: 1juiWgfU1-cGsbu9zxKCly7Vn3WGES5x6S86r90_vwc
-    short-id: b7e284c9b786f709
-  server: 146.19.143.150
-  servername: yandex.com
-  tls: false
-  type: vless
-  uuid: af50bdbf-1715-a461-cbb4-ebbea9ed338c
+- cipher: chacha20-ietf
+  name: '5rW35Y2X55yB5rW35Y-j5biCLWllcG... #6'
+  obfs: http_simple
+  obfs-param: ZmU5OTM2NjAzLm1pY3Jvc29mdC5jb20
+  password: cxssr911
+  port: '2051'
+  protocol: auth_aes128_md5
+  protocol-param: NjYwMzpmbEpxbE0
+  server: iepl1.nnooddee.xyz
+  type: ssr
 - name: V1-爱沙尼亚
   password: ce71384b-7966-4139-a2f5-5d2ef263afb3
   port: 41760
@@ -49,7 +36,7 @@ proxies:
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: ' VL-TCP-RLT  EE-146.19.143.150... #2'
+  name: ' VL-TCP-RLT  EE-146.19.143.150... #1'
   network: tcp
   port: 4768
   reality-opts:
