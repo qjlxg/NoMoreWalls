@@ -36,20 +36,6 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 加拿大_0306001
-  network: ws
-  port: '443'
-  server: 23.227.38.11
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2
-  ws-opts:
-    headers:
-      Host: frgt1.ssr-free2.xyz
-    path: /UMW36262
-- alterId: 0
-  cipher: auto
   name: 加拿大_0628004
   network: ws
   port: '80'
@@ -328,13 +314,20 @@ proxies:
     headers:
       Host: inna.cfd
     path: /linkvws
-- name: '4Sarina-5023 #1'
-  password: 89d81c5f-3d75-42f7-8a23-1be9ac89f3fb
-  port: 80
-  server: 149.56.132.41
-  skip-cert-verify: true
-  sni: ca1.trojanvh.xyz
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 加拿大_0306001
+  network: ws
+  port: '443'
+  server: 23.227.38.11
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2
+  ws-opts:
+    headers:
+      Host: frgt1.ssr-free2.xyz
+    path: /UMW36262
 - name: 'Relay_🇨🇦CA-🇨🇦CA_01 #1'
   password: 54f4dd9a-6a6c-4c84-b328-4a51da70793e
   port: 443
@@ -344,6 +337,13 @@ proxies:
   password: 54f4dd9a-6a6c-4c84-b328-4a51da70793e
   port: 443
   server: 625tw.ok365.cyou
+  type: trojan
+- name: '4Sarina-5023 #1'
+  password: 89d81c5f-3d75-42f7-8a23-1be9ac89f3fb
+  port: 80
+  server: 149.56.132.41
+  skip-cert-verify: true
+  sni: ca1.trojanvh.xyz
   type: trojan
 - name: 'Trojan VPN Server CAO 1 #2'
   network: tcp
@@ -463,19 +463,10 @@ proxies:
     headers:
       Host: www.ltzs.buzz
     path: /bb2b34a1
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 加拿大 09
-  network: tcp
-  port: '45064'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 7544ffd3-6801-4e95-aa75-96f370c61eea
 - alpn:
   - h2
   - http/1.1
-  name: 'CA|GithubTrojanLinks #10'
+  name: 'CA|GithubTrojanLinks #5'
   network: tcp
   password: 2qmYr0p4X63t
   port: 14826
@@ -1080,6 +1071,137 @@ proxies:
   uuid: 37fdb20e-4bb6-3b37-a788-8b96bab63886
 - alterId: 0
   cipher: auto
+  name: 🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: shopify.com
+  tls: true
+  type: vmess
+  uuid: a0aa5a85-ee0c-4b49-aaad-adbc2d07c8ea
+  ws-opts:
+    headers:
+      Host: doprax.888173.xyz
+    path: /a0aa5a85-ee0c-4b49-aaad-adbc2d07c8ea-vm?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦-加拿大-192.99.247.52
+  network: ws
+  port: '10000'
+  server: 192.99.247.52
+  tls: false
+  type: vmess
+  uuid: fef4291c-b275-11ed-bdb4-33c8770a4026
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 加拿大_0314107
+  network: ws
+  port: '8080'
+  server: shopify.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bcec3c6c-9483-41bd-ad8e-32cf99d24a9c
+  ws-opts:
+    headers:
+      Host: polo-hk.yunlan.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦-加拿大-165.154.246.150
+  network: ws
+  port: '80'
+  server: 165.154.246.150
+  tls: false
+  type: vmess
+  uuid: 07e7dc83-4ac4-3525-a66f-c6cfa8edffca
+  ws-opts:
+    path: /ny
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 加拿大_0224155
+  network: tcp
+  port: '11111'
+  server: 35.183.148.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7cb72883-9635-46eb-8531-8d697927ff04
+- alterId: 0
+  cipher: auto
+  name: 'github.com/freefq - 加拿大  11 #1'
+  network: ws
+  port: 80
+  server: 165.154.253.155
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 484d52b8-6edd-3b1f-8fcf-aa124d64d620
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ny
+- alterId: 0
+  cipher: auto
+  name: 加拿大_0106227
+  network: ws
+  port: '80'
+  server: mtl-arm3.egg.run
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
+  ws-opts:
+    headers:
+      Host: mtl-arm3.egg.run
+    path: mtl-arm3.egg.run/
+- alterId: 0
+  cipher: auto
+  name: 'github.com/freefq - 加拿大安大略省多伦多... #1'
+  network: ws
+  port: 80
+  server: 159.203.28.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e1f6f737-e6df-4947-b469-cf2b9698c50b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦-加拿大-159.203.18.119
+  network: ws
+  port: '80'
+  server: 159.203.18.119
+  tls: false
+  type: vmess
+  uuid: 7118fddb-3e01-4932-a01d-6fb6799d2876
+  ws-opts:
+    headers:
+      Host: 159.203.18.119
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 加拿大_1208045
+  network: tcp
+  port: '15323'
+  server: 23jnd.mealstream.xyz
+  tls: true
+  type: vmess
+  uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 加拿大(TG频道@kxswa)
+  network: tcp
+  port: '38793'
+  server: 46.102.156.61
+  tls: true
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+- alterId: 0
+  cipher: auto
   name: 加拿大 090
   network: ws
   port: 443
@@ -1553,16 +1675,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 06957dde-400c-35d8-8e08-b4327b5a41af
-- alterId: 0
-  cipher: auto
-  name: 加拿大 085
-  network: ws
-  port: 443
-  server: fdf7.v9966.shop
-  tls: false
-  type: vmess
-  uuid: 2aeb26e0-c1c0-11ed-b331-205c6d5f5d78
-  ws-opts: {}
 - alterId: 2
   cipher: auto
   name: 'Vip1丨加拿大21丨 #78'
@@ -1663,19 +1775,6 @@ proxies:
   tls: false
   type: vmess
   uuid: b1ef5d72-a79a-3362-ace0-6c2225921039
-- alterId: 0
-  cipher: auto
-  name: '@DeamNet_🇨🇦Toronto-3278-756 #1'
-  network: ws
-  port: 2052
-  server: dearmb.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: d264f990-a6a5-3832-bf37-1fccaed298dd
-  ws-opts:
-    headers:
-      Host: dearmb.76898102.xyz
-    path: /ancihgrt
 - alterId: 0
   cipher: auto
   name: '@DeamNet_🇨🇦Toronto-3252-214'
@@ -1803,20 +1902,6 @@ proxies:
     path: /A2DJOPFT
 - alterId: 0
   cipher: auto
-  name: '@DeamNet_🇨🇦Toronto-3279-757'
-  network: ws
-  port: 443
-  server: uk1.scproxy.top
-  servername: uk1.scproxy.top
-  tls: true
-  type: vmess
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-  ws-opts:
-    headers:
-      Host: uk1.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
   name: 加拿大_0327024
   network: tcp
   port: '36195'
@@ -1825,20 +1910,6 @@ proxies:
   tls: false
   type: vmess
   uuid: ccf84de0-a3d1-41f0-e341-8588c2ec0c34
-- alterId: 0
-  cipher: auto
-  name: 加拿大_0401018
-  network: ws
-  port: '443'
-  server: shopify.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a0aa5a85-ee0c-4b49-aaad-adbc2d07c8ea
-  ws-opts:
-    headers:
-      Host: doprax.888173.xyz
-    path: /a0aa5a85-ee0c-4b49-aaad-adbc2d07c8ea-vm?ed=2048
 - alterId: 0
   cipher: auto
   name: 加拿大_0318026
@@ -2029,20 +2100,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: github.com/freefq - 加拿大  18
-  network: ws
-  port: 31908
-  server: 135.181.41.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3f8a796e-d433-4c2c-e88a-9655cd380e5e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大_1208034
   network: ws
   port: '443'
@@ -2099,7 +2156,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇦 加拿大(TG频道@kxswa)
+  name: '🇨🇦 加拿大(TG频道@kxswa) #1'
   network: tcp
   port: '40086'
   server: 46.102.156.61
@@ -2210,15 +2267,6 @@ proxies:
     headers:
       Host: 1030tw.fans8.xyz
     path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦-加拿大-23jnd.mealstream.xyz
-  network: tcp
-  port: '15323'
-  server: 23jnd.mealstream.xyz
-  tls: false
-  type: vmess
-  uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
 - alterId: 2
   cipher: auto
   name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
@@ -2261,89 +2309,87 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇦-加拿大-192.99.247.52
+  name: 🇨🇦 加拿大_1124001
+  network: ws
+  port: '443'
+  server: 168.138.94.194
+  tls: false
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 -加拿大-165.154.244.29
+  network: tcp
+  port: '443'
+  server: 165.154.244.29
+  tls: false
+  type: vmess
+  uuid: f8c3fbfe-9f65-4861-b824-f0049aa55810
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦-加拿大-v53.idcloudhost.de
   network: ws
   port: '10000'
-  server: 192.99.247.52
+  server: v53.idcloudhost.de
   tls: false
   type: vmess
-  uuid: fef4291c-b275-11ed-bdb4-33c8770a4026
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦-加拿大-165.154.246.150
-  network: ws
-  port: '80'
-  server: 165.154.246.150
-  tls: false
-  type: vmess
-  uuid: 07e7dc83-4ac4-3525-a66f-c6cfa8edffca
-  ws-opts:
-    path: /ny
-- alterId: 0
-  cipher: auto
-  name: 'github.com/freefq - 加拿大  11 #1'
-  network: ws
-  port: 80
-  server: 165.154.253.155
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 484d52b8-6edd-3b1f-8fcf-aa124d64d620
+  uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
   ws-opts:
     headers:
-      Host: ''
-    path: /ny
+      Host: v53.idcloudhost.de
+    path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大_0106227
+  name: 🇨🇦 加拿大_1124021
   network: ws
-  port: '80'
-  server: mtl-arm3.egg.run
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
-  ws-opts:
-    headers:
-      Host: mtl-arm3.egg.run
-    path: mtl-arm3.egg.run/
-- alterId: 0
-  cipher: auto
-  name: 'github.com/freefq - 加拿大安大略省多伦多... #1'
-  network: ws
-  port: 80
-  server: 159.203.28.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e1f6f737-e6df-4947-b469-cf2b9698c50b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦-加拿大-159.203.18.119
-  network: ws
-  port: '80'
-  server: 159.203.18.119
-  tls: false
-  type: vmess
-  uuid: 7118fddb-3e01-4932-a01d-6fb6799d2876
-  ws-opts:
-    headers:
-      Host: 159.203.18.119
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '🇨🇦 加拿大(TG频道@kxswa) #1'
-  network: tcp
-  port: '38793'
-  server: 46.102.156.61
+  port: '443'
+  server: 167.114.67.25
   tls: true
   type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: tgunivstar.168-138-94-194.sslip.io
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇨🇦 -加拿大-165.154.244.29 #1'
+  network: tcp
+  port: '443'
+  server: 165.154.244.29
+  tls: false
+  type: vmess
+  uuid: e13a9c42-54d6-4fe1-9578-0ca3bfc17122
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 加拿大_1124003
+  network: ws
+  port: '80'
+  server: bp3.mayiyun.shop
+  tls: false
+  type: vmess
+  uuid: e093b2a2-a8f3-4fca-bfe9-00583387e767
+  ws-opts:
+    headers:
+      Host: a.189.cn
+    path: /ws
+- alterId: 2
+  cipher: auto
+  name: 🇨🇦 加拿大_1122016
+  network: ws
+  port: '10095'
+  server: ca-yto-1.wespanl.club
+  tls: false
+  type: vmess
+  uuid: 4f55901a-626f-3df4-be38-dfa35785355d
+  ws-opts:
+    headers:
+      Host: ca-yto-1.wespanl.club
+    path: /
 - alterId: 0
   cipher: auto
   name: 加拿大_1122199
@@ -2374,33 +2420,6 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 加拿大_1122001
-  network: ws
-  port: '443'
-  server: 168.138.94.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦-加拿大-v51.idcloudhost.de
-  network: ws
-  port: '80'
-  server: v51.idcloudhost.de
-  tls: false
-  type: vmess
-  uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
-  ws-opts:
-    headers:
-      Host: v51.idcloudhost.de
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇨🇦 -南非-tun.ca.xlkjjs.top
   network: ws
   port: '16270'
@@ -2421,63 +2440,6 @@ proxies:
   tls: false
   type: vmess
   uuid: e5168132-05b9-41c7-94ba-9efc9b697948
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 加拿大_1120025
-  network: ws
-  port: '80'
-  server: bp3.mayiyun.shop
-  tls: false
-  type: vmess
-  uuid: e093b2a2-a8f3-4fca-bfe9-00583387e767
-  ws-opts:
-    headers:
-      Host: a.189.cn
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 -加拿大-165.154.244.29
-  network: tcp
-  port: '443'
-  server: 165.154.244.29
-  tls: false
-  type: vmess
-  uuid: f8c3fbfe-9f65-4861-b824-f0049aa55810
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 加拿大_1124021
-  network: ws
-  port: '443'
-  server: 167.114.67.25
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: tgunivstar.168-138-94-194.sslip.io
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇨🇦 -加拿大-165.154.244.29 #1'
-  network: tcp
-  port: '443'
-  server: 165.154.244.29
-  tls: false
-  type: vmess
-  uuid: e13a9c42-54d6-4fe1-9578-0ca3bfc17122
-- alterId: 2
-  cipher: auto
-  name: 🇨🇦 加拿大_1122016
-  network: ws
-  port: '10095'
-  server: ca-yto-1.wespanl.club
-  tls: false
-  type: vmess
-  uuid: 4f55901a-626f-3df4-be38-dfa35785355d
-  ws-opts:
-    headers:
-      Host: ca-yto-1.wespanl.club
-    path: /
 - alterId: 64
   cipher: auto
   name: V2-CA1
@@ -2680,6 +2642,19 @@ proxies:
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /
+- alterId: 0
+  cipher: auto
+  name: '@DeamNet_🇨🇦Toronto-3278-756'
+  network: ws
+  port: 2052
+  server: dearmb.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: d264f990-a6a5-3832-bf37-1fccaed298dd
+  ws-opts:
+    headers:
+      Host: dearmb.76898102.xyz
+    path: /ancihgrt
 - alterId: 0
   cipher: auto
   name: 'CA_youtube@资源分享师_1 #1'

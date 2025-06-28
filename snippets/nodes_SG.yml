@@ -19,6 +19,28 @@ proxies:
   server: 139.59.108.29
   sni: m.linkedin.us
   type: trojan
+- name: '新加坡_1 #1'
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: zdy033.kpcloud.eu.org
+  skip-cert-verify: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: t033.ylks.link
+    path: /
+- name: '新加坡_3 #1'
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 43.153.80.208
+  skip-cert-verify: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: t033.ylks.link
+    path: /
 - alterId: 64
   cipher: auto
   name: 新加坡_0628002
@@ -130,6 +152,16 @@ proxies:
   server: 15.235.197.4
   skip-cert-verify: false
   sni: 15.235.197.4
+  type: trojan
+- name: 'Relay_🇸🇬SG-🇸🇬SG_108 #1'
+  password: 54f4dd9a-6a6c-4c84-b328-4a51da70793e
+  port: 80
+  server: 626sg05.ok365.cyou
+  type: trojan
+- name: 'Relay_🇸🇬SG-🇸🇬SG_109 #1'
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  port: 8443
+  server: sg-02.licom.ml
   type: trojan
 - alterId: 0
   cipher: auto
@@ -294,16 +326,6 @@ proxies:
     headers:
       Host: vsg1.0bad.com
     path: /
-- name: 'Relay_🇸🇬SG-🇸🇬SG_108 #1'
-  password: 54f4dd9a-6a6c-4c84-b328-4a51da70793e
-  port: 80
-  server: 626sg05.ok365.cyou
-  type: trojan
-- name: 'Relay_🇸🇬SG-🇸🇬SG_109 #1'
-  password: ce433528-39fa-4711-bc0d-25a5b1579574
-  port: 8443
-  server: sg-02.licom.ml
-  type: trojan
 - alterId: 444
   cipher: auto
   name: 新加坡1（欢迎订阅Youtube破解资源君）
@@ -463,6 +485,16 @@ proxies:
     headers:
       Host: namava.ir
     path: /JAGOANSSH/
+- cipher: rc4-md5
+  name: '6auY6ZuESGluZXQtZGlwQHZwbmhhdA #1'
+  obfs: tls1.2_ticket_auth
+  obfs-param: dC5tZS92cG5oYXQ
+  password: Cskw6d
+  port: '13231'
+  protocol: auth_aes128_md5
+  protocol-param: NDAwMjE4OnZDUUNFbA
+  server: 120.232.126.108
+  type: ssr
 - alterId: 0
   cipher: aes-128-gcm
   name: '新加坡 01 DigitalOcean #1'
@@ -504,16 +536,6 @@ proxies:
     headers:
       Host: ''
     path: /ssrsub
-- cipher: rc4-md5
-  name: '6auY6ZuESGluZXQtZGlwQHZwbmhhdA #1'
-  obfs: tls1.2_ticket_auth
-  obfs-param: dC5tZS92cG5oYXQ
-  password: Cskw6d
-  port: '13231'
-  protocol: auth_aes128_md5
-  protocol-param: NDAwMjE4OnZDUUNFbA
-  server: 120.232.126.108
-  type: ssr
 - cipher: aes-128-cfb
   name: IzMzQjkvQVM2Mzg4ODogSG9uZyBLb2...
   obfs: plain
@@ -524,19 +546,15 @@ proxies:
   protocol-param: dC5tZS9TU1JTVUI
   server: 134.175.195.183
   type: ssr
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡 26
-  network: ws
-  port: '30839'
-  server: v39.heduian.link
+  name: 🇸🇬 新加坡 21
+  network: tcp
+  port: '45054'
+  server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
+  uuid: 9521b376-8fa3-4388-8c2d-b61f6d26661d
 - alpn:
   - h2
   - http/1.1
@@ -2205,6 +2223,1337 @@ proxies:
   type: vmess
   uuid: ffd17b65-3ea1-42e6-a75a-9c90caebb530
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 'github.com/freefq - 新加坡Amazon数... #4'
+  network: tcp
+  port: 443
+  server: 0kxedm1x8q8lksmj19.xingbayun.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 399004bf-eaf0-4532-b139-ca4e79c5e27b
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-fls-na-sg3.amazonwebser...
+  network: ws
+  port: '80'
+  server: fls-na-sg3.amazonwebservicess.com
+  tls: false
+  type: vmess
+  uuid: c4de9fca-e3c4-4e25-be44-8924cdaa78ab
+  ws-opts:
+    headers:
+      Host: fls-na.amazon.com
+    path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0328008
+  network: ws
+  port: '80'
+  server: 170.187.229.90
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9bda13eb-66bb-4ff5-b01c-aa7c2d291412
+  ws-opts:
+    headers:
+      Host: ''
+    path: /images
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0325124
+  network: ''
+  port: '11586'
+  server: 129.150.53.171
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84e0bb6b-7533-41d8-eee8-ed9299188cf5
+- alterId: 4
+  cipher: auto
+  name: 🇸🇬-新加坡-first.kctr2038.icu
+  network: ws
+  port: '20569'
+  server: first.kctr2038.icu
+  tls: false
+  type: vmess
+  uuid: 5d27c07e-ad30-4dbf-a6bb-1fc0fa87f70a
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0322011
+  network: ws
+  port: '80'
+  server: 170.187.229.90
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8f057d6-903b-4600-8d84-9e78b608c426
+  ws-opts:
+    headers:
+      Host: shoutingtoutiao3.10010.com
+    path: /images
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 19 Amazon Technologies I...
+  network: ws
+  port: '5122'
+  server: xin1.mooooobai.top
+  tls: false
+  type: vmess
+  uuid: f4585341-fe93-332d-bd26-b969f69607b2
+  ws-opts:
+    headers:
+      Host: xin1.mooooobai.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_03141119
+  network: ws
+  port: '443'
+  server: sg6.netflix6.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 61176083-1cca-3f59-8636-0263bf43c409
+  ws-opts:
+    headers:
+      Host: sg6.netflix6.com
+    path: /hls/sg6.m3u8
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0215899
+  network: ws
+  port: '80'
+  server: 165.154.253.155
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1f16aa84-3497-3ff4-b013-f1ea6ad0056f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ny
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0314273
+  network: ws
+  port: '443'
+  server: sg6.microsoftjs.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fe2d5a68-165d-44a6-b9d5-ab3175b621ee
+  ws-opts:
+    headers:
+      Host: tlu.dl.delivery.mp.microsoft.com
+    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0310202
+  network: ws
+  port: '43543'
+  server: sg002.170203.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dcfb0845-0565-4808-956e-a3961fb5cef4
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 4
+  cipher: auto
+  name: 🇸🇬-新加坡-awssg2-tg-data.amazonwe...
+  network: ws
+  port: '80'
+  server: awssg2-tg-data.amazonwebservicess.com
+  tls: false
+  type: vmess
+  uuid: 2b5e3082-f3b5-43da-a3d1-38bb6ac1bf64
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-awssg1-tg-data.amazonwe...
+  network: ws
+  port: '443'
+  server: awssg1-tg-data.amazonwebservicess.com
+  tls: false
+  type: vmess
+  uuid: c56dee46-f48f-413a-98fc-df83a0352ae6
+  ws-opts:
+    headers:
+      Host: fls-na.amazon.com
+    path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-sg003.170203.xyz
+  network: ws
+  port: '34333'
+  server: sg003.170203.xyz
+  tls: false
+  type: vmess
+  uuid: 812c5c50-2e32-4acf-9281-a7799a9d3774
+  ws-opts:
+    headers:
+      Host: sg003.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-sg2.sanfen001.pics
+  network: ws
+  port: '2007'
+  server: sg2.sanfen001.pics
+  tls: false
+  type: vmess
+  uuid: ae13496e-4756-4f65-bc01-4104e296ca9c
+  ws-opts:
+    headers:
+      Host: sg1.sanfen001.pics
+    path: /cn
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬-新加坡-sg2.sanfen001.pics #1'
+  network: ws
+  port: '2002'
+  server: sg2.sanfen001.pics
+  tls: false
+  type: vmess
+  uuid: 6db42a0c-5abc-4d1c-a09c-2052c661f9f8
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0128669
+  network: ws
+  port: '443'
+  server: sg001sf4w2.v2board.icu
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: efd5c368-fe06-4a3f-939e-28c1bd5f7017
+  ws-opts:
+    headers:
+      Host: sg001sf4w2.v2board.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-awssg7-tg-data.amazonwe...
+  network: ws
+  port: '80'
+  server: awssg7-tg-data.amazonwebservicess.com
+  tls: false
+  type: vmess
+  uuid: d4eefa16-1763-4d52-af68-22c29d79c83b
+  ws-opts:
+    headers:
+      Host: tlu.dl.delivery.mp.microsoft.com
+    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬-新加坡-sg003.170203.xyz #1'
+  network: ws
+  port: '34333'
+  server: sg003.170203.xyz
+  tls: false
+  type: vmess
+  uuid: aa4f4054-2b52-4fdc-a089-7f7bf17db98e
+  ws-opts:
+    headers:
+      Host: sg003.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-sg02.170203.xyz
+  network: ws
+  port: '43543'
+  server: sg02.170203.xyz
+  tls: false
+  type: vmess
+  uuid: 7b98bfc2-f353-4c9e-a247-2eeec98e98eb
+  ws-opts:
+    headers:
+      Host: sg02.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-sg05.170203.xyz
+  network: ws
+  port: '43543'
+  server: sg05.170203.xyz
+  tls: false
+  type: vmess
+  uuid: ad6fd977-eb6e-4574-9768-3a74788408c5
+  ws-opts:
+    headers:
+      Host: sg05.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0221794
+  network: tcp
+  port: '9002'
+  server: 52.221.207.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1d24d26a-ee0f-430d-82e6-1c4e791c5e22
+- alterId: 64
+  cipher: auto
+  name: github.com/freefq - 新加坡  11
+  network: ws
+  port: '35264'
+  server: 118.107.62.53
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b7571d81-4abd-45c0-8c5a-c98c1eb2d533
+  ws-opts:
+    headers:
+      Host: jp1.verichains.co
+    path: /jp1/getData
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-52.76.216.125
+  network: ws
+  port: '80'
+  server: 52.76.216.125
+  tls: false
+  type: vmess
+  uuid: 8076ad5d-0cc9-4736-8c29-a912e7858337
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬-新加坡-sg05.170203.xyz #1'
+  network: ws
+  port: '43543'
+  server: sg05.170203.xyz
+  tls: false
+  type: vmess
+  uuid: 33ac36d0-3ccc-4b76-80c5-498c50041f36
+  ws-opts:
+    headers:
+      Host: sg05.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-sg001.170203.xyz
+  network: ws
+  port: '43543'
+  server: sg001.170203.xyz
+  tls: false
+  type: vmess
+  uuid: e5769ef5-4ef5-4307-8103-a27321294dd2
+  ws-opts:
+    headers:
+      Host: sg001.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬-新加坡-sg02.170203.xyz #1'
+  network: ws
+  port: '43543'
+  server: sg02.170203.xyz
+  tls: false
+  type: vmess
+  uuid: aa4f4054-2b52-4fdc-a089-7f7bf17db98e
+  ws-opts:
+    headers:
+      Host: sg02.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-sg2.egg.run
+  network: ws
+  port: '80'
+  server: sg2.egg.run
+  tls: false
+  type: vmess
+  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
+  ws-opts:
+    headers:
+      Host: sg2.egg.run
+    path: sg2.egg.run/
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬-新加坡-sg001.170203.xyz #1'
+  network: ws
+  port: '43543'
+  server: sg001.170203.xyz
+  tls: false
+  type: vmess
+  uuid: 7b98bfc2-f353-4c9e-a247-2eeec98e98eb
+  ws-opts:
+    headers:
+      Host: sg001.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0228915
+  network: tcp
+  port: '80'
+  server: 3.0.181.193
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b65ff734-5c19-4f93-b234-c34e9b46bfba
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬-新加坡-sg05.170203.xyz #2'
+  network: ws
+  port: '43543'
+  server: sg05.170203.xyz
+  tls: false
+  type: vmess
+  uuid: 35ad787c-c960-411b-a4c5-8be839de220b
+  ws-opts:
+    headers:
+      Host: sg05.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-sg1.v2pn.live
+  network: ws
+  port: '80'
+  server: sg1.v2pn.live
+  tls: false
+  type: vmess
+  uuid: b4ef7c7e-8ee9-480c-b920-20378ff17cbb
+  ws-opts:
+    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬-新加坡-sg05.170203.xyz #3'
+  network: ws
+  port: '43543'
+  server: sg05.170203.xyz
+  tls: false
+  type: vmess
+  uuid: dc2b3044-82ef-4ab3-a17f-add75a790d83
+  ws-opts:
+    headers:
+      Host: sg05.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬-新加坡-sg05.170203.xyz #4'
+  network: ws
+  port: '43543'
+  server: sg05.170203.xyz
+  tls: false
+  type: vmess
+  uuid: 812c5c50-2e32-4acf-9281-a7799a9d3774
+  ws-opts:
+    headers:
+      Host: sg05.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_02261011
+  network: tcp
+  port: '80'
+  server: 18.139.114.222
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6aeb4fa9-0c1e-4ce3-b1a6-7099c71599f1
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-sg4.sanfen001.pics
+  network: ws
+  port: '2002'
+  server: sg4.sanfen001.pics
+  tls: false
+  type: vmess
+  uuid: 79a78a6d-912f-4a15-97cd-c1a62f4b9e13
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0124707
+  network: tcp
+  port: '24773'
+  server: 156.67.210.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 30a90037-e41e-4d84-df1b-49213e74a1c6
+- alterId: 0
+  cipher: auto
+  name: '新加坡 Amazon数据中心 #1'
+  network: ws
+  port: 2005
+  server: sg2.sanfen001.pics
+  tls: true
+  type: vmess
+  uuid: 5cd940ef-5f62-4afe-9464-ec89e8c070b2
+  ws-opts:
+    headers:
+      Host: sg2.sanfen001.pics
+    path: /cn
+- alterId: 0
+  cipher: auto
+  name: 新加坡1-Tunnel | 1x_1
+  network: ws
+  port: 11621
+  server: sdrfgubi.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
+  ws-opts:
+    headers:
+      Host: sgvfdjh.76898102.xyz
+    path: /aoigbneioueb
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0212710
+  network: tcp
+  port: '43632'
+  server: 54.169.120.225
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 18f49289-9ee1-439a-bbaa-dbb59172c42e
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0221793
+  network: tcp
+  port: '9001'
+  server: 52.221.207.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1d24d26a-ee0f-430d-82e6-1c4e791c5e22
+- alterId: 0
+  cipher: auto
+  name: github.com/freefq - 新加坡OVH 29
+  network: ws
+  port: '10000'
+  server: 139.99.88.161
+  tls: false
+  type: vmess
+  uuid: 3599fbc0-c1cd-11ed-815a-c36f2435909e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-sg002.170203.xyz
+  network: ws
+  port: '43543'
+  server: sg002.170203.xyz
+  tls: false
+  type: vmess
+  uuid: 7b98bfc2-f353-4c9e-a247-2eeec98e98eb
+  ws-opts:
+    headers:
+      Host: sg002.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0220131
+  network: ws
+  port: '80'
+  server: 165.154.253.155
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 317bfccd-5669-327a-82ec-993701fcf5ee
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ny
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬-新加坡-sg003.170203.xyz #2'
+  network: ws
+  port: '34333'
+  server: sg003.170203.xyz
+  tls: false
+  type: vmess
+  uuid: e5769ef5-4ef5-4307-8103-a27321294dd2
+  ws-opts:
+    headers:
+      Host: sg003.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬-新加坡-sg003.170203.xyz #3'
+  network: ws
+  port: '34333'
+  server: sg003.170203.xyz
+  tls: false
+  type: vmess
+  uuid: 1b851d16-68ed-425f-8c3c-c7e8fb1ef5f5
+  ws-opts:
+    headers:
+      Host: sg003.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-sg8.microsoftjs.top
+  network: ws
+  port: '80'
+  server: sg8.microsoftjs.top
+  tls: false
+  type: vmess
+  uuid: be84aea5-9a99-4ca2-94a6-90d0bb1b3759
+  ws-opts:
+    headers:
+      Host: tlu.dl.delivery.mp.microsoft.com
+    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬-新加坡-awssg2-tg-data.amazonwe... #1'
+  network: ws
+  port: '80'
+  server: awssg2-tg-data.amazonwebservicess.com
+  tls: false
+  type: vmess
+  uuid: c56dee46-f48f-413a-98fc-df83a0352ae6
+  ws-opts:
+    headers:
+      Host: fls-na.amazon.com
+    path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1214307
+  network: tcp
+  port: '11213'
+  server: sg5.czs1000.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a63fbd8f-2fd6-434d-becc-1366503c9f7c
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0221792
+  network: tcp
+  port: '43632'
+  server: 52.221.207.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1d24d26a-ee0f-430d-82e6-1c4e791c5e22
+- alterId: 0
+  cipher: auto
+  name: 新加坡_02241133
+  network: tcp
+  port: '80'
+  server: 18.141.187.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9ca9e106-76be-488b-8b3e-ccfb80d2228d
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0221796
+  network: ws
+  port: '80'
+  server: 138.2.72.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: be0bf7b0-cab4-3492-a8fd-25c6f562e79b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ny
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1211411
+  network: tcp
+  port: '4122'
+  server: sg10.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f4079097-1c49-4031-b9b3-2323f6d52168
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 05 新加坡
+  network: tcp
+  port: '15205'
+  server: 05xjp.mealstream.xyz
+  tls: true
+  type: vmess
+  uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0202073
+  network: ws
+  port: '211'
+  server: 54.169.52.147
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 203eb0ba-af18-4312-8a07-259211cbaa03
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 1
+  cipher: auto
+  name: github.com/freefq - 新加坡Digital...
+  network: ws
+  port: '443'
+  server: sc.apt-gcc.buzz
+  servername: aug.aaog.buzz
+  tls: true
+  type: vmess
+  uuid: 68297f4c-8448-34b2-99ff-b28246754526
+  ws-opts:
+    headers:
+      Host: aug.aaog.buzz
+    path: /bucaa
+- alterId: 0
+  cipher: auto
+  name: 新加坡_03101025
+  network: ws
+  port: '443'
+  server: sg6.netflix6.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2e2d20e2-fb26-3167-8d52-5255cf70414f
+  ws-opts:
+    headers:
+      Host: sg6.netflix6.com
+    path: /hls/sg6.m3u8
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0310962
+  network: ws
+  port: '80'
+  server: sg11.microsoftjs.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c71d19a1-7435-469f-8f0e-8db272fe7632
+  ws-opts:
+    headers:
+      Host: tlu.dl.delivery.mp.microsoft.com
+    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬-新加坡-sg003.170203.xyz #4'
+  network: ws
+  port: '34333'
+  server: sg003.170203.xyz
+  tls: false
+  type: vmess
+  uuid: 35ad787c-c960-411b-a4c5-8be839de220b
+  ws-opts:
+    headers:
+      Host: sg003.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-awssg11-tg-data.amazonw...
+  network: ws
+  port: '80'
+  server: awssg11-tg-data.amazonwebservicess.com
+  tls: false
+  type: vmess
+  uuid: a67449cb-8c4d-474f-a2bf-7e747fdc4f98
+  ws-opts:
+    headers:
+      Host: fls-na.amazon.com
+    path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-awssg2.jsb2.xyz
+  network: ws
+  port: '40009'
+  server: awssg2.jsb2.xyz
+  tls: false
+  type: vmess
+  uuid: c8f300d8-6fa1-30b3-a5a9-ff7e405ffeb0
+  ws-opts:
+    headers:
+      Host: awssg2.jsb2.xyz
+    path: /Download
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 _SG_新加坡
+  network: ws
+  port: '80'
+  server: 138.2.72.37
+  tls: false
+  type: vmess
+  uuid: d285e029-7ce8-3200-b8d7-8552cbce583e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-sg04.170203.xyz
+  network: ws
+  port: '43543'
+  server: sg04.170203.xyz
+  tls: false
+  type: vmess
+  uuid: 46af63f7-4250-4d98-b71e-f327be8b0cea
+  ws-opts:
+    headers:
+      Host: sg04.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1208439
+  network: ''
+  port: '80'
+  server: 00000000000000000000000000000000000000000000000000000000000005a.rui77.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2100274e-55ae-4686-a380-a66ae8b0ef1b
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0106271
+  network: ws
+  port: '443'
+  server: sg3.netflix6.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c4850ff3-6256-304b-9a40-628e9c3ac724
+  ws-opts:
+    headers:
+      Host: sg3.netflix6.com
+    path: /hls/sg3.m3u8
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0106817
+  network: ws
+  port: '11228'
+  server: sg13.baf1.sbs
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e5b27ad-b0f2-4173-8240-93208100de7c
+  ws-opts:
+    headers:
+      Host: tlu.dl.delivery.mp.microsoft.com
+    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0106744
+  network: ws
+  port: '80'
+  server: sg3.egg.run
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3
+  ws-opts:
+    headers:
+      Host: '%7B%22Host%22:%22sg3.egg.run%22%7D'
+    path: sg3.egg.run/
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0106777
+  network: ws
+  port: '80'
+  server: v44.gaowosiquanjia.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 59e004fd-959f-4844-9354-1125c9c67333
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0106822
+  network: ws
+  port: '443'
+  server: sg4.jstcx.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e5b27ad-b0f2-4173-8240-93208100de7c
+  ws-opts:
+    headers:
+      Host: tlu.dl.delivery.mp.microsoft.com
+    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0106811
+  network: tcp
+  port: '12356'
+  server: 00000000000000000000000000000000000000000000000000000000000035a.node-for-bigairport.win
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+- alterId: 0
+  cipher: auto
+  name: 新加坡_0106670
+  network: ''
+  port: '80'
+  server: 00000000000000000000000000000000000000000000000000000000000005a.node-for-bigairport.win
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
+- alterId: 4
+  cipher: auto
+  name: 新加坡_0106490
+  network: ws
+  port: '443'
+  server: do5.yyhm9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
+  ws-opts:
+    headers:
+      Host: ''
+    path: /das321
+- alterId: 0
+  cipher: auto
+  name: 'github.com/freefq - 新加坡Digital... #2'
+  network: tcp
+  port: 8080
+  server: 128.199.71.90
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 980b6861-5c96-4232-94ab-628e68ebfdb4
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1209387
+  network: tcp
+  port: '12356'
+  server: 00000000000000000000000000000000000000000000000000000000000031a.node-for-bigairport.win
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1210410
+  network: tcp
+  port: '52356'
+  server: 00000000000000000000000000000000000000000000000000000000000025a.node-for-bigairport.win
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1210093
+  network: ws
+  port: '80'
+  server: 209.97.167.12
+  tls: false
+  type: vmess
+  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
+  ws-opts:
+    headers:
+      Host: khiemdz.akamaized.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1209305
+  network: tcp
+  port: '52356'
+  server: 00000000000000000000000000000000000000000000000000000000000025a.node-for-bigairport.win
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1208416
+  network: ws
+  port: '443'
+  server: sg2.safepn.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  ws-opts:
+    headers:
+      Host: sg2.safepn.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1209238
+  network: ws
+  port: '18080'
+  server: 54.251.129.76
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a5de04c9-4009-46de-a895-6032c7fbfe82
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1209101
+  network: ws
+  port: '80'
+  server: hk-v.pannode.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0fbae820-d7da-4404-a1ae-7c3e86cb55c3
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wroot?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1208482
+  network: ws
+  port: '80'
+  server: 66.42.59.36
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d547acd8-1940-47c5-9e97-4f81abad83c1
+  ws-opts:
+    headers:
+      Host: tlu.dl.delivery.mp.microsoft.com
+    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1208250
+  network: ws
+  port: '1332'
+  server: v5.583181.xyz
+  tls: false
+  type: vmess
+  uuid: c0b5d759-e42d-4ead-b374-33a9b54402aa
+  ws-opts:
+    headers:
+      Host: pull.free.video.10010.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1208293
+  network: ws
+  port: '80'
+  server: 13.76.197.153
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1f776c80-bcdc-4890-bc7c-8c88f806e770
+  ws-opts:
+    headers:
+      Host: dizzme.sni.lifebox.lordvcl.trash.vcl.vutmevaosotrac.akmaized.net.tv360.com.viettelidc.cloud.tv360.snidaivaicalon.daivaichuong.yunactv.vietteltelecom.tv360.appfly3m.project4gyuna.pw.yunagrp.xyz.appsflyer.com.a248.e.akamai.net
+    path: /project4gyuna.pw
+- alterId: 0
+  cipher: auto
+  name: 'github.com/freefq - 新加坡Amazon数... #7'
+  network: ws
+  port: 2003
+  server: sg2.sanfen001.pics
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e30fa02c-d604-4191-9b81-c550b32f82bc
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 -新加坡-138.2.76.240
+  network: ws
+  port: '80'
+  server: 138.2.76.240
+  tls: false
+  type: vmess
+  uuid: 4d0efa65-0f01-4f9a-b805-ed5719f6e026
+  ws-opts:
+    headers:
+      Host: v11-xg.ixigua.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1206409
+  network: ws
+  port: '10020'
+  server: 18.143.193.210
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c05ad447-3b27-4bcc-83d9-22ad300584ed
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG新加坡(来源：kkzui.com)_6
+  network: ws
+  port: '8443'
+  server: csgo.com
+  tls: true
+  type: vmess
+  uuid: 706596c5-2315-41e9-c97b-5a4d32ffd5e6
+  ws-opts:
+    headers:
+      Host: dosg.gmlovebaipiao.tech
+    path: /GenshinMinecraft
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1206304
+  network: ws
+  port: '443'
+  server: sg7.netflix6.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: fd59c92c-af72-3ca5-916e-868b1adc5721
+  ws-opts:
+    headers:
+      Host: sg7.netflix6.com
+    path: /hls/sg7.m3u8
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1208472
+  network: ws
+  port: '10551'
+  server: paopao.v2.sgp01.paopaocloud.cyou
+  tls: true
+  type: vmess
+  uuid: e8235c79-47e0-3c41-947a-48e6eecad939
+  ws-opts:
+    headers:
+      Host: sgp01.ssru3.casa
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1208431
+  network: ws
+  port: '101'
+  server: sg3.hgwc.xyz
+  tls: false
+  type: vmess
+  uuid: 4753033a-3779-4459-adf7-88970190c90a
+  ws-opts:
+    headers:
+      Host: sg3.hgwc.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-zd.622888.xyz
+  network: ws
+  port: '101'
+  server: zd.622888.xyz
+  tls: false
+  type: vmess
+  uuid: 4753033a-3779-4459-adf7-88970190c90a
+  ws-opts:
+    headers:
+      Host: zd.622888.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1208349
+  network: tcp
+  port: '443'
+  server: 00000000000000000000000000000000000000000000000000000000000006a.node-for-bigairport.win
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 15dcb118-88f6-44e8-895a-1770479ab8dc
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1208030
+  network: tcp
+  port: '52356'
+  server: 00000000000000000000000000000000000000000000000000000000000026a.node-for-bigairport.win
+  tls: false
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1208292
+  network: ws
+  port: '443'
+  server: sg6.netflix6.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: fd59c92c-af72-3ca5-916e-868b1adc5721
+  ws-opts:
+    headers:
+      Host: sg6.netflix6.com
+    path: /hls/sg6.m3u8
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1208348
+  network: ''
+  port: '80'
+  server: 00000000000000000000000000000000000000000000000000000000000005a.rui77.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1208345 2
+  network: ws
+  port: '80'
+  server: 103.253.24.98
+  tls: false
+  type: vmess
+  uuid: aa72613d-188c-4d7b-be46-6011d75a5f7a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fastssh/fartf76g/6350442c996e3/
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1204025
+  network: ws
+  port: '80'
+  server: v41.idcloudhost.de
+  tls: false
+  type: vmess
+  uuid: d7a75318-3581-4f16-936c-671937ddd8ed
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1208112
+  network: ws
+  port: '443'
+  server: 92.223.116.202
+  tls: false
+  type: vmess
+  uuid: 5c854e2e-205c-4309-8363-ff60ea7b2a16
+  ws-opts:
+    headers:
+      Host: fjij9pkomxouiela.114517.xyz
+    path: /cgi-bin/api/dataflow/
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-138.2.70.11
+  network: ws
+  port: '80'
+  server: 138.2.70.11
+  tls: false
+  type: vmess
+  uuid: 4d0efa65-0f01-4f9a-b805-ed5719f6e026
+  ws-opts:
+    headers:
+      Host: v11-xg.ixigua.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1208003
+  network: tcp
+  port: '443'
+  server: 00000000000000000000000000000000000000000000000000000000000006a.rui77.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1208374
+  network: tcp
+  port: '80'
+  server: 00000000000000000000000000000000000000000000000000000000000005a.node-for-bigairport.win
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1208412
+  network: ws
+  port: '43543'
+  server: sg001.170203.xyz
+  tls: false
+  type: vmess
+  uuid: cc7242d8-8274-451e-97b4-bd4b1f9a86d9
+  ws-opts:
+    headers:
+      Host: sg001.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '新加坡_1208348 #1'
+  network: ws
+  port: '101'
+  server: sg1.hgwc.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4753033a-3779-4459-adf7-88970190c90a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1208354
+  network: ws
+  port: '101'
+  server: sg4.hgwc.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4753033a-3779-4459-adf7-88970190c90a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1208465
+  network: ws
+  port: '101'
+  server: sg5.hgwc.xyz
+  tls: false
+  type: vmess
+  uuid: 4753033a-3779-4459-adf7-88970190c90a
+  ws-opts:
+    headers:
+      Host: sg5.hgwc.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-zf.622888.xyz
+  network: ws
+  port: '203'
+  server: zf.622888.xyz
+  tls: false
+  type: vmess
+  uuid: 4753033a-3779-4459-adf7-88970190c90a
+  ws-opts:
+    headers:
+      Host: zf.622888.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1208440
+  network: ''
+  port: '443'
+  server: 00000000000000000000000000000000000000000000000000000000000006a.rui77.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
 - alterId: 2
   cipher: auto
   name: 'Vip1丨新加坡丨11丨湖南入口 #67'
@@ -2269,20 +3618,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 665c4089-5941-3ca3-b6b9-84a367ff8a6c
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬SG-13.214.43.134-18681 #1'
-  network: ws
-  port: 2002
-  server: sg2.sanfen001.pics
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6db42a0c-5abc-4d1c-a09c-2052c661f9f8
-  ws-opts:
-    headers:
-      Host: www.microsoft.com
-    path: /zh-cn
 - alterId: 64
   cipher: auto
   name: 新加坡 Aliyun [02]
@@ -3313,7 +4648,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 🇸🇬-新加坡-first.kctr2038.icu
+  name: '🇸🇬-新加坡-first.kctr2038.icu #1'
   network: ws
   port: '24632'
   server: first.kctr2038.icu
@@ -3932,15 +5267,6 @@ proxies:
   uuid: db07b99d-5eff-33cd-95e1-76d88221d4e1
 - alterId: 0
   cipher: auto
-  name: '新加坡 043 #1'
-  network: ''
-  port: 11586
-  server: 129.150.53.171
-  tls: false
-  type: vmess
-  uuid: 84e0bb6b-7533-41d8-eee8-ed9299188cf5
-- alterId: 0
-  cipher: auto
   name: 'JCBB_ 新加坡 03【vip1】 #4'
   network: ws
   port: '23002'
@@ -4032,7 +5358,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '新加坡 059 #4'
+  name: '新加坡 059 #3'
   network: ws
   port: 41976
   server: 128.199.131.91
@@ -5210,7 +6536,7 @@ proxies:
     path: /fly
 - alterId: 0
   cipher: auto
-  name: '新加坡 059 #5'
+  name: '新加坡 059 #4'
   network: ws
   port: 443
   server: sg6.netflix6.com
@@ -5367,15 +6693,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: '新加坡 059 #3'
-  network: tcp
-  port: 52356
-  server: 00000000000000000000000000000000000000000000000000000000000026a.node-for-bigairport.win
-  tls: false
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
 - alterId: 0
   cipher: auto
   name: '🇸🇬 新加坡｜隧道 01 - 爱猫论坛 #1'
@@ -6405,15 +7722,6 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '🇸🇬_SG_新加坡_49 #1'
-  network: tcp
-  port: 41191
-  server: 159.138.240.38
-  tls: false
-  type: vmess
-  uuid: 73bb1ce7-ab82-4a08-a4d3-77c585d657bf
-- alterId: 0
-  cipher: auto
   name: 🇸🇬-新加坡-51.79.173.222
   network: ws
   port: '443'
@@ -6829,7 +8137,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: '🇸🇬-新加坡-first.kctr2038.icu #1'
+  name: '🇸🇬-新加坡-first.kctr2038.icu #2'
   network: ws
   port: '50029'
   server: first.kctr2038.icu
@@ -6863,7 +8171,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 _SG_新加坡
+  name: '🇸🇬 _SG_新加坡 #1'
   network: ws
   port: '443'
   server: n1674862967.eaurlmj.cn
@@ -6953,7 +8261,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 🇸🇬-新加坡-awssg11-tg-data.amazonw...
+  name: '🇸🇬-新加坡-awssg11-tg-data.amazonw... #1'
   network: ws
   port: '80'
   server: awssg11-tg-data.amazonwebservicess.com
@@ -7061,7 +8369,7 @@ proxies:
   uuid: fb65977f-dc16-4e03-9564-8afed32ec7c5
 - alterId: 0
   cipher: auto
-  name: 🇸🇬-新加坡-sg05.170203.xyz
+  name: '🇸🇬-新加坡-sg05.170203.xyz #5'
   network: ws
   port: '43543'
   server: sg05.170203.xyz
@@ -7072,20 +8380,6 @@ proxies:
     headers:
       Host: sg05.170203.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0316021
-  network: ws
-  port: '10000'
-  server: 139.99.88.161
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3599fbc0-c1cd-11ed-815a-c36f2435909e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vpnjantit
 - alterId: 0
   cipher: auto
   name: Relay 🇸🇬 Singapore 12 TG:@n...
@@ -7378,16 +8672,6 @@ proxies:
     headers:
       Host: sing03.4gviet.com
     path: /4gviet.com
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬 【直连】狮城 - 3 #1'
-  network: tcp
-  port: 12356
-  server: 00000000000000000000000000000000000000000000000000000000000035a.node-for-bigairport.win
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
 - alterId: 2
   cipher: auto
   name: 'Vip1丨新加坡03丨重庆入口 #66'
@@ -7483,18 +8767,6 @@ proxies:
     headers:
       Host: ''
     path: /fly
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬SG-20.205.214.65-12586 #1'
-  network: ws
-  port: 54597
-  server: 20.205.214.65
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8ec1401-e5c1-4299-b315-9694cca0c2f8
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: '🚇 [ v1 ] 新加坡 · 01 · 线路1 #33'
@@ -8819,20 +10091,6 @@ proxies:
     path: /hneko
 - alterId: 0
   cipher: auto
-  name: 新加坡_0227948
-  network: ws
-  port: '80'
-  server: 168.138.160.106
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dc12a1d1-0ff9-31e2-a1ef-b162b9c2e695
-  ws-opts:
-    headers:
-      Host: ''
-    path: /adobe
-- alterId: 0
-  cipher: auto
   name: 新加坡_0331037
   network: ws
   port: '80'
@@ -8889,7 +10147,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '🇸🇬-新加坡-sg05.170203.xyz #1'
+  name: '🇸🇬-新加坡-sg05.170203.xyz #6'
   network: ws
   port: '43543'
   server: sg05.170203.xyz
@@ -8986,7 +10244,7 @@ proxies:
     path: /images
 - alterId: 0
   cipher: auto
-  name: '🇸🇬 _SG_新加坡 #1'
+  name: '🇸🇬 _SG_新加坡 #2'
   network: ws
   port: '54456'
   server: 18.141.107.69
@@ -8997,19 +10255,9 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 1
-  cipher: auto
-  name: 🇸🇬-新加坡-sc.apt-gcc.buzz
-  network: ws
-  port: '443'
-  server: sc.apt-gcc.buzz
-  tls: false
-  type: vmess
-  uuid: 68297f4c-8448-34b2-99ff-b28246754526
-  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 🇸🇬-新加坡-sg04.170203.xyz
+  name: '🇸🇬-新加坡-sg04.170203.xyz #1'
   network: ws
   port: '43543'
   server: sg04.170203.xyz
@@ -9059,7 +10307,7 @@ proxies:
     path: /hahuutung
 - alterId: 0
   cipher: auto
-  name: '🇸🇬-新加坡-sg04.170203.xyz #1'
+  name: '🇸🇬-新加坡-sg04.170203.xyz #2'
   network: ws
   port: '43543'
   server: sg04.170203.xyz
@@ -9112,7 +10360,7 @@ proxies:
     path: /bvdfyueusf
 - alterId: 0
   cipher: auto
-  name: '🇸🇬-新加坡-sg05.170203.xyz #2'
+  name: '🇸🇬-新加坡-sg05.170203.xyz #7'
   network: ws
   port: '43543'
   server: sg05.170203.xyz
@@ -9144,7 +10392,7 @@ proxies:
   uuid: 18f49289-9ee1-439a-bbaa-dbb59172c42e
 - alterId: 0
   cipher: auto
-  name: 🇸🇬-新加坡-sg001.170203.xyz
+  name: '🇸🇬-新加坡-sg001.170203.xyz #2'
   network: ws
   port: '43543'
   server: sg001.170203.xyz
@@ -9207,16 +10455,6 @@ proxies:
     headers:
       Host: ''
     path: /hneko
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-sg6.microsoftjs.top #1'
-  network: ws
-  port: '443'
-  server: sg6.microsoftjs.top
-  tls: false
-  type: vmess
-  uuid: fe2d5a68-165d-44a6-b9d5-ab3175b621ee
-  ws-opts: {}
 - alterId: 0
   cipher: auto
   name: 新加坡_0327749
@@ -9353,16 +10591,6 @@ proxies:
     headers:
       Host: sg8.netflix6.com
     path: /v2ray
-- alterId: 64
-  cipher: auto
-  name: 🇸🇬-新加坡-43.134.236.153
-  network: ws
-  port: '32395'
-  server: 43.134.236.153
-  tls: false
-  type: vmess
-  uuid: d318b489-19b7-4a45-84d7-1320d05dc10d
-  ws-opts: {}
 - alterId: 0
   cipher: auto
   name: 🇸🇬-新加坡-awssg14-tg-data.amazonw...
@@ -9378,7 +10606,7 @@ proxies:
     path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady
 - alterId: 0
   cipher: auto
-  name: 🇸🇬-新加坡-sg02.170203.xyz
+  name: '🇸🇬-新加坡-sg02.170203.xyz #2'
   network: ws
   port: '43543'
   server: sg02.170203.xyz
@@ -9391,7 +10619,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇸🇬-新加坡-sg02.170203.xyz #1'
+  name: '🇸🇬-新加坡-sg02.170203.xyz #3'
   network: ws
   port: '43543'
   server: sg02.170203.xyz
@@ -9402,20 +10630,6 @@ proxies:
     headers:
       Host: sg02.170203.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1208431
-  network: ws
-  port: '101'
-  server: sg3.hgwc.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4753033a-3779-4459-adf7-88970190c90a
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - alterId: 0
   cipher: auto
   name: 新加坡_1206417
@@ -9479,20 +10693,6 @@ proxies:
     headers:
       Host: sg7.netflix6.com
     path: /hls/sg7.m3u8
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1204025
-  network: ws
-  port: '80'
-  server: v41.idcloudhost.de
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d7a75318-3581-4f16-936c-671937ddd8ed
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇸🇬 新加坡_1208434
@@ -9583,20 +10783,7 @@ proxies:
     path: /cloudfast
 - alterId: 0
   cipher: auto
-  name: '🇸🇬 github.com/freefq - 新加坡Amaz... #2'
-  network: ws
-  port: '2003'
-  server: sg2.sanfen001.pics
-  tls: true
-  type: vmess
-  uuid: e30fa02c-d604-4191-9b81-c550b32f82bc
-  ws-opts:
-    headers:
-      Host: www.microsoft.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-zf.622888.xyz
+  name: '🇸🇬-新加坡-zf.622888.xyz #1'
   network: ws
   port: '211'
   server: zf.622888.xyz
@@ -9622,33 +10809,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡_1208343
-  network: ws
-  port: '10020'
-  server: 18.143.193.210
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c05ad447-3b27-4bcc-83d9-22ad300584ed
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-sg1.hgwc.xyz
-  network: ws
-  port: '101'
-  server: sg1.hgwc.xyz
-  tls: false
-  type: vmess
-  uuid: 4753033a-3779-4459-adf7-88970190c90a
-  ws-opts:
-    headers:
-      Host: sg1.hgwc.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 新加坡_1206408
   network: ws
   port: '10020'
@@ -9660,20 +10820,6 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1208470
-  network: ws
-  port: '43543'
-  server: sg001.170203.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cc7242d8-8274-451e-97b4-bd4b1f9a86d9
-  ws-opts:
-    headers:
-      Host: sg001.170203.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -9817,7 +10963,7 @@ proxies:
     path: /hls/sg5.m3u8
 - alterId: 0
   cipher: auto
-  name: 新加坡_1208354
+  name: '新加坡_1208354 #1'
   network: ws
   port: '443'
   server: sg4.netflix6.com
@@ -9829,20 +10975,6 @@ proxies:
     headers:
       Host: sg4.netflix6.com
     path: /hls/sg4.m3u8
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1208409
-  network: ws
-  port: '101'
-  server: sg5.hgwc.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4753033a-3779-4459-adf7-88970190c90a
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - alterId: 0
   cipher: auto
   name: 🇸🇬 新加坡_1208252
@@ -9952,19 +11084,6 @@ proxies:
   uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡_1208423
-  network: ws
-  port: '101'
-  server: zd.622888.xyz
-  tls: false
-  type: vmess
-  uuid: 4753033a-3779-4459-adf7-88970190c90a
-  ws-opts:
-    headers:
-      Host: zd.622888.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 新加坡_1208471
   network: ws
   port: '80'
@@ -9987,20 +11106,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1208476
-  network: ws
-  port: '443'
-  server: sg2.safepn.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
-  ws-opts:
-    headers:
-      Host: sg2.safepn.net
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇸🇬 新加坡_1208421
@@ -10093,7 +11198,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇸🇬-新加坡-zf.622888.xyz #1'
+  name: '🇸🇬-新加坡-zf.622888.xyz #2'
   network: ws
   port: '202'
   server: zf.622888.xyz
@@ -10276,26 +11381,6 @@ proxies:
     path: /linod
 - alterId: 0
   cipher: auto
-  name: 新加坡_1208363
-  network: tcp
-  port: '80'
-  server: 00000000000000000000000000000000000000000000000000000000000005a.node-for-bigairport.win
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1208341
-  network: ''
-  port: '80'
-  server: 00000000000000000000000000000000000000000000000000000000000005a.rui77.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
-- alterId: 0
-  cipher: auto
   name: 新加坡_1208282
   network: ws
   port: '443'
@@ -10428,20 +11513,6 @@ proxies:
   uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
 - alterId: 0
   cipher: auto
-  name: 新加坡_1208279
-  network: ws
-  port: '443'
-  server: sg7.netflix6.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: fd59c92c-af72-3ca5-916e-868b1adc5721
-  ws-opts:
-    headers:
-      Host: sg7.netflix6.com
-    path: /hls/sg7.m3u8
-- alterId: 0
-  cipher: auto
   name: 新加坡_1208135
   network: ws
   port: '443'
@@ -10520,19 +11591,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1206423
-  network: ws
-  port: '101'
-  server: sg4.hgwc.xyz
-  tls: false
-  type: vmess
-  uuid: 4753033a-3779-4459-adf7-88970190c90a
-  ws-opts:
-    headers:
-      Host: sg4.hgwc.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇸🇬-新加坡-agroup.node3.v.nodelist...
@@ -10645,20 +11703,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 5f04de84-6b7e-3564-82c2-d2a998002629
-- alterId: 0
-  cipher: auto
-  name: github.com/freefq - 新加坡Amazon数...
-  network: ws
-  port: 203
-  server: zf.622888.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4753033a-3779-4459-adf7-88970190c90a
-  ws-opts:
-    headers:
-      Host: zf.622888.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇸🇬 -新加坡-138.2.70.213
@@ -10819,19 +11863,6 @@ proxies:
     path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡_1202398
-  network: ws
-  port: '80'
-  server: 13.76.197.153
-  tls: false
-  type: vmess
-  uuid: 1f776c80-bcdc-4890-bc7c-8c88f806e770
-  ws-opts:
-    headers:
-      Host: dizzme.sni.lifebox.lordvcl.trash.vcl.vutmevaosotrac.akmaized.net.tv360.com.viettelidc.cloud.tv360.snidaivaicalon.daivaichuong.yunactv.vietteltelecom.tv360.appfly3m.project4gyuna.pw.yunagrp.xyz.appsflyer.com.a248.e.akamai.net
-    path: /project4gyuna.pw
-- alterId: 0
-  cipher: auto
   name: 新加坡_1206331
   network: ws
   port: '443'
@@ -10844,20 +11875,6 @@ proxies:
     headers:
       Host: sg8.netflix6.com
     path: /hls/sg8.m3u8
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1126474
-  network: ws
-  port: '80'
-  server: 138.2.70.11
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4d0efa65-0f01-4f9a-b805-ed5719f6e026
-  ws-opts:
-    headers:
-      Host: v11-xg.ixigua.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇸🇬 SG 1 Amazon Technologies In...
@@ -11096,46 +12113,6 @@ proxies:
   uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
 - alterId: 0
   cipher: auto
-  name: 新加坡_1206305
-  network: ws
-  port: '443'
-  server: sg6.netflix6.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: fd59c92c-af72-3ca5-916e-868b1adc5721
-  ws-opts:
-    headers:
-      Host: sg6.netflix6.com
-    path: /hls/sg6.m3u8
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1206249
-  network: ws
-  port: '1332'
-  server: v5.583181.xyz
-  tls: false
-  type: vmess
-  uuid: c0b5d759-e42d-4ead-b374-33a9b54402aa
-  ws-opts:
-    headers:
-      Host: pull.free.video.10010.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1206099
-  network: ws
-  port: '443'
-  server: 92.223.116.202
-  tls: false
-  type: vmess
-  uuid: 5c854e2e-205c-4309-8363-ff60ea7b2a16
-  ws-opts:
-    headers:
-      Host: fjij9pkomxouiela.114517.xyz
-    path: /cgi-bin/api/dataflow/
-- alterId: 0
-  cipher: auto
   name: 🇸🇬 新加坡_1206065
   network: ws
   port: '11188'
@@ -11265,16 +12242,6 @@ proxies:
   uuid: 5cc8d296-a024-4b1a-9cc0-fe22d653dedb
 - alterId: 0
   cipher: auto
-  name: 新加坡_1206005
-  network: ''
-  port: '52356'
-  server: 00000000000000000000000000000000000000000000000000000000000025a.node-for-bigairport.win
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-- alterId: 0
-  cipher: auto
   name: 🇸🇬 SG-13.214.37.167-142
   network: tcp
   port: '12356'
@@ -11321,19 +12288,6 @@ proxies:
     headers:
       Host: ycgyg.com
     path: /ws
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1206411
-  network: ws
-  port: '80'
-  server: 103.253.24.98
-  tls: false
-  type: vmess
-  uuid: aa72613d-188c-4d7b-be46-6011d75a5f7a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fastssh/fartf76g/6350442c996e3/
 - alterId: 0
   cipher: auto
   name: 🇸🇬-新加坡-sg12.18878a24-49d8-4fb2...
@@ -11414,19 +12368,6 @@ proxies:
     headers:
       Host: qgd6.cdn.node.a.ddns-ounk.com
     path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1206084
-  network: ws
-  port: '80'
-  server: 209.97.167.12
-  tls: false
-  type: vmess
-  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
-  ws-opts:
-    headers:
-      Host: khiemdz.akamaized.net
-    path: /
 - alterId: 0
   cipher: auto
   name: 新加坡_1206325
@@ -11810,19 +12751,6 @@ proxies:
     path: /71cec520
 - alterId: 0
   cipher: auto
-  name: 🇸🇬-新加坡-138.2.76.240
-  network: ws
-  port: '80'
-  server: 138.2.76.240
-  tls: false
-  type: vmess
-  uuid: 4d0efa65-0f01-4f9a-b805-ed5719f6e026
-  ws-opts:
-    headers:
-      Host: v11-xg.ixigua.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 新加坡_1124007
   network: ws
   port: '80'
@@ -11990,856 +12918,90 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'github.com/freefq - 新加坡Amazon数... #4'
-  network: tcp
-  port: 443
-  server: 0kxedm1x8q8lksmj19.xingbayun.buzz
+  name: 🇸🇬-新加坡-sggs2.vpnjantit.com
+  network: ws
+  port: '10000'
+  server: sggs2.vpnjantit.com
+  tls: false
+  type: vmess
+  uuid: 731567aa-59e0-11ed-900d-00163e0baf20
+  ws-opts:
+    headers:
+      Host: sggs2.vpnjantit.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-sg2.vpnjantit.com
+  network: ws
+  port: '10000'
+  server: sg2.vpnjantit.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 399004bf-eaf0-4532-b139-ca4e79c5e27b
+  uuid: afc3213a-59de-11ed-a057-832e943ca16e
+  ws-opts:
+    headers:
+      Host: sg2.vpnjantit.com
+    path: /vpnjantit
 - alterId: 0
   cipher: auto
-  name: 🇸🇬-新加坡-fls-na-sg3.amazonwebser...
+  name: 🇸🇬 新加坡_1120015
   network: ws
   port: '80'
-  server: fls-na-sg3.amazonwebservicess.com
+  server: 8.219.195.151
   tls: false
   type: vmess
-  uuid: c4de9fca-e3c4-4e25-be44-8924cdaa78ab
+  uuid: 461aed20-0743-4f13-ee68-43394e875e42
   ws-opts:
     headers:
-      Host: fls-na.amazon.com
-    path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady
+      Host: h1.800876.xyz
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 新加坡_0328008
-  network: ws
-  port: '80'
-  server: 170.187.229.90
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9bda13eb-66bb-4ff5-b01c-aa7c2d291412
-  ws-opts:
-    headers:
-      Host: ''
-    path: /images
-- alterId: 4
-  cipher: auto
-  name: '🇸🇬-新加坡-first.kctr2038.icu #2'
-  network: ws
-  port: '20569'
-  server: first.kctr2038.icu
-  tls: false
-  type: vmess
-  uuid: 5d27c07e-ad30-4dbf-a6bb-1fc0fa87f70a
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 SG 19 Amazon Technologies I...
-  network: ws
-  port: '5122'
-  server: xin1.mooooobai.top
-  tls: false
-  type: vmess
-  uuid: f4585341-fe93-332d-bd26-b969f69607b2
-  ws-opts:
-    headers:
-      Host: xin1.mooooobai.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_03141119
-  network: ws
-  port: '443'
-  server: sg6.netflix6.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 61176083-1cca-3f59-8636-0263bf43c409
-  ws-opts:
-    headers:
-      Host: sg6.netflix6.com
-    path: /hls/sg6.m3u8
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0215899
-  network: ws
-  port: '80'
-  server: 165.154.253.155
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1f16aa84-3497-3ff4-b013-f1ea6ad0056f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ny
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0310202
-  network: ws
-  port: '43543'
-  server: sg002.170203.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dcfb0845-0565-4808-956e-a3961fb5cef4
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 4
-  cipher: auto
-  name: 🇸🇬-新加坡-awssg2-tg-data.amazonwe...
-  network: ws
-  port: '80'
-  server: awssg2-tg-data.amazonwebservicess.com
-  tls: false
-  type: vmess
-  uuid: 2b5e3082-f3b5-43da-a3d1-38bb6ac1bf64
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-awssg1-tg-data.amazonwe...
-  network: ws
-  port: '443'
-  server: awssg1-tg-data.amazonwebservicess.com
-  tls: false
-  type: vmess
-  uuid: c56dee46-f48f-413a-98fc-df83a0352ae6
-  ws-opts:
-    headers:
-      Host: fls-na.amazon.com
-    path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-sg003.170203.xyz
-  network: ws
-  port: '34333'
-  server: sg003.170203.xyz
-  tls: false
-  type: vmess
-  uuid: 812c5c50-2e32-4acf-9281-a7799a9d3774
-  ws-opts:
-    headers:
-      Host: sg003.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-sg2.sanfen001.pics
-  network: ws
-  port: '2007'
-  server: sg2.sanfen001.pics
-  tls: false
-  type: vmess
-  uuid: ae13496e-4756-4f65-bc01-4104e296ca9c
-  ws-opts:
-    headers:
-      Host: sg1.sanfen001.pics
-    path: /cn
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0128669
-  network: ws
-  port: '443'
-  server: sg001sf4w2.v2board.icu
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: efd5c368-fe06-4a3f-939e-28c1bd5f7017
-  ws-opts:
-    headers:
-      Host: sg001sf4w2.v2board.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-awssg7-tg-data.amazonwe...
-  network: ws
-  port: '80'
-  server: awssg7-tg-data.amazonwebservicess.com
-  tls: false
-  type: vmess
-  uuid: d4eefa16-1763-4d52-af68-22c29d79c83b
-  ws-opts:
-    headers:
-      Host: tlu.dl.delivery.mp.microsoft.com
-    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-sg003.170203.xyz #1'
-  network: ws
-  port: '34333'
-  server: sg003.170203.xyz
-  tls: false
-  type: vmess
-  uuid: aa4f4054-2b52-4fdc-a089-7f7bf17db98e
-  ws-opts:
-    headers:
-      Host: sg003.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-sg02.170203.xyz #2'
-  network: ws
-  port: '43543'
-  server: sg02.170203.xyz
-  tls: false
-  type: vmess
-  uuid: 7b98bfc2-f353-4c9e-a247-2eeec98e98eb
-  ws-opts:
-    headers:
-      Host: sg02.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-sg05.170203.xyz #3'
-  network: ws
-  port: '43543'
-  server: sg05.170203.xyz
-  tls: false
-  type: vmess
-  uuid: ad6fd977-eb6e-4574-9768-3a74788408c5
-  ws-opts:
-    headers:
-      Host: sg05.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0221794
-  network: tcp
-  port: '9002'
-  server: 52.221.207.120
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1d24d26a-ee0f-430d-82e6-1c4e791c5e22
-- alterId: 64
-  cipher: auto
-  name: github.com/freefq - 新加坡  11
-  network: ws
-  port: '35264'
-  server: 118.107.62.53
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: b7571d81-4abd-45c0-8c5a-c98c1eb2d533
-  ws-opts:
-    headers:
-      Host: jp1.verichains.co
-    path: /jp1/getData
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-52.76.216.125
-  network: ws
-  port: '80'
-  server: 52.76.216.125
-  tls: false
-  type: vmess
-  uuid: 8076ad5d-0cc9-4736-8c29-a912e7858337
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-sg05.170203.xyz #4'
-  network: ws
-  port: '43543'
-  server: sg05.170203.xyz
-  tls: false
-  type: vmess
-  uuid: 33ac36d0-3ccc-4b76-80c5-498c50041f36
-  ws-opts:
-    headers:
-      Host: sg05.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-sg001.170203.xyz #1'
-  network: ws
-  port: '43543'
-  server: sg001.170203.xyz
-  tls: false
-  type: vmess
-  uuid: e5769ef5-4ef5-4307-8103-a27321294dd2
-  ws-opts:
-    headers:
-      Host: sg001.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-sg02.170203.xyz #3'
-  network: ws
-  port: '43543'
-  server: sg02.170203.xyz
-  tls: false
-  type: vmess
-  uuid: aa4f4054-2b52-4fdc-a089-7f7bf17db98e
-  ws-opts:
-    headers:
-      Host: sg02.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-sg2.egg.run
-  network: ws
-  port: '80'
-  server: sg2.egg.run
-  tls: false
-  type: vmess
-  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
-  ws-opts:
-    headers:
-      Host: sg2.egg.run
-    path: sg2.egg.run/
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-sg001.170203.xyz #2'
-  network: ws
-  port: '43543'
-  server: sg001.170203.xyz
-  tls: false
-  type: vmess
-  uuid: 7b98bfc2-f353-4c9e-a247-2eeec98e98eb
-  ws-opts:
-    headers:
-      Host: sg001.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0228915
+  name: 🇸🇬 新加坡_1124134
   network: tcp
   port: '80'
-  server: 3.0.181.193
-  servername: ''
+  server: 13.214.173.71
   tls: false
   type: vmess
-  uuid: b65ff734-5c19-4f93-b234-c34e9b46bfba
+  uuid: fec544c5-6ec4-45d8-8878-17f799e77e96
 - alterId: 0
   cipher: auto
-  name: '🇸🇬-新加坡-sg05.170203.xyz #5'
-  network: ws
-  port: '43543'
-  server: sg05.170203.xyz
-  tls: false
-  type: vmess
-  uuid: 35ad787c-c960-411b-a4c5-8be839de220b
-  ws-opts:
-    headers:
-      Host: sg05.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-sg1.v2pn.live
-  network: ws
-  port: '80'
-  server: sg1.v2pn.live
-  tls: false
-  type: vmess
-  uuid: b4ef7c7e-8ee9-480c-b920-20378ff17cbb
-  ws-opts:
-    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-sg05.170203.xyz #6'
-  network: ws
-  port: '43543'
-  server: sg05.170203.xyz
-  tls: false
-  type: vmess
-  uuid: dc2b3044-82ef-4ab3-a17f-add75a790d83
-  ws-opts:
-    headers:
-      Host: sg05.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-sg05.170203.xyz #7'
-  network: ws
-  port: '43543'
-  server: sg05.170203.xyz
-  tls: false
-  type: vmess
-  uuid: 812c5c50-2e32-4acf-9281-a7799a9d3774
-  ws-opts:
-    headers:
-      Host: sg05.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_02261011
+  name: 🇸🇬 新加坡_1124052
   network: tcp
   port: '80'
-  server: 18.139.114.222
-  servername: ''
+  server: 13.215.189.229
   tls: false
   type: vmess
-  uuid: 6aeb4fa9-0c1e-4ce3-b1a6-7099c71599f1
+  uuid: fec544c5-6ec4-45d8-8878-17f799e77e96
 - alterId: 0
   cipher: auto
-  name: 🇸🇬-新加坡-sg4.sanfen001.pics
-  network: ws
-  port: '2002'
-  server: sg4.sanfen001.pics
-  tls: false
-  type: vmess
-  uuid: 79a78a6d-912f-4a15-97cd-c1a62f4b9e13
-  ws-opts:
-    headers:
-      Host: www.microsoft.com
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0124707
+  name: 🇸🇬 新加坡_1124024
   network: tcp
-  port: '24773'
-  server: 156.67.210.220
-  servername: ''
+  port: '50001'
+  server: agroup.node3.v.nodelist-gfwairport.download
   tls: false
   type: vmess
-  uuid: 30a90037-e41e-4d84-df1b-49213e74a1c6
+  uuid: ddea4d6b-52f9-4901-8dd6-49bd2e09f2ac
 - alterId: 0
   cipher: auto
-  name: '新加坡 Amazon数据中心 #1'
-  network: ws
-  port: 2005
-  server: sg2.sanfen001.pics
-  tls: true
-  type: vmess
-  uuid: 5cd940ef-5f62-4afe-9464-ec89e8c070b2
-  ws-opts:
-    headers:
-      Host: sg2.sanfen001.pics
-    path: /cn
-- alterId: 0
-  cipher: auto
-  name: 新加坡1-Tunnel | 1x_1
-  network: ws
-  port: 11621
-  server: sdrfgubi.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
-  ws-opts:
-    headers:
-      Host: sgvfdjh.76898102.xyz
-    path: /aoigbneioueb
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0212710
-  network: tcp
-  port: '43632'
-  server: 54.169.120.225
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 18f49289-9ee1-439a-bbaa-dbb59172c42e
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0221793
-  network: tcp
-  port: '9001'
-  server: 52.221.207.120
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1d24d26a-ee0f-430d-82e6-1c4e791c5e22
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-sg002.170203.xyz
-  network: ws
-  port: '43543'
-  server: sg002.170203.xyz
-  tls: false
-  type: vmess
-  uuid: 7b98bfc2-f353-4c9e-a247-2eeec98e98eb
-  ws-opts:
-    headers:
-      Host: sg002.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0220131
+  name: 🇸🇬 新加坡_1124022
   network: ws
   port: '80'
-  server: 165.154.253.155
-  servername: ''
+  server: sg5.elknode.top
   tls: false
   type: vmess
-  uuid: 317bfccd-5669-327a-82ec-993701fcf5ee
+  uuid: cb4b57f4-f898-3f4e-9478-7ed2a148ac23
   ws-opts:
     headers:
-      Host: ''
-    path: /ny
+      Host: data.video.qiyi.com
+    path: /qatjpji
 - alterId: 0
   cipher: auto
-  name: '🇸🇬-新加坡-sg003.170203.xyz #2'
-  network: ws
-  port: '34333'
-  server: sg003.170203.xyz
-  tls: false
-  type: vmess
-  uuid: e5769ef5-4ef5-4307-8103-a27321294dd2
-  ws-opts:
-    headers:
-      Host: sg003.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-sg003.170203.xyz #3'
-  network: ws
-  port: '34333'
-  server: sg003.170203.xyz
-  tls: false
-  type: vmess
-  uuid: 1b851d16-68ed-425f-8c3c-c7e8fb1ef5f5
-  ws-opts:
-    headers:
-      Host: sg003.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-sg8.microsoftjs.top
+  name: 🇸🇬-新加坡-hk-ii.pannode.top
   network: ws
   port: '80'
-  server: sg8.microsoftjs.top
-  tls: false
-  type: vmess
-  uuid: be84aea5-9a99-4ca2-94a6-90d0bb1b3759
-  ws-opts:
-    headers:
-      Host: tlu.dl.delivery.mp.microsoft.com
-    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-awssg2-tg-data.amazonwe... #1'
-  network: ws
-  port: '80'
-  server: awssg2-tg-data.amazonwebservicess.com
-  tls: false
-  type: vmess
-  uuid: c56dee46-f48f-413a-98fc-df83a0352ae6
-  ws-opts:
-    headers:
-      Host: fls-na.amazon.com
-    path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1214307
-  network: tcp
-  port: '11213'
-  server: sg5.czs1000.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a63fbd8f-2fd6-434d-becc-1366503c9f7c
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0221792
-  network: tcp
-  port: '43632'
-  server: 52.221.207.120
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1d24d26a-ee0f-430d-82e6-1c4e791c5e22
-- alterId: 0
-  cipher: auto
-  name: 新加坡_02241133
-  network: tcp
-  port: '80'
-  server: 18.141.187.52
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9ca9e106-76be-488b-8b3e-ccfb80d2228d
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0221796
-  network: ws
-  port: '80'
-  server: 138.2.72.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be0bf7b0-cab4-3492-a8fd-25c6f562e79b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ny
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1211411
-  network: tcp
-  port: '4122'
-  server: sg10.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f4079097-1c49-4031-b9b3-2323f6d52168
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 05 新加坡
-  network: tcp
-  port: '15205'
-  server: 05xjp.mealstream.xyz
-  tls: true
-  type: vmess
-  uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0202073
-  network: ws
-  port: '211'
-  server: 54.169.52.147
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 203eb0ba-af18-4312-8a07-259211cbaa03
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_03101025
-  network: ws
-  port: '443'
-  server: sg6.netflix6.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2e2d20e2-fb26-3167-8d52-5255cf70414f
-  ws-opts:
-    headers:
-      Host: sg6.netflix6.com
-    path: /hls/sg6.m3u8
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0310962
-  network: ws
-  port: '80'
-  server: sg11.microsoftjs.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c71d19a1-7435-469f-8f0e-8db272fe7632
-  ws-opts:
-    headers:
-      Host: tlu.dl.delivery.mp.microsoft.com
-    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-sg003.170203.xyz #4'
-  network: ws
-  port: '34333'
-  server: sg003.170203.xyz
-  tls: false
-  type: vmess
-  uuid: 35ad787c-c960-411b-a4c5-8be839de220b
-  ws-opts:
-    headers:
-      Host: sg003.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-awssg11-tg-data.amazonw... #1'
-  network: ws
-  port: '80'
-  server: awssg11-tg-data.amazonwebservicess.com
-  tls: false
-  type: vmess
-  uuid: a67449cb-8c4d-474f-a2bf-7e747fdc4f98
-  ws-opts:
-    headers:
-      Host: fls-na.amazon.com
-    path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-awssg2.jsb2.xyz
-  network: ws
-  port: '40009'
-  server: awssg2.jsb2.xyz
-  tls: false
-  type: vmess
-  uuid: c8f300d8-6fa1-30b3-a5a9-ff7e405ffeb0
-  ws-opts:
-    headers:
-      Host: awssg2.jsb2.xyz
-    path: /Download
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬 _SG_新加坡 #2'
-  network: ws
-  port: '80'
-  server: 138.2.72.37
-  tls: false
-  type: vmess
-  uuid: d285e029-7ce8-3200-b8d7-8552cbce583e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬-新加坡-sg04.170203.xyz #2'
-  network: ws
-  port: '43543'
-  server: sg04.170203.xyz
-  tls: false
-  type: vmess
-  uuid: 46af63f7-4250-4d98-b71e-f327be8b0cea
-  ws-opts:
-    headers:
-      Host: sg04.170203.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1208439
-  network: ''
-  port: '80'
-  server: 00000000000000000000000000000000000000000000000000000000000005a.rui77.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2100274e-55ae-4686-a380-a66ae8b0ef1b
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0106271
-  network: ws
-  port: '443'
-  server: sg3.netflix6.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: c4850ff3-6256-304b-9a40-628e9c3ac724
-  ws-opts:
-    headers:
-      Host: sg3.netflix6.com
-    path: /hls/sg3.m3u8
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0106817
-  network: ws
-  port: '11228'
-  server: sg13.baf1.sbs
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e5b27ad-b0f2-4173-8240-93208100de7c
-  ws-opts:
-    headers:
-      Host: tlu.dl.delivery.mp.microsoft.com
-    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0106744
-  network: ws
-  port: '80'
-  server: sg3.egg.run
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3
-  ws-opts:
-    headers:
-      Host: '%7B%22Host%22:%22sg3.egg.run%22%7D'
-    path: sg3.egg.run/
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0106777
-  network: ws
-  port: '80'
-  server: v44.gaowosiquanjia.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 59e004fd-959f-4844-9354-1125c9c67333
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0106822
-  network: ws
-  port: '443'
-  server: sg4.jstcx.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e5b27ad-b0f2-4173-8240-93208100de7c
-  ws-opts:
-    headers:
-      Host: tlu.dl.delivery.mp.microsoft.com
-    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-- alterId: 0
-  cipher: auto
-  name: 新加坡_0106670
-  network: ''
-  port: '80'
-  server: 00000000000000000000000000000000000000000000000000000000000005a.node-for-bigairport.win
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
-- alterId: 4
-  cipher: auto
-  name: 新加坡_0106490
-  network: ws
-  port: '443'
-  server: do5.yyhm9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
-  ws-opts:
-    headers:
-      Host: ''
-    path: /das321
-- alterId: 0
-  cipher: auto
-  name: 'github.com/freefq - 新加坡Digital... #1'
-  network: tcp
-  port: 8080
-  server: 128.199.71.90
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 980b6861-5c96-4232-94ab-628e68ebfdb4
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1210410
-  network: tcp
-  port: '52356'
-  server: 00000000000000000000000000000000000000000000000000000000000025a.node-for-bigairport.win
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1209238
-  network: ws
-  port: '18080'
-  server: 54.251.129.76
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a5de04c9-4009-46de-a895-6032c7fbfe82
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1209101
-  network: ws
-  port: '80'
-  server: hk-v.pannode.top
-  servername: ''
+  server: hk-ii.pannode.top
   tls: false
   type: vmess
   uuid: 0fbae820-d7da-4404-a1ae-7c3e86cb55c3
@@ -12849,71 +13011,682 @@ proxies:
     path: /wroot?ed=2048
 - alterId: 0
   cipher: auto
-  name: 新加坡_1208482
+  name: 🇸🇬-新加坡-13.250.98.231
   network: ws
   port: '80'
-  server: 66.42.59.36
+  server: 13.250.98.231
+  tls: false
+  type: vmess
+  uuid: fec544c5-6ec4-45d8-8878-17f799e77e96
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 -新加坡-sgv1.vpnjantit.com
+  network: ws
+  port: '10000'
+  server: sgv1.vpnjantit.com
+  tls: false
+  type: vmess
+  uuid: 043c63d2-59e1-11ed-820e-cba07c18f9c7
+  ws-opts:
+    headers:
+      Host: sgv1.vpnjantit.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1124364
+  network: auto
+  port: '443'
+  server: 00000000000000000000000000000000000000000000000000000000000006a.rui77.com
   servername: ''
   tls: false
   type: vmess
-  uuid: d547acd8-1940-47c5-9e97-4f81abad83c1
-  ws-opts:
-    headers:
-      Host: tlu.dl.delivery.mp.microsoft.com
-    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+  uuid: d81d5bff-925c-4713-99a4-5a6c40f5bd01
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡_1208472
+  name: 🇸🇬 新加坡_1124436
   network: ws
-  port: '10551'
-  server: paopao.v2.sgp01.paopaocloud.cyou
+  port: '10000'
+  server: sg3.vpnjantit.com
+  tls: false
+  type: vmess
+  uuid: 5e131132-59df-11ed-9447-00163e0c1be4
+  ws-opts:
+    headers:
+      Host: sg3.vpnjantit.com
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1124130
+  network: ws
+  port: '443'
+  server: 92.223.116.205
+  tls: false
+  type: vmess
+  uuid: 5c854e2e-205c-4309-8363-ff60ea7b2a16
+  ws-opts:
+    headers:
+      Host: mvtl3njvhnt9imkm.114517.xyz
+    path: /cgi-bin/api/dataflow/
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡(TG频道@kxswa)
+  network: ws
+  port: '80'
+  server: 8.219.230.131
+  tls: false
+  type: vmess
+  uuid: 61811ce4-1b9b-47bb-9473-c6666a0a8fa4
+  ws-opts:
+    headers:
+      Host: fr1.cachexy.ga
+    path: /p9Dq67Nx/
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1124276
+  network: ws
+  port: '443'
+  server: 8.219.209.210
   tls: true
   type: vmess
-  uuid: e8235c79-47e0-3c41-947a-48e6eecad939
+  uuid: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
   ws-opts:
     headers:
-      Host: sgp01.ssru3.casa
-    path: /v2ray
+      Host: de.guolicheng.cyou
+    path: /guolicheng/de?ed=2048
 - alterId: 0
   cipher: auto
-  name: 新加坡_1208349
-  network: tcp
+  name: 🇸🇬 新加坡_1124260
+  network: ws
+  port: '80'
+  server: 206.189.86.75
+  tls: false
+  type: vmess
+  uuid: ad8dfc15-4d98-40af-aaa8-7cc43a565e03
+  ws-opts:
+    headers:
+      Host: Dl.kgvn.garenanow.com
+    path: /fuzzypn
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1124056
+  network: ws
+  port: '20000'
+  server: sg01.henet.top
+  tls: false
+  type: vmess
+  uuid: c7b5392a-03a2-483f-9d51-89ff1aa6c19e
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 -新加坡-139.162.50.138
+  network: ws
   port: '443'
-  server: 00000000000000000000000000000000000000000000000000000000000006a.node-for-bigairport.win
+  server: 139.162.50.138
+  tls: false
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1124005
+  network: tcp
+  port: '52356'
+  server: 00000000000000000000000000000000000000000000000000000000000026a.rui77.com
+  tls: false
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1122020
+  network: ws
+  port: '80'
+  server: 8.219.204.195
   servername: ''
   tls: false
   type: vmess
-  uuid: 15dcb118-88f6-44e8-895a-1770479ab8dc
+  uuid: 461aed20-0743-4f13-ee68-43394e875e42
+  ws-opts:
+    headers:
+      Host: h1.800876.xyz
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 新加坡_1208003
-  network: tcp
+  name: 新加坡_1120029
+  network: ws
   port: '443'
-  server: 00000000000000000000000000000000000000000000000000000000000006a.rui77.com
+  server: 8.219.195.151
+  servername: w.800876.xyz
+  tls: true
+  type: vmess
+  uuid: c13be7b9-bb72-4424-bb2f-00c468f4f282
+  ws-opts:
+    headers:
+      Host: w.800876.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1124186
+  network: ws
+  port: '80'
+  server: 8.219.170.170
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    headers:
+      Host: intrepid.moss.network
+    path: /s/28492a5.fm.apple.com:57003
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1122038
+  network: ws
+  port: '443'
+  server: 8.219.195.151
+  servername: w1.800876.xyz
+  tls: true
+  type: vmess
+  uuid: 1f4322e1-0e7e-4af2-cc09-84666ac15616
+  ws-opts:
+    headers:
+      Host: w1.800876.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1124270
+  network: ws
+  port: '80'
+  server: 138.2.70.11
+  tls: false
+  type: vmess
+  uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e
+  ws-opts:
+    headers:
+      Host: v11-xg.ixigua.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1124203
+  network: ws
+  port: '80'
+  server: xjp.paolujichang.com
+  tls: false
+  type: vmess
+  uuid: c9daa616-3d67-4078-9fa5-29efa4b318e2
+  ws-opts:
+    headers:
+      Host: xjp.paolujichang.com
+    path: /goudan
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1124187
+  network: ws
+  port: '80'
+  server: 8.219.141.221
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    headers:
+      Host: intrepid.moss.network
+    path: /s/28492a5.fm.apple.com:57003
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-v38.idcloudhost.de
+  network: ws
+  port: '80'
+  server: v38.idcloudhost.de
+  tls: false
+  type: vmess
+  uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
+  ws-opts:
+    headers:
+      Host: v38.idcloudhost.de
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1122043
+  network: tcp
+  port: '8882'
+  server: 23.98.71.171
+  tls: false
+  type: vmess
+  uuid: af7ebe17-95bf-4df8-b489-0c8ca44bd438
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1124438
+  network: ws
+  port: '10000'
+  server: sg8.vpnjantit.com
   servername: ''
   tls: false
   type: vmess
-  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
+  uuid: d549185a-59df-11ed-88cb-00163e08d5b4
+  ws-opts:
+    headers:
+      Host: sg8.vpnjantit.com
+    path: /vpnjantit
 - alterId: 0
   cipher: auto
-  name: 新加坡_1208440
+  name: 新加坡_1124424
   network: ''
-  port: '443'
-  server: 00000000000000000000000000000000000000000000000000000000000006a.rui77.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1122496
-  network: tcp
   port: '52356'
   server: 00000000000000000000000000000000000000000000000000000000000026a.rui77.com
   servername: ''
   tls: false
   type: vmess
   uuid: 75d22b25-5db8-4d50-b0c0-747a0b1c035f
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1124411
+  network: ws
+  port: '443'
+  server: cdn.chigua.tk
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0a7d439b-f91e-430a-8273-f7ff68362abe
+  ws-opts:
+    headers:
+      Host: shopper-dryer-grove-find.trycloudflare.com
+    path: /m0a7d439b
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1124402
+  network: ws
+  port: '443'
+  server: cdn.chigua.tk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5e9b5918-6fa1-46a8-8d44-483d5cca1e89
+  ws-opts:
+    headers:
+      Host: campus-eligible-suggests-governance.trycloudflare.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1124395
+  network: ws
+  port: '443'
+  server: cdn.chigua.tk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 76a884db-04e1-40fb-ade5-c031a7f3461e
+  ws-opts:
+    headers:
+      Host: charging-looks-composed-labels.trycloudflare.com
+    path: /76a884db
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1124354
+  network: tcp
+  port: '8883'
+  server: sg3.czs1000.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f0f398bc-e818-4236-b271-78a8cd8973b4
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1124331
+  network: tcp
+  port: '8883'
+  server: sg3.czs1000.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e5623cdf-0011-4536-b21e-f79e41dacce2
+- alterId: 2
+  cipher: auto
+  name: 新加坡_1124283
+  network: ws
+  port: '80'
+  server: 103.172.116.94
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1124271
+  network: ws
+  port: '80'
+  server: hk-e.somnode.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f1398579-eed1-3335-9ffb-5dac467e23ac
+  ws-opts:
+    headers:
+      Host: vali-dns.cp31.ott.cibntv.net
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1124181
+  network: ''
+  port: '52356'
+  server: 00000000000000000000000000000000000000000000000000000000000025a.rui77.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a72e790f-e18a-43b0-a7a7-bcc33f144092
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1124127
+  network: ws
+  port: '443'
+  server: cs.hgdbk.ga
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f
+  ws-opts:
+    headers:
+      Host: cs.hgdbk.ga
+    path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1124048
+  network: ws
+  port: '80'
+  server: hk-i.somnode.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f1398579-eed1-3335-9ffb-5dac467e23ac
+  ws-opts:
+    headers:
+      Host: vali-dns.cp31.ott.cibntv.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: SG_52.74.194.202_112020224a83-...
+  network: ws
+  port: '8081'
+  server: 52.74.194.202
+  tls: false
+  type: vmess
+  uuid: 4cb78235-73e4-4c82-b10f-b89605b7b4f8
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1122039
+  network: ws
+  port: '443'
+  server: 8.219.195.151
+  servername: h2.800876.xyz
+  tls: true
+  type: vmess
+  uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
+  ws-opts:
+    headers:
+      Host: h2.800876.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1122047
+  network: ws
+  port: '443'
+  server: 8.219.195.151
+  servername: h1.800876.xyz
+  tls: true
+  type: vmess
+  uuid: 1197321c-eb59-4159-959f-5d81f53c1792
+  ws-opts:
+    headers:
+      Host: h1.800876.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1122062
+  network: ws
+  port: '15986'
+  server: 128.199.202.80
+  tls: false
+  type: vmess
+  uuid: 5f7e80d2-8115-4597-92e0-f85f3bc972fe
+  ws-opts:
+    headers:
+      Host: 128.199.202.80
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬-新加坡-165.22.61.208
+  network: ws
+  port: '8081'
+  server: 165.22.61.208
+  tls: false
+  type: vmess
+  uuid: 444bcaf2-8f9e-4d1e-a0c0-2414d75e4eb3
+  ws-opts:
+    headers:
+      Host: 165.22.61.208
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1122044
+  network: ws
+  port: '25179'
+  server: v2.sgp.yd.thetruman.xyz
+  tls: false
+  type: vmess
+  uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd
+  ws-opts:
+    headers:
+      Host: v2sgplt.thetruman.xyz
+    path: /
+- alterId: 32
+  cipher: auto
+  name: 🇸🇬 新加坡 004
+  network: tcp
+  port: '443'
+  server: 139.99.90.122
+  tls: false
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1122052
+  network: ws
+  port: '80'
+  server: hk-i.pannode.top
+  tls: false
+  type: vmess
+  uuid: 26382b4e-00f0-4f4f-90a8-3de352e2a06d
+  ws-opts:
+    headers:
+      Host: hk-i.pannode.top
+    path: /wroot?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1122032
+  network: ws
+  port: '443'
+  server: fullaccesstosingaporenet.azurewebsites.net
+  tls: false
+  type: vmess
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstosingaporenet.azurewebsites.net
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1122284
+  network: ws
+  port: '443'
+  server: 165.232.164.149
+  tls: false
+  type: vmess
+  uuid: 83bd4b06-1bea-4d6d-8035-ad81aecef655
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1122046
+  network: ws
+  port: '80'
+  server: 8.219.195.151
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 429b13a5-3747-493d-a5d0-de6fa67d51d1
+  ws-opts:
+    headers:
+      Host: h2.800876.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG新加坡(快嘴kkzui.com)_2
+  network: ws
+  port: '25925'
+  server: node.ckcloud.info
+  tls: false
+  type: vmess
+  uuid: bad1fa4c-61c4-4a27-b8c0-9ec2072da842
+  ws-opts:
+    headers:
+      Host: node.ckcloud.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1122141
+  network: ws
+  port: '80'
+  server: 138.2.76.240
+  tls: false
+  type: vmess
+  uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e
+  ws-opts:
+    headers:
+      Host: dm.toutiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1122061
+  network: ws
+  port: '80'
+  server: sg-ovh2.v2-ray.com
+  tls: false
+  type: vmess
+  uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee
+  ws-opts:
+    headers:
+      Host: sg-ovh2.v2-ray.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1122292
+  network: ws
+  port: '10551'
+  server: paopao.v2.sgp01.paopaocloud.cyou
+  tls: true
+  type: vmess
+  uuid: 89b76fe6-833e-3ab0-ab96-53bdb0662598
+  ws-opts:
+    headers:
+      Host: sgp01.ssru3.casa
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1122035
+  network: ws
+  port: '80'
+  server: 8.219.195.151
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+  ws-opts:
+    headers:
+      Host: w.800876.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1122269
+  network: ws
+  port: '80'
+  server: hk-a.somnode.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f1398579-eed1-3335-9ffb-5dac467e23ac
+  ws-opts:
+    headers:
+      Host: hk-a.somnode.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1122125
+  network: ws
+  port: '443'
+  server: cs.hgdbk.ga
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3f724115-8ca2-4aa4-b8cc-eb72d9b6b1ef
+  ws-opts:
+    headers:
+      Host: YouTube-aweikeji
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1122079
+  network: ws
+  port: '80'
+  server: 51.79.157.223
+  tls: false
+  type: vmess
+  uuid: 02c99c32-0058-4b87-b51a-8f5d6a59bddd
+  ws-opts:
+    headers:
+      Host: ''
+    path: /sshocean
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡_1120100
+  network: ws
+  port: '80'
+  server: hk-test.pannode.top
+  tls: false
+  type: vmess
+  uuid: 26382b4e-00f0-4f4f-90a8-3de352e2a06d
+  ws-opts:
+    headers:
+      Host: hk-test.pannode.top
+    path: /wroot?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 新加坡_1122370
+  network: ws
+  port: '80'
+  server: hk-1.pannode.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 新加坡_1122470
@@ -13028,44 +13801,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡_1122244
-  network: ''
-  port: '52356'
-  server: 00000000000000000000000000000000000000000000000000000000000025a.rui77.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a72e790f-e18a-43b0-a7a7-bcc33f144092
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1122182
-  network: ws
-  port: '443'
-  server: cs.hgdbk.ga
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3f724115-8ca2-4aa4-b8cc-eb72d9b6b1ef
-  ws-opts:
-    headers:
-      Host: YouTube-aweikeji
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1122107
-  network: ws
-  port: '80'
-  server: sg-ovh2.v2-ray.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee
-  ws-opts:
-    headers:
-      Host: sg-ovh2.v2-ray.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 新加坡_1122090
   network: tcp
   port: '8443'
@@ -13084,66 +13819,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 0f1df3fb-4dc5-4558-9bde-4f703c864a78
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1122044
-  network: tcp
-  port: '52356'
-  server: 00000000000000000000000000000000000000000000000000000000000026a.rui77.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1122041
-  network: tcp
-  port: '50001'
-  server: agroup.node3.v.nodelist-gfwairport.download
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ddea4d6b-52f9-4901-8dd6-49bd2e09f2ac
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1122001
-  network: ws
-  port: '80'
-  server: 8.219.230.131
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 61811ce4-1b9b-47bb-9473-c6666a0a8fa4
-  ws-opts:
-    headers:
-      Host: fr1.cachexy.ga
-    path: /p9Dq67Nx/
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 SG-18.143.101.83-170
-  network: ws
-  port: '14785'
-  server: 18.143.101.83
-  tls: false
-  type: vmess
-  uuid: eeca19b9-8659-4d7d-ae3b-c3a1da1c9e65
-  ws-opts:
-    headers:
-      Host: 18.143.101.83
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 SG 110 VMS
-  network: ws
-  port: '8081'
-  server: 52.74.194.202
-  tls: false
-  type: vmess
-  uuid: 4cb78235-73e4-4c82-b10f-b89605b7b4f8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇸🇬 新加坡_1120489
@@ -13170,45 +13845,6 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
     path: /ray
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1120112
-  network: ws
-  port: '15986'
-  server: 128.199.202.80
-  tls: false
-  type: vmess
-  uuid: 5f7e80d2-8115-4597-92e0-f85f3bc972fe
-  ws-opts:
-    headers:
-      Host: 128.199.202.80
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬 新加坡(TG频道@kxswa) 2 #2'
-  network: ws
-  port: '80'
-  server: 8.219.204.195
-  tls: false
-  type: vmess
-  uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
-  ws-opts:
-    headers:
-      Host: w.800876.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 -新加坡-v38.idcloudhost.de 2
-  network: ws
-  port: '80'
-  server: v38.idcloudhost.de
-  tls: false
-  type: vmess
-  uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
-  ws-opts:
-    headers:
-      Host: v38.idcloudhost.de
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇸🇬-新加坡-hk-6.pannode.top
@@ -13247,33 +13883,6 @@ proxies:
   ws-opts:
     headers:
       Host: pull.free.video.10010.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1120020
-  network: ws
-  port: '443'
-  server: 8.219.195.151
-  servername: h2.800876.xyz
-  tls: true
-  type: vmess
-  uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
-  ws-opts:
-    headers:
-      Host: h2.800876.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1120393
-  network: ws
-  port: '80'
-  server: 138.2.70.11
-  tls: false
-  type: vmess
-  uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e
-  ws-opts:
-    headers:
-      Host: v11-xg.ixigua.com
     path: /
 - alterId: 2
   cipher: auto
@@ -13316,32 +13925,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡_1120095
-  network: ws
-  port: '80'
-  server: hk-i.pannode.top
-  tls: false
-  type: vmess
-  uuid: 26382b4e-00f0-4f4f-90a8-3de352e2a06d
-  ws-opts:
-    headers:
-      Host: hk-i.pannode.top
-    path: /wroot?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1120076
-  network: ws
-  port: '80'
-  server: 51.79.157.223
-  tls: false
-  type: vmess
-  uuid: 02c99c32-0058-4b87-b51a-8f5d6a59bddd
-  ws-opts:
-    headers:
-      Host: ''
-    path: /sshocean
-- alterId: 0
-  cipher: auto
   name: 🇸🇬 新加坡_1120032
   network: ws
   port: '2082'
@@ -13381,46 +13964,6 @@ proxies:
     path: /wroot?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡_1120532
-  network: ws
-  port: '443'
-  server: 139.162.50.138
-  tls: false
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    headers:
-      Host: ''
-    path: /chat
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1120013
-  network: ws
-  port: '80'
-  server: 8.219.204.195
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 461aed20-0743-4f13-ee68-43394e875e42
-  ws-opts:
-    headers:
-      Host: h1.800876.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1120371
-  network: ws
-  port: '80'
-  server: 206.189.86.75
-  tls: false
-  type: vmess
-  uuid: ad8dfc15-4d98-40af-aaa8-7cc43a565e03
-  ws-opts:
-    headers:
-      Host: Dl.kgvn.garenanow.com
-    path: /fuzzypn
-- alterId: 0
-  cipher: auto
   name: 🇸🇬 新加坡_1120099
   network: ws
   port: '80'
@@ -13432,15 +13975,6 @@ proxies:
     headers:
       Host: hk-iii.pannode.top
     path: /wroot?ed=2048
-- alterId: 32
-  cipher: auto
-  name: 🇸🇬-新加坡-139.99.90.122
-  network: tcp
-  port: '443'
-  server: 139.99.90.122
-  tls: false
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
 - alterId: 0
   cipher: auto
   name: 新加坡_1120018
@@ -13540,19 +14074,6 @@ proxies:
     path: /qatjpji
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡_1120429
-  network: ws
-  port: '10551'
-  server: paopao.v2.sgp01.paopaocloud.cyou
-  tls: true
-  type: vmess
-  uuid: 89b76fe6-833e-3ab0-ab96-53bdb0662598
-  ws-opts:
-    headers:
-      Host: sgp01.ssru3.casa
-    path: /v2ray
-- alterId: 0
-  cipher: auto
   name: 🇸🇬 新加坡_1120406
   network: ws
   port: '443'
@@ -13564,19 +14085,6 @@ proxies:
     headers:
       Host: ''
     path: /guolicheng/fr?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1120207
-  network: ws
-  port: '80'
-  server: 138.2.76.240
-  tls: false
-  type: vmess
-  uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e
-  ws-opts:
-    headers:
-      Host: dm.toutiao.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇸🇬 新加坡_1120098
@@ -13618,49 +14126,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡 004
+  name: '🇸🇬 新加坡 004 #1'
   network: tcp
   port: '12356'
   server: 00000000000000000000000000000000000000000000000000000000000036a.rui77.com
   tls: false
   type: vmess
   uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1120088
-  network: ws
-  port: '80'
-  server: hk-i.somnode.top
-  tls: false
-  type: vmess
-  uuid: f1398579-eed1-3335-9ffb-5dac467e23ac
-  ws-opts:
-    headers:
-      Host: vali-dns.cp31.ott.cibntv.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-00000000000000000000000...
-  network: auto
-  port: '443'
-  server: 00000000000000000000000000000000000000000000000000000000000006a.rui77.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d81d5bff-925c-4713-99a4-5a6c40f5bd01
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1120401
-  network: ws
-  port: '443'
-  server: 8.219.209.210
-  tls: true
-  type: vmess
-  uuid: 275d9aa8-b271-43d1-b1cf-1f3e6e881047
-  ws-opts:
-    headers:
-      Host: de.guolicheng.cyou
-    path: /guolicheng/de?ed=2048
 - alterId: 0
   cipher: auto
   name: 🇸🇬 新加坡_1120305
@@ -13767,33 +14239,6 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 新加坡_1120016
-  network: ws
-  port: '80'
-  server: 8.219.195.151
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
-  ws-opts:
-    headers:
-      Host: w.800876.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1120308
-  network: ws
-  port: '80'
-  server: xjp.paolujichang.com
-  tls: false
-  type: vmess
-  uuid: c9daa616-3d67-4078-9fa5-29efa4b318e2
-  ws-opts:
-    headers:
-      Host: xjp.paolujichang.com
-    path: /goudan
-- alterId: 0
-  cipher: auto
   name: 🇸🇬 新加坡_1120490
   network: ws
   port: '80'
@@ -13859,56 +14304,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡_1120038
-  network: ws
-  port: '443'
-  server: fullaccesstosingaporenet.azurewebsites.net
-  tls: false
-  type: vmess
-  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
-  ws-opts:
-    headers:
-      Host: fullaccesstosingaporenet.azurewebsites.net
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1120017
-  network: ws
-  port: '80'
-  server: sg5.elknode.top
-  tls: false
-  type: vmess
-  uuid: cb4b57f4-f898-3f4e-9478-7ed2a148ac23
-  ws-opts:
-    headers:
-      Host: data.video.qiyi.com
-    path: /qatjpji
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1120525
-  network: tcp
-  port: '8883'
-  server: sg3.czs1000.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f0f398bc-e818-4236-b271-78a8cd8973b4
-- alterId: 2
-  cipher: auto
-  name: 新加坡_1120412
-  network: ws
-  port: '80'
-  server: 103.172.116.94
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 新加坡_1120287
   network: ws
   port: '443'
@@ -13951,19 +14346,6 @@ proxies:
     path: /wroot?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡_1118048
-  network: ws
-  port: '25179'
-  server: v2.sgp.yd.thetruman.xyz
-  tls: false
-  type: vmess
-  uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd
-  ws-opts:
-    headers:
-      Host: v2sgplt.thetruman.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇸🇬 新加坡_1118535
   network: ws
   port: '80'
@@ -13977,7 +14359,7 @@ proxies:
     path: /sshkit/1736960111/635cb6dd4206c/
 - alterId: 0
   cipher: auto
-  name: '🇸🇬-新加坡-00000000000000000000000... #1'
+  name: 🇸🇬-新加坡-00000000000000000000000...
   network: tcp
   port: '80'
   server: 00000000000000000000000000000000000000000000000000000000000005a.rui77.com
@@ -13996,314 +14378,6 @@ proxies:
   ws-opts:
     headers:
       Host: a.189.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-sggs2.vpnjantit.com
-  network: ws
-  port: '10000'
-  server: sggs2.vpnjantit.com
-  tls: false
-  type: vmess
-  uuid: 731567aa-59e0-11ed-900d-00163e0baf20
-  ws-opts:
-    headers:
-      Host: sggs2.vpnjantit.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-sg2.vpnjantit.com
-  network: ws
-  port: '10000'
-  server: sg2.vpnjantit.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: afc3213a-59de-11ed-a057-832e943ca16e
-  ws-opts:
-    headers:
-      Host: sg2.vpnjantit.com
-    path: /vpnjantit
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1124052
-  network: tcp
-  port: '80'
-  server: 13.215.189.229
-  tls: false
-  type: vmess
-  uuid: fec544c5-6ec4-45d8-8878-17f799e77e96
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-hk-ii.pannode.top
-  network: ws
-  port: '80'
-  server: hk-ii.pannode.top
-  tls: false
-  type: vmess
-  uuid: 0fbae820-d7da-4404-a1ae-7c3e86cb55c3
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /wroot?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬-新加坡-13.250.98.231
-  network: ws
-  port: '80'
-  server: 13.250.98.231
-  tls: false
-  type: vmess
-  uuid: fec544c5-6ec4-45d8-8878-17f799e77e96
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 -新加坡-sgv1.vpnjantit.com
-  network: ws
-  port: '10000'
-  server: sgv1.vpnjantit.com
-  tls: false
-  type: vmess
-  uuid: 043c63d2-59e1-11ed-820e-cba07c18f9c7
-  ws-opts:
-    headers:
-      Host: sgv1.vpnjantit.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1124436
-  network: ws
-  port: '10000'
-  server: sg3.vpnjantit.com
-  tls: false
-  type: vmess
-  uuid: 5e131132-59df-11ed-9447-00163e0c1be4
-  ws-opts:
-    headers:
-      Host: sg3.vpnjantit.com
-    path: /vpnjantit
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1124130
-  network: ws
-  port: '443'
-  server: 92.223.116.205
-  tls: false
-  type: vmess
-  uuid: 5c854e2e-205c-4309-8363-ff60ea7b2a16
-  ws-opts:
-    headers:
-      Host: mvtl3njvhnt9imkm.114517.xyz
-    path: /cgi-bin/api/dataflow/
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1124056
-  network: ws
-  port: '20000'
-  server: sg01.henet.top
-  tls: false
-  type: vmess
-  uuid: c7b5392a-03a2-483f-9d51-89ff1aa6c19e
-  ws-opts:
-    headers:
-      Host: cctv.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1120029
-  network: ws
-  port: '443'
-  server: 8.219.195.151
-  servername: w.800876.xyz
-  tls: true
-  type: vmess
-  uuid: c13be7b9-bb72-4424-bb2f-00c468f4f282
-  ws-opts:
-    headers:
-      Host: w.800876.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1124186
-  network: ws
-  port: '80'
-  server: 8.219.170.170
-  tls: false
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  ws-opts:
-    headers:
-      Host: intrepid.moss.network
-    path: /s/28492a5.fm.apple.com:57003
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1124187
-  network: ws
-  port: '80'
-  server: 8.219.141.221
-  tls: false
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  ws-opts:
-    headers:
-      Host: intrepid.moss.network
-    path: /s/28492a5.fm.apple.com:57003
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1122043
-  network: tcp
-  port: '8882'
-  server: 23.98.71.171
-  tls: false
-  type: vmess
-  uuid: af7ebe17-95bf-4df8-b489-0c8ca44bd438
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1124438
-  network: ws
-  port: '10000'
-  server: sg8.vpnjantit.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d549185a-59df-11ed-88cb-00163e08d5b4
-  ws-opts:
-    headers:
-      Host: sg8.vpnjantit.com
-    path: /vpnjantit
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1124402
-  network: ws
-  port: '443'
-  server: cdn.chigua.tk
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5e9b5918-6fa1-46a8-8d44-483d5cca1e89
-  ws-opts:
-    headers:
-      Host: campus-eligible-suggests-governance.trycloudflare.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1124395
-  network: ws
-  port: '443'
-  server: cdn.chigua.tk
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 76a884db-04e1-40fb-ade5-c031a7f3461e
-  ws-opts:
-    headers:
-      Host: charging-looks-composed-labels.trycloudflare.com
-    path: /76a884db
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1124331
-  network: tcp
-  port: '8883'
-  server: sg3.czs1000.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: e5623cdf-0011-4536-b21e-f79e41dacce2
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1124271
-  network: ws
-  port: '80'
-  server: hk-e.somnode.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f1398579-eed1-3335-9ffb-5dac467e23ac
-  ws-opts:
-    headers:
-      Host: vali-dns.cp31.ott.cibntv.net
-    path: /ws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1124127
-  network: ws
-  port: '443'
-  server: cs.hgdbk.ga
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f
-  ws-opts:
-    headers:
-      Host: cs.hgdbk.ga
-    path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1122284
-  network: ws
-  port: '443'
-  server: 165.232.164.149
-  tls: false
-  type: vmess
-  uuid: 83bd4b06-1bea-4d6d-8035-ad81aecef655
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 SG新加坡(快嘴kkzui.com)_2
-  network: ws
-  port: '25925'
-  server: node.ckcloud.info
-  tls: false
-  type: vmess
-  uuid: bad1fa4c-61c4-4a27-b8c0-9ec2072da842
-  ws-opts:
-    headers:
-      Host: node.ckcloud.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1122269
-  network: ws
-  port: '80'
-  server: hk-a.somnode.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f1398579-eed1-3335-9ffb-5dac467e23ac
-  ws-opts:
-    headers:
-      Host: hk-a.somnode.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡_1120100
-  network: ws
-  port: '80'
-  server: hk-test.pannode.top
-  tls: false
-  type: vmess
-  uuid: 26382b4e-00f0-4f4f-90a8-3de352e2a06d
-  ws-opts:
-    headers:
-      Host: hk-test.pannode.top
-    path: /wroot?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 新加坡_1122370
-  network: ws
-  port: '80'
-  server: hk-1.pannode.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 20ef9965-3733-44b3-8fe5-b5447c6d9c9b
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
     path: /
 - alterId: 0
   cipher: auto
@@ -14361,16 +14435,6 @@ proxies:
     headers:
       Host: sg-gcore.sharecentre.online
     path: /shirker
-- name: ' TR-WS-TLS  SG-92.243.74.2:844...'
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.2
-  sni: ngepx.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ngepx.ambercc.filegear-sg.me
 - alterId: 233
   cipher: auto
   name: V2-SG1
@@ -16751,7 +16815,7 @@ proxies:
   server: 92.243.74.115
   sni: epccg.ambercc.filegear-sg.me_4ms
   type: trojan
-- name: ' TR-TCP-NA  SG-92.243.74.239:8... #3'
+- name: ' TR-TCP-NA  SG-92.243.74.239:8... #2'
   password: Aimer
   port: 8443
   server: 92.243.74.239
@@ -16770,28 +16834,6 @@ proxies:
   server: 92.243.74.2
   sni: epcca.ambercc.filegear-sg.me_1ms
   type: trojan
-- name: 新加坡_3
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 43.153.80.208
-  skip-cert-verify: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: t033.ylks.link
-    path: /
-- name: 新加坡_1
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: zdy033.kpcloud.eu.org
-  skip-cert-verify: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: t033.ylks.link
-    path: /
 - name: 'SG+Alibaba+us+Technology+Co+++... #173'
   network: ws
   password: a0957dd7-30f7-4bae-89d3-d402943524ea
@@ -18355,6 +18397,24 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 新加坡 043
+  network: ''
+  port: 11586
+  server: 129.150.53.171
+  tls: false
+  type: vmess
+  uuid: 84e0bb6b-7533-41d8-eee8-ed9299188cf5
+- alterId: 0
+  cipher: auto
+  name: '新加坡 059 #2'
+  network: tcp
+  port: 52356
+  server: 00000000000000000000000000000000000000000000000000000000000026a.node-for-bigairport.win
+  tls: false
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+- alterId: 0
+  cipher: auto
   name: 新加坡 063
   network: ws
   port: 24632
@@ -18421,7 +18481,17 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '🇸🇬 新加坡 004 #1'
+  name: 🇸🇬 【直连】狮城 - 3
+  network: tcp
+  port: 12356
+  server: 00000000000000000000000000000000000000000000000000000000000035a.node-for-bigairport.win
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬 新加坡 004 #2'
   network: ws
   port: 443
   server: n1679407005.edpmvga.cn
@@ -18538,6 +18608,20 @@ proxies:
   uuid: 036a28c3-5c8d-4df3-a79b-9da622640f2b
 - alterId: 0
   cipher: auto
+  name: 🇸🇬SG-13.214.43.134-18681
+  network: ws
+  port: 2002
+  server: sg2.sanfen001.pics
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6db42a0c-5abc-4d1c-a09c-2052c661f9f8
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
   name: 🇸🇬SG-18.142.230.149-2206
   network: ws
   port: 443
@@ -18546,6 +18630,18 @@ proxies:
   tls: true
   type: vmess
   uuid: f2b79b32-b927-4b4f-8de4-56cc32c4b3eb
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG-20.205.214.65-12586
+  network: ws
+  port: 54597
+  server: 20.205.214.65
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b8ec1401-e5c1-4299-b315-9694cca0c2f8
   ws-opts:
     path: /
 - alterId: 0
@@ -18602,15 +18698,10 @@ proxies:
     path: /wyk
 - alterId: 0
   cipher: auto
-  name: 'github.com/freefq - 新加坡Amazon数... #7'
-  network: ws
-  port: 2003
-  server: sg2.sanfen001.pics
-  servername: ''
-  tls: true
+  name: 🇸🇬_SG_新加坡_49
+  network: tcp
+  port: 41191
+  server: 159.138.240.38
+  tls: false
   type: vmess
-  uuid: e30fa02c-d604-4191-9b81-c550b32f82bc
-  ws-opts:
-    headers:
-      Host: www.microsoft.com
-    path: /zh-cn
+  uuid: 73bb1ce7-ab82-4a08-a4d3-77c585d657bf

@@ -26,7 +26,7 @@ proxies:
   uuid: a663bbab-4e9e-4080-b8ab-edd59fe1fdce
 - alterId: 0
   cipher: auto
-  name: 法国_0306001
+  name: 法国_0628001
   network: ws
   port: '8443'
   server: 173.245.49.10
@@ -40,7 +40,7 @@ proxies:
     path: /8cda48b3
 - alterId: 0
   cipher: auto
-  name: 法国_0306002
+  name: 法国_0628002
   network: ws
   port: '8443'
   server: 173.245.49.23
@@ -185,7 +185,7 @@ proxies:
   skip-cert-verify: false
   sni: frt2.sshocean.net
   type: trojan
-- name: '4FreeIran-6690 #1'
+- name: '4FreeIran-6690 #2'
   password: telegram-id-directvpn
   port: 22223
   server: 52.47.70.112
@@ -483,39 +483,39 @@ proxies:
   server: us-05.licom.ml
   skip-cert-verify: false
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国 05
-  network: tcp
-  port: '45072'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 7544ffd3-6801-4e95-aa75-96f370c61eea
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国 08
-  network: tcp
-  port: '45072'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: b7555888-b753-46d3-bc9b-214cd088e3ee
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国 03
-  network: tcp
-  port: '45071'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 9521b376-8fa3-4388-8c2d-b61f6d26661d
 - name: 🇫🇷_定制专线：@QS00008
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
   server: 15.236.173.146
   skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国 10
+  network: tcp
+  port: '45072'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 9521b376-8fa3-4388-8c2d-b61f6d26661d
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国 02
+  network: tcp
+  port: '45071'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: a7f5211a-6449-42bd-8907-60a041704e26
+- alpn:
+  - http/1.1
+  name: '4FreeIran-6746 #2'
+  network: tcp
+  password: telegram-id-v2rayvpnchannel
+  port: 22223
+  server: 52.47.70.112
   sni: trojan.burgerip.co.uk
   type: trojan
 - alpn:
@@ -905,6 +905,275 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: github.com/freefq - 法国  13
+  network: ws
+  port: '10048'
+  server: 141.11.103.163
+  tls: false
+  type: vmess
+  uuid: 1d4e946f-29cc-42d7-bd7d-abc155322005
+  ws-opts:
+    headers:
+      Host: 141.11.103.163
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国_0126110
+  network: ws
+  port: '65528'
+  server: fr-a.tencent.cfd
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd8a8c3c-6143-4c5d-ab80-24065c22bc9e
+  ws-opts:
+    headers:
+      Host: fr-a.tencent.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国_0315166
+  network: ws
+  port: '2095'
+  server: 173.245.49.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8152b996-a55d-4348-8e83-d3b87b67bfc8
+  ws-opts:
+    headers:
+      Host: ruuu3.wyhkaa0.ga
+    path: /tg:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 法国_0310289
+  network: ws
+  port: '80'
+  server: 51.195.91.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 329a88e0-bd9b-11ed-b434-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /kltpo3ei
+- alterId: 0
+  cipher: auto
+  name: 法国_0314165
+  network: ws
+  port: '2052'
+  server: 173.245.49.226
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e735abd4-9c96-488c-aec5-ad2ae82bc486
+  ws-opts:
+    headers:
+      Host: r.wyhkaa0.ga
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 法国_0314081
+  network: ws
+  port: '2052'
+  server: 173.245.49.50
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e735abd4-9c96-488c-aec5-ad2ae82bc486
+  ws-opts:
+    headers:
+      Host: r.wyhkaa0.ga
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 法国 | 0.5x_1
+  network: ws
+  port: 2052
+  server: newfgawduvdb.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
+  ws-opts:
+    headers:
+      Host: ''
+    path: /flkwdfads
+- alterId: 0
+  cipher: auto
+  name: 法国_0314022
+  network: ws
+  port: '2052'
+  server: 173.245.49.118
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e735abd4-9c96-488c-aec5-ad2ae82bc486
+  ws-opts:
+    headers:
+      Host: r.wyhkaa0.ga
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 法国_0315165
+  network: ws
+  port: '2095'
+  server: 173.245.49.254
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8152b996-a55d-4348-8e83-d3b87b67bfc8
+  ws-opts:
+    headers:
+      Host: ruuu3.wyhkaa0.ga
+    path: /tg:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 法国_0212244
+  network: tcp
+  port: '43632'
+  server: 51.15.237.96
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0c15445f-dfe3-412b-9e6f-988ae64061a1
+- alterId: 0
+  cipher: auto
+  name: 法国_0126107
+  network: ws
+  port: '54444'
+  server: 141.11.45.116
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d87b07db-919e-44d8-eaf0-ee6148f6c871
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: github.com/freefq - 法国OVH SAS ...
+  network: ws
+  port: '80'
+  server: 193.70.85.191
+  tls: false
+  type: vmess
+  uuid: ed579687-5171-46ad-a89a-bd06af52705d
+  ws-opts:
+    headers:
+      Host: Irancell.ir
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: github.com/freefq - 法国OVH 6
+  network: ws
+  port: 80
+  server: 51.77.212.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3e9cec54-c121-4584-b758-787388e2f792
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 'github.com/freefq - 法国OVH SAS ... #1'
+  network: ws
+  port: 80
+  server: 193.70.85.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88bc28e5-c046-4b96-9c92-e9a75a4f6b92
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 'github.com/freefq - 法国OVH机房SAS... #1'
+  network: ws
+  port: 443
+  server: cdn1.soft98.download
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: aadbdef0-1139-4647-9086-838f1a29c8c7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: T.ME@filternet0142///\\\🇫🇷_1
+  network: ws
+  port: '2096'
+  server: sea.caspian.cf
+  tls: true
+  type: vmess
+  uuid: 6135ebcc-6be1-46a6-9fc1-2264dcb1ed60
+  ws-opts:
+    headers:
+      Host: sea.caspian.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国_1208001
+  network: ws
+  port: '443'
+  server: 164.132.68.14
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1f4322e1-0e7e-4af2-cc09-84666ac15616
+  ws-opts:
+    headers:
+      Host: w1.800876.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国_1208007
+  network: ws
+  port: '80'
+  server: 173.245.49.116
+  tls: false
+  type: vmess
+  uuid: d46e30aa-db2f-4e58-af01-758874b1b341
+  ws-opts:
+    headers:
+      Host: cf.aifuqiang.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国_1206033
+  network: ws
+  port: '80'
+  server: cdn1.soft9821.gq
+  tls: false
+  type: vmess
+  uuid: 43587dc1-34f1-4254-ab90-56507e72d7a8
+  ws-opts:
+    headers:
+      Host: cdn1.soft9821.gq
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 github.com/freefq - 法国巴黎Onl...
+  network: ws
+  port: '8880'
+  server: cdn1.soft9821.gq
+  tls: false
+  type: vmess
+  uuid: a2ecce43-c6fb-4978-8b1d-8018ddd9faf4
+  ws-opts:
+    headers:
+      Host: cdn1.soft9821.gq
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇫🇷FR-51.77.230.27-6063
   network: ws
   port: 22330
@@ -1143,18 +1412,6 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 🇫🇷FR-51.77.212.145-15356
-  network: ws
-  port: 80
-  server: 51.77.212.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3e9cec54-c121-4584-b758-787388e2f792
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
   name: 🇫🇷FR-51.77.200.137-4583
   network: ws
   port: 443
@@ -1163,18 +1420,6 @@ proxies:
   tls: true
   type: vmess
   uuid: b3db746a-c63a-4b57-9d61-9bdec6d08141
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷FR-193.70.85.191-11999
-  network: ws
-  port: 80
-  server: 193.70.85.191
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88bc28e5-c046-4b96-9c92-e9a75a4f6b92
   ws-opts:
     path: /vmess
 - alterId: 0
@@ -1211,20 +1456,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 法国_0310170
-  network: ws
-  port: '80'
-  server: 51.195.91.27
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 329a88e0-bd9b-11ed-b434-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /kltpo3ei
 - alterId: 0
   cipher: auto
   name: 法国_0318167
@@ -1267,46 +1498,6 @@ proxies:
     headers:
       Host: sg.wyhkaa0.ml
     path: /tg:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: '法国 V2CROSS.COM #1'
-  network: ws
-  port: 10048
-  server: 141.11.103.163
-  tls: false
-  type: vmess
-  uuid: 1d4e946f-29cc-42d7-bd7d-abc155322005
-  ws-opts:
-    headers:
-      Host: 141.11.103.163
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国_1208021
-  network: ws
-  port: '80'
-  server: cdn1.soft9821.gq
-  tls: false
-  type: vmess
-  uuid: 43587dc1-34f1-4254-ab90-56507e72d7a8
-  ws-opts:
-    headers:
-      Host: cdn1.soft9821.gq
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 法国_1208044
-  network: ws
-  port: '8880'
-  server: cdn1.soft9821.gq
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a2ecce43-c6fb-4978-8b1d-8018ddd9faf4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 64
   cipher: auto
   name: 🇫🇷 法国_1208017
@@ -1320,19 +1511,6 @@ proxies:
     headers:
       Host: www.42528935.xyz
     path: /path/350432191028
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 FR法国(来源：kkzui.com)_4
-  network: ws
-  port: '443'
-  server: 164.132.68.14
-  tls: true
-  type: vmess
-  uuid: 1f4322e1-0e7e-4af2-cc09-84666ac15616
-  ws-opts:
-    headers:
-      Host: w1.800876.xyz
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 🇫🇷 法国_1206036
@@ -1407,19 +1585,6 @@ proxies:
   ws-opts:
     headers:
       Host: cdn1.soft9821.gq
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国_1208025
-  network: ws
-  port: '2096'
-  server: sea.caspian.cf
-  tls: false
-  type: vmess
-  uuid: 6135ebcc-6be1-46a6-9fc1-2264dcb1ed60
-  ws-opts:
-    headers:
-      Host: sea.caspian.cf
     path: /
 - alterId: 64
   cipher: auto
@@ -1499,19 +1664,6 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 🇫🇷 法国_1206007
-  network: ws
-  port: '80'
-  server: 173.245.49.116
-  tls: false
-  type: vmess
-  uuid: d46e30aa-db2f-4e58-af01-758874b1b341
-  ws-opts:
-    headers:
-      Host: cf.aifuqiang.tk
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇫🇷 08法国
   network: tcp
   port: '15208'
@@ -1566,139 +1718,85 @@ proxies:
     path: /path/041629110712
 - alterId: 0
   cipher: auto
-  name: 法国_0126110
+  name: 法国_1122023
   network: ws
-  port: '65528'
-  server: fr-a.tencent.cfd
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cd8a8c3c-6143-4c5d-ab80-24065c22bc9e
-  ws-opts:
-    headers:
-      Host: fr-a.tencent.cfd
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 法国_0315166
-  network: ws
-  port: '2095'
-  server: 173.245.49.207
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8152b996-a55d-4348-8e83-d3b87b67bfc8
-  ws-opts:
-    headers:
-      Host: ruuu3.wyhkaa0.ga
-    path: /tg:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 法国_0314165
-  network: ws
-  port: '2052'
-  server: 173.245.49.226
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e735abd4-9c96-488c-aec5-ad2ae82bc486
-  ws-opts:
-    headers:
-      Host: r.wyhkaa0.ga
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 法国_0314081
-  network: ws
-  port: '2052'
-  server: 173.245.49.50
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e735abd4-9c96-488c-aec5-ad2ae82bc486
-  ws-opts:
-    headers:
-      Host: r.wyhkaa0.ga
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 法国_0314022
-  network: ws
-  port: '2052'
-  server: 173.245.49.118
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e735abd4-9c96-488c-aec5-ad2ae82bc486
-  ws-opts:
-    headers:
-      Host: r.wyhkaa0.ga
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 法国_0315165
-  network: ws
-  port: '2095'
-  server: 173.245.49.254
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8152b996-a55d-4348-8e83-d3b87b67bfc8
-  ws-opts:
-    headers:
-      Host: ruuu3.wyhkaa0.ga
-    path: /tg:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 法国_0212244
-  network: tcp
-  port: '43632'
-  server: 51.15.237.96
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0c15445f-dfe3-412b-9e6f-988ae64061a1
-- alterId: 0
-  cipher: auto
-  name: 法国_0126107
-  network: ws
-  port: '54444'
-  server: 141.11.45.116
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d87b07db-919e-44d8-eaf0-ee6148f6c871
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: github.com/freefq - 法国OVH SAS ...
-  network: ws
-  port: '80'
-  server: 193.70.85.191
-  tls: false
-  type: vmess
-  uuid: ed579687-5171-46ad-a89a-bd06af52705d
-  ws-opts:
-    headers:
-      Host: Irancell.ir
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 'github.com/freefq - 法国OVH机房SAS... #1'
-  network: ws
-  port: 443
-  server: cdn1.soft98.download
+  port: '443'
+  server: fr01.paopaocloud.cyou
   servername: ''
   tls: true
   type: vmess
-  uuid: aadbdef0-1139-4647-9086-838f1a29c8c7
+  uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
   ws-opts:
     headers:
-      Host: ''
+      Host: fr01.2yun.win
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国 001
+  network: ws
+  port: '80'
+  server: nl.v2-ray.com
+  tls: false
+  type: vmess
+  uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
+  ws-opts:
+    headers:
+      Host: nl.v2-ray.com
+    path: /fastssh/hkgzs01/6315d407657f6/
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷-法国-fr01.paopaocloud.cyou
+  network: ws
+  port: '443'
+  server: fr01.paopaocloud.cyou
+  tls: true
+  type: vmess
+  uuid: 6a1246a9-491f-3e89-8c51-39e489f059e1
+  ws-opts:
+    headers:
+      Host: fr01.2yun.win
     path: /
+- alterId: 0
+  cipher: auto
+  name: 法国_1124024
+  network: ws
+  port: '443'
+  server: fr01.paopaocloud.cyou
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
+  ws-opts:
+    headers:
+      Host: fr01.2yun.win
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: '🇫🇷-法国-fr01.paopaocloud.cyou #1'
+  network: ws
+  port: '443'
+  server: fr01.paopaocloud.cyou
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: dbd5ea6f-eea7-3490-85bb-580c26ecf57b
+  ws-opts:
+    headers:
+      Host: fr01.2yun.win
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国_1122018
+  network: ws
+  port: '443'
+  server: fr01.paopaocloud.cyou
+  tls: true
+  type: vmess
+  uuid: fb8d619e-a4cf-39ee-8d44-33e64c468a85
+  ws-opts:
+    headers:
+      Host: fr01.2yun.win
+    path: /v2ray
 - alterId: 0
   cipher: auto
   name: 法国_1122182
@@ -1768,34 +1866,6 @@ proxies:
     headers:
       Host: uk2.v2rayserv.com
     path: /sshocean
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷-法国-fr01.paopaocloud.cyou
-  network: ws
-  port: '443'
-  server: fr01.paopaocloud.cyou
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
-  ws-opts:
-    headers:
-      Host: fr01.2yun.win
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 法国_1120184
-  network: ws
-  port: '443'
-  server: fr01.paopaocloud.cyou
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
-  ws-opts:
-    headers:
-      Host: fr01.2yun.win
-    path: /v2ray
 - alterId: 64
   cipher: auto
   name: 🇫🇷 法国_1120030
@@ -1809,59 +1879,6 @@ proxies:
     headers:
       Host: ''
     path: /path/120208301422
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国_1120174
-  network: ws
-  port: '443'
-  server: fr01.paopaocloud.cyou
-  tls: true
-  type: vmess
-  uuid: fb8d619e-a4cf-39ee-8d44-33e64c468a85
-  ws-opts:
-    headers:
-      Host: fr01.2yun.win
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国 001
-  network: ws
-  port: '80'
-  server: nl.v2-ray.com
-  tls: false
-  type: vmess
-  uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
-  ws-opts:
-    headers:
-      Host: nl.v2-ray.com
-    path: /fastssh/hkgzs01/6315d407657f6/
-- alterId: 0
-  cipher: auto
-  name: '🇫🇷-法国-fr01.paopaocloud.cyou #1'
-  network: ws
-  port: '443'
-  server: fr01.paopaocloud.cyou
-  tls: true
-  type: vmess
-  uuid: 6a1246a9-491f-3e89-8c51-39e489f059e1
-  ws-opts:
-    headers:
-      Host: fr01.2yun.win
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇫🇷-法国-fr01.paopaocloud.cyou #2'
-  network: ws
-  port: '443'
-  server: fr01.paopaocloud.cyou
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: dbd5ea6f-eea7-3490-85bb-580c26ecf57b
-  ws-opts:
-    headers:
-      Host: fr01.2yun.win
-    path: /v2ray
 - name: '法国11|2.5M/s(youtube阿伟科技) #1'
   network: tcp
   password: OwXaiuJi7H
@@ -2108,7 +2125,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '法国 #2'
+  name: '法国 #3'
   network: tcp
   port: 47986
   server: 5b6f884e-3db6-40a7-b53d-769c4713b041.zhousi.link
@@ -2125,4 +2142,17 @@ proxies:
   type: vmess
   uuid: 5255a5e7-1a58-46e6-8b92-eb17b8f98c7e
   ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国 V2CROSS.COM
+  network: ws
+  port: 10048
+  server: 141.11.103.163
+  tls: false
+  type: vmess
+  uuid: 1d4e946f-29cc-42d7-bd7d-abc155322005
+  ws-opts:
+    headers:
+      Host: 141.11.103.163
     path: /
