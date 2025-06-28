@@ -55,7 +55,7 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- name: 4FreeIran-6030
+- name: 4Jadi-6117
   network: ws
   password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
   port: 443
@@ -371,7 +371,7 @@ proxies:
   ws-opts:
     headers:
       Host: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v05.feadlenetwork19922h.net
-- name: '美国 cf中转 #1'
+- name: '美国 cf中转 #2'
   network: ws
   port: 443
   server: vip6.cloudflare.182682.xyz
@@ -602,30 +602,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  network: ws
-  port: 33640
-  server: gdct.lbbb.tk
-  tls: false
-  type: vmess
-  uuid: 5eb22bf1-ce1e-4d2d-9306-7b64b1c6e105
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 _CN_中国->🇬🇧_GB_英国
-  network: ws
-  port: '63091'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: e150c7fc-4297-3a40-a9d8-ff7e38bc1c63
-  ws-opts:
-    headers:
-      Host: uk01-cdn.airport-v2.com
-    path: /
 - alterId: 2
   cipher: auto
   name: ⒐V2RAY [vip1]广移-中转-韩国
@@ -662,6 +638,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
+- alterId: 64
+  cipher: auto
+  name: 二爷翻墙网 https://1808.ga ..._____
+  network: tcp
+  port: 33242
+  server: 183.237.20.147
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: ⒔V2RAY [vip1]广移-中转-日本
@@ -805,6 +790,17 @@ proxies:
     headers:
       Host: quranweb25.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  network: ws
+  port: 33640
+  server: gdct.lbbb.tk
+  tls: false
+  type: vmess
+  uuid: 5eb22bf1-ce1e-4d2d-9306-7b64b1c6e105
+  ws-opts:
+    path: /
 - alterId: 1
   cipher: auto
   name: 🇨🇳_CN_中国->🇭🇰_HK_香港
@@ -898,6 +894,54 @@ proxies:
   tls: true
   type: vmess
   uuid: 5a96d1f3-55de-4834-b19a-72e5fbc34b2f
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 中转 🇺🇸 US 3 TG@airproxies
+  network: ws
+  port: '22102'
+  server: a16m.jpl.cdn.01.njser.xyz
+  tls: false
+  type: vmess
+  uuid: 849a9495-5af5-4e54-bff5-1ab670eaebea
+  ws-opts:
+    headers:
+      Host: a16m.jpl.cdn.01.njser.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 25  ⌜すごい⌟ cdn -> 🇱🇺 2
+  network: ws
+  port: '443'
+  server: cacerts.digicert.com
+  tls: true
+  type: vmess
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  ws-opts:
+    headers:
+      Host: lu1.gogogoo.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11  ⌜すごい⌟ cdn -> 🇺🇸
+  network: ws
+  port: '2053'
+  server: cacerts.digicert.com
+  tls: true
+  type: vmess
+  uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
+  ws-opts:
+    headers:
+      Host: v2ray.wefuckgfw.ga
+    path: /
+- alterId: 0
+  cipher: auto
+  name: _CN_中国->🇧🇭_BH_巴林_1
+  network: tcp
+  port: '16103'
+  server: zfd-unicom.gatknqh.cn
+  tls: false
+  type: vmess
+  uuid: ee867204-3f52-3faf-8de4-6f4180939d7c
 - alterId: 0
   cipher: auto
   name: '🇫🇷_FR_法国->🇺🇸_US_美国 #1'
@@ -1052,54 +1096,6 @@ proxies:
   tls: false
   type: vmess
   uuid: b52256b3-4b69-4ab5-a913-ba3674ada13b
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 中转 🇺🇸 US 3 TG@airproxies
-  network: ws
-  port: '22102'
-  server: a16m.jpl.cdn.01.njser.xyz
-  tls: false
-  type: vmess
-  uuid: 849a9495-5af5-4e54-bff5-1ab670eaebea
-  ws-opts:
-    headers:
-      Host: a16m.jpl.cdn.01.njser.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 25  ⌜すごい⌟ cdn -> 🇱🇺 2
-  network: ws
-  port: '443'
-  server: cacerts.digicert.com
-  tls: true
-  type: vmess
-  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-  ws-opts:
-    headers:
-      Host: lu1.gogogoo.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11  ⌜すごい⌟ cdn -> 🇺🇸
-  network: ws
-  port: '2053'
-  server: cacerts.digicert.com
-  tls: true
-  type: vmess
-  uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
-  ws-opts:
-    headers:
-      Host: v2ray.wefuckgfw.ga
-    path: /
-- alterId: 0
-  cipher: auto
-  name: _CN_中国->🇧🇭_BH_巴林_1
-  network: tcp
-  port: '16103'
-  server: zfd-unicom.gatknqh.cn
-  tls: false
-  type: vmess
-  uuid: ee867204-3f52-3faf-8de4-6f4180939d7c
 - alterId: 0
   cipher: auto
   name: 🇭🇰 中转 🇭🇰 HK 40 Amazon.com TG@n...
@@ -1333,14 +1329,14 @@ proxies:
   skip-cert-verify: true
   sni: sg.catxstar.com_165ms
   type: trojan
-- name: '🇹🇼|台湾-中转 02 #9'
+- name: '🇹🇼|台湾-中转 02 #8'
   password: 2db71c8f-b7d3-4272-b868-2f7c92b395d1
   port: 9310
   server: r2.tube-cat.com
   skip-cert-verify: true
   sni: tw.catxstar.com
   type: trojan
-- name: '🇹🇼|台湾-中转 02 #8'
+- name: '🇹🇼|台湾-中转 02 #9'
   password: 2db71c8f-b7d3-4272-b868-2f7c92b395d1
   port: 9310
   server: r2.tube-cat.com
@@ -1375,14 +1371,14 @@ proxies:
   skip-cert-verify: true
   sni: jp.catxstar.com_165ms
   type: trojan
-- name: '🇯🇵|日本原生-中转 01 #8'
+- name: '🇯🇵|日本原生-中转 01 #9'
   password: 2db71c8f-b7d3-4272-b868-2f7c92b395d1
   port: 9420
   server: r2.tube-cat.com
   skip-cert-verify: true
   sni: JP-03.oneok.link
   type: trojan
-- name: '🇯🇵|日本原生-中转 01 #9'
+- name: '🇯🇵|日本原生-中转 01 #8'
   password: 2db71c8f-b7d3-4272-b868-2f7c92b395d1
   port: 9420
   server: r2.tube-cat.com
@@ -1725,13 +1721,6 @@ proxies:
   skip-cert-verify: true
   sni: kr.catxstar.com
   type: trojan
-- name: 🇨🇳_CN_中国->🇯🇵_JP_日本
-  password: VdWBGFmg
-  port: 23770
-  server: 36.151.251.62
-  skip-cert-verify: true
-  sni: 36.151.251.62
-  type: trojan
 - name: '🇭🇰|香港-中转 01 #4'
   password: c03b5a06-cc76-4b47-af5f-5d1159892e6d
   port: 9120
@@ -1781,14 +1770,14 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com_165ms
   type: trojan
-- name: '🇭🇰|香港-中转 04 #12'
+- name: '🇭🇰|香港-中转 04 #13'
   password: c03b5a06-cc76-4b47-af5f-5d1159892e6d
   port: 9150
   server: r1.tube-cat.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: '🇭🇰|香港-中转 04 #13'
+- name: '🇭🇰|香港-中转 04 #12'
   password: c03b5a06-cc76-4b47-af5f-5d1159892e6d
   port: 9150
   server: r1.tube-cat.com
@@ -1823,14 +1812,14 @@ proxies:
   skip-cert-verify: true
   sni: tw.catxstar.com_164ms
   type: trojan
-- name: '🇯🇵|日本-中转 Disney+优化 01 #12'
+- name: '🇯🇵|日本-中转 Disney+优化 01 #13'
   password: c03b5a06-cc76-4b47-af5f-5d1159892e6d
   port: 9415
   server: r1.tube-cat.com
   skip-cert-verify: true
   sni: jp.catxstar.com
   type: trojan
-- name: '🇯🇵|日本-中转 Disney+优化 01 #13'
+- name: '🇯🇵|日本-中转 Disney+优化 01 #12'
   password: c03b5a06-cc76-4b47-af5f-5d1159892e6d
   port: 9415
   server: r1.tube-cat.com
@@ -1963,14 +1952,14 @@ proxies:
   skip-cert-verify: true
   sni: JP-03.oneok.link_166ms
   type: trojan
-- name: '🇺🇸|美国-进阶中转 01 #7'
+- name: '🇺🇸|美国-进阶中转 01 #6'
   password: fe0b59ec-6af0-45db-9509-4c66b464af2e
   port: 8320
   server: r1.tube-cat.com
   skip-cert-verify: true
   sni: us.catxstar.com
   type: trojan
-- name: '🇺🇸|美国-进阶中转 01 #6'
+- name: '🇺🇸|美国-进阶中转 01 #7'
   password: fe0b59ec-6af0-45db-9509-4c66b464af2e
   port: 8320
   server: r1.tube-cat.com
@@ -1998,14 +1987,14 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com_166ms
   type: trojan
-- name: '🇭🇰|香港-中转 03 #14'
+- name: '🇭🇰|香港-中转 03 #15'
   password: fe0b59ec-6af0-45db-9509-4c66b464af2e
   port: 9135
   server: r1.tube-cat.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: '🇭🇰|香港-中转 03 #15'
+- name: '🇭🇰|香港-中转 03 #14'
   password: fe0b59ec-6af0-45db-9509-4c66b464af2e
   port: 9135
   server: r1.tube-cat.com
@@ -2026,14 +2015,14 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com_164ms
   type: trojan
-- name: '🇭🇰|香港-中转 04 #14'
+- name: '🇭🇰|香港-中转 04 #15'
   password: fe0b59ec-6af0-45db-9509-4c66b464af2e
   port: 9150
   server: r1.tube-cat.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: '🇭🇰|香港-中转 04 #15'
+- name: '🇭🇰|香港-中转 04 #14'
   password: fe0b59ec-6af0-45db-9509-4c66b464af2e
   port: 9150
   server: r1.tube-cat.com
@@ -2138,14 +2127,14 @@ proxies:
   skip-cert-verify: true
   sni: kr.catxstar.com_165ms
   type: trojan
-- name: '🇺🇸|美国-中转 01 #15'
+- name: '🇺🇸|美国-中转 01 #14'
   password: fe0b59ec-6af0-45db-9509-4c66b464af2e
   port: 8300
   server: r2.tube-cat.com
   skip-cert-verify: true
   sni: us.catxstar.com
   type: trojan
-- name: '🇺🇸|美国-中转 01 #14'
+- name: '🇺🇸|美国-中转 01 #15'
   password: fe0b59ec-6af0-45db-9509-4c66b464af2e
   port: 8300
   server: r2.tube-cat.com

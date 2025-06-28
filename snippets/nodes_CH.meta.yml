@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 瑞士_0626005
+  name: 瑞士_0628005
   network: ws
   port: '443'
   server: 140.238.212.95
@@ -35,15 +35,6 @@ proxies:
     headers:
       Host: ch1.v2vless.xyz
     path: '%2Fvless'
-- alterId: 0
-  cipher: auto
-  name: '1|🇨🇭2 |  5.0MB/s #1'
-  network: tcp
-  port: 22324
-  server: 186.190.215.193
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - name: 'ꜱᴡɪᴛᴢᴇʀʟᴀɴᴅ🇨🇭 | پرسرعت #1'
   port: 443
   server: cdn.getasa.ir
@@ -91,33 +82,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇭-瑞士-mumbai-arm2.egg.run
-  network: ws
-  port: '80'
-  server: mumbai-arm2.egg.run
-  tls: false
-  type: vmess
-  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
-  ws-opts:
-    headers:
-      Host: mumbai-arm2.egg.run
-    path: mumbai-arm2.egg.run/
-- alterId: 64
-  cipher: auto
-  name: 瑞士_1208005
-  network: ws
-  port: '443'
-  server: 213.202.233.147
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.95438290.xyz
-    path: /path/243535322906
-- alterId: 0
-  cipher: auto
   name: 🇨🇭 瑞士CH
   network: ws
   port: '6616'
@@ -129,6 +93,32 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 64
+  cipher: auto
+  name: 🇨🇭 瑞士_1206005
+  network: ws
+  port: '443'
+  server: 213.202.233.147
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.95438290.xyz
+    path: /path/243535322906
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭-瑞士-mumbai-arm2.egg.run
+  network: ws
+  port: '80'
+  server: mumbai-arm2.egg.run
+  tls: false
+  type: vmess
+  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
+  ws-opts:
+    headers:
+      Host: mumbai-arm2.egg.run
+    path: mumbai-arm2.egg.run/
 - alterId: 64
   cipher: auto
   name: 🇨🇭 瑞士_1120004
