@@ -1,47 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '🇸🇪 github.com/freefq - 瑞典  12 #1'
-  network: tcp
-  port: '33421'
-  server: www.kuromi.eu.org
-  tls: false
-  type: vmess
-  uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
-- alterId: 0
-  cipher: auto
-  name: '🇸🇪 瑞典 001 #1'
-  network: ws
-  port: '2096'
-  server: 70.34.200.116
-  tls: false
-  type: vmess
-  uuid: ce06ce76-4993-4ad0-c542-befe4a8dd498
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇸🇪 瑞典 002 #1'
-  network: tcp
-  port: '19048'
-  server: 141.147.185.100
-  tls: false
-  type: vmess
-  uuid: c1ac357d-3619-43ae-dbf5-d201a5a82b27
-- cipher: chacha20-ietf
-  name: '8J-HrfCfh7AgX0NOX-S4reWbvS0-8J... #9'
-  obfs: plain
-  obfs-param: dC5tZS92cG5oYXQ
-  password: mblank1port
-  port: '560'
-  protocol: auth_aes128_md5
-  protocol-param: NTEwMjU6bzAxNTl3dw
-  server: 120.198.71.182
-  type: ssr
-- alterId: 0
-  cipher: auto
   name: 瑞典_0628001
   network: ws
   port: '80'
@@ -82,6 +41,47 @@ proxies:
     headers:
       Host: nt-haze-7dad.rogap16875.workers.dev
     path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 🇸🇪 github.com/freefq - 瑞典  12
+  network: tcp
+  port: '33421'
+  server: www.kuromi.eu.org
+  tls: false
+  type: vmess
+  uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
+- alterId: 0
+  cipher: auto
+  name: 🇸🇪 瑞典 001
+  network: ws
+  port: '2096'
+  server: 70.34.200.116
+  tls: false
+  type: vmess
+  uuid: ce06ce76-4993-4ad0-c542-befe4a8dd498
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇪 瑞典 002
+  network: tcp
+  port: '19048'
+  server: 141.147.185.100
+  tls: false
+  type: vmess
+  uuid: c1ac357d-3619-43ae-dbf5-d201a5a82b27
+- cipher: chacha20-ietf
+  name: '8J-HrfCfh7AgX0NOX-S4reWbvS0-8J... #8'
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: '560'
+  protocol: auth_aes128_md5
+  protocol-param: NTEwMjU6bzAxNTl3dw
+  server: 120.198.71.182
+  type: ssr
 - name: 'TLS-N-Sweden #1'
   network: tcp
   port: 443
@@ -475,60 +475,6 @@ proxies:
   type: vmess
   uuid: 93790ef6-d869-46df-bd40-cbc1b5e53aed
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '🇸🇪SE-216.24.57.253-15285 #1'
-  network: ws
-  port: 443
-  server: xxrenderxx.onrender.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60d95d79-0355-4593-a669-933c29cf9e64
-  ws-opts:
-    path: /60d95d79-0355-4593-a669-933c29cf9e64
-- alterId: 0
-  cipher: auto
-  name: '🇸🇪SE-185.223.235.29-21473 #1'
-  network: ws
-  port: 55872
-  server: 185.223.235.29
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: abf29848-6ff8-4a60-abe1-6e2266174dfd
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇸🇪SE-13.51.167.193-5227 #1'
-  network: ws
-  port: 64443
-  server: se-ls03.nb1.fr
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: cb7001c7-e495-41ac-b942-f25f60523414
-  ws-opts:
-    path: /clientarea
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸-美国-65.20.114.106
-  network: tcp
-  port: 28038
-  server: 65.20.114.106
-  tls: false
-  type: vmess
-  uuid: 16f6e585-8199-4c59-cb88-a1d52199c419
-- alterId: 0
-  cipher: auto
-  name: 瑞典 003
-  network: tcp
-  port: 8080
-  server: 13.53.153.62
-  tls: false
-  type: vmess
-  uuid: a66a944b-08e0-41dd-8f34-b6f85b795a47
 - cipher: aes-256-cfb
   name: 8J-HrfCfh7AgX1VTX-e-juWbvS0-8J...
   obfs: plain
@@ -539,6 +485,34 @@ proxies:
   protocol-param: MTc0MjI6VFRwMFNY
   server: hk1.vfun.icu
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: 🇸🇪SE-13.49.188.138-4811
+  network: ws
+  port: 64443
+  server: se-ls03.nb1.fr
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-opts:
+    headers:
+      Host: se-ls03.nb1.fr
+    path: /clientarea
+- alterId: 0
+  cipher: auto
+  name: 🇸🇪SE-185.223.235.29-0343
+  network: ws
+  port: 55872
+  server: 185.223.235.29
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: abf29848-6ff8-4a60-abe1-6e2266174dfd
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '🇸🇪SE-185.223.235.29-6007 #1'
@@ -565,23 +539,37 @@ proxies:
   uuid: 1b38ae19-cb3d-47cd-cb55-5b8a255a4d41
 - alterId: 0
   cipher: auto
-  name: '瑞典 005 #1'
+  name: 🇸🇪-瑞典斯德哥尔摩-13.53.126.30
   network: ws
-  port: 8443
-  server: sw-cdn.independenttherapeutics.com
+  port: 8080
+  server: 13.53.126.30
+  servername: ''
   tls: false
   type: vmess
-  uuid: 097bb953-6d01-4554-96e3-1773c591a9bc
-  ws-opts: {}
-- cipher: chacha20-ietf
-  name: 8J+HrfCfh7BfSEtf6aaZ5rivX+adpe...
-  obfs: plain
-  password: mblank1port
-  port: '443'
-  protocol: auth_aes128_md5
-  protocol-param: MTMzOTA6Z3VLS0w5ODc4Njg5MA==
-  server: 116.49.242.93
-  type: ssr
+  uuid: dd702cb3-e2c1-4f97-e530-acbf1b55e47b
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇸🇪SE-216.24.57.253-15285 #1'
+  network: ws
+  port: 443
+  server: xxrenderxx.onrender.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60d95d79-0355-4593-a669-933c29cf9e64
+  ws-opts:
+    path: /60d95d79-0355-4593-a669-933c29cf9e64
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸-美国-65.20.114.106
+  network: tcp
+  port: 28038
+  server: 65.20.114.106
+  tls: false
+  type: vmess
+  uuid: 16f6e585-8199-4c59-cb88-a1d52199c419
 - alterId: 0
   cipher: auto
   name: 🇸🇪-瑞典-141.147.149.101
@@ -639,7 +627,7 @@ proxies:
   type: vmess
   uuid: edc8ea5b-aeef-423f-f77f-2a0a3ab8571f
 - cipher: aes-256-cfb
-  name: '8J-HrfCfh7AgX0NOX-S4reWbvS0-8J... #3'
+  name: '8J-HrfCfh7AgX0NOX-S4reWbvS0-8J... #2'
   obfs: plain
   obfs-param: YWI5MzExNzQyMi5qZC5oaw
   password: vyunme
@@ -790,14 +778,13 @@ proxies:
       Host: AWKJ
     path: /
 - cipher: chacha20-ietf
-  name: 8J-HrfCfh7AgSEvpppnmuK8o5p2l5r...
+  name: 8J+HrfCfh7BfSEtf6aaZ5rivX+adpe...
   obfs: plain
-  obfs-param: VkZkd1QySldjSFJWVkU1T1ZrVldNVmxzWkhOaGJVNTBUMWh3YVUxc2IzZFVSekZQWkcxS1Vn
   password: mblank1port
-  port: '560'
+  port: '443'
   protocol: auth_aes128_md5
-  protocol-param: NTQzNTpTVklQVElaNg
-  server: 1cnrelay.initcloud.pro
+  protocol-param: MTMzOTA6Z3VLS0w5ODc4Njg5MA==
+  server: 116.49.242.93
   type: ssr
 - cipher: chacha20-ietf
   name: 8J-HrfCfh7Ag6aaZ5riv5Yqo5oCBSE...
@@ -811,7 +798,7 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 🇸🇪 瑞典_1208003
+  name: 🇸🇪 [VIP2]-瑞典01
   network: ws
   port: '80'
   server: 13.51.178.44
@@ -848,7 +835,7 @@ proxies:
   type: ssr
 - alterId: 64
   cipher: auto
-  name: 🇸🇪 瑞典_1206001
+  name: 🇸🇪 瑞典_1120002
   network: ws
   port: '443'
   server: 37.120.209.125
@@ -909,7 +896,7 @@ proxies:
   type: vmess
   uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
 - cipher: chacha20-ietf
-  name: '8J-HrfCfh7AgSEvpppnmuK8o5p2l5r... #3'
+  name: '8J-HrfCfh7AgSEvpppnmuK8o5p2l5r... #2'
   obfs: plain
   obfs-param: VkZkd1QySldjSFJWVkU1T1ZrVldNVmxzWkhOaGJVNTBUMWh3YVUxc2IzZFVSekZQWkcxS1Vn
   password: mblank1port
@@ -982,7 +969,7 @@ proxies:
   server: 58.153.132.96
   type: ssr
 - cipher: chacha20-ietf
-  name: '8J-HrfCfh7AgSEvpppnmuK8o5p2l5r... #5'
+  name: '8J-HrfCfh7AgSEvpppnmuK8o5p2l5r... #4'
   obfs: plain
   obfs-param: VkZaa1YyRldiRFpWVkVKUFpXdEdOVlJZYXpGa1IwWllWRzVzYVUwd05USlhiVFZTWkZacmVVOVlVUQ
   password: renzhecloud
@@ -992,7 +979,7 @@ proxies:
   server: bs1.jymzffbquawl.com
   type: ssr
 - cipher: chacha20-ietf
-  name: '8J-HrfCfh7AgX0NOX-S4reWbvS0-8J... #5'
+  name: '8J-HrfCfh7AgX0NOX-S4reWbvS0-8J... #4'
   obfs: http_simple
   obfs-param: JGU1YWIwNzQzMi5taWNyb3NvZnQuY29t
   password: zztw9jk7gu
@@ -1086,7 +1073,7 @@ proxies:
   server: pr2.jymzffbquawl.com
   type: ssr
 - cipher: chacha20-ietf
-  name: '8J-HrfCfh7AgSEvpppnmuK8o5p2l5r... #7'
+  name: '8J-HrfCfh7AgSEvpppnmuK8o5p2l5r... #6'
   obfs: plain
   obfs-param: VkZkd1QySldjSFJWVkU1T1ZrVldNVmxzWkhOaGJVNTBUMWh3YVUxc2IzZFVSekZQWkcxS1Vn
   password: mblank1port
@@ -1118,6 +1105,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+- cipher: chacha20-ietf
+  name: '8J-HrfCfh7AgSEvpppnmuK8o5p2l5r... #7'
+  obfs: plain
+  obfs-param: VkZkd1QySldjSFJWVkU1T1ZrVldNVmxzWkhOaGJVNTBUMWh3YVUxc2IzZFVSekZQWkcxS1Vn
+  password: mblank1port
+  port: '560'
+  protocol: auth_aes128_md5
+  protocol-param: NTQzNTpTVklQVElaNg
+  server: 1cnrelay.initcloud.pro
+  type: ssr
 - alterId: 0
   cipher: auto
   name: '🇸🇪-瑞典-uk01.paopaocloud.cyou #1'
@@ -1133,7 +1130,7 @@ proxies:
       Host: uk01.ssru4.fun
     path: /v2ray
 - cipher: chacha20-ietf
-  name: '8J-HrfCfh7AgX0NOX-S4reWbvS0-8J... #11'
+  name: '8J-HrfCfh7AgX0NOX-S4reWbvS0-8J... #10'
   obfs: plain
   obfs-param: ''
   password: mblank1port
@@ -1142,6 +1139,19 @@ proxies:
   protocol-param: Mjc3MTM6QWExMTIyMTE
   server: cnrefhk01.standurl.xyz
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: '🇸🇪-瑞典-uk01.paopaocloud.cyou #2'
+  network: ws
+  port: '443'
+  server: uk01.paopaocloud.cyou
+  tls: true
+  type: vmess
+  uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
+  ws-opts:
+    headers:
+      Host: uk01.ssru4.fun
+    path: /
 - alterId: 64
   cipher: auto
   name: 🇸🇪 瑞典_1120001
@@ -1155,6 +1165,19 @@ proxies:
     headers:
       Host: ''
     path: /path/051111230910
+- alterId: 0
+  cipher: auto
+  name: 🇸🇪 -瑞典-uk01.paopaocloud.cyou
+  network: ws
+  port: '443'
+  server: uk01.paopaocloud.cyou
+  tls: true
+  type: vmess
+  uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
+  ws-opts:
+    headers:
+      Host: uk01.ssru4.fun
+    path: /
 - name: ' HYSTERIA-UDP  SE-70.34.207.15...'
   obfs: salamander
   obfs-password: d2648ec2
@@ -1165,6 +1188,30 @@ proxies:
   sni: 70.34.207.153
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: ' VL-TCP-RLT  SE-213.66.68.73:6...'
+  network: tcp
+  port: 62001
+  reality-opts:
+    public-key: bGnpkihzVNt2CX8pvwL92oiVRIjvnlw6btZ3qhB9wXs
+    short-id: 438e39c2bb187bb3
+  server: 213.66.68.73
+  servername: tile.openstreetmap.org
+  tls: false
+  type: vless
+  uuid: 6801b00f-a4c6-470d-b826-0fef33101ddf
+- name: '4Sarina-12103 #3'
+  network: ws
+  port: 443
+  server: 62.60.159.138
+  servername: us25eadf81bc6543qw89ae68de20v67f35d6c043b8976250448p.staruniverse.lat
+  tls: true
+  type: vless
+  uuid: 3e999a70-5fa8-41e2-bd39-fc9b6da527bf
+  ws-opts:
+    headers:
+      Host: us25eadf81bc6543qw89ae68de20v67f35d6c043b8976250448p.staruniverse.lat
+    path: '%2Fus'
 - name: '🇸🇪 瑞典 北极光舞 🌌✨ #1'
   password: 2a6c99af-4471-4b16-ad1b-93b26b4128a3
   port: 443
@@ -1960,6 +2007,16 @@ proxies:
     path: /d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560
 - alterId: 0
   cipher: auto
+  name: 瑞典 005
+  network: ws
+  port: 8443
+  server: sw-cdn.independenttherapeutics.com
+  tls: false
+  type: vmess
+  uuid: 097bb953-6d01-4554-96e3-1773c591a9bc
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
   name: 瑞典
   network: tcp
   port: 48656
@@ -1967,3 +2024,27 @@ proxies:
   tls: false
   type: vmess
   uuid: ce3d354c-b946-4268-b7d4-c7775b1d79ee
+- alterId: 0
+  cipher: auto
+  name: 🇸🇪SE-13.51.167.193-5227
+  network: ws
+  port: 64443
+  server: se-ls03.nb1.fr
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-opts:
+    path: /clientarea
+- alterId: 0
+  cipher: auto
+  name: 🇸🇪SE-185.223.235.29-21473
+  network: ws
+  port: 55872
+  server: 185.223.235.29
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: abf29848-6ff8-4a60-abe1-6e2266174dfd
+  ws-opts:
+    path: /
