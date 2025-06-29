@@ -1,4 +1,191 @@
 proxies:
+- name: 4Sarina-23839
+  network: ws
+  port: 18888
+  server: 112.168.91.60
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- alterId: 0
+  cipher: auto
+  name: 4Sarina-26650
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    headers:
+      Host: 152.67.218.38
+    path: /
+- name: 🇰🇷+KR+韩国+53
+  network: ws
+  port: 20010
+  server: 129.154.222.116
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 4Sarina-23840
+  network: ws
+  port: 10082
+  server: 14.52.249.135
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 🇰🇷+KR+韩国+39
+  network: ws
+  port: 10548
+  server: 211.52.190.145
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 🇰🇷+KR+韩国+22
+  network: ws
+  port: 8443
+  server: 20.249.83.244
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷韩国 01
+  network: ws
+  port: '2086'
+  server: cf.iepl1.me
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: krcc1.topf6.com
+    path: /ws?ed=2048
+- client-fingerprint: random
+  name: 4Sarina-10866
+  network: ws
+  port: 44699
+  server: 129.154.212.181
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: '4Sarina-10865 #1'
+  network: ws
+  port: 443
+  server: 129.154.198.48
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 4Sarina-10892
+  network: ws
+  port: 2053
+  server: 193.122.125.174
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: 🇰🇷+KR+韩国+17
+  network: ws
+  port: 40377
+  server: 193.122.122.16
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 4Sarina-23871
+  network: ws
+  port: 30040
+  server: 59.4.80.188
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 4Sarina-10875
+  network: ws
+  port: 443
+  server: 140.238.13.96
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- client-fingerprint: random
+  name: 4Sarina-10874
+  network: ws
+  port: 8443
+  server: 132.145.91.171
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: 4Sarina-10878
+  network: ws
+  port: 20010
+  server: 146.56.130.56
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
 - name: '韩国_1 #1'
   network: ws
   password: NISHIKUITAN222
@@ -241,193 +428,6 @@ proxies:
   uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
   ws-opts:
     path: /proxyip=proxyip.kr.fxxk.dedyn.io
-- name: '4Sarina-23839 #2'
-  network: ws
-  port: 18888
-  server: 112.168.91.60
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
-- alterId: 0
-  cipher: auto
-  name: 4Sarina-26650
-  network: ws
-  port: 443
-  server: 152.67.218.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  ws-opts:
-    headers:
-      Host: 152.67.218.38
-    path: /
-- name: 🇰🇷+KR+韩国+53
-  network: ws
-  port: 20010
-  server: 129.154.222.116
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- name: '4Sarina-23840 #2'
-  network: ws
-  port: 10082
-  server: 14.52.249.135
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
-- name: 🇰🇷+KR+韩国+39
-  network: ws
-  port: 10548
-  server: 211.52.190.145
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- name: 🇰🇷+KR+韩国+22
-  network: ws
-  port: 8443
-  server: 20.249.83.244
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷韩国 01
-  network: ws
-  port: '2086'
-  server: cf.iepl1.me
-  tls: false
-  type: vmess
-  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
-  ws-opts:
-    headers:
-      Host: krcc1.topf6.com
-    path: /ws?ed=2048
-- client-fingerprint: random
-  name: '4Sarina-10866 #2'
-  network: ws
-  port: 44699
-  server: 129.154.212.181
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- client-fingerprint: random
-  name: '4Sarina-10865 #3'
-  network: ws
-  port: 443
-  server: 129.154.198.48
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- client-fingerprint: random
-  name: '4Sarina-10892 #2'
-  network: ws
-  port: 2053
-  server: 193.122.125.174
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- name: 🇰🇷+KR+韩国+17
-  network: ws
-  port: 40377
-  server: 193.122.122.16
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- name: '4Sarina-23871 #2'
-  network: ws
-  port: 30040
-  server: 59.4.80.188
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
-- name: '4Sarina-10875 #2'
-  network: ws
-  port: 443
-  server: 140.238.13.96
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
-  name: '4Sarina-10874 #2'
-  network: ws
-  port: 8443
-  server: 132.145.91.171
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- name: '4Sarina-10878 #2'
-  network: ws
-  port: 20010
-  server: 146.56.130.56
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
 - alterId: 64
   cipher: auto
   name: 韩国_0628001
@@ -540,6 +540,19 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: KR_146.56.156.90_031420232154-...
+  network: ws
+  port: '443'
+  server: surongwei.eu.org
+  tls: true
+  type: vmess
+  uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+  ws-opts:
+    headers:
+      Host: surongwei.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
   name: KR_152.67.218.216_03152023a5cc...
   network: ws
   port: '17992'
@@ -564,6 +577,12 @@ proxies:
     headers:
       Host: petal.tk
     path: /
+- name: 4Sarina-4782
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  port: 443
+  server: 144.24.72.126
+  skip-cert-verify: true
+  type: trojan
 - name: 'KR_152.67.212.239_03152023a5cc... #1'
   password: cd27884b-c5af-34ec-b75f-8248077818fe
   port: 8443
@@ -721,7 +740,7 @@ proxies:
     headers:
       Host: hk09.bp777.buzz
     path: /
-- name: '4Sarina-4991 #2'
+- name: 4Sarina-4991
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -729,17 +748,22 @@ proxies:
   skip-cert-verify: true
   sni: www.yrtok.com
   type: trojan
-- name: 🇰🇷 韩国 01
-  password: cf9e92a9-cdee-405d-88c8-beef6d36bf34
-  port: 51811
-  ports: 50000-53000
-  server: 45.82.246.147
+- name: 🇰🇷 韩国 21
+  password: baefe2f4-b41a-11ee-91e9-f23c913c8d2b
+  port: 15234
+  server: 6dd10fac-syof40-t04skr-tf26.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- name: '🇰🇷 韩国 14 #1'
+  password: 3c572c6e-d32e-4d28-b10f-7f752dd14c7c
+  port: 18540
+  server: ztcloudkr.ztcloud.xyz
   skip-cert-verify: true
-  sni: api.push.apple.com
+  sni: ztcloudkr.ztcloud.xyz
   tls: false
   type: hysteria2
-- name: 🇰🇷 韩国 18
-  password: 5d899963-a942-4672-9b43-49dc14910f02
+- name: 🇰🇷 韩国 04
+  password: 5e34c489-898c-4c73-a6ae-fdad4f561e6c
   port: 18540
   server: ztcloudkr.ztcloud.xyz
   skip-cert-verify: true
@@ -996,6 +1020,614 @@ proxies:
   type: vmess
   uuid: c8dc97a8-697b-4abe-9a72-2adc249bb1b4
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 韩国_0131228
+  network: tcp
+  port: '43632'
+  server: 43.201.47.68
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c744a2d1-fa6d-4477-bc14-4d04949a6fb4
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷-韩国-kr2.microsoftjs.top
+  network: tcp
+  port: '10029'
+  server: kr2.microsoftjs.top
+  tls: false
+  type: vmess
+  uuid: b06f4142-821f-47a6-b84b-391ba392754f
+- alterId: 0
+  cipher: auto
+  name: 韩国_0129233
+  network: tcp
+  port: '43632'
+  server: 3.36.126.130
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 08e24006-0178-4dd7-ab1e-2664010186e9
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷-韩国-132.145.91.220
+  network: ws
+  port: '443'
+  server: 132.145.91.220
+  tls: false
+  type: vmess
+  uuid: b7718dc4-8c46-483b-d347-dd5d8209e023
+  ws-opts:
+    headers:
+      Host: petal.tk
+    path: /jjpwvws
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷-韩国-kt.qing666.buzz
+  network: ws
+  port: '468'
+  server: kt.qing666.buzz
+  tls: false
+  type: vmess
+  uuid: b1947c16-580b-4e55-a453-dced55efd52e
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /www.sjys6.cloud
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 KR 4 Amazon.com  Inc. TG@no...
+  network: ws
+  port: '23245'
+  server: kr01.170203.xyz
+  tls: false
+  type: vmess
+  uuid: 07578f26-1009-4c31-8c4d-fc46f1eef55f
+  ws-opts:
+    headers:
+      Host: kr01.170203.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 KR 11 Amazon.com  Inc. TG@n...
+  network: ws
+  port: '443'
+  server: sla1aws.nicecdns.com
+  tls: false
+  type: vmess
+  uuid: db19bc21-b451-4ebe-ae79-00bf49d47f75
+  ws-opts:
+    headers:
+      Host: sla1aws.nicecdns.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷_KR_韩国
+  network: tcp
+  port: 5001
+  server: arm.jijiang.eu.org
+  tls: false
+  type: vmess
+  uuid: f3d82839-3334-4478-aaa8-2c5e051b480f
+- alterId: 0
+  cipher: auto
+  name: 韩国【付费推荐：https://v1.mk/vip】167
+  network: ws
+  port: '47971'
+  server: 130.162.134.218
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c66fe225-648d-4d6b-8d31-94dca65268a4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /www
+- alterId: 0
+  cipher: auto
+  name: 韩国_0226476
+  network: tcp
+  port: '80'
+  server: 43.201.72.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6aeb4fa9-0c1e-4ce3-b1a6-7099c71599f1
+- alterId: 0
+  cipher: auto
+  name: 韩国_0226477
+  network: tcp
+  port: '80'
+  server: 13.125.239.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6aeb4fa9-0c1e-4ce3-b1a6-7099c71599f1
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷-韩国首尔-193.122.119.64
+  network: ws
+  port: '80'
+  server: 193.122.119.64
+  tls: false
+  type: vmess
+  uuid: 4d0efa65-0f01-4f9a-b805-ed5719f6e026
+  ws-opts:
+    headers:
+      Host: v11-xg.ixigua.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国_0221298
+  network: tcp
+  port: '43632'
+  server: 3.35.238.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1d24d26a-ee0f-430d-82e6-1c4e791c5e22
+- alterId: 0
+  cipher: auto
+  name: 韩国_0211297
+  network: tcp
+  port: '43632'
+  server: 13.124.231.43
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 67471035-e337-430a-8539-53812eda1467
+- alterId: 0
+  cipher: auto
+  name: '韩国-春川2-Tunnel | 1x_1 #1'
+  network: ws
+  port: 13636
+  server: auvwfuyse.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
+  ws-opts:
+    headers:
+      Host: nvufdiwedased.76898102.xyz
+    path: /aeiougfhidf
+- alterId: 0
+  cipher: auto
+  name: '韩国-春川1-Tunnel | 1x_1 #1'
+  network: ws
+  port: 15230
+  server: kgcwafbvf.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
+  ws-opts:
+    headers:
+      Host: aiohfdboihefrw.76898102.xyz
+    path: /aeiougfhidf
+- alterId: 0
+  cipher: auto
+  name: 韩国_0224381
+  network: tcp
+  port: '80'
+  server: 13.125.239.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9ca9e106-76be-488b-8b3e-ccfb80d2228d
+- alterId: 0
+  cipher: auto
+  name: 韩国_0221299
+  network: tcp
+  port: '43632'
+  server: 13.124.80.200
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1d24d26a-ee0f-430d-82e6-1c4e791c5e22
+- alterId: 0
+  cipher: auto
+  name: 韩国_0220306
+  network: ws
+  port: '80'
+  server: 152.67.220.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 317bfccd-5669-327a-82ec-993701fcf5ee
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ny
+- alterId: 0
+  cipher: auto
+  name: 韩国_0310124
+  network: ws
+  port: '3389'
+  server: fsrdpkp.3cm.uk
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 56673d1c-bf0f-3ccc-9c5a-48d93906af1c
+  ws-opts:
+    headers:
+      Host: jpauyvffd.66666654.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国_0208313
+  network: tcp
+  port: '43632'
+  server: 3.38.190.139
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cf0cfc68-1121-42c1-b8f7-77f1ff613ce6
+- alterId: 64
+  cipher: auto
+  name: github.com/freefq - 韩国  32
+  network: ws
+  port: '33803'
+  server: 210.87.202.198
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9ccde4cc-290a-4da6-9954-b53492f0bbec
+  ws-opts:
+    headers:
+      Host: kor1.verichains.co
+    path: /kor1/getData
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷-韩国-kr1.microsoftjs.top
+  network: ws
+  port: '80'
+  server: kr1.microsoftjs.top
+  tls: false
+  type: vmess
+  uuid: be84aea5-9a99-4ca2-94a6-90d0bb1b3759
+  ws-opts:
+    headers:
+      Host: tlu.dl.delivery.mp.microsoft.com
+    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: 0
+  cipher: auto
+  name: 韩国_0210281
+  network: ws
+  port: '80'
+  server: 52.231.203.108
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3ed486c9-f581-477f-85b8-f48c0095064a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国_0222316
+  network: ws
+  port: '80'
+  server: 152.67.220.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a17e85a-f255-3691-89f0-3748f126e3e4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ny
+- alterId: 0
+  cipher: auto
+  name: 韩国_0220289
+  network: tcp
+  port: '43632'
+  server: 3.34.252.64
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e405e209-b66d-42a9-be04-af8a2ef522ce
+- alterId: 0
+  cipher: auto
+  name: 韩国_0212296
+  network: ws
+  port: '80'
+  server: 152.67.220.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3a6e1f70-1834-3c58-9f3b-2846e41dac6f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ny
+- alterId: 0
+  cipher: auto
+  name: '韩国-春川4-Tunnel | 1x_1 #1'
+  network: ws
+  port: 13428
+  server: isuedfvfuisf.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
+  ws-opts:
+    headers:
+      Host: busdbtgrt.76898102.xyz
+    path: /uedbgiawz
+- alterId: 0
+  cipher: auto
+  name: '韩国-春川3-Tunnel | 1x_1 #1'
+  network: ws
+  port: 12782
+  server: aiuwgfvuiauegfiu.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
+  ws-opts:
+    headers:
+      Host: fghnifsvg.76898102.xyz
+    path: /uedbgiawz
+- alterId: 0
+  cipher: auto
+  name: 韩国_0210056
+  network: tcp
+  port: '12356'
+  server: 00000000000000000000000000000000000000000000000000000000000037a.node-for-bigairport.win
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 25c5c11f-c2ae-4865-a25a-5ba20711dca9
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷-韩国-kr5.hgwc.xyz
+  network: ws
+  port: '101'
+  server: kr5.hgwc.xyz
+  tls: false
+  type: vmess
+  uuid: 4753033a-3779-4459-adf7-88970190c90a
+  ws-opts:
+    headers:
+      Host: kr5.hgwc.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国_0104144
+  network: ''
+  port: '12356'
+  server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2100274e-55ae-4686-a380-a66ae8b0ef1b
+- alterId: 0
+  cipher: auto
+  name: 韩国_1228148
+  network: ws
+  port: '7772'
+  server: 43.201.116.151
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 41fcac4f-948d-42da-bdf9-9f1bd77f5b1c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /m2
+- alterId: 0
+  cipher: auto
+  name: 韩国_1211124
+  network: tcp
+  port: '4123'
+  server: kr2.czs1000.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f4079097-1c49-4031-b9b3-2323f6d52168
+- alterId: 0
+  cipher: auto
+  name: 韩国_1208127
+  network: tcp
+  port: '52356'
+  server: 00000000000000000000000000000000000000000000000000000000000027a.node-for-bigairport.win
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国_1208137
+  network: ws
+  port: '8080'
+  server: kr-01.lynet.works
+  tls: false
+  type: vmess
+  uuid: 2cb65027-e6be-478b-8364-f061630b969d
+  ws-opts:
+    headers:
+      Host: kr-01.lynet.works
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 _KR_韩国_1
+  network: ws
+  port: '42517'
+  server: 43.200.177.138
+  tls: false
+  type: vmess
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国_1208063
+  network: ws
+  port: '30001'
+  server: 125.134.35.150
+  tls: false
+  type: vmess
+  uuid: ae96d3c7-6085-4769-a4fd-b98db8b7828c
+  ws-opts:
+    headers:
+      Host: exposed-heath-off-feel.trycloudflare.com
+    path: /ae96d3c7
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国_1208039
+  network: ws
+  port: '443'
+  server: 152.70.254.73
+  tls: true
+  type: vmess
+  uuid: 5c20f43f-afe2-4624-825c-d08abcfaf652
+  ws-opts:
+    headers:
+      Host: zzzz1.shisi.cyou
+    path: /ba873aa/
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国_1208022
+  network: ws
+  port: '55214'
+  server: krawdetrt.marisalnc.com
+  tls: false
+  type: vmess
+  uuid: a7775588-fc65-33c3-92c6-127339188bfd
+  ws-opts:
+    headers:
+      Host: armshs.marisalnc.com
+    path: /miao
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国_1208016
+  network: ws
+  port: '80'
+  server: v36.idcloudhost.de
+  tls: false
+  type: vmess
+  uuid: 23007903-f187-4f13-be67-662903a861b5
+  ws-opts:
+    headers:
+      Host: v36.idcloudhost.de
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 [VMess] 🇰🇷 KR【付费推荐：goo.gs/v...
+  network: ws
+  port: '80'
+  server: 193.122.110.139
+  tls: false
+  type: vmess
+  uuid: 0f1f1cca-56dc-4feb-8b4b-50ab074f4467
+  ws-opts:
+    headers:
+      Host: w1.800876.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷-韩国-13.124.228.70
+  network: ws
+  port: '42517'
+  server: 13.124.228.70
+  tls: false
+  type: vmess
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国_1208136
+  network: tcp
+  port: '8870'
+  server: kr1.czs1000.com
+  servername: kr1.czs1000.com
+  tls: true
+  type: vmess
+  uuid: d81c1975-3500-4dce-a12f-c90b5b1b5854
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国_1208111
+  network: ws
+  port: '80'
+  server: kr5g.huacha.ml
+  tls: false
+  type: vmess
+  uuid: dc3168f9-87f9-41aa-a415-d5f9140fef79
+  ws-opts:
+    headers:
+      Host: a.189.cn
+    path: /TS/recharge/tzUrl.html
+- alterId: 0
+  cipher: auto
+  name: 韩国_1208106
+  network: ''
+  port: '12356'
+  server: 00000000000000000000000000000000000000000000000000000000000037a.node-for-bigairport.win
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国_1208109
+  network: ws
+  port: '443'
+  server: kr3.622888.xyz
+  tls: true
+  type: vmess
+  uuid: 4753033a-3779-4459-adf7-88970190c90a
+  ws-opts:
+    headers:
+      Host: kr3.622888.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国_1208113
+  network: ws
+  port: '60002'
+  server: oracle-gia-cc-free-arm.wisdomfree.tk
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4596acf5-98da-4832-84bd-e792681a132a
+  ws-opts:
+    headers:
+      Host: oracle-gia-cc-free-arm.wisdomfree.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国_1208092
+  network: tcp
+  port: '8869'
+  server: kr1.czs1000.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 273b1302-3f63-4ef0-b520-d01545166d71
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国01🇰🇷
+  network: ws
+  port: '80'
+  server: azhg01.paolujichang.com
+  tls: false
+  type: vmess
+  uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429
+  ws-opts:
+    headers:
+      Host: '%7B%22Host%22:%22alidocs.dingtalk.com%22%7D'
+    path: /goudan
+- alterId: 0
+  cipher: auto
+  name: 韩国_1208088
+  network: ''
+  port: '12356'
+  server: 00000000000000000000000000000000000000000000000000000000000037a.rui77.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
 - alterId: 2
   cipher: auto
   name: 🇰🇷-韩国-kr.iggfastweb.com
@@ -1162,179 +1794,6 @@ proxies:
   uuid: f394c025-939b-3342-9fe6-7f2deda19582
 - alterId: 0
   cipher: auto
-  name: '🇰🇷KR-130.162.134.218-3577 #1'
-  network: ws
-  port: 47971
-  server: 130.162.134.218
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c66fe225-648d-4d6b-8d31-94dca65268a4
-  ws-opts:
-    path: /www
-- alterId: 64
-  cipher: auto
-  name: 🇰🇷KR-210.87.202.198-16099
-  network: ws
-  port: 33803
-  server: 210.87.202.198
-  servername: kor1.verichains.co
-  tls: true
-  type: vmess
-  uuid: 9ccde4cc-290a-4da6-9954-b53492f0bbec
-  ws-opts:
-    path: /kor1/getData
-- alterId: 0
-  cipher: auto
-  name: '🇰🇷KR-130.162.132.90-12646 #1'
-  network: ws
-  port: 443
-  server: sra2.6bbt.tk
-  servername: tms.dingtalk.com
-  tls: false
-  type: vmess
-  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
-  ws-opts:
-    path: /6bbt.tk
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷KR-130.162.156.73-8605
-  network: ws
-  port: 8080
-  server: 130.162.156.73
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 95a17ae9-207d-4f63-b5f2-c00430bee1bb
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国-2|倍率:1
-  network: ws
-  port: '10087'
-  server: pop.kr.gfwcaonimanmsl.cf
-  tls: false
-  type: vmess
-  uuid: 03ff74d0-474e-4645-9ef5-7e04b4dc6c94
-  ws-opts:
-    headers:
-      Host: ''
-    path: /name
-- alterId: 2
-  cipher: auto
-  name: '🇰🇷KR-141.164.44.84-9424 #1'
-  network: ws
-  port: 24100
-  server: kr.iggfastweb.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2fb128b9-f06f-431e-a69b-5aeab2fc0756
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇰🇷KR-43.201.116.151-11538 #1'
-  network: ws
-  port: 7771
-  server: v-aws-sel-1.heima-bot.tech
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e3fa5050-67f5-4625-a778-5d9283f4334f
-  ws-opts:
-    path: /m1
-- alterId: 64
-  cipher: auto
-  name: '🇰🇷KR-210.87.202.3-1500 #1'
-  network: ws
-  port: 25271
-  server: 210.87.202.3
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a23f272d-2186-4d68-8f2a-2d8847c603be
-  ws-opts:
-    path: /kor1/getData
-- alterId: 0
-  cipher: auto
-  name: '🇰🇷KR-130.162.134.218-21105 #1'
-  network: ws
-  port: 42411
-  server: 130.162.134.218
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 417c5108-ef6b-49f0-a13d-8746fe6e204c
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷KR-146.56.139.163-6064
-  network: ws
-  port: 8080
-  server: 146.56.139.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 95a17ae9-207d-4f63-b5f2-c00430bee1bb
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷KR-130.162.156.198-0413
-  network: ws
-  port: 443
-  server: v2kr6.tutu4.one
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 622da8de-017e-32f2-b296-46c5853daafe
-  ws-opts:
-    path: /tu
-- alterId: 0
-  cipher: auto
-  name: 韩国 035
-  network: tcp
-  port: 15247
-  server: auvwfuyse.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: bbe033d3-d3be-3110-b81a-4fed343e2fc2
-- alterId: 64
-  cipher: auto
-  name: '韩国 Edge [01] #1'
-  network: ws
-  port: 153
-  server: kr1.qiangdong.xyz
-  tls: false
-  type: vmess
-  uuid: 8f0a00a1-a6ee-3d3e-96d2-685486858a9e
-  ws-opts:
-    headers:
-      Host: f2348123663.laowanxiang.com
-    path: /api/v3/download.getFile
-- alterId: 2
-  cipher: auto
-  name: '[vip1]︱V2ray︱③韩国 1000M｜×1倍率... #1'
-  network: tcp
-  port: 52229
-  server: 29.wgong1.top
-  tls: false
-  type: vmess
-  uuid: 76716bc6-af6c-3c24-86cb-55b225294286
-- alterId: 0
-  cipher: auto
-  name: 韩国 021
-  network: tcp
-  port: 52660
-  server: 146.56.105.192
-  tls: false
-  type: vmess
-  uuid: b4e44960-44ed-4c5e-9577-e945b93e41fc
-- alterId: 0
-  cipher: auto
   name: 韩国【付费推荐：https://tt.vg/vip】376
   network: ws
   port: '1453'
@@ -1434,20 +1893,6 @@ proxies:
   uuid: 399004bf-eaf0-4532-b139-ca4e79c5e27b
 - alterId: 0
   cipher: auto
-  name: 韩国【付费推荐：https://v1.mk/vip】227
-  network: ws
-  port: '443'
-  server: 130.162.134.218
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 417c5108-ef6b-49f0-a13d-8746fe6e204c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /hgg
-- alterId: 0
-  cipher: auto
   name: 韩国_0221301
   network: ws
   port: '80'
@@ -1460,6 +1905,17 @@ proxies:
     headers:
       Host: ''
     path: /ny
+- alterId: 64
+  cipher: auto
+  name: 🇰🇷-韩国-210.87.202.3
+  network: ws
+  port: '25271'
+  server: 210.87.202.3
+  tls: false
+  type: vmess
+  uuid: a23f272d-2186-4d68-8f2a-2d8847c603be
+  ws-opts:
+    path: /kor1/getData
 - alterId: 0
   cipher: auto
   name: 韩国_0401038
@@ -1522,20 +1978,6 @@ proxies:
     path: /hneko
 - alterId: 0
   cipher: auto
-  name: 韩国【付费推荐：https://v1.mk/vip】230
-  network: ws
-  port: '80'
-  server: 130.162.134.218
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ww
-- alterId: 0
-  cipher: auto
   name: 韩国_0322023
   network: ws
   port: '1453'
@@ -1587,6 +2029,133 @@ proxies:
     path: /uedbgiawz
 - alterId: 0
   cipher: auto
+  name: 🇰🇷KR-146.56.105.192-138
+  network: tcp
+  port: 52660
+  server: 146.56.105.192
+  tls: false
+  type: vmess
+  uuid: b4e44960-44ed-4c5e-9577-e945b93e41fc
+- alterId: 2
+  cipher: auto
+  name: '[vip1]︱V2ray︱⑤韩国 1000M｜×1倍率... #1'
+  network: tcp
+  port: 52231
+  server: 31.wgong1.top
+  tls: false
+  type: vmess
+  uuid: 76716bc6-af6c-3c24-86cb-55b225294286
+- alterId: 2
+  cipher: auto
+  name: 韩国 020
+  network: ws
+  port: 24100
+  server: kr.iggfastweb.com
+  tls: false
+  type: vmess
+  uuid: 2fb128b9-f06f-431e-a69b-5aeab2fc0756
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '🇰🇷 韩国06 - Mrli加速器 #1'
+  network: tcp
+  port: 42153
+  server: rk1.mrlizhuanfa.com
+  tls: false
+  type: vmess
+  uuid: b1ef5d72-a79a-3362-ace0-6c2225921039
+- alterId: 0
+  cipher: auto
+  name: 韩国 017
+  network: tcp
+  port: 15247
+  server: auvwfuyse.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: bbe033d3-d3be-3110-b81a-4fed343e2fc2
+- alterId: 2
+  cipher: auto
+  name: '[vip1]︱V2ray︱⑧韩国 1000M｜×1倍率... #1'
+  network: tcp
+  port: 52234
+  server: 34.wgong1.top
+  tls: false
+  type: vmess
+  uuid: 76716bc6-af6c-3c24-86cb-55b225294286
+- alterId: 2
+  cipher: auto
+  name: '[vip1]︱V2ray︱⑥韩国 1000M｜×1倍率... #1'
+  network: tcp
+  port: 52232
+  server: 32.wgong1.top
+  tls: false
+  type: vmess
+  uuid: 76716bc6-af6c-3c24-86cb-55b225294286
+- alterId: 2
+  cipher: auto
+  name: '[vip1]︱V2ray︱㉒韩国｜原生节点 1000M...'
+  network: tcp
+  port: 52224
+  server: 124.wgong1.top
+  tls: false
+  type: vmess
+  uuid: f394c025-939b-3342-9fe6-7f2deda19582
+- alterId: 0
+  cipher: auto
+  name: South Korea Ⅱ3
+  network: ws
+  port: 44627
+  server: gddxc.fosi.hk
+  tls: false
+  type: vmess
+  uuid: 2632863a-75d8-3003-b9f1-bc81ca6e85cf
+  ws-opts:
+    headers:
+      Host: gddxc.fosi.hk
+    path: /index
+- alterId: 0
+  cipher: auto
+  name: '🇦🇶-本机地址-gddxd.fosi.hk #1'
+  network: tcp
+  port: 24956
+  server: gddxd.fosi.hk
+  tls: false
+  type: vmess
+  uuid: 2632863a-75d8-3003-b9f1-bc81ca6e85cf
+- alterId: 2
+  cipher: auto
+  name: '[vip1]︱V2ray︱㉒韩国｜原生节点 1000M... #1'
+  network: tcp
+  port: 52224
+  server: 124.wgong1.top
+  tls: false
+  type: vmess
+  uuid: 76716bc6-af6c-3c24-86cb-55b225294286
+- alterId: 2
+  cipher: auto
+  name: '[vip1]︱V2ray︱④韩国 1000M｜×1倍率... #1'
+  network: tcp
+  port: 52230
+  server: 30.wgong1.top
+  tls: false
+  type: vmess
+  uuid: 76716bc6-af6c-3c24-86cb-55b225294286
+- alterId: 0
+  cipher: auto
+  name: 韩国_1228045
+  network: ws
+  port: '80'
+  server: 138.2.125.126
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e
+  ws-opts:
+    headers:
+      Host: dm.toutiao.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: '🇰🇷 韩国06 #1'
   network: tcp
   port: 42153
@@ -1594,6 +2163,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 442ad47a-278c-3f71-ab69-fc80dd1ef3a2
+- alterId: 2
+  cipher: auto
+  name: 'vip1-韩国1||限速100M #1'
+  network: tcp
+  port: 33022
+  server: 22.douluo.beauty
+  tls: false
+  type: vmess
+  uuid: 4438a916-3e4e-3a9c-ade4-9cbe075b703b
 - alterId: 2
   cipher: auto
   name: '[vip1]︱V2ray︱⑪韩国1000M｜×1倍率｜... #1'
@@ -1643,15 +2221,6 @@ proxies:
   uuid: d547acd8-1940-47c5-9e97-4f81abad83c1
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1206003
-  network: tcp
-  port: '52356'
-  server: 00000000000000000000000000000000000000000000000000000000000027a.node-for-bigairport.win
-  tls: false
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-- alterId: 0
-  cipher: auto
   name: 🇰🇷 韩国_1208147
   network: tcp
   port: '4101'
@@ -1661,7 +2230,7 @@ proxies:
   uuid: f743d42d-5865-45ac-9f0c-52c7152ad73a
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1208111
+  name: '🇰🇷 韩国_1208111 #1'
   network: ws
   port: '60001'
   server: oracle-rknc-free-1.wisdomfree.tk
@@ -1723,7 +2292,7 @@ proxies:
     path: /adobe
 - alterId: 64
   cipher: auto
-  name: 🇰🇷 韩国_1120118
+  name: 🇰🇷 韩国_1208045
   network: ws
   port: '443'
   server: 27.124.8.142
@@ -1736,16 +2305,6 @@ proxies:
     path: /path/243535322906
 - alterId: 0
   cipher: auto
-  name: 韩国_1208143
-  network: auto
-  port: '12356'
-  server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2100274e-55ae-4686-a380-a66ae8b0ef1b
-- alterId: 0
-  cipher: auto
   name: 🇰🇷 韩国_1206097
   network: tcp
   port: '4466'
@@ -1755,7 +2314,7 @@ proxies:
   uuid: 09f7deca-29ac-4d44-82ca-88f9c28213f7
 - alterId: 0
   cipher: auto
-  name: 韩国_1208106
+  name: '韩国_1208106 #1'
   network: ''
   port: '12356'
   server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win
@@ -1778,7 +2337,7 @@ proxies:
     path: /qatjpji
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1118109
+  name: 🇰🇷 韩国_1208044
   network: ws
   port: '443'
   server: kr02.paopaocloud.cyou
@@ -1803,19 +2362,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷-韩国首尔-193.122.119.64
-  network: ws
-  port: '80'
-  server: 193.122.119.64
-  tls: false
-  type: vmess
-  uuid: 4d0efa65-0f01-4f9a-b805-ed5719f6e026
-  ws-opts:
-    headers:
-      Host: v11-xg.ixigua.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 韩国_1208141
@@ -1863,26 +2409,12 @@ proxies:
     headers:
       Host: www.jimengsro.cf
     path: /baipiaozhenkuaile
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国_1208050
-  network: ws
-  port: '80'
-  server: 138.2.125.126
-  tls: false
-  type: vmess
-  uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e
-  ws-opts:
-    headers:
-      Host: dm.toutiao.com
-    path: /
 - alterId: 16
   cipher: auto
-  name: 韩国_1120078
+  name: 🇰🇷 韩国_1208027
   network: ws
   port: '80'
   server: 152.67.201.196
-  servername: ''
   tls: false
   type: vmess
   uuid: 1195cacf-a3cc-4f27-bac7-e2009cff1131
@@ -1961,16 +2493,6 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 韩国_1208123
-  network: tcp
-  port: '12356'
-  server: 00000000000000000000000000000000000000000000000000000000000037a.node-for-bigairport.win
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-- alterId: 0
-  cipher: auto
   name: 🇰🇷 韩国_1208073
   network: ws
   port: '443'
@@ -2010,7 +2532,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120095
+  name: 🇰🇷 韩国_1208036
   network: ws
   port: '443'
   server: cat194.officeys.com
@@ -2042,19 +2564,6 @@ proxies:
   uuid: 0f1df3fb-4dc5-4558-9bde-4f703c864a78
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1208138
-  network: ws
-  port: '8080'
-  server: kr-01.lynet.works
-  tls: false
-  type: vmess
-  uuid: 2cb65027-e6be-478b-8364-f061630b969d
-  ws-opts:
-    headers:
-      Host: kr-01.lynet.works
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇰🇷 韩国_1208080
   network: tcp
   port: '443'
@@ -2062,19 +2571,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 [VMess] 🇰🇷 KR【付费推荐：goo.gs/v...
-  network: ws
-  port: '42517'
-  server: 13.124.228.70
-  tls: false
-  type: vmess
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 韩国_1208150
@@ -2097,7 +2593,7 @@ proxies:
   uuid: c1c9bb3a-7f1d-46a9-b253-0d224175d3e2
 - alterId: 0
   cipher: auto
-  name: 韩国_1208113
+  name: '韩国_1208113 #1'
   network: tcp
   port: '12356'
   server: 00000000000000000000000000000000000000000000000000000000000037a.node-for-bigairport.win
@@ -2183,7 +2679,7 @@ proxies:
     path: /path/243535322906
 - alterId: 64
   cipher: auto
-  name: 🇰🇷 韩国_1120100
+  name: 韩国_1208042
   network: ws
   port: '443'
   server: guibi.ml
@@ -2197,7 +2693,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120091
+  name: 🇰🇷 韩国_1206035
   network: tcp
   port: '443'
   server: 129.154.57.146
@@ -2244,7 +2740,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120068
+  name: 韩国_1208026
   network: ws
   port: '443'
   server: 152.70.250.4
@@ -2258,7 +2754,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇰🇷 韩国_1120067
+  name: 韩国_1208025
   network: ws
   port: '443'
   server: kr.wespanl.club
@@ -2272,21 +2768,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国_1208017
-  network: ws
-  port: '80'
-  server: v36.idcloudhost.de
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 23007903-f187-4f13-be67-662903a861b5
-  ws-opts:
-    headers:
-      Host: v36.idcloudhost.de
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国_1120172
+  name: 🇰🇷 韩国_1206057
   network: ws
   port: '80'
   server: kr5.elknode.top
@@ -2297,19 +2779,6 @@ proxies:
     headers:
       Host: '%7B%22Host%22:%22data.video.qiyi.com%22%7D'
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国_1206120
-  network: ws
-  port: '80'
-  server: kr5g.huacha.ml
-  tls: false
-  type: vmess
-  uuid: dc3168f9-87f9-41aa-a415-d5f9140fef79
-  ws-opts:
-    headers:
-      Host: a.189.cn
-    path: /TS/recharge/tzUrl.html
 - alterId: 0
   cipher: auto
   name: 韩国_1206131
@@ -2346,16 +2815,6 @@ proxies:
   uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
 - alterId: 0
   cipher: auto
-  name: 韩国_1206092
-  network: ''
-  port: '12356'
-  server: 00000000000000000000000000000000000000000000000000000000000037a.rui77.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-- alterId: 0
-  cipher: auto
   name: 韩国_1206114
   network: ''
   port: '52356'
@@ -2379,19 +2838,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1206121
-  network: ws
-  port: '80'
-  server: azhg01.paolujichang.com
-  tls: false
-  type: vmess
-  uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429
-  ws-opts:
-    headers:
-      Host: alidocs.dingtalk.com
-    path: /goudan
-- alterId: 0
-  cipher: auto
   name: 🇰🇷 韩国_1206085
   network: tcp
   port: '443'
@@ -2401,7 +2847,7 @@ proxies:
   uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
 - alterId: 0
   cipher: auto
-  name: 🇯🇵-日本-v36.idcloudhost.de
+  name: 🇰🇷 韩国_1206061
   network: ws
   port: '80'
   server: v36.idcloudhost.de
@@ -2414,7 +2860,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120086
+  name: 🇰🇷 韩国_1206030
   network: ws
   port: '80'
   server: kr.mayiyun.vip
@@ -2492,7 +2938,7 @@ proxies:
   uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡_1120208
+  name: 🇰🇷 韩国_1206019
   network: ws
   port: '80'
   server: v36.idcloudhost.de
@@ -2514,7 +2960,7 @@ proxies:
   uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120033
+  name: 🇰🇷 KR【付费推荐：goo.gs/vip】 4
   network: ws
   port: '42517'
   server: 13.209.68.219
@@ -2540,7 +2986,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120097
+  name: 🇰🇷 韩国_1206040
   network: ws
   port: '443'
   server: cat171.officeys.com
@@ -2560,19 +3006,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
-- alterId: 0
-  cipher: auto
-  name: 🏳️‍🌈 ️‍🌈 甲骨文.韩国春川.车速过快，注意流量
-  network: ws
-  port: '60002'
-  server: oracle-gia-cc-free-arm.wisdomfree.tk
-  tls: true
-  type: vmess
-  uuid: 4596acf5-98da-4832-84bd-e792681a132a
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇰🇷 韩国_1206079
@@ -2647,7 +3080,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120049
+  name: 🇰🇷 韩国_1206023
   network: tcp
   port: '8080'
   server: ddns-kr02.ayanami.best
@@ -2692,7 +3125,7 @@ proxies:
     path: /path/243535322906
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1118024
+  name: 🇰🇷 韩国_1206010
   network: ws
   port: '2053'
   server: 146.56.166.153
@@ -2750,7 +3183,7 @@ proxies:
   uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120093
+  name: 🇰🇷 韩国_1206036
   network: ws
   port: '19923'
   server: v2ray.ok1991.ml
@@ -2785,15 +3218,6 @@ proxies:
   uuid: 69cdf1e2-fb14-46f4-b791-25775b42c120
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1206096
-  network: tcp
-  port: '8869'
-  server: kr1.czs1000.com
-  tls: false
-  type: vmess
-  uuid: 273b1302-3f63-4ef0-b520-d01545166d71
-- alterId: 0
-  cipher: auto
   name: 🇰🇷 韩国_1206075
   network: ws
   port: '443'
@@ -2807,7 +3231,7 @@ proxies:
     path: /baipiaozhenkuaile
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120173
+  name: 🇰🇷 韩国_1206058
   network: ws
   port: '443'
   server: v2kr7.tutu4.one
@@ -2820,7 +3244,7 @@ proxies:
     path: /tu
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120016
+  name: 🇰🇷 韩国_1206020
   network: ws
   port: '80'
   server: awskr.azzhuangaping.tw
@@ -2859,7 +3283,7 @@ proxies:
     path: /Danhuang/Jiang
 - alterId: 0
   cipher: auto
-  name: KR_52.79.182.230_11202022aa11-...
+  name: 🇰🇷 韩国_1204144
   network: ws
   port: '42517'
   server: 52.79.182.230
@@ -2894,7 +3318,7 @@ proxies:
     path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 - alterId: 0
   cipher: auto
-  name: 🇺🇸-美国-138.2.122.225
+  name: 🇰🇷 韩国_1124001
   network: ws
   port: '80'
   server: 138.2.122.225
@@ -2921,7 +3345,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120002
+  name: 🇰🇷 韩国_1124006
   network: tcp
   port: '443'
   server: 00000000000000000000000000000000000000000000000000000000000008a.rui77.com
@@ -2930,7 +3354,7 @@ proxies:
   uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120001
+  name: 🇰🇷 韩国_1124005
   network: tcp
   port: '80'
   server: 00000000000000000000000000000000000000000000000000000000000007a.rui77.com
@@ -2958,7 +3382,7 @@ proxies:
   uuid: af7ebe17-95bf-4df8-b489-0c8ca44bd438
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120110
+  name: 🇰🇷 韩国_1124082
   network: ws
   port: '80'
   server: 193.122.119.64
@@ -2971,456 +3395,60 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国_0131228
-  network: tcp
-  port: '43632'
-  server: 43.201.47.68
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c744a2d1-fa6d-4477-bc14-4d04949a6fb4
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷-韩国-kr2.microsoftjs.top
-  network: tcp
-  port: '10029'
-  server: kr2.microsoftjs.top
-  tls: false
-  type: vmess
-  uuid: b06f4142-821f-47a6-b84b-391ba392754f
-- alterId: 0
-  cipher: auto
-  name: 韩国_0129233
-  network: tcp
-  port: '43632'
-  server: 3.36.126.130
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 08e24006-0178-4dd7-ab1e-2664010186e9
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷-韩国-132.145.91.220
+  name: '🇰🇷KR-130.162.132.90-12646 #1'
   network: ws
-  port: '443'
-  server: 132.145.91.220
+  port: 443
+  server: sra2.6bbt.tk
+  servername: tms.dingtalk.com
   tls: false
   type: vmess
-  uuid: b7718dc4-8c46-483b-d347-dd5d8209e023
+  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
   ws-opts:
-    headers:
-      Host: petal.tk
-    path: /jjpwvws
+    path: /6bbt.tk
 - alterId: 0
   cipher: auto
-  name: 🇰🇷-韩国-kt.qing666.buzz
+  name: 韩国-2|倍率:1
   network: ws
-  port: '468'
-  server: kt.qing666.buzz
+  port: '10087'
+  server: pop.kr.gfwcaonimanmsl.cf
   tls: false
   type: vmess
-  uuid: b1947c16-580b-4e55-a453-dced55efd52e
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /www.sjys6.cloud
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 KR 11 Amazon.com  Inc. TG@n...
-  network: ws
-  port: '443'
-  server: sla1aws.nicecdns.com
-  tls: false
-  type: vmess
-  uuid: db19bc21-b451-4ebe-ae79-00bf49d47f75
-  ws-opts:
-    headers:
-      Host: sla1aws.nicecdns.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国_0226476
-  network: tcp
-  port: '80'
-  server: 43.201.72.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6aeb4fa9-0c1e-4ce3-b1a6-7099c71599f1
-- alterId: 0
-  cipher: auto
-  name: 韩国_0226477
-  network: tcp
-  port: '80'
-  server: 13.125.239.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6aeb4fa9-0c1e-4ce3-b1a6-7099c71599f1
-- alterId: 0
-  cipher: auto
-  name: 韩国_0221298
-  network: tcp
-  port: '43632'
-  server: 3.35.238.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1d24d26a-ee0f-430d-82e6-1c4e791c5e22
-- alterId: 0
-  cipher: auto
-  name: 韩国_0211297
-  network: tcp
-  port: '43632'
-  server: 13.124.231.43
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 67471035-e337-430a-8539-53812eda1467
-- alterId: 0
-  cipher: auto
-  name: '韩国-春川2-Tunnel | 1x_1 #1'
-  network: ws
-  port: 13636
-  server: auvwfuyse.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
-  ws-opts:
-    headers:
-      Host: nvufdiwedased.76898102.xyz
-    path: /aeiougfhidf
-- alterId: 0
-  cipher: auto
-  name: '韩国-春川1-Tunnel | 1x_1 #1'
-  network: ws
-  port: 15230
-  server: kgcwafbvf.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
-  ws-opts:
-    headers:
-      Host: aiohfdboihefrw.76898102.xyz
-    path: /aeiougfhidf
-- alterId: 0
-  cipher: auto
-  name: 韩国_0224381
-  network: tcp
-  port: '80'
-  server: 13.125.239.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9ca9e106-76be-488b-8b3e-ccfb80d2228d
-- alterId: 0
-  cipher: auto
-  name: 韩国_0221299
-  network: tcp
-  port: '43632'
-  server: 13.124.80.200
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1d24d26a-ee0f-430d-82e6-1c4e791c5e22
-- alterId: 0
-  cipher: auto
-  name: 韩国_0220306
-  network: ws
-  port: '80'
-  server: 152.67.220.184
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 317bfccd-5669-327a-82ec-993701fcf5ee
+  uuid: 03ff74d0-474e-4645-9ef5-7e04b4dc6c94
   ws-opts:
     headers:
       Host: ''
-    path: /ny
+    path: /name
 - alterId: 0
   cipher: auto
-  name: 韩国_0310124
+  name: '🇰🇷KR-43.201.116.151-11538 #1'
   network: ws
-  port: '3389'
-  server: fsrdpkp.3cm.uk
+  port: 7771
+  server: v-aws-sel-1.heima-bot.tech
   servername: ''
   tls: false
   type: vmess
-  uuid: 56673d1c-bf0f-3ccc-9c5a-48d93906af1c
+  uuid: e3fa5050-67f5-4625-a778-5d9283f4334f
   ws-opts:
-    headers:
-      Host: jpauyvffd.66666654.xyz
-    path: /
-- alterId: 0
+    path: /m1
+- alterId: 64
   cipher: auto
-  name: 韩国_0208313
-  network: tcp
-  port: '43632'
-  server: 3.38.190.139
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cf0cfc68-1121-42c1-b8f7-77f1ff613ce6
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷-韩国-kr1.microsoftjs.top
+  name: '韩国 Edge [01] #1'
   network: ws
-  port: '80'
-  server: kr1.microsoftjs.top
+  port: 153
+  server: kr1.qiangdong.xyz
   tls: false
   type: vmess
-  uuid: be84aea5-9a99-4ca2-94a6-90d0bb1b3759
+  uuid: 8f0a00a1-a6ee-3d3e-96d2-685486858a9e
   ws-opts:
     headers:
-      Host: tlu.dl.delivery.mp.microsoft.com
-    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-- alterId: 0
-  cipher: auto
-  name: 韩国_0210281
-  network: ws
-  port: '80'
-  server: 52.231.203.108
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3ed486c9-f581-477f-85b8-f48c0095064a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国_0222316
-  network: ws
-  port: '80'
-  server: 152.67.220.184
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a17e85a-f255-3691-89f0-3748f126e3e4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ny
-- alterId: 0
-  cipher: auto
-  name: 韩国_0220289
-  network: tcp
-  port: '43632'
-  server: 3.34.252.64
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e405e209-b66d-42a9-be04-af8a2ef522ce
-- alterId: 0
-  cipher: auto
-  name: 韩国_0212296
-  network: ws
-  port: '80'
-  server: 152.67.220.184
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3a6e1f70-1834-3c58-9f3b-2846e41dac6f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ny
-- alterId: 0
-  cipher: auto
-  name: '韩国-春川4-Tunnel | 1x_1 #1'
-  network: ws
-  port: 13428
-  server: isuedfvfuisf.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
-  ws-opts:
-    headers:
-      Host: busdbtgrt.76898102.xyz
-    path: /uedbgiawz
-- alterId: 0
-  cipher: auto
-  name: '韩国-春川3-Tunnel | 1x_1 #1'
-  network: ws
-  port: 12782
-  server: aiuwgfvuiauegfiu.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
-  ws-opts:
-    headers:
-      Host: fghnifsvg.76898102.xyz
-    path: /uedbgiawz
-- alterId: 0
-  cipher: auto
-  name: 韩国_0210056
-  network: tcp
-  port: '12356'
-  server: 00000000000000000000000000000000000000000000000000000000000037a.node-for-bigairport.win
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 25c5c11f-c2ae-4865-a25a-5ba20711dca9
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷-韩国-kr5.hgwc.xyz
-  network: ws
-  port: '101'
-  server: kr5.hgwc.xyz
-  tls: false
-  type: vmess
-  uuid: 4753033a-3779-4459-adf7-88970190c90a
-  ws-opts:
-    headers:
-      Host: kr5.hgwc.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国_1228148
-  network: ws
-  port: '7772'
-  server: 43.201.116.151
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 41fcac4f-948d-42da-bdf9-9f1bd77f5b1c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /m2
-- alterId: 0
-  cipher: auto
-  name: 韩国_1211124
-  network: tcp
-  port: '4123'
-  server: kr2.czs1000.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f4079097-1c49-4031-b9b3-2323f6d52168
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国_1208063
-  network: ws
-  port: '30001'
-  server: 125.134.35.150
-  tls: false
-  type: vmess
-  uuid: ae96d3c7-6085-4769-a4fd-b98db8b7828c
-  ws-opts:
-    headers:
-      Host: exposed-heath-off-feel.trycloudflare.com
-    path: /ae96d3c7
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国_1208039
-  network: ws
-  port: '443'
-  server: 152.70.254.73
-  tls: true
-  type: vmess
-  uuid: 5c20f43f-afe2-4624-825c-d08abcfaf652
-  ws-opts:
-    headers:
-      Host: zzzz1.shisi.cyou
-    path: /ba873aa/
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国_1208022
-  network: ws
-  port: '55214'
-  server: krawdetrt.marisalnc.com
-  tls: false
-  type: vmess
-  uuid: a7775588-fc65-33c3-92c6-127339188bfd
-  ws-opts:
-    headers:
-      Host: armshs.marisalnc.com
-    path: /miao
-- alterId: 0
-  cipher: auto
-  name: '🇰🇷 [VMess] 🇰🇷 KR【付费推荐：goo.gs/v... #2'
-  network: ws
-  port: '80'
-  server: 193.122.110.139
-  tls: false
-  type: vmess
-  uuid: 0f1f1cca-56dc-4feb-8b4b-50ab074f4467
-  ws-opts:
-    headers:
-      Host: w1.800876.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 韩国_1208136
-  network: tcp
-  port: '8870'
-  server: kr1.czs1000.com
-  servername: kr1.czs1000.com
-  tls: true
-  type: vmess
-  uuid: d81c1975-3500-4dce-a12f-c90b5b1b5854
+      Host: f2348123663.laowanxiang.com
+    path: /api/v3/download.getFile
 - alterId: 2
   cipher: auto
-  name: '[vip1]︱V2ray︱⑤韩国 1000M｜×1倍率... #1'
+  name: '[vip1]︱V2ray︱③韩国 1000M｜×1倍率... #1'
   network: tcp
-  port: 52231
-  server: 31.wgong1.top
-  tls: false
-  type: vmess
-  uuid: 76716bc6-af6c-3c24-86cb-55b225294286
-- alterId: 0
-  cipher: auto
-  name: '🇰🇷 韩国06 - Mrli加速器 #1'
-  network: tcp
-  port: 42153
-  server: rk1.mrlizhuanfa.com
-  tls: false
-  type: vmess
-  uuid: b1ef5d72-a79a-3362-ace0-6c2225921039
-- alterId: 2
-  cipher: auto
-  name: '[vip1]︱V2ray︱⑧韩国 1000M｜×1倍率... #1'
-  network: tcp
-  port: 52234
-  server: 34.wgong1.top
-  tls: false
-  type: vmess
-  uuid: 76716bc6-af6c-3c24-86cb-55b225294286
-- alterId: 2
-  cipher: auto
-  name: '[vip1]︱V2ray︱⑥韩国 1000M｜×1倍率... #1'
-  network: tcp
-  port: 52232
-  server: 32.wgong1.top
-  tls: false
-  type: vmess
-  uuid: 76716bc6-af6c-3c24-86cb-55b225294286
-- alterId: 2
-  cipher: auto
-  name: '[vip1]︱V2ray︱㉒韩国｜原生节点 1000M...'
-  network: tcp
-  port: 52224
-  server: 124.wgong1.top
-  tls: false
-  type: vmess
-  uuid: f394c025-939b-3342-9fe6-7f2deda19582
-- alterId: 2
-  cipher: auto
-  name: '[vip1]︱V2ray︱㉒韩国｜原生节点 1000M... #1'
-  network: tcp
-  port: 52224
-  server: 124.wgong1.top
-  tls: false
-  type: vmess
-  uuid: 76716bc6-af6c-3c24-86cb-55b225294286
-- alterId: 2
-  cipher: auto
-  name: '[vip1]︱V2ray︱④韩国 1000M｜×1倍率... #1'
-  network: tcp
-  port: 52230
-  server: 30.wgong1.top
+  port: 52229
+  server: 29.wgong1.top
   tls: false
   type: vmess
   uuid: 76716bc6-af6c-3c24-86cb-55b225294286
@@ -3467,7 +3495,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120050
+  name: 🇰🇷 韩国_1124037
   network: ws
   port: '443'
   server: oracle132kr175.knctrip.com
@@ -3480,7 +3508,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 🇰🇷 韩国_1120113
+  name: 🇰🇷 韩国_1124085
   network: ws
   port: '443'
   server: qiqiqi.run.goorm.io
@@ -3493,7 +3521,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120092
+  name: 🇰🇷 韩国_1124065
   network: ws
   port: '443'
   server: qv25.shenseven.xyz
@@ -3547,7 +3575,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 -韩国-13.209.0.78
+  name: KR_13.209.0.78_112020224a83-86...
   network: ws
   port: '8081'
   server: 13.209.0.78
@@ -3560,7 +3588,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120060
+  name: 🇰🇷 韩国_1122042
   network: ws
   port: '44719'
   server: krdzfeg.marisalnc.com
@@ -3612,7 +3640,7 @@ proxies:
     path: /miao
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120096
+  name: 🇰🇷 韩国_1122070
   network: ws
   port: '443'
   server: cat195.officeys.com
@@ -3737,20 +3765,6 @@ proxies:
     path: /user
 - alterId: 0
   cipher: auto
-  name: KR【付费推荐：goo.gs/vip】
-  network: ws
-  port: '443'
-  server: 146.56.104.236
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇰🇷 韩国_1120032
   network: ws
   port: '42517'
@@ -3790,19 +3804,6 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国_1120007
-  network: ws
-  port: '443'
-  server: 138.2.122.225
-  tls: true
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-opts:
-    headers:
-      Host: lg30.cfcdn3.xyz
-    path: /ray
-- alterId: 0
-  cipher: auto
   name: 🇰🇷 韩国_1120059
   network: ws
   port: '30001'
@@ -3827,26 +3828,12 @@ proxies:
     headers:
       Host: lly.755657.xyz
     path: /javasdkandroidgufd
-- alterId: 0
-  cipher: auto
-  name: 韩国_1120042
-  network: ws
-  port: '443'
-  server: v2kr6.tutu4.one
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e5e55646-d0bf-3ccd-9201-8eb6c6ed2d3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /tu
-- name: ' HYSTERIA-UDP  KR-193.123.250....'
-  password: d62993f2-f2b7-410d-b56d-2cef2e971038
-  port: 35000
-  server: 193.123.250.219
+- name: ' HYSTERIA-UDP  KR-3.38.178.112...'
+  password: b0pkiuXmIQsEQD9W_yT5rsGr
+  port: 443
+  server: 3.38.178.112
   skip-cert-verify: true
-  sni: www.apple.com
+  sni: www.cloudflare.com
   tls: false
   type: hysteria2
 - name: ' HYSTERIA-UDP  KR-8.220.218.11...'
@@ -3855,22 +3842,6 @@ proxies:
   server: 8.220.218.111
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: ' HYSTERIA-UDP  KR-146.56.102.2...'
-  password: b4dd408a-542d-4898-8d43-47dcad8255e8
-  port: 34237
-  server: 146.56.102.200
-  skip-cert-verify: true
-  sni: anycast.us.kg
-  tls: false
-  type: hysteria2
-- name: ' HYSTERIA-UDP  KR-3.38.178.112...'
-  password: b0pkiuXmIQsEQD9W_yT5rsGr
-  port: 443
-  server: 3.38.178.112
-  skip-cert-verify: true
-  sni: www.cloudflare.com
   tls: false
   type: hysteria2
 - name: ' HYSTERIA-UDP  KR-129.154.196....'
@@ -3887,6 +3858,22 @@ proxies:
   server: 152.69.225.196
   skip-cert-verify: true
   sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: ' HYSTERIA-UDP  KR-193.123.250....'
+  password: d62993f2-f2b7-410d-b56d-2cef2e971038
+  port: 35000
+  server: 193.123.250.219
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: ' HYSTERIA-UDP  KR-146.56.102.2...'
+  password: b4dd408a-542d-4898-8d43-47dcad8255e8
+  port: 34237
+  server: 146.56.102.200
+  skip-cert-verify: true
+  sni: anycast.us.kg
   tls: false
   type: hysteria2
 - name: '韩国(yudou123.top 玉豆免费节点) #3'
@@ -3993,14 +3980,6 @@ proxies:
   sni: api.push.apple.com
   tls: false
   type: hysteria2
-- name: '🇰🇷 韩国 14 #1'
-  password: 3c572c6e-d32e-4d28-b10f-7f752dd14c7c
-  port: 18540
-  server: ztcloudkr.ztcloud.xyz
-  skip-cert-verify: true
-  sni: ztcloudkr.ztcloud.xyz
-  tls: false
-  type: hysteria2
 - name: 🇰🇷 韩国_唯云专线_明懂的鸡吧
   password: 3f1a3b4d-73f0-4e02-a457-0228337b5462
   port: 18383
@@ -4082,7 +4061,7 @@ proxies:
   skip-cert-verify: true
   sni: hezijiasuqi.com_188ms
   type: trojan
-- name: '4Sarina-4185 #2'
+- name: 4Sarina-4185
   password: 2b1ed981-6547-4094-998b-06a3323d6f6c
   port: 21017
   server: 120.233.44.201
@@ -10948,6 +10927,42 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 🇰🇷KR-130.162.134.218-21105
+  network: ws
+  port: 42411
+  server: 130.162.134.218
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 417c5108-ef6b-49f0-a13d-8746fe6e204c
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷KR-130.162.134.218-3577
+  network: ws
+  port: 47971
+  server: 130.162.134.218
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c66fe225-648d-4d6b-8d31-94dca65268a4
+  ws-opts:
+    path: /www
+- alterId: 2
+  cipher: auto
+  name: 🇰🇷KR-141.164.44.84-9424
+  network: ws
+  port: 24100
+  server: kr.iggfastweb.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2fb128b9-f06f-431e-a69b-5aeab2fc0756
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇰🇷KR-146.56.40.195-21484
   network: ws
   port: 21875
@@ -10970,6 +10985,18 @@ proxies:
   uuid: 141a45f2-002d-4fb6-f875-603978b993ec
   ws-opts:
     path: /
+- alterId: 64
+  cipher: auto
+  name: 🇰🇷KR-210.87.202.3-1500
+  network: ws
+  port: 25271
+  server: 210.87.202.3
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a23f272d-2186-4d68-8f2a-2d8847c603be
+  ws-opts:
+    path: /kor1/getData
 - alterId: 0
   cipher: auto
   name: TG频道:@hkaa0▓韩国

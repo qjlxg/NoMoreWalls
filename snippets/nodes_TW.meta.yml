@@ -1,16 +1,6 @@
 proxies:
-- name: '台湾 #2'
-  network: ws
-  port: 23555
-  server: 60.249.89.74
-  servername: v033.ylkszy.eu.org
-  tls: true
-  type: vless
-  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
-  ws-opts:
-    path: /?ed=2560
 - client-fingerprint: random
-  name: '4Sarina-10927 #2'
+  name: 4Sarina-10927
   network: ws
   port: 36633
   server: 61.220.41.143
@@ -35,7 +25,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: tg%40zdyz2
 - client-fingerprint: random
-  name: '4Sarina-10929 #2'
+  name: 4Sarina-10929
   network: ws
   port: 81
   server: 8.210.119.191
@@ -48,7 +38,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
 - client-fingerprint: random
-  name: '4Sarina-10932 #3'
+  name: '4Sarina-10932 #1'
   network: ws
   port: 8443
   server: 89.116.161.250
@@ -89,7 +79,7 @@ proxies:
       Host: ''
     path: /
 - client-fingerprint: random
-  name: '4Sarina-10904 #2'
+  name: 4Sarina-10904
   network: ws
   port: 22750
   server: 220.133.227.253
@@ -101,6 +91,16 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
+- name: '台湾 #2'
+  network: ws
+  port: 23555
+  server: 60.249.89.74
+  servername: v033.ylkszy.eu.org
+  tls: true
+  type: vless
+  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
+  ws-opts:
+    path: /?ed=2560
 - name: '🇨🇳 机场推荐:dafei.de 台湾 03 #2'
   password: a348278e-71ac-499c-8069-28b1af18c372
   port: 3663
@@ -209,6 +209,19 @@ proxies:
   tls: false
   type: vmess
   uuid: fa98714c-1d2b-3b60-81e0-f7151110e801
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 mattkaydiary.com|中国台湾(TW)Ta...
+  network: ws
+  port: '33792'
+  server: 61.222.202.140
+  tls: false
+  type: vmess
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 2
   cipher: auto
   name: 🇨🇳 台湾_0315408
@@ -313,55 +326,54 @@ proxies:
     headers:
       Host: 330tw.fans8.xyz
     path: /ray
-- name: 🇹🇼 台湾家宽 59
-  password: e0178fd2-b30c-4da2-8f6d-70c1b418c42e
+- name: 🇹🇼 台湾家宽 31
+  password: c343a067-ec18-454b-9f92-33418d6139ed
   port: 26900
   server: tw.xiao666666.site
   skip-cert-verify: false
   sni: tw.xiao666666.site
   tls: false
   type: hysteria2
-- name: 🇹🇼 台湾家宽 77
-  password: c62b5f07-74fb-4336-a947-28af2afe447e
+- name: 🇹🇼 台湾家宽 60
+  password: 45f51da5-848c-428c-bea4-da961f18d1dc
   port: 26900
   server: tw.xiao666666.site
   skip-cert-verify: false
   sni: tw.xiao666666.site
   tls: false
   type: hysteria2
-- name: 🇹🇼 台湾家宽 04
-  password: d05e4907-b8b5-44d6-9c95-4f762f1f2932
+- name: 🇹🇼 台湾家宽 06
+  password: 928a3318-b103-4f5f-ac80-1efd6f05d3d7
   port: 26900
   server: tw.xiao666666.site
   skip-cert-verify: false
   sni: tw.xiao666666.site
   tls: false
   type: hysteria2
-- name: 🇹🇼 台湾家宽 47
-  password: be6946bd-1a11-44ab-9489-9a5de846c1f7
+- name: 🇹🇼 台湾家宽 12
+  password: b9ae3c84-7995-4aa7-9d2f-e00d918a789f
   port: 26900
   server: tw.xiao666666.site
   skip-cert-verify: false
   sni: tw.xiao666666.site
   tls: false
   type: hysteria2
-- name: 🇹🇼 台湾家宽 79
-  password: c8db1bc4-9e96-427a-b367-ab2308d774bc
+- name: 🇹🇼 台湾 13
+  password: d548cb04-36b2-4547-a7a5-f6021fa88a4c
   port: 26900
   server: tw.xiao666666.site
   skip-cert-verify: false
   sni: tw.xiao666666.site
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 台湾 02
-  network: tcp
-  port: '45078'
-  server: haa.dashuai.cyou
+- name: 🇹🇼 台湾 17
+  password: b5c817b2-672a-4100-9ee7-f1e100da9cba
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
   tls: false
-  type: vmess
-  uuid: 7d3208e3-e123-4152-93ae-bb2aff8388e0
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 🇨🇳 机场推荐:dafei.de 台湾 01
@@ -1076,6 +1088,432 @@ proxies:
   tls: false
   type: vmess
   uuid: 6f49a8a0-50fc-3ef0-96af-336d3471eec8
+- alterId: 0
+  cipher: auto
+  name: 台湾_0320032
+  network: tcp
+  port: '224'
+  server: 1.171.209.176
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+- alterId: 0
+  cipher: auto
+  name: _TW_台湾
+  network: tcp
+  port: '5432'
+  server: tw99-hinet.mynodes001.one
+  tls: false
+  type: vmess
+  uuid: 218014f7-c18b-3c44-aca7-8d0c59dd61c6
+- alterId: 2
+  cipher: auto
+  name: 台湾_0314421
+  network: ws
+  port: '80'
+  server: 165.154.246.103
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8ed657bf-4d88-3fdc-a976-082d8f861f1f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 台湾_0310432
+  network: ws
+  port: '11463'
+  server: tw4.594888.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2e2d20e2-fb26-3167-8d52-5255cf70414f
+  ws-opts:
+    headers:
+      Host: tw4.594888.xyz
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 台湾_0314004
+  network: ws
+  port: '80'
+  server: 35.201.239.132
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c1d8a07f-1e5b-4819-b79b-22df7122e1fe
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 台湾_0310431
+  network: ws
+  port: '25551'
+  server: tw3.594888.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2e2d20e2-fb26-3167-8d52-5255cf70414f
+  ws-opts:
+    headers:
+      Host: tw3.594888.xyz
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 台湾_0315004
+  network: tcp
+  port: '224'
+  server: 1.171.220.32
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+- alterId: 0
+  cipher: auto
+  name: 台湾_1208269
+  network: ws
+  port: '3306'
+  server: paopao.v2.tw03.paopaocloud.cyou
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 29f34da0-6690-3276-b467-8b3b90ebd465
+  ws-opts:
+    headers:
+      Host: tw03.ssru3.casa
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 台湾_0224485
+  network: ws
+  port: '80'
+  server: 165.154.246.150
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6671f9af-54b0-3f89-a532-556156066733
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ny
+- alterId: 2
+  cipher: auto
+  name: 台湾_0312417
+  network: ws
+  port: '80'
+  server: 165.154.246.103
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03d48671-f794-3e50-8f79-fd33c9235888
+  ws-opts:
+    headers:
+      Host: ''
+    path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 台湾_0310430
+  network: ws
+  port: '25551'
+  server: tw2.594888.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2e2d20e2-fb26-3167-8d52-5255cf70414f
+  ws-opts:
+    headers:
+      Host: tw2.594888.xyz
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 台湾_0310403
+  network: ws
+  port: '443'
+  server: tw1.sanfen001.pics
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 235d3cf3-6527-4124-abf6-79d1d901a4c8
+  ws-opts:
+    headers:
+      Host: tw1.sanfen001.pics
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 台湾_0310061
+  network: tcp
+  port: '224'
+  server: 1.171.213.222
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+- alterId: 2
+  cipher: auto
+  name: 台湾_0310423
+  network: ws
+  port: '80'
+  server: 165.154.246.103
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: adb909bb-0486-36e0-a1de-57c69571df87
+  ws-opts:
+    headers:
+      Host: ''
+    path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 台湾_0130404
+  network: ws
+  port: '80'
+  server: 165.154.246.150
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3c67540e-16eb-37b0-aadd-297289203a43
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ny
+- alterId: 0
+  cipher: auto
+  name: 台湾_0314081
+  network: ws
+  port: '25551'
+  server: tw2.594888.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3e0b900a-9768-3d66-b16b-ca04e0a9a583
+  ws-opts:
+    headers:
+      Host: tw2.594888.xyz
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 台湾_0314423
+  network: ws
+  port: '25551'
+  server: tw2.594888.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 61176083-1cca-3f59-8636-0263bf43c409
+  ws-opts:
+    headers:
+      Host: tw2.594888.xyz
+    path: /v2ray
+- alterId: 2
+  cipher: auto
+  name: 台湾_0310428
+  network: ws
+  port: '80'
+  server: 165.154.246.103
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1eefb6b1-4fa7-3ea1-afc7-dc1d7021f09a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 浙江省台州市-zf.hpar.tk
+  network: ws
+  port: '20018'
+  server: zf.hpar.tk
+  tls: false
+  type: vmess
+  uuid: 3989d205-2196-3a91-8bd7-121fe3704581
+  ws-opts:
+    headers:
+      Host: xuexi.cn
+    path: /videos
+- alterId: 0
+  cipher: auto
+  name: '台湾 赫亚资讯有限公司 #1'
+  network: ws
+  port: 443
+  server: twxjj1222103.103.128.207.xhtk.cc
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 7d1304ea-f542-1650-d568-a3d76e84f946
+  ws-opts:
+    headers:
+      Host: twxjj1222103.103.128.207.xhtk.cc
+    path: /uympvws
+- alterId: 0
+  cipher: auto
+  name: 台湾_0108286
+  network: ''
+  port: '80'
+  server: 18c035a5-cfa0-6e07-6906-834de3b3eb73.cnnic.rip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d
+- alterId: 0
+  cipher: auto
+  name: TW【付费推荐：goo.gs/vip】
+  network: ws
+  port: '443'
+  server: twdns.sylu.cyou
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  ws-opts:
+    headers:
+      Host: gcorehk.sylu.cyou
+    path: /Falling42gcorehknode
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼-台湾宜兰县-twipv4.useipv6now.com
+  network: ws
+  port: '6617'
+  server: twipv4.useipv6now.com
+  tls: false
+  type: vmess
+  uuid: 6ca86014-8d5b-45e4-ae7c-90994689037f
+  ws-opts:
+    headers:
+      Host: twipv4.useipv6now.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'github.com/freefq - 台湾省彰化县中华电信... #1'
+  network: ws
+  port: 443
+  server: 1.170.217.168
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 49d4366b-745c-4c2b-856b-a5b7970a8007
+  ws-opts:
+    headers:
+      Host: dengxin.one
+    path: /xKSmQcJ1xL
+- alterId: 0
+  cipher: auto
+  name: '浙江省台州市-zf.hpar.tk #1'
+  network: ws
+  port: '20013'
+  server: zf.hpar.tk
+  tls: false
+  type: vmess
+  uuid: 3989d205-2196-3a91-8bd7-121fe3704581
+  ws-opts:
+    headers:
+      Host: xuexi.cn
+    path: /videos
+- alterId: 0
+  cipher: auto
+  name: '浙江省台州市-zf.hpar.tk #2'
+  network: tcp
+  port: '20015'
+  server: zf.hpar.tk
+  tls: false
+  type: vmess
+  uuid: 3989d205-2196-3a91-8bd7-121fe3704581
+- alterId: 0
+  cipher: auto
+  name: 台湾_1228201
+  network: ws
+  port: '25551'
+  server: tw3.594888.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3cc11062-7efb-3ece-a6c0-0dd1439c4774
+  ws-opts:
+    headers:
+      Host: tw3.594888.xyz
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 台湾_1209236
+  network: ws
+  port: '443'
+  server: 104.29.64.36
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 87b762a9-64c6-4144-9c60-e14a844163da
+  ws-opts:
+    headers:
+      Host: de1.kuainiao.buzz
+    path: /kuainiao/de1
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾_1208080
+  network: ws
+  port: '443'
+  server: a10-kor1.moontoday.uk
+  tls: true
+  type: vmess
+  uuid: 145e21ac-ab0c-4f89-b68c-e61149095ef3
+  ws-opts:
+    headers:
+      Host: a10-kor1.moontoday.uk
+    path: /moontoday
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾_1208241
+  network: tcp
+  port: '445'
+  server: tw99-hinet.mynodes001.one
+  tls: false
+  type: vmess
+  uuid: c1517df4-6454-39ce-9037-d5eccfc703b7
+- alterId: 0
+  cipher: auto
+  name: 台湾_1208270
+  network: ws
+  port: '80'
+  server: twtp.azzhuangaping.tw
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c4e065f-363b-3c9b-8a4d-312f6b9840d3
+  ws-opts:
+    headers:
+      Host: twtp.azzhuangaping.tw
+    path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼-台湾桃园市-tw.hgwc.xyz
+  network: ws
+  port: '101'
+  server: tw.hgwc.xyz
+  tls: false
+  type: vmess
+  uuid: 4753033a-3779-4459-adf7-88970190c90a
+  ws-opts:
+    headers:
+      Host: tw.hgwc.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 台湾_1208271
+  network: ws
+  port: '3306'
+  server: paopao.v2.tw04.paopaocloud.cyou
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e8235c79-47e0-3c41-947a-48e6eecad939
+  ws-opts:
+    headers:
+      Host: tw04.ssru3.casa
+    path: /v2ray
 - alterId: 2
   cipher: auto
   name: 'Vip1丨台湾33丨ChatGPT #67'
@@ -2168,1356 +2606,6 @@ proxies:
   uuid: 2388449f-8566-3c40-965f-9ffcda19b729
 - alterId: 0
   cipher: auto
-  name: 'vip1 台湾-03 #6'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 27874e24-b76d-4682-88f2-e3dd3c0bbb06
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #5'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 3bc981a8-c907-4bf0-a27a-743efc134d2f
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #7'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 7817c43a-4e4a-4b32-9ff0-cc8de8b145b0
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #9'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 91d4199b-02d3-46e0-9ac9-9e46983f689f
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #8'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: c2bfda01-dc88-4dcf-b9e2-d7c5b8c9f0c7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: Relay 🇹🇼 Taiwan(ChatGPT) 11...
-  network: tcp
-  port: '36020'
-  server: cmxuzhou.netflix6.com
-  tls: false
-  type: vmess
-  uuid: bf126585-a40a-38e4-9efa-0ca4fc9a8878
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #25'
-  network: tcp
-  port: 22031
-  server: scloud31.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 5b505198-a6da-3d76-a8a6-4d183aeb1d3f
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #7'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: e403b3f2-cf23-4616-a0c5-51f10bfd9fd8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #25'
-  network: tcp
-  port: 22030
-  server: scloud30.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 6f49a8a0-50fc-3ef0-96af-336d3471eec8
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #9'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 82c8664e-1f87-4b9f-a9ed-023d6f41c86a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #26'
-  network: tcp
-  port: 22031
-  server: scloud31.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: fd6cfc3e-06d4-3c52-bd9b-d3ef9960f4b4
-- alterId: 0
-  cipher: auto
-  name: '台湾_0407545 #1'
-  network: tcp
-  port: 80
-  server: 18c035a5-cfa0-6e07-6906-834de3b3eb73.cnnic.rip
-  tls: false
-  type: vmess
-  uuid: 17c5c13d-0c5b-4a57-a721-e5db4959c189
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾33丨ChatGPT #56'
-  network: tcp
-  port: 22033
-  server: scloud33.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 6f49a8a0-50fc-3ef0-96af-336d3471eec8
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #8'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: c2bfda01-dc88-4dcf-b9e2-d7c5b8c9f0c7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #10'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 1ef9cfb4-5300-4cbd-a5db-e40a8f6b083c
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #27'
-  network: tcp
-  port: 22032
-  server: scloud32.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: a333fe24-29e4-38a7-9425-03518cee02a4
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #27'
-  network: tcp
-  port: 22031
-  server: scloud31.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 5d2c886f-43d5-39e2-9c1b-0d578caed524
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #6'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: e798d0b8-6856-42de-9743-5d4b1046f2b4
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #9'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 2282f8f1-9896-4643-ae47-e59fa7d8a667
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #7'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 7313c40e-617f-42f6-a0af-3395934ec7d9
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #8'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 1ef9cfb4-5300-4cbd-a5db-e40a8f6b083c
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: Relay 🇹🇼 Taiwan(ChatGPT) 06...
-  network: tcp
-  port: '36020'
-  server: cmxuzhou.netflix6.com
-  tls: false
-  type: vmess
-  uuid: 766fdd69-fcbe-3374-99bd-af37278e0632
-- alterId: 0
-  cipher: auto
-  name: Relay 🇹🇼 Taiwan(ChatGPT) 05...
-  network: tcp
-  port: '36018'
-  server: cmxuzhou.netflix6.com
-  tls: false
-  type: vmess
-  uuid: 766fdd69-fcbe-3374-99bd-af37278e0632
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 01【vip1】 #9'
-  network: ws
-  port: 24000
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: f10acbab-2cb7-4fce-8a92-a4e28edf0007
-  ws-opts:
-    headers:
-      Host: gzyd.jcnode.top
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #26'
-  network: tcp
-  port: 22030
-  server: scloud30.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: c556c947-74e5-37c0-9a9d-4c87b6c345d7
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #10'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 82c8664e-1f87-4b9f-a9ed-023d6f41c86a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #11'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 6ddeacf1-0aa7-478f-b38a-86cef8f54255
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 02【vip1】 2 #2'
-  network: ws
-  port: 24001
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: f1b3201e-a140-4b55-9086-dd2d2c43dbf0
-  ws-opts:
-    headers:
-      Host: gzyd.jcnode.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #10'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 74684168-f9c9-463c-82c7-8596e6862e4c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #11'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 16f18d8f-166e-45f2-a7f8-f5730b5687d6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #11'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 5995daf2-63a3-4fef-a703-1ea4a55f9db3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #12'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 5aa9b075-4d06-4238-9e76-0cfef1667c2a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #28'
-  network: tcp
-  port: 22032
-  server: scloud32.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 5d2c886f-43d5-39e2-9c1b-0d578caed524
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #9'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 8aa85c2c-6011-4865-856d-a09d249c2835
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #12'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: af2c1e56-1ebf-4279-a39e-e44da863f750
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾33丨ChatGPT #85'
-  network: tcp
-  port: 22033
-  server: scloud33.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: fd6cfc3e-06d4-3c52-bd9b-d3ef9960f4b4
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼TW-61.224.93.158-6670
-  network: ws
-  port: 25551
-  server: tw3.594888.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 784ede01-8b10-3f69-95a3-aa0832557330
-  ws-opts:
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #10'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: ffe84644-1f68-4e92-88e1-8482151f7090
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #13'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: e403b3f2-cf23-4616-a0c5-51f10bfd9fd8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #14'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: af2c1e56-1ebf-4279-a39e-e44da863f750
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #12'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 0be76ac3-2cd8-4503-9576-215be757454f
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #11'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: a4528f79-1963-4d8f-acff-7034d8a473db
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 vip1 台湾-03 #4'
-  network: ws
-  port: 42000
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 01f2c969-c29c-4475-8563-2bf8aeffa6a6
-  ws-opts:
-    headers:
-      Host: gzyd02.jcnode.top
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼TW-61.224.93.216-7179
-  network: ws
-  port: 11463
-  server: tw4.594888.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 784ede01-8b10-3f69-95a3-aa0832557330
-  ws-opts:
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 02【vip1】 #11'
-  network: ws
-  port: 24001
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: f10acbab-2cb7-4fce-8a92-a4e28edf0007
-  ws-opts:
-    headers:
-      Host: gzyd.jcnode.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #12'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 9ab8d4f9-6f0e-4811-b7fa-5692d790559b
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #29'
-  network: tcp
-  port: 22032
-  server: scloud32.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: fd6cfc3e-06d4-3c52-bd9b-d3ef9960f4b4
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #13'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: a15462f1-1a59-40af-95bc-794ee8316a6c
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #14'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 7558ac59-4c33-411f-8836-da05beec6679
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #15'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: a57b6d69-1c0f-4f98-b4ef-3fd658fa0c40
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #13'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 95445f91-9786-44e0-8df4-e8a02f8f635f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 01【vip1】 #5'
-  network: ws
-  port: 24000
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 4ea1ac12-54c4-42ba-80ac-de455386e6c6
-  ws-opts:
-    headers:
-      Host: gzyd.jcnode.top
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #28'
-  network: tcp
-  port: 22031
-  server: scloud31.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: ac649670-d37e-3435-9908-b4c04876090e
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #16'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 6ddeacf1-0aa7-478f-b38a-86cef8f54255
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #30'
-  network: tcp
-  port: 22032
-  server: scloud32.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: c556c947-74e5-37c0-9a9d-4c87b6c345d7
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #13'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: a57b6d69-1c0f-4f98-b4ef-3fd658fa0c40
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '🇹🇼TW-165.154.227.69-15510 #1'
-  network: ws
-  port: 80
-  server: twtp.azzhuangaping.tw
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c4e065f-363b-3c9b-8a4d-312f6b9840d3
-  ws-opts:
-    path: /adobe
-- alterId: 0
-  cipher: auto
-  name: '🇹🇼TW-61.224.124.161-15504 #1'
-  network: ws
-  port: 443
-  server: xt001.xmrthnode.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇹🇼TW-36.227.251.40-15506 #1'
-  network: ws
-  port: 20000
-  server: tw01.henet.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f522480e-f7e9-4db9-bc4f-d0bd59ebd000
-  ws-opts:
-    path: /live
-- alterId: 0
-  cipher: auto
-  name: '🇹🇼TW-118.167.43.210-5590 #1'
-  network: ws
-  port: 2053
-  server: emea-ru-mow-01-edgecast.qdns.live
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 935dfe1a-c512-31bc-9e97-b1ab73826047
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇹🇼TW-61.224.35.213-5302 #1'
-  network: ws
-  port: 80
-  server: tw1g.jeidian.xyz
-  servername: tms.dingtalk.com
-  tls: false
-  type: vmess
-  uuid: 2d81eefd-7d1e-4ea7-b12c-5e426e08979d
-  ws-opts:
-    path: /mugua
-- alterId: 2
-  cipher: auto
-  name: '🇹🇼TW-165.154.226.51-15676 #1'
-  network: ws
-  port: 443
-  server: 625tw02.fx6688.top
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #17'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 4570f15c-17df-47c0-9909-29840a3687b2
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 64
-  cipher: auto
-  name: 🇨🇳 台湾 CHT [01]
-  network: ws
-  port: 153
-  server: cht1.qiangdong.xyz
-  tls: false
-  type: vmess
-  uuid: 09e2b227-e05c-3bc9-9ad6-89f17405ad57
-  ws-opts:
-    headers:
-      Host: f2348123663.laowanxiang.com
-    path: /api/v3/download.getFile
-- alterId: 64
-  cipher: auto
-  name: '台湾 Edge #1'
-  network: ws
-  port: 153
-  server: 103.156.184.21
-  tls: false
-  type: vmess
-  uuid: 48d30600-fb6d-3c1b-b8e5-9b780bd9b71f
-  ws-opts:
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #14'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: aa712df9-b860-41fa-bcee-346cddfe1c10
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #18'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: f161fcde-5fa1-4724-b114-f7b815a962e7
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #29'
-  network: tcp
-  port: 22031
-  server: scloud31.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: f5a68098-273e-3ce0-942e-2fa853498f81
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #15'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 0ae9da11-0ae8-410b-8962-9aa57d0b289d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #15'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 0ae9da11-0ae8-410b-8962-9aa57d0b289d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 vip1 台湾-01 #2'
-  network: ws
-  port: 42000
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 5d68bfb8-9f04-4807-b327-dd6342f91e11
-  ws-opts:
-    headers:
-      Host: gzdx.jcnode.top
-    path: /fly
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾33丨ChatGPT #78'
-  network: tcp
-  port: 22033
-  server: scloud33.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: db07b99d-5eff-33cd-95e1-76d88221d4e1
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #19'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 3eaf99d5-e046-4777-b531-4ee982c5bad6
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #14'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 0e7509b7-a4b6-4319-9c94-f46bb5895344
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #20'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 9c8c4f8c-c576-48ba-890a-4d87c60dc3b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #15'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 6d199979-ac53-4a66-99ef-82c6dc727741
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #21'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 8c9a7d65-7f53-44b1-9906-946e66a4de84
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #30'
-  network: tcp
-  port: 22031
-  server: scloud31.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: a333fe24-29e4-38a7-9425-03518cee02a4
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #16'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 8c9a7d65-7f53-44b1-9906-946e66a4de84
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾33丨ChatGPT #69'
-  network: tcp
-  port: 22033
-  server: scloud33.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: a333fe24-29e4-38a7-9425-03518cee02a4
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 vip1 台湾-03 #6'
-  network: ws
-  port: 42000
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 87ade4e5-40ff-40e8-8a69-e66d08e4f840
-  ws-opts:
-    headers:
-      Host: gzyd02.jcnode.top
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #16'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 5995daf2-63a3-4fef-a703-1ea4a55f9db3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 vip1 台湾-03 #2'
-  network: ws
-  port: 42000
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: e99e76e2-c70c-4fed-8ada-76578e11b76b
-  ws-opts:
-    headers:
-      Host: gzyd02.jcnode.top
-    path: /fly
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾33丨ChatGPT #84'
-  network: tcp
-  port: 22033
-  server: scloud33.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: f5a68098-273e-3ce0-942e-2fa853498f81
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾33丨ChatGPT #79'
-  network: tcp
-  port: 22033
-  server: scloud33.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: dbad380f-6388-3a61-9c83-03ee5b2c277d
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #17'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: f2baa538-f8ab-4274-8c2d-f0b0707eee17
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #16'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 878687e4-48a6-4296-a0a4-1985a01fd21d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 64
-  cipher: auto
-  name: 台湾 CHT [03]
-  network: ws
-  port: 153
-  server: cht3.qiangdong.xyz
-  tls: false
-  type: vmess
-  uuid: 80ef6c0f-fa4c-3618-b23a-e45775bfbde8
-  ws-opts:
-    headers:
-      Host: f2348123663.laowanxiang.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #17'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 7276c8b5-d4f5-4748-991e-34cc0c5b19d3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #18'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: f2ea7112-2282-47a8-aa95-19b166bd4eec
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #19'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 16f18d8f-166e-45f2-a7f8-f5730b5687d6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #22'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 0e7509b7-a4b6-4319-9c94-f46bb5895344
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #31'
-  network: tcp
-  port: 22032
-  server: scloud32.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 326ddcd9-b338-3acd-8949-9ea70c8b2be3
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾33丨ChatGPT #53'
-  network: tcp
-  port: 22033
-  server: scloud33.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 617ed0b1-dbd5-3e29-8312-e536a968f5d4
-- alterId: 0
-  cipher: auto
-  name: 'github.com/freefq - 台湾省台北市中华电信... #1'
-  network: tcp
-  port: '56568'
-  server: polotw1.applebench.tech
-  tls: false
-  type: vmess
-  uuid: 484df882-fe9c-456b-9375-a311f4a5d208
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #32'
-  network: tcp
-  port: 22032
-  server: scloud32.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: dbfbbd9b-e741-36bc-8ab0-3488adac5064
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #17'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 2a3dba59-fe36-4b0f-ab57-9cc2894609fd
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #20'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: f2baa538-f8ab-4274-8c2d-f0b0707eee17
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾33丨ChatGPT #60'
-  network: tcp
-  port: 22033
-  server: scloud33.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 9c898291-d4d5-363d-8ee8-9a01f4af8d49
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #31'
-  network: tcp
-  port: 22031
-  server: scloud31.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: d6e863b3-f13f-3052-8eec-78d9c6cb1658
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #33'
-  network: tcp
-  port: 22032
-  server: scloud32.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 4c7da0a5-0fd8-3c68-b973-1c1902e562ea
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #23'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 61666c08-83fb-4e65-9737-6fe44d8a29ad
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #24'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 9a50914c-9fdf-4364-ba32-64cf6724c527
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #18'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 9a50914c-9fdf-4364-ba32-64cf6724c527
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #19'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: f161fcde-5fa1-4724-b114-f7b815a962e7
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #34'
-  network: tcp
-  port: 22032
-  server: scloud32.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: f5a68098-273e-3ce0-942e-2fa853498f81
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #25'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: ce4da667-6a94-4302-9a37-83422efa5d5a
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #26'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: bec47686-c1b2-4d0d-af56-4c21655edc0a
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #27'
-  network: tcp
-  port: 22030
-  server: scloud30.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: f5a68098-273e-3ce0-942e-2fa853498f81
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #20'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: bec47686-c1b2-4d0d-af56-4c21655edc0a
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #28'
-  network: tcp
-  port: 22030
-  server: scloud30.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 9c898291-d4d5-363d-8ee8-9a01f4af8d49
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #18'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: f2ea7112-2282-47a8-aa95-19b166bd4eec
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 02【vip1】 #10'
-  network: ws
-  port: 24001
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: dce72891-ef15-4a75-8249-0d9ff95151e7
-  ws-opts:
-    headers:
-      Host: gzyd.jcnode.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 台湾_120
-  network: ws
-  port: 24000
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 323cc972-543a-4727-9c34-7ef3b4a9ce7d
-  ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #29'
-  network: tcp
-  port: 22030
-  server: scloud30.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 617ed0b1-dbd5-3e29-8312-e536a968f5d4
-- alterId: 0
-  cipher: auto
   name: 台湾_0320407
   network: ws
   port: '25551'
@@ -3557,6 +2645,15 @@ proxies:
   tls: false
   type: vmess
   uuid: d89b6f06-040b-4c42-9ee8-63f5d48322af
+- alterId: 0
+  cipher: auto
+  name: 'github.com/freefq - 台湾省台北市中华电信... #1'
+  network: tcp
+  port: '56568'
+  server: polotw1.applebench.tech
+  tls: false
+  type: vmess
+  uuid: 484df882-fe9c-456b-9375-a311f4a5d208
 - alterId: 2
   cipher: auto
   name: 台湾_0325491
@@ -3784,6 +2881,16 @@ proxies:
   tls: false
   type: vmess
   uuid: f0b8df2b-adde-4d02-82be-a7ac8f33de31
+- alterId: 0
+  cipher: auto
+  name: 台湾_0404565
+  network: tcp
+  port: '80'
+  server: 18c035a5-cfa0-6e07-6906-834de3b3eb73.cnnic.rip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 17c5c13d-0c5b-4a57-a721-e5db4959c189
 - alterId: 0
   cipher: auto
   name: '浙江省台州市-6w7j3p04.mcfront.xyz #1'
@@ -4194,16 +3301,6 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 台湾_0322023
-  network: tcp
-  port: '224'
-  server: 1.171.209.176
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-- alterId: 0
-  cipher: auto
   name: 台湾_0401517
   network: ws
   port: '11463'
@@ -4362,16 +3459,6 @@ proxies:
     path: /videos/stream
 - alterId: 0
   cipher: auto
-  name: 台湾_0312002
-  network: tcp
-  port: '224'
-  server: 1.171.213.222
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-- alterId: 0
-  cipher: auto
   name: 台湾_0401516
   network: ws
   port: '25551'
@@ -4384,16 +3471,6 @@ proxies:
     headers:
       Host: tw3.594888.xyz
     path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 'github.com/freefq - 台湾省台中市中华电信... #1'
-  network: tcp
-  port: 5432
-  server: tw99-hinet.mynodes001.one
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 218014f7-c18b-3c44-aca7-8d0c59dd61c6
 - alterId: 0
   cipher: auto
   name: 台湾_0325494
@@ -4682,20 +3759,6 @@ proxies:
     path: /tu
 - alterId: 0
   cipher: auto
-  name: 'github.com/freefq - 台湾省彰化县Goog... #1'
-  network: ws
-  port: 80
-  server: 35.201.239.132
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c1d8a07f-1e5b-4819-b79b-22df7122e1fe
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: 台湾_0331526
   network: ws
   port: '443'
@@ -4778,2029 +3841,9 @@ proxies:
     headers:
       Host: tw3.594888.xyz
     path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #21'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 01f2c969-c29c-4475-8563-2bf8aeffa6a6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #19'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 878687e4-48a6-4296-a0a4-1985a01fd21d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #32'
-  network: tcp
-  port: 22031
-  server: scloud31.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 326ddcd9-b338-3acd-8949-9ea70c8b2be3
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾33丨ChatGPT #62'
-  network: tcp
-  port: 22033
-  server: scloud33.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 06957dde-400c-35d8-8e08-b4327b5a41af
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾33丨ChatGPT #76'
-  network: tcp
-  port: 22033
-  server: scloud33.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: d803e4b5-77e0-31be-86c0-dd8dc67a4557
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #21'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 9c8c4f8c-c576-48ba-890a-4d87c60dc3b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #27'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 2a3dba59-fe36-4b0f-ab57-9cc2894609fd
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #30'
-  network: tcp
-  port: 22030
-  server: scloud30.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 06957dde-400c-35d8-8e08-b4327b5a41af
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #22'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 4570f15c-17df-47c0-9909-29840a3687b2
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #31'
-  network: tcp
-  port: 22030
-  server: scloud30.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: db07b99d-5eff-33cd-95e1-76d88221d4e1
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #35'
-  network: tcp
-  port: 22032
-  server: scloud32.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: d6e863b3-f13f-3052-8eec-78d9c6cb1658
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #23'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 6a31c9d2-56b8-495a-b30e-cdf8f28db67a
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #20'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 4920db77-a061-4609-9f9e-7dca6d1f9ef4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #21'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 0b8a61ea-5e6b-497c-91aa-88c04ca852b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 02【vip1】 #5'
-  network: ws
-  port: 24001
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 5a5a6d81-1953-48aa-a73d-22d8f449085d
-  ws-opts:
-    headers:
-      Host: gzyd.jcnode.top
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #36'
-  network: tcp
-  port: 22032
-  server: scloud32.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 769193c2-2e3e-3659-8c71-3e1ab6d089b2
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #37'
-  network: tcp
-  port: 22032
-  server: scloud32.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 06957dde-400c-35d8-8e08-b4327b5a41af
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #28'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 65f673b0-3b6c-491c-9e0a-9678a5dca801
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #33'
-  network: tcp
-  port: 22031
-  server: scloud31.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 617ed0b1-dbd5-3e29-8312-e536a968f5d4
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #24'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 65f673b0-3b6c-491c-9e0a-9678a5dca801
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 01【vip1】 #6'
-  network: ws
-  port: 24000
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 733f36e6-f6a9-4794-831b-faf9e80b2eac
-  ws-opts:
-    headers:
-      Host: gzyd.jcnode.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #25'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 3eaf99d5-e046-4777-b531-4ee982c5bad6
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #26'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: c1d6930d-6e4d-4f5a-a6c7-7e79c095615b
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #22'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: e99e76e2-c70c-4fed-8ada-76578e11b76b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #23'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 0b8a61ea-5e6b-497c-91aa-88c04ca852b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #34'
-  network: tcp
-  port: 22031
-  server: scloud31.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: db07b99d-5eff-33cd-95e1-76d88221d4e1
-- alterId: 0
-  cipher: auto
-  name: '台湾_126 #1'
-  network: ws
-  port: 24001
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 0be76ac3-2cd8-4503-9576-215be757454f
-  ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #35'
-  network: tcp
-  port: 22031
-  server: scloud31.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 9c898291-d4d5-363d-8ee8-9a01f4af8d49
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #27'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 61666c08-83fb-4e65-9737-6fe44d8a29ad
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #38'
-  network: tcp
-  port: 22032
-  server: scloud32.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: d803e4b5-77e0-31be-86c0-dd8dc67a4557
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 vip1 台湾-01 #9'
-  network: ws
-  port: 42000
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 977ceb9a-a4df-4050-9e6f-c0a016c07f8e
-  ws-opts:
-    headers:
-      Host: gzdx.jcnode.top
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #22'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 953d6788-da0c-4caf-a2fa-ad0ace4eaf9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #36'
-  network: tcp
-  port: 22031
-  server: scloud31.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: dbfbbd9b-e741-36bc-8ab0-3488adac5064
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #32'
-  network: tcp
-  port: 22030
-  server: scloud30.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: dbfbbd9b-e741-36bc-8ab0-3488adac5064
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾33丨ChatGPT #57'
-  network: tcp
-  port: 22033
-  server: scloud33.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 769193c2-2e3e-3659-8c71-3e1ab6d089b2
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #33'
-  network: tcp
-  port: 22030
-  server: scloud30.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: d6e863b3-f13f-3052-8eec-78d9c6cb1658
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #28'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 7313c40e-617f-42f6-a0af-3395934ec7d9
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #23'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 3cacc7dc-c59d-46f0-82dd-81e06b3b3d22
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #37'
-  network: tcp
-  port: 22031
-  server: scloud31.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 06957dde-400c-35d8-8e08-b4327b5a41af
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #24'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: e3104fdb-78d0-4cd0-a052-c5cbc7f981b7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #29'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 076bfdea-c56b-423d-a972-48eccc9e9697
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #30'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 6a31c9d2-56b8-495a-b30e-cdf8f28db67a
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #24'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 7276c8b5-d4f5-4748-991e-34cc0c5b19d3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #29'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 5a5a6d81-1953-48aa-a73d-22d8f449085d
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾33丨ChatGPT #75'
-  network: tcp
-  port: 22033
-  server: scloud33.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: d6e863b3-f13f-3052-8eec-78d9c6cb1658
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #30'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 61a08bc5-d32d-4c8d-bbff-a67bf7b7fbf3
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #31'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 61a08bc5-d32d-4c8d-bbff-a67bf7b7fbf3
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾33丨ChatGPT #44'
-  network: tcp
-  port: 22033
-  server: scloud33.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 456448f5-495e-3454-a051-134dce38c31c
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #25'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 541bd2aa-94a6-472d-af4b-3fc92a13e7fc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #39'
-  network: tcp
-  port: 22032
-  server: scloud32.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: db07b99d-5eff-33cd-95e1-76d88221d4e1
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼-台湾台中市-tw4.594888.xyz
-  network: ws
-  port: '11463'
-  server: tw4.594888.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: eb01f76e-1aaf-3c7f-bb79-79945a293bea
-  ws-opts:
-    headers:
-      Host: tw4.594888.xyz
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼-台湾-sldron.kctr2038.icu
-  network: ws
-  port: '11864'
-  server: sldron.kctr2038.icu
-  tls: true
-  type: vmess
-  uuid: 895eff47-4efa-4f60-9aaf-40e4edd05bcf
-  ws-opts:
-    headers:
-      Host: sldron.kctr2038.icu
-    path: /7355608
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #26'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 977ceb9a-a4df-4050-9e6f-c0a016c07f8e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #34'
-  network: tcp
-  port: 22030
-  server: scloud30.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: d803e4b5-77e0-31be-86c0-dd8dc67a4557
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 01【vip1】 #8'
-  network: ws
-  port: 24000
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: e798d0b8-6856-42de-9743-5d4b1046f2b4
-  ws-opts:
-    headers:
-      Host: gzyd.jcnode.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '浙江省台州市-8l2k1r04.mcfront.xyz #7'
-  network: tcp
-  port: '31401'
-  server: 8l2k1r04.mcfront.xyz
-  tls: false
-  type: vmess
-  uuid: d89b6f06-040b-4c42-9ee8-63f5d48322af
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #31'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 0ab48a35-5ff2-4d18-bc74-f48eb5bebe67
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '浙江省台州市-4a2u0a04.mcfront.xyz #4'
-  network: tcp
-  port: '31501'
-  server: 4a2u0a04.mcfront.xyz
-  tls: false
-  type: vmess
-  uuid: 38551c7c-2342-4935-b645-186fe9206b75
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #25'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 953d6788-da0c-4caf-a2fa-ad0ace4eaf9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #26'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 764a8e05-a9bd-45b7-b604-30a670eb3642
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #32'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: ffe84644-1f68-4e92-88e1-8482151f7090
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #35'
-  network: tcp
-  port: 22030
-  server: scloud30.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 769193c2-2e3e-3659-8c71-3e1ab6d089b2
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #27'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 6a1a2a46-a94f-4ed4-9a6d-3e848693b198
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #32'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: d0991f5b-0ea1-4e65-88de-885c240e9812
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #27'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 9c609294-1421-41de-9c68-02656354e10b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #28'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 3cacc7dc-c59d-46f0-82dd-81e06b3b3d22
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #28'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: d1330521-51bc-470b-a96b-f65a7b6157a2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #33'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 125dfa54-5c58-4043-a955-639f5ae968e5
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #29'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: d4ba2bcf-40c4-4e31-bbfd-1c8212e99cc8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #29'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 9c609294-1421-41de-9c68-02656354e10b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #30'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 95445f91-9786-44e0-8df4-e8a02f8f635f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #34'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: c1d6930d-6e4d-4f5a-a6c7-7e79c095615b
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #30'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 5d68bfb8-9f04-4807-b327-dd6342f91e11
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #31'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: d4ba2bcf-40c4-4e31-bbfd-1c8212e99cc8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #31'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: aa712df9-b860-41fa-bcee-346cddfe1c10
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #40'
-  network: tcp
-  port: 22032
-  server: scloud32.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 9c898291-d4d5-363d-8ee8-9a01f4af8d49
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #38'
-  network: tcp
-  port: 22031
-  server: scloud31.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 769193c2-2e3e-3659-8c71-3e1ab6d089b2
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #35'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 4ea1ac12-54c4-42ba-80ac-de455386e6c6
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #32'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: f32bbdba-6fc1-43ef-b89c-a6c586b0eb4b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 02【vip1】 #6'
-  network: ws
-  port: 24001
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 6d199979-ac53-4a66-99ef-82c6dc727741
-  ws-opts:
-    headers:
-      Host: gzyd.jcnode.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 vip1 台湾-01 #7'
-  network: ws
-  port: 42000
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 4920db77-a061-4609-9f9e-7dca6d1f9ef4
-  ws-opts:
-    headers:
-      Host: gzdx.jcnode.top
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #33'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: d0991f5b-0ea1-4e65-88de-885c240e9812
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #34'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 076bfdea-c56b-423d-a972-48eccc9e9697
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #32'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 870b3c23-3ac1-4aa9-bc13-68151baa2806
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #36'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 770520b2-0ca7-4bf7-b157-449475d5b522
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #35'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 770520b2-0ca7-4bf7-b157-449475d5b522
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #33'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: d1330521-51bc-470b-a96b-f65a7b6157a2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #33'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 940f40d3-7b04-4fd0-a897-9d0f1f0930db
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #36'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: a15462f1-1a59-40af-95bc-794ee8316a6c
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-01 #34'
-  network: ws
-  port: '42000'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 940f40d3-7b04-4fd0-a897-9d0f1f0930db
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 台湾 HINET｜隧道 02 - 爱猫论坛 #1'
-  network: tcp
-  port: 36019
-  server: cmxuzhou.netflix6.com
-  tls: false
-  type: vmess
-  uuid: 460a2103-d051-345d-8154-b696875bbed4
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼-台湾新北市-1.171.194.111
-  network: tcp
-  port: '224'
-  server: 1.171.194.111
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-- alterId: 0
-  cipher: auto
-  name: 'vip1 台湾-03 #34'
-  network: ws
-  port: '42000'
-  server: gzyd02.jcnode.top
-  tls: false
-  type: vmess
-  uuid: e3104fdb-78d0-4cd0-a052-c5cbc7f981b7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fly
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #36'
-  network: tcp
-  port: 22030
-  server: scloud30.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 4c7da0a5-0fd8-3c68-b973-1c1902e562ea
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #37'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 4b021078-a562-49ce-b5e2-d77d5bcf09fc
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '浙江省台州市-6w7j3p04.mcfront.xyz #4'
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  tls: false
-  type: vmess
-  uuid: f0b8df2b-adde-4d02-82be-a7ac8f33de31
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #37'
-  network: ws
-  port: '24001'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 4b021078-a562-49ce-b5e2-d77d5bcf09fc
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #38'
-  network: ws
-  port: '24000'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: fd162ab1-3d53-47dd-8605-e994a26100f8
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '🇹🇼-台湾台中市-tw4.594888.xyz #1'
-  network: ws
-  port: '11463'
-  server: tw4.594888.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d10e7ff3-99b1-3a00-a476-bd1e32a3dfc5
-  ws-opts:
-    headers:
-      Host: tw4.594888.xyz
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾_1208257
-  network: ws
-  port: '80'
-  server: http.download.yunzhongzhuan.com
-  tls: false
-  type: vmess
-  uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
-  ws-opts:
-    headers:
-      Host: ssrsub.v02.asuka.buzz
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼-台湾-tw99-hinet.mynodes001.on...
-  network: tcp
-  port: '445'
-  server: tw99-hinet.mynodes001.one
-  tls: false
-  type: vmess
-  uuid: c1517df4-6454-39ce-9037-d5eccfc703b7
-- alterId: 0
-  cipher: auto
-  name: 台湾_1122189
-  network: tcp
-  port: '10000'
-  server: tw2.rovod.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ab42ea1f-8e2f-3fff-8a11-d124d62b849e
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾_1204255
-  network: ws
-  port: '443'
-  server: hinet.nbsd.win
-  tls: true
-  type: vmess
-  uuid: dd7639cf-66dd-3038-ab0e-cefe7e9ef9fb
-  ws-opts:
-    headers:
-      Host: hinet.nbsd.win
-    path: /videos/stream
-- alterId: 0
-  cipher: auto
-  name: 台湾_1208250
-  network: ws
-  port: '11463'
-  server: tw4.594888.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c4850ff3-6256-304b-9a40-628e9c3ac724
-  ws-opts:
-    headers:
-      Host: tw4.594888.xyz
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾(油管破解资源君2.0)
-  network: tcp
-  port: '40201'
-  server: ying-unicom.gatknqh.cn
-  tls: false
-  type: vmess
-  uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾_1208276
-  network: tcp
-  port: '1001'
-  server: tw2.czs1000.com
-  tls: true
-  type: vmess
-  uuid: 1bd772e1-ce31-4980-9cb7-a4d24873aa1b
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾_1208253
-  network: ws
-  port: '3306'
-  server: paopao.v2.tw04.paopaocloud.cyou
-  tls: true
-  type: vmess
-  uuid: fb0d7a1d-0a0f-3d66-8ac5-4dd4a303b83a
-  ws-opts:
-    headers:
-      Host: tw04.ssru3.casa
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾_1120061
-  network: ws
-  port: '443'
-  server: a01-hk1.moontoday.uk
-  tls: true
-  type: vmess
-  uuid: 145e21ac-ab0c-4f89-b68c-e61149095ef3
-  ws-opts:
-    headers:
-      Host: a01-hk1.moontoday.uk
-    path: /moontoday
-- alterId: 2
-  cipher: auto
-  name: 台湾_1122033
-  network: ws
-  port: '80'
-  server: 0218tw02.fans8.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  ws-opts:
-    headers:
-      Host: 0218tw02.fans8.xyz
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾_1208058
-  network: tcp
-  port: '39999'
-  server: tw-tb-c.zc20200426.club
-  tls: true
-  type: vmess
-  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 -台湾桃园市-111.241.187.226
-  network: tcp
-  port: '39998'
-  server: 111.241.187.226
-  tls: true
-  type: vmess
-  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾_1120197
-  network: tcp
-  port: '1001'
-  server: tw1.rovod.top
-  tls: false
-  type: vmess
-  uuid: ab42ea1f-8e2f-3fff-8a11-d124d62b849e
-- alterId: 0
-  cipher: auto
-  name: 台湾_1208207
-  network: ws
-  port: '80'
-  server: 165.154.226.45
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4d0efa65-0f01-4f9a-b805-ed5719f6e026
-  ws-opts:
-    headers:
-      Host: dm.toutiao.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 台湾_1208118
-  network: ws
-  port: '443'
-  server: 331tw.fans8.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-  ws-opts:
-    headers:
-      Host: 331tw.fans8.xyz
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 台湾_1122064
-  network: ws
-  port: '443'
-  server: a02-tw2.moontoday.uk
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 145e21ac-ab0c-4f89-b68c-e61149095ef3
-  ws-opts:
-    headers:
-      Host: a02-tw2.moontoday.uk
-    path: /moontoday
-- alterId: 0
-  cipher: auto
-  name: 台湾_1208068
-  network: ws
-  port: '443'
-  server: 211.72.35.110
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f6d7b072-de00-45dc-9e24-49f8cf43530d
-  ws-opts:
-    headers:
-      Host: lindo.cnabc.eu.org
-    path: /linod
-- alterId: 0
-  cipher: auto
-  name: 台湾_1122062
-  network: ws
-  port: '443'
-  server: a08-hk1.moontoday.uk
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 145e21ac-ab0c-4f89-b68c-e61149095ef3
-  ws-opts:
-    headers:
-      Host: a08-hk1.moontoday.uk
-    path: /moontoday
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾04
-  network: tcp
-  port: '1001'
-  server: tw4.czs1000.com
-  tls: true
-  type: vmess
-  uuid: 128f9c7b-5abd-40f2-b290-2615791f273d
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾02
-  network: tcp
-  port: '1001'
-  server: tw2.czs1000.com
-  tls: true
-  type: vmess
-  uuid: 128f9c7b-5abd-40f2-b290-2615791f273d
-- alterId: 0
-  cipher: auto
-  name: 台湾_1204242
-  network: ws
-  port: '443'
-  server: 104.29.64.36
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 87b762a9-64c6-4144-9c60-e14a844163da
-  ws-opts:
-    headers:
-      Host: de1.kuainiao.buzz
-    path: /kuainiao/de1
-- alterId: 64
-  cipher: auto
-  name: 🇨🇳 中国台湾
-  network: ws
-  port: '443'
-  server: 141.95.6.57
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.22284376.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 台湾_1204250
-  network: tcp
-  port: '1001'
-  server: tw3.czs1000.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a0160e90-bdc5-4728-857a-c98f3043ecec
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾_1206044
-  network: tcp
-  port: '21234'
-  server: hinet1261.gfwisbest.xyz
-  tls: false
-  type: vmess
-  uuid: 6d896dd9-21ff-3844-a72a-332507486049
-- alterId: 1
-  cipher: auto
-  name: 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-  network: tcp
-  port: '10004'
-  server: 139.227.161.129
-  tls: false
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾(油管破解资源君2.0) 18
-  network: ws
-  port: '13710'
-  server: z65d.cdn.node.a.ddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 00c902b5-5fce-3845-bc55-e7517d30fcc1
-  ws-opts:
-    headers:
-      Host: z65d.cdn.node.a.ddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼-台湾台南市-tw1.lilyco.cc
-  network: ws
-  port: '55980'
-  server: tw1.lilyco.cc
-  tls: false
-  type: vmess
-  uuid: 668eeb4a-80a9-33cf-be79-203bce3620e9
-  ws-opts:
-    headers:
-      Host: t.me/lqmoe
-    path: /ny
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾_1206006 2
-  network: ws
-  port: '8080'
-  server: http.download.yunzhongzhuan.com
-  tls: false
-  type: vmess
-  uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
-  ws-opts:
-    headers:
-      Host: http.download.yunzhongzhuan.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾_1120283
-  network: ws
-  port: '80'
-  server: twtp2.azzhuangaping.tw
-  tls: false
-  type: vmess
-  uuid: 4c4e065f-363b-3c9b-8a4d-312f6b9840d3
-  ws-opts:
-    headers:
-      Host: twtp2.azzhuangaping.tw
-    path: /adobe
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼-台湾-gzbgpss.8n4t.cn
-  network: ws
-  port: '29931'
-  server: gzbgpss.8n4t.cn
-  tls: false
-  type: vmess
-  uuid: 668eeb4a-80a9-33cf-be79-203bce3620e9
-  ws-opts:
-    headers:
-      Host: gzbgpss.8n4t.cn
-    path: /ny
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾_1206048
-  network: ws
-  port: '443'
-  server: a10-kor1.moontoday.uk
-  tls: true
-  type: vmess
-  uuid: 145e21ac-ab0c-4f89-b68c-e61149095ef3
-  ws-opts:
-    headers:
-      Host: a10-kor1.moontoday.uk
-    path: /moontoday
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾05
-  network: tcp
-  port: '1001'
-  server: tw5.czs1000.com
-  tls: true
-  type: vmess
-  uuid: 128f9c7b-5abd-40f2-b290-2615791f273d
-- alterId: 0
-  cipher: auto
-  name: 台湾_1204251
-  network: ws
-  port: '20000'
-  server: tw02.henet.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f522480e-f7e9-4db9-bc4f-d0bd59ebd000
-  ws-opts:
-    headers:
-      Host: cctv.com
-    path: /live
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 台湾07
-  network: tcp
-  port: '1001'
-  server: tw7.czs1000.com
-  tls: true
-  type: vmess
-  uuid: 8f699f8c-2ec8-4caa-b1df-c2e227665b7c
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 V1-台湾 多台负载均衡 中继B 1.5x
-  network: ws
-  port: '63088'
-  server: in02.my1188.org
-  tls: true
-  type: vmess
-  uuid: c1517df4-6454-39ce-9037-d5eccfc703b7
-  ws-opts:
-    headers:
-      Host: tw-load-balancer.myn1des.com
-    path: /mugua
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 TW台湾(快嘴科技来源：kkzui.com)_1
-  network: ws
-  port: '20623'
-  server: 6a9f4.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: e9376e2a-edf7-3c19-94e4-d526794a15bd
-  ws-opts:
-    headers:
-      Host: 6a9f4.cdn.node.a.tddns-ounk.com
-    path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 台湾_1120282
-  network: ws
-  port: '443'
-  server: 104.29.64.4
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 3069769e-68d2-4e2c-b1e6-2b55b469c042
-  ws-opts:
-    headers:
-      Host: rb.kuainiao.buzz
-    path: /kuainiao/rb
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 TW 5 Chunghwa Telecom Co.  ...
-  network: ws
-  port: '80'
-  server: tw.hcnmb.com
-  tls: false
-  type: vmess
-  uuid: dc3168f9-87f9-41aa-a415-d5f9140fef79
-  ws-opts:
-    headers:
-      Host: download.cloud.189.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 V1-香港 多台负载均衡 中继B | 1.5x
-  network: ws
-  port: '63078'
-  server: in02.my1188.org
-  tls: true
-  type: vmess
-  uuid: 5f04de84-6b7e-3564-82c2-d2a998002629
-  ws-opts:
-    headers:
-      Host: '%7B%22Host%22:%22hk-balancer.airport-v2.com%22%7D'
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 -台湾台中市-tw99-hinet.mynodes00...
-  network: tcp
-  port: '445'
-  server: tw99-hinet.mynodes001.one
-  tls: false
-  type: vmess
-  uuid: 5f04de84-6b7e-3564-82c2-d2a998002629
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸-美国-104.29.64.4
-  network: ws
-  port: '443'
-  server: 104.29.64.4
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
-  ws-opts:
-    headers:
-      Host: us2.guolicheng.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 台湾_1120285
-  network: tcp
-  port: '39998'
-  server: 111.241.161.74
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼-台湾彰化县-104.199.131.172
-  network: tcp
-  port: '45675'
-  server: 104.199.131.172
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b73911a6-bb35-4941-a190-5d97e6b6d6f9
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸-美国-104.29.64.4 #1'
-  network: ws
-  port: '443'
-  server: 104.29.64.4
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a2c5ba68-e86a-4959-b7f3-8f8801d6370e
-  ws-opts:
-    headers:
-      Host: rb.kuainiao.buzz
-    path: /kuainiao/rb
-- alterId: 2
-  cipher: auto
-  name: 台湾_0314421
-  network: ws
-  port: '80'
-  server: 165.154.246.103
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8ed657bf-4d88-3fdc-a976-082d8f861f1f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /adobe
-- alterId: 0
-  cipher: auto
-  name: 台湾_0310432
-  network: ws
-  port: '11463'
-  server: tw4.594888.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2e2d20e2-fb26-3167-8d52-5255cf70414f
-  ws-opts:
-    headers:
-      Host: tw4.594888.xyz
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 台湾_0310431
-  network: ws
-  port: '25551'
-  server: tw3.594888.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2e2d20e2-fb26-3167-8d52-5255cf70414f
-  ws-opts:
-    headers:
-      Host: tw3.594888.xyz
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 台湾_0315004
-  network: tcp
-  port: '224'
-  server: 1.171.220.32
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-- alterId: 0
-  cipher: auto
-  name: 台湾_1208269
-  network: ws
-  port: '3306'
-  server: paopao.v2.tw03.paopaocloud.cyou
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 29f34da0-6690-3276-b467-8b3b90ebd465
-  ws-opts:
-    headers:
-      Host: tw03.ssru3.casa
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 台湾_0224485
-  network: ws
-  port: '80'
-  server: 165.154.246.150
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6671f9af-54b0-3f89-a532-556156066733
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ny
-- alterId: 2
-  cipher: auto
-  name: 台湾_0312417
-  network: ws
-  port: '80'
-  server: 165.154.246.103
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03d48671-f794-3e50-8f79-fd33c9235888
-  ws-opts:
-    headers:
-      Host: ''
-    path: /adobe
-- alterId: 0
-  cipher: auto
-  name: 台湾_0310430
-  network: ws
-  port: '25551'
-  server: tw2.594888.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2e2d20e2-fb26-3167-8d52-5255cf70414f
-  ws-opts:
-    headers:
-      Host: tw2.594888.xyz
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 台湾_0310403
-  network: ws
-  port: '443'
-  server: tw1.sanfen001.pics
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 235d3cf3-6527-4124-abf6-79d1d901a4c8
-  ws-opts:
-    headers:
-      Host: tw1.sanfen001.pics
-    path: /zh-cn
-- alterId: 2
-  cipher: auto
-  name: 台湾_0310423
-  network: ws
-  port: '80'
-  server: 165.154.246.103
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: adb909bb-0486-36e0-a1de-57c69571df87
-  ws-opts:
-    headers:
-      Host: ''
-    path: /adobe
-- alterId: 0
-  cipher: auto
-  name: 台湾_0130404
-  network: ws
-  port: '80'
-  server: 165.154.246.150
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3c67540e-16eb-37b0-aadd-297289203a43
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ny
-- alterId: 0
-  cipher: auto
-  name: 台湾_0314081
-  network: ws
-  port: '25551'
-  server: tw2.594888.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3e0b900a-9768-3d66-b16b-ca04e0a9a583
-  ws-opts:
-    headers:
-      Host: tw2.594888.xyz
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 台湾_0314423
-  network: ws
-  port: '25551'
-  server: tw2.594888.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 61176083-1cca-3f59-8636-0263bf43c409
-  ws-opts:
-    headers:
-      Host: tw2.594888.xyz
-    path: /v2ray
-- alterId: 2
-  cipher: auto
-  name: 台湾_0310428
-  network: ws
-  port: '80'
-  server: 165.154.246.103
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1eefb6b1-4fa7-3ea1-afc7-dc1d7021f09a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /adobe
-- alterId: 0
-  cipher: auto
-  name: 浙江省台州市-zf.hpar.tk
-  network: ws
-  port: '20018'
-  server: zf.hpar.tk
-  tls: false
-  type: vmess
-  uuid: 3989d205-2196-3a91-8bd7-121fe3704581
-  ws-opts:
-    headers:
-      Host: xuexi.cn
-    path: /videos
-- alterId: 0
-  cipher: auto
-  name: '台湾 赫亚资讯有限公司 #1'
-  network: ws
-  port: 443
-  server: twxjj1222103.103.128.207.xhtk.cc
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 7d1304ea-f542-1650-d568-a3d76e84f946
-  ws-opts:
-    headers:
-      Host: twxjj1222103.103.128.207.xhtk.cc
-    path: /uympvws
-- alterId: 0
-  cipher: auto
-  name: 台湾_0108286
-  network: ''
-  port: '80'
-  server: 18c035a5-cfa0-6e07-6906-834de3b3eb73.cnnic.rip
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d
-- alterId: 0
-  cipher: auto
-  name: TW【付费推荐：goo.gs/vip】
-  network: ws
-  port: '443'
-  server: twdns.sylu.cyou
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  ws-opts:
-    headers:
-      Host: gcorehk.sylu.cyou
-    path: /Falling42gcorehknode
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼-台湾宜兰县-twipv4.useipv6now.com
-  network: ws
-  port: '6617'
-  server: twipv4.useipv6now.com
-  tls: false
-  type: vmess
-  uuid: 6ca86014-8d5b-45e4-ae7c-90994689037f
-  ws-opts:
-    headers:
-      Host: twipv4.useipv6now.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'github.com/freefq - 台湾省彰化县中华电信... #1'
-  network: ws
-  port: 443
-  server: 1.170.217.168
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 49d4366b-745c-4c2b-856b-a5b7970a8007
-  ws-opts:
-    headers:
-      Host: dengxin.one
-    path: /xKSmQcJ1xL
-- alterId: 0
-  cipher: auto
-  name: '浙江省台州市-zf.hpar.tk #1'
-  network: ws
-  port: '20013'
-  server: zf.hpar.tk
-  tls: false
-  type: vmess
-  uuid: 3989d205-2196-3a91-8bd7-121fe3704581
-  ws-opts:
-    headers:
-      Host: xuexi.cn
-    path: /videos
-- alterId: 0
-  cipher: auto
-  name: '浙江省台州市-zf.hpar.tk #2'
-  network: tcp
-  port: '20015'
-  server: zf.hpar.tk
-  tls: false
-  type: vmess
-  uuid: 3989d205-2196-3a91-8bd7-121fe3704581
-- alterId: 0
-  cipher: auto
-  name: 台湾_1228201
-  network: ws
-  port: '25551'
-  server: tw3.594888.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3cc11062-7efb-3ece-a6c0-0dd1439c4774
-  ws-opts:
-    headers:
-      Host: tw3.594888.xyz
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼-台湾桃园市-tw.hgwc.xyz
-  network: ws
-  port: '101'
-  server: tw.hgwc.xyz
-  tls: false
-  type: vmess
-  uuid: 4753033a-3779-4459-adf7-88970190c90a
-  ws-opts:
-    headers:
-      Host: tw.hgwc.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 台湾_1208271
-  network: ws
-  port: '3306'
-  server: paopao.v2.tw04.paopaocloud.cyou
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: e8235c79-47e0-3c41-947a-48e6eecad939
-  ws-opts:
-    headers:
-      Host: tw04.ssru3.casa
-    path: /v2ray
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #41'
+  name: 'Vip1丨台湾32丨隧道专线 #27'
   network: tcp
   port: 22032
   server: scloud32.jafiyun.world
@@ -6809,7 +3852,7 @@ proxies:
   uuid: dbad380f-6388-3a61-9c83-03ee5b2c277d
 - alterId: 0
   cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #38'
+  name: 'JCBB_ 台湾 02【vip1】 #5'
   network: ws
   port: '24001'
   server: gzyd.jcnode.top
@@ -6822,7 +3865,7 @@ proxies:
     path: ''
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #42'
+  name: 'Vip1丨台湾32丨隧道专线 #28'
   network: tcp
   port: 22032
   server: scloud32.jafiyun.world
@@ -6840,7 +3883,7 @@ proxies:
   uuid: 6738c25a-d929-3319-8119-b7427b6f3d96
 - alterId: 0
   cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #39'
+  name: 'JCBB_ 台湾 02【vip1】 #6'
   network: ws
   port: '24001'
   server: gzyd.jcnode.top
@@ -6853,7 +3896,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #39'
+  name: 'JCBB_ 台湾 01【vip1】 #9'
   network: ws
   port: '24000'
   server: gzyd.jcnode.top
@@ -6864,6 +3907,45 @@ proxies:
     headers:
       Host: ''
     path: ''
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #10'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4ea1ac12-54c4-42ba-80ac-de455386e6c6
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 JCBB_ 台湾 01【vip1】
+  network: ws
+  port: 24000
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 0ab48a35-5ff2-4d18-bc74-f48eb5bebe67
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 JCBB_ 台湾 01【vip1】 #1'
+  network: ws
+  port: 24000
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 323cc972-543a-4727-9c34-7ef3b4a9ce7d
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
 - alterId: 2
   cipher: auto
   name: 'Vip1丨台湾33丨ChatGPT #46'
@@ -6884,7 +3966,7 @@ proxies:
   uuid: b1ef5d72-a79a-3362-ace0-6c2225921039
 - alterId: 0
   cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #40'
+  name: 'JCBB_ 台湾 02【vip1】 #7'
   network: ws
   port: '24001'
   server: gzyd.jcnode.top
@@ -6897,7 +3979,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #40'
+  name: 'JCBB_ 台湾 01【vip1】 #11'
   network: ws
   port: '24000'
   server: gzyd.jcnode.top
@@ -6942,7 +4024,7 @@ proxies:
   uuid: d89b6f06-040b-4c42-9ee8-63f5d48322af
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #43'
+  name: 'Vip1丨台湾32丨隧道专线 #29'
   network: tcp
   port: 22032
   server: scloud32.jafiyun.world
@@ -6951,7 +4033,7 @@ proxies:
   uuid: 456448f5-495e-3454-a051-134dce38c31c
 - alterId: 0
   cipher: auto
-  name: '浙江省台州市-4a2u0a04.mcfront.xyz #5'
+  name: '浙江省台州市-4a2u0a04.mcfront.xyz #4'
   network: tcp
   port: '31501'
   server: 4a2u0a04.mcfront.xyz
@@ -6960,7 +4042,7 @@ proxies:
   uuid: 8a776cbf-11b4-4d83-8566-8f32ed2f87ab
 - alterId: 0
   cipher: auto
-  name: 'vip1 台湾-03 #35'
+  name: 'vip1 台湾-03 #6'
   network: ws
   port: '42000'
   server: gzyd02.jcnode.top
@@ -6973,7 +4055,7 @@ proxies:
     path: /fly
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨台湾32丨隧道专线 #44'
+  name: 'Vip1丨台湾32丨隧道专线 #30'
   network: tcp
   port: 22032
   server: scloud32.jafiyun.world
@@ -6982,7 +4064,21 @@ proxies:
   uuid: 6738c25a-d929-3319-8119-b7427b6f3d96
 - alterId: 0
   cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #41'
+  name: 台湾_0328483
+  network: ws
+  port: '11463'
+  server: tw4.594888.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d10e7ff3-99b1-3a00-a476-bd1e32a3dfc5
+  ws-opts:
+    headers:
+      Host: tw4.594888.xyz
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #12'
   network: ws
   port: '24000'
   server: gzyd.jcnode.top
@@ -7002,6 +4098,16 @@ proxies:
   tls: false
   type: vmess
   uuid: b1ef5d72-a79a-3362-ace0-6c2225921039
+- alterId: 2
+  cipher: auto
+  name: 台湾 002
+  network: ws
+  port: 80
+  server: 165.154.246.103
+  tls: false
+  type: vmess
+  uuid: 123eebd4-3d11-376b-be15-c2ea3be066e4
+  ws-opts: {}
 - alterId: 0
   cipher: auto
   name: '🇨🇳 台湾 HINET｜隧道 01 - 爱猫论坛 #1'
@@ -7013,7 +4119,7 @@ proxies:
   uuid: 460a2103-d051-345d-8154-b696875bbed4
 - alterId: 0
   cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #41'
+  name: 'JCBB_ 台湾 02【vip1】 #8'
   network: ws
   port: '24001'
   server: gzyd.jcnode.top
@@ -7026,7 +4132,7 @@ proxies:
     path: ''
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #37'
+  name: 'Vip1丨台湾30丨隧道专线 #25'
   network: tcp
   port: 22030
   server: scloud30.jafiyun.world
@@ -7035,7 +4141,7 @@ proxies:
   uuid: dbad380f-6388-3a61-9c83-03ee5b2c277d
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #39'
+  name: 'Vip1丨台湾31丨隧道专线 #25'
   network: tcp
   port: 22031
   server: scloud31.jafiyun.world
@@ -7044,7 +4150,7 @@ proxies:
   uuid: dbad380f-6388-3a61-9c83-03ee5b2c277d
 - alterId: 0
   cipher: auto
-  name: '浙江省台州市-6w7j3p04.mcfront.xyz #5'
+  name: '浙江省台州市-6w7j3p04.mcfront.xyz #4'
   network: tcp
   port: '31116'
   server: 6w7j3p04.mcfront.xyz
@@ -7053,7 +4159,7 @@ proxies:
   uuid: 903ecc34-c5cc-4e42-a6a2-05b9d1bf5903
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #40'
+  name: 'Vip1丨台湾31丨隧道专线 #26'
   network: tcp
   port: 22031
   server: scloud31.jafiyun.world
@@ -7080,7 +4186,7 @@ proxies:
   uuid: ec09fbca-2b27-38e0-93f8-74d8be1ac882
 - alterId: 0
   cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #42'
+  name: 'JCBB_ 台湾 01【vip1】 #13'
   network: ws
   port: '24000'
   server: gzyd.jcnode.top
@@ -7093,7 +4199,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 'vip1 台湾-03 #36'
+  name: 'vip1 台湾-03 #7'
   network: ws
   port: '42000'
   server: gzyd02.jcnode.top
@@ -7106,7 +4212,7 @@ proxies:
     path: /fly
 - alterId: 0
   cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #42'
+  name: 'JCBB_ 台湾 02【vip1】 #9'
   network: ws
   port: '24001'
   server: gzyd.jcnode.top
@@ -7119,7 +4225,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 'vip1 台湾-01 #35'
+  name: 'vip1 台湾-01 #7'
   network: ws
   port: '42000'
   server: gzdx.jcnode.top
@@ -7132,7 +4238,7 @@ proxies:
     path: /fly
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #38'
+  name: 'Vip1丨台湾30丨隧道专线 #26'
   network: tcp
   port: 22030
   server: scloud30.jafiyun.world
@@ -7168,7 +4274,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #43'
+  name: 'JCBB_ 台湾 02【vip1】 #10'
   network: ws
   port: '24001'
   server: gzyd.jcnode.top
@@ -7195,7 +4301,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '浙江省台州市-8l2k1r04.mcfront.xyz #8'
+  name: '浙江省台州市-8l2k1r04.mcfront.xyz #7'
   network: tcp
   port: '31401'
   server: 8l2k1r04.mcfront.xyz
@@ -7204,7 +4310,7 @@ proxies:
   uuid: 7056f209-8943-48bc-8428-465e1e898e07
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #39'
+  name: 'Vip1丨台湾30丨隧道专线 #27'
   network: tcp
   port: 22030
   server: scloud30.jafiyun.world
@@ -7213,7 +4319,7 @@ proxies:
   uuid: 6738c25a-d929-3319-8119-b7427b6f3d96
 - alterId: 0
   cipher: auto
-  name: 'JCBB_ 台湾 02【vip1】 #44'
+  name: 'JCBB_ 台湾 02【vip1】 #11'
   network: ws
   port: '24001'
   server: gzyd.jcnode.top
@@ -7226,7 +4332,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #43'
+  name: 'JCBB_ 台湾 01【vip1】 #14'
   network: ws
   port: '24000'
   server: gzyd.jcnode.top
@@ -7239,7 +4345,7 @@ proxies:
     path: ''
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #41'
+  name: 'Vip1丨台湾31丨隧道专线 #27'
   network: tcp
   port: 22031
   server: scloud31.jafiyun.world
@@ -7255,9 +4361,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 38551c7c-2342-4935-b645-186fe9206b75
+- alterId: 0
+  cipher: auto
+  name: 台湾_0331042
+  network: tcp
+  port: '224'
+  server: 1.171.194.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨台湾31丨隧道专线 #42'
+  name: 'Vip1丨台湾31丨隧道专线 #28'
   network: tcp
   port: 22031
   server: scloud31.jafiyun.world
@@ -7284,7 +4400,7 @@ proxies:
   uuid: 442ad47a-278c-3f71-ab69-fc80dd1ef3a2
 - alterId: 0
   cipher: auto
-  name: 'JCBB_ 台湾 01【vip1】 #44'
+  name: 'JCBB_ 台湾 01【vip1】 #15'
   network: ws
   port: '24000'
   server: gzyd.jcnode.top
@@ -7295,6 +4411,19 @@ proxies:
     headers:
       Host: ''
     path: ''
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 vip1 台湾-03
+  network: ws
+  port: 42000
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 95445f91-9786-44e0-8df4-e8a02f8f635f
+  ws-opts:
+    headers:
+      Host: gzyd02.jcnode.top
+    path: /fly
 - alterId: 0
   cipher: auto
   name: 台湾 01
@@ -7310,13 +4439,26 @@ proxies:
     path: /7355608
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨台湾30丨隧道专线 #40'
+  name: 'Vip1丨台湾30丨隧道专线 #28'
   network: tcp
   port: 22030
   server: scloud30.jafiyun.world
   tls: false
   type: vmess
   uuid: ec09fbca-2b27-38e0-93f8-74d8be1ac882
+- alterId: 0
+  cipher: auto
+  name: '🇹🇼 台4[直连]-流媒体NF '
+  network: ws
+  port: 11463
+  server: tw4.594888.xyz
+  tls: false
+  type: vmess
+  uuid: 784ede01-8b10-3f69-95a3-aa0832557330
+  ws-opts:
+    headers:
+      Host: tw4.594888.xyz
+    path: /v2ray
 - alterId: 2
   cipher: auto
   name: '[vip1]︱V2ray︱⑭台湾 1000M｜×1倍率... #1'
@@ -7383,7 +4525,7 @@ proxies:
   uuid: 9a21a898-17f9-4c8a-8848-6177728338b3
 - alterId: 0
   cipher: auto
-  name: '浙江省台州市-4a2u0a04.mcfront.xyz #6'
+  name: '浙江省台州市-4a2u0a04.mcfront.xyz #5'
   network: tcp
   port: '31501'
   server: 4a2u0a04.mcfront.xyz
@@ -7392,7 +4534,7 @@ proxies:
   uuid: 4f4b3a03-c265-43c8-a4c5-f31878169868
 - alterId: 0
   cipher: auto
-  name: '浙江省台州市-6w7j3p04.mcfront.xyz #6'
+  name: '浙江省台州市-6w7j3p04.mcfront.xyz #5'
   network: tcp
   port: '31116'
   server: 6w7j3p04.mcfront.xyz
@@ -7511,7 +4653,7 @@ proxies:
   uuid: 38551c7c-2342-4935-b645-186fe9206b75
 - alterId: 0
   cipher: auto
-  name: '浙江省台州市-4a2u0a04.mcfront.xyz #7'
+  name: '浙江省台州市-4a2u0a04.mcfront.xyz #6'
   network: tcp
   port: '31501'
   server: 4a2u0a04.mcfront.xyz
@@ -7520,7 +4662,7 @@ proxies:
   uuid: 72b0d058-9ad9-4b25-bab3-7dd2f1667957
 - alterId: 0
   cipher: auto
-  name: '浙江省台州市-4a2u0a04.mcfront.xyz #8'
+  name: '浙江省台州市-4a2u0a04.mcfront.xyz #7'
   network: tcp
   port: '31501'
   server: 4a2u0a04.mcfront.xyz
@@ -7543,7 +4685,7 @@ proxies:
     path: /adobe
 - alterId: 0
   cipher: auto
-  name: '浙江省台州市-6w7j3p04.mcfront.xyz #7'
+  name: '浙江省台州市-6w7j3p04.mcfront.xyz #6'
   network: tcp
   port: '31116'
   server: 6w7j3p04.mcfront.xyz
@@ -7552,7 +4694,7 @@ proxies:
   uuid: d89b6f06-040b-4c42-9ee8-63f5d48322af
 - alterId: 0
   cipher: auto
-  name: '浙江省台州市-6w7j3p04.mcfront.xyz #8'
+  name: '浙江省台州市-6w7j3p04.mcfront.xyz #7'
   network: tcp
   port: '31116'
   server: 6w7j3p04.mcfront.xyz
@@ -7607,6 +4749,2907 @@ proxies:
     path: /tu
 - alterId: 0
   cipher: auto
+  name: 'vip1 台湾-01 #8'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 01f2c969-c29c-4475-8563-2bf8aeffa6a6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 64
+  cipher: auto
+  name: '台湾 CHT [03] #1'
+  network: ws
+  port: 153
+  server: cht3.qiangdong.xyz
+  tls: false
+  type: vmess
+  uuid: 80ef6c0f-fa4c-3618-b23a-e45775bfbde8
+  ws-opts:
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #8'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 878687e4-48a6-4296-a0a4-1985a01fd21d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 64
+  cipher: auto
+  name: '台湾 CHT [01] #1'
+  network: ws
+  port: 153
+  server: cht1.qiangdong.xyz
+  tls: false
+  type: vmess
+  uuid: 09e2b227-e05c-3bc9-9ad6-89f17405ad57
+  ws-opts:
+    path: /api/v3/download.getFile
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾31丨隧道专线 #29'
+  network: tcp
+  port: 22031
+  server: scloud31.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 326ddcd9-b338-3acd-8949-9ea70c8b2be3
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾33丨ChatGPT #62'
+  network: tcp
+  port: 22033
+  server: scloud33.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 06957dde-400c-35d8-8e08-b4327b5a41af
+- alterId: 0
+  cipher: auto
+  name: '🇹🇼-台湾彰化县-tw3.594888.xyz #1'
+  network: ws
+  port: 25551
+  server: tw3.594888.xyz
+  tls: false
+  type: vmess
+  uuid: 784ede01-8b10-3f69-95a3-aa0832557330
+  ws-opts:
+    headers:
+      Host: tw3.594888.xyz
+    path: /v2ray
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾33丨ChatGPT #76'
+  network: tcp
+  port: 22033
+  server: scloud33.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: d803e4b5-77e0-31be-86c0-dd8dc67a4557
+- alterId: 2
+  cipher: auto
+  name: '🇹🇼TW-165.154.243.45-17701-W... #1'
+  network: ws
+  port: 443
+  server: 104.19.145.95
+  servername: milad2.sudizo7748.workers.dev
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    path: /625tw01.fx6688.top:443/
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #16'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 9c8c4f8c-c576-48ba-890a-4d87c60dc3b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #12'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 2a3dba59-fe36-4b0f-ab57-9cc2894609fd
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 JCBB_ 台湾 02【vip1】 #10'
+  network: ws
+  port: 24001
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 7313c40e-617f-42f6-a0af-3395934ec7d9
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾30丨隧道专线 #29'
+  network: tcp
+  port: 22030
+  server: scloud30.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 06957dde-400c-35d8-8e08-b4327b5a41af
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #17'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4570f15c-17df-47c0-9909-29840a3687b2
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾30丨隧道专线 #30'
+  network: tcp
+  port: 22030
+  server: scloud30.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: db07b99d-5eff-33cd-95e1-76d88221d4e1
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾32丨隧道专线 #31'
+  network: tcp
+  port: 22032
+  server: scloud32.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: d6e863b3-f13f-3052-8eec-78d9c6cb1658
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #18'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 6a31c9d2-56b8-495a-b30e-cdf8f28db67a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #9'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4920db77-a061-4609-9f9e-7dca6d1f9ef4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 JCBB_ 台湾 02【vip1】 #12'
+  network: ws
+  port: 24001
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: a57b6d69-1c0f-4f98-b4ef-3fd658fa0c40
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #10'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 0b8a61ea-5e6b-497c-91aa-88c04ca852b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 JCBB_ 台湾 02【vip1】 #8'
+  network: ws
+  port: 24001
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 5a5a6d81-1953-48aa-a73d-22d8f449085d
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾32丨隧道专线 #32'
+  network: tcp
+  port: 22032
+  server: scloud32.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 769193c2-2e3e-3659-8c71-3e1ab6d089b2
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾32丨隧道专线 #33'
+  network: tcp
+  port: 22032
+  server: scloud32.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 06957dde-400c-35d8-8e08-b4327b5a41af
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #13'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 65f673b0-3b6c-491c-9e0a-9678a5dca801
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾31丨隧道专线 #30'
+  network: tcp
+  port: 22031
+  server: scloud31.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 617ed0b1-dbd5-3e29-8312-e536a968f5d4
+- alterId: 0
+  cipher: auto
+  name: '台湾_57 #1'
+  network: ws
+  port: 24000
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 0e7509b7-a4b6-4319-9c94-f46bb5895344
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #19'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 65f673b0-3b6c-491c-9e0a-9678a5dca801
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 JCBB_ 台湾 01【vip1】 #7'
+  network: ws
+  port: 24000
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 733f36e6-f6a9-4794-831b-faf9e80b2eac
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #20'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 3eaf99d5-e046-4777-b531-4ee982c5bad6
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #21'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: c1d6930d-6e4d-4f5a-a6c7-7e79c095615b
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #9'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: e99e76e2-c70c-4fed-8ada-76578e11b76b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #10'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 0b8a61ea-5e6b-497c-91aa-88c04ca852b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾31丨隧道专线 #31'
+  network: tcp
+  port: 22031
+  server: scloud31.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: db07b99d-5eff-33cd-95e1-76d88221d4e1
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 JCBB_ 台湾 02【vip1】 2 #2'
+  network: ws
+  port: 24001
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 61666c08-83fb-4e65-9737-6fe44d8a29ad
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '台湾_126 #1'
+  network: ws
+  port: 24001
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 0be76ac3-2cd8-4503-9576-215be757454f
+  ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾31丨隧道专线 #32'
+  network: tcp
+  port: 22031
+  server: scloud31.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 9c898291-d4d5-363d-8ee8-9a01f4af8d49
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #22'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 61666c08-83fb-4e65-9737-6fe44d8a29ad
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾32丨隧道专线 #34'
+  network: tcp
+  port: 22032
+  server: scloud32.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: d803e4b5-77e0-31be-86c0-dd8dc67a4557
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 vip1 台湾-01 #9'
+  network: ws
+  port: 42000
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 977ceb9a-a4df-4050-9e6f-c0a016c07f8e
+  ws-opts:
+    headers:
+      Host: gzdx.jcnode.top
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #11'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 953d6788-da0c-4caf-a2fa-ad0ace4eaf9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #11'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 2282f8f1-9896-4643-ae47-e59fa7d8a667
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾31丨隧道专线 #33'
+  network: tcp
+  port: 22031
+  server: scloud31.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: dbfbbd9b-e741-36bc-8ab0-3488adac5064
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #23'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: ffcb5318-e1d3-4844-8816-701fbc992367
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾30丨隧道专线 #31'
+  network: tcp
+  port: 22030
+  server: scloud30.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: dbfbbd9b-e741-36bc-8ab0-3488adac5064
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾33丨ChatGPT #57'
+  network: tcp
+  port: 22033
+  server: scloud33.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 769193c2-2e3e-3659-8c71-3e1ab6d089b2
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾30丨隧道专线 #32'
+  network: tcp
+  port: 22030
+  server: scloud30.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: d6e863b3-f13f-3052-8eec-78d9c6cb1658
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #24'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 7313c40e-617f-42f6-a0af-3395934ec7d9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #12'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 3cacc7dc-c59d-46f0-82dd-81e06b3b3d22
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾31丨隧道专线 #34'
+  network: tcp
+  port: 22031
+  server: scloud31.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 06957dde-400c-35d8-8e08-b4327b5a41af
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #12'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: e3104fdb-78d0-4cd0-a052-c5cbc7f981b7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #14'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 076bfdea-c56b-423d-a972-48eccc9e9697
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #15'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 6a31c9d2-56b8-495a-b30e-cdf8f28db67a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #13'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: e99e76e2-c70c-4fed-8ada-76578e11b76b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #14'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 7276c8b5-d4f5-4748-991e-34cc0c5b19d3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #25'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 5a5a6d81-1953-48aa-a73d-22d8f449085d
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾33丨ChatGPT #75'
+  network: tcp
+  port: 22033
+  server: scloud33.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: d6e863b3-f13f-3052-8eec-78d9c6cb1658
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #26'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 61a08bc5-d32d-4c8d-bbff-a67bf7b7fbf3
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #16'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 61a08bc5-d32d-4c8d-bbff-a67bf7b7fbf3
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾33丨ChatGPT #44'
+  network: tcp
+  port: 22033
+  server: scloud33.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 456448f5-495e-3454-a051-134dce38c31c
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #15'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 541bd2aa-94a6-472d-af4b-3fc92a13e7fc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾32丨隧道专线 #35'
+  network: tcp
+  port: 22032
+  server: scloud32.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: db07b99d-5eff-33cd-95e1-76d88221d4e1
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼-台湾台中市-tw4.594888.xyz
+  network: ws
+  port: '11463'
+  server: tw4.594888.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb01f76e-1aaf-3c7f-bb79-79945a293bea
+  ws-opts:
+    headers:
+      Host: tw4.594888.xyz
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼-台湾-sldron.kctr2038.icu
+  network: ws
+  port: '11864'
+  server: sldron.kctr2038.icu
+  tls: true
+  type: vmess
+  uuid: 895eff47-4efa-4f60-9aaf-40e4edd05bcf
+  ws-opts:
+    headers:
+      Host: sldron.kctr2038.icu
+    path: /7355608
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #16'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 977ceb9a-a4df-4050-9e6f-c0a016c07f8e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾30丨隧道专线 #33'
+  network: tcp
+  port: 22030
+  server: scloud30.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: d803e4b5-77e0-31be-86c0-dd8dc67a4557
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 JCBB_ 台湾 01【vip1】 #9'
+  network: ws
+  port: 24000
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: e798d0b8-6856-42de-9743-5d4b1046f2b4
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '浙江省台州市-8l2k1r04.mcfront.xyz #8'
+  network: tcp
+  port: '31401'
+  server: 8l2k1r04.mcfront.xyz
+  tls: false
+  type: vmess
+  uuid: d89b6f06-040b-4c42-9ee8-63f5d48322af
+- alterId: 0
+  cipher: auto
+  name: '台湾_68 #1'
+  network: ws
+  port: 24001
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 7558ac59-4c33-411f-8836-da05beec6679
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '浙江省台州市-4a2u0a04.mcfront.xyz #8'
+  network: tcp
+  port: '31501'
+  server: 4a2u0a04.mcfront.xyz
+  tls: false
+  type: vmess
+  uuid: 38551c7c-2342-4935-b645-186fe9206b75
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #13'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 953d6788-da0c-4caf-a2fa-ad0ace4eaf9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #14'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 764a8e05-a9bd-45b7-b604-30a670eb3642
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #27'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: ffe84644-1f68-4e92-88e1-8482151f7090
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾30丨隧道专线 #34'
+  network: tcp
+  port: 22030
+  server: scloud30.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 769193c2-2e3e-3659-8c71-3e1ab6d089b2
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #17'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 6a1a2a46-a94f-4ed4-9a6d-3e848693b198
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #17'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: d0991f5b-0ea1-4e65-88de-885c240e9812
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #15'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 9c609294-1421-41de-9c68-02656354e10b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #16'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 3cacc7dc-c59d-46f0-82dd-81e06b3b3d22
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #18'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: d1330521-51bc-470b-a96b-f65a7b6157a2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #18'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 125dfa54-5c58-4043-a955-639f5ae968e5
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #17'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: d4ba2bcf-40c4-4e31-bbfd-1c8212e99cc8
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #19'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 9c609294-1421-41de-9c68-02656354e10b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 vip1 台湾-01 #6'
+  network: ws
+  port: 42000
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 16f18d8f-166e-45f2-a7f8-f5730b5687d6
+  ws-opts:
+    headers:
+      Host: gzdx.jcnode.top
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #18'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 95445f91-9786-44e0-8df4-e8a02f8f635f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #19'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: c1d6930d-6e4d-4f5a-a6c7-7e79c095615b
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #20'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 5d68bfb8-9f04-4807-b327-dd6342f91e11
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #21'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: d4ba2bcf-40c4-4e31-bbfd-1c8212e99cc8
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 JCBB_ 台湾 02【vip1】 #11'
+  network: ws
+  port: 24001
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 9c8c4f8c-c576-48ba-890a-4d87c60dc3b1
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #19'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: aa712df9-b860-41fa-bcee-346cddfe1c10
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾32丨隧道专线 #36'
+  network: tcp
+  port: 22032
+  server: scloud32.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 9c898291-d4d5-363d-8ee8-9a01f4af8d49
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾31丨隧道专线 #35'
+  network: tcp
+  port: 22031
+  server: scloud31.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 769193c2-2e3e-3659-8c71-3e1ab6d089b2
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #20'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4ea1ac12-54c4-42ba-80ac-de455386e6c6
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #20'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: f32bbdba-6fc1-43ef-b89c-a6c586b0eb4b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 JCBB_ 台湾 02【vip1】 #9'
+  network: ws
+  port: 24001
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 6d199979-ac53-4a66-99ef-82c6dc727741
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 vip1 台湾-01 #7'
+  network: ws
+  port: 42000
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4920db77-a061-4609-9f9e-7dca6d1f9ef4
+  ws-opts:
+    headers:
+      Host: gzdx.jcnode.top
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #28'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: d0991f5b-0ea1-4e65-88de-885c240e9812
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #29'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 076bfdea-c56b-423d-a972-48eccc9e9697
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #22'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 870b3c23-3ac1-4aa9-bc13-68151baa2806
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #21'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 770520b2-0ca7-4bf7-b157-449475d5b522
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #30'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 770520b2-0ca7-4bf7-b157-449475d5b522
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #21'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: d1330521-51bc-470b-a96b-f65a7b6157a2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #23'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 940f40d3-7b04-4fd0-a897-9d0f1f0930db
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #31'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: a15462f1-1a59-40af-95bc-794ee8316a6c
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #22'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 940f40d3-7b04-4fd0-a897-9d0f1f0930db
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 台湾 HINET｜隧道 02 - 爱猫论坛 #1'
+  network: tcp
+  port: 36019
+  server: cmxuzhou.netflix6.com
+  tls: false
+  type: vmess
+  uuid: 460a2103-d051-345d-8154-b696875bbed4
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #24'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: e3104fdb-78d0-4cd0-a052-c5cbc7f981b7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾30丨隧道专线 #35'
+  network: tcp
+  port: 22030
+  server: scloud30.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 4c7da0a5-0fd8-3c68-b973-1c1902e562ea
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #32'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4b021078-a562-49ce-b5e2-d77d5bcf09fc
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '浙江省台州市-6w7j3p04.mcfront.xyz #8'
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  tls: false
+  type: vmess
+  uuid: f0b8df2b-adde-4d02-82be-a7ac8f33de31
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #22'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4b021078-a562-49ce-b5e2-d77d5bcf09fc
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #33'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: fd162ab1-3d53-47dd-8605-e994a26100f8
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #23'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 5d68bfb8-9f04-4807-b327-dd6342f91e11
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾_1208257
+  network: ws
+  port: '80'
+  server: http.download.yunzhongzhuan.com
+  tls: false
+  type: vmess
+  uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
+  ws-opts:
+    headers:
+      Host: ssrsub.v02.asuka.buzz
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾_1208149
+  network: tcp
+  port: '10000'
+  server: tw2.rovod.top
+  tls: false
+  type: vmess
+  uuid: ab42ea1f-8e2f-3fff-8a11-d124d62b849e
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾_1204255
+  network: ws
+  port: '443'
+  server: hinet.nbsd.win
+  tls: true
+  type: vmess
+  uuid: dd7639cf-66dd-3038-ab0e-cefe7e9ef9fb
+  ws-opts:
+    headers:
+      Host: hinet.nbsd.win
+    path: /videos/stream
+- alterId: 0
+  cipher: auto
+  name: 台湾_1208250
+  network: ws
+  port: '11463'
+  server: tw4.594888.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c4850ff3-6256-304b-9a40-628e9c3ac724
+  ws-opts:
+    headers:
+      Host: tw4.594888.xyz
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾(油管破解资源君2.0)
+  network: tcp
+  port: '40201'
+  server: ying-unicom.gatknqh.cn
+  tls: false
+  type: vmess
+  uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾_1208276
+  network: tcp
+  port: '1001'
+  server: tw2.czs1000.com
+  tls: true
+  type: vmess
+  uuid: 1bd772e1-ce31-4980-9cb7-a4d24873aa1b
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾_1208253
+  network: ws
+  port: '3306'
+  server: paopao.v2.tw04.paopaocloud.cyou
+  tls: true
+  type: vmess
+  uuid: fb0d7a1d-0a0f-3d66-8ac5-4dd4a303b83a
+  ws-opts:
+    headers:
+      Host: tw04.ssru3.casa
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾_1208078
+  network: ws
+  port: '443'
+  server: a01-hk1.moontoday.uk
+  tls: true
+  type: vmess
+  uuid: 145e21ac-ab0c-4f89-b68c-e61149095ef3
+  ws-opts:
+    headers:
+      Host: a01-hk1.moontoday.uk
+    path: /moontoday
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳 台湾_1208062
+  network: ws
+  port: '80'
+  server: 0218tw02.fans8.xyz
+  tls: false
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  ws-opts:
+    headers:
+      Host: 0218tw02.fans8.xyz
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾_1208058
+  network: tcp
+  port: '39999'
+  server: tw-tb-c.zc20200426.club
+  tls: true
+  type: vmess
+  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 -台湾桃园市-111.241.187.226
+  network: tcp
+  port: '39998'
+  server: 111.241.187.226
+  tls: true
+  type: vmess
+  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾_1208134
+  network: tcp
+  port: '1001'
+  server: tw1.rovod.top
+  tls: false
+  type: vmess
+  uuid: ab42ea1f-8e2f-3fff-8a11-d124d62b849e
+- alterId: 0
+  cipher: auto
+  name: 台湾_1208207
+  network: ws
+  port: '80'
+  server: 165.154.226.45
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4d0efa65-0f01-4f9a-b805-ed5719f6e026
+  ws-opts:
+    headers:
+      Host: dm.toutiao.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 台湾_1208118
+  network: ws
+  port: '443'
+  server: 331tw.fans8.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    headers:
+      Host: 331tw.fans8.xyz
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 台湾_1208081
+  network: ws
+  port: '443'
+  server: a02-tw2.moontoday.uk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 145e21ac-ab0c-4f89-b68c-e61149095ef3
+  ws-opts:
+    headers:
+      Host: a02-tw2.moontoday.uk
+    path: /moontoday
+- alterId: 0
+  cipher: auto
+  name: 台湾_1208068
+  network: ws
+  port: '443'
+  server: 211.72.35.110
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f6d7b072-de00-45dc-9e24-49f8cf43530d
+  ws-opts:
+    headers:
+      Host: lindo.cnabc.eu.org
+    path: /linod
+- alterId: 0
+  cipher: auto
+  name: 台湾_1208047
+  network: ws
+  port: '443'
+  server: a08-hk1.moontoday.uk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 145e21ac-ab0c-4f89-b68c-e61149095ef3
+  ws-opts:
+    headers:
+      Host: a08-hk1.moontoday.uk
+    path: /moontoday
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾04
+  network: tcp
+  port: '1001'
+  server: tw4.czs1000.com
+  tls: true
+  type: vmess
+  uuid: 128f9c7b-5abd-40f2-b290-2615791f273d
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾02
+  network: tcp
+  port: '1001'
+  server: tw2.czs1000.com
+  tls: true
+  type: vmess
+  uuid: 128f9c7b-5abd-40f2-b290-2615791f273d
+- alterId: 0
+  cipher: auto
+  name: 台湾_1206239
+  network: ws
+  port: '20000'
+  server: tw01.henet.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f522480e-f7e9-4db9-bc4f-d0bd59ebd000
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live
+- alterId: 0
+  cipher: auto
+  name: 台湾_1204250
+  network: tcp
+  port: '1001'
+  server: tw3.czs1000.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a0160e90-bdc5-4728-857a-c98f3043ecec
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾_1206044
+  network: tcp
+  port: '21234'
+  server: hinet1261.gfwisbest.xyz
+  tls: false
+  type: vmess
+  uuid: 6d896dd9-21ff-3844-a72a-332507486049
+- alterId: 1
+  cipher: auto
+  name: 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+  network: tcp
+  port: '10004'
+  server: 139.227.161.129
+  tls: false
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾(油管破解资源君2.0) 18
+  network: ws
+  port: '13710'
+  server: z65d.cdn.node.a.ddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 00c902b5-5fce-3845-bc55-e7517d30fcc1
+  ws-opts:
+    headers:
+      Host: z65d.cdn.node.a.ddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼-台湾台南市-tw1.lilyco.cc
+  network: ws
+  port: '55980'
+  server: tw1.lilyco.cc
+  tls: false
+  type: vmess
+  uuid: 668eeb4a-80a9-33cf-be79-203bce3620e9
+  ws-opts:
+    headers:
+      Host: t.me/lqmoe
+    path: /ny
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾_1206006 2
+  network: ws
+  port: '8080'
+  server: http.download.yunzhongzhuan.com
+  tls: false
+  type: vmess
+  uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
+  ws-opts:
+    headers:
+      Host: http.download.yunzhongzhuan.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾_1206190
+  network: ws
+  port: '80'
+  server: twtp2.azzhuangaping.tw
+  tls: false
+  type: vmess
+  uuid: 4c4e065f-363b-3c9b-8a4d-312f6b9840d3
+  ws-opts:
+    headers:
+      Host: twtp2.azzhuangaping.tw
+    path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼-台湾-gzbgpss.8n4t.cn
+  network: ws
+  port: '29931'
+  server: gzbgpss.8n4t.cn
+  tls: false
+  type: vmess
+  uuid: 668eeb4a-80a9-33cf-be79-203bce3620e9
+  ws-opts:
+    headers:
+      Host: gzbgpss.8n4t.cn
+    path: /ny
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾05
+  network: tcp
+  port: '1001'
+  server: tw5.czs1000.com
+  tls: true
+  type: vmess
+  uuid: 128f9c7b-5abd-40f2-b290-2615791f273d
+- alterId: 0
+  cipher: auto
+  name: 台湾_1204251
+  network: ws
+  port: '20000'
+  server: tw02.henet.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f522480e-f7e9-4db9-bc4f-d0bd59ebd000
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾07
+  network: tcp
+  port: '1001'
+  server: tw7.czs1000.com
+  tls: true
+  type: vmess
+  uuid: 8f699f8c-2ec8-4caa-b1df-c2e227665b7c
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 V1-台湾 多台负载均衡 中继B 1.5x
+  network: ws
+  port: '63088'
+  server: in02.my1188.org
+  tls: true
+  type: vmess
+  uuid: c1517df4-6454-39ce-9037-d5eccfc703b7
+  ws-opts:
+    headers:
+      Host: tw-load-balancer.myn1des.com
+    path: /mugua
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 TW台湾(快嘴科技来源：kkzui.com)_1
+  network: ws
+  port: '20623'
+  server: 6a9f4.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: e9376e2a-edf7-3c19-94e4-d526794a15bd
+  ws-opts:
+    headers:
+      Host: 6a9f4.cdn.node.a.tddns-ounk.com
+    path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
+- alterId: 0
+  cipher: auto
+  name: 台湾_1206189
+  network: ws
+  port: '443'
+  server: 104.29.64.4
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 3069769e-68d2-4e2c-b1e6-2b55b469c042
+  ws-opts:
+    headers:
+      Host: rb.kuainiao.buzz
+    path: /kuainiao/rb
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 TW 5 Chunghwa Telecom Co.  ...
+  network: ws
+  port: '80'
+  server: tw.hcnmb.com
+  tls: false
+  type: vmess
+  uuid: dc3168f9-87f9-41aa-a415-d5f9140fef79
+  ws-opts:
+    headers:
+      Host: download.cloud.189.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 V1-香港 多台负载均衡 中继B | 1.5x
+  network: ws
+  port: '63078'
+  server: in02.my1188.org
+  tls: true
+  type: vmess
+  uuid: 5f04de84-6b7e-3564-82c2-d2a998002629
+  ws-opts:
+    headers:
+      Host: '%7B%22Host%22:%22hk-balancer.airport-v2.com%22%7D'
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 -台湾台中市-tw99-hinet.mynodes00...
+  network: tcp
+  port: '445'
+  server: tw99-hinet.mynodes001.one
+  tls: false
+  type: vmess
+  uuid: 5f04de84-6b7e-3564-82c2-d2a998002629
+- alterId: 0
+  cipher: auto
+  name: 台湾_1124249
+  network: ws
+  port: '443'
+  server: 104.29.64.4
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
+  ws-opts:
+    headers:
+      Host: us2.guolicheng.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼-台湾新竹市-111.241.161.74
+  network: tcp
+  port: '39998'
+  server: 111.241.161.74
+  tls: true
+  type: vmess
+  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 -台湾彰化县-104.199.131.172
+  network: tcp
+  port: '45675'
+  server: 104.199.131.172
+  tls: false
+  type: vmess
+  uuid: b73911a6-bb35-4941-a190-5d97e6b6d6f9
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 -台湾台中市-xt001.xmrthnode.com
+  network: ws
+  port: '443'
+  server: xt001.xmrthnode.com
+  tls: true
+  type: vmess
+  uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
+  ws-opts:
+    headers:
+      Host: ws-aicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 台湾_1124248
+  network: ws
+  port: '443'
+  server: 104.29.64.4
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a2c5ba68-e86a-4959-b7f3-8f8801d6370e
+  ws-opts:
+    headers:
+      Host: rb.kuainiao.buzz
+    path: /kuainiao/rb
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #25'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 27874e24-b76d-4682-88f2-e3dd3c0bbb06
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #23'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 3bc981a8-c907-4bf0-a27a-743efc134d2f
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #24'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 7817c43a-4e4a-4b32-9ff0-cc8de8b145b0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #34'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 91d4199b-02d3-46e0-9ac9-9e46983f689f
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #25'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: c2bfda01-dc88-4dcf-b9e2-d7c5b8c9f0c7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: Relay 🇹🇼 Taiwan(ChatGPT) 11...
+  network: tcp
+  port: '36020'
+  server: cmxuzhou.netflix6.com
+  tls: false
+  type: vmess
+  uuid: bf126585-a40a-38e4-9efa-0ca4fc9a8878
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾31丨隧道专线 #36'
+  network: tcp
+  port: 22031
+  server: scloud31.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 5b505198-a6da-3d76-a8a6-4d183aeb1d3f
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #26'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: e403b3f2-cf23-4616-a0c5-51f10bfd9fd8
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾30丨隧道专线 #36'
+  network: tcp
+  port: 22030
+  server: scloud30.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 6f49a8a0-50fc-3ef0-96af-336d3471eec8
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #26'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 82c8664e-1f87-4b9f-a9ed-023d6f41c86a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾31丨隧道专线 #37'
+  network: tcp
+  port: 22031
+  server: scloud31.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: fd6cfc3e-06d4-3c52-bd9b-d3ef9960f4b4
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾33丨ChatGPT #56'
+  network: tcp
+  port: 22033
+  server: scloud33.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 6f49a8a0-50fc-3ef0-96af-336d3471eec8
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #27'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: c2bfda01-dc88-4dcf-b9e2-d7c5b8c9f0c7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #35'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 1ef9cfb4-5300-4cbd-a5db-e40a8f6b083c
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾32丨隧道专线 #37'
+  network: tcp
+  port: 22032
+  server: scloud32.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: a333fe24-29e4-38a7-9425-03518cee02a4
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾31丨隧道专线 #38'
+  network: tcp
+  port: 22031
+  server: scloud31.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 5d2c886f-43d5-39e2-9c1b-0d578caed524
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #24'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: e798d0b8-6856-42de-9743-5d4b1046f2b4
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #28'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 2282f8f1-9896-4643-ae47-e59fa7d8a667
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #25'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 1ef9cfb4-5300-4cbd-a5db-e40a8f6b083c
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: Relay 🇹🇼 Taiwan(ChatGPT) 06...
+  network: tcp
+  port: '36020'
+  server: cmxuzhou.netflix6.com
+  tls: false
+  type: vmess
+  uuid: 766fdd69-fcbe-3374-99bd-af37278e0632
+- alterId: 0
+  cipher: auto
+  name: Relay 🇹🇼 Taiwan(ChatGPT) 05...
+  network: tcp
+  port: '36018'
+  server: cmxuzhou.netflix6.com
+  tls: false
+  type: vmess
+  uuid: 766fdd69-fcbe-3374-99bd-af37278e0632
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 JCBB_ 台湾 01【vip1】 #10'
+  network: ws
+  port: 24000
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: f10acbab-2cb7-4fce-8a92-a4e28edf0007
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾30丨隧道专线 #37'
+  network: tcp
+  port: 22030
+  server: scloud30.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: c556c947-74e5-37c0-9a9d-4c87b6c345d7
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #29'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 82c8664e-1f87-4b9f-a9ed-023d6f41c86a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #36'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 6ddeacf1-0aa7-478f-b38a-86cef8f54255
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 JCBB_ 台湾 02【vip1】 2 #3'
+  network: ws
+  port: 24001
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: f1b3201e-a140-4b55-9086-dd2d2c43dbf0
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #27'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 74684168-f9c9-463c-82c7-8596e6862e4c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #30'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 16f18d8f-166e-45f2-a7f8-f5730b5687d6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #28'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 5995daf2-63a3-4fef-a703-1ea4a55f9db3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #29'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 5aa9b075-4d06-4238-9e76-0cfef1667c2a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾32丨隧道专线 #38'
+  network: tcp
+  port: 22032
+  server: scloud32.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 5d2c886f-43d5-39e2-9c1b-0d578caed524
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #26'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 8aa85c2c-6011-4865-856d-a09d249c2835
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #31'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: af2c1e56-1ebf-4279-a39e-e44da863f750
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾33丨ChatGPT #85'
+  network: tcp
+  port: 22033
+  server: scloud33.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: fd6cfc3e-06d4-3c52-bd9b-d3ef9960f4b4
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #27'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: ffe84644-1f68-4e92-88e1-8482151f7090
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #30'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: e403b3f2-cf23-4616-a0c5-51f10bfd9fd8
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #31'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: af2c1e56-1ebf-4279-a39e-e44da863f750
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #37'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 0be76ac3-2cd8-4503-9576-215be757454f
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #28'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: a4528f79-1963-4d8f-acff-7034d8a473db
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 vip1 台湾-03 #4'
+  network: ws
+  port: 42000
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 01f2c969-c29c-4475-8563-2bf8aeffa6a6
+  ws-opts:
+    headers:
+      Host: gzyd02.jcnode.top
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 JCBB_ 台湾 02【vip1】 #14'
+  network: ws
+  port: 24001
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: f10acbab-2cb7-4fce-8a92-a4e28edf0007
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #29'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 9ab8d4f9-6f0e-4811-b7fa-5692d790559b
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾32丨隧道专线 #39'
+  network: tcp
+  port: 22032
+  server: scloud32.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: fd6cfc3e-06d4-3c52-bd9b-d3ef9960f4b4
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #30'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: a15462f1-1a59-40af-95bc-794ee8316a6c
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾31丨隧道专线 #39'
+  network: tcp
+  port: 22031
+  server: scloud31.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: ac649670-d37e-3435-9908-b4c04876090e
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #31'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 6ddeacf1-0aa7-478f-b38a-86cef8f54255
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾32丨隧道专线 #40'
+  network: tcp
+  port: 22032
+  server: scloud32.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: c556c947-74e5-37c0-9a9d-4c87b6c345d7
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #38'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: a57b6d69-1c0f-4f98-b4ef-3fd658fa0c40
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '🇹🇼TW-118.167.43.210-5590 #1'
+  network: ws
+  port: 2053
+  server: emea-ru-mow-01-edgecast.qdns.live
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 935dfe1a-c512-31bc-9e97-b1ab73826047
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇹🇼TW-61.224.35.213-5302 #1'
+  network: ws
+  port: 80
+  server: tw1g.jeidian.xyz
+  servername: tms.dingtalk.com
+  tls: false
+  type: vmess
+  uuid: 2d81eefd-7d1e-4ea7-b12c-5e426e08979d
+  ws-opts:
+    path: /mugua
+- alterId: 2
+  cipher: auto
+  name: '🇹🇼TW-165.154.226.51-15676 #1'
+  network: ws
+  port: 443
+  server: 625tw02.fx6688.top
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #32'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4570f15c-17df-47c0-9909-29840a3687b2
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 64
+  cipher: auto
+  name: '台湾 Edge #1'
+  network: ws
+  port: 153
+  server: 103.156.184.21
+  tls: false
+  type: vmess
+  uuid: 48d30600-fb6d-3c1b-b8e5-9b780bd9b71f
+  ws-opts:
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #32'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: aa712df9-b860-41fa-bcee-346cddfe1c10
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #33'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: f161fcde-5fa1-4724-b114-f7b815a962e7
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾31丨隧道专线 #40'
+  network: tcp
+  port: 22031
+  server: scloud31.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: f5a68098-273e-3ce0-942e-2fa853498f81
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #32'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 0ae9da11-0ae8-410b-8962-9aa57d0b289d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #33'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 0ae9da11-0ae8-410b-8962-9aa57d0b289d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾33丨ChatGPT #78'
+  network: tcp
+  port: 22033
+  server: scloud33.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: db07b99d-5eff-33cd-95e1-76d88221d4e1
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #34'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 3eaf99d5-e046-4777-b531-4ee982c5bad6
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #39'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 6d199979-ac53-4a66-99ef-82c6dc727741
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #35'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 8c9a7d65-7f53-44b1-9906-946e66a4de84
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾31丨隧道专线 #41'
+  network: tcp
+  port: 22031
+  server: scloud31.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: a333fe24-29e4-38a7-9425-03518cee02a4
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #40'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 8c9a7d65-7f53-44b1-9906-946e66a4de84
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾33丨ChatGPT #69'
+  network: tcp
+  port: 22033
+  server: scloud33.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: a333fe24-29e4-38a7-9425-03518cee02a4
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 vip1 台湾-03 #6'
+  network: ws
+  port: 42000
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 87ade4e5-40ff-40e8-8a69-e66d08e4f840
+  ws-opts:
+    headers:
+      Host: gzyd02.jcnode.top
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #34'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 5995daf2-63a3-4fef-a703-1ea4a55f9db3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾33丨ChatGPT #84'
+  network: tcp
+  port: 22033
+  server: scloud33.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: f5a68098-273e-3ce0-942e-2fa853498f81
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾33丨ChatGPT #79'
+  network: tcp
+  port: 22033
+  server: scloud33.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: dbad380f-6388-3a61-9c83-03ee5b2c277d
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #35'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: f2baa538-f8ab-4274-8c2d-f0b0707eee17
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #33'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 878687e4-48a6-4296-a0a4-1985a01fd21d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #34'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 7276c8b5-d4f5-4748-991e-34cc0c5b19d3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #35'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: f2ea7112-2282-47a8-aa95-19b166bd4eec
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #36'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 0e7509b7-a4b6-4319-9c94-f46bb5895344
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾32丨隧道专线 #41'
+  network: tcp
+  port: 22032
+  server: scloud32.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 326ddcd9-b338-3acd-8949-9ea70c8b2be3
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾33丨ChatGPT #53'
+  network: tcp
+  port: 22033
+  server: scloud33.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 617ed0b1-dbd5-3e29-8312-e536a968f5d4
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾32丨隧道专线 #42'
+  network: tcp
+  port: 22032
+  server: scloud32.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: dbfbbd9b-e741-36bc-8ab0-3488adac5064
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #41'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 2a3dba59-fe36-4b0f-ab57-9cc2894609fd
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-01 #36'
+  network: ws
+  port: '42000'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: f2baa538-f8ab-4274-8c2d-f0b0707eee17
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾33丨ChatGPT #60'
+  network: tcp
+  port: 22033
+  server: scloud33.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 9c898291-d4d5-363d-8ee8-9a01f4af8d49
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾31丨隧道专线 #42'
+  network: tcp
+  port: 22031
+  server: scloud31.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: d6e863b3-f13f-3052-8eec-78d9c6cb1658
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾32丨隧道专线 #43'
+  network: tcp
+  port: 22032
+  server: scloud32.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 4c7da0a5-0fd8-3c68-b973-1c1902e562ea
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #37'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 9a50914c-9fdf-4364-ba32-64cf6724c527
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #42'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 9a50914c-9fdf-4364-ba32-64cf6724c527
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #43'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: f161fcde-5fa1-4724-b114-f7b815a962e7
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾32丨隧道专线 #44'
+  network: tcp
+  port: 22032
+  server: scloud32.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: f5a68098-273e-3ce0-942e-2fa853498f81
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #38'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: ce4da667-6a94-4302-9a37-83422efa5d5a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 02【vip1】 #39'
+  network: ws
+  port: '24001'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: bec47686-c1b2-4d0d-af56-4c21655edc0a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾30丨隧道专线 #38'
+  network: tcp
+  port: 22030
+  server: scloud30.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: f5a68098-273e-3ce0-942e-2fa853498f81
+- alterId: 0
+  cipher: auto
+  name: 'JCBB_ 台湾 01【vip1】 #44'
+  network: ws
+  port: '24000'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: bec47686-c1b2-4d0d-af56-4c21655edc0a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾30丨隧道专线 #39'
+  network: tcp
+  port: 22030
+  server: scloud30.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 9c898291-d4d5-363d-8ee8-9a01f4af8d49
+- alterId: 0
+  cipher: auto
+  name: 'vip1 台湾-03 #36'
+  network: ws
+  port: '42000'
+  server: gzyd02.jcnode.top
+  tls: false
+  type: vmess
+  uuid: f2ea7112-2282-47a8-aa95-19b166bd4eec
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 JCBB_ 台湾 02【vip1】 #13'
+  network: ws
+  port: 24001
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: dce72891-ef15-4a75-8249-0d9ff95151e7
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨台湾30丨隧道专线 #40'
+  network: tcp
+  port: 22030
+  server: scloud30.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 617ed0b1-dbd5-3e29-8312-e536a968f5d4
+- alterId: 0
+  cipher: auto
   name: 🇨🇳 台湾_1124072
   network: ws
   port: '11463'
@@ -7647,7 +7690,7 @@ proxies:
     path: /kuainiao/de1
 - alterId: 0
   cipher: auto
-  name: 🇨🇳 台湾_1120240
+  name: 🇨🇳 台湾_1122209
   network: ws
   port: '39664'
   server: cn2.tw.thetruman.xyz
@@ -7686,7 +7729,7 @@ proxies:
     path: /live
 - alterId: 0
   cipher: auto
-  name: 🇨🇳 台湾_1120262
+  name: 🇨🇳 台湾_1122229
   network: ws
   port: '80'
   server: 104.29.64.24
@@ -7699,7 +7742,7 @@ proxies:
     path: /ge0EAGwf/
 - alterId: 0
   cipher: auto
-  name: 🇨🇳 台湾_1120277
+  name: 🇨🇳 台湾_1122244
   network: ws
   port: '443'
   server: twddns.horizonbirth.xyz
@@ -7712,7 +7755,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇳 台湾_1118046
+  name: 🇨🇳 台湾_1122040
   network: ws
   port: '20000'
   server: tw02.henet.top
@@ -7725,7 +7768,7 @@ proxies:
     path: /live
 - alterId: 0
   cipher: auto
-  name: 🇨🇳 台湾_1120201
+  name: 台湾_1122173
   network: ws
   port: '47550'
   server: hgc2.594888.xyz
@@ -7806,16 +7849,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 台湾_1122004
-  network: tcp
-  port: '39999'
-  server: tw-tb-c.zc20200426.club
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
 - alterId: 64
   cipher: auto
   name: 🇨🇳 台湾_1120118
@@ -7913,6 +7946,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cb7001c7-e495-41ac-b942-f25f60523414
+- name: ' HYSTERIA-UDP  TW-1.170.228.14...'
+  password: 4de5bc14-2c4d-4321-8d95-e6ff3bf0f91a
+  port: 16666
+  server: 1.170.228.14
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: ' HYSTERIA-UDP  TW-1.162.136.28...'
   password: c5e6f43c-6f0e-4112-bb97-ed0dba4582d7
   port: 30001
@@ -7921,11 +7961,11 @@ proxies:
   sni: tw1-vds14.anyhk.co
   tls: false
   type: hysteria2
-- name: ' HYSTERIA-UDP  TW-1.170.215.21...'
-  password: 4de5bc14-2c4d-4321-8d95-e6ff3bf0f91a
-  port: 16666
-  server: 1.170.215.211
-  skip-cert-verify: true
+- name: ' HYSTERIA-UDP  TW-1.162.131.19...'
+  password: c5e6f43c-6f0e-4112-bb97-ed0dba4582d7
+  port: 30001
+  server: 1.162.131.195
+  sni: tw.akebi.cc
   tls: false
   type: hysteria2
 - name: ' HYSTERIA-UDP  TW-82.152.90.20...'
@@ -7935,18 +7975,11 @@ proxies:
   sni: tw.bailian.uk
   tls: false
   type: hysteria2
-- name: ' HYSTERIA-UDP  TW-1.170.228.14...'
+- name: ' HYSTERIA-UDP  TW-1.170.215.21...'
   password: 4de5bc14-2c4d-4321-8d95-e6ff3bf0f91a
   port: 16666
-  server: 1.170.228.14
+  server: 1.170.215.211
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: ' HYSTERIA-UDP  TW-1.162.131.19...'
-  password: c5e6f43c-6f0e-4112-bb97-ed0dba4582d7
-  port: 30001
-  server: 1.162.131.195
-  sni: tw.akebi.cc
   tls: false
   type: hysteria2
 - alterId: 0
@@ -7973,7 +8006,7 @@ proxies:
   server: surfboard-tw.jingfan.cyou
   tls: false
   type: hysteria2
-- name: '🇹🇼 台湾 13 #1'
+- name: '🇹🇼 台湾 13 #2'
   obfs: salamander
   obfs-password: salamander
   password: 71b111c1-41bc-429e-8e5d-f2d8c25279e6
@@ -10787,17 +10820,6 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: 台湾 CHT [01]
-  network: ws
-  port: 153
-  server: cht1.qiangdong.xyz
-  tls: false
-  type: vmess
-  uuid: 09e2b227-e05c-3bc9-9ad6-89f17405ad57
-  ws-opts:
-    path: /api/v3/download.getFile
-- alterId: 64
-  cipher: auto
   name: 台湾 CHT [02]
   network: ws
   port: 153
@@ -10807,40 +10829,18 @@ proxies:
   uuid: 2c84d7bc-a1fc-37dd-b9db-fcd0b4709dc8
   ws-opts:
     path: /api/v3/download.getFile
-- alterId: 64
-  cipher: auto
-  name: '台湾 CHT [03] #1'
-  network: ws
-  port: 153
-  server: cht3.qiangdong.xyz
-  tls: false
-  type: vmess
-  uuid: 80ef6c0f-fa4c-3618-b23a-e45775bfbde8
-  ws-opts:
-    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 台湾_57
-  network: ws
-  port: 24000
-  server: gzyd.jcnode.top
+  name: 台湾_0407545
+  network: tcp
+  port: 80
+  server: 18c035a5-cfa0-6e07-6906-834de3b3eb73.cnnic.rip
   tls: false
   type: vmess
-  uuid: 0e7509b7-a4b6-4319-9c94-f46bb5895344
-  ws-opts: {}
+  uuid: 17c5c13d-0c5b-4a57-a721-e5db4959c189
 - alterId: 0
   cipher: auto
-  name: 台湾_68
-  network: ws
-  port: 24001
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 7558ac59-4c33-411f-8836-da05beec6679
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 01【vip1】 #4'
+  name: '🇨🇳 JCBB_ 台湾 01【vip1】 #5'
   network: ws
   port: 24000
   server: gzyd.jcnode.top
@@ -10853,7 +10853,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 01【vip1】 #7'
+  name: '🇨🇳 JCBB_ 台湾 01【vip1】 #6'
+  network: ws
+  port: 24000
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4ea1ac12-54c4-42ba-80ac-de455386e6c6
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 JCBB_ 台湾 01【vip1】 #8'
   network: ws
   port: 24000
   server: gzyd.jcnode.top
@@ -10864,71 +10877,6 @@ proxies:
     headers:
       Host: gzyd.jcnode.top
     path: /
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 02【vip1】 2 #1'
-  network: ws
-  port: 24001
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 61666c08-83fb-4e65-9737-6fe44d8a29ad
-  ws-opts:
-    headers:
-      Host: gzyd.jcnode.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 02【vip1】 #7'
-  network: ws
-  port: 24001
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 7313c40e-617f-42f6-a0af-3395934ec7d9
-  ws-opts:
-    headers:
-      Host: gzyd.jcnode.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 02【vip1】 #8'
-  network: ws
-  port: 24001
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 9c8c4f8c-c576-48ba-890a-4d87c60dc3b1
-  ws-opts:
-    headers:
-      Host: gzyd.jcnode.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 JCBB_ 台湾 02【vip1】 #9'
-  network: ws
-  port: 24001
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: a57b6d69-1c0f-4f98-b4ef-3fd658fa0c40
-  ws-opts:
-    headers:
-      Host: gzyd.jcnode.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇨🇳 vip1 台湾-01 #6'
-  network: ws
-  port: 42000
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 16f18d8f-166e-45f2-a7f8-f5730b5687d6
-  ws-opts:
-    headers:
-      Host: gzdx.jcnode.top
-    path: /fly
 - alterId: 0
   cipher: auto
   name: '🇨🇳 vip1 台湾-03 #5'
@@ -10968,6 +10916,18 @@ proxies:
     headers:
       Host: hinet.nbsd.win
     path: /videos/stream
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW-61.224.124.161-15504
+  network: ws
+  port: 443
+  server: xt001.xmrthnode.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
+  ws-opts:
+    path: /
 - alterId: 1
   cipher: auto
   name: 🇹🇼TW-114.37.160.40-21345
@@ -10980,18 +10940,30 @@ proxies:
   uuid: cb7001c7-e495-41ac-b942-f25f60523414
   ws-opts:
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇹🇼TW-165.154.243.45-17701-W...
+  name: 🇹🇼TW-165.154.227.69-15510
   network: ws
-  port: 443
-  server: 104.19.145.95
-  servername: milad2.sudizo7748.workers.dev
-  tls: true
+  port: 80
+  server: twtp.azzhuangaping.tw
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  uuid: 4c4e065f-363b-3c9b-8a4d-312f6b9840d3
   ws-opts:
-    path: /625tw01.fx6688.top:443/
+    path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW-36.227.251.40-15506
+  network: ws
+  port: 20000
+  server: tw01.henet.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f522480e-f7e9-4db9-bc4f-d0bd59ebd000
+  ws-opts:
+    path: /live
 - alterId: 0
   cipher: auto
   name: TW DCBG 11
@@ -11012,3 +10984,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 3e7d92de-76b0-3975-bb10-c0d35ce6f6ab
+- alterId: 0
+  cipher: auto
+  name: github.com/freefq - 台湾省彰化县Goog...
+  network: ws
+  port: 80
+  server: 35.201.239.132
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c1d8a07f-1e5b-4819-b79b-22df7122e1fe
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: github.com/freefq - 台湾省台中市中华电信...
+  network: tcp
+  port: 5432
+  server: tw99-hinet.mynodes001.one
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 218014f7-c18b-3c44-aca7-8d0c59dd61c6
