@@ -37,15 +37,6 @@ proxies:
     path: '%2Fvless'
 - alterId: 0
   cipher: auto
-  name: 🇨🇭_定制专线：@QS00008
-  network: ''
-  port: 16650
-  server: jp.mousse.tk
-  tls: false
-  type: vmess
-  uuid: d66a47f2-5136-492c-c82a-74835bb03a76
-- alterId: 0
-  cipher: auto
   name: '1|🇨🇭2 |  5.0MB/s #1'
   network: tcp
   port: 22324
@@ -53,6 +44,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭_定制专线：@QS00008
+  network: ''
+  port: 16650
+  server: jp.mousse.tk
+  tls: false
+  type: vmess
+  uuid: d66a47f2-5136-492c-c82a-74835bb03a76
 - name: 'ꜱᴡɪᴛᴢᴇʀʟᴀɴᴅ🇨🇭 | پرسرعت #1'
   port: 443
   server: cdn.getasa.ir
@@ -75,6 +75,18 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: '🇨🇭CH-45.90.59.186-3584 #1'
+  network: ws
+  port: 10000
+  server: 45.90.59.186
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7235ae8e-c115-11ed-8faf-2356d170eaf3
+  ws-opts:
+    path: /vpnjantit
 - alterId: 0
   cipher: auto
   name: 🇨🇭-瑞士-20.38.39.18
@@ -113,19 +125,6 @@ proxies:
     headers:
       Host: www.95438290.xyz
     path: /path/243535322906
-- alterId: 0
-  cipher: auto
-  name: 🇨🇭 瑞士CH
-  network: ws
-  port: '6616'
-  server: 5.182.36.199
-  tls: false
-  type: vmess
-  uuid: 459d23f4-dcfd-4fef-9ba3-ef0ad10fc336
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 64
   cipher: auto
   name: 🇨🇭 瑞士_1120004
@@ -141,19 +140,6 @@ proxies:
     path: /path/041629110712
 - alterId: 0
   cipher: auto
-  name: 🇨🇭-瑞士-www.kehuai.tk
-  network: ws
-  port: '443'
-  server: www.kehuai.tk
-  tls: false
-  type: vmess
-  uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514
-  ws-opts:
-    headers:
-      Host: www.kehuai.tk
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇨🇭-瑞士-www.liuyiyang19891222.tk
   network: ws
   port: '443'
@@ -164,6 +150,19 @@ proxies:
   ws-opts:
     headers:
       Host: www.liuyiyang19891222.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭 瑞士CH
+  network: ws
+  port: '6616'
+  server: 5.182.36.199
+  tls: false
+  type: vmess
+  uuid: 459d23f4-dcfd-4fef-9ba3-ef0ad10fc336
+  ws-opts:
+    headers:
+      Host: ''
     path: /
 - name: '🇨🇭瑞士苏黎世 | 高速专线-hy2 #1'
   password: 38c31b4c-117d-429a-9469-aa2a420ac04e
@@ -512,18 +511,6 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3
-- alterId: 0
-  cipher: auto
-  name: 🇨🇭CH-45.90.59.186-3584
-  network: ws
-  port: 10000
-  server: 45.90.59.186
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7235ae8e-c115-11ed-8faf-2356d170eaf3
-  ws-opts:
-    path: /vpnjantit
 - alterId: 0
   cipher: auto
   name: CH ORACLE 02
