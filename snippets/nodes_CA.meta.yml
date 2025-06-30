@@ -36,20 +36,6 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 加拿大_0306001
-  network: ws
-  port: '443'
-  server: 23.227.38.11
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2
-  ws-opts:
-    headers:
-      Host: frgt1.ssr-free2.xyz
-    path: /UMW36262
-- alterId: 0
-  cipher: auto
   name: 加拿大_0630001
   network: ws
   port: '443'
@@ -328,13 +314,20 @@ proxies:
     headers:
       Host: ''
     path: /vmess
-- name: '4Sarina-5023 #1'
-  password: 89d81c5f-3d75-42f7-8a23-1be9ac89f3fb
-  port: 80
-  server: 149.56.132.41
-  skip-cert-verify: true
-  sni: ca1.trojanvh.xyz
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 加拿大_0306001
+  network: ws
+  port: '443'
+  server: 23.227.38.11
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2
+  ws-opts:
+    headers:
+      Host: frgt1.ssr-free2.xyz
+    path: /UMW36262
 - name: 'Relay_🇨🇦CA-🇨🇦CA_01 #1'
   password: 54f4dd9a-6a6c-4c84-b328-4a51da70793e
   port: 443
@@ -1130,7 +1123,7 @@ proxies:
     path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #76'
+  name: 'Vip1丨加拿大21丨 #83'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1139,7 +1132,7 @@ proxies:
   uuid: ed78628e-b563-3217-9c86-137566fec628
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #56'
+  name: 'Vip1丨加拿大21丨 #63'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1205,7 +1198,7 @@ proxies:
   ws-opts: {}
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #38'
+  name: 'Vip1丨加拿大21丨 #45'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1242,7 +1235,7 @@ proxies:
     path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #74'
+  name: 'Vip1丨加拿大21丨 #81'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1251,7 +1244,7 @@ proxies:
   uuid: e7a70846-8f11-38ab-a8bb-28f37f9f6817
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #49'
+  name: 'Vip1丨加拿大21丨 #56'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1260,7 +1253,7 @@ proxies:
   uuid: 665c4089-5941-3ca3-b6b9-84a367ff8a6c
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #77'
+  name: 'Vip1丨加拿大21丨 #84'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1269,7 +1262,7 @@ proxies:
   uuid: f50f5f4f-1f0f-3dc8-b4b9-d3fcd2b85a7e
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #65'
+  name: 'Vip1丨加拿大21丨 #72'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1292,7 +1285,7 @@ proxies:
     path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #45'
+  name: 'Vip1丨加拿大21丨 #52'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1301,7 +1294,7 @@ proxies:
   uuid: 51bd6a2d-9637-3e61-af0d-eb649acf3d02
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #70'
+  name: 'Vip1丨加拿大21丨 #77'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1334,7 +1327,7 @@ proxies:
     path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #81'
+  name: 'Vip1丨加拿大21丨 #88'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1343,7 +1336,7 @@ proxies:
   uuid: fecb0851-a0b0-309f-a733-7fe854178b98
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #40'
+  name: 'Vip1丨加拿大21丨 #47'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1352,7 +1345,7 @@ proxies:
   uuid: 4ccf42fa-f398-3a7a-9bb5-759da37a1775
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #62'
+  name: 'Vip1丨加拿大21丨 #69'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1375,7 +1368,7 @@ proxies:
     path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #42'
+  name: 'Vip1丨加拿大21丨 #49'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1384,7 +1377,7 @@ proxies:
   uuid: 4db09705-7a1a-3ea4-879d-67a2abd22d68
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #51'
+  name: 'Vip1丨加拿大21丨 #58'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1407,7 +1400,7 @@ proxies:
     path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #61'
+  name: 'Vip1丨加拿大21丨 #68'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1416,14 +1409,575 @@ proxies:
   uuid: 37fdb20e-4bb6-3b37-a788-8b96bab63886
 - alterId: 0
   cipher: auto
-  name: 加拿大 090
+  name: 加拿大 021
   network: ws
   port: 443
-  server: cf-topspeedoneplus.uk
+  server: dg.glucy.top
+  tls: true
+  type: vmess
+  uuid: aad35faa-883a-421f-d0a7-5f49f67ab294
+  ws-opts:
+    headers:
+      Host: dg.glucy.top
+    path: /111
+- alterId: 0
+  cipher: auto
+  name: 加拿大 048
+  network: ws
+  port: 443
+  server: www.gov.tw
+  tls: true
+  type: vmess
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  ws-opts:
+    headers:
+      Host: dp3.scproxy.top
+    path: /shirker
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #71'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: ac649670-d37e-3435-9908-b4c04876090e
+- alterId: 0
+  cipher: auto
+  name: 德国 067
+  network: tcp
+  port: 43710
+  server: 142.93.167.90
+  tls: false
+  type: vmess
+  uuid: 65eafafa-d8b9-452a-943d-d2e7cfdad77d
+- alterId: 0
+  cipher: auto
+  name: 加拿大 050
+  network: ws
+  port: 443
+  server: 5.walidfree5.workers.dev
+  tls: false
+  type: vmess
+  uuid: 0426AD3E-67E3-48DC-B6CC-8CE2FBE875EF
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 加拿大 041
+  network: ws
+  port: 80
+  server: 104.16.33.253
+  tls: false
+  type: vmess
+  uuid: 363b3efe-1b74-38dd-9656-90c292006581
+  ws-opts:
+    headers:
+      Host: usf.369777.xyz
+    path: /wwwnet
+- alterId: 0
+  cipher: auto
+  name: '🇨🇦CA-159.203.18.119-15336 #1'
+  network: ws
+  port: 80
+  server: 159.203.18.119
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bce57c91-6c2d-4ae5-8906-795b6cfeaf20
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '加拿大 058 #1'
+  network: ws
+  port: 8080
+  server: cf.noaries.de
+  tls: false
+  type: vmess
+  uuid: fe8b7cbe-e217-4741-95d0-a58075051950
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 加拿大 075
+  network: ws
+  port: 2053
+  server: v13.583181.xyz
+  tls: false
+  type: vmess
+  uuid: ddf4b939-13c5-464b-80d2-fa29736b1d1f
+  ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 🇨🇦-加拿大-ca1.iggfastweb.com
+  network: ws
+  port: 19080
+  server: ca1.iggfastweb.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e0822c2-75ea-4d30-8895-9fe59da9935c
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 012
+  network: ws
+  port: 8080
+  server: 104.16.149.202
+  tls: false
+  type: vmess
+  uuid: 363b3efe-1b74-38dd-9656-90c292006581
+  ws-opts:
+    headers:
+      Host: usf.ziyun.cyou
+    path: /wwwnet
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #70'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: a333fe24-29e4-38a7-9425-03518cee02a4
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #86'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: fd6cfc3e-06d4-3c52-bd9b-d3ef9960f4b4
+- alterId: 0
+  cipher: auto
+  name: '🇨🇦CA-51.79.65.134-12500 #1'
+  network: ws
+  port: 443
+  server: ca1.xvless.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 40c43ed4-b826-4d29-8f11-ebbafd361a3b
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #74'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: c556c947-74e5-37c0-9a9d-4c87b6c345d7
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #76'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: d803e4b5-77e0-31be-86c0-dd8dc67a4557
+- alterId: 0
+  cipher: auto
+  name: '🇨🇦CA-51.161.35.200-4578 #1'
+  network: ws
+  port: 443
+  server: 51.161.35.200
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9ec0fa0b-c50d-4ddf-a2d2-c98298641e96
+  ws-opts:
+    path: /freevmess
+- alterId: 64
+  cipher: auto
+  name: 🇨🇦 加拿大 Edge
+  network: ws
+  port: 153
+  server: 46.3.80.226
+  tls: false
+  type: vmess
+  uuid: 65ec19f1-285c-37e8-8b9e-e93089a47403
+  ws-opts:
+    headers:
+      Host: f2348123663.laowanxiang.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 加拿大 044
+  network: ws
+  port: 2052
+  server: baxwarfrey.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
+  ws-opts:
+    path: /bxtkmiao
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #48'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 4c7da0a5-0fd8-3c68-b973-1c1902e562ea
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #75'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: d6e863b3-f13f-3052-8eec-78d9c6cb1658
+- alterId: 0
+  cipher: auto
+  name: 加拿大 096
+  network: ws
+  port: 443
+  server: 104.21.90.73
+  tls: false
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸-美国-holyquran19.store
+  network: ws
+  port: 443
+  server: holyquran19.store
   tls: false
   type: vmess
   uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: shopify.com
+  tls: true
+  type: vmess
+  uuid: a0aa5a85-ee0c-4b49-aaad-adbc2d07c8ea
+  ws-opts:
+    headers:
+      Host: doprax.888173.xyz
+    path: /a0aa5a85-ee0c-4b49-aaad-adbc2d07c8ea-vm?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦-加拿大-192.99.247.52
+  network: ws
+  port: '10000'
+  server: 192.99.247.52
+  tls: false
+  type: vmess
+  uuid: fef4291c-b275-11ed-bdb4-33c8770a4026
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦-加拿大-165.154.246.150
+  network: ws
+  port: '80'
+  server: 165.154.246.150
+  tls: false
+  type: vmess
+  uuid: 07e7dc83-4ac4-3525-a66f-c6cfa8edffca
+  ws-opts:
+    path: /ny
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 加拿大_0224155
+  network: tcp
+  port: '11111'
+  server: 35.183.148.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7cb72883-9635-46eb-8531-8d697927ff04
+- alterId: 0
+  cipher: auto
+  name: 'github.com/freefq - 加拿大  11 #1'
+  network: ws
+  port: 80
+  server: 165.154.253.155
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 484d52b8-6edd-3b1f-8fcf-aa124d64d620
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ny
+- alterId: 0
+  cipher: auto
+  name: 加拿大_0106227
+  network: ws
+  port: '80'
+  server: mtl-arm3.egg.run
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
+  ws-opts:
+    headers:
+      Host: mtl-arm3.egg.run
+    path: mtl-arm3.egg.run/
+- alterId: 0
+  cipher: auto
+  name: 'github.com/freefq - 加拿大安大略省多伦多... #1'
+  network: ws
+  port: 80
+  server: 159.203.28.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e1f6f737-e6df-4947-b469-cf2b9698c50b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦-加拿大-159.203.18.119
+  network: ws
+  port: '80'
+  server: 159.203.18.119
+  tls: false
+  type: vmess
+  uuid: 7118fddb-3e01-4932-a01d-6fb6799d2876
+  ws-opts:
+    headers:
+      Host: 159.203.18.119
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 加拿大_1208045
+  network: tcp
+  port: '15323'
+  server: 23jnd.mealstream.xyz
+  tls: true
+  type: vmess
+  uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 加拿大(TG频道@kxswa)
+  network: tcp
+  port: '38793'
+  server: 46.102.156.61
+  tls: true
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #67'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 326ddcd9-b338-3acd-8949-9ea70c8b2be3
+- alterId: 0
+  cipher: auto
+  name: 加拿大 062
+  network: ws
+  port: 443
+  server: quran-audio4.xyz
+  tls: false
+  type: vmess
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #80'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: dbfbbd9b-e741-36bc-8ab0-3488adac5064
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #46'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 456448f5-495e-3454-a051-134dce38c31c
+- alterId: 0
+  cipher: auto
+  name: 加拿大 057
+  network: ws
+  port: 2095
+  server: fnwaubdu.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
+  ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #55'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 617ed0b1-dbd5-3e29-8312-e536a968f5d4
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #60'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 769193c2-2e3e-3659-8c71-3e1ab6d089b2
+- alterId: 0
+  cipher: auto
+  name: 加拿大 034
+  network: ws
+  port: 80
+  server: 165.154.243.130
+  tls: false
+  type: vmess
+  uuid: d7f3e42f-3ca4-37a6-970a-85272b56bffc
+  ws-opts:
+    path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 加拿大 007
+  network: ws
+  port: 80
+  server: 104.16.126.234
+  tls: false
+  type: vmess
+  uuid: 363b3efe-1b74-38dd-9656-90c292006581
+  ws-opts:
+    headers:
+      Host: uka.369777.xyz
+    path: /wwwnet
+- alterId: 0
+  cipher: auto
+  name: 加拿大 084
+  network: ws
+  port: 443
+  server: 162.159.4.32
+  tls: false
+  type: vmess
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 加拿大 097
+  network: ws
+  port: 8443
+  server: 23.227.60.77
+  tls: false
+  type: vmess
+  uuid: 457d1938-cb62-4ce7-c13a-96b6812b9f05
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 加拿大 032
+  network: ws
+  port: 8080
+  server: 104.17.165.242
+  tls: false
+  type: vmess
+  uuid: 363b3efe-1b74-38dd-9656-90c292006581
+  ws-opts:
+    headers:
+      Host: usf.ziyun.cyou
+    path: /wwwnet
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #64'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 06957dde-400c-35d8-8e08-b4327b5a41af
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #78'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: db07b99d-5eff-33cd-95e1-76d88221d4e1
+- alterId: 0
+  cipher: auto
+  name: '加拿大 075 #1'
+  network: ws
+  port: 443
+  server: jp1.scproxy.top
+  tls: false
+  type: vmess
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 🇨🇦-加拿大-165.154.246.103
+  network: ws
+  port: 80
+  server: 165.154.246.103
+  tls: false
+  type: vmess
+  uuid: 123eebd4-3d11-376b-be15-c2ea3be066e4
+  ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #62'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 9c898291-d4d5-363d-8ee8-9a01f4af8d49
+- alterId: 0
+  cipher: auto
+  name: 加拿大 099
+  network: ws
+  port: 443
+  server: ftp.lizi.buzz
+  tls: false
+  type: vmess
+  uuid: ef59760b-92d8-4d77-8e19-08e36bd31ca4
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 加拿大 067
+  network: ws
+  port: 2083
+  server: v2ray3.ibgfw.top
+  tls: false
+  type: vmess
+  uuid: b59d33b2-e276-4d99-bbac-50442a32b5e2
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 加拿大 064
+  network: ws
+  port: 2052
+  server: baxwarfrey.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: bbe033d3-d3be-3110-b81a-4fed343e2fc2
+  ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #79'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: dbad380f-6388-3a61-9c83-03ee5b2c277d
 - alterId: 0
   cipher: auto
   name: '🇨🇦 加拿大01|原生|x5 #3'
@@ -1454,7 +2008,7 @@ proxies:
     path: /clientarea
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #66'
+  name: 'Vip1丨加拿大21丨 #73'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1463,7 +2017,7 @@ proxies:
   uuid: b37c1ba1-6792-3370-adbd-0972d6f0419a
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #59'
+  name: 'Vip1丨加拿大21丨 #66'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1472,73 +2026,13 @@ proxies:
   uuid: 25313110-6801-313e-9e67-f6f589d04dbc
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #46'
+  name: 'Vip1丨加拿大21丨 #53'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
   tls: false
   type: vmess
   uuid: 5b505198-a6da-3d76-a8a6-4d183aeb1d3f
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦CA(AzadNet.t.me)_2
-  network: ws
-  port: '2096'
-  server: 23.227.60.77
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: b071af56-0062-480d-9b5d-e7f49d314f14
-  ws-opts:
-    headers:
-      Host: ''
-    path: /@parsashonam
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #47'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 5d2c886f-43d5-39e2-9c1b-0d578caed524
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #58'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 2388449f-8566-3c40-965f-9ffcda19b729
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #43'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 4e4253bd-48cc-3fec-859b-8e2f87b24784
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #78'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: f5a68098-273e-3ce0-942e-2fa853498f81
-- alterId: 0
-  cipher: auto
-  name: 加拿大 065
-  network: ws
-  port: 443
-  server: 2.walidfree2.workers.dev
-  tls: false
-  type: vmess
-  uuid: 0426AD3E-67E3-48DC-B6CC-8CE2FBE875EF
-  ws-opts: {}
 - alterId: 2
   cipher: auto
   name: 'Vip1丨加拿大21丨 #54'
@@ -1547,20 +2041,43 @@ proxies:
   server: jafi21.jafiyun.world
   tls: false
   type: vmess
-  uuid: 7ae71e0d-d9f1-3d69-8df9-29ee82a0d121
-- alterId: 0
+  uuid: 5d2c886f-43d5-39e2-9c1b-0d578caed524
+- alterId: 2
   cipher: auto
-  name: 加拿大 011
-  network: ws
-  port: 2052
-  server: de04.freenode.pro
+  name: 'Vip1丨加拿大21丨 #65'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
   tls: false
   type: vmess
-  uuid: 4fef3dab-701c-407f-95be-49e13d1b3a85
-  ws-opts:
-    headers:
-      Host: de04-v6.freenode.pro
-    path: /update.microsoft.com
+  uuid: 2388449f-8566-3c40-965f-9ffcda19b729
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #50'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 4e4253bd-48cc-3fec-859b-8e2f87b24784
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #85'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: f5a68098-273e-3ce0-942e-2fa853498f81
+- alterId: 2
+  cipher: auto
+  name: 'Vip1丨加拿大21丨 #61'
+  network: tcp
+  port: 22021
+  server: jafi21.jafiyun.world
+  tls: false
+  type: vmess
+  uuid: 7ae71e0d-d9f1-3d69-8df9-29ee82a0d121
 - alterId: 0
   cipher: auto
   name: '🇨🇦 加拿大01|原生|x5 #4'
@@ -1575,66 +2092,9 @@ proxies:
     headers:
       Host: bgpca1.amazon-azure.com
     path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦-加拿大-165.154.243.130
-  network: ws
-  port: 80
-  server: 165.154.243.130
-  tls: false
-  type: vmess
-  uuid: d7f3e42f-3ca4-37a6-970a-85272b56bffc
-  ws-opts:
-    path: /adobe
 - alterId: 2
   cipher: auto
-  name: 🇨🇦-加拿大-165.154.246.103
-  network: ws
-  port: '80'
-  server: 165.154.246.103
-  tls: false
-  type: vmess
-  uuid: 144684e2-fe93-3e78-8e87-e7e274802e08
-  ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: Relay 🇨🇦 Canada 03 TG:...
-  network: ws
-  port: '19080'
-  server: ca1.iggfastweb.com
-  tls: false
-  type: vmess
-  uuid: 9e0822c2-75ea-4d30-8895-9fe59da9935c
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸-美国-104.19.165.245
-  network: ws
-  port: 8080
-  server: 104.19.165.245
-  tls: false
-  type: vmess
-  uuid: 363b3efe-1b74-38dd-9656-90c292006581
-  ws-opts:
-    headers:
-      Host: usf.ziyun.cyou
-    path: /wwwnet
-- alterId: 0
-  cipher: auto
-  name: 加拿大 051
-  network: ws
-  port: 443
-  server: mkh.ircf.space
-  tls: false
-  type: vmess
-  uuid: 0426AD3E-67E3-48DC-B6CC-8CE2FBE875EF
-  ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #80'
+  name: 'Vip1丨加拿大21丨 #87'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1643,7 +2103,7 @@ proxies:
   uuid: fe7f5eaa-82bf-3857-99ef-780452a72a7c
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #44'
+  name: 'Vip1丨加拿大21丨 #51'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
@@ -1652,36 +2112,13 @@ proxies:
   uuid: 5052af18-5ae5-3d81-b274-53bde9597ce5
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #52'
+  name: 'Vip1丨加拿大21丨 #59'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
   tls: false
   type: vmess
   uuid: 6f49a8a0-50fc-3ef0-96af-336d3471eec8
-- alterId: 0
-  cipher: auto
-  name: 加拿大 064
-  network: ws
-  port: 80
-  server: cbb8.v9966.shop
-  tls: false
-  type: vmess
-  uuid: 28c985b0-c1b9-11ed-b530-205c6d5f5d78
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦-加拿大-23.227.60.77
-  network: ws
-  port: '8443'
-  server: 23.227.60.77
-  tls: true
-  type: vmess
-  uuid: 457d1938-cb62-4ce7-c13a-96b6812b9f05
-  ws-opts:
-    headers:
-      Host: t4.l9liiii.info
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇨🇦 加拿大30 - Mrli加速器
@@ -1693,32 +2130,36 @@ proxies:
   uuid: b1ef5d72-a79a-3362-ace0-6c2225921039
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #50'
+  name: 'Vip1丨加拿大21丨 #57'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
   tls: false
   type: vmess
   uuid: 6738c25a-d929-3319-8119-b7427b6f3d96
+- alterId: 0
+  cipher: auto
+  name: 加拿大_0331077
+  network: ws
+  port: '443'
+  server: 23.227.38.100
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-opts:
+    headers:
+      Host: oplg1.cfcdn2.xyz
+    path: /AUIKN8AU
 - alterId: 2
   cipher: auto
-  name: 'Vip1丨加拿大21丨 #75'
+  name: 'Vip1丨加拿大21丨 #82'
   network: tcp
   port: 22021
   server: jafi21.jafiyun.world
   tls: false
   type: vmess
   uuid: ec09fbca-2b27-38e0-93f8-74d8be1ac882
-- alterId: 0
-  cipher: auto
-  name: 加拿大 049
-  network: ws
-  port: 2052
-  server: baxwarfrey.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: bbe033d3-d3be-3110-b81a-4fed343e2fc2
-  ws-opts: {}
 - alterId: 0
   cipher: auto
   name: '@DeamNet_🇨🇦Toronto-2184-63 #1'
@@ -1733,6 +2174,20 @@ proxies:
     headers:
       Host: yjz.hk
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: '@DeamNet_🇨🇦Toronto-1699-248 #1'
+  network: ws
+  port: 443
+  server: 162.159.137.21
+  servername: null
+  tls: true
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-opts:
+    headers:
+      Host: oplg1.cfcdn2.xyz
+    path: /AUIKN8AU
 - alterId: 0
   cipher: auto
   name: '@DeamNet_🇨🇦Toronto-1188-267 #1'
@@ -1766,6 +2221,20 @@ proxies:
   tls: false
   type: vmess
   uuid: ccf84de0-a3d1-41f0-e341-8588c2ec0c34
+- alterId: 0
+  cipher: auto
+  name: 加拿大_0318026
+  network: ws
+  port: '80'
+  server: 51.79.53.64
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7e3e33da-c1c0-11ed-bcfe-1b5cc0c318b6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 加拿大_0310040
@@ -1843,20 +2312,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: github.com/freefq - 加拿大  18
-  network: ws
-  port: 31908
-  server: 135.181.41.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3f8a796e-d433-4c2c-e88a-9655cd380e5e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大_1208034
   network: ws
   port: '443'
@@ -1913,7 +2368,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇦 加拿大(TG频道@kxswa)
+  name: '🇨🇦 加拿大(TG频道@kxswa) #1'
   network: tcp
   port: '40086'
   server: 46.102.156.61
@@ -2024,15 +2479,6 @@ proxies:
     headers:
       Host: 1030tw.fans8.xyz
     path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦-加拿大-23jnd.mealstream.xyz
-  network: tcp
-  port: '15323'
-  server: 23jnd.mealstream.xyz
-  tls: false
-  type: vmess
-  uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba
 - alterId: 2
   cipher: auto
   name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
@@ -2073,182 +2519,89 @@ proxies:
     headers:
       Host: v57.idcloudhost.de
     path: /
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #60'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 326ddcd9-b338-3acd-8949-9ea70c8b2be3
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #73'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: dbfbbd9b-e741-36bc-8ab0-3488adac5064
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #39'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 456448f5-495e-3454-a051-134dce38c31c
 - alterId: 0
   cipher: auto
-  name: 加拿大 057
+  name: 🇨🇦 加拿大_1124001
   network: ws
-  port: 2095
-  server: fnwaubdu.76898102.xyz
+  port: '443'
+  server: 168.138.94.194
   tls: false
   type: vmess
-  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
-  ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #48'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 617ed0b1-dbd5-3e29-8312-e536a968f5d4
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #53'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 769193c2-2e3e-3659-8c71-3e1ab6d089b2
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #57'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 06957dde-400c-35d8-8e08-b4327b5a41af
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #71'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: db07b99d-5eff-33cd-95e1-76d88221d4e1
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #55'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 9c898291-d4d5-363d-8ee8-9a01f4af8d49
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #72'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: dbad380f-6388-3a61-9c83-03ee5b2c277d
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇦-加拿大-192.99.247.52
+  name: 🇨🇦 -加拿大-165.154.244.29
+  network: tcp
+  port: '443'
+  server: 165.154.244.29
+  tls: false
+  type: vmess
+  uuid: f8c3fbfe-9f65-4861-b824-f0049aa55810
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦-加拿大-v53.idcloudhost.de
   network: ws
   port: '10000'
-  server: 192.99.247.52
+  server: v53.idcloudhost.de
   tls: false
   type: vmess
-  uuid: fef4291c-b275-11ed-bdb4-33c8770a4026
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦-加拿大-165.154.246.150
-  network: ws
-  port: '80'
-  server: 165.154.246.150
-  tls: false
-  type: vmess
-  uuid: 07e7dc83-4ac4-3525-a66f-c6cfa8edffca
-  ws-opts:
-    path: /ny
-- alterId: 0
-  cipher: auto
-  name: 'github.com/freefq - 加拿大  11 #1'
-  network: ws
-  port: 80
-  server: 165.154.253.155
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 484d52b8-6edd-3b1f-8fcf-aa124d64d620
+  uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
   ws-opts:
     headers:
-      Host: ''
-    path: /ny
+      Host: v53.idcloudhost.de
+    path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大_0106227
+  name: 🇨🇦 加拿大_1124021
   network: ws
-  port: '80'
-  server: mtl-arm3.egg.run
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
-  ws-opts:
-    headers:
-      Host: mtl-arm3.egg.run
-    path: mtl-arm3.egg.run/
-- alterId: 0
-  cipher: auto
-  name: 'github.com/freefq - 加拿大安大略省多伦多... #1'
-  network: ws
-  port: 80
-  server: 159.203.28.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e1f6f737-e6df-4947-b469-cf2b9698c50b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦-加拿大-159.203.18.119
-  network: ws
-  port: '80'
-  server: 159.203.18.119
-  tls: false
-  type: vmess
-  uuid: 7118fddb-3e01-4932-a01d-6fb6799d2876
-  ws-opts:
-    headers:
-      Host: 159.203.18.119
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '🇨🇦 加拿大(TG频道@kxswa) #1'
-  network: tcp
-  port: '38793'
-  server: 46.102.156.61
+  port: '443'
+  server: 167.114.67.25
   tls: true
   type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: tgunivstar.168-138-94-194.sslip.io
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇨🇦 -加拿大-165.154.244.29 #1'
+  network: tcp
+  port: '443'
+  server: 165.154.244.29
+  tls: false
+  type: vmess
+  uuid: e13a9c42-54d6-4fe1-9578-0ca3bfc17122
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 加拿大_1124003
+  network: ws
+  port: '80'
+  server: bp3.mayiyun.shop
+  tls: false
+  type: vmess
+  uuid: e093b2a2-a8f3-4fca-bfe9-00583387e767
+  ws-opts:
+    headers:
+      Host: a.189.cn
+    path: /ws
+- alterId: 2
+  cipher: auto
+  name: 🇨🇦 加拿大_1122016
+  network: ws
+  port: '10095'
+  server: ca-yto-1.wespanl.club
+  tls: false
+  type: vmess
+  uuid: 4f55901a-626f-3df4-be38-dfa35785355d
+  ws-opts:
+    headers:
+      Host: ca-yto-1.wespanl.club
+    path: /
 - alterId: 0
   cipher: auto
   name: 加拿大_1122199
@@ -2279,33 +2632,6 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 加拿大_1122001
-  network: ws
-  port: '443'
-  server: 168.138.94.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦-加拿大-v51.idcloudhost.de
-  network: ws
-  port: '80'
-  server: v51.idcloudhost.de
-  tls: false
-  type: vmess
-  uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
-  ws-opts:
-    headers:
-      Host: v51.idcloudhost.de
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇨🇦 -南非-tun.ca.xlkjjs.top
   network: ws
   port: '16270'
@@ -2326,69 +2652,20 @@ proxies:
   tls: false
   type: vmess
   uuid: e5168132-05b9-41c7-94ba-9efc9b697948
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 加拿大_1120025
-  network: ws
-  port: '80'
-  server: bp3.mayiyun.shop
-  tls: false
-  type: vmess
-  uuid: e093b2a2-a8f3-4fca-bfe9-00583387e767
-  ws-opts:
-    headers:
-      Host: a.189.cn
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 -加拿大-165.154.244.29
-  network: tcp
-  port: '443'
-  server: 165.154.244.29
-  tls: false
-  type: vmess
-  uuid: f8c3fbfe-9f65-4861-b824-f0049aa55810
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 加拿大_1124021
-  network: ws
-  port: '443'
-  server: 167.114.67.25
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: tgunivstar.168-138-94-194.sslip.io
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇨🇦 -加拿大-165.154.244.29 #1'
-  network: tcp
-  port: '443'
-  server: 165.154.244.29
-  tls: false
-  type: vmess
-  uuid: e13a9c42-54d6-4fe1-9578-0ca3bfc17122
-- alterId: 2
-  cipher: auto
-  name: 🇨🇦 加拿大_1122016
-  network: ws
-  port: '10095'
-  server: ca-yto-1.wespanl.club
-  tls: false
-  type: vmess
-  uuid: 4f55901a-626f-3df4-be38-dfa35785355d
-  ws-opts:
-    headers:
-      Host: ca-yto-1.wespanl.club
-    path: /
-- name: ' HYSTERIA-UDP  CA-204.216.108....'
-  password: sysadmin.sysadmin
-  port: 2024
-  server: 204.216.108.5
+- name: ' HYSTERIA-UDP  CA-129.153.59.8...'
+  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  port: 30300
+  server: 129.153.59.86
   skip-cert-verify: true
-  sni: 204-216-108-5.nip.io
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: ' HYSTERIA-UDP  CA-192.18.145.7...'
+  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  port: 45979
+  server: 192.18.145.7
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: ' HYSTERIA-UDP  CA-155.248.219....'
@@ -2407,6 +2684,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: ' HYSTERIA-UDP  CA-204.216.108....'
+  password: sysadmin.sysadmin
+  port: 2024
+  server: 204.216.108.5
+  skip-cert-verify: true
+  sni: 204-216-108-5.nip.io
+  tls: false
+  type: hysteria2
 - name: '🇨🇦 一元机场:ssrsub.de 加拿大 04 #1'
   password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
   port: 54530
@@ -2415,33 +2700,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: ' HYSTERIA-UDP  CA-129.153.59.8...'
-  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  port: 30300
-  server: 129.153.59.86
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: ' HYSTERIA-UDP  CA-192.18.145.7...'
-  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  port: 45979
-  server: 192.18.145.7
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 'CA #9'
-  network: ws
-  port: 2086
-  server: 104.17.147.22
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ws.DafieMikoneTheWeekendPlay.SpAcE.
-    path: /---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam?ed=2048
 - alterId: 64
   cipher: auto
   name: V2-CA1
@@ -3838,42 +4096,6 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 🇨🇦CA-51.79.65.134-12500
-  network: ws
-  port: 443
-  server: ca1.xvless.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 40c43ed4-b826-4d29-8f11-ebbafd361a3b
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦CA-51.161.35.200-4578
-  network: ws
-  port: 443
-  server: 51.161.35.200
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9ec0fa0b-c50d-4ddf-a2d2-c98298641e96
-  ws-opts:
-    path: /freevmess
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦CA-159.203.18.119-15336
-  network: ws
-  port: 80
-  server: 159.203.18.119
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bce57c91-6c2d-4ae5-8906-795b6cfeaf20
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
   name: CA OVH 01
   network: ws
   port: 443
@@ -3911,20 +4133,6 @@ proxies:
     path: /tg:@hkaa0
 - alterId: 0
   cipher: auto
-  name: '@DeamNet_🇨🇦Toronto-1699-248'
-  network: ws
-  port: 443
-  server: 162.159.137.21
-  servername: null
-  tls: true
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  ws-opts:
-    headers:
-      Host: oplg1.cfcdn2.xyz
-    path: /AUIKN8AU
-- alterId: 0
-  cipher: auto
   name: '@DeamNet_🇨🇦Toronto-3278-756'
   network: ws
   port: 2052
@@ -3936,69 +4144,6 @@ proxies:
     headers:
       Host: dearmb.76898102.xyz
     path: /ancihgrt
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #41'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: 4c7da0a5-0fd8-3c68-b973-1c1902e562ea
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #63'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: a333fe24-29e4-38a7-9425-03518cee02a4
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #64'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: ac649670-d37e-3435-9908-b4c04876090e
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #67'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: c556c947-74e5-37c0-9a9d-4c87b6c345d7
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #68'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: d6e863b3-f13f-3052-8eec-78d9c6cb1658
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #69'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: d803e4b5-77e0-31be-86c0-dd8dc67a4557
-- alterId: 2
-  cipher: auto
-  name: 'Vip1丨加拿大21丨 #79'
-  network: tcp
-  port: 22021
-  server: jafi21.jafiyun.world
-  tls: false
-  type: vmess
-  uuid: fd6cfc3e-06d4-3c52-bd9b-d3ef9960f4b4
 - alterId: 0
   cipher: auto
   name: 'CA_youtube@资源分享师_1 #1'
