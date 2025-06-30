@@ -55,7 +55,7 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- name: 4Jadi-5950
+- name: 4FreeIran-5891
   network: ws
   password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
   port: 443
@@ -283,7 +283,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #7'
+  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #8'
   network: tcp
   port: 52112
   server: 183.236.51.23
@@ -456,84 +456,6 @@ proxies:
     headers:
       Host: tw3.iggfastweb.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  network: ws
-  port: 33640
-  server: gdct.lbbb.tk
-  tls: false
-  type: vmess
-  uuid: 5eb22bf1-ce1e-4d2d-9306-7b64b1c6e105
-  ws-opts:
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 美国 043
-  network: tcp
-  port: 43838
-  server: 156.225.67.168
-  tls: false
-  type: vmess
-  uuid: ebec2adf-e940-446f-bed4-d8c91143b54a
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 _CN_中国->🇬🇧_GB_英国
-  network: ws
-  port: '63091'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: e150c7fc-4297-3a40-a9d8-ff7e38bc1c63
-  ws-opts:
-    headers:
-      Host: uk01-cdn.airport-v2.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 🇫🇷_FR_法国->🇳🇱_NL_荷兰_来源：kkzui.co...
-  network: tcp
-  port: 42345
-  server: 156.249.18.68
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: ⒍[vip1]广移-中转-日本
-  network: tcp
-  port: 41208
-  server: 8.mxyun1.top
-  tls: false
-  type: vmess
-  uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
-- alterId: 2
-  cipher: auto
-  name: '⒙V2RAY [vip1]北京BGP-中转-日本 #1'
-  network: tcp
-  port: 41120
-  server: 20.mxyun1.top
-  tls: false
-  type: vmess
-  uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 _CN_中国->🇺🇸_US_美国 #3'
-  network: tcp
-  port: 45001
-  server: sh6c3zuc0.xz56bm2v8.lzmg3khpq.soabgo.com
-  tls: false
-  type: vmess
-  uuid: FF5D3BF5-1296-FB0A-4596-B3CD0C884200
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港中转|@ripaojiedian #1'
-  network: tcp
-  port: 20006
-  server: 14.29.169.53
-  tls: false
-  type: vmess
-  uuid: 09d40745-d455-4945-8bc1-80af1682ffc8
 - alterId: 2
   cipher: auto
   name: ⒐V2RAY [vip1]广移-中转-韩国
@@ -545,13 +467,17 @@ proxies:
   uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国->🇭🇰_HK_香港_2_由快嘴科技提...
-  network: ''
-  port: 16609
-  server: d0cd89648587.sanfen001.pics
+  name: 🇳🇱_NL_荷兰->🇮🇷_IR_伊朗_由快嘴科技提供:...
+  network: ws
+  port: 8880
+  server: 45.131.5.204
   tls: false
   type: vmess
-  uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f
+  uuid: fc21768b-83f8-4d99-a803-25ee085abfa6
+  ws-opts:
+    headers:
+      Host: h2.mcinet.sbs
+    path: /
 - alterId: 2
   cipher: auto
   name: '⒘V2RAY[vip1]北京BGP-中转-日本 #1'
@@ -561,6 +487,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
+- alterId: 0
+  cipher: auto
+  name: 香港中转|@ripaojiedian
+  network: tcp
+  port: '20006'
+  server: 14.29.169.53
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 09d40745-d455-4945-8bc1-80af1682ffc8
 - alterId: 2
   cipher: auto
   name: '⒕V2RAY [vip1]电信-中转-新加坡 #1'
@@ -615,6 +551,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸 _CN_中国->🇺🇸_US_美国 #3'
+  network: tcp
+  port: 45001
+  server: sh6c3zuc0.xz56bm2v8.lzmg3khpq.soabgo.com
+  tls: false
+  type: vmess
+  uuid: FF5D3BF5-1296-FB0A-4596-B3CD0C884200
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸 _CN_中国->🇺🇸_US_美国
+  network: tcp
+  port: '34214'
+  server: 111.23.252.215
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: ⒖V2RAY [vip1]广移-中转-日本
@@ -687,32 +641,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
-- alterId: 0
-  cipher: auto
-  name: 🇷🇴_RO_罗马尼亚->🇩🇪_DE_德国_2_39
-  network: ws
-  port: 443
-  server: 45.85.119.18
-  tls: true
-  type: vmess
-  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
-  ws-opts:
-    headers:
-      Host: holyquran4.store
-    path: /current_time
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: '443'
-  server: quranweb25.xyz
-  tls: true
-  type: vmess
-  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
-  ws-opts:
-    headers:
-      Host: quranweb25.xyz
-    path: /
 - alterId: 1
   cipher: auto
   name: 🇨🇳_CN_中国->🇭🇰_HK_香港
@@ -808,6 +736,72 @@ proxies:
   uuid: 5a96d1f3-55de-4834-b19a-72e5fbc34b2f
 - alterId: 0
   cipher: auto
+  name: 🇺🇸 中转 🇺🇸 US 3 TG@airproxies
+  network: ws
+  port: '22102'
+  server: a16m.jpl.cdn.01.njser.xyz
+  tls: false
+  type: vmess
+  uuid: 849a9495-5af5-4e54-bff5-1ab670eaebea
+  ws-opts:
+    headers:
+      Host: a16m.jpl.cdn.01.njser.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 25  ⌜すごい⌟ cdn -> 🇱🇺 2
+  network: ws
+  port: '443'
+  server: cacerts.digicert.com
+  tls: true
+  type: vmess
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  ws-opts:
+    headers:
+      Host: lu1.gogogoo.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11  ⌜すごい⌟ cdn -> 🇺🇸
+  network: ws
+  port: '2053'
+  server: cacerts.digicert.com
+  tls: true
+  type: vmess
+  uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
+  ws-opts:
+    headers:
+      Host: v2ray.wefuckgfw.ga
+    path: /
+- alterId: 0
+  cipher: auto
+  name: _CN_中国->🇧🇭_BH_巴林_1
+  network: tcp
+  port: '16103'
+  server: zfd-unicom.gatknqh.cn
+  tls: false
+  type: vmess
+  uuid: ee867204-3f52-3faf-8de4-6f4180939d7c
+- alterId: 2
+  cipher: auto
+  name: ⒍[vip1]广移-中转-日本
+  network: tcp
+  port: 41208
+  server: 8.mxyun1.top
+  tls: false
+  type: vmess
+  uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
+- alterId: 2
+  cipher: auto
+  name: '⒙V2RAY [vip1]北京BGP-中转-日本 #1'
+  network: tcp
+  port: 41120
+  server: 20.mxyun1.top
+  tls: false
+  type: vmess
+  uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
+- alterId: 0
+  cipher: auto
   name: '🇫🇷_FR_法国->🇺🇸_US_美国 #1'
   network: ws
   port: 2052
@@ -865,7 +859,7 @@ proxies:
   uuid: 60a07037-4244-47a4-9b55-7f02446d64d3
 - alterId: 0
   cipher: auto
-  name: '🇨🇳_CN_中国->🇺🇸_US_美国_2 #1'
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
   network: tcp
   port: 65006
   server: us-sj-v1.okss.us
@@ -887,7 +881,7 @@ proxies:
     path: /TG:@hkaa0
 - alterId: 1
   cipher: auto
-  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #1'
+  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #2'
   network: tcp
   port: 10017
   server: AZHK-NODE-01.PL2020.XYZ
@@ -896,7 +890,7 @@ proxies:
   uuid: 7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5
 - alterId: 1
   cipher: auto
-  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #2'
+  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #3'
   network: tcp
   port: 10016
   server: AZHK-NODE-01.PL2020.XYZ
@@ -962,52 +956,17 @@ proxies:
   uuid: b52256b3-4b69-4ab5-a913-ba3674ada13b
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 中转 🇺🇸 US 3 TG@airproxies
+  name: 🇭🇰 中转 🇭🇰 HK 40 Amazon.com TG@n...
   network: ws
-  port: '22102'
-  server: a16m.jpl.cdn.01.njser.xyz
+  port: '80'
+  server: hkhk.idcloudhost.de
   tls: false
   type: vmess
-  uuid: 849a9495-5af5-4e54-bff5-1ab670eaebea
+  uuid: a1e8f9a6-dee5-47fd-bbc9-e9307e0b0ee1
   ws-opts:
     headers:
-      Host: a16m.jpl.cdn.01.njser.xyz
+      Host: hkhk.idcloudhost.de
     path: /
-- alterId: 0
-  cipher: auto
-  name: 25  ⌜すごい⌟ cdn -> 🇱🇺 2
-  network: ws
-  port: '443'
-  server: cacerts.digicert.com
-  tls: true
-  type: vmess
-  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-  ws-opts:
-    headers:
-      Host: lu1.gogogoo.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11  ⌜すごい⌟ cdn -> 🇺🇸
-  network: ws
-  port: '2053'
-  server: cacerts.digicert.com
-  tls: true
-  type: vmess
-  uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
-  ws-opts:
-    headers:
-      Host: v2ray.wefuckgfw.ga
-    path: /
-- alterId: 0
-  cipher: auto
-  name: _CN_中国->🇧🇭_BH_巴林_1
-  network: tcp
-  port: '16103'
-  server: zfd-unicom.gatknqh.cn
-  tls: false
-  type: vmess
-  uuid: ee867204-3f52-3faf-8de4-6f4180939d7c
 - alterId: 0
   cipher: auto
   name: 香港23|12.9M/s|CN->HK
@@ -1043,7 +1002,7 @@ proxies:
   skip-cert-verify: true
   sni: brwx.spvpv.com
   type: trojan
-- name: '🇨🇳_CN_中国->🇺🇸_US_美国 #4'
+- name: '🇨🇳_CN_中国->🇺🇸_US_美国 #5'
   password: 2b1ed981-6547-4094-998b-06a3323d6f6c
   port: 21332
   server: 36.156.184.33
@@ -2190,3 +2149,12 @@ proxies:
   skip-cert-verify: true
   sni: kr.catxstar.com_165ms
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港中转|@ripaojiedian
+  network: tcp
+  port: 20006
+  server: 14.29.169.53
+  tls: false
+  type: vmess
+  uuid: 09d40745-d455-4945-8bc1-80af1682ffc8
