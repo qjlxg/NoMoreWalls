@@ -15,15 +15,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇭_定制专线：@QS00008
-  network: ''
-  port: 16650
-  server: jp.mousse.tk
-  tls: false
-  type: vmess
-  uuid: d66a47f2-5136-492c-c82a-74835bb03a76
-- alterId: 0
-  cipher: auto
   name: 瑞士_121320001
   network: ws
   port: '15139'
@@ -36,45 +27,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: '🇨🇭CH-45.90.59.186-3584 #1'
-  network: ws
-  port: 10000
-  server: 45.90.59.186
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7235ae8e-c115-11ed-8faf-2356d170eaf3
-  ws-opts:
-    path: /vpnjantit
-- alterId: 0
-  cipher: auto
-  name: 🇨🇭-瑞士-mumbai-arm2.egg.run
-  network: ws
-  port: '80'
-  server: mumbai-arm2.egg.run
-  tls: false
-  type: vmess
-  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
-  ws-opts:
-    headers:
-      Host: mumbai-arm2.egg.run
-    path: mumbai-arm2.egg.run/
-- alterId: 64
-  cipher: auto
-  name: 瑞士_1208005
-  network: ws
-  port: '443'
-  server: 213.202.233.147
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.95438290.xyz
-    path: /path/243535322906
 - alterId: 0
   cipher: auto
   name: 🇨🇭-瑞士-20.38.39.18
@@ -99,32 +51,32 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 🇨🇭 瑞士 002
+  name: 🇨🇭 瑞士_1206005
   network: ws
   port: '443'
-  server: www.kehuai.tk
+  server: 213.202.233.147
   tls: true
   type: vmess
-  uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.kehuai.tk
-    path: /
+      Host: www.95438290.xyz
+    path: /path/243535322906
 - alterId: 0
   cipher: auto
-  name: CH 1 → openitsub.com
+  name: 🇨🇭-瑞士-mumbai-arm2.egg.run
   network: ws
-  port: '443'
-  server: www.liuyiyang19891222.tk
-  tls: true
+  port: '80'
+  server: mumbai-arm2.egg.run
+  tls: false
   type: vmess
-  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
+  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
   ws-opts:
     headers:
-      Host: www.liuyiyang19891222.tk
-    path: /
+      Host: mumbai-arm2.egg.run
+    path: mumbai-arm2.egg.run/
 - alterId: 64
   cipher: auto
   name: 🇨🇭 瑞士_1120004
@@ -138,6 +90,32 @@ proxies:
     headers:
       Host: www.77525289.xyz
     path: /path/041629110712
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭-瑞士-www.kehuai.tk
+  network: ws
+  port: '443'
+  server: www.kehuai.tk
+  tls: false
+  type: vmess
+  uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514
+  ws-opts:
+    headers:
+      Host: www.kehuai.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭-瑞士-www.liuyiyang19891222.tk
+  network: ws
+  port: '443'
+  server: www.liuyiyang19891222.tk
+  tls: false
+  type: vmess
+  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
+  ws-opts:
+    headers:
+      Host: www.liuyiyang19891222.tk
+    path: /
 - name: V1-瑞士
   password: ce71384b-7966-4139-a2f5-5d2ef263afb3
   port: 42453
@@ -152,6 +130,18 @@ proxies:
   skip-cert-verify: true
   sni: data.52daishu.life
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭CH-45.90.59.186-3584
+  network: ws
+  port: 10000
+  server: 45.90.59.186
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7235ae8e-c115-11ed-8faf-2356d170eaf3
+  ws-opts:
+    path: /vpnjantit
 - alterId: 0
   cipher: auto
   name: CH ORACLE 02
