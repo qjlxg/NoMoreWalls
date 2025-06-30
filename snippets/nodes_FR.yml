@@ -52,230 +52,6 @@ proxies:
     headers:
       Host: 173.245.49.23
     path: /8cda48b3
-- name: '🇬🇧 机场推荐:dafei.de 英国 10 #1'
-  password: vmRtExJrt6
-  port: 8443
-  server: 51.195.255.103
-  skip-cert-verify: true
-  sni: uk-03.allhubb.info
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 法国_0628004
-  network: ws
-  port: '80'
-  server: 57.129.132.223
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 法国_0628006
-  network: ws
-  port: '8443'
-  server: 173.245.49.238
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /8cda48b3
-- alterId: 0
-  cipher: auto
-  name: 法国_0628007
-  network: ws
-  port: '8443'
-  server: 173.245.49.111
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /8cda48b3
-- alterId: 0
-  cipher: auto
-  name: 法国_0628008
-  network: ws
-  port: '8443'
-  server: 173.245.49.55
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /8cda48b3
-- name: '4Sarina-6958 #1'
-  password: b8808043-6566-4923-9195-e66bfb553d57
-  port: 443
-  server: 51.38.99.96
-  skip-cert-verify: false
-  sni: ba24.ir
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 法国_0628010
-  network: ws
-  port: '443'
-  server: 173.245.49.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aa586ced-9c6b-4882-aae5-f4fa3919c73c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /233blog
-- alterId: 0
-  cipher: auto
-  name: 法国_0628011
-  network: ws
-  port: '8443'
-  server: 173.245.49.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /8cda48b3
-- alterId: 0
-  cipher: auto
-  name: 法国_0628012
-  network: ws
-  port: '80'
-  server: 51.159.2.152
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 43587dc1-34f1-4254-ab90-56507e72d7a8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 法国_0628013
-  network: ws
-  port: '8443'
-  server: 173.245.49.156
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /8cda48b3
-- name: '4Sarina-5178 #1'
-  password: 973ed2e0-c4d8-4737-a093-71629148086d
-  port: 443
-  server: 51.77.213.197
-  skip-cert-verify: false
-  sni: frt2.sshocean.net
-  type: trojan
-- name: '4FreeIran-6690 #1'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 52.47.70.112
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 法国_0628016
-  network: ws
-  port: '443'
-  server: 57.129.25.25
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 1
-  cipher: auto
-  name: 法国_0628017
-  network: ws
-  port: '443'
-  server: 57.129.25.20
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国_0628018
-  network: ws
-  port: '443'
-  server: 57.129.28.69
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国_0628019
-  network: ws
-  port: '443'
-  server: 57.129.24.124
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国_0628020
-  network: ws
-  port: '443'
-  server: 57.129.25.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国_0628021
-  network: ws
-  port: '443'
-  server: 57.129.24.125
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
 - name: '法国_0626019 #1'
   password: d86c421f-dbfe-4507-a864-f8f9e29d80e4
   port: 443
@@ -283,132 +59,6 @@ proxies:
   skip-cert-verify: false
   sni: ''
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 法国_0628023
-  network: ws
-  port: '443'
-  server: 146.59.55.50
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- name: 法国_0628024
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.36.196.135
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 法国_0628025
-  network: ws
-  port: '443'
-  server: 57.129.28.65
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: kapelleng.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国_0628026
-  network: ws
-  port: '443'
-  server: 57.129.64.238
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: kapelleng.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国_0628027
-  network: ws
-  port: '443'
-  server: 51.77.20.137
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: tilebani.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国_0628028
-  network: ws
-  port: '443'
-  server: 57.129.24.133
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国_0628029
-  network: ws
-  port: '443'
-  server: 57.129.24.142
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: harriscity.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 法国_0628030
-  network: ws
-  port: '443'
-  server: 57.129.24.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- name: '4Sarina-5126 #1'
-  password: 9498f3a0-2992-11ee-a4c7-1239d0255272
-  port: 443
-  server: fr.test3.net
-  skip-cert-verify: false
-  sni: zula.ir
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 法国_0628032
-  network: ws
-  port: '443'
-  server: 217.182.76.202
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2e68015f-a8b2-4893-a7a3-4edb19b178d9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇫🇷 github.com/freefq - 法国ovh 1...
@@ -492,6 +142,24 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
 - alpn:
+  - http/1.1
+  name: ' TR-TCP-TLS  FR-13.37.59.91:22...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.37.59.91
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: ' TR-TCP-TLS  FR-13.37.59.91:22... #1'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.37.59.91
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
   - h2
   - http/1.1
   name: FR-CF-Worker-10
@@ -511,12 +179,6 @@ proxies:
   server: 13.38.44.244
   sni: appsvs.shop
   type: trojan
-- name: 🇫🇷 机场推荐:dafei.de 法国 01
-  password: 202c296a-f34a-11ef-80e5-f23c9164ca5d
-  port: 27235
-  server: fc111582-syof40-t39hdu-1tf4x.cm5.cnkuaishou.com
-  sni: fc111582-syof40-t39hdu-1tf4x.cm5.cnkuaishou.com
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 'Relay_🇨🇾CY-🇫🇷FR_353 #1'
@@ -529,6 +191,15 @@ proxies:
   uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   ws-opts:
     path: /
+- alterId: 64
+  cipher: auto
+  name: 'Relay_-🇫🇷FR_195 #1'
+  network: tcp
+  port: 58812
+  server: 51.195.35.151
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 🇫🇷 France 01 TG:@nodpai
@@ -540,12 +211,44 @@ proxies:
   uuid: 556eddfa-7a44-43d8-82bd-7c1792fc563c
   ws-opts:
     path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR_585
+  network: ws
+  port: 9443
+  server: 51.210.101.213
+  servername: fr1-vmess.greenssh.xyz
+  tls: true
+  type: vmess
+  uuid: 1530f575-94b7-495e-98c5-c0859daac5f3
+  ws-opts:
+    path: /
 - alterId: 64
   cipher: auto
   name: 法国_0409028
   network: tcp
   port: '50002'
   server: 51.195.39.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 法国_0411006
+  network: tcp
+  port: '55399'
+  server: 156.249.18.69
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 法国_0410079
+  network: ''
+  port: '50002'
+  server: 54.37.192.0
   servername: ''
   tls: false
   type: vmess
@@ -588,6 +291,30 @@ proxies:
     path: /speedtest/Lille.kotick.site
 - alterId: 0
   cipher: auto
+  name: 'Relay_🏁ZZ-🇫🇷FR_2069 #1'
+  network: ws
+  port: 80
+  server: 190.93.245.4
+  servername: fr.v2ray1.xyz
+  tls: false
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Relay_🇧🇿BZ-🇫🇷FR_339
+  network: ws
+  port: 80
+  server: 203.30.190.2
+  servername: fr.v2ray1.xyz
+  tls: false
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇫🇷-法国上法兰西大区鲁贝-fr1.c889...
   network: ws
   port: '80'
@@ -620,6 +347,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7
+- alterId: 0
+  cipher: auto
+  name: 'Relay_🏁ZZ-🇫🇷FR_2082 #1'
+  network: ws
+  port: 80
+  server: 141.101.115.32
+  servername: fr.v2ray1.xyz
+  tls: false
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-opts:
+    path: /
 - alterId: 4
   cipher: auto
   name: 🇫🇷-法国-amongusx.pomo-choose.xyz
@@ -663,6 +402,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 法国_0411014
+  network: tcp
+  port: '42542'
+  server: 156.249.18.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7
 - alterId: 0
   cipher: chacha20-poly1305
   name: 🇫🇷🌏 @customv2ray کانفی...
@@ -679,6 +428,17 @@ proxies:
     path: /tUbRNp64UMWTgAH0t2
 - alterId: 0
   cipher: auto
+  name: '法国 004 #2'
+  network: ws
+  port: 2087
+  server: 45.77.61.111
+  tls: false
+  type: vmess
+  uuid: 70b89498-7c48-480d-b147-b4a2be37b614
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   name: '法国_0407026 #1'
   network: tcp
   port: 45223
@@ -686,6 +446,20 @@ proxies:
   tls: false
   type: vmess
   uuid: b5ec892b-6931-4166-b482-44624d3cdc88
+- alterId: 0
+  cipher: auto
+  name: '00. وایفای A 🇫🇷 #1'
+  network: ws
+  port: '443'
+  server: 20.walidfree20.workers.dev
+  servername: 20.walidfree20.workers.dev
+  tls: true
+  type: vmess
+  uuid: 795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435
+  ws-opts:
+    headers:
+      Host: 20.walidfree20.workers.dev
+    path: /speedtest/Lille.kotick.site
 - alterId: 64
   cipher: auto
   name: 448_法国-1023.2KB
@@ -754,34 +528,229 @@ proxies:
     path: /clientarea
 - alterId: 64
   cipher: auto
-  name: 法国【付费推荐：https://tt.vg/vip】62
+  name: '法国_0407155 #1'
   network: tcp
-  port: '54086'
-  server: 156.249.18.135
-  servername: ''
+  port: 42399
+  server: 156.249.18.69
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷-法国-it3aeed.alwaysdata.net
-  network: ws
-  port: '443'
-  server: it3aeed.alwaysdata.net
-  tls: false
-  type: vmess
-  uuid: 0b812085-132c-4558-9567-10070107cd9e
-  ws-opts: {}
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 法国【付费推荐：https://tt.vg/vip】94
-  network: tcp
-  port: '50402'
-  server: 156.249.18.58
+  name: 🇫🇷-法国-51.38.110.143
+  network: ws
+  port: 443
+  server: 51.38.110.143
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /
+- alterId: 4
+  cipher: auto
+  name: 🇫🇷 法国(欢迎订阅Youtube破解资源君)
+  network: ws
+  port: '443'
+  server: ahdaeph8.com
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: ahdaeph8.com
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-51.77.212.145-15356
+  network: ws
+  port: 80
+  server: 51.77.212.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3e9cec54-c121-4584-b758-787388e2f792
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷-法国-51.77.230.27
+  network: ws
+  port: 22330
+  server: 51.77.230.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2fdc4029-e234-4a8e-c30e-128bdb25c7c4
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-51.77.200.137-4583
+  network: ws
+  port: 443
+  server: 51.77.200.137
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b3db746a-c63a-4b57-9d61-9bdec6d08141
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-185.31.40.23-6169
+  network: ws
+  port: 443
+  server: it3aeed.alwaysdata.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0b812085-132c-4558-9567-10070107cd9e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-193.70.85.191-11999
+  network: ws
+  port: 80
+  server: 193.70.85.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88bc28e5-c046-4b96-9c92-e9a75a4f6b92
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-213.32.108.93-21389
+  network: ws
+  port: 28565
+  server: 213.32.108.93
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0529bca5-be1c-43d2-e662-e862fad1491a
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-141.11.45.116-21507
+  network: ws
+  port: 43432
+  server: 141.11.45.116
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c61b99e7-af38-4074-fa26-4b984edae439
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-141.145.196.253-12664
+  network: ws
+  port: 443
+  server: fga3.6bbt.tk
+  servername: 6bbt.tk
+  tls: false
+  type: vmess
+  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
+  ws-opts:
+    path: /6bbt.tk
+- alterId: 0
+  cipher: auto
+  name: 法国 029
+  network: http
+  port: 14559
+  server: 151.80.155.188
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 54364f64-3b03-41bc-cb81-4b59db9b2704
+- alterId: 64
+  cipher: auto
+  name: 🇫🇷FR-156.249.18.203-212
+  network: tcp
+  port: 47652
+  server: 156.249.18.203
+  tls: false
+  type: vmess
+  uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7
+- alterId: 64
+  cipher: auto
+  name: 法国 003
+  network: tcp
+  port: 54086
+  server: 156.249.18.135
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
+- alterId: 64
+  cipher: auto
+  name: 法国 021
+  network: tcp
+  port: 50402
+  server: 156.249.18.57
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 法国 020
+  network: tcp
+  port: 80
+  server: 51.210.121.121
+  tls: false
+  type: vmess
+  uuid: 12d72263-981f-4def-82dd-1f8867356580
+- alterId: 64
+  cipher: auto
+  name: 法国 023
+  network: tcp
+  port: 47652
+  server: 156.249.18.247
+  tls: false
+  type: vmess
+  uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7
+- alterId: 64
+  cipher: auto
+  name: '法国 004 #1'
+  network: tcp
+  port: 50402
+  server: 156.249.18.58
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷-法国-54.38.226.222
+  network: tcp
+  port: '55490'
+  server: 54.38.226.222
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8fc9d1-6b37-42ed-edda-ebc1f293fefe
+- alterId: 64
+  cipher: auto
+  name: 🇫🇷-法国-91.134.246.59
+  network: ws
+  port: 443
+  server: 91.134.246.59
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-163.172.69.181-081
+  network: tcp
+  port: 11542
+  server: 163.172.69.181
+  tls: false
+  type: vmess
+  uuid: e57444ec-86a8-45ec-aa42-d66ae4ca446c
 - alterId: 0
   cipher: auto
   name: 🇫🇷FR法国(youtube阿伟科技)
@@ -796,85 +765,6 @@ proxies:
     headers:
       Host: fr.binghe.design
     path: /
-- alterId: 64
-  cipher: auto
-  name: '法国 023 #1'
-  network: tcp
-  port: 47652
-  server: 156.249.18.247
-  tls: false
-  type: vmess
-  uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7
-- alterId: 0
-  cipher: auto
-  name: '法国 015 #1'
-  network: ws
-  port: 22330
-  server: 51.77.230.27
-  tls: false
-  type: vmess
-  uuid: 2fdc4029-e234-4a8e-c30e-128bdb25c7c4
-  ws-opts: {}
-- alterId: 64
-  cipher: auto
-  name: 🇫🇷FR-156.249.18.203-213
-  network: tcp
-  port: 47652
-  server: 156.249.18.203
-  tls: false
-  type: vmess
-  uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷FR-51.159.103.77-10228-Wo...
-  network: ws
-  port: 443
-  server: 104.19.145.95
-  servername: milad2.sudizo7748.workers.dev
-  tls: true
-  type: vmess
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  ws-opts:
-    path: /lg10.cfcdn1.xyz:443/A2DJOPFT
-- alterId: 64
-  cipher: auto
-  name: '法国 021 #1'
-  network: tcp
-  port: 50402
-  server: 156.249.18.57
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '法国 020 #1'
-  network: tcp
-  port: 80
-  server: 51.210.121.121
-  tls: false
-  type: vmess
-  uuid: 12d72263-981f-4def-82dd-1f8867356580
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷FR-185.31.40.23-10059-Wor...
-  network: ws
-  port: 443
-  server: 104.19.145.95
-  servername: milad2.sudizo7748.workers.dev
-  tls: true
-  type: vmess
-  uuid: 0b812085-132c-4558-9567-10070107cd9e
-  ws-opts:
-    path: /it3aeed.alwaysdata.net:443/vmess
-- alterId: 0
-  cipher: auto
-  name: '法国 029 #1'
-  network: http
-  port: 14559
-  server: 151.80.155.188
-  tls: false
-  type: vmess
-  uuid: 54364f64-3b03-41bc-cb81-4b59db9b2704
 - alterId: 0
   cipher: auto
   name: '@DeamNet_🇫🇷Paris-1277-631'
@@ -927,96 +817,77 @@ proxies:
   tls: false
   type: vmess
   uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b
-- alterId: 4
+- alterId: 64
   cipher: auto
-  name: 🇫🇷 法国(欢迎订阅Youtube破解资源君)
-  network: ws
-  port: '443'
-  server: ahdaeph8.com
-  tls: true
+  name: 法国_0330152
+  network: tcp
+  port: '58802'
+  server: 51.195.35.151
+  servername: ''
+  tls: false
   type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 法国_0310170
+  network: ws
+  port: '80'
+  server: 51.195.91.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 329a88e0-bd9b-11ed-b434-205c6d5f5d78
   ws-opts:
     headers:
-      Host: ahdaeph8.com
-    path: /ws
+      Host: ''
+    path: /kltpo3ei
 - alterId: 0
   cipher: auto
-  name: 🇫🇷FR-51.77.212.145-15356
+  name: 法国_0318167
   network: ws
-  port: 80
-  server: 51.77.212.145
+  port: '8080'
+  server: 173.245.49.158
   servername: ''
   tls: false
   type: vmess
-  uuid: 3e9cec54-c121-4584-b758-787388e2f792
+  uuid: 76aed4f5-5b57-4d04-f3d9-89efffd5b832
   ws-opts:
-    path: /vmess
+    headers:
+      Host: sg316.wyhkaa0.ga
+    path: /tg:@hkaa0
 - alterId: 0
   cipher: auto
-  name: 🇫🇷FR-51.77.200.137-4583
+  name: 法国_0314023
   network: ws
-  port: 443
-  server: 51.77.200.137
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: b3db746a-c63a-4b57-9d61-9bdec6d08141
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷FR-193.70.85.191-11999
-  network: ws
-  port: 80
-  server: 193.70.85.191
+  port: '2052'
+  server: 173.245.49.109
   servername: ''
   tls: false
   type: vmess
-  uuid: 88bc28e5-c046-4b96-9c92-e9a75a4f6b92
+  uuid: e735abd4-9c96-488c-aec5-ad2ae82bc486
   ws-opts:
-    path: /vmess
+    headers:
+      Host: r.wyhkaa0.ga
+    path: /TG:@hkaa0
 - alterId: 0
   cipher: auto
-  name: 🇫🇷FR-213.32.108.93-21389
+  name: 法国【付费推荐：https://tt.vg/vip】28
   network: ws
-  port: 28565
-  server: 213.32.108.93
+  port: '2052'
+  server: 173.245.49.184
   servername: ''
   tls: false
   type: vmess
-  uuid: 0529bca5-be1c-43d2-e662-e862fad1491a
+  uuid: e782db8a-5f2d-47fc-aa19-9d42a54648f4
   ws-opts:
-    path: /
+    headers:
+      Host: sg.wyhkaa0.ml
+    path: /tg:@hkaa0
 - alterId: 0
   cipher: auto
-  name: 🇫🇷FR-141.11.45.116-21507
+  name: '法国 V2CROSS.COM #1'
   network: ws
-  port: 43432
-  server: 141.11.45.116
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c61b99e7-af38-4074-fa26-4b984edae439
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷FR-141.145.196.253-12664
-  network: ws
-  port: 443
-  server: fga3.6bbt.tk
-  servername: 6bbt.tk
-  tls: false
-  type: vmess
-  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
-  ws-opts:
-    path: /6bbt.tk
-- alterId: 0
-  cipher: auto
-  name: github.com/freefq - 法国  13
-  network: ws
-  port: '10048'
+  port: 10048
   server: 141.11.103.163
   tls: false
   type: vmess
@@ -1055,20 +926,6 @@ proxies:
     path: /tg:@hkaa0
 - alterId: 0
   cipher: auto
-  name: 法国_0310289
-  network: ws
-  port: '80'
-  server: 51.195.91.27
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 329a88e0-bd9b-11ed-b434-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /kltpo3ei
-- alterId: 0
-  cipher: auto
   name: 法国_0314165
   network: ws
   port: '2052'
@@ -1095,19 +952,6 @@ proxies:
     headers:
       Host: r.wyhkaa0.ga
     path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 法国 | 0.5x_1
-  network: ws
-  port: 2052
-  server: newfgawduvdb.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
-  ws-opts:
-    headers:
-      Host: ''
-    path: /flkwdfads
 - alterId: 0
   cipher: auto
   name: 法国_0314022
@@ -1253,89 +1097,6 @@ proxies:
     headers:
       Host: cdn1.soft9821.gq
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷-法国-54.38.226.222
-  network: tcp
-  port: '55490'
-  server: 54.38.226.222
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac8fc9d1-6b37-42ed-edda-ebc1f293fefe
-- alterId: 64
-  cipher: auto
-  name: 🇫🇷-法国-91.134.246.59
-  network: ws
-  port: 443
-  server: 91.134.246.59
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷FR-163.172.69.181-081
-  network: tcp
-  port: 11542
-  server: 163.172.69.181
-  tls: false
-  type: vmess
-  uuid: e57444ec-86a8-45ec-aa42-d66ae4ca446c
-- alterId: 64
-  cipher: auto
-  name: 法国_0330152
-  network: tcp
-  port: '58802'
-  server: 51.195.35.151
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 法国_0318167
-  network: ws
-  port: '8080'
-  server: 173.245.49.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 76aed4f5-5b57-4d04-f3d9-89efffd5b832
-  ws-opts:
-    headers:
-      Host: sg316.wyhkaa0.ga
-    path: /tg:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 法国_0314023
-  network: ws
-  port: '2052'
-  server: 173.245.49.109
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e735abd4-9c96-488c-aec5-ad2ae82bc486
-  ws-opts:
-    headers:
-      Host: r.wyhkaa0.ga
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 法国【付费推荐：https://tt.vg/vip】28
-  network: ws
-  port: '2052'
-  server: 173.245.49.184
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e782db8a-5f2d-47fc-aa19-9d42a54648f4
-  ws-opts:
-    headers:
-      Host: sg.wyhkaa0.ml
-    path: /tg:@hkaa0
 - alterId: 64
   cipher: auto
   name: 🇫🇷 法国_1208017
@@ -1556,6 +1317,87 @@ proxies:
     path: /path/041629110712
 - alterId: 0
   cipher: auto
+  name: 法国_1122023
+  network: ws
+  port: '443'
+  server: fr01.paopaocloud.cyou
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
+  ws-opts:
+    headers:
+      Host: fr01.2yun.win
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国 001
+  network: ws
+  port: '80'
+  server: nl.v2-ray.com
+  tls: false
+  type: vmess
+  uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
+  ws-opts:
+    headers:
+      Host: nl.v2-ray.com
+    path: /fastssh/hkgzs01/6315d407657f6/
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷-法国-fr01.paopaocloud.cyou
+  network: ws
+  port: '443'
+  server: fr01.paopaocloud.cyou
+  tls: true
+  type: vmess
+  uuid: 6a1246a9-491f-3e89-8c51-39e489f059e1
+  ws-opts:
+    headers:
+      Host: fr01.2yun.win
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国_1124024
+  network: ws
+  port: '443'
+  server: fr01.paopaocloud.cyou
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
+  ws-opts:
+    headers:
+      Host: fr01.2yun.win
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: '🇫🇷-法国-fr01.paopaocloud.cyou #1'
+  network: ws
+  port: '443'
+  server: fr01.paopaocloud.cyou
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: dbd5ea6f-eea7-3490-85bb-580c26ecf57b
+  ws-opts:
+    headers:
+      Host: fr01.2yun.win
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国_1122018
+  network: ws
+  port: '443'
+  server: fr01.paopaocloud.cyou
+  tls: true
+  type: vmess
+  uuid: fb8d619e-a4cf-39ee-8d44-33e64c468a85
+  ws-opts:
+    headers:
+      Host: fr01.2yun.win
+    path: /v2ray
+- alterId: 0
+  cipher: auto
   name: 法国_1122182
   network: ws
   port: '443'
@@ -1623,34 +1465,6 @@ proxies:
     headers:
       Host: uk2.v2rayserv.com
     path: /sshocean
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷-法国-fr01.paopaocloud.cyou
-  network: ws
-  port: '443'
-  server: fr01.paopaocloud.cyou
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
-  ws-opts:
-    headers:
-      Host: fr01.2yun.win
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 法国_1120184
-  network: ws
-  port: '443'
-  server: fr01.paopaocloud.cyou
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
-  ws-opts:
-    headers:
-      Host: fr01.2yun.win
-    path: /v2ray
 - alterId: 64
   cipher: auto
   name: 🇫🇷 法国_1120030
@@ -1664,76 +1478,12 @@ proxies:
     headers:
       Host: ''
     path: /path/120208301422
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国_1120174
-  network: ws
-  port: '443'
-  server: fr01.paopaocloud.cyou
-  tls: true
-  type: vmess
-  uuid: fb8d619e-a4cf-39ee-8d44-33e64c468a85
-  ws-opts:
-    headers:
-      Host: fr01.2yun.win
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国 001
-  network: ws
-  port: '80'
-  server: nl.v2-ray.com
-  tls: false
-  type: vmess
-  uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
-  ws-opts:
-    headers:
-      Host: nl.v2-ray.com
-    path: /fastssh/hkgzs01/6315d407657f6/
-- alterId: 0
-  cipher: auto
-  name: '🇫🇷-法国-fr01.paopaocloud.cyou #1'
-  network: ws
-  port: '443'
-  server: fr01.paopaocloud.cyou
-  tls: true
-  type: vmess
-  uuid: 6a1246a9-491f-3e89-8c51-39e489f059e1
-  ws-opts:
-    headers:
-      Host: fr01.2yun.win
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇫🇷-法国-fr01.paopaocloud.cyou #2'
-  network: ws
-  port: '443'
-  server: fr01.paopaocloud.cyou
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: dbd5ea6f-eea7-3490-85bb-580c26ecf57b
-  ws-opts:
-    headers:
-      Host: fr01.2yun.win
-    path: /v2ray
 - name: '法国11|2.5M/s(youtube阿伟科技) #1'
   network: tcp
   password: OwXaiuJi7H
   port: 32935
   server: r5.safyno.tk
   type: trojan
-- name: '4Sarina-4716 #1'
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 185.16.110.113
-  sni: icecream.955850.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: '%2FTelegram%40V2ray_Alpha'
 - name: 法国_0626021
   password: 0280b529-2747-4b7a-ab11-bad6453150b9
   port: 443
@@ -1908,20 +1658,6 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
-  name: 🇫🇷FR-51.77.20.137-8604
-  network: ws
-  port: 443
-  server: 51.77.20.137
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: tilebani.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
   name: 🇫🇷FR-35.181.77.67-1425
   network: ws
   port: 443
@@ -1964,33 +1700,23 @@ proxies:
     path: /azumase.ren
 - alterId: 0
   cipher: auto
-  name: 法国 004
+  name: 法国 015
   network: ws
-  port: 2087
-  server: 45.77.61.111
+  port: 22330
+  server: 51.77.230.27
   tls: false
   type: vmess
-  uuid: 70b89498-7c48-480d-b147-b4a2be37b614
-  ws-opts:
-    path: /
+  uuid: 2fdc4029-e234-4a8e-c30e-128bdb25c7c4
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '法国 #4'
+  name: '法国 #3'
   network: tcp
   port: 47986
   server: 5b6f884e-3db6-40a7-b53d-769c4713b041.zhousi.link
   tls: false
   type: vmess
   uuid: ce3d354c-b946-4268-b7d4-c7775b1d79ee
-- alterId: 64
-  cipher: auto
-  name: 法国_0407155
-  network: tcp
-  port: 42399
-  server: 156.249.18.69
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: FR OVH 02
@@ -2001,50 +1727,4 @@ proxies:
   type: vmess
   uuid: 5255a5e7-1a58-46e6-8b92-eb17b8f98c7e
   ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Relay_🏁ZZ-🇫🇷FR_2069
-  network: ws
-  port: 80
-  server: 190.93.245.4
-  servername: fr.v2ray1.xyz
-  tls: false
-  type: vmess
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Relay_🏁ZZ-🇫🇷FR_2082
-  network: ws
-  port: 80
-  server: 141.101.115.32
-  servername: fr.v2ray1.xyz
-  tls: false
-  type: vmess
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  ws-opts:
-    path: /
-- alterId: 64
-  cipher: auto
-  name: Relay_-🇫🇷FR_195
-  network: tcp
-  port: 58812
-  server: 51.195.35.151
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 法国 V2CROSS.COM
-  network: ws
-  port: 10048
-  server: 141.11.103.163
-  tls: false
-  type: vmess
-  uuid: 1d4e946f-29cc-42d7-bd7d-abc155322005
-  ws-opts:
-    headers:
-      Host: 141.11.103.163
     path: /

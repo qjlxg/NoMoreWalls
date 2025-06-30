@@ -55,7 +55,7 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- name: 4Nika-5913
+- name: 4Jadi-5950
   network: ws
   password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
   port: 443
@@ -463,6 +463,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
+  network: ws
+  port: '80'
+  server: 203.30.189.1
+  tls: false
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-opts:
+    headers:
+      Host: lg.v2ray8.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇹🇼 _US_美国->🇹🇼_TW_台湾
   network: ws
   port: '2082'
@@ -496,6 +509,65 @@ proxies:
     headers:
       Host: us202345.wyhkaa0.ml
     path: /tg:@hkaa0
+- alterId: 2
+  cipher: auto
+  name: '🇭🇰 _CN_中国->🇭🇰_HK_香港_4由... #1'
+  network: ws
+  port: 23800
+  server: hk6.iggfastweb.com
+  tls: false
+  type: vmess
+  uuid: 9e0822c2-75ea-4d30-8895-9fe59da9935c
+  ws-opts:
+    headers:
+      Host: hk6.iggfastweb.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '🇨🇳 _CN_中国->🇹🇼_TW_台湾_2 #1'
+  network: ws
+  port: 21800
+  server: tw3.iggfastweb.com
+  tls: false
+  type: vmess
+  uuid: 9e0822c2-75ea-4d30-8895-9fe59da9935c
+  ws-opts:
+    headers:
+      Host: tw3.iggfastweb.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  network: ws
+  port: 33640
+  server: gdct.lbbb.tk
+  tls: false
+  type: vmess
+  uuid: 5eb22bf1-ce1e-4d2d-9306-7b64b1c6e105
+  ws-opts:
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 美国 043
+  network: tcp
+  port: 43838
+  server: 156.225.67.168
+  tls: false
+  type: vmess
+  uuid: ebec2adf-e940-446f-bed4-d8c91143b54a
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 _CN_中国->🇬🇧_GB_英国
+  network: ws
+  port: '63091'
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: e150c7fc-4297-3a40-a9d8-ff7e38bc1c63
+  ws-opts:
+    headers:
+      Host: uk01-cdn.airport-v2.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 🇫🇷_FR_法国->🇳🇱_NL_荷兰_来源：kkzui.co...
@@ -525,19 +597,6 @@ proxies:
   uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
 - alterId: 0
   cipher: auto
-  name: '🇯🇵 日2[中转]-流媒体NF '
-  network: ws
-  port: 60996
-  server: cu.netflix6.com
-  tls: false
-  type: vmess
-  uuid: 784ede01-8b10-3f69-95a3-aa0832557330
-  ws-opts:
-    headers:
-      Host: netflix6.com
-    path: /maojp2
-- alterId: 0
-  cipher: auto
   name: '🇺🇸 _CN_中国->🇺🇸_US_美国 #3'
   network: tcp
   port: 45001
@@ -554,15 +613,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 09d40745-d455-4945-8bc1-80af1682ffc8
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_3_3由快嘴科技提供（...
-  network: tcp
-  port: 35362
-  server: 156.225.67.227
-  tls: false
-  type: vmess
-  uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b
 - alterId: 2
   cipher: auto
   name: ⒐V2RAY [vip1]广移-中转-韩国
@@ -599,15 +649,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 97ecd8b7-51e9-38c6-a85e-f6c1c44ccf9a
-- alterId: 64
-  cipher: auto
-  name: 二爷翻墙网 https://1808.ga ..._____
-  network: tcp
-  port: 33242
-  server: 183.237.20.147
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: ⒔V2RAY [vip1]广移-中转-日本
@@ -740,16 +781,6 @@ proxies:
     path: /current_time
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇬🇧_GB_英国_来源：kkzui.co...
-  network: ws
-  port: 443
-  server: quranweb20.xyz
-  tls: true
-  type: vmess
-  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
   name: '🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
   network: ws
   port: '443'
@@ -761,17 +792,99 @@ proxies:
     headers:
       Host: quranweb25.xyz
     path: /
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  network: ws
-  port: 33640
-  server: gdct.lbbb.tk
+  name: 🇨🇳_CN_中国->🇭🇰_HK_香港
+  network: tcp
+  port: 10002
+  server: 112.33.32.148
   tls: false
   type: vmess
-  uuid: 5eb22bf1-ce1e-4d2d-9306-7b64b1c6e105
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+- alterId: 1
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇰🇷_KR_韩国
+  network: tcp
+  port: 10040
+  server: AZHK-NODE-01.PL2020.XYZ
+  tls: true
+  type: vmess
+  uuid: 7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5
+- alterId: 0
+  cipher: auto
+  name: _CN_中国->🇩🇿_DZ_阿尔及利亚
+  network: ws
+  port: '20310'
+  server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
+  tls: false
+  type: vmess
+  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
   ws-opts:
+    headers:
+      Host: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
     path: /
+- alterId: 64
+  cipher: auto
+  name: '🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
+  network: tcp
+  port: '59629'
+  server: 120.240.163.62
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
+  network: ws
+  port: '20003'
+  server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
+  tls: false
+  type: vmess
+  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
+  ws-opts:
+    headers:
+      Host: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 _CN_中国->🇭🇰_HK_香港
+  network: tcp
+  port: '12541'
+  server: rk1.mrlizhuanfa.com
+  tls: false
+  type: vmess
+  uuid: 287320fe-ee8e-3641-a142-0a268f429630
+- alterId: 64
+  cipher: auto
+  name: '🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
+  network: tcp
+  port: '49914'
+  server: 120.240.163.62
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 _CN_中国->🇭🇰_HK_香港 #1'
+  network: ws
+  port: '30015'
+  server: v02.gutingting.com
+  tls: false
+  type: vmess
+  uuid: 423cd09a-8ca0-4a8a-be43-15a10076342a
+  ws-opts:
+    headers:
+      Host: gz.fastcloud.club
+    path: /aceamedv
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  network: tcp
+  port: 54251
+  server: cn-hk-v2.okss.us
+  tls: true
+  type: vmess
+  uuid: 5a96d1f3-55de-4834-b19a-72e5fbc34b2f
 - alterId: 0
   cipher: auto
   name: '🇫🇷_FR_法国->🇺🇸_US_美国 #1'
@@ -801,19 +914,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡
-  network: ws
-  port: '2095'
-  server: 172.67.69.120
-  tls: false
-  type: vmess
-  uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3
-  ws-opts:
-    headers:
-      Host: lin.d.sg.wyhkaa0.gq
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1'
   network: ws
   port: '2095'
   server: 172.67.64.228
@@ -919,7 +1019,7 @@ proxies:
     path: /TG:@hkaa0
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国->🇰🇷_KR_韩国
+  name: '🇨🇳_CN_中国->🇰🇷_KR_韩国 #1'
   network: ws
   port: '22307'
   server: 111.22.142.145
@@ -939,90 +1039,6 @@ proxies:
   tls: false
   type: vmess
   uuid: b52256b3-4b69-4ab5-a913-ba3674ada13b
-- alterId: 1
-  cipher: auto
-  name: '🇨🇳_CN_中国->🇰🇷_KR_韩国 #1'
-  network: tcp
-  port: 10040
-  server: AZHK-NODE-01.PL2020.XYZ
-  tls: true
-  type: vmess
-  uuid: 7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5
-- alterId: 0
-  cipher: auto
-  name: _CN_中国->🇩🇿_DZ_阿尔及利亚
-  network: ws
-  port: '20310'
-  server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
-  tls: false
-  type: vmess
-  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
-  ws-opts:
-    headers:
-      Host: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
-  network: tcp
-  port: '59629'
-  server: 120.240.163.62
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
-  network: ws
-  port: '20003'
-  server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
-  tls: false
-  type: vmess
-  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
-  ws-opts:
-    headers:
-      Host: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 _CN_中国->🇭🇰_HK_香港
-  network: tcp
-  port: '12541'
-  server: rk1.mrlizhuanfa.com
-  tls: false
-  type: vmess
-  uuid: 287320fe-ee8e-3641-a142-0a268f429630
-- alterId: 64
-  cipher: auto
-  name: '🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
-  network: tcp
-  port: '49914'
-  server: 120.240.163.62
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 _CN_中国->🇭🇰_HK_香港 #1'
-  network: ws
-  port: '30015'
-  server: v02.gutingting.com
-  tls: false
-  type: vmess
-  uuid: 423cd09a-8ca0-4a8a-be43-15a10076342a
-  ws-opts:
-    headers:
-      Host: gz.fastcloud.club
-    path: /aceamedv
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  network: tcp
-  port: 54251
-  server: cn-hk-v2.okss.us
-  tls: true
-  type: vmess
-  uuid: 5a96d1f3-55de-4834-b19a-72e5fbc34b2f
 - alterId: 0
   cipher: auto
   name: 🇺🇸 中转 🇺🇸 US 3 TG@airproxies
@@ -1071,19 +1087,6 @@ proxies:
   tls: false
   type: vmess
   uuid: ee867204-3f52-3faf-8de4-6f4180939d7c
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 中转 🇭🇰 HK 40 Amazon.com TG@n...
-  network: ws
-  port: '80'
-  server: hkhk.idcloudhost.de
-  tls: false
-  type: vmess
-  uuid: a1e8f9a6-dee5-47fd-bbc9-e9307e0b0ee1
-  ws-opts:
-    headers:
-      Host: hkhk.idcloudhost.de
-    path: /
 - alterId: 0
   cipher: auto
   name: 香港23|12.9M/s|CN->HK
@@ -1136,6 +1139,26 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 4Sarina-4075
+  password: 1b4c16925f934c57b954a9f0f23dea33
+  port: 8842
+  server: 42.240.152.238
+  skip-cert-verify: true
+  sni: brwx.spvpv.com
+  type: trojan
+- name: '🇨🇳_CN_中国->🇺🇸_US_美国 #4'
+  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
+  port: 21332
+  server: 36.156.184.33
+  sni: k65.tudou211.com
+  type: trojan
+- name: 4Sarina-4208
+  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
+  port: 21332
+  server: xd-js.timiwc.com
+  skip-cert-verify: true
+  sni: k65.tudou211.com
+  type: trojan
 - name: '🇭🇰|香港-中转 01 #3'
   password: 2db71c8f-b7d3-4272-b868-2f7c92b395d1
   port: 9120
@@ -2317,15 +2340,6 @@ proxies:
   uuid: a558f78a-4cac-47d7-b5ce-203958d1487a
   ws-opts:
     path: '%2Fcbeaa3aa-4364-4d79-8f60-e964a28724bf.vp3.site'
-- name: '🇷🇺_RU_俄罗斯->🇺🇸_US_美国 #1'
-  network: ws
-  port: 80
-  server: 45.8.146.207
-  tls: false
-  type: vless
-  uuid: a6c4db3e-7785-429e-8bc5-9eaf7b1a79b1
-  ws-opts:
-    path: /vless/
 - name: '🇺🇸美国圣何塞中转-免费1 #3'
   network: ws
   port: 443
@@ -2346,29 +2360,3 @@ proxies:
   uuid: f2afe7b0-f54d-42ae-8094-681e7185070d
   ws-opts:
     path: '%2Fcbeaa3aa-4364-4d79-8f60-e964a28724bf.vp3.site'
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾_2
-  network: ws
-  port: 21800
-  server: tw3.iggfastweb.com
-  tls: false
-  type: vmess
-  uuid: 9e0822c2-75ea-4d30-8895-9fe59da9935c
-  ws-opts:
-    headers:
-      Host: tw3.iggfastweb.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 _CN_中国->🇭🇰_HK_香港_4由...
-  network: ws
-  port: 23800
-  server: hk6.iggfastweb.com
-  tls: false
-  type: vmess
-  uuid: 9e0822c2-75ea-4d30-8895-9fe59da9935c
-  ws-opts:
-    headers:
-      Host: hk6.iggfastweb.com
-    path: /
