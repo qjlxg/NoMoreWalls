@@ -115,71 +115,6 @@ proxies:
     headers:
       Host: ''
     path: /bb28a1d7
-- client-fingerprint: random
-  name: 老油条-新加坡-cdn1
-  network: ws
-  port: 443
-  server: cdn1.laoyoutiao.link
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: sg.laoyoutiao.link
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 老油条-新加坡-cfcdn1
-  network: ws
-  port: 443
-  server: cfcdn1.langmanshanxi.top
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: sg.laoyoutiao.link
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 老油条-新加坡-cfcdn2
-  network: ws
-  port: 443
-  server: cfcdn2.langmanshanxi.top
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: sg.laoyoutiao.link
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 老油条-新加坡-cfcdn3
-  network: ws
-  port: 443
-  server: cfcdn3.langmanshanxi.top
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: sg.laoyoutiao.link
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 老油条-新加坡-cfcdns
-  network: ws
-  port: 443
-  server: cfcdns.langmanshanxi.top
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: sg.laoyoutiao.link
-    path: /?ed=2560
 - name: 'redhat_vpn-🇸🇬-سنگاپور-h7i2wqfa #1'
   network: tcp
   port: 17310
@@ -278,7 +213,7 @@ proxies:
       Host: sg.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-新加坡-cdn1 #2'
+  name: '老油条-新加坡-cdn1 #1'
   network: ws
   port: 443
   server: cdn1.laoyoutiao.link
@@ -291,7 +226,7 @@ proxies:
       Host: sg.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-新加坡-cfcdn1 #2'
+  name: '老油条-新加坡-cfcdn1 #1'
   network: ws
   port: 443
   server: cfcdn1.langmanshanxi.top
@@ -304,7 +239,7 @@ proxies:
       Host: sg.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-新加坡-cfcdn2 #2'
+  name: '老油条-新加坡-cfcdn2 #1'
   network: ws
   port: 443
   server: cfcdn2.langmanshanxi.top
@@ -317,7 +252,7 @@ proxies:
       Host: sg.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-新加坡-cfcdn3 #2'
+  name: '老油条-新加坡-cfcdn3 #1'
   network: ws
   port: 443
   server: cfcdn3.langmanshanxi.top
@@ -330,7 +265,7 @@ proxies:
       Host: sg.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-新加坡-cfcdns #2'
+  name: '老油条-新加坡-cfcdns #1'
   network: ws
   port: 443
   server: cfcdns.langmanshanxi.top
@@ -536,69 +471,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 7aa56e39-29b8-45c3-8b53-6d2a23b2461c
-- name: 🇸🇬🌏+@v2ray_v_vpn+کانفیگ+های+بی...
-  network: httpupgrade
-  port: 2086
-  server: 104.17.147.22
-  tls: false
-  type: vless
-  uuid: c0fbe05a-79c5-4b1e-bcbe-643ef08c4a02
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.zula.ir.Shad.ir.sHaparak.ir.torob.com.namaSha.com.namnak.com.filiMo.com.Rokna.net.teleweBion.com.iraNikala.toP.
-    path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D1024'
-- name: 新加坡_070123016
-  network: httpupgrade
-  port: 8880
-  server: 27.50.48.198
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 新加坡_070123096
-  network: httpupgrade
-  port: 8880
-  server: 27.50.48.252
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: '%2F'
-- name: 新加坡_070123208
-  network: httpupgrade
-  port: 8880
-  server: 154.194.12.25
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 新加坡_070123242
-  network: httpupgrade
-  port: 8880
-  server: 92.243.74.211
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 新加坡_070123247
-  network: httpupgrade
-  port: 8880
-  server: 92.243.74.5
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''

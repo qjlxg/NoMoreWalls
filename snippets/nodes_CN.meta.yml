@@ -138,18 +138,3 @@ proxies:
   port: 43196
   server: 223.111.144.12
   type: trojan
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: 🇨CN_1202_@Surfboardv2ray
-  network: httpupgrade
-  port: 443
-  server: 103.184.45.164
-  servername: wwwd7e1909f3a7e4477.jostar-data.nl
-  tls: true
-  type: vless
-  uuid: 782efefc-aac2-a7f2-6e2b-e42f7bc5d75a
-  ws-opts:
-    headers:
-      Host: d7e1909f3a7e4477.jostar-data.nl
-    path: /quran/deam_net301.67+GB/?ed=2560

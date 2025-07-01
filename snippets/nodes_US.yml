@@ -178,6 +178,16 @@ proxies:
   uuid: 6ef488cc-1a8e-4a63-d53b-b388a1832477
 - alterId: 0
   cipher: auto
+  name: 'NorthXRAY - VMESS 🔥🇩🇪 🇺🇸 #1'
+  network: tcp
+  port: '33678'
+  server: prod02-lb02-cloud01.cyberscaler.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0be9f568-4ef5-4288-8818-2034593ad6bd
+- alterId: 0
+  cipher: auto
   name: 🇺🇸 US-51.81.203.57:28860
   network: tcp
   port: '28860'
@@ -216,12 +226,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 82466715-6a58-4046-a363-a0d18e5b2ab4
-- alpn:
-  - http/1.1
-  name: 🇺🇸US(AzadNet.t.me)
-  network: splithttp
-  password: d2126a69-7ff4-4ecf-918a-33af36dce67b
-  port: 8443
-  server: 162.251.82.187
-  sni: wF.nAfTi.gGff.Net
-  type: trojan

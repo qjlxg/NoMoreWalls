@@ -160,71 +160,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3
-- client-fingerprint: random
-  name: 老油条-香港-cdn1
-  network: ws
-  port: 443
-  server: cdn1.laoyoutiao.link
-  servername: hk.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: hk.laoyoutiao.link
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 老油条-香港-cfcdn1
-  network: ws
-  port: 443
-  server: cfcdn1.langmanshanxi.top
-  servername: hk.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: hk.laoyoutiao.link
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 老油条-香港-cfcdn2
-  network: ws
-  port: 443
-  server: cfcdn2.langmanshanxi.top
-  servername: hk.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: hk.laoyoutiao.link
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 老油条-香港-cfcdn3
-  network: ws
-  port: 443
-  server: cfcdn3.langmanshanxi.top
-  servername: hk.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: hk.laoyoutiao.link
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 老油条-香港-cfcdns
-  network: ws
-  port: 443
-  server: cfcdns.langmanshanxi.top
-  servername: hk.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: hk.laoyoutiao.link
-    path: /?ed=2560
 - alpn:
   - h3
   client-fingerprint: random
@@ -434,7 +369,7 @@ proxies:
       Host: hk.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-香港-cdn1 #2'
+  name: '老油条-香港-cdn1 #1'
   network: ws
   port: 443
   server: cdn1.laoyoutiao.link
@@ -447,7 +382,7 @@ proxies:
       Host: hk.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-香港-cfcdn1 #2'
+  name: '老油条-香港-cfcdn1 #1'
   network: ws
   port: 443
   server: cfcdn1.langmanshanxi.top
@@ -460,7 +395,7 @@ proxies:
       Host: hk.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-香港-cfcdn2 #2'
+  name: '老油条-香港-cfcdn2 #1'
   network: ws
   port: 443
   server: cfcdn2.langmanshanxi.top
@@ -473,7 +408,7 @@ proxies:
       Host: hk.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-香港-cfcdn3 #2'
+  name: '老油条-香港-cfcdn3 #1'
   network: ws
   port: 443
   server: cfcdn3.langmanshanxi.top
@@ -486,7 +421,7 @@ proxies:
       Host: hk.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-香港-cfcdns #2'
+  name: '老油条-香港-cfcdns #1'
   network: ws
   port: 443
   server: cfcdns.langmanshanxi.top
@@ -532,69 +467,3 @@ proxies:
   tls: false
   type: vmess
   uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
-- name: 香港_070123331
-  network: httpupgrade
-  port: 8880
-  server: 154.218.15.43
-  tls: false
-  type: vless
-  uuid: 99727208-0086-43f9-f0ad-9e30f546b822
-  ws-opts:
-    headers:
-      Host: hamidjon.ddigicyber.click.
-    path: //telegram-NUFiLTER
-- name: 香港_070123334
-  network: httpupgrade
-  port: 8880
-  server: 154.218.15.106
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 香港_070123336
-  network: httpupgrade
-  port: 8880
-  server: 154.218.15.244
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 香港_070123338
-  network: httpupgrade
-  port: 8880
-  server: 154.218.15.112
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 香港_070123343
-  network: httpupgrade
-  port: 8880
-  server: 154.218.15.152
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 香港_070123350
-  network: httpupgrade
-  port: 8880
-  server: 154.218.15.20
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''

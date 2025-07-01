@@ -257,14 +257,3 @@ proxies:
   uuid: bdbfd26c-725b-4922-b970-e7dfb46afb7b
   ws-opts:
     path: '%2Fsocks5%3A%2F%2Fadmin%3Aadmin%4043.133.4.144%3A1080'
-- name: 'https://t.me/VTWORAY_WOLF #2'
-  network: httpupgrade
-  port: 80
-  server: speedtest-fr5.gcore.com
-  tls: false
-  type: vless
-  uuid: f4e82258-9328-46fe-bac7-8d31a905e25a
-  ws-opts:
-    headers:
-      Host: ap.ir
-    path: '%2F'
