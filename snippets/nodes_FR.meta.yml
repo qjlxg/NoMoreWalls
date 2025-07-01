@@ -1,1 +1,259 @@
-proxies: []
+proxies:
+- name: 1|🇫🇷1 |  5.2MB/s
+  password: dongtaiwang.com
+  port: 59967
+  server: 195.154.33.70
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 1|🇫🇷2 |  5.1MB/s
+  password: dongtaiwang.com
+  port: 61770
+  server: 51.159.226.1
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'FR #1'
+  network: ws
+  port: 443
+  server: 185.87.150.54
+  servername: warp.wlcf.lol
+  tls: true
+  type: vless
+  uuid: f41afc19-93cb-406d-af1c-04e75221708c
+  ws-opts:
+    headers:
+      Host: warp.wlcf.lol
+    path: '%2F%3Fed%3D2560'
+- name: 'فرانسه🇫🇷(سرور 03) | اگر وصل شد... #1'
+  network: ws
+  port: 80
+  server: 45.131.5.226
+  tls: false
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
+- alterId: 0
+  cipher: auto
+  name: '🇫🇷FR(AzadNet.t.me) (11) #1'
+  network: ws
+  port: '443'
+  server: 146.59.55.50
+  servername: o.metuji.com
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: o.Metuji.coM
+    path: /linkvws
+- name: 🇫🇷|FR|@wxgqlfx|375<br />
+  password: dongtaiwang.com
+  port: 4489
+  server: 51.158.205.126
+  tls: false
+  type: hysteria2
+- name: 🇫🇷|FR|@wxgqlfx|391</p>
+  port: 443
+  server: 141.11.203.139
+  tls: true
+  type: vless
+  uuid: 401374e6-df77-41fb-f638-dad8184f175b
+- name: 🇫🇷|FR|@wxgqlfx|363<br />
+  password: dongtaiwang.com
+  port: 4489
+  server: hy2-2.694463.xyz
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 FR-135.125.182.74:28213
+  network: tcp
+  port: '28213'
+  server: 135.125.182.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 81852771-76fb-4e94-e4f1-4e37a698a49a
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: random
+  name: 🇫🇷 @iProxyRobot [FR↹🇮🇷]
+  network: ws
+  port: 80
+  server: 81.12.92.233
+  tls: false
+  type: vless
+  uuid: 469ea395-6372-ba2e-05c0-6790e06848d9
+  ws-opts:
+    headers:
+      Host: web.rubika.ir
+    path: '%2FIVApi%2FFR%2F1'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔗 Vauth - 3215
+  network: splithttp
+  port: 443
+  server: 185.16.110.30
+  servername: www.tehransiman.info
+  tls: true
+  type: vless
+  uuid: 51d85bb4-bb4e-491a-ac15-9c5f5633f1d0
+- name: 'خرید+@Orange_support #4'
+  network: httpupgrade
+  port: 2052
+  server: ns1.esfahansiman.com
+  tls: false
+  type: vless
+  uuid: 44ab7429-dd2f-4a5f-8755-72695074000d
+  ws-opts:
+    headers:
+      Host: WWW.tehrANSiman.coM.
+    path: '%2F%3Fed%3D2560'
+- name: 🇫🇷FR_411_@Surfboardv2ray
+  network: httpupgrade
+  port: 2052
+  server: 185.16.110.30
+  tls: false
+  type: vless
+  uuid: 0f0897cf-469f-421b-9018-b739fb47b721
+  ws-opts:
+    headers:
+      Host: WWW.tehrANSiman.coM.
+    path: /?ed=2560
+- name: 🇨🇭📡@Serversiran11
+  network: httpupgrade
+  port: 2052
+  server: ns1.esfahansiman.com
+  tls: false
+  type: vless
+  uuid: 1c9f20e4-8888-4a4e-941b-cd35922a1125
+  ws-opts:
+    headers:
+      Host: www.speedttestcloudflare.arashmobile.info
+- name: 🇫🇷FR_2281_@Surfboardv2ray
+  network: httpupgrade
+  port: 2052
+  server: ns2.esfahansiman.com
+  tls: false
+  type: vless
+  uuid: be6d2019-b9c8-48c4-a915-90a99c2c562c
+  ws-opts:
+    headers:
+      Host: FTP.tehrANSiman.coM.
+    path: /?ed=2560
+- name: '@FILTERK0SH+|+VIP+SERVER💯 #10'
+  network: httpupgrade
+  port: 8080
+  server: 104.17.234.128
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: JOIN.%53%56%4E%54%45%41%4D.fra.speedtest.net.FiSvn.ir.
+    path: '%2Ftelegram-%53%56%4E%54%45%41%4D%3Fed%3D2056'
+- name: 🇫🇷🌏+@v2ray_v_vpn+کانفیگ+های+بی...
+  network: httpupgrade
+  port: 2095
+  server: 104.19.15.10
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: vira.www.speedtest.net.zula.digikala.com.avincloud.ir
+    path: digikala.com%2Flogin%2F%40ViraV2ray%2C%40ViraV2ray%2C%40ViraV2ray%3Fed%3D2560
+- name: Moftinet+🇫🇷
+  network: httpupgrade
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: c058ae8f-e477-4b5a-8ed9-ec914db9778f
+  ws-opts:
+    headers:
+      Host: sub-89ytdd0zy-rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--qeiaa57238baaaaaaabaacaaaaaaaaaaaaaaaaaaaaa.apaspeedtest.netrat.com.eu.com.shw814.ir.xn--cr8haaaaaaaaaaaaaaaaa.xn--g28h.UplOaD-sOftMeTo.Ir.
+    path: '%2F%3Fed%3D2048'
+- grpc-opts:
+    grpc-service-name: /@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH
+  name: '@FILTERK0SH+|+All+²🇫🇷'
+  network: httpupgrade
+  port: 8080
+  server: 104.17.234.128
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: JOIN.%53%56%4E%54%45%41%4D.fra.speedtest.net.FiSvn.ir.
+    path: '%2Ftelegram-%53%56%4E%54%45%41%4D%3Fed%3D2056'
+- name: '[🇫🇷]𝐣𝐨𝐢𝐧𓄂𓆃 @v2rayngrit'
+  network: httpupgrade
+  port: 2052
+  server: ns1.esfahansiman.com
+  tls: false
+  type: vless
+  uuid: 668e2f3c-28d6-49d0-900e-511b1ef6fe8d
+  ws-opts:
+    headers:
+      Host: WWW.tehrANSiman.coM.
+    path: '%2F%3Fed%3D2560'
+- name: 🚀 - 𝗔𝗟𝗟 𝗡𝗘𝗧 |🇫🇷
+  network: httpupgrade
+  port: 2082
+  server: date.akco16.fun
+  tls: false
+  type: vless
+  uuid: 7e8bd14f-56ac-4b3f-bc5e-17ea58e1e2da
+  ws-opts:
+    headers:
+      Host: franch.asraschool.ir
+    path: '%2F%3Fed%3D2560'
+- name: '🇫🇷🌏+@v2ray_v_vpn+کانفیگ+های+بی... #1'
+  network: httpupgrade
+  port: 8880
+  server: 104.21.69.44
+  tls: false
+  type: vless
+  uuid: 8ab0ad08-4804-41e4-a385-6e87543972fd
+  ws-opts:
+    headers:
+      Host: join-daily-configs.broken-dreams.ir
+    path: '%2F'
+- name: 🇷FR_1476_@Surfboardv2ray
+  network: httpupgrade
+  port: 8880
+  server: cdfr.i5connect.xyz
+  tls: false
+  type: vless
+  uuid: 4dfa292a-f524-4b07-aeea-d5767654574f
+  ws-opts:
+    headers:
+      Host: videOcardz.com.80.pya.neGmikh.sagHol.hello.www.spEedtest.net.mmad99.qx6dxp9k7vKoo.n5pc6t.6s.sayokara.cc8.meOwk.neKo0ali.cOm.
+    path: /deez
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷FR_2655_@Surfboardv2ray
+  network: httpupgrade
+  port: 443
+  server: 62.60.156.254
+  servername: uk1.blackismyfavorite.ir
+  tls: true
+  type: vless
+  uuid: 9ca79e0a-2c5c-4ac8-90e6-6642e41e6189
+  ws-opts:
+    headers:
+      Host: uk1.blackismyfavorite.ir
+    path: /XRAYVPNHTTPUPGRADE

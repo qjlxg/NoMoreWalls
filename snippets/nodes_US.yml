@@ -1,1 +1,227 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸3 |  4.9MB/s
+  network: ws
+  port: 2087
+  server: lon2-dash.930.pp.ua
+  servername: lon2-dash.930.pp.ua
+  tls: true
+  type: vmess
+  uuid: bc86f949-7152-4367-92f5-7a11eacf9c9b
+  ws-opts:
+    headers:
+      Host: lon2-sub.930.pp.ua
+    path: /lon2-sub.930.pp.ua
+- alterId: 2
+  cipher: auto
+  name: 1|🇺🇸8 |  5.5MB/s
+  network: ws
+  port: 22643
+  server: 119.188.66.248
+  servername: zxjp-c.tkong.cc
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸11 |  2.4MB/s
+  network: ws
+  port: 2096
+  server: lon2-dash.930.pp.ua
+  servername: lon2-dash.930.pp.ua
+  tls: true
+  type: vmess
+  uuid: bc86f949-7152-4367-92f5-7a11eacf9c9b
+  ws-opts:
+    headers:
+      Host: lon2-sub.930.pp.ua
+    path: /lon2-sub.930.pp.ua
+- name: 1|🇺🇸13 |  2.9MB/s
+  password: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
+  port: 443
+  server: 172.67.149.172
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸29 |  5.4MB/s
+  network: tcp
+  port: 5228
+  server: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+- alterId: 2
+  cipher: auto
+  name: 12,13|美国3|@ripaojiedian
+  network: ws
+  port: '30807'
+  server: v7.heduian.link
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 电商01-美国西雅图SEA2
+  network: tcp
+  port: 20597
+  server: 148.253.37.183
+  tls: false
+  type: vmess
+  uuid: 8cfd0330-80f3-4722-cce0-81b5c1fe1465
+- alterId: 0
+  cipher: auto
+  name: US030503
+  network: ws
+  port: 13154
+  server: 104.164.211.137
+  tls: false
+  type: vmess
+  uuid: c18e4fae-d5d4-4eb5-913b-b9af26c88c72
+  ws-opts:
+    headers:
+      Host: ''
+    path: /c18e4fae
+- alterId: 0
+  cipher: auto
+  name: US030604
+  network: ws
+  port: 31283
+  server: 172.120.240.190
+  tls: false
+  type: vmess
+  uuid: facb78a1-b111-4a17-89da-7b3e4ee7445d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /facb78a1
+- alterId: 0
+  cipher: auto
+  name: 崔US030702
+  network: ws
+  port: 16145
+  server: 156.225.64.165
+  tls: false
+  type: vmess
+  uuid: 37ee2fe8-d061-4230-c595-b0d98c8e501d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /37ee2fe8
+- alterId: 0
+  cipher: auto
+  name: US030605
+  network: ws
+  port: 35518
+  server: 104.164.211.32
+  tls: false
+  type: vmess
+  uuid: 050d7cb2-2ba5-4f84-be1d-eb438738d115
+  ws-opts:
+    headers:
+      Host: ''
+    path: /050d7cb2
+- alterId: 0
+  cipher: auto
+  name: 崔US030701
+  network: ws
+  port: 24901
+  server: 45.39.212.73
+  tls: false
+  type: vmess
+  uuid: b38e02bd-f31b-4e86-e05c-f65cba115413
+  ws-opts:
+    headers:
+      Host: ''
+    path: /b38e02bd
+- alterId: 0
+  cipher: auto
+  name: US030502
+  network: ws
+  port: 15768
+  server: 107.165.181.126
+  tls: false
+  type: vmess
+  uuid: a3717269-d46f-4c56-f2f0-49d2d682b31a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /a3717269
+- name: 美国线路4-临时用2023/12/18
+  password: g7mJgE22Op
+  port: 41332
+  server: 38.59.245.22
+  type: trojan
+- name: 美国独享/8.11
+  password: cloo3MYJKU
+  port: 46798
+  server: 45.92.39.236
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国独享/811新
+  network: tcp
+  port: 33530
+  server: 45.92.39.236
+  tls: false
+  type: vmess
+  uuid: 6ef488cc-1a8e-4a63-d53b-b388a1832477
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US-51.81.203.57:28860
+  network: tcp
+  port: '28860'
+  server: 51.81.203.57
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1784497d-03a1-40bb-bb8b-de4ffac7c59c
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US-15.204.86.120:35696
+  network: tcp
+  port: '35696'
+  server: 15.204.86.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cad0504a-a9dc-4d29-8844-b11b69f14a8d
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US-15.204.249.0:48160
+  network: tcp
+  port: '48160'
+  server: 15.204.249.0
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5b113c12-4dd4-4bb5-9c01-cff092b559e3
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US-15.204.248.92:30562
+  network: tcp
+  port: '30562'
+  server: 15.204.248.92
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 82466715-6a58-4046-a363-a0d18e5b2ab4
+- alpn:
+  - http/1.1
+  name: 🇺🇸US(AzadNet.t.me)
+  network: splithttp
+  password: d2126a69-7ff4-4ecf-918a-33af36dce67b
+  port: 8443
+  server: 162.251.82.187
+  sni: wF.nAfTi.gGff.Net
+  type: trojan

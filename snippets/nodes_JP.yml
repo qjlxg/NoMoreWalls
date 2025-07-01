@@ -1,1 +1,143 @@
-proxies: []
+proxies:
+- name: 1|🇯🇵2 |  6.1MB/s
+  password: ef23ddd0-14c5-39c2-9880-af55ce892363
+  port: 54860
+  server: t5.qifei.app
+  skip-cert-verify: true
+  type: trojan
+- name: 1|🇯🇵11 |  4.4MB/s
+  password: ef23ddd0-14c5-39c2-9880-af55ce892363
+  port: 57841
+  server: t14.qifei.app
+  skip-cert-verify: true
+  type: trojan
+- name: 13|日本6|@ripaojiedian
+  password: '!!str 74260700211203800'
+  port: 443
+  server: possible-tiger.shiner427.skin
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 TEST_Hycan-holdings
+  network: tcp
+  port: '21566'
+  server: dlgdc.thecxfcsp.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3
+- alterId: 0
+  cipher: auto
+  name: ZJP-040309
+  network: ws
+  port: 32694
+  server: 45.38.197.31
+  tls: false
+  type: vmess
+  uuid: fb4108a1-9bc7-4b54-e587-2ddbba3469eb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fb4108a1
+- alterId: 0
+  cipher: auto
+  name: ZJP-040302
+  network: ws
+  port: 48327
+  server: 172.252.245.139
+  tls: false
+  type: vmess
+  uuid: 323ad002-0b7d-45fe-ad95-13064fc5d743
+  ws-opts:
+    headers:
+      Host: ''
+    path: /323ad002
+- alterId: 0
+  cipher: auto
+  name: 张伟JP030802
+  network: ws
+  port: 27931
+  server: 107.165.195.162
+  tls: false
+  type: vmess
+  uuid: a15232d5-6cc8-46c8-f3c4-d9cb6c5c8522
+  ws-opts:
+    headers:
+      Host: ''
+    path: /a15232d5
+- alterId: 0
+  cipher: auto
+  name: cppJP-030401
+  network: ws
+  port: 45330
+  server: 107.165.195.71
+  tls: false
+  type: vmess
+  uuid: ac9cad17-7f42-4294-e662-4263d7ed68b3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ac9cad17
+- alterId: 0
+  cipher: auto
+  name: 张伟JP-030502
+  network: ws
+  port: 28177
+  server: 107.165.195.221
+  tls: false
+  type: vmess
+  uuid: a340c47f-4280-4e5e-d5ca-122b9c1bd641
+  ws-opts:
+    headers:
+      Host: ''
+    path: /49f03cb9
+- alterId: 0
+  cipher: auto
+  name: 张伟JP-030503
+  network: ws
+  port: 21352
+  server: 107.165.195.144
+  tls: false
+  type: vmess
+  uuid: 49f03cb9-3109-4255-d101-5570713ddf02
+  ws-opts:
+    headers:
+      Host: ''
+    path: /49f03cb9
+- alterId: 0
+  cipher: auto
+  name: 崔JP-01
+  network: ws
+  port: 28269
+  server: 136.0.11.227
+  tls: false
+  type: vmess
+  uuid: c650c00c-aab0-4607-c981-08fe55df82b7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /c650c00c
+- alterId: 0
+  cipher: auto
+  name: 潘春艳JP-030401
+  network: ws
+  port: 41031
+  server: 136.0.11.53
+  tls: false
+  type: vmess
+  uuid: 66e7ef90-334a-4d37-b5a1-7bff31c99433
+  ws-opts:
+    headers:
+      Host: ''
+    path: /66e7ef90
+- name: 日本2024年11月到期
+  password: uNQEjBXc9T
+  port: 33413
+  server: 167.88.182.101
+  type: trojan
+- name: vltys3用12月19日到期
+  password: LIbzbZ4ADF
+  port: 34844
+  server: 38.59.245.40
+  type: trojan

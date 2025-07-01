@@ -1,1 +1,106 @@
-proxies: []
+proxies:
+- name: 1,14|CH_speednode_0002
+  port: 443
+  server: yapc-1.afshin.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
+- name: 1,14|CH_speednode_0001
+  port: 443
+  server: 152.67.68.116
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
+- name: '🇨🇭@𝐒𝐢𝐍𝐀𝐕𝐌👈4️⃣کانال+تلگرام #1'
+  network: ws
+  port: 80
+  server: 104.16.16.135
+  tls: false
+  type: vless
+  uuid: b28eb861-1748-4200-ba72-278669edc33b
+  ws-opts:
+    headers:
+      Host: coco.mahmoodchitooz.dpdns.org
+    path: '%2F%3Fed%3D2570'
+- name: 🇨🇭|CH|@wxgqlfx|404<br />
+  port: 2053
+  server: 45.95.232.203
+  tls: false
+  type: vless
+  uuid: f184c89c-80a4-4a3a-bc67-97db43266c11
+  ws-opts:
+    path: '%2FTG%40wxgqlfx%3Fed%3D2560'
+- name: 🇨🇭|CH|@wxgqlfx|194<br />
+  port: 8880
+  server: 185.18.250.213
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: Moftinet 🇨🇭
+  network: httpupgrade
+  port: 2052
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: f684e6b4-6d74-4039-95a8-2839aba14367
+  ws-opts:
+    headers:
+      Host: epic-zurich-sub-89ytdd0zy-rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--qeiaa57238baaaaaaabaacaaaaaaaaaaaaaaaaaaaaa.apaspeedtest.netrat.com.eu.com.shw814.ir.xn--cr8haaaaaaaaaaaaaaaaa.xn--g28h.betacloud.ir.
+    path: '%2F%3Fed%3D2048'
+- name: 'Moftinet 🇨🇭 #1'
+  network: httpupgrade
+  port: 2052
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 529f64ee-d1da-45eb-b41f-55af281c65ce
+  ws-opts:
+    headers:
+      Host: epic-zurich-sub-89ytdd0zy-rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--qeiaa57238baaaaaaabaacaaaaaaaaaaaaaaaaaaaaa.apaspeedtest.netrat.com.eu.com.shw814.ir.xn--cr8haaaaaaaaaaaaaaaaa.xn--g28h.BArGhPaRs.IR.
+    path: '%2F%3Fed%3D2048'
+- name: 🇨🇭 5936
+  network: httpupgrade
+  port: 2086
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 8d63bcfc-5759-4c6b-9189-9b32f2a10733
+  ws-opts:
+    headers:
+      Host: itsmymeowly.mashti.bloG.
+    path: '%2Ftelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%3Fed%3D2560'
+- name: 🇨🇭 5901
+  network: httpupgrade
+  port: 2086
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 5b6d9ffb-99ab-4ae0-8d88-3d4ea3076b3c
+  ws-opts:
+    headers:
+      Host: itsmymeowly.mashti.bloG.
+    path: '%2Ftelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%3Fed%3D2560'
+- name: 瑞士_070123019
+  network: httpupgrade
+  port: 8880
+  server: 185.18.250.172
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 瑞士_070123026
+  network: httpupgrade
+  port: 8880
+  server: 185.18.250.227
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''

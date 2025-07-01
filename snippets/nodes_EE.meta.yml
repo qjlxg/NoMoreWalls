@@ -1,1 +1,147 @@
-proxies: []
+proxies:
+- name: 12|EE_speednode_0026
+  network: ws
+  port: 80
+  server: 45.80.110.245
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodesfp%3Dchrome
+- name: 12|EE_speednode_0039
+  network: ws
+  port: 80
+  server: 45.80.110.46
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodes
+- name: 12|EE_speednode_0031
+  network: ws
+  port: 80
+  server: 45.80.110.13
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodesfp%3Dchrome
+- name: 12|EE_speednode_0073
+  network: ws
+  port: 2087
+  server: 45.80.110.133
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: twitterfreecodesfp%3Dchrome
+- name: 12|EE_speednode_0049
+  network: ws
+  port: 80
+  server: 45.80.110.161
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodesfp%3Dchrome
+- name: 12|EE_speednode_0075
+  network: ws
+  port: 2087
+  server: 45.80.110.96
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: twitterfreecodesfp%3Dchromefp%3Dchrome
+- name: 12|EE_speednode_0061
+  network: ws
+  port: 2087
+  server: 45.80.110.215
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: twitterfreecodesfp%3Dchrome
+- name: 🇪🇪|EE|@wxgqlfx|130<br />
+  port: 8880
+  server: 45.80.108.213
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇪🇪|EE|@wxgqlfx|142<br />
+  port: 8880
+  server: 45.80.110.213
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇪🇪|EE|@wxgqlfx|86<br />
+  port: 8880
+  server: 185.159.247.213
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: Moftinet 🇪🇪
+  network: httpupgrade
+  port: 2052
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 529f64ee-d1da-45eb-b41f-55af281c65ce
+  ws-opts:
+    headers:
+      Host: epic-espain-sub-89ytdd0zy-rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--qeiaa57238baaaaaaabaacaaaaaaaaaaaaaaaaaaaaa.apaspeedtest.netrat.com.eu.com.shw814.ir.xn--cr8haaaaaaaaaaaaaaaaa.xn--g28h.My-SoFTmETo.IR.
+    path: '%2F%3Fed%3D2048'
+- name: 爱沙尼亚_070123013
+  network: httpupgrade
+  port: 8880
+  server: 45.80.108.99
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 爱沙尼亚_070123015
+  network: httpupgrade
+  port: 8880
+  server: 45.80.110.89
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 爱沙尼亚_070123017
+  network: httpupgrade
+  port: 8880
+  server: 45.80.108.117
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''

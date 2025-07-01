@@ -1,1 +1,270 @@
-proxies: []
+proxies:
+- name: 1|🇹🇼1 |  3.0MB/s
+  port: 2096
+  server: 154.219.5.137
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼2 |  4.9MB/s
+  port: 443
+  server: 131.186.37.29
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼3 |  4.0MB/s
+  port: 8443
+  server: 92.243.74.2
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼4 |  1.1MB/s
+  port: 10011
+  server: 192.3.127.69
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼5 |  2.1MB/s
+  port: 443
+  server: 47.91.18.127
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼6 |  2.5MB/s
+  port: 37723
+  server: 158.101.91.164
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼7 |  6.1MB/s
+  port: 10082
+  server: 59.14.38.123
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼8 |  2.4MB/s
+  port: 443
+  server: sage.ns.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼9 |  5.2MB/s
+  port: 37160
+  server: 154.9.241.153
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼10 |  1.3MB/s
+  port: 2096
+  server: 27.50.49.41
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼11 |  4.7MB/s
+  port: 443
+  server: 13.229.159.215
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼13 |  6.2MB/s
+  port: 47531
+  server: bsuqian01.dynu.net
+  servername: gateway.icloud.com
+  tls: false
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 1|🇹🇼14 |  5.3MB/s
+  port: 443
+  server: pranab.ns.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼15 |  4.1MB/s
+  port: 12443
+  server: 43.132.239.42
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼16 |  1.0MB/s
+  port: 443
+  server: 170.106.152.78
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼17 |  3.0MB/s
+  port: 443
+  server: theo.ns.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼18 |  5.6MB/s
+  port: 443
+  server: 188.64.108.9
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- alterId: 0
+  cipher: auto
+  name: 1|🇹🇼19 |  2.5MB/s
+  network: tcp
+  port: 3687
+  server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+- name: 1|🇹🇼20 |  1.9MB/s
+  port: 443
+  server: kip.ns.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼21 |  2.5MB/s
+  port: 443
+  server: 152.70.99.47
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼22 |  3.7MB/s
+  port: 2096
+  server: 108.165.152.29
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼23 |  5.7MB/s
+  port: 443
+  server: duke.ns.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼24 |  2.2MB/s
+  port: 443
+  server: 151.145.72.110
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼25 |  3.7MB/s
+  port: 443
+  server: 18.167.12.209
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼26 |  5.5MB/s
+  port: 443
+  server: 154.9.207.177
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼27 |  3.2MB/s
+  port: 443
+  server: arvind.ns.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼28 |  3.8MB/s
+  port: 443
+  server: 129.154.207.203
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼29 |  4.9MB/s
+  port: 15823
+  server: gysz0000.dynu.net
+  servername: www.yahoo.com
+  tls: false
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 1|🇹🇼30 |  2.5MB/s
+  port: 443
+  server: 155.248.185.30
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- name: 1|🇹🇼31 |  5.2MB/s
+  port: 34237
+  server: 154.40.57.145
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 TEST_Hycan-holdings
+  network: tcp
+  port: '20011'
+  server: wnpck.thecxfcsp.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3
+- alterId: 0
+  cipher: auto
+  name: '🇹🇼TW-Chunghwa Telecom #1'
+  network: ws
+  port: 81
+  server: 210.61.97.241
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3b8ebffa-8a35-4bc7-a52b-93c5b073593c
+  ws-opts:
+    headers:
+      Host: sea-vl.new.now.cc
+    path: /?ed=2048
+- client-fingerprint: random
+  name: '老油条-台湾 #1'
+  network: ws
+  port: 443
+  server: tw.laoyoutiao.link
+  servername: tw.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: tw.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- name: 🇹🇼|TW|@wxgqlfx|357<br />
+  port: 995
+  server: 220.128.110.108
+  tls: false
+  type: vless
+  uuid: bdbfd26c-725b-4922-b970-e7dfb46afb7b
+  ws-opts:
+    path: '%2Fsocks5%3A%2F%2Fadmin%3Aadmin%4043.133.4.144%3A1080'
+- name: 'https://t.me/VTWORAY_WOLF #2'
+  network: httpupgrade
+  port: 80
+  server: speedtest-fr5.gcore.com
+  tls: false
+  type: vless
+  uuid: f4e82258-9328-46fe-bac7-8d31a905e25a
+  ws-opts:
+    headers:
+      Host: ap.ir
+    path: '%2F'

@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 1|🇹🇼19 |  2.5MB/s
+  network: tcp
+  port: 3687
+  server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 TEST_Hycan-holdings
+  network: tcp
+  port: '20011'
+  server: wnpck.thecxfcsp.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3

@@ -1,1 +1,274 @@
-proxies: []
+proxies:
+- name: 1|🇰🇷1 |  3.6MB/s
+  port: 443
+  server: 217.163.76.102
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+- name: 1|🇰🇷2 |  1.3MB/s
+  port: 443
+  server: moura.ns.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+- name: 1|🇰🇷3 |  1.3MB/s
+  port: 443
+  server: 170.39.66.154
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+- name: 1|🇰🇷4 |  1.5MB/s
+  port: 443
+  server: www.wto.org
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+- name: 1|🇰🇷6 |  6.3MB/s
+  port: 443
+  server: lewis.ns.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+- name: 1|🇰🇷9 |  3.0MB/s
+  port: 443
+  server: icook.hk
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+- alterId: 2
+  cipher: auto
+  name: 12,13|韩国|@ripaojiedian
+  network: ws
+  port: '30828'
+  server: v28.heduian.link
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'KR #4'
+  network: ws
+  port: 50000
+  server: 61.75.39.105
+  servername: warp.wlcf.lol
+  tls: true
+  type: vless
+  uuid: f41afc19-93cb-406d-af1c-04e75221708c
+  ws-opts:
+    headers:
+      Host: warp.wlcf.lol
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'KR #5'
+  network: ws
+  port: 25010
+  server: 220.78.118.50
+  servername: warp.wlcf.lol
+  tls: true
+  type: vless
+  uuid: f41afc19-93cb-406d-af1c-04e75221708c
+  ws-opts:
+    headers:
+      Host: warp.wlcf.lol
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'KR #6'
+  network: ws
+  port: 12000
+  server: 115.143.93.241
+  servername: warp.wlcf.lol
+  tls: true
+  type: vless
+  uuid: f41afc19-93cb-406d-af1c-04e75221708c
+  ws-opts:
+    headers:
+      Host: warp.wlcf.lol
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'KR #7'
+  network: ws
+  port: 12123
+  server: 220.118.235.194
+  servername: warp.wlcf.lol
+  tls: true
+  type: vless
+  uuid: f41afc19-93cb-406d-af1c-04e75221708c
+  ws-opts:
+    headers:
+      Host: warp.wlcf.lol
+    path: '%2F%3Fed%3D2560'
+- name: '🇰🇷@𝐒𝐢𝐍𝐀𝐕𝐌👈کانال+تلگرام #1'
+  network: ws
+  port: 80
+  server: 172.67.208.49
+  tls: false
+  type: vless
+  uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+  ws-opts:
+    headers:
+      Host: sib.sibzamini.dpdns.org
+    path: '%2F%3Fed%3D2550'
+- client-fingerprint: random
+  name: '老油条-KR-韩国 #1'
+  network: ws
+  port: 443
+  server: sk.laoyoutiao.link
+  servername: sk.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- name: 🇰🇷|KR|@wxgqlfx|397<br />
+  password: ttfang
+  port: 34529
+  server: 112.165.17.199
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|366<br />
+  password: ttfang
+  port: 36840
+  server: 59.26.30.111
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|367<br />
+  password: ttfang
+  port: 17682
+  server: 59.26.30.111
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|332<br />
+  password: ttfang
+  port: 10098
+  server: 59.5.53.119
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|333<br />
+  password: ttfang
+  port: 31491
+  server: 220.71.245.141
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|334<br />
+  password: ttfang
+  port: 31348
+  server: 218.157.11.21
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|335<br />
+  password: ttfang
+  port: 10126
+  server: 121.154.79.130
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|336<br />
+  password: ttfang
+  port: 24304
+  server: 220.87.243.193
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|338<br />
+  password: ttfang
+  port: 37865
+  server: 220.87.229.22
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|339<br />
+  password: ttfang
+  port: 28827
+  server: 118.37.105.12
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|340<br />
+  password: ttfang
+  port: 34689
+  server: 121.172.5.248
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|343<br />
+  password: ttfang
+  port: 12601
+  server: 218.157.11.21
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|346<br />
+  password: ttfang
+  port: 39427
+  server: 218.157.11.21
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|228<br />
+  password: ttfang
+  port: 25156
+  server: 121.167.145.40
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|310<br />
+  password: ttfang
+  port: 14982
+  server: 59.5.53.119
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|315<br />
+  password: ttfang
+  port: 29264
+  server: 221.161.58.134
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|320<br />
+  password: ttfang
+  port: 28568
+  server: 220.87.243.193
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|321<br />
+  password: ttfang
+  port: 14491
+  server: 61.83.219.114
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇰🇷|KR|@wxgqlfx|324<br />
+  password: ttfang
+  port: 10482
+  server: 183.100.144.36
+  type: trojan
+  ws-opts:
+    path: '%2F'

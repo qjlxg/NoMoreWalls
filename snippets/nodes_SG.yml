@@ -1,1 +1,229 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|新加坡|@ripaojiedian
+  network: ws
+  port: '46016'
+  server: mmsg16.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 1|🇸🇬9 |  3.7MB/s
+  network: tcp
+  port: 4135
+  server: 637b7bc9-sudhc0-svibx4-1s4a.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 337cb930-073d-11ee-8120-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 1|🇸🇬10 |  1.4MB/s
+  network: tcp
+  port: 4137
+  server: fd89b2da-sudhc0-svibx4-1s4a.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 337cb930-073d-11ee-8120-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 新加坡|@ripaojiedian
+  network: tcp
+  port: 4135
+  server: 81d99721-sudhc0-tbxnq7-3qpz.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 3cafb97e-8bf1-11ee-8ebe-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡|@ripaojiedian
+  network: tcp
+  port: '4135'
+  server: 81d99721-sudhc0-tbxnq7-3qpz.d.volczijie.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3cafb97e-8bf1-11ee-8ebe-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 TEST_Hycan-holdings
+  network: tcp
+  port: '12015'
+  server: wnpck.thecxfcsp.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3
+- alterId: 0
+  cipher: auto
+  name: 新加坡
+  network: ws
+  port: 35777
+  server: 8.222.194.126
+  tls: false
+  type: vmess
+  uuid: bb28a1d7-5cb9-46ca-886a-828b18fd79e4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /bb28a1d7
+- name: 🇸🇬|SG|@wxgqlfx|396<br />
+  password: ttfang
+  port: 443
+  server: 140.245.53.130
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇸🇬|SG|@wxgqlfx|399<br />
+  password: ttfang
+  port: 1111
+  server: 138.2.95.61
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇸🇬|SG|@wxgqlfx|360<br />
+  password: ttfang
+  port: 443
+  server: 139.180.154.158
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇸🇬|SG|@wxgqlfx|368<br />
+  password: ttfang
+  port: 443
+  server: 128.199.237.143
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇸🇬|SG|@wxgqlfx|337<br />
+  password: ttfang
+  port: 443
+  server: 13.228.142.218
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: '🇸🇬|SG|@wxgqlfx|158<br /> #1'
+  password: ttfang
+  port: 5027
+  server: 8.219.77.72
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇸🇬|SG|@wxgqlfx|103<br />
+  password: ttfang
+  port: 8443
+  server: 47.236.181.185
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇸🇬|SG|@wxgqlfx|119<br />
+  password: ttfang
+  port: 9000
+  server: 47.245.91.197
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇸🇬|SG|@wxgqlfx|311<br />
+  password: ttfang
+  port: 44009
+  server: 129.150.50.21
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇸🇬|SG|@wxgqlfx|314<br />
+  password: ttfang
+  port: 32962
+  server: 138.2.89.64
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇸🇬|SG|@wxgqlfx|323<br />
+  password: ttfang
+  port: 26621
+  server: 138.2.100.221
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇸🇬|SG|@wxgqlfx|325<br />
+  password: ttfang
+  port: 53076
+  server: 152.69.220.136
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬 SG-84.247.148.192:44396 #1'
+  network: tcp
+  port: '44396'
+  server: 84.247.148.192
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3ca35e0a-e430-43fe-9c12-2e2eea70f873
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG-84.247.150.177:36141
+  network: tcp
+  port: '36141'
+  server: 84.247.150.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d31ee52f-b6e4-4db8-9c95-98855ec823cc
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG-84.247.149.77:47211
+  network: tcp
+  port: '47211'
+  server: 84.247.149.77
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fb674260-1c21-4f99-8bd0-3d1d341c6771
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG-84.247.147.67:54179
+  network: tcp
+  port: '54179'
+  server: 84.247.147.67
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d143ebbc-7825-4b43-a55e-f11cb153bd5b
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG-84.247.147.243:51566
+  network: tcp
+  port: '51566'
+  server: 84.247.147.243
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ae6ae977-17f2-43fd-a336-20b3b3a9e791
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 Singapore
+  network: tcp
+  port: '33754'
+  server: 84.247.146.189
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45f4f565-8c78-4906-a5b9-08ea9075cd31
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG-84.247.146.161:39530
+  network: tcp
+  port: '39530'
+  server: 84.247.146.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7aa56e39-29b8-45c3-8b53-6d2a23b2461c

@@ -1,1 +1,48 @@
-proxies: []
+proxies:
+- alterId: 64
+  cipher: auto
+  name: 广东省广州市 移动-clone
+  network: tcp
+  port: '45020'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 深圳市|阿里云
+  network: ws
+  port: 49943
+  server: 120.76.194.113
+  tls: false
+  type: vmess
+  uuid: 6b35e5e2-d75c-4bed-b4e2-97aa3ee7a099
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '深圳市|阿里云 #1'
+  network: tcp
+  port: 39508
+  server: 39.108.72.153
+  tls: false
+  type: vmess
+  uuid: a8045850-5f7b-4635-e277-e859fb7d0d1b
+- name: 🇨🇳|CN|@wxgqlfx|400<br />
+  password: 1b4c16925f934c57b954a9f0f23dea33
+  port: 8842
+  server: 42.240.152.238
+  type: trojan
+- name: 🇨🇳|CN|@wxgqlfx|401<br />
+  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
+  port: 21017
+  server: 120.233.44.201
+  type: trojan
+- name: 🇨🇳|CN|@wxgqlfx|405<br />
+  password: LfcDJuqe
+  port: 43196
+  server: 223.111.144.12
+  type: trojan

@@ -1,1 +1,1099 @@
-proxies: []
+proxies:
+- name: 1|🇯🇵1 |  2.6MB/s
+  port: 1443
+  server: t14.qifei.app
+  servername: www.amazon.com
+  tls: false
+  type: vless
+  uuid: ef23ddd0-14c5-39c2-9880-af55ce892363
+- name: 1|🇯🇵2 |  6.1MB/s
+  password: ef23ddd0-14c5-39c2-9880-af55ce892363
+  port: 54860
+  server: t5.qifei.app
+  skip-cert-verify: true
+  type: trojan
+- name: 1|🇯🇵3 |  1.2MB/s
+  network: ws
+  port: 80
+  server: 45.131.5.113
+  tls: false
+  type: vless
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+- name: 1|🇯🇵4 |  5.3MB/s
+  port: 48121
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  tls: false
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 1|🇯🇵8 |  3.3MB/s
+  port: 10635
+  server: shenzhou05.mysynology.net
+  servername: www.nvidia.com
+  tls: false
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 1|🇯🇵9 |  5.8MB/s
+  port: 25768
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: false
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 1|🇯🇵11 |  4.4MB/s
+  password: ef23ddd0-14c5-39c2-9880-af55ce892363
+  port: 57841
+  server: t14.qifei.app
+  skip-cert-verify: true
+  type: trojan
+- name: 1|🇯🇵12 |  3.1MB/s
+  port: 31735
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: false
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 1|🇯🇵14 |  4.8MB/s
+  port: 443
+  server: craig.ns.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+- name: 13|日本6|@ripaojiedian
+  password: '!!str 74260700211203800'
+  port: 443
+  server: possible-tiger.shiner427.skin
+  skip-cert-verify: false
+  type: trojan
+- name: 14|JP_speednode_0024
+  port: 80
+  server: zmaoz.faculty.ucdavis.edu
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 9df66056-a898-486a-9c67-6a5ad5ea056e
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 TEST_Hycan-holdings
+  network: tcp
+  port: '21566'
+  server: dlgdc.thecxfcsp.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3
+- alterId: 0
+  cipher: auto
+  name: ZJP-040309
+  network: ws
+  port: 32694
+  server: 45.38.197.31
+  tls: false
+  type: vmess
+  uuid: fb4108a1-9bc7-4b54-e587-2ddbba3469eb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fb4108a1
+- alterId: 0
+  cipher: auto
+  name: ZJP-040302
+  network: ws
+  port: 48327
+  server: 172.252.245.139
+  tls: false
+  type: vmess
+  uuid: 323ad002-0b7d-45fe-ad95-13064fc5d743
+  ws-opts:
+    headers:
+      Host: ''
+    path: /323ad002
+- alterId: 0
+  cipher: auto
+  name: 张伟JP030802
+  network: ws
+  port: 27931
+  server: 107.165.195.162
+  tls: false
+  type: vmess
+  uuid: a15232d5-6cc8-46c8-f3c4-d9cb6c5c8522
+  ws-opts:
+    headers:
+      Host: ''
+    path: /a15232d5
+- alterId: 0
+  cipher: auto
+  name: cppJP-030401
+  network: ws
+  port: 45330
+  server: 107.165.195.71
+  tls: false
+  type: vmess
+  uuid: ac9cad17-7f42-4294-e662-4263d7ed68b3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ac9cad17
+- alterId: 0
+  cipher: auto
+  name: 张伟JP-030502
+  network: ws
+  port: 28177
+  server: 107.165.195.221
+  tls: false
+  type: vmess
+  uuid: a340c47f-4280-4e5e-d5ca-122b9c1bd641
+  ws-opts:
+    headers:
+      Host: ''
+    path: /49f03cb9
+- alterId: 0
+  cipher: auto
+  name: 张伟JP-030503
+  network: ws
+  port: 21352
+  server: 107.165.195.144
+  tls: false
+  type: vmess
+  uuid: 49f03cb9-3109-4255-d101-5570713ddf02
+  ws-opts:
+    headers:
+      Host: ''
+    path: /49f03cb9
+- alterId: 0
+  cipher: auto
+  name: 崔JP-01
+  network: ws
+  port: 28269
+  server: 136.0.11.227
+  tls: false
+  type: vmess
+  uuid: c650c00c-aab0-4607-c981-08fe55df82b7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /c650c00c
+- alterId: 0
+  cipher: auto
+  name: 潘春艳JP-030401
+  network: ws
+  port: 41031
+  server: 136.0.11.53
+  tls: false
+  type: vmess
+  uuid: 66e7ef90-334a-4d37-b5a1-7bff31c99433
+  ws-opts:
+    headers:
+      Host: ''
+    path: /66e7ef90
+- name: 日本2024年11月到期
+  password: uNQEjBXc9T
+  port: 33413
+  server: 167.88.182.101
+  type: trojan
+- name: vltys3用12月19日到期
+  password: LIbzbZ4ADF
+  port: 34844
+  server: 38.59.245.40
+  type: trojan
+- client-fingerprint: random
+  name: 老油条-日本-cdn1
+  network: ws
+  port: 443
+  server: cdn1.laoyoutiao.link
+  servername: jp.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      host: jp.laoyoutiao.link
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 老油条-日本-cfcdn1
+  network: ws
+  port: 443
+  server: cfcdn1.langmanshanxi.top
+  servername: jp.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      host: jp.laoyoutiao.link
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 老油条-日本-cfcdn2
+  network: ws
+  port: 443
+  server: cfcdn2.langmanshanxi.top
+  servername: jp.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      host: jp.laoyoutiao.link
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 老油条-日本-cfcdn3
+  network: ws
+  port: 443
+  server: cfcdn3.langmanshanxi.top
+  servername: jp.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      host: jp.laoyoutiao.link
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 老油条-日本-cfcdns
+  network: ws
+  port: 443
+  server: cfcdns.langmanshanxi.top
+  servername: jp.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      host: jp.laoyoutiao.link
+    path: /?ed=2560
+- name: 'JP #3'
+  network: ws
+  port: 443
+  server: vljp.zyttbywy.xyz
+  servername: vljp.zyttbywy.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 39d164af-a672-4ef9-8764-09cbaf30cb96
+  ws-opts:
+    path: /vws
+- name: 'redhat_vpn- 🇯🇵-ژاپن-lbluftku #1'
+  network: tcp
+  port: 41136
+  server: g1.lalash.ir
+  tls: false
+  type: vless
+  uuid: badfbbb2-3c0c-4b62-9bc4-e31d88cf358a
+  ws-opts:
+    headers:
+      Host: speedtest.net
+    path: '%2F'
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'JP #4'
+  network: ws
+  port: 10073
+  server: 112.69.4.50
+  servername: warp.wlcf.lol
+  tls: true
+  type: vless
+  uuid: f41afc19-93cb-406d-af1c-04e75221708c
+  ws-opts:
+    headers:
+      Host: warp.wlcf.lol
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'JP #5'
+  network: ws
+  port: 12109
+  server: 112.69.4.50
+  servername: warp.wlcf.lol
+  tls: true
+  type: vless
+  uuid: f41afc19-93cb-406d-af1c-04e75221708c
+  ws-opts:
+    headers:
+      Host: warp.wlcf.lol
+    path: '%2F%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: '🇯🇵JP-xTom #1'
+  network: ws
+  port: 139
+  server: 62.106.70.39
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3b8ebffa-8a35-4bc7-a52b-93c5b073593c
+  ws-opts:
+    headers:
+      Host: sea-vl.new.now.cc
+    path: /?ed=2048
+- name: 🇯🇵日本 Hysteria2
+  password: sky4220126
+  port: 44178
+  server: 45.192.241.186
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: random
+  name: '老油条-JP-日本 #1'
+  network: ws
+  port: 443
+  server: jp.laoyoutiao.link
+  servername: jp.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: '老油条-日本-cdn #1'
+  network: ws
+  port: 443
+  server: cdn.laoyoutiao.link
+  servername: jp.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: '老油条-日本-cdn1 #2'
+  network: ws
+  port: 443
+  server: cdn1.laoyoutiao.link
+  servername: jp.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: '老油条-日本-cfcdn1 #2'
+  network: ws
+  port: 443
+  server: cfcdn1.langmanshanxi.top
+  servername: jp.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: '老油条-日本-cfcdn2 #2'
+  network: ws
+  port: 443
+  server: cfcdn2.langmanshanxi.top
+  servername: jp.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: '老油条-日本-cfcdn3 #2'
+  network: ws
+  port: 443
+  server: cfcdn3.langmanshanxi.top
+  servername: jp.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: '老油条-日本-cfcdns #2'
+  network: ws
+  port: 443
+  server: cfcdns.langmanshanxi.top
+  servername: jp.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- name: 🇯🇵|JP|@wxgqlfx|5<br />
+  port: 8880
+  server: 156.238.18.123
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|6<br />
+  port: 8880
+  server: 156.238.18.170
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|7<br />
+  port: 8880
+  server: 156.238.18.177
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|9<br />
+  port: 8880
+  server: 156.238.18.172
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|10<br />
+  port: 8880
+  server: 156.238.18.148
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|11<br />
+  port: 8880
+  server: 156.238.18.179
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|12<br />
+  port: 8880
+  server: 156.238.18.217
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2560
+- name: 🇯🇵|JP|@wxgqlfx|14<br />
+  port: 8880
+  server: 156.238.18.166
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|15<br />
+  port: 8880
+  server: 156.238.18.100
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2560
+- name: 🇯🇵|JP|@wxgqlfx|17</p>
+  port: 8880
+  server: 156.238.18.131
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|113<br />
+  port: 8880
+  server: 156.238.19.213
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇯🇵|JP|@wxgqlfx|76<br />
+  port: 8880
+  server: 156.238.18.93
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2560
+- name: 🇯🇵|JP|@wxgqlfx|78<br />
+  port: 8880
+  server: 156.238.18.203
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|79<br />
+  port: 8880
+  server: 156.238.18.122
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|80<br />
+  port: 8880
+  server: 156.238.18.222
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|81<br />
+  port: 8880
+  server: 156.238.18.66
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|328<br />
+  password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+  port: 10086
+  server: ajp.pagate.top
+  tls: false
+  type: hysteria2
+- name: 🇯🇵|JP|@wxgqlfx|38<br />
+  port: 8880
+  server: 156.238.18.125
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|39<br />
+  port: 8880
+  server: 156.238.18.252
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|40<br />
+  port: 8880
+  server: 156.238.18.190
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|41<br />
+  port: 8880
+  server: 156.238.18.206
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|42<br />
+  port: 8880
+  server: 156.238.18.84
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|43<br />
+  port: 8880
+  server: 156.238.18.88
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|45<br />
+  port: 8880
+  server: 156.238.18.157
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2560
+- name: 🇯🇵|JP|@wxgqlfx|46<br />
+  port: 8880
+  server: 156.238.18.94
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|47<br />
+  port: 8880
+  server: 156.238.18.20
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|48<br />
+  port: 8880
+  server: 156.238.18.58
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|49<br />
+  port: 8880
+  server: 156.238.18.104
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|50<br />
+  port: 8880
+  server: 156.238.18.200
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|51<br />
+  port: 8880
+  server: 156.238.18.132
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2560
+- name: 🇯🇵|JP|@wxgqlfx|52<br />
+  port: 8880
+  server: 156.238.18.86
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2560
+- name: 🇯🇵|JP|@wxgqlfx|53<br />
+  port: 8880
+  server: 156.238.18.54
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|54<br />
+  port: 8880
+  server: 156.238.18.78
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|55</p>
+  port: 8880
+  server: 156.238.18.142
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2560
+- name: 🇯🇵|JP|@wxgqlfx|20<br />
+  port: 8880
+  server: 156.238.18.199
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2560
+- name: 🇯🇵|JP|@wxgqlfx|21<br />
+  port: 8880
+  server: 156.238.18.210
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|22<br />
+  port: 8880
+  server: 156.238.18.191
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|23<br />
+  port: 8880
+  server: 156.238.18.218
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|24<br />
+  port: 8880
+  server: 156.238.18.254
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|25<br />
+  port: 8880
+  server: 156.238.18.89
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|26<br />
+  port: 8880
+  server: 156.238.18.167
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|27<br />
+  port: 8880
+  server: 156.238.18.168
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2560
+- name: 🇯🇵|JP|@wxgqlfx|29<br />
+  port: 8880
+  server: 156.238.18.136
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|30<br />
+  port: 8880
+  server: 156.238.18.7
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|31<br />
+  port: 8880
+  server: 156.238.18.70
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|32<br />
+  port: 8880
+  server: 156.238.18.184
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🇯🇵|JP|@wxgqlfx|33<br />
+  port: 8880
+  server: 156.238.18.207
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    path: Telegram%40WangCai2%2F%3Fed%3D2048
+- name: 🔒 VL-HTTPUPGRADE-NONE  JP-154....
+  network: httpupgrade
+  port: 8880
+  server: 154.197.108.65
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: /
+- name: 🔒 VL-HTTPUPGRADE-NONE 🇵 JP-156...
+  network: httpupgrade
+  port: 8880
+  server: 156.238.18.134
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: '%2F'
+- name: 日本_070123297
+  network: httpupgrade
+  port: 8880
+  server: 156.238.18.213
+  tls: false
+  type: vless
+  uuid: 90bf198f-9810-40c8-cb6f-8d7908b576d3
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
+- name: 捷克_070123007
+  network: httpupgrade
+  port: 8880
+  server: 154.197.108.186
+  tls: false
+  type: vless
+  uuid: 90bf198f-9810-40c8-cb6f-8d7908b576d3
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
+- name: 🔒 VL-HTTPUPGRADE-NONE 🇵 JP-154...
+  network: httpupgrade
+  port: 8880
+  server: 154.197.108.48
+  tls: false
+  type: vless
+  uuid: 90bf198f-9810-40c8-cb6f-8d7908b576d3
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇵 JP-156... #2'
+  network: httpupgrade
+  port: 8880
+  server: 156.238.18.69
+  tls: false
+  type: vless
+  uuid: 99727208-0086-43f9-f0ad-9e30f546b822
+  ws-opts:
+    headers:
+      Host: hamidjon.ddigicyber.click.
+    path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
+- name: 🔒 VL-HTTPUPGRADE-NONE 🇯🇵 JP-15...
+  network: httpupgrade
+  port: 8880
+  server: 156.238.18.33
+  tls: false
+  type: vless
+  uuid: 293dbd19-eaec-43f0-dcde-2944af021dd4
+  ws-opts:
+    headers:
+      Host: S130.DdigicYber.clicK.
+    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇵 JP-154... #1'
+  network: httpupgrade
+  port: 8880
+  server: 154.197.108.113
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: '%2F'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇵 JP-156... #3'
+  network: httpupgrade
+  port: 8880
+  server: 156.238.18.41
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: /
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇵 JP-156... #4'
+  network: httpupgrade
+  port: 8880
+  server: 156.238.18.129
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: '%2F'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇯🇵 JP-15... #1'
+  network: httpupgrade
+  port: 8880
+  server: 154.197.108.165
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: /
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇵 JP-156... #5'
+  network: httpupgrade
+  port: 2082
+  server: 156.238.18.196
+  tls: false
+  type: vless
+  uuid: 512b8741-0eb1-4bf5-abb8-25369c0aa33b
+  ws-opts:
+    headers:
+      Host: fin-met.wordperessweb.ir
+    path: /?ed%3D2082
+- name: 日本_070123324
+  network: httpupgrade
+  port: 2082
+  server: 156.238.18.69
+  tls: false
+  type: vless
+  uuid: 512b8741-0eb1-4bf5-abb8-25369c0aa33b
+  ws-opts:
+    headers:
+      Host: fin-met.wordperessweb.ir
+    path: /?ed%3D2082
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇯🇵 JP-15... #3'
+  network: httpupgrade
+  port: 8880
+  server: 154.197.108.76
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: /
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇯🇵 JP-15... #4'
+  network: httpupgrade
+  port: 8880
+  server: 156.238.18.109
+  tls: false
+  type: vless
+  uuid: 293dbd19-eaec-43f0-dcde-2944af021dd4
+  ws-opts:
+    headers:
+      Host: S130.DdigicYber.clicK.
+    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
+- name: 🔒 VL-HTTPUPGRADE-NONE  JP-156....
+  network: httpupgrade
+  port: 8880
+  server: 156.238.18.38
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: /
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇯🇵 JP-15... #5'
+  network: httpupgrade
+  port: 8880
+  server: 156.238.18.26
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: /
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇯🇵 JP-15... #6'
+  network: httpupgrade
+  port: 8880
+  server: 154.197.108.234
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: /
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇵 JP-156... #6'
+  network: httpupgrade
+  port: 8880
+  server: 156.238.18.196
+  tls: false
+  type: vless
+  uuid: 99727208-0086-43f9-f0ad-9e30f546b822
+  ws-opts:
+    headers:
+      Host: hamidjon.ddigicyber.click.
+    path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇵 JP-156... #7'
+  network: httpupgrade
+  port: 8880
+  server: 156.238.18.43
+  tls: false
+  type: vless
+  uuid: 90bf198f-9810-40c8-cb6f-8d7908b576d3
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇵 JP-154... #2'
+  network: httpupgrade
+  port: 8880
+  server: 154.197.108.25
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: /
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇵 JP-154... #3'
+  network: httpupgrade
+  port: 8880
+  server: 154.197.108.91
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: /
+- name: JP_1760_@Surfboardv2ray
+  network: httpupgrade
+  port: 21576
+  server: 217.60.37.197
+  tls: false
+  type: vless
+  uuid: 5c661932-e018-4122-b49b-a0f5fd7e3dbd
+  ws-opts:
+    headers:
+      Host: ''
+    path: /@VPNPacket
+- name: 日本_070123277
+  network: httpupgrade
+  port: 8880
+  server: 156.238.18.26
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 日本_070123284
+  network: httpupgrade
+  port: 8880
+  server: 156.238.19.117
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 日本_070123286
+  network: httpupgrade
+  port: 8880
+  server: 156.238.18.38
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 日本_070123302
+  network: httpupgrade
+  port: 8880
+  server: 156.238.18.41
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
