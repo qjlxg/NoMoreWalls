@@ -198,7 +198,7 @@ proxies:
   type: vless
   uuid: a26ea133-45e6-48d9-9ff6-a05e08d81724
 - client-fingerprint: chrome
-  name: 'ger 1 🇩🇪 (@ghalagyann) #3'
+  name: '🇩🇪[openproxylist.com] vless-DE #29'
   network: grpc
   port: 17416
   reality-opts:
@@ -210,7 +210,7 @@ proxies:
   type: vless
   uuid: 2706427a-bf92-43b5-a001-37e31e4c4d56
 - client-fingerprint: chrome
-  name: '🇩🇪Germany #1'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #18'
   network: tcp
   port: 443
   reality-opts:
@@ -243,7 +243,26 @@ proxies:
     headers:
       Host: fggerlad.gerald81.dpdns.org
     path: '%2F%3Fed%3D2570'
-- name: '4-@𝗦𝗶𝗡𝗔𝗩𝗠👈🏻کانال+تلگرامی+🇩🇪 #1'
+- name: '⒈🇩🇪@Anubis_VPN👈 کانال تلگرامی #1'
+  network: tcp
+  port: 8080
+  server: dekoo.3dlkimi.ir
+  tls: false
+  type: vless
+  uuid: eac227f2-3d5c-4b93-8a28-bc435827ae13
+  ws-opts:
+    headers:
+      Host: speedtest.net
+- name: '𝟐『🅶🆁』🇩🇪 #1'
+  network: tcp
+  password: 3efnY5Qq4XvJTcwo8Nv-bA
+  port: 4300
+  server: dek.3dlkimi.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: speedtest.net
+- name: '🇩🇪[openproxylist.com] vless-DE #13'
   network: tcp
   port: 443
   server: 91.99.195.73
@@ -253,30 +272,10 @@ proxies:
   ws-opts:
     headers:
       Host: zula.ir
-- name: '3-@𝗦𝗶𝗡𝗔𝗩𝗠👈🏻کانال+تلگرامی+🇩🇪 #1'
+- name: 🇮🇷[openproxylist.com] vless-IR
   network: tcp
   port: 51615
   server: 91.99.207.135
-  tls: false
-  type: vless
-  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-  ws-opts:
-    headers:
-      Host: zula.ir
-- name: '2-@𝗦𝗶𝗡𝗔𝗩𝗠👈🏻کانال+تلگرامی+🇩🇪 #1'
-  network: tcp
-  port: 443
-  server: 91.99.160.41
-  tls: false
-  type: vless
-  uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
-  ws-opts:
-    headers:
-      Host: zula.ir
-- name: '1-@𝗦𝗶𝗡𝗔𝗩𝗠👈🏻کانال+تلگرامی+🇩🇪 #1'
-  network: tcp
-  port: 51615
-  server: 91.99.205.175
   tls: false
   type: vless
   uuid: 2eaef053-5fd6-4def-b234-d760690355ff
@@ -379,7 +378,7 @@ proxies:
   uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
   ws-opts:
     path: Telegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%942%2F%3Fed%3D2560
-- name: 🇩🇪 Germany 1
+- name: '🇩🇪[openproxylist.com] vless-DE #17'
   network: tcp
   port: 443
   server: 91.99.145.219
@@ -419,3 +418,586 @@ proxies:
     headers:
       Host: web.rubika.ir
     path: '%2FIVApi%2FDE%2F1'
+- alterId: 0
+  cipher: auto
+  name: 🇮🇷[openproxylist.com] vmess-IR
+  network: tcp
+  port: '48252'
+  server: 91.99.191.110
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ab65e694-c044-46cf-802e-301dc9998c41
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇩🇪 DE-94.159.106.2...
+  network: tcp
+  port: '8877'
+  server: 94.159.106.248
+  tls: false
+  type: vmess
+  uuid: 654285e6-23fb-4073-b8de-eba90f562fe6
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇩🇪 DE-37.221.125.1...
+  network: tcp
+  port: '33940'
+  server: 37.221.125.159
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 353e0787-71bc-442d-9c9d-902f90359eb5
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-WS-TLS 🇩🇪 DE-57.129.25.22...
+  network: ws
+  port: 443
+  server: 57.129.25.22
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: o.metuji.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: '6531'
+  server: 91.99.67.86
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bb28cfcd-c3d0-4866-bb0a-c3fd86b0ec12
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NONE 🇩🇪 DE-45.12.138....
+  network: tcp
+  port: '54757'
+  server: 45.12.138.82
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cde9f074-c930-4aa3-a558-46bbc9d0a5a1
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇩🇪 DE-62.60.158.54...
+  network: tcp
+  port: '44863'
+  server: 62.60.158.54
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9926bf9f-5c75-4066-8ece-207dee73781f
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇩🇪 DE-91.107.164.2...
+  network: tcp
+  port: '33203'
+  server: 91.107.164.255
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 46a495c9-a091-40ab-8913-e66c36aa3a88
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇩🇪 DE-45.12.138.47...
+  network: tcp
+  port: '22839'
+  server: 45.12.138.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2858a404-d0ca-4d67-80a6-ce8e95e383ff
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: vmess-grpc
+  name: 🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  network: grpc
+  port: 443
+  server: de.vmess.comnpmjs.com
+  servername: de.vmess.comnpmjs.com
+  tls: true
+  type: vmess
+  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+- client-fingerprint: random
+  name: 'ᴬᴸᴸ🇩🇪➣@ghalagyann #2'
+  network: ws
+  port: 2096
+  server: whatismyipaddress.com
+  servername: wwwspeedtestnetwhiteberinsistomd6625996s09.gatesriver.ir
+  tls: true
+  type: vless
+  uuid: 7585f059-2c89-4a02-9dff-394bb7913ef5
+  ws-opts:
+    headers:
+      Host: wwwspeedtestnetwhiteberinsistomd6625996s09.gatesriver.ir
+    path: '%2F'
+- client-fingerprint: chrome
+  name: 'ᴬᴸᴸ🇩🇪➣@ghalagyann #3'
+  network: ws
+  port: 443
+  server: iiiiiiiiiiio.huangshang.dpdns.org
+  servername: iIiiIiiIiIIO.HuanGsHaNg.dpDns.ORG
+  tls: true
+  type: vless
+  uuid: 4b33b482-25bc-49e4-b866-878c914d945a
+  ws-opts:
+    headers:
+      Host: iiiiiiiiiiio.huangshang.dpdns.org
+    path: '%2FCpMgWdnDWahQyyQCjn8kmnN0ehd'
+- client-fingerprint: chrome
+  name: 'ᴬᴸᴸ🇩🇪➣@ghalagyann` #1'
+  network: ws
+  port: 443
+  server: privasi.turah.my.id
+  servername: privasi.turah.my.id
+  tls: true
+  type: vless
+  uuid: 0fbf4f81-2598-4b6a-a623-0ead4cb9efa8
+  ws-opts:
+    headers:
+      Host: privasi.turah.my.id
+    path: '%2FFree-CF-Proxy-AD192.3.113.4-19318'
+- name: '👉🆔@v2ray_configs_pool📡🇪®️Germa... #1'
+  network: tcp
+  port: 443
+  server: 91.99.160.90
+  tls: false
+  type: vless
+  uuid: 7a66b8ef-9713-4b69-b839-6bb45070af35
+  ws-opts:
+    headers:
+      Host: zula.ir%2F%3FTELEGRAM%40JOKERRVPN
+- name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #8'
+  network: tcp
+  port: 443
+  server: 91.99.198.174
+  tls: false
+  type: vless
+  uuid: 7a66b8ef-9713-4b69-b839-6bb45070af35
+  ws-opts:
+    headers:
+      Host: zula.ir%2F%3FTELEGRAM%40JOKERRVPN
+- name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #9'
+  network: tcp
+  port: 443
+  server: 91.99.160.145
+  tls: false
+  type: vless
+  uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: '🇩🇪[openproxylist.com] vless-DE #1'
+  network: tcp
+  port: 443
+  server: 91.99.151.199
+  tls: false
+  type: vless
+  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: '👉🆔@v2ray_configs_pool📡🇪®️Germa... #2'
+  network: tcp
+  port: 6747
+  server: mmd.4.pingshekannew.top
+  tls: false
+  type: vless
+  uuid: a70d597f-8113-4a43-83cb-7dab013ad472
+  ws-opts:
+    headers:
+      Host: refersion.com%2Cfast.com%2CP30afzar.com%2Cspeedtest.com
+- name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #10'
+  network: tcp
+  port: 51615
+  server: 91.99.150.74
+  tls: false
+  type: vless
+  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+  ws-opts:
+    headers:
+      Host: zula.ir%2F%3FTELEGRAM_JOKERRVPN
+- name: '[openproxylist.com] vless-'
+  network: tcp
+  port: 443
+  server: 91.99.193.96
+  tls: false
+  type: vless
+  uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: '🇪[openproxylist.com] vless-DE #1'
+  network: tcp
+  port: 51615
+  server: 91.99.203.70
+  tls: false
+  type: vless
+  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: '🇩🇪[openproxylist.com] vless-DE #19'
+  network: tcp
+  port: 443
+  server: 91.99.160.210
+  tls: false
+  type: vless
+  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+  ws-opts:
+    headers:
+      Host: zula.ir
+- client-fingerprint: chrome
+  name: '🇩🇪[openproxylist.com] vless-DE #22'
+  network: tcp
+  port: 443
+  server: 91.99.202.155
+  tls: false
+  type: vless
+  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: '🇩🇪[openproxylist.com] vless-DE #24'
+  network: tcp
+  port: 443
+  server: 91.99.160.13
+  tls: false
+  type: vless
+  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: '👉🆔@v2ray_configs_pool📡🇪®️Germa... #3'
+  network: ws
+  port: 8880
+  server: 154.197.75.13
+  tls: false
+  type: vless
+  uuid: 9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0
+  ws-opts:
+    headers:
+      Host: c.82313369.xyz
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560'
+- grpc-opts:
+    grpc-service-name: vless
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #15'
+  network: grpc
+  port: 2025
+  server: 5.75.195.130
+  tls: false
+  type: vless
+  uuid: bfc1c6a8-289c-4f07-a8c1-e186f22ffc4c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #16'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
+    short-id: fc7a526a7e61ba3b
+  server: 94.141.123.233
+  servername: cdnjs.com
+  tls: false
+  type: vless
+  uuid: ba26f084-9124-4524-add4-53fcfb928161
+- name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #17'
+  network: ws
+  port: 8880
+  server: 45.159.216.13
+  tls: false
+  type: vless
+  uuid: 9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0
+  ws-opts:
+    headers:
+      Host: c.82313369.xyz
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560'
+- name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #19'
+  network: ws
+  port: 8880
+  server: 102.177.176.13
+  tls: false
+  type: vless
+  uuid: 9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0
+  ws-opts:
+    headers:
+      Host: c.82313369.xyz
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560'
+- name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #21'
+  network: tcp
+  port: 443
+  server: 91.99.160.151
+  tls: false
+  type: vless
+  uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
+  ws-opts:
+    headers:
+      Host: zula.ir%2F%3FTELEGRAM%40JOKERRVPN
+- name: '🇩🇪[openproxylist.com] vless-DE #16'
+  network: tcp
+  port: 51615
+  server: 91.99.206.91
+  tls: false
+  type: vless
+  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: '🇩🇪[openproxylist.com] vless-DE #14'
+  network: tcp
+  port: 443
+  server: 91.99.122.102
+  tls: false
+  type: vless
+  uuid: 7b6eca4c-44ae-40c6-973a-4e3b29d30803
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: '👉🆔@v2ray_configs_pool📡🇪®️Germa... #4'
+  network: tcp
+  port: 51615
+  server: 91.99.203.69
+  tls: false
+  type: vless
+  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+  ws-opts:
+    headers:
+      Host: zula.ir
+    path: /
+- client-fingerprint: chrome
+  name: '🇩🇪[openproxylist.com] vless-DE #10'
+  network: tcp
+  port: 443
+  server: 91.99.231.218
+  tls: false
+  type: vless
+  uuid: 7b6eca4c-44ae-40c6-973a-4e3b29d30803
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: 🇪[openproxylist.com] vless-DE
+  network: tcp
+  port: 50424
+  server: 116.203.29.106
+  tls: false
+  type: vless
+  uuid: b4473fe7-6e2e-441e-8b2e-a8baec8a5172
+- name: 🇩🇪[openproxylist.com] vless-DE
+  network: tcp
+  port: 443
+  server: 91.99.54.106
+  tls: false
+  type: vless
+  uuid: 15398933-070d-4ea2-9697-5fcd79793c97
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: '🇩🇪[openproxylist.com] vless-DE #2'
+  network: tcp
+  port: 443
+  server: 91.99.14.202
+  tls: false
+  type: vless
+  uuid: 7b6eca4c-44ae-40c6-973a-4e3b29d30803
+  ws-opts:
+    headers:
+      Host: zula.ir/?TELEGRAM@JOKERRVPN
+- name: '🇪[openproxylist.com] vless-DE #2'
+  network: ws
+  port: 3134
+  server: 217.60.236.41
+  tls: false
+  type: vless
+  uuid: 6683e519-99b1-4df8-9d20-f39a2a7ed1b0
+  ws-opts:
+    path: '%2F'
+- name: '🇩🇪[openproxylist.com] vless-DE #3'
+  network: tcp
+  port: 443
+  server: 91.99.198.174
+  tls: false
+  type: vless
+  uuid: 7a66b8ef-9713-4b69-b839-6bb45070af35
+  ws-opts:
+    headers:
+      Host: zula.ir/?TELEGRAM@JOKERRVPN
+- name: '🇩🇪[openproxylist.com] vless-DE #4'
+  network: tcp
+  port: 443
+  server: 91.99.160.151
+  tls: false
+  type: vless
+  uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
+  ws-opts:
+    headers:
+      Host: zula.ir/?TELEGRAM@JOKERRVPN
+- name: '🇩🇪[openproxylist.com] vless-DE #5'
+  network: tcp
+  port: 443
+  server: 91.99.169.206
+  tls: false
+  type: vless
+  uuid: 7b6eca4c-44ae-40c6-973a-4e3b29d30803
+  ws-opts:
+    headers:
+      Host: zula.ir/?TELEGRAM@JOKERRVPN
+- name: '🇩🇪[openproxylist.com] vless-DE #6'
+  network: tcp
+  port: 443
+  server: 91.99.205.10
+  tls: false
+  type: vless
+  uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
+  ws-opts:
+    headers:
+      Host: zula.ir/?TELEGRAM@JOKERRVPN
+- name: '🇩🇪[openproxylist.com] vless-DE #7'
+  network: tcp
+  port: 20118
+  server: 185.215.228.90
+  tls: false
+  type: vless
+  uuid: 142dd8b5-0b9e-4018-a961-2370d50cc435
+  ws-opts:
+    headers:
+      Host: hub.docker.com/?TELEGRAM_JOKERRVPN
+- name: '🇪[openproxylist.com] vless-DE #3'
+  network: tcp
+  port: 443
+  server: 91.99.130.239
+  tls: false
+  type: vless
+  uuid: 7a66b8ef-9713-4b69-b839-6bb45070af35
+  ws-opts:
+    headers:
+      Host: zula.ir%2F%3FTELEGRAM%40JOKERRVPN
+- name: '🇩🇪[openproxylist.com] vless-DE #8'
+  network: tcp
+  port: 57107
+  server: 109.122.249.156
+  tls: false
+  type: vless
+  uuid: 600eae54-5014-40a2-99f3-215ff340c26d
+  ws-opts:
+    headers:
+      Host: speedtest.net
+- name: '🇩🇪[openproxylist.com] vless-DE #11'
+  network: tcp
+  port: 443
+  server: 91.99.192.185
+  tls: false
+  type: vless
+  uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
+  ws-opts:
+    headers:
+      Host: nobitex.ir
+- name: '🇩🇪[openproxylist.com] vless-DE #18'
+  network: tcp
+  port: 51615
+  server: 91.99.190.38
+  tls: false
+  type: vless
+  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: '🇩🇪[openproxylist.com] vless-DE #21'
+  network: tcp
+  port: 443
+  server: 91.99.205.121
+  tls: false
+  type: vless
+  uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: '🇩🇪[openproxylist.com] vless-DE #25'
+  network: tcp
+  port: 443
+  server: 91.99.203.193
+  tls: false
+  type: vless
+  uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: '🇩🇪[openproxylist.com] vless-DE #26'
+  network: tcp
+  port: 51615
+  server: 91.99.181.193
+  tls: false
+  type: vless
+  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: '🇩🇪[openproxylist.com] vless-DE #28'
+  network: tcp
+  port: 443
+  server: 91.99.159.125
+  tls: false
+  type: vless
+  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+  ws-opts:
+    headers:
+      Host: zula.ir
+- name: '🇩🇪[openproxylist.com] vless-DE #30'
+  network: tcp
+  port: 59761
+  server: 185.155.72.101
+  tls: false
+  type: vless
+  uuid: ae9539b5-70dd-41b5-9666-11a29559a840
+  ws-opts:
+    headers:
+      Host: Fast.com
+- name: '🇩🇪[openproxylist.com] vless-DE #31'
+  network: ws
+  port: 443
+  server: 172.67.40.158
+  servername: hiddifyreplace2.safavidempire.org
+  tls: true
+  type: vless
+  uuid: fc264e2f-753b-43fd-878c-c8f82b4bc502
+  ws-opts:
+    headers:
+      Host: hiddifyreplace2.safavidempire.org
+    path: '%2F76fe1f74-5804-4a5a-8b9d-5f877d90a9c6'
+- name: '🇩🇪[openproxylist.com] vless-DE #32'
+  network: ws
+  port: 443
+  server: 8.219.1.169
+  servername: XbU10cS9vT.gIgA1.oRg
+  tls: true
+  type: vless
+  uuid: 0d0782a3-2c62-4936-b893-5790188778ea
+  ws-opts:
+    headers:
+      Host: XbU10cS9vT.gIgA1.oRg
+    path: '%2F'
+- name: '🇩🇪[openproxylist.com] vless-DE #33'
+  network: tcp
+  port: 33326
+  server: 84.47.233.98
+  tls: false
+  type: vless
+  uuid: 72dc074b-91ed-4564-9424-cd14652c1743
+  ws-opts:
+    headers:
+      Host: Fast.com
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: '🇩🇪[openproxylist.com] vless-DE #34'
+  network: grpc
+  port: 2087
+  server: 116.203.69.142
+  servername: its.zarashop0.ir
+  tls: true
+  type: vless
+  uuid: 5d71b518-9f52-414a-abf2-b806684233be

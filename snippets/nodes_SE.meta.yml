@@ -67,3 +67,12 @@ proxies:
   uuid: f184c89c-80a4-4a3a-bc67-97db43266c11
   ws-opts:
     path: '%2FTG%40wxgqlfx%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇸🇪 SE-169.150.208....
+  network: tcp
+  port: 18000
+  server: 169.150.208.83
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe

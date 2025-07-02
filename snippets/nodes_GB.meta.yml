@@ -119,3 +119,132 @@ proxies:
   uuid: c27db55c-06ca-446a-94da-12d175a09b2b
   ws-opts:
     path: '%2Fxbz'
+- alterId: 0
+  cipher: auto
+  name: VMESS-未知>英国-NF解锁波兰地区非自制剧-ChatG...
+  network: ws
+  port: 443
+  server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top
+    path: /azumase.ren
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇬🇧 GB-5.180.30.85:...
+  network: tcp
+  port: '18598'
+  server: 5.180.30.85
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇬🇧 GB-51.38.64.209...
+  network: tcp
+  port: '44023'
+  server: 51.38.64.209
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7da457da-ed0f-437d-c81d-6c35885bbea3
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇬🇧 GB-5.180.30.146...
+  network: tcp
+  port: '27773'
+  server: 5.180.30.146
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b2347239-dd15-40b3-b683-50cc2ff19ae7
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇬🇧 GB-46.250.243.5...
+  network: tcp
+  port: '50394'
+  server: 46.250.243.56
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a75f3f95-ad4e-4498-fc72-dd740dd02bfc
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇬🇧 GB-5.180.30.110...
+  network: tcp
+  port: '51352'
+  server: 5.180.30.110
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bcf86479-aab4-47cf-9d6e-34d353baa1a2
+- name: 👉🆔@v2ray_configs_pool📡🇬🇧®️Unit...
+  network: ws
+  port: 8080
+  server: 141.101.121.243
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    path: '%2F%3Fed%3D2048'
+- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #1'
+  network: ws
+  port: 8880
+  server: 91.193.58.14
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: tw.laoyoutiao.link
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2048
+- name: '&v2ray_cartel-رایگان-نامحدود](...'
+  network: grpc
+  port: 8880
+  server: 138.199.175.204
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #2'
+  network: tcp
+  port: 443
+  server: 1237273737goodfiru.mongral.ir
+  tls: false
+  type: vless
+  uuid: dee419c5-be44-4033-9274-f6e88af4956e
+  ws-opts:
+    headers:
+      Host: speedtest.net
+    path: /ParsCDN.Telegram.ParsCDN
+- client-fingerprint: chrome
+  name: 🇬🇧[openproxylist.com] vless-GB
+  network: ws
+  port: 2096
+  server: 188.114.99.226
+  servername: wwwspeedtestnetwhiteberinsistomd6625996s09.gatesriver.ir
+  tls: true
+  type: vless
+  uuid: 7585f059-2c89-4a02-9dff-394bb7913ef5
+  ws-opts:
+    headers:
+      Host: wwwspeedtestnetwhiteberinsistomd6625996s09.gatesriver.ir
+    path: /
+- name: 🇧[openproxylist.com] vless-GB
+  network: ws
+  port: 443
+  server: 104.17.213.241
+  servername: is.oldcloud.online
+  tls: true
+  type: vless
+  uuid: 753fa8e8-a3e8-442e-abf7-875ed776eacb
+  ws-opts:
+    headers:
+      Host: is.oldcloud.online
+    path: '%2F'

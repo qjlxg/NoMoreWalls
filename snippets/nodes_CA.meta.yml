@@ -66,7 +66,7 @@ proxies:
     headers:
       Host: speedtest.net
     path: '%2F'
-- name: '🇨🇦@𝐒𝐢𝐍𝐀𝐕𝐌👈🏻کانال+تلگرامی #1'
+- name: '@mehrosaboran` #10'
   network: ws
   port: 80
   server: 172.66.138.99
@@ -96,7 +96,7 @@ proxies:
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
 - alterId: 0
   cipher: auto
-  name: 🇨🇦 CA-51.79.86.182:42610
+  name: 🔒 VM-TCP-NA 🇨🇦 CA-51.79.86.182...
   network: tcp
   port: '42610'
   server: 51.79.86.182
@@ -119,3 +119,337 @@ proxies:
     headers:
       Host: web.rubika.ir
     path: '%2FIVApi%2FCA%2F1'
+- alterId: 0
+  cipher: auto
+  name: VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGP...
+  network: ws
+  port: 80
+  server: 51.79.102.253
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: 51.79.102.253
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-WS-NA 🇨🇦 CA-158.69.48.14:...
+  network: ws
+  port: '10000'
+  server: 158.69.48.14
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fe25808a-4d7d-11f0-bd33-17ba86626747
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦CA-23.162.200.227-7352
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #16'
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 7c9e3c1d-a360-4429-9189-e45a98de7fde
+  ws-opts:
+    headers:
+      Host: mail.ski1plag.ir
+    path: '%2FTelegram%40V2ray_Alpha%2F%3Fed%3D2560'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #17'
+  network: ws
+  port: 443
+  server: 172.64.35.199
+  servername: edmk.ambercc.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmk.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+- client-fingerprint: random
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #18'
+  network: ws
+  port: 80
+  server: 172.67.78.196
+  servername: tannaz.juveitaly.dpdns.org
+  tls: false
+  type: vless
+  uuid: dfdf1c0a-5e52-4746-88bd-19d4e4ac7853
+  ws-opts:
+    headers:
+      Host: tannaz.juveitaly.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #19'
+  network: ws
+  port: 80
+  server: 104.16.16.135
+  tls: false
+  type: vless
+  uuid: b28eb861-1748-4200-ba72-278669edc33b
+  ws-opts:
+    headers:
+      Host: coco.mahmoodchitooz.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #20'
+  network: ws
+  port: 80
+  server: 104.17.148.22
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8.pooriashop.ir
+    path: '%2Fjoin---%40Selinc---join%3Fed%3D2560'
+- alpn:
+  - http/1.1
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #21'
+  network: ws
+  password: 5a5d1112-4ae7-431f-bdde-0d008fb473dd
+  port: 443
+  server: 172.67.207.27
+  sni: 90.tAIpEI108.dpDnS.orG
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 90.taipei108.dpdns.org
+    path: '%2F685uFbiRrgAsHzTP8d'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #22'
+  network: ws
+  port: 80
+  server: 172.67.11.138
+  tls: false
+  type: vless
+  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+  ws-opts:
+    headers:
+      Host: kssepa.sabzipolobamahi.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #23'
+  network: ws
+  port: 80
+  server: 172.66.212.68
+  tls: false
+  type: vless
+  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
+  ws-opts:
+    headers:
+      Host: entezar.loseyourself.dpdns.org
+    path: '%2F%3Fed%3D2570'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #25'
+  network: ws
+  port: 80
+  server: 104.17.213.213
+  tls: false
+  type: vless
+  uuid: 68b48eeb-5770-4eb3-9b77-deeb77a41ccf
+  ws-opts:
+    headers:
+      Host: varzesh3.varzesh.dpdns.org
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #26'
+  network: ws
+  port: 80
+  server: 172.67.212.233
+  tls: false
+  type: vless
+  uuid: 948f6596-66f9-4707-aa92-3107a214ce53
+  ws-opts:
+    headers:
+      Host: oops.shalamshorba.dpdns.org
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #27'
+  network: ws
+  port: 80
+  server: 104.21.80.1
+  tls: false
+  type: vless
+  uuid: 2036e2c3-18a5-4eed-9db4-f91a7f02c7d5
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F193.123.81.105%3D443'
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #28'
+  network: ws
+  port: 8080
+  server: 188.114.97.2
+  tls: false
+  type: vless
+  uuid: 0f62a414-0dce-4e48-a9a7-6b10798d4e21
+  ws-opts:
+    headers:
+      Host: fragmen.downloadgame.sbs
+    path: '%2Fgs'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #29'
+  network: ws
+  port: 80
+  server: 172.67.194.241
+  tls: false
+  type: vless
+  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
+  ws-opts:
+    headers:
+      Host: delam.ahaysiahzangi.dpdns.org
+    path: '%2FTelegram%40V2ray_Alpha%2F%3Fed%3D2560'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #37'
+  network: ws
+  port: 80
+  server: 104.16.109.107
+  tls: false
+  type: vless
+  uuid: b28eb861-1748-4200-ba72-278669edc33b
+  ws-opts:
+    headers:
+      Host: coco.mahmoodchitooz.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - h2
+  name: '👉🆔@v2ray_configs_pool📡🇦®️Canad... #1'
+  network: grpc
+  port: 443
+  server: 104.26.2.186
+  servername: pqh24v3.hiddendom.shop
+  tls: true
+  type: vless
+  uuid: 401374e6-df77-41fb-f638-dad8184f175b
+- client-fingerprint: random
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #14'
+  network: ws
+  port: 443
+  server: 172.67.71.187
+  servername: yx.yushan.dpdns.org
+  tls: true
+  type: vless
+  uuid: c4587bda-09fc-4b3b-8221-4450fccc33d1
+  ws-opts:
+    headers:
+      Host: yx.yushan.dpdns.org
+    path: '%2FTelegram%40V2ray_Alpha%2F%3Fed%3D2560'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #15'
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 9f467d8b-ea26-4b2b-b866-399638bc9a1c
+  ws-opts:
+    headers:
+      Host: Www.speedtest.net.developsp.ir.vegaskala.com.
+    path: '%2F%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy%3Fed%3D2048'
+- alpn:
+  - http/1.1
+  client-fingerprint: randomized
+  name: '@mehrosaboran` #5'
+  network: ws
+  port: 8443
+  server: 104.21.79.134
+  servername: freEDom.paNoToSU.STORE
+  tls: true
+  type: vless
+  uuid: ec7a6b6d-94b6-45df-9d62-491f53a508be
+  ws-opts:
+    headers:
+      Host: freedom.panotosu.store
+    path: '%2FTelegram%40V2ray_Alpha%3D%3Fed%3D2560'
+- client-fingerprint: random
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #34'
+  network: ws
+  port: 80
+  server: 172.67.60.197
+  servername: agolna.mahsaamini.dpdns.org
+  tls: false
+  type: vless
+  uuid: cba0b35b-8943-4c70-a864-9f78145b7897
+  ws-opts:
+    headers:
+      Host: agolna.mahsaamini.dpdns.org
+    path: '%2FBaRAyeIran%3Fed%3D2560'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #38'
+  network: httpupgrade
+  port: 2086
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 822b2366-34ad-4bb2-bdc9-3fbde4d40454
+  ws-opts:
+    headers:
+      Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D2086'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #39'
+  network: ws
+  port: 2082
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 1704d4c1-6cb6-42c9-9b73-97a3bd179909
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D2082'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #40'
+  network: ws
+  port: 80
+  server: 104.18.26.90
+  tls: false
+  type: vless
+  uuid: c3c19bdf-2eff-49e0-9746-4c98206a67b0
+  ws-opts:
+    headers:
+      Host: s1.mitivpn.workers.dev
+    path: '%2FTelegram---mtmvpn---Telegram---mtmvpn---Telegram---mtmvpn---Telegram---mtmvpn---Telegram---mtmvpn---Telegram---mtmvpn%3Fed%3D2560'
+- alpn:
+  - h2
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #41'
+  network: grpc
+  port: 443
+  server: 92.53.188.36
+  servername: pqh23v4.hiddendom.shop
+  tls: true
+  type: vless
+  uuid: 401374e6-df77-41fb-f638-dad8184f175b
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #42'
+  network: ws
+  port: 443
+  server: 104.24.171.48
+  servername: coco.mahmoodchitooz.dpdns.org
+  tls: true
+  type: vless
+  uuid: b28eb861-1748-4200-ba72-278669edc33b
+  ws-opts:
+    headers:
+      Host: coco.mahmoodchitooz.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- name: 🇦[openproxylist.com] vless-CA
+  network: tcp
+  port: 2321
+  server: 192.46.223.20
+  tls: false
+  type: vless
+  uuid: 4b60fbf1-6a49-4f80-bc09-899607143a8a
+- name: '🇦[openproxylist.com] vless-CA #1'
+  network: ws
+  port: 8443
+  server: 51.222.158.243
+  servername: ov-canada3.09vpn.com
+  tls: true
+  type: vless
+  uuid: d4af3edf-0a58-492e-b6c8-b3f3238df7c1
+  ws-opts:
+    path: '%2Fvless%2F'

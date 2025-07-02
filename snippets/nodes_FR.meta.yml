@@ -28,16 +28,20 @@ proxies:
     headers:
       Host: warp.wlcf.lol
     path: '%2F%3Fed%3D2560'
-- name: 'فرانسه🇫🇷(سرور 03) | اگر وصل شد... #1'
+- alterId: 0
+  cipher: auto
+  name: '🇫🇷FR(AzadNet.t.me) (11) #1'
   network: ws
-  port: 80
-  server: 45.131.5.226
-  tls: false
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  port: '443'
+  server: 146.59.55.50
+  servername: o.metuji.com
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
+      Host: o.Metuji.coM
+    path: /linkvws
 - name: 🇫🇷|FR|@wxgqlfx|375<br />
   password: dongtaiwang.com
   port: 4489
@@ -58,7 +62,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 🇫🇷 FR-135.125.182.74:28213
+  name: 🔒 VM-TCP-NA 🇫🇷 FR-135.125.182....
   network: tcp
   port: '28213'
   server: 135.125.182.74
@@ -81,3 +85,95 @@ proxies:
     headers:
       Host: web.rubika.ir
     path: '%2FIVApi%2FFR%2F1'
+- alterId: 0
+  cipher: auto
+  name: VMESS-未知>法国-ChatGPT-1a2d514b-3...
+  network: ws
+  port: 443
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇫🇷 FR-2.56.126.103...
+  network: tcp
+  port: '33579'
+  server: 2.56.126.103
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2eb3ee2a-7bf8-4b50-9b93-2d489d2f3456
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇫🇷 FR-45.12.133.43...
+  network: tcp
+  port: '28444'
+  server: 45.12.133.43
+  tls: false
+  type: vmess
+  uuid: 1be8eddb-4f8c-45d0-b2a1-e538eb3abd39
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-45.145.165.114-7361
+  network: ws
+  port: 443
+  server: beyonddsz.cfd
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- name: '[openproxylist.com] vless-FR'
+  network: tcp
+  port: 19151
+  server: 185.133.125.10
+  tls: false
+  type: vless
+  uuid: 84e7d7ea-fbb8-4a62-b3c6-a22165a21bee
+  ws-opts:
+    headers:
+      Host: soft98.ir
+- alpn:
+  - http/1.1
+  name: 🇫🇷[openproxylist.com] trojan-F...
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.180.235.166
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 🇫🇷[openproxylist.com] vless-FR
+  network: grpc
+  port: 8880
+  server: 185.153.183.211
+  tls: false
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 🇷[openproxylist.com] vless-FR
+  network: grpc
+  port: 8880
+  server: 185.231.205.99
+  tls: false
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇫🇷[openproxylist.com] vless-FR #1'
+  network: grpc
+  port: 8880
+  server: 95.164.45.94
+  servername: TABRIZ.NET
+  tls: false
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012

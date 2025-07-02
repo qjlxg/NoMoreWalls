@@ -257,3 +257,13 @@ proxies:
   uuid: bdbfd26c-725b-4922-b970-e7dfb46afb7b
   ws-opts:
     path: '%2Fsocks5%3A%2F%2Fadmin%3Aadmin%4043.133.4.144%3A1080'
+- alterId: 0
+  cipher: auto
+  name: 台湾v2|@ripaojiedian
+  network: kcp
+  port: '5663'
+  server: 118.194.253.15
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 986b3bc8-d0fb-4b60-b01f-28164e44cd48
