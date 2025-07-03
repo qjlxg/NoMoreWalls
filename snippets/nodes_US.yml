@@ -178,7 +178,7 @@ proxies:
   uuid: 6ef488cc-1a8e-4a63-d53b-b388a1832477
 - alterId: 0
   cipher: auto
-  name: 'NorthXRAY - VMESS 🔥🇩🇪 🇺🇸 #2'
+  name: 'NorthXRAY - VMESS 🔥🇩🇪 🇺🇸 #1'
   network: tcp
   port: '33678'
   server: prod02-lb02-cloud01.cyberscaler.com
@@ -186,16 +186,6 @@ proxies:
   tls: false
   type: vmess
   uuid: fd83d63c-e97e-4a94-87db-27107dcbe293
-- alterId: 0
-  cipher: auto
-  name: 'NorthXRAY - VMESS 🔥🇩🇪 🇺🇸 #3'
-  network: tcp
-  port: '33678'
-  server: prod02-lb02-cloud01.cyberscaler.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: df3a0454-0a2c-4cae-ba0f-c56426cb0870
 - alterId: 0
   cipher: auto
   name: 🇺🇸 US-51.81.203.57:28860

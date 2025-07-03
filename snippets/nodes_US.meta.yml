@@ -854,7 +854,7 @@ proxies:
     path: '%2F%3Fed%3D2570'
 - alterId: 0
   cipher: auto
-  name: 'NorthXRAY - VMESS 🔥🇩🇪 🇺🇸 #2'
+  name: 'NorthXRAY - VMESS 🔥🇩🇪 🇺🇸 #1'
   network: tcp
   port: '33678'
   server: prod02-lb02-cloud01.cyberscaler.com
@@ -862,16 +862,6 @@ proxies:
   tls: false
   type: vmess
   uuid: fd83d63c-e97e-4a94-87db-27107dcbe293
-- alterId: 0
-  cipher: auto
-  name: 'NorthXRAY - VMESS 🔥🇩🇪 🇺🇸 #3'
-  network: tcp
-  port: '33678'
-  server: prod02-lb02-cloud01.cyberscaler.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: df3a0454-0a2c-4cae-ba0f-c56426cb0870
 - flow: ''
   name: 'AzadNet_🇺🇸 (5) #1'
   network: tcp

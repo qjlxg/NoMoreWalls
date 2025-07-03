@@ -2270,7 +2270,7 @@ proxies:
     path: /nasnet/cdn
 - alterId: 0
   cipher: auto
-  name: 'NorthXRAY - VMESS 🔥🇩🇪 🇺🇸 #2'
+  name: 'NorthXRAY - VMESS 🔥🇩🇪 🇺🇸 #1'
   network: tcp
   port: '33678'
   server: prod02-lb02-cloud01.cyberscaler.com
@@ -2280,30 +2280,7 @@ proxies:
   uuid: fd83d63c-e97e-4a94-87db-27107dcbe293
 - alterId: 0
   cipher: auto
-  name: 'NorthXRAY - VMESS 🔥🇩🇪 🇺🇸 #3'
-  network: tcp
-  port: '33678'
-  server: prod02-lb02-cloud01.cyberscaler.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: df3a0454-0a2c-4cae-ba0f-c56426cb0870
-- alpn:
-  - http/1.1
-  name: '%2525F0%25259F%252592%2525A6%2... #2'
-  network: ws
-  password: 13253e6e-a1f7-4090-801f-a8dc2b083bef
-  port: 2087
-  server: 104.21.95.229
-  sni: invInCibLE.FAFA20.ShOp
-  type: trojan
-  ws-opts:
-    headers:
-      Host: invincible.fafa20.shop
-    path: '%2FtrSC827RVJ8e9FFsFa%2FMTI5LjE1OS44NC43MQ%3D%3D%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  name: 'همه اپراتورها | V2ray_Hub1 #2'
+  name: 'همه اپراتورها | V2ray_Hub1 #3'
   network: ws
   port: '443'
   server: 57.129.64.238
@@ -2314,6 +2291,20 @@ proxies:
   ws-opts:
     headers:
       Host: kapelleng.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 'همه اپراتورها | V2ray_Hub1 #4'
+  network: ws
+  port: '443'
+  server: 57.129.28.69
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: baradiha.com
     path: /linkvws
 - alterId: 0
   cipher: auto

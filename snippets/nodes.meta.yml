@@ -4641,7 +4641,7 @@ proxies:
   servername: maginajoker.top
   tls: true
   type: vless
-  uuid: b7b0f45e-a38c-46c6-96c0-65e8c2330472
+  uuid: ba6031e6-9a61-486d-abf9-6f282b2ab394
   ws-opts:
     headers:
       Host: maginajoker.top
@@ -4654,7 +4654,7 @@ proxies:
   servername: maginajoker.top
   tls: false
   type: vless
-  uuid: b7b0f45e-a38c-46c6-96c0-65e8c2330472
+  uuid: ba6031e6-9a61-486d-abf9-6f282b2ab394
   ws-opts:
     headers:
       Host: maginajoker.top
@@ -4667,7 +4667,7 @@ proxies:
   servername: maginajoker.top
   tls: false
   type: vless
-  uuid: b7b0f45e-a38c-46c6-96c0-65e8c2330472
+  uuid: ba6031e6-9a61-486d-abf9-6f282b2ab394
   ws-opts:
     headers:
       Host: maginajoker.top
@@ -5499,7 +5499,7 @@ proxies:
     path: '%2F%3D2048'
 - alpn:
   - http/1.1
-  name: 7/3/2025, 6:59:21 PM
+  name: 7/3/2025, 10:04:04 PM
   network: ws
   port: 2083
   server: ipm.tofak.com
@@ -7369,16 +7369,6 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.net
-- name: '⒉🇩🇪 @Anubis_VPN👈 کانال تلگرامی #1'
-  network: tcp
-  port: 8080
-  server: ru.2dlkimi.ir
-  tls: false
-  type: vless
-  uuid: f2441327-ccd1-4527-a211-3c2f08da0e11
-  ws-opts:
-    headers:
-      Host: zula.ir
 - name: '🇳🇱@ghalagyann #1'
   network: ws
   port: 80
@@ -7402,17 +7392,6 @@ proxies:
   tls: false
   type: vless
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'کانفیگ نامحدود رایگان تلگرام @... #1'
-  network: ws
-  port: 80
-  server: 104.16.53.11
-  tls: false
-  type: vless
-  uuid: 36266d47-306a-4288-95e6-af2ef4c73939
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.tax.gov.ir.aparat.com.a.3.jEy.dPdNs.org.
-    path: '%2FTelegram%40vpnjeyTelegram%40vpnjeyTelegram%40vpnjey'
 - alpn:
   - h2
   - http/1.1
@@ -7475,7 +7454,7 @@ proxies:
     path: /hetzner/cdn
 - alpn:
   - h2
-  name: '@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال+تلگرامی #3'
+  name: '@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال+تلگرامی #4'
   network: ws
   port: 8443
   server: 104.21.43.168
@@ -7714,14 +7693,14 @@ proxies:
 - name: 'برای+اتصال+در+نت+ملی+عضو+شوید:... #2'
   network: ws
   port: 80
-  server: 104.21.113.169
+  server: 172.67.111.215
   tls: false
   type: vless
   uuid: 1f431db3-1918-4e7b-a855-c93485e11694
   ws-opts:
     headers:
       Host: pari.parinazz.dpdns.org
-    path: '%2F%3Fed%3D2048'
+    path: '%2F%3Fed%3D2566'
 - name: 'برای+اتصال+در+نت+ملی+عضو+شوید:... #3'
   network: ws
   port: 80
@@ -8165,6 +8144,19 @@ proxies:
       Host: aymng.bahareh.dpdns.org
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
+  name: '76به یاد سارینا #3'
+  network: ws
+  port: 443
+  server: 104.18.57.185
+  servername: havvas.shohreh.dpdns.org
+  tls: true
+  type: vless
+  uuid: 941d092e-8313-452a-ba21-c9995dcba79d
+  ws-opts:
+    headers:
+      Host: havvas.shohreh.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
   name: '75به یاد سارینا #1'
   network: ws
   port: 80
@@ -8203,7 +8195,7 @@ proxies:
     headers:
       Host: havvas.shohreh.dpdns.org
     path: '%2F%3Fed%3D2560'
-- name: 'fast_52 #6'
+- name: 'fast_52 #4'
   network: ws
   port: 443
   server: 104.24.197.20
@@ -8215,35 +8207,10 @@ proxies:
     headers:
       Host: rayan-sun.parsa.dpdns.org
     path: '%2F%3Fed%3D2560'
-- alpn:
-  - h2
-  name: 'fast_52 #7'
-  network: ws
-  port: 443
-  server: 172.67.184.242
-  servername: amphetamine.shividpolo.site
-  tls: true
-  type: vless
-  uuid: 933e8733-1c42-4f13-93a0-2472f2633d8e
-  ws-opts:
-    headers:
-      Host: amphetamine.shividpolo.site
-    path: '%2Fdownloader.php%3Fed%3D2560'
 - name: '🌈+خدای+رنگین+کمان+34+🌈 #1'
   network: ws
   port: 8080
   server: www.speedtest.net
-  tls: false
-  type: vless
-  uuid: 7c9e3c1d-a360-4429-9189-e45a98de7fde
-  ws-opts:
-    headers:
-      Host: mail.ski1plag.ir
-    path: '%2Fupload'
-- name: '🌈+خدای+رنگین+کمان+30+🌈 #1'
-  network: ws
-  port: 80
-  server: www.parsvds.ir
   tls: false
   type: vless
   uuid: 7c9e3c1d-a360-4429-9189-e45a98de7fde
@@ -8289,17 +8256,6 @@ proxies:
     headers:
       Host: mail.ski1plag.ir
     path: '%2Fdownload'
-- name: '🌈+خدای+رنگین+کمان+18+🌈 #1'
-  network: ws
-  port: 80
-  server: www.parsvds.ir
-  tls: false
-  type: vless
-  uuid: 7c9e3c1d-a360-4429-9189-e45a98de7fde
-  ws-opts:
-    headers:
-      Host: mail.ski1plag.ir
-    path: '%2Fdownload'
 - name: '🌈+خدای+رنگین+کمان+16+🌈 #1'
   network: ws
   port: 80
@@ -8333,19 +8289,22 @@ proxies:
     headers:
       Host: mail.ski1plag.ir
     path: '%2F'
-- name: 'Rayan - CF - WS-115 - D.42 #1'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: random
+  name: '🌈+خدای+رنگین+کمان+3+🌈 #1'
   network: ws
   port: 443
-  server: cdnjs.com
-  servername: rayan-dark.hedieh.dpdns.org
-  skip-cert-verify: true
+  server: www.speedtest.net
+  servername: mail.ski1plag.ir
   tls: true
   type: vless
-  uuid: f12977e6-d296-4d94-9aaf-d31770b70f84
+  uuid: 7c9e3c1d-a360-4429-9189-e45a98de7fde
   ws-opts:
     headers:
-      Host: rayan-dark.hedieh.dpdns.org
-    path: /?ed%3D2560
+      Host: mail.ski1plag.ir
+    path: '%2F'
 - name: 'Rayan - CF - WS-106 - D.60 #1'
   network: ws
   port: 443
@@ -8371,6 +8330,19 @@ proxies:
   ws-opts:
     headers:
       Host: rayan-navy.foton.dpdns.org
+    path: /?ed%3D2560
+- name: 'Rayan - CF - WS-106 - D.55 #1'
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: rayan-wire.parmis.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: a2141393-7183-4f29-b27a-0fc3167a6908
+  ws-opts:
+    headers:
+      Host: rayan-wire.parmis.dpdns.org
     path: /?ed%3D2560
 - name: 'Rayan - CF - WS-106 - D.54 #1'
   network: ws
@@ -8398,6 +8370,32 @@ proxies:
     headers:
       Host: rayan-infra.parisa.dpdns.org
     path: /?ed%3D2560
+- name: 'Rayan - CF - WS-105 - D.49 #1'
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: rayan-goft.negin.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 67534bac-51db-4f20-94b7-ba4971f64b15
+  ws-opts:
+    headers:
+      Host: rayan-goft.negin.dpdns.org
+    path: /?ed%3D2560
+- name: 'Rayan - CF - WS-105 - D.46 #1'
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: rayan-olala.parvaneh.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 60882caa-4e74-42a2-be70-220755fc1551
+  ws-opts:
+    headers:
+      Host: rayan-olala.parvaneh.dpdns.org
+    path: /?ed%3D2560
 - client-fingerprint: random
   name: '52به یاد سارینا #1'
   network: ws
@@ -8411,18 +8409,21 @@ proxies:
     headers:
       Host: barayeiran.nastaranh.dpdns.org
     path: '%2F%3Fed%3D2560'
-- name: 'Cloud #16'
+- alpn:
+  - http/1.1
+  client-fingerprint: randomized
+  name: 'زن زندگی آزادی #11'
   network: ws
-  port: 443
-  server: 188.114.96.6
-  servername: F1.paRsa.fiLegEar-Sg.Me
+  port: 2096
+  server: 172.67.213.99
+  servername: MAhsa2.CFfORm.sITE
   tls: true
   type: vless
-  uuid: 8df60790-c903-4661-b85d-64c0009378e5
+  uuid: 704198c4-37b9-473d-a5de-0333276f2f6c
   ws-opts:
     headers:
-      Host: f1.parsa.filegear-sg.me
-    path: '%2F%3Fed%3D2560'
+      Host: mahsa2.cfform.site
+    path: /rKFmCsnAFPPrFbIQ/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ%3D
 - name: 'Cloud #20'
   network: ws
   port: 443
@@ -8434,6 +8435,19 @@ proxies:
   ws-opts:
     headers:
       Host: f1.parsa.filegear-sg.me
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: 'به یاد سارینا34 #1'
+  network: ws
+  port: 80
+  server: 172.67.248.16
+  servername: lot.sosant.dpdns.org
+  tls: false
+  type: vless
+  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
+  ws-opts:
+    headers:
+      Host: lot.sosant.dpdns.org
     path: '%2F%3Fed%3D2560'
 - alpn:
   - http/2
@@ -8450,6 +8464,19 @@ proxies:
     headers:
       Host: freedom.panotosu.store
     path: /sVmIDWvjebBnvJ3c/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ%3D?ed%3D2560
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: '🇫🇮Telegram@DarkVPNpro | خرید س... #5'
+  network: tcp
+  port: 443
+  server: app.chandplus.com
+  servername: app.chandplus.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: fa72a38c-56bf-4f3b-9735-e96e9840ae54
 - client-fingerprint: random
   name: 'به یاد سارینا28 #1'
   network: ws
@@ -8463,6 +8490,14 @@ proxies:
     headers:
       Host: delam.ahaysiahzangi.dpdns.org
     path: '%2F%3Fed%3D2560'
+- name: '@Fserverd_vpn #3'
+  network: tcp
+  port: 443
+  server: 95.217.206.161
+  servername: api.chandplus.com
+  tls: true
+  type: vless
+  uuid: 01d68a9b-be48-4c7b-b4f9-71b29c4cfaca
 - client-fingerprint: random
   name: 'به یاد سارینا21 #1'
   network: ws
@@ -8815,66 +8850,6 @@ proxies:
     headers:
       Host: xbox.fastnetpro.xyz
     path: '%2F'
-- name: '1.🔥FREE HOMES VPN🔥 #1'
-  obfs: salamander
-  obfs-password: '%26O%2328YB5qK%215t%23U'
-  password: freehomesvpnmahsa3
-  port: 16396
-  server: donate1.mahsa.homes
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 'BESTIIVPNBOT تست و خرید #1'
-  network: tcp
-  port: 54080
-  server: 62.60.179.100
-  tls: false
-  type: vless
-  uuid: 079291d7-2d5a-4dcc-b2a9-514cda7eb9f9
-  ws-opts:
-    headers:
-      Host: cloud.ir
-- name: 'بزن وصل شو | @neteiran #1'
-  network: tcp
-  port: 443
-  server: 91.99.203.65
-  tls: false
-  type: vless
-  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-  ws-opts:
-    headers:
-      Host: zula.ir
-- name: '@neteiran کانفیگ بیشتر #2'
-  network: tcp
-  port: 443
-  server: 91.99.160.13
-  tls: false
-  type: vless
-  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-  ws-opts:
-    headers:
-      Host: zula.ir
-- name: '@neteiran کانفیگ بیشتر #3'
-  network: tcp
-  port: 443
-  server: 91.99.205.121
-  tls: false
-  type: vless
-  uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
-  ws-opts:
-    headers:
-      Host: zula.ir
-- name: 'ᴬᴸᴸ¹🇩🇪➣@ghalagyann #1'
-  network: tcp
-  port: 443
-  server: 91.99.162.239
-  tls: false
-  type: vless
-  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-  ws-opts:
-    headers:
-      Host: zula.ir%2F%3FJOKERRVPNTELEGRAM----%40JOKERRVPN----%40JOKERRVPN----%40JOKERRVPN----%40JOKERRVPN----%40JOKERRVPN----%40JOKERRVPN----%40JOKERRVPN----%40JOKERRVPN----%40JOKERRVPN----%40JOKERRVPN----%40JOKERRVPN
 - alpn:
   - h2
   - http/1.1
@@ -8909,7 +8884,7 @@ proxies:
     path: '%2Fnasnet%2Fcdn'
 - alterId: 0
   cipher: auto
-  name: 'NorthXRAY - VMESS 🔥🇩🇪 🇺🇸 #2'
+  name: 'NorthXRAY - VMESS 🔥🇩🇪 🇺🇸 #1'
   network: tcp
   port: '33678'
   server: prod02-lb02-cloud01.cyberscaler.com
@@ -8917,16 +8892,6 @@ proxies:
   tls: false
   type: vmess
   uuid: fd83d63c-e97e-4a94-87db-27107dcbe293
-- alterId: 0
-  cipher: auto
-  name: 'NorthXRAY - VMESS 🔥🇩🇪 🇺🇸 #3'
-  network: tcp
-  port: '33678'
-  server: prod02-lb02-cloud01.cyberscaler.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: df3a0454-0a2c-4cae-ba0f-c56426cb0870
 - client-fingerprint: random
   name: '103به یاد سارینا #1'
   network: ws
@@ -8955,6 +8920,21 @@ proxies:
     headers:
       Host: f1.parsa.filegear-sg.me
     path: /?ed%3D2560
+- alpn:
+  - h3
+  - h2
+  name: '🌴@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام #1'
+  network: ws
+  port: 443
+  server: sourceforge.net
+  servername: r2.sanam.dpdns.org
+  tls: true
+  type: vless
+  uuid: fd9a3396-e9a4-45b5-93b9-a0bed3f8b309
+  ws-opts:
+    headers:
+      Host: r2.sanam.dpdns.org
+    path: /?ed%3D2550
 - client-fingerprint: random
   name: '100به یاد سارینا #1'
   network: ws
@@ -9008,6 +8988,19 @@ proxies:
       Host: pari.parinazz.dpdns.org
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
+  name: '94به یاد سارینا #1'
+  network: ws
+  port: 443
+  server: 104.24.53.241
+  servername: dw.alibichareh.dpdns.org
+  tls: true
+  type: vless
+  uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
+  ws-opts:
+    headers:
+      Host: dw.alibichareh.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
   name: '93به یاد سارینا #1'
   network: ws
   port: 443
@@ -9035,21 +9028,8 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alpn:
   - http/1.1
-  name: '%2525F0%25259F%252592%2525A6%2... #2'
-  network: ws
-  password: 13253e6e-a1f7-4090-801f-a8dc2b083bef
-  port: 2087
-  server: 104.21.95.229
-  sni: invInCibLE.FAFA20.ShOp
-  type: trojan
-  ws-opts:
-    headers:
-      Host: invincible.fafa20.shop
-    path: '%2FtrSC827RVJ8e9FFsFa%2FMTI5LjE1OS44NC43MQ%3D%3D%3Fed%3D2560'
-- alpn:
-  - http/1.1
   client-fingerprint: randomized
-  name: '%2525F0%25259F%252592%2525A6%2... #3'
+  name: '%2525F0%25259F%252592%2525A6%2... #1'
   network: ws
   port: 443
   server: 104.21.95.229
@@ -9073,19 +9053,6 @@ proxies:
   ws-opts:
     headers:
       Host: fggerlad.gerald81.dpdns.org
-    path: '%2F%3Fed%3D2560'
-- client-fingerprint: random
-  name: '76به یاد سارینا #1'
-  network: ws
-  port: 443
-  server: 104.18.57.185
-  servername: havvas.shohreh.dpdns.org
-  tls: true
-  type: vless
-  uuid: 941d092e-8313-452a-ba21-c9995dcba79d
-  ws-opts:
-    headers:
-      Host: havvas.shohreh.dpdns.org
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
   name: '74به یاد سارینا #1'
@@ -9114,6 +9081,20 @@ proxies:
   type: vless
   uuid: 440766d1-858f-4719-84f5-c2de6f6227ba
 - alpn:
+  - h2
+  name: 'fast_52 #5'
+  network: ws
+  port: 443
+  server: 172.67.184.242
+  servername: amphetamine.shividpolo.site
+  tls: true
+  type: vless
+  uuid: 933e8733-1c42-4f13-93a0-2472f2633d8e
+  ws-opts:
+    headers:
+      Host: amphetamine.shividpolo.site
+    path: '%2Fdownloader.php%3Fed%3D2560'
+- alpn:
   - h3
   - h2
   - http/1.1
@@ -9128,21 +9109,34 @@ proxies:
   type: vless
   uuid: 440766d1-858f-4719-84f5-c2de6f6227ba
 - client-fingerprint: random
-  name: '64به یاد سارینا #1'
+  name: '67به یاد سارینا #1'
   network: ws
   port: 443
-  server: 104.21.14.133
-  servername: barayeiran.nastaranh.dpdns.org
+  server: 104.25.127.173
+  servername: sib.sibzamini.dpdns.org
   tls: true
   type: vless
-  uuid: bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0
+  uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
   ws-opts:
     headers:
-      Host: barayeiran.nastaranh.dpdns.org
+      Host: sib.sibzamini.dpdns.org
+    path: '%2FBaRAyeIran%3Fed%3D2560'
+- client-fingerprint: random
+  name: '65به یاد سارینا #1'
+  network: ws
+  port: 443
+  server: 104.22.52.229
+  servername: br.presskiwi.dpdns.org
+  tls: true
+  type: vless
+  uuid: b8be6118-0dd7-4402-ae1a-69b2816f3a7f
+  ws-opts:
+    headers:
+      Host: br.presskiwi.dpdns.org
     path: '%2FBaRAyeIran%3Fed%3D2560'
 - alterId: 0
   cipher: auto
-  name: 'همه اپراتورها | V2ray_Hub1 #2'
+  name: 'همه اپراتورها | V2ray_Hub1 #3'
   network: ws
   port: '443'
   server: 57.129.64.238
@@ -9154,6 +9148,34 @@ proxies:
     headers:
       Host: kapelleng.com
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 'همه اپراتورها | V2ray_Hub1 #4'
+  network: ws
+  port: '443'
+  server: 57.129.28.69
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: baradiha.com
+    path: /linkvws
+- alpn:
+  - h2
+  name: '@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال+تلگرامی #5'
+  network: ws
+  port: 8443
+  server: www.speedtest.net
+  servername: adderall.adaspolo.co
+  tls: true
+  type: vless
+  uuid: d2b0e347-554f-47af-9ff9-fac57c050c8d
+  ws-opts:
+    headers:
+      Host: adderall.adaspolo.co
+    path: '%2Frandom%3Fed%3D2310'
 - client-fingerprint: random
   name: '63به یاد سارینا #1'
   network: ws
@@ -9183,7 +9205,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: randomized
-  name: 'نه میبخشیم نه فراموش میکنیم #1'
+  name: 'نه میبخشیم نه فراموش میکنیم #3'
   network: ws
   port: 2083
   server: 104.21.10.218
@@ -9195,6 +9217,36 @@ proxies:
     headers:
       Host: mine.toysbrasherra.online
     path: /OUG3NM02xTVP11zI/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ%3D
+- alpn:
+  - http/1.1
+  client-fingerprint: randomized
+  name: 'نه میبخشیم نه فراموش میکنیم #4'
+  network: ws
+  port: 443
+  server: 104.21.10.218
+  servername: mINe.TOysBRaSheRRA.OnLIne
+  tls: true
+  type: vless
+  uuid: 3160087e-72a1-4f1e-b79a-7dabfd2539ba
+  ws-opts:
+    headers:
+      Host: mine.toysbrasherra.online
+    path: /opAaBhk5dRW3mzbg/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ%3D
+- alpn:
+  - http/1.1
+  client-fingerprint: randomized
+  name: 'نه میبخشیم نه فراموش میکنیم #5'
+  network: ws
+  port: 2053
+  server: 104.21.10.218
+  servername: MIne.TOySBrasherra.Online
+  tls: true
+  type: vless
+  uuid: 3160087e-72a1-4f1e-b79a-7dabfd2539ba
+  ws-opts:
+    headers:
+      Host: mine.toysbrasherra.online
+    path: /X5tNsZXQoDHKWMSl/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ%3D
 - name: 'Rayan - CF - WS-115 - C.47 #1'
   network: ws
   port: 443
@@ -9221,6 +9273,19 @@ proxies:
     headers:
       Host: rayan-fg-7.abar-farz.filegear-sg.me
     path: /?ed%3D2560
+- name: 'Rayan - CF - WS-113 - C.22 #1'
+  network: ws
+  port: 443
+  server: check-host.net
+  servername: rayan-fg-7.nastaran-joon.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: c1da8253-1987-4501-9805-69fbb043742a
+  ws-opts:
+    headers:
+      Host: rayan-fg-7.nastaran-joon.filegear-sg.me
+    path: /?ed%3D2560
 - name: 'Rayan - CF - WS-111 - C.05 #1'
   network: ws
   port: 443
@@ -9233,19 +9298,6 @@ proxies:
   ws-opts:
     headers:
       Host: rayan-fg-6.abar-farz.filegear-sg.me
-    path: /?ed%3D2560
-- name: 'Rayan - CF - WS-111 - C.03 #1'
-  network: ws
-  port: 443
-  server: digitalocean.com
-  servername: rayan-fg-6.mohammad-janam.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: e97a0128-4785-4323-a2a5-dd01ce49d359
-  ws-opts:
-    headers:
-      Host: rayan-fg-6.mohammad-janam.filegear-sg.me
     path: /?ed%3D2560
 - name: 'Rayan - CF - WS-111 - C.02 #1'
   network: ws
@@ -9273,6 +9325,19 @@ proxies:
     headers:
       Host: rayan-fg-5.parmida.filegear-sg.me
     path: /?ed%3D2560
+- name: 'Rayan - CF - WS-110 - C.91 #1'
+  network: ws
+  port: 443
+  server: cdnjs.com
+  servername: rayan-fg-5.parmis.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 21cf57f2-391f-4e7b-91ac-8b650e0a2f4c
+  ws-opts:
+    headers:
+      Host: rayan-fg-5.parmis.filegear-sg.me
+    path: /?ed%3D2560
 - name: 'Rayan - CF - WS-109 - C.85 #1'
   network: ws
   port: 443
@@ -9285,6 +9350,32 @@ proxies:
   ws-opts:
     headers:
       Host: rayan-fg-5.abar-farz.filegear-sg.me
+    path: /?ed%3D2560
+- name: 'Rayan - CF - WS-109 - C.82 #1'
+  network: ws
+  port: 443
+  server: check-host.net
+  servername: rayan-fg-5.nastaran-joon.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: c1da8253-1987-4501-9805-69fbb043742a
+  ws-opts:
+    headers:
+      Host: rayan-fg-5.nastaran-joon.filegear-sg.me
+    path: /?ed%3D2560
+- name: 'Rayan - CF - WS-108 - C.72 #1'
+  network: ws
+  port: 443
+  server: cdnjs.com
+  servername: rayan-fg-4.parmida.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 2aeb19d8-ae92-4c21-afd1-f6609517df19
+  ws-opts:
+    headers:
+      Host: rayan-fg-4.parmida.filegear-sg.me
     path: /?ed%3D2560
 - name: 'Rayan - CF - WS-107 - C.65 #1'
   network: ws
@@ -9299,6 +9390,19 @@ proxies:
     headers:
       Host: rayan-fg-4.abar-farz.filegear-sg.me
     path: /?ed%3D2560
+- name: 'Rayan - CF - WS-107 - C.62 #1'
+  network: ws
+  port: 443
+  server: check-host.net
+  servername: rayan-fg-4.nastaran-joon.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: c1da8253-1987-4501-9805-69fbb043742a
+  ws-opts:
+    headers:
+      Host: rayan-fg-4.nastaran-joon.filegear-sg.me
+    path: /?ed%3D2560
 - name: 'Rayan - CF - WS-105 - C.45 #1'
   network: ws
   port: 443
@@ -9312,19 +9416,6 @@ proxies:
     headers:
       Host: rayan-fg-3.abar-farz.filegear-sg.me
     path: /?ed%3D2560
-- name: 'Rayan - CF - WS-103 - C.25 #1'
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: rayan-fg-2.abar-farz.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 9e7b3b9f-ab4b-4f2c-9529-2fc61840db40
-  ws-opts:
-    headers:
-      Host: rayan-fg-2.abar-farz.filegear-sg.me
-    path: /?ed%3D2560
 - name: 'Rayan - CF - WS-103 - C.22 #1'
   network: ws
   port: 443
@@ -9337,19 +9428,6 @@ proxies:
   ws-opts:
     headers:
       Host: rayan-fg-2.nastaran-joon.filegear-sg.me
-    path: /?ed%3D2560
-- name: 'Rayan - CF - WS-101 - C.07 #1'
-  network: ws
-  port: 443
-  server: jquery.com
-  servername: rayan-fg-1.esfandiar.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 869a36bd-2982-47c6-9195-6d404bdeae9d
-  ws-opts:
-    headers:
-      Host: rayan-fg-1.esfandiar.filegear-sg.me
     path: /?ed%3D2560
 - name: 'Rayan - CF - WS-101 - C.05 #1'
   network: ws
@@ -9378,10 +9456,10 @@ proxies:
       Host: rayan-fg-1.nastaran-joon.filegear-sg.me
     path: /?ed%3D2560
 - client-fingerprint: random
-  name: '51به یاد سارینا #1'
+  name: '53به یاد سارینا #1'
   network: ws
   port: 443
-  server: 104.21.109.169
+  server: 104.21.9.190
   servername: br.presskiwi.dpdns.org
   tls: true
   type: vless
@@ -9419,7 +9497,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: randomized
-  name: 'زن زندگی آزادی #7'
+  name: 'زن زندگی آزادی #9'
   network: ws
   port: 2083
   server: 172.67.187.190
@@ -9434,22 +9512,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: randomized
-  name: 'زن زندگی آزادی #8'
-  network: ws
-  port: 2087
-  server: 172.67.187.190
-  servername: fREE.cFDnS.OnLINe
-  tls: true
-  type: vless
-  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
-  ws-opts:
-    headers:
-      Host: free.cfdns.online
-    path: /fml9GKf0UXlF7LDl
-- alpn:
-  - http/1.1
-  client-fingerprint: randomized
-  name: 'زن زندگی آزادی #9'
+  name: 'زن زندگی آزادی #10'
   network: ws
   port: 443
   server: 172.67.187.190
@@ -9461,7 +9524,7 @@ proxies:
     headers:
       Host: free.cfdns.online
     path: /8u1iaq0n6r9PbdFx
-- name: 'Cloud #13'
+- name: 'Cloud #12'
   network: ws
   port: 443
   server: 104.19.99.252
@@ -9473,7 +9536,7 @@ proxies:
     headers:
       Host: f1.parsa.filegear-sg.me
     path: '%2F%3Fed%3D2560'
-- name: 'Cloud #14'
+- name: 'Cloud #13'
   network: ws
   port: 443
   server: 104.24.254.172
@@ -9485,7 +9548,7 @@ proxies:
     headers:
       Host: f1.parsa.filegear-sg.me
     path: '%2F%3Fed%3D2560'
-- name: 'Cloud #15'
+- name: 'Cloud #14'
   network: ws
   port: 443
   server: 172.67.218.254
@@ -9497,7 +9560,19 @@ proxies:
     headers:
       Host: f1.parsa.filegear-sg.me
     path: '%2F%3Fed%3D2560'
-- name: 'Cloud #17'
+- name: 'Cloud #15'
+  network: ws
+  port: 443
+  server: 188.114.96.6
+  servername: F1.paRsa.fiLegEar-Sg.Me
+  tls: true
+  type: vless
+  uuid: 8df60790-c903-4661-b85d-64c0009378e5
+  ws-opts:
+    headers:
+      Host: f1.parsa.filegear-sg.me
+    path: '%2F%3Fed%3D2560'
+- name: 'Cloud #16'
   network: ws
   port: 443
   server: 188.114.97.6
@@ -9523,10 +9598,22 @@ proxies:
     headers:
       Host: o.metuji.com
     path: /linkvws
-- name: 'Cloud #18'
+- name: 'Cloud #17'
   network: ws
   port: 443
   server: 104.17.4.197
+  servername: F1.paRsa.fiLegEar-Sg.Me
+  tls: true
+  type: vless
+  uuid: 8df60790-c903-4661-b85d-64c0009378e5
+  ws-opts:
+    headers:
+      Host: f1.parsa.filegear-sg.me
+    path: '%2F%3Fed%3D2560'
+- name: 'Cloud #18'
+  network: ws
+  port: 443
+  server: 104.25.235.104
   servername: F1.paRsa.fiLegEar-Sg.Me
   tls: true
   type: vless
@@ -9606,7 +9693,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '🇫🇮Telegram@DarkVPNpro | خرید س... #2'
+  name: '🇫🇮Telegram@DarkVPNpro | خرید س... #4'
   network: tcp
   port: 443
   server: cdn.chandplus.com
@@ -9615,19 +9702,6 @@ proxies:
   tls: true
   type: vless
   uuid: 14e4cf26-44e1-4888-ba87-e5e6ba3a6b0f
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '🇫🇮Telegram@DarkVPNpro | خرید س... #3'
-  network: tcp
-  port: 443
-  server: app.chandplus.com
-  servername: app.chandplus.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: fa72a38c-56bf-4f3b-9735-e96e9840ae54
 - flow: ''
   name: 'AzadNet_🇺🇸 (5) #1'
   network: tcp
@@ -9640,7 +9714,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: randomized
-  name: 'زن زندگی آزادی #10'
+  name: 'زن زندگی آزادی #12'
   network: ws
   port: 8443
   server: 104.21.32.1
@@ -9655,7 +9729,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: randomized
-  name: 'زن زندگی آزادی #11'
+  name: 'زن زندگی آزادی #13'
   network: ws
   port: 8443
   server: 104.21.96.1
@@ -9670,7 +9744,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: randomized
-  name: 'زن زندگی آزادی #12'
+  name: 'زن زندگی آزادی #14'
   network: ws
   port: 8443
   server: 104.21.80.1
@@ -9685,7 +9759,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: randomized
-  name: 'زن زندگی آزادی #13'
+  name: 'زن زندگی آزادی #15'
   network: ws
   port: 8443
   server: 104.21.48.1
@@ -9697,36 +9771,28 @@ proxies:
     headers:
       Host: freedom.moresh.store
     path: /0O8QQEwA93OmAUN3/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ%3D
-- name: '@Fserverd_vpn #1'
-  network: tcp
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 'c🇩🇪t🇩🇪 🇩🇪   gpt    ✅️ #1'
+  network: ws
   port: 443
-  server: 95.217.206.161
-  servername: api.chandplus.com
+  server: allthetropes.org
+  servername: verina.ccantarella.dns-dynamic.net
   tls: true
   type: vless
-  uuid: 01d68a9b-be48-4c7b-b4f9-71b29c4cfaca
+  uuid: ec7de7e0-3f09-4ef4-8a34-e441917d65fa
+  ws-opts:
+    headers:
+      Host: verina.ccantarella.dns-dynamic.net
+    path: '%2Fproxyip%3Drobin.yaemiko.ggff.net'
 - alpn:
   - h2
   - http/1.1
-  name: '😻😻😻😻😻😻 #1'
+  name: '😻😻😻😻😻😻😻😻 #1'
   network: ws
   port: 443
   server: www.speedtest.net
-  servername: add.lobia.sbs
-  tls: true
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: add.lobia.sbs
-    path: '%2F'
-- alpn:
-  - h2
-  - http/1.1
-  name: '😎😎😎😎😎😎😎😎😎😎 #1'
-  network: ws
-  port: 443
-  server: www.visa.com.sg
   servername: add.lobia.sbs
   tls: true
   type: vless
@@ -11290,6 +11356,13 @@ proxies:
     headers:
       Host: iribcdn.com
     path: '%2Firibcdn.com%3Fed%3D2560'
+- name: Bot1-46750
+  network: tcp
+  port: 26947
+  server: s2.digionline2.com
+  tls: false
+  type: vless
+  uuid: 6429600a-6c84-47b0-b86c-6a3f22d9c018
 - name: 🇺🇸|US|@wxgqlfx|374<br />
   port: 443
   server: 152.67.251.232
@@ -13460,6 +13533,16 @@ proxies:
   tls: false
   type: vmess
   uuid: e0957ca6-f613-4017-ff3c-effd1da8871a
+- name: Soren 01
+  network: tcp
+  port: 443
+  server: 91.99.203.65
+  tls: false
+  type: vless
+  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+  ws-opts:
+    headers:
+      Host: zula.ir
 - name: Soren 04
   network: tcp
   port: 443
@@ -13904,21 +13987,6 @@ proxies:
   down: 100
   fast-open: true
   name: 节点2
-  port: '2345'
-  protocol: udp
-  recv-window: 276824064
-  recv_window_conn: 69206016
-  server: 195.154.200.40
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 100
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 100
-  fast-open: true
-  name: 节点3
   port: '17549'
   protocol: udp
   recv-window: 230686720
@@ -13933,12 +14001,27 @@ proxies:
   auth_str: dongtaiwang.com
   down: 100
   fast-open: true
-  name: 节点4
-  port: '14241'
+  name: 节点3
+  port: '15010'
   protocol: udp
-  recv-window: 230686720
-  recv_window_conn: 57671680
-  server: 51.159.226.1
+  recv-window: 276824064
+  recv_window_conn: 69206016
+  server: 195.154.200.40
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 100
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 100
+  fast-open: true
+  name: 节点4
+  port: '40528'
+  protocol: udp
+  recv-window: 23068672
+  recv_window_conn: 5767168
+  server: 208.87.243.187
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
@@ -13949,18 +14032,33 @@ proxies:
   down: 100
   fast-open: true
   name: 节点5
-  port: '40528'
+  port: '2345'
   protocol: udp
-  recv-window: 23068672
-  recv_window_conn: 5767168
-  server: 208.87.243.187
+  recv-window: 276824064
+  recv_window_conn: 69206016
+  server: 195.154.200.40
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 100
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 100
+  fast-open: true
+  name: 节点6
+  port: '14241'
+  protocol: udp
+  recv-window: 230686720
+  recv_window_conn: 57671680
+  server: 51.159.226.1
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
   up: 100
 - down: 100 Mbps
   fast-open: true
-  name: 节点6
+  name: 节点7
   password: dongtaiwang.com
   port: '30033'
   server: 46.17.41.217
@@ -13970,7 +14068,7 @@ proxies:
   up: 100 Mbps
 - down: 100 Mbps
   fast-open: true
-  name: 节点7
+  name: 节点8
   password: dongtaiwang.com
   port: '50850'
   server: 45.129.2.108
@@ -13980,22 +14078,12 @@ proxies:
   up: 100 Mbps
 - down: 100 Mbps
   fast-open: true
-  name: 节点8
+  name: 节点9
   password: dongtaiwang.com
   port: '23579'
   server: 45.129.2.248
   skip-cert-verify: true
   sni: www.bing.com
-  type: hysteria2
-  up: 100 Mbps
-- down: 100 Mbps
-  fast-open: true
-  name: 节点9
-  password: dongtaiwang.com
-  port: '31180'
-  server: 51.159.111.32
-  skip-cert-verify: true
-  sni: apple.com
   type: hysteria2
   up: 100 Mbps
 - down: 100 Mbps
@@ -14012,6 +14100,16 @@ proxies:
   fast-open: true
   name: 节点11
   password: dongtaiwang.com
+  port: '31180'
+  server: 51.159.111.32
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+  up: 100 Mbps
+- down: 100 Mbps
+  fast-open: true
+  name: 节点12
+  password: dongtaiwang.com
   port: '4710'
   server: 108.181.5.130
   skip-cert-verify: true
@@ -14020,7 +14118,7 @@ proxies:
   up: 100 Mbps
 - down: 100 Mbps
   fast-open: true
-  name: 节点12
+  name: 节点13
   password: dongtaiwang.com
   port: '12904'
   server: 46.17.41.5
@@ -14030,7 +14128,7 @@ proxies:
   up: 100 Mbps
 - client-figerprint: chrome
   flow: xtls-rprx-vision
-  name: 节点13
+  name: 节点14
   port: 37898
   reality-opts:
     public-key: v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ
@@ -14041,50 +14139,9 @@ proxies:
   type: vless
   udp: true
   uuid: ec302de4-6b3d-4f03-a228-3c6d303ed370
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 100
-  fast-open: true
-  name: 节点14
-  port: '15010'
-  protocol: udp
-  recv-window: 276824064
-  recv_window_conn: 69206016
-  server: 195.154.200.40
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 100
 - client-figerprint: chrome
   flow: xtls-rprx-vision
   name: 节点15
-  port: 49226
-  reality-opts:
-    public-key: vyqO2y1XKUzVQNuOAtBpYPaZJWxuvfA9CTVuoF9RClQ
-    short-id: ''
-  server: tw-2.534582.xyz
-  servername: dash.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9244d7a3-6c74-4035-b64f-a90f3ee6e173
-- client-figerprint: chrome
-  flow: xtls-rprx-vision
-  name: 节点16
-  port: 62750
-  reality-opts:
-    public-key: _E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA
-    short-id: ''
-  server: 185.22.155.105
-  servername: www.paypal.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fdd2d176-2602-46f2-b694-ce247de88b22
-- client-figerprint: chrome
-  flow: xtls-rprx-vision
-  name: 节点17
   port: 51499
   reality-opts:
     public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
@@ -14095,6 +14152,32 @@ proxies:
   type: vless
   udp: true
   uuid: c643de0a-9678-4c18-9f55-58620425bac0
+- client-figerprint: chrome
+  flow: xtls-rprx-vision
+  name: 节点16
+  port: 49226
+  reality-opts:
+    public-key: vyqO2y1XKUzVQNuOAtBpYPaZJWxuvfA9CTVuoF9RClQ
+    short-id: ''
+  server: tw-2.534582.xyz
+  servername: dash.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9244d7a3-6c74-4035-b64f-a90f3ee6e173
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 100
+  fast-open: true
+  name: 节点17
+  port: 62003
+  protocol: udp
+  server: 176.32.35.226
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 100
 - alpn:
   - h3
   auth_str: dongtaiwang.com
@@ -14108,19 +14191,19 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 100
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 100
-  fast-open: true
+- client-figerprint: chrome
+  flow: xtls-rprx-vision
   name: 节点19
-  port: 62003
-  protocol: udp
-  server: 176.32.35.226
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 100
+  port: 62750
+  reality-opts:
+    public-key: _E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA
+    short-id: ''
+  server: 185.22.155.105
+  servername: www.paypal.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdd2d176-2602-46f2-b694-ce247de88b22
 - client-fingerprint: randomized
   name: 'TLS-443 #1'
   network: ws
@@ -14129,7 +14212,7 @@ proxies:
   servername: maginajoker.top
   tls: true
   type: vless
-  uuid: cac7374e-a0f5-4a75-b8c7-7e5512d39d83
+  uuid: 39b7cad3-d4a4-47c2-9ab9-5b8c0186acd5
   ws-opts:
     headers:
       Host: maginajoker.top
@@ -14142,7 +14225,7 @@ proxies:
   servername: maginajoker.top
   tls: false
   type: vless
-  uuid: cac7374e-a0f5-4a75-b8c7-7e5512d39d83
+  uuid: 39b7cad3-d4a4-47c2-9ab9-5b8c0186acd5
   ws-opts:
     headers:
       Host: maginajoker.top
@@ -14155,7 +14238,7 @@ proxies:
   servername: maginajoker.top
   tls: false
   type: vless
-  uuid: cac7374e-a0f5-4a75-b8c7-7e5512d39d83
+  uuid: 39b7cad3-d4a4-47c2-9ab9-5b8c0186acd5
   ws-opts:
     headers:
       Host: maginajoker.top

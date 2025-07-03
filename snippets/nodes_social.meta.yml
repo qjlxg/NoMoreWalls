@@ -3,20 +3,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '🇫🇮Telegram@DarkVPNpro | خرید س... #2'
-  network: tcp
-  port: 443
-  server: cdn.chandplus.com
-  servername: cdn.chandplus.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 14e4cf26-44e1-4888-ba87-e5e6ba3a6b0f
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '🇫🇮Telegram@DarkVPNpro | خرید س... #3'
+  name: '🇫🇮Telegram@DarkVPNpro | خرید س... #5'
   network: tcp
   port: 443
   server: app.chandplus.com
@@ -25,3 +12,16 @@ proxies:
   tls: true
   type: vless
   uuid: fa72a38c-56bf-4f3b-9735-e96e9840ae54
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: '🇫🇮Telegram@DarkVPNpro | خرید س... #4'
+  network: tcp
+  port: 443
+  server: cdn.chandplus.com
+  servername: cdn.chandplus.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 14e4cf26-44e1-4888-ba87-e5e6ba3a6b0f
