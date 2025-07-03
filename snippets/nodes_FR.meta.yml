@@ -38,34 +38,6 @@ proxies:
   ws-opts:
     headers:
       Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
-- alterId: 0
-  cipher: auto
-  name: '🇫🇷FR(AzadNet.t.me) (11) #2'
-  network: ws
-  port: '443'
-  server: 146.59.55.50
-  servername: o.metuji.com
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: o.Metuji.coM
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '🇫🇷FR(AzadNet.t.me) (11) #3'
-  network: ws
-  port: '443'
-  server: 146.59.55.50
-  servername: o.metuji.com
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: o.metuji.coM
-    path: /linkvws
 - name: 🇫🇷|FR|@wxgqlfx|375<br />
   password: dongtaiwang.com
   port: 4489

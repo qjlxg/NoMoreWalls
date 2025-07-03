@@ -13,19 +13,6 @@ proxies:
   tls: false
   type: vless
   uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭(AWCFG) SW1C #1'
-  network: tcp
-  port: 54586
-  reality-opts:
-    public-key: ahuCTYYd4tNfL01Ta75EACP2tRqEddXIRSD7xZ-xAFE
-    short-id: 676a
-  server: agashka-vpn.com
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇭|CH|@wxgqlfx|404<br />
   port: 2053
   server: 45.95.232.203
