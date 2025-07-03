@@ -171,7 +171,7 @@ proxies:
   uuid: 1975716b-f7f9-472f-ade0-086a4e95ed4e
 - alterId: 0
   cipher: auto
-  name: 🔒 VM-WS-NA 🇷🇺 RU-31.129.105.23...
+  name: 🇷🇺 RU-31.129.105.239:16231
   network: ws
   port: '16231'
   server: 31.129.105.239
@@ -183,38 +183,3 @@ proxies:
     headers:
       Host: 31.129.105.239
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-TCP-NA 🇷🇺 RU-45.12.114.15...
-  network: tcp
-  port: '20779'
-  server: 45.12.114.15
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9dc5bff8-bcbb-4703-b0fe-4f91ba517402
-- alterId: 64
-  cipher: auto
-  name: 🔒 VM-WS-TLS 🇷🇺 RU-185.133.42.1...
-  network: ws
-  port: '30001'
-  server: 185.133.42.144
-  servername: www.17336793.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.17336793.xyz
-    path: /path/170733132233
-- name: 👉🆔@v2ray_configs_pool📡🇺®️Russi...
-  network: ws
-  port: 80
-  server: 185.59.218.119
-  tls: false
-  type: vless
-  uuid: de6f1d99-acc6-4c6b-9820-f3a8922cc736
-  ws-opts:
-    headers:
-      Host: hk1-tg-fxnodes.sfacg.uk
-    path: '%2Ftg%40fxnodes'

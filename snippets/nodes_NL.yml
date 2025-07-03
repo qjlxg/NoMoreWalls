@@ -1,0 +1,25 @@
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱 NL-93.115.172.175:12540
+  network: tcp
+  port: '12540'
+  server: 93.115.172.175
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 056d3d35-a729-4ab4-bbae-d71d8458af19
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱 Netherlands [Khordad] 3
+  network: ws
+  port: '43294'
+  server: 141.11.246.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 15b099b4-427f-40a7-a4f9-854f04683fc6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /

@@ -1,0 +1,27 @@
+proxies:
+- name: 'redhat_vpn- 🇮🇹-ایتالیا-qr6nt17... #1'
+  network: tcp
+  port: 11951
+  server: g1.lalash.ir
+  tls: false
+  type: vless
+  uuid: 0d4e694b-6437-4068-aae7-38d6a99261dc
+  ws-opts:
+    headers:
+      Host: speedtest.net
+    path: '%2F'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: random
+  name: 🇮🇹 @iProxyRobot [IT↹🇮🇷]
+  network: ws
+  port: 80
+  server: 81.12.92.231
+  tls: false
+  type: vless
+  uuid: 469ea395-6372-ba2e-05c0-6790e06848d9
+  ws-opts:
+    headers:
+      Host: web.rubika.ir
+    path: '%2FIVApi%2FIT%2F1'

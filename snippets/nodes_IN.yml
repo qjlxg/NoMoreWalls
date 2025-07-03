@@ -1,0 +1,15 @@
+proxies:
+- name: 🇮🇳|IN|@wxgqlfx|398<br />
+  password: ttfang
+  port: 2053
+  server: 166.0.244.206
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🇮🇳|IN|@wxgqlfx|358<br />
+  password: ttfang
+  port: 443
+  server: 13.233.5.49
+  type: trojan
+  ws-opts:
+    path: '%2F'

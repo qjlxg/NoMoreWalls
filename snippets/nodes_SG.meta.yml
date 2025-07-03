@@ -115,71 +115,6 @@ proxies:
     headers:
       Host: ''
     path: /bb28a1d7
-- client-fingerprint: random
-  name: 老油条-新加坡-cdn1
-  network: ws
-  port: 443
-  server: cdn1.laoyoutiao.link
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: sg.laoyoutiao.link
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 老油条-新加坡-cfcdn1
-  network: ws
-  port: 443
-  server: cfcdn1.langmanshanxi.top
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: sg.laoyoutiao.link
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 老油条-新加坡-cfcdn2
-  network: ws
-  port: 443
-  server: cfcdn2.langmanshanxi.top
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: sg.laoyoutiao.link
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 老油条-新加坡-cfcdn3
-  network: ws
-  port: 443
-  server: cfcdn3.langmanshanxi.top
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: sg.laoyoutiao.link
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 老油条-新加坡-cfcdns
-  network: ws
-  port: 443
-  server: cfcdns.langmanshanxi.top
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: sg.laoyoutiao.link
-    path: /?ed=2560
 - name: 'redhat_vpn-🇸🇬-سنگاپور-h7i2wqfa #1'
   network: tcp
   port: 17310
@@ -278,7 +213,7 @@ proxies:
       Host: sg.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-新加坡-cdn1 #2'
+  name: '老油条-新加坡-cdn1 #1'
   network: ws
   port: 443
   server: cdn1.laoyoutiao.link
@@ -291,7 +226,7 @@ proxies:
       Host: sg.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-新加坡-cfcdn1 #2'
+  name: '老油条-新加坡-cfcdn1 #1'
   network: ws
   port: 443
   server: cfcdn1.langmanshanxi.top
@@ -304,7 +239,7 @@ proxies:
       Host: sg.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-新加坡-cfcdn2 #2'
+  name: '老油条-新加坡-cfcdn2 #1'
   network: ws
   port: 443
   server: cfcdn2.langmanshanxi.top
@@ -317,7 +252,7 @@ proxies:
       Host: sg.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-新加坡-cfcdn3 #2'
+  name: '老油条-新加坡-cfcdn3 #1'
   network: ws
   port: 443
   server: cfcdn3.langmanshanxi.top
@@ -330,7 +265,7 @@ proxies:
       Host: sg.laoyoutiao.link
     path: '%2F%3Fed%3D2560'
 - client-fingerprint: random
-  name: '老油条-新加坡-cfcdns #2'
+  name: '老油条-新加坡-cfcdns #1'
   network: ws
   port: 443
   server: cfcdns.langmanshanxi.top
@@ -468,7 +403,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: 🔒 VM-TCP-NA 🇸🇬 SG-84.247.148.1...
+  name: '🇸🇬 SG-84.247.148.192:44396 #1'
   network: tcp
   port: '44396'
   server: 84.247.148.192
@@ -478,7 +413,7 @@ proxies:
   uuid: 3ca35e0a-e430-43fe-9c12-2e2eea70f873
 - alterId: 0
   cipher: auto
-  name: 🔒 VM-TCP-NA 🇸🇬 SG-84.247.150.1...
+  name: 🇸🇬 SG-84.247.150.177:36141
   network: tcp
   port: '36141'
   server: 84.247.150.177
@@ -498,7 +433,7 @@ proxies:
   uuid: fb674260-1c21-4f99-8bd0-3d1d341c6771
 - alterId: 0
   cipher: auto
-  name: 🔒 VM-TCP-NA 🇸🇬 SG-84.247.147.6...
+  name: 🇸🇬 SG-84.247.147.67:54179
   network: tcp
   port: '54179'
   server: 84.247.147.67
@@ -508,7 +443,7 @@ proxies:
   uuid: d143ebbc-7825-4b43-a55e-f11cb153bd5b
 - alterId: 0
   cipher: auto
-  name: 🔒 VM-TCP-NA 🇸🇬 SG-84.247.147.2...
+  name: 🇸🇬 SG-84.247.147.243:51566
   network: tcp
   port: '51566'
   server: 84.247.147.243
@@ -528,7 +463,7 @@ proxies:
   uuid: 45f4f565-8c78-4906-a5b9-08ea9075cd31
 - alterId: 0
   cipher: auto
-  name: 🔒 VM-TCP-NA 🇸🇬 SG-84.247.146.1...
+  name: 🇸🇬 SG-84.247.146.161:39530
   network: tcp
   port: '39530'
   server: 84.247.146.161
@@ -536,246 +471,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 7aa56e39-29b8-45c3-8b53-6d2a23b2461c
-- alterId: 64
-  cipher: auto
-  name: 🇸🇬 每天更新，请加电报群防止失联
-  network: tcp
-  port: '50002'
-  server: 120.210.205.59
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-TCP-NA 🇸🇬 SG-194.233.72.2...
-  network: tcp
-  port: '27575'
-  server: 194.233.72.228
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 16509262-dbe2-43ba-99ce-07913d2a18b4
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-TCP-NA 🇸🇬 SG-43.156.102.6...
-  network: tcp
-  port: '11060'
-  server: 43.156.102.65
-  tls: false
-  type: vmess
-  uuid: 5cdd371e-cc4e-4ea2-91a8-c755f00f67a0
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-TCP-NONE 🇸🇬 SG-62.146.233...
-  network: tcp
-  port: 43763
-  server: 62.146.233.159
-  tls: false
-  type: vmess
-  uuid: 1ddf3ade-5b8c-420c-84f6-f96979ec3080
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-TCP-NA 🇸🇬 SG-46.250.234.3...
-  network: tcp
-  port: '45317'
-  server: 46.250.234.32
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b2836369-220b-4840-80c4-8cf904c735ee
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-TCP-NA 🇸🇬 SG-154.26.134.2...
-  network: tcp
-  port: '54813'
-  server: 154.26.134.221
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: df9c6e9e-9e7a-4d06-88bb-9b29337b973f
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-TCP-NONE 🇸🇬 SG-154.26.129...
-  network: tcp
-  port: 57143
-  server: 154.26.129.247
-  tls: false
-  type: vmess
-  uuid: 28efbf36-079a-4c98-8470-d13458db6ee6
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-TCP-NA 🇸🇬 SG-46.250.237.1...
-  network: tcp
-  port: '29999'
-  server: 46.250.237.196
-  tls: false
-  type: vmess
-  uuid: b31fc134-978e-4176-8579-8107d6a0cede
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-TCP-NONE 🇸🇬 SG-154.26.134...
-  network: tcp
-  port: '14129'
-  server: 154.26.134.106
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e7798e09-3090-4366-ae80-f18afdaabf4f
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-TCP-NONE 🇸🇬 SG-109.123.23...
-  network: tcp
-  port: 59032
-  server: 109.123.232.74
-  tls: false
-  type: vmess
-  uuid: 96ab7e1f-bf0d-45cd-8ebc-c8be2f8d43cd
-- alterId: 0
-  cipher: auto
-  name: '🔒 VM-TCP-NONE 🇸🇬 SG-62.146.233... #1'
-  network: tcp
-  port: 38324
-  server: 62.146.233.115
-  tls: false
-  type: vmess
-  uuid: f863ef99-5ef0-4321-aaac-a476a5e8c3fb
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
-  network: tcp
-  port: '56051'
-  server: 38.47.176.251
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-RAW-NA 🇸🇬 SG-62.146.233.1...
-  network: raw
-  port: '36712'
-  server: 62.146.233.112
-  tls: false
-  type: vmess
-  uuid: 9266df42-0830-48c2-8509-4c57b30fe29d
-- alterId: 0
-  cipher: auto
-  name: '🔒 VM-TCP-NONE 🇸🇬 SG-62.146.233... #2'
-  network: tcp
-  port: 50678
-  server: 62.146.233.53
-  tls: false
-  type: vmess
-  uuid: 5d1ec6e7-fd58-4e85-91c5-6335a86d2775
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-TCP-NONE 🇸🇬 SG-154.26.137...
-  network: tcp
-  port: 44104
-  server: 154.26.137.42
-  tls: false
-  type: vmess
-  uuid: e9933a4c-e56e-458c-bcf4-9cb3875bba55
-- alterId: 64
-  cipher: auto
-  name: 🔒 VM-WS-TLS 🇸🇬 SG-134.122.133....
-  network: ws
-  port: '48887'
-  server: 134.122.133.119
-  servername: www.86711926.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.86711926.xyz
-    path: /path/170733132233
-- alterId: 64
-  cipher: auto
-  name: 🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-  network: tcp
-  port: 49291
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 👉🆔@v2ray_configs_pool📡®️Singap...
-  network: ws
-  port: 8880
-  server: 194.53.53.13
-  tls: false
-  type: vless
-  uuid: 9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0
-  ws-opts:
-    headers:
-      Host: c.82313369.xyz
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560'
-- name: 🇬[openproxylist.com] vless-SG
-  network: tcp
-  port: 2321
-  server: 45.118.133.29
-  tls: false
-  type: vless
-  uuid: fdfc88b6-d0af-47ca-acbc-a875c81c35ac
-- name: 🇸🇬[openproxylist.com] vless-SG
-  network: ws
-  port: 48705
-  server: 157.230.248.167
-  tls: false
-  type: vless
-  uuid: 9ddfb86c-315e-4710-8d68-29b40c28b47c
-  ws-opts:
-    headers:
-      Host: ind.faceid.hyperverge.co
-    path: '%2FFREE%20by%20Tharuwa%20%280767597317%29'
-- name: '🇸🇬[openproxylist.com] vless-SG #1'
-  network: ws
-  port: 8080
-  server: 104.21.52.16
-  tls: false
-  type: vless
-  uuid: 23d240b9-c5ec-43d1-ec3d-5066556537f4
-  ws-opts:
-    headers:
-      Host: 0617.heweiyi.dpdns.org
-    path: '%2Fsearch'
-- name: '🇸🇬[openproxylist.com] vless-SG #2'
-  network: ws
-  port: 8080
-  server: 104.26.12.31
-  tls: false
-  type: vless
-  uuid: d03d2ff3-0b28-4c6b-bab5-4bfac274aa91
-  ws-opts:
-    headers:
-      Host: 0613.heweiyi.dpdns.org
-    path: '%2F'
-- name: '🇸🇬[openproxylist.com] vless-SG #3'
-  network: ws
-  port: 8080
-  server: 104.26.13.31
-  tls: false
-  type: vless
-  uuid: 9314580d-c11e-4f32-d544-566e6142565a
-  ws-opts:
-    headers:
-      Host: 0612.heweiyi.dpdns.org
-    path: '%2F'
-- name: '🇸🇬[openproxylist.com] vless-SG #4'
-  network: ws
-  port: 8880
-  server: 172.67.75.172
-  tls: false
-  type: vless
-  uuid: 3054a28e-177a-412f-9b03-9855d79aa728
-  ws-opts:
-    headers:
-      Host: 0609.sunnyfish.dpdns.org
-    path: '%2F'
-- name: '🇸🇬[openproxylist.com] vless-SG #5'
-  network: tcp
-  port: 41283
-  server: 43.156.217.68
-  tls: false
-  type: vless
-  uuid: 4839e0b9-b275-47ea-81ab-9bfd38bbe7af

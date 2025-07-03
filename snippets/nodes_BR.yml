@@ -1,0 +1,14 @@
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 1|🇧🇷2 |  1.3MB/s
+  network: ws
+  port: 80
+  server: 104.18.23.68
+  tls: false
+  type: vmess
+  uuid: bd9c1aea-240a-463a-83ee-e7b3a6a4ac7a
+  ws-opts:
+    headers:
+      Host: 375175914186712025032911325872796.s15.chibaba.filegear-sg.me
+    path: /s15.html?ed=2048

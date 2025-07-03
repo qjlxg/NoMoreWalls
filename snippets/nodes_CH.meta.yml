@@ -13,17 +13,19 @@ proxies:
   tls: false
   type: vless
   uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
-- name: '🇨🇭@𝐒𝐢𝐍𝐀𝐕𝐌👈4️⃣کانال+تلگرام #1'
-  network: ws
-  port: 80
-  server: 104.16.16.135
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇨🇭(AWCFG) SW1C #1'
+  network: tcp
+  port: 54586
+  reality-opts:
+    public-key: ahuCTYYd4tNfL01Ta75EACP2tRqEddXIRSD7xZ-xAFE
+    short-id: 676a
+  server: agashka-vpn.com
+  servername: yahoo.com
   tls: false
   type: vless
-  uuid: b28eb861-1748-4200-ba72-278669edc33b
-  ws-opts:
-    headers:
-      Host: coco.mahmoodchitooz.dpdns.org
-    path: '%2F%3Fed%3D2570'
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇭|CH|@wxgqlfx|404<br />
   port: 2053
   server: 45.95.232.203
@@ -38,12 +40,3 @@ proxies:
   tls: false
   type: vless
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-TCP-NA 🇨🇭 CH-186.190.215....
-  network: tcp
-  port: 22324
-  server: 186.190.215.193
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002

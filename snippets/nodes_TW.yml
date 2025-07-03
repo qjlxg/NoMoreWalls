@@ -18,13 +18,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3
-- alterId: 0
-  cipher: auto
-  name: 台湾v2|@ripaojiedian
-  network: kcp
-  port: '5663'
-  server: 118.194.253.15
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 986b3bc8-d0fb-4b60-b01f-28164e44cd48

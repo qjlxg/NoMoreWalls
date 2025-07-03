@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🔒 VM-TCP-NA 🇨🇦 CA-51.79.86.182...
+  name: 🇨🇦 CA-51.79.86.182:42610
   network: tcp
   port: '42610'
   server: 51.79.86.182
@@ -9,58 +9,3 @@ proxies:
   tls: false
   type: vmess
   uuid: e0957ca6-f613-4017-ff3c-effd1da8871a
-- alterId: 0
-  cipher: auto
-  name: VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGP...
-  network: ws
-  port: 80
-  server: 51.79.102.253
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: 51.79.102.253
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-WS-NA 🇨🇦 CA-158.69.48.14:...
-  network: ws
-  port: '10000'
-  server: 158.69.48.14
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fe25808a-4d7d-11f0-bd33-17ba86626747
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vpnjantit
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦CA-23.162.200.227-7352
-  network: ws
-  port: 443
-  server: 23.162.200.227
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alpn:
-  - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #21'
-  network: ws
-  password: 5a5d1112-4ae7-431f-bdde-0d008fb473dd
-  port: 443
-  server: 172.67.207.27
-  sni: 90.tAIpEI108.dpDnS.orG
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 90.taipei108.dpdns.org
-    path: '%2F685uFbiRrgAsHzTP8d'

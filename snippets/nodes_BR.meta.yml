@@ -1,0 +1,32 @@
+proxies:
+- name: 1|🇧🇷1 |  1.4MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.200
+  tls: false
+  type: vless
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+- alterId: 0
+  cipher: auto
+  name: 1|🇧🇷2 |  1.3MB/s
+  network: ws
+  port: 80
+  server: 104.18.23.68
+  tls: false
+  type: vmess
+  uuid: bd9c1aea-240a-463a-83ee-e7b3a6a4ac7a
+  ws-opts:
+    headers:
+      Host: 375175914186712025032911325872796.s15.chibaba.filegear-sg.me
+    path: /s15.html?ed=2048
+- name: '🇧🇷@𝐒𝐢𝐍𝐀𝐕𝐌👈5️⃣کانال+تلگرام #1'
+  network: ws
+  port: 80
+  server: 104.17.105.92
+  tls: false
+  type: vless
+  uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
+  ws-opts:
+    headers:
+      Host: dw.alibichareh.dpdns.org
+    path: '%2F%3Fed%3D2570'

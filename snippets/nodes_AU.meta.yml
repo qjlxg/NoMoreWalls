@@ -1,0 +1,21 @@
+proxies:
+- name: 1|🇦🇺2 |  1.5MB/s
+  port: 42426
+  server: bsuqian01.dynu.net
+  servername: gateway.icloud.com
+  tls: false
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 1|🇦🇺3 |  5.6MB/s
+  port: 443
+  server: 162.159.38.219
+  servername: fari7.clodmolt3.com
+  tls: false
+  type: vless
+  uuid: 9fdc6f83-bfbd-40dd-8e4e-1678ee20351c
+- name: 🇦🇺|AU|@wxgqlfx|225<br />
+  port: 8880
+  server: 103.169.142.213
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
