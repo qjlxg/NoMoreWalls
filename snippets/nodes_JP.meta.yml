@@ -900,7 +900,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
-- name: 🇵JP_2219_@Surfboardv2ray
+- name: 🇵JP_2212_@Surfboardv2ray
   network: httpupgrade
   port: 21576
   server: 217.60.37.197
@@ -1158,7 +1158,7 @@ proxies:
   tls: false
   type: vless
   uuid: be0b1c5d-e2f4-4828-a527-f4e0f2eaea1a
-- name: 👉🆔@v2ray_configs_pool📡®️Japan©...
+- name: '👉🆔@v2ray_configs_pool📡🇵®️Japan... #1'
   network: ws
   port: 8880
   server: 156.238.18.166
@@ -1183,7 +1183,7 @@ proxies:
     headers:
       Host: www.53865734.xyz
     path: /path/170733132233
-- name: '@Hope_Net-join-us-on-Telegram` #69'
+- name: '👉🆔@v2ray_configs_pool📡🇵®️Japan... #2'
   password: 47072f01-8e77-4136-8e85-b0f0d9d08f1d
   port: 20230
   server: jp007.421421.xyz

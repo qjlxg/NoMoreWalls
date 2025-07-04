@@ -383,7 +383,7 @@ proxies:
     headers:
       Host: epmk.ambercc.filegear-sg.me
     path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_9
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_9 #1'
   network: tcp
   password: 3549abda-3854-11ef-b71e-f23c9164ca5d
   port: 27235
@@ -433,7 +433,7 @@ proxies:
     headers:
       Host: epml.ambercc.filegear-sg.me
     path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_5
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_5 #1'
   network: tcp
   password: 225d1cca-d744-11ef-b790-f23c91cfbbc9
   port: 27235
@@ -453,7 +453,7 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_3 #1'
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_16 #1'
   network: tcp
   password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
   port: 27235
@@ -480,7 +480,7 @@ proxies:
     headers:
       Host: epmk.ambercc.filegear-sg.me
     path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_4
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_4 #1'
   network: tcp
   password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
   port: 27235
@@ -555,7 +555,7 @@ proxies:
     headers:
       Host: epmk.ambercc.filegear-sg.me
     path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
-- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_4 #1'
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_8 #1'
   network: tcp
   password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
   port: 27235
@@ -590,7 +590,7 @@ proxies:
   server: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com
   sni: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_1
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_1 #1'
   network: tcp
   password: 4088a148-dbec-11ec-bd7c-f23c913c8d2b
   port: 27235
@@ -680,13 +680,13 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_2
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_2 #1'
   network: tcp
   password: 8f99107c-f091-11ee-9935-f23c9164ca5d
   port: 27235
   server: c5ce6f77-sytz40-ta64ri-1qzi1.cm5.cnkuaishou.com
   type: trojan
-- name: '🇺🇸_US_美国 #2'
+- name: '🇺🇸_US_美国 #3'
   network: ws
   password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
   port: 443
@@ -697,37 +697,37 @@ proxies:
     headers:
       Host: ZZzzzZZ.890601.XYZ
     path: /l96MZ8se5Kl2p8BiMhP42l
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_3
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_3 #1'
   network: tcp
   password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
   port: 27235
   server: 83edf522-sytz40-t4qa9y-g43g.cm5.cnkuaishou.com
   type: trojan
-- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_1 #1'
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_6 #1'
   network: tcp
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 27235
   server: 916030df-sytz40-t16ejh-1rdqg.cm5.cnkuaishou.com
   type: trojan
-- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_6 #1'
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_7 #1'
   network: tcp
   password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
   port: 27235
   server: c3fe9cc6-sytz40-thv9l4-1jbj0.cm5.cnkuaishou.com
   type: trojan
-- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_5 #1'
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_10 #1'
   network: tcp
   password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
   port: 27235
   server: 1dde7ddd-sytz40-tbpu76-1thmd.cm5.cnkuaishou.com
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_11
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_11 #1'
   network: tcp
   password: 9e1ddc04-073b-11ed-bd7c-f23c913c8d2b
   port: 15229
   server: d0dfa01d-sytz40-t1jamc-1fvdh.cu2.plebai.net
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_12
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_12 #1'
   network: tcp
   password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
   port: 27235
@@ -735,7 +735,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #2'
   network: ws
   port: 30829
   server: 111.26.109.79
@@ -744,19 +744,19 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     path: /oooo
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_13
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_13 #1'
   network: tcp
   password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
   port: 15229
   server: a784fd6f-sytz40-t2c3sq-1spnr.cu2.plebai.net
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_14
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_14 #1'
   network: tcp
   password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
   port: 27235
   server: 864a90fc-sytz40-tee612-2r82.cm5.cnkuaishou.com
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_15
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_15 #1'
   network: tcp
   password: 80f73b42-8264-11ef-8dc4-f23c91cfbbc9
   port: 27235
@@ -776,36 +776,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  network: tcp
-  password: 55f2afab-bc41-4231-b725-76bef15c3cf7
-  port: 55799
-  server: lm.kaiqsz.com
-  sni: mmbiz10.redapricotcloud.com
-  type: trojan
-- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_2 #1'
-  network: tcp
-  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-  port: 27235
-  server: ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com
-  sni: ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com
-  type: trojan
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
-  network: tcp
-  password: 55f2afab-bc41-4231-b725-76bef15c3cf7
-  port: 54031
-  server: lm.kaiqsz.com
-  sni: mmbiz10.redapricotcloud.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇮🇷_IR_伊朗
-  network: tcp
-  port: 5008
-  server: 37.152.173.192
-  tls: false
-  type: vmess
-  uuid: 81647712-fcd8-4da9-8f80-bc7a149354f8
 - alterId: 0
   cipher: auto
   name: 🔒 VM-TCP-NA 🇸🇬 SG-84.247.148.1...
@@ -16795,7 +16765,7 @@ proxies:
   uuid: 198add4a-25eb-4340-c28e-b960a2558cda
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #305'
+  name: '@Hope_Net-join-us-on-Telegram #282'
   network: tcp
   port: '47555'
   server: 46.29.166.237
@@ -94305,7 +94275,7 @@ proxies:
   uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25
 - alterId: 0
   cipher: chacha20-poly1305
-  name: '@Hope_Net-join-us-on-Telegram #250'
+  name: '@Hope_Net-join-us-on-Telegram #231'
   network: tcp
   port: '433'
   server: https://github.com/ALIILAPRO/v2rayNG-Config
@@ -94313,74 +94283,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #15'
-  network: ws
-  port: 2052
-  server: s2.db-link01.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-189-132-241.s2.db-link01.top
-    path: /dabai.in104.24.227.22
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦CA-134.195.198.147-7305
-  network: ws
-  port: 443
-  server: 134.195.198.147
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: inna.cfd
-    path: /linkvws
-- alterId: 5
-  cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #17'
-  network: ws
-  port: 41507
-  server: ny1.bulkcash.top
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 695ac0a3-406a-41d7-83c5-5af8c39d3bec
-  ws-opts:
-    headers:
-      Host: ny1.bulkcash.top
-    path: /
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: ''
-  name: '@Hope_Net-join-us-on-Telegram #18'
-  network: grpc
-  port: '2087'
-  server: 172.64.32.217
-  servername: dd21146ygfdSNA9191281280kdm22kas2123Aawdsd1234bb155138161148.meratnet.ir
-  tls: true
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- alterId: 0
-  cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #19'
-  network: ws
-  port: '30002'
-  server: 220.123.48.124
-  servername: cc2.1808.site
-  tls: true
-  type: vmess
-  uuid: d3d8b781-f30d-4902-8eb0-58b1ca936bec
-  ws-opts:
-    headers:
-      Host: cc2.1808.site
-    path: /hgqqvws
 - alterId: 0
   cipher: auto
   name: VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGP...
@@ -95182,7 +95084,7 @@ proxies:
   uuid: bb28cfcd-c3d0-4866-bb0a-c3fd86b0ec12
 - alterId: 0
   cipher: none
-  name: '@Hope_Net-join-us-on-Telegram #321'
+  name: '@Hope_Net-join-us-on-Telegram #297'
   network: tcp
   port: '59003'
   server: 183.236.51.36
@@ -96379,7 +96281,7 @@ proxies:
   uuid: b6e340e6-c49a-4a53-88c6-2e5478f5cb80
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇸🇪®️Swed... #3'
+  name: '👉🆔@v2ray_configs_pool📡🇸🇪®️Swed... #2'
   network: tcp
   port: 18000
   server: 169.150.208.83
@@ -96529,7 +96431,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #338'
+  name: '@Hope_Net-join-us-on-Telegram #122'
   network: tcp
   port: '80'
   server: 127.1.1.127
@@ -96621,7 +96523,7 @@ proxies:
   uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #521'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #156'
   network: ws
   port: 443
   server: 23.162.200.227
@@ -96635,7 +96537,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #536'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #164'
   network: ws
   port: 443
   server: sSsdCVfBGNjkI.931.PP.Ua
@@ -96649,7 +96551,7 @@ proxies:
     path: /14Fziqw1hYgCXNutkS5H
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #542'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #54'
   network: ws
   port: 8443
   server: orvps2.horsenma.net
@@ -96661,6 +96563,20 @@ proxies:
     headers:
       Host: orvps2.horsenma.net
     path: /horsen
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦CA-134.195.198.147-7305
+  network: ws
+  port: 443
+  server: 134.195.198.147
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: inna.cfd
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 🏁RELAY-104.21.29.205-5494
@@ -96733,7 +96649,7 @@ proxies:
     path: /0FhUkqQUdxOhMB9JsgTazwz9
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #553'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #172'
   network: ws
   port: 443
   server: rrrrrrrrrt.11890604.xyz
@@ -96747,7 +96663,7 @@ proxies:
     path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #544'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #167'
   network: ws
   port: 80
   server: sssccvfbgh.4444926.xyz
@@ -96789,7 +96705,7 @@ proxies:
     path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #543'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #166'
   network: ws
   port: 80
   server: ssss3.11890604.xyz
@@ -96817,7 +96733,7 @@ proxies:
     path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #551'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #171'
   network: ws
   port: 443
   server: xcvBnMjKi.999824.xyZ
@@ -97951,7 +97867,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #80'
+  name: '@Hope_Net-join-us-on-Telegram #75'
   network: ws
   port: '8443'
   server: 13.95.69.133
@@ -98019,7 +97935,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #41'
+  name: '@Hope_Net-join-us-on-Telegram #36'
   network: ws
   port: '22642'
   server: tk.hzlt.tkddns.xyz
@@ -98032,7 +97948,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #42'
+  name: '@Hope_Net-join-us-on-Telegram #37'
   network: ws
   port: '14443'
   server: tls.14.node-for-bigairport.win
@@ -98045,7 +97961,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #56'
+  name: '@Hope_Net-join-us-on-Telegram #51'
   network: ws
   port: 80
   server: 104.17.213.241
@@ -98059,7 +97975,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #60'
+  name: '@Hope_Net-join-us-on-Telegram #55'
   network: ws
   port: '23452'
   server: 140.245.54.110
@@ -98082,7 +97998,7 @@ proxies:
     path: /olem/ws?
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #64'
+  name: '@Hope_Net-join-us-on-Telegram #59'
   network: ws
   port: 8443
   server: 104.21.64.1
@@ -98096,7 +98012,7 @@ proxies:
     path: /index
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #65'
+  name: '@Hope_Net-join-us-on-Telegram #60'
   network: ws
   port: 443
   server: fr0.899994.xyz
@@ -98110,7 +98026,7 @@ proxies:
     path: /index
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #67'
+  name: '@Hope_Net-join-us-on-Telegram #62'
   network: ws
   port: 2086
   server: s1.db-link02.top
@@ -98124,7 +98040,7 @@ proxies:
     path: /dabai.in172.64.9.208
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #68'
+  name: '@Hope_Net-join-us-on-Telegram #63'
   network: ws
   port: 443
   server: 57.129.24.141
@@ -98138,7 +98054,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #69'
+  name: '@Hope_Net-join-us-on-Telegram #64'
   network: ws
   port: 2086
   server: s4.db-link01.top
@@ -98152,7 +98068,7 @@ proxies:
     path: /dabai.in172.67.42.220
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #70'
+  name: '@Hope_Net-join-us-on-Telegram #65'
   network: tcp
   password: telegram-id-directvpn
   port: 22222
@@ -98161,7 +98077,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #71'
+  name: '@Hope_Net-join-us-on-Telegram #66'
   network: ws
   port: '23617'
   server: 17.mamamajd.site
@@ -98172,14 +98088,14 @@ proxies:
     headers:
       Host: 17.mamamajd.site
     path: /
-- name: '@Hope_Net-join-us-on-Telegram #72'
+- name: '@Hope_Net-join-us-on-Telegram #67'
   password: '65086520307764900'
   port: 443
   server: 43.202.207.140
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #73'
+  name: '@Hope_Net-join-us-on-Telegram #68'
   network: ws
   port: '2083'
   server: 104.18.3.180
@@ -98192,7 +98108,7 @@ proxies:
     path: /4w56yert243r
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #109'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #33'
   network: ws
   port: 2095
   server: 104.19.48.236
@@ -98210,7 +98126,7 @@ proxies:
   server: 141.164.56.86
   skip-cert-verify: false
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #75'
+- name: '@Hope_Net-join-us-on-Telegram #70'
   password: Aimer
   port: 8443
   server: 185.204.109.190
@@ -98223,7 +98139,7 @@ proxies:
   server: 3.79.78.214
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #79'
+- name: '@Hope_Net-join-us-on-Telegram #74'
   password: Aimer
   port: 443
   server: 172.64.35.236
@@ -98249,27 +98165,27 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #81'
+  name: '@Hope_Net-join-us-on-Telegram #76'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22222
   server: 3.10.80.242
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #83'
+- name: '@Hope_Net-join-us-on-Telegram #78'
   password: wb6368
   port: 443
   server: 185.188.147.79
   skip-cert-verify: false
   sni: hsdgbuys.pages.dev
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #84'
+- name: '@Hope_Net-join-us-on-Telegram #79'
   password: Aimer
   port: 443
   server: 162.159.44.199
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #87'
+- name: '@Hope_Net-join-us-on-Telegram #82'
   password: er668
   port: 443
   server: 104.21.64.1
@@ -98350,27 +98266,27 @@ proxies:
     headers:
       Host: support.sabapardaziran.ir
     path: '%2F%F0%9F%86%94%40M3HDIO1'
-- name: '@Hope_Net-join-us-on-Telegram #89'
+- name: '@Hope_Net-join-us-on-Telegram #84'
   password: '3774827088566296576'
   port: 443
   server: 18.139.99.11
   sni: probable-drum.treefrog761.one
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #386'
+- name: '@Hope_Net-join-us-on-Telegram #354'
   network: tcp
   password: Aimer
   port: 6352
   server: 161.129.41.140
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #91'
+- name: '@Hope_Net-join-us-on-Telegram #86'
   network: tcp
   password: Aimer
   port: 8443
   server: 206.238.237.118
   sni: acepo.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #92'
+- name: '@Hope_Net-join-us-on-Telegram #87'
   network: ws
   password: SSorg
   port: 2087
@@ -98396,14 +98312,14 @@ proxies:
   server: 52.47.92.41
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #93'
+- name: '@Hope_Net-join-us-on-Telegram #88'
   network: tcp
   password: Aimer
   port: 8443
   server: 92.243.74.180
   sni: ngepy.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #160'
+- name: '@Hope_Net-join-us-on-Telegram #89'
   password: telegram-id-privatevpns
   port: 22222
   server: 35.176.154.96
@@ -98418,21 +98334,21 @@ proxies:
   skip-cert-verify: true
   sni: v6.douyinvod.com
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #318'
+- name: '@Hope_Net-join-us-on-Telegram #92'
   network: tcp
   password: c5691b8f-d833-41e4-9295-769f3edb4cd2
   port: 443
   server: 77.91.72.197
   sni: customer-77-91-72-197.stark-industries.solutions
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #99'
+- name: '@Hope_Net-join-us-on-Telegram #94'
   network: tcp
   password: '3763495894587285504'
   port: 443
   server: 62.112.221.46
   sni: enabling-cat.goat627.mom
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #100'
+- name: '@Hope_Net-join-us-on-Telegram #95'
   password: Aimer
   port: 443
   server: 162.159.44.236
@@ -98448,7 +98364,7 @@ proxies:
   ws-opts:
     headers:
       Host: tb.promote.icu
-- name: '@Hope_Net-join-us-on-Telegram #102'
+- name: '@Hope_Net-join-us-on-Telegram #97'
   password: '3774827088566296576'
   port: 443
   server: exotic-bengal.treefrog761.one
@@ -98462,7 +98378,7 @@ proxies:
   server: 5.182.84.229
   sni: ngepy.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #103'
+- name: '@Hope_Net-join-us-on-Telegram #98'
   network: ws
   password: blue2024
   port: 443
@@ -98475,7 +98391,7 @@ proxies:
     path: /?ed
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #104'
+  name: '@Hope_Net-join-us-on-Telegram #99'
   network: tcp
   port: '27512'
   server: 103.149.183.178
@@ -98483,24 +98399,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc
-- name: '@Hope_Net-join-us-on-Telegram #105'
+- name: '@Hope_Net-join-us-on-Telegram #100'
   password: '3774827088566296576'
   port: 443
   server: 35.75.186.204
   sni: settled-corgi.insect388.motorcycles
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #221'
+- name: '@Hope_Net-join-us-on-Telegram #101'
   password: NISHIKUITAN111
   port: 443
   server: 190.93.247.175
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #107'
+- name: '@Hope_Net-join-us-on-Telegram #102'
   password: '3774827088566296576'
   port: 443
   server: 13.37.126.60
   sni: amused-buzzard.insect388.motorcycles
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #239'
+- name: '@Hope_Net-join-us-on-Telegram #103'
   password: telegram-id-directvpn
   port: 22222
   server: 18.119.24.173
@@ -98513,13 +98429,13 @@ proxies:
   server: 172.64.33.144
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #109'
+- name: '@Hope_Net-join-us-on-Telegram #104'
   password: Aimer
   port: 443
   server: kip.ns.cloudflare.com
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #110'
+- name: '@Hope_Net-join-us-on-Telegram #105'
   network: ws
   password: bpb-trojan
   port: 443
@@ -98530,21 +98446,20 @@ proxies:
     headers:
       Host: bpb.my79801.com
     path: /tr?ed
-- name: '@Hope_Net-join-us-on-Telegram` #80'
+- name: '@Hope_Net-join-us-on-Telegram` #78'
   network: tcp
   password: '3770966768580042752'
   port: 443
   server: 154.205.151.46
   sni: optimum-sponge.treefrog761.one
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #257'
+- name: '@Hope_Net-join-us-on-Telegram #107'
   password: '3774827088566296576'
   port: 443
   server: 52.77.206.160
-  skip-cert-verify: true
   sni: flying-tuna.treefrog761.one
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #113'
+- name: '@Hope_Net-join-us-on-Telegram #108'
   network: tcp
   password: 984e400bf5d541b7b0815913fe0c432a
   port: 443
@@ -98562,19 +98477,19 @@ proxies:
     headers:
       Host: zamim340.ggff.net
     path: /tr?ed=2560
-- name: '@Hope_Net-join-us-on-Telegram #114'
+- name: '@Hope_Net-join-us-on-Telegram #109'
   password: blue2024
   port: 443
   server: 104.16.93.142
   sni: td.promote.icu
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #115'
+- name: '@Hope_Net-join-us-on-Telegram #110'
   password: SSorg
   port: 8443
   server: 199.34.228.71
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #116'
+- name: '@Hope_Net-join-us-on-Telegram #111'
   password: Aimer
   port: 10443
   server: 156.229.164.158
@@ -98582,26 +98497,26 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #117'
+  name: '@Hope_Net-join-us-on-Telegram #112'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22222
   server: 52.47.156.57
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #118'
+- name: '@Hope_Net-join-us-on-Telegram #113'
   password: Aimer
   port: 50000
   server: 59.14.159.113
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #392'
+- name: '@Hope_Net-join-us-on-Telegram #114'
   password: 7cd29891-fe78-4f8f-8844-abb31b9d9a75
   port: 18147
   server: nb_ae7a7.kaiqsz.com
   sni: mm2.redapricotcloud.com
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #121'
+- name: '@Hope_Net-join-us-on-Telegram #116'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -98610,7 +98525,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #122'
+  name: '@Hope_Net-join-us-on-Telegram #117'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -98619,7 +98534,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #123'
+  name: '@Hope_Net-join-us-on-Telegram #118'
   network: tcp
   port: '8881'
   server: 45.32.211.180
@@ -98627,11 +98542,10 @@ proxies:
   tls: false
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- name: '@Hope_Net-join-us-on-Telegram #198'
+- name: '@Hope_Net-join-us-on-Telegram #119'
   password: telegram-id-directvpn
   port: 22222
   server: 3.132.17.81
-  skip-cert-verify: false
   sni: trojan.burgerip.co.uk
   type: trojan
 - name: '@Hope_Net-join-us-on-Telegram`...'
@@ -98643,37 +98557,36 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #125'
+  name: '@Hope_Net-join-us-on-Telegram #120'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
   server: 18.133.135.191
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇰🇷®️Sout... #7'
+- name: '👉🆔@v2ray_configs_pool📡🇷®️South... #2'
   network: tcp
   password: Aimer
   port: 50000
   server: 59.7.61.67
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #126'
+- name: '@Hope_Net-join-us-on-Telegram #121'
   network: tcp
   password: bpb-trojan
   port: 443
   server: 162.159.152.198
   sni: bpbpanel.ac.cn.eu.org
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #434'
+- name: '@Hope_Net-join-us-on-Telegram #123'
   password: Aimer
   port: 443
   server: pranab.ns.cloudflare.com
-  skip-cert-verify: false
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #129'
+  name: '@Hope_Net-join-us-on-Telegram #124'
   network: tcp
   port: '8249'
   server: 65.109.209.201
@@ -98681,16 +98594,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 44567ddf-665a-4a9a-b298-4457be70e16c
-- name: '@Hope_Net-join-us-on-Telegram #179'
+- name: '@Hope_Net-join-us-on-Telegram #125'
   password: Aimer
   port: 19014
   server: 59.23.141.222
-  skip-cert-verify: false
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #131'
+  name: '@Hope_Net-join-us-on-Telegram #126'
   network: ws
   port: '2052'
   server: 104.17.213.241
@@ -98703,7 +98615,7 @@ proxies:
     path: /dabai.in172.64.33.183
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #132'
+  name: '@Hope_Net-join-us-on-Telegram #127'
   network: ws
   port: '80'
   server: 151.101.194.133
@@ -98715,7 +98627,7 @@ proxies:
     headers:
       Host: telegram-isvvpn.ir
     path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
-- name: '@Hope_Net-join-us-on-Telegram #133'
+- name: '@Hope_Net-join-us-on-Telegram #128'
   network: tcp
   password: blue2024
   port: 443
@@ -98724,14 +98636,14 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #135'
+  name: '@Hope_Net-join-us-on-Telegram #130'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22222
   server: 13.61.219.159
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #41'
+- name: '@Hope_Net-join-us-on-Telegram` #40'
   network: tcp
   password: '3763495894587285504'
   port: 443
@@ -98740,27 +98652,27 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #137'
+  name: '@Hope_Net-join-us-on-Telegram #131'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22222
   server: 13.51.113.89
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #138'
+- name: '@Hope_Net-join-us-on-Telegram #132'
   password: '3774827088566296576'
   port: 443
   server: 44.241.114.76
   sni: better-caribou.insect388.motorcycles
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #141'
+- name: '@Hope_Net-join-us-on-Telegram #135'
   network: tcp
   password: Aimer
   port: 2096
   server: 199.34.228.143
   sni: ngepy.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #143'
+- name: '@Hope_Net-join-us-on-Telegram #137'
   network: tcp
   password: Aimer
   port: 2053
@@ -98769,7 +98681,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #144'
+  name: '@Hope_Net-join-us-on-Telegram #138'
   network: ws
   port: '23452'
   server: 140.245.43.23
@@ -98780,14 +98692,14 @@ proxies:
     headers:
       Host: westsg2-ddns.oraclenat.cc
     path: /
-- name: '@Hope_Net-join-us-on-Telegram #147'
+- name: '@Hope_Net-join-us-on-Telegram #139'
   network: tcp
   password: blue2024
   port: 443
   server: 172.64.35.83
   sni: ta.promote.icu
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #43'
+- name: '@Hope_Net-join-us-on-Telegram` #42'
   network: tcp
   password: Aimer
   port: 19014
@@ -98796,14 +98708,14 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #149'
+  name: '@Hope_Net-join-us-on-Telegram #141'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
   server: 13.61.61.236
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #150'
+- name: '@Hope_Net-join-us-on-Telegram #142'
   network: ws
   password: Ys.c7?D9qmBLo^Z]
   port: 2053
@@ -98816,7 +98728,7 @@ proxies:
     path: /trIFLHqMRiIx9In1rG?ed=2560
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #151'
+  name: '@Hope_Net-join-us-on-Telegram #143'
   network: ws
   port: '80'
   server: cn4.072659.xyz
@@ -98829,7 +98741,7 @@ proxies:
     path: /?ed=2048
 - alterId: 2
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #152'
+  name: '@Hope_Net-join-us-on-Telegram #144'
   network: ws
   port: '23617'
   server: 17.mamamajd.site
@@ -98840,14 +98752,14 @@ proxies:
     headers:
       Host: 17.mamamajd.site
     path: /
-- name: '@Hope_Net-join-us-on-Telegram #153'
+- name: '@Hope_Net-join-us-on-Telegram #145'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
   server: 46.51.191.196
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #45'
+- name: '@Hope_Net-join-us-on-Telegram` #44'
   password: Aimer
   port: 443
   server: 188.253.6.210
@@ -98856,14 +98768,14 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #154'
+  name: '@Hope_Net-join-us-on-Telegram #146'
   network: tcp
   port: '443'
   server: awsjp1.072659.xyz
   tls: false
   type: vmess
   uuid: f435af7b-d36e-4e8d-9c0f-3017bb71e2c9
-- name: 👉🆔@v2ray_configs_pool📡🇧🇬®️Bulg...
+- name: 👉🆔@v2ray_configs_pool📡🇬®️Bulga...
   password: dd6918a8-84bb-4a96-9ef4-34d186d11399
   port: 32283
   server: xj.cokecloud.top
@@ -98883,7 +98795,7 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #20'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #12'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -98892,14 +98804,14 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #25'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #11'
   network: tcp
   password: telegram-id-directvpn
   port: 22223
   server: 3.77.65.88
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #155'
+- name: '@Hope_Net-join-us-on-Telegram #147'
   network: tcp
   password: Aimer
   port: 443
@@ -98908,7 +98820,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #156'
+  name: '@Hope_Net-join-us-on-Telegram #148'
   network: ws
   port: '8888'
   server: hkt.072659.xyz
@@ -98919,21 +98831,21 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /?ed=2048
-- name: '@Hope_Net-join-us-on-Telegram #158'
+- name: '@Hope_Net-join-us-on-Telegram #150'
   network: tcp
   password: Aimer
   port: 20256
   server: 211.217.26.23
   sni: ngepy.ambercc.filegear-sg.me
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #26'
+- name: '@Hope_Net-join-us-on-Telegram #152'
   password: '3774827088566296576'
   port: 443
   server: destined-cub.treefrog761.one
   skip-cert-verify: false
   sni: destined-cub.treefrog761.one
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇷®️South... #4'
+- name: '@Hope_Net-join-us-on-Telegram` #47'
   password: Aimer
   port: 50000
   server: 220.125.26.232
@@ -98942,7 +98854,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #612'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #65'
   network: ws
   port: 443
   server: 15.235.83.227
@@ -98965,19 +98877,6 @@ proxies:
     headers:
       Host: epml.ambercc.filegear-sg.me
     path: '%2F%3Fed%3D2560'
-- alpn:
-  - h3
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #151'
-  network: ws
-  password: Aimer
-  port: 443
-  server: pranab.ns.cloudflare.com
-  sni: epml.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epml.ambercc.filegear-sg.me
-    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
 - name: 👉🆔@v2ray_configs_pool📡®️India©...
   network: ws
   password: Aimer
@@ -98991,7 +98890,7 @@ proxies:
     path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #22'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #13'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22223
@@ -99008,7 +98907,7 @@ proxies:
   tls: false
   type: vmess
   uuid: a2cd3fd8-27c9-437c-b6c2-b76c8dfb9a10
-- name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #17'
+- name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #9'
   network: tcp
   password: Aimer
   port: 2053
@@ -99017,7 +98916,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #166'
+  name: '@Hope_Net-join-us-on-Telegram #157'
   network: ws
   port: '8888'
   server: 113.56.219.34
@@ -99030,7 +98929,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #14'
+  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #9'
   network: tcp
   port: 443
   server: abc.theyyszmn.sbs
@@ -99040,7 +98939,7 @@ proxies:
   uuid: 3d84a668-0588-447b-fbe1-058deb5baf93
 - alterId: 1
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #24'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #15'
   network: ws
   port: 443
   server: 57.129.25.20
@@ -99063,7 +98962,7 @@ proxies:
     headers:
       Host: epmk.ambercc.filegear-sg.me
     path: '%2F%3Fed%3D2560'
-- name: '@Hope_Net-join-us-on-Telegram #167'
+- name: '@Hope_Net-join-us-on-Telegram #158'
   network: ws
   password: bpb-trojan
   port: 2053
@@ -99075,7 +98974,7 @@ proxies:
       Host: bpb-worker-panel-bcr.pages.dev
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #168'
+  name: '@Hope_Net-join-us-on-Telegram #159'
   network: ws
   port: 443
   server: indiavideo.sbs
@@ -99089,7 +98988,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #163'
+  name: '@Hope_Net-join-us-on-Telegram #160'
   network: ws
   port: 8443
   server: 104.21.80.1
@@ -99103,7 +99002,7 @@ proxies:
     path: /index
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #170'
+  name: '@Hope_Net-join-us-on-Telegram #161'
   network: tcp
   port: '80'
   server: awsjp2.072659.xyz
@@ -99112,7 +99011,7 @@ proxies:
   uuid: f435af7b-d36e-4e8d-9c0f-3017bb71e2c9
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #171'
+  name: '@Hope_Net-join-us-on-Telegram #162'
   network: tcp
   port: '6666'
   server: hkt.072659.xyz
@@ -99123,7 +99022,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #601'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #70'
   network: ws
   password: Xa4^l(;.;B#a
   port: 443
@@ -99134,7 +99033,7 @@ proxies:
     headers:
       Host: s1.mitivpn.workers.dev
     path: '%2FtrUXByA1rnbs4YQ1Xw%3Fed%3D2560'
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #60'
+- name: '@Hope_Net-join-us-on-Telegram #163'
   password: Aimer
   port: 2053
   server: 162.159.44.230
@@ -99143,7 +99042,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #173'
+  name: '@Hope_Net-join-us-on-Telegram #164'
   network: ws
   port: '80'
   server: cn3.072659.xyz
@@ -99154,14 +99053,14 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /?ed=2048
-- name: '@Hope_Net-join-us-on-Telegram #174'
+- name: '@Hope_Net-join-us-on-Telegram #165'
   password: c12015ed-e211-3e2a-8a1e-f39fd09976b8
   port: 33323
   server: gy.58n.net
   skip-cert-verify: true
   sni: z261.hongkongnode.top
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #196'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #94'
   network: tcp
   password: Aimer
   port: 443
@@ -99175,7 +99074,7 @@ proxies:
   server: 85.255.9.247
   sni: x1-czech-aruba-v2.devefun.org
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #350'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #88'
   network: ws
   password: trojan
   port: 443
@@ -99188,7 +99087,7 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #27'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #16'
   network: tcp
   password: telegram-id-directvpn
   port: 22223
@@ -99197,7 +99096,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #28'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #17'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -99224,7 +99123,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #41'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #24'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -99233,7 +99132,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #30'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #18'
   network: tcp
   password: telegram-id-directvpn
   port: 22223
@@ -99242,7 +99141,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #198'
+  name: '@Hope_Net-join-us-on-Telegram #167'
   network: ws
   port: 8443
   server: ovhwuxian.pai50288.uk
@@ -99254,7 +99153,7 @@ proxies:
     headers:
       Host: ovhwuxian.pai50288.uk
     path: /
-- name: '👉🆔@v2ray_configs_pool📡🇰®️Hong ... #3'
+- name: '@Hope_Net-join-us-on-Telegram #169'
   password: Aimer
   port: 444
   server: 103.30.76.210
@@ -99263,7 +99162,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #32'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #20'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22223
@@ -99272,7 +99171,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #209'
+  name: '@Hope_Net-join-us-on-Telegram #170'
   network: ws
   port: 2082
   server: s2.cn-db.top
@@ -99286,7 +99185,7 @@ proxies:
     path: /dabai.in104.21.22.199
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #181'
+  name: '@Hope_Net-join-us-on-Telegram #171'
   network: ws
   port: 443
   server: northflank.107421.xyz
@@ -99300,7 +99199,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #186'
+  name: '@Hope_Net-join-us-on-Telegram #175'
   network: tcp
   port: '32450'
   server: 38.147.188.160
@@ -99309,7 +99208,7 @@ proxies:
   uuid: 1fa824bb-a682-4827-821f-9adc444a2a0f
 - alterId: 2
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇭🇰®️Hong... #5'
+  name: '👉🆔@v2ray_configs_pool📡🇭🇰®️Hong... #2'
   network: ws
   port: 80
   server: 24b01428-sv2sg0-td1l1t-1s824.hk.p5pv.com
@@ -99321,22 +99220,9 @@ proxies:
     headers:
       Host: 24b01428-sv2sg0-td1l1t-1s824.hk.p5pv.com
     path: /
-- alpn:
-  - h3
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #611'
-  network: ws
-  password: Aimer
-  port: 443
-  server: pranab.ns.cloudflare.com
-  sni: epml.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epml.ambercc.filegear-sg.me
-    path: '%2F%3Fed%3D2560%26Tel-%40V2ray_Alpha'
 - alterId: 0
   cipher: auto
-  name: '🇩🇪کانفیگ های بیشتر: @customv2r...'
+  name: '@meli_proxyy #30'
   network: ws
   port: '8080'
   server: npmjs.com
@@ -99350,7 +99236,7 @@ proxies:
     path: /hetzner/cdn
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #187'
+  name: '@Hope_Net-join-us-on-Telegram #176'
   network: ws
   port: '8443'
   server: 192.9.137.193
@@ -99361,14 +99247,7 @@ proxies:
     headers:
       Host: fatcat.nevergonnagiveyouup.top
     path: /vmess-argo?ed=2048
-- name: '@Hope_Net-join-us-on-Telegram #188'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 46.51.191.196
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇮🇷®️Iran... #13'
+- name: '👉🆔@v2ray_configs_pool📡🇮🇷®️Iran... #14'
   network: grpc
   password: u8DZubgYRL
   port: 23115
@@ -99376,7 +99255,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇸🇬®️Sing... #5'
+  name: '👉🆔@v2ray_configs_pool📡🇸🇬®️Sing... #1'
   network: tcp
   port: 56051
   server: 38.47.176.251
@@ -99385,7 +99264,7 @@ proxies:
   uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #190'
+  name: '@Hope_Net-join-us-on-Telegram #178'
   network: ws
   port: '443'
   server: eu9.998998.best
@@ -99398,7 +99277,7 @@ proxies:
     path: /drghdsq?ed=2560
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #225'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #104'
   network: ws
   port: 8443
   server: 104.21.80.1
@@ -99409,13 +99288,13 @@ proxies:
     headers:
       Host: us01.sh-cloudflare.sbs
     path: /
-- name: '@Hope_Net-join-us-on-Telegram` #50'
+- name: '@Hope_Net-join-us-on-Telegram` #49'
   password: Aimer
   port: 16992
   server: 175.192.27.197
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: 👉🆔@v2ray_configs_pool📡🇹®️Italy...
+- name: '👉🆔@v2ray_configs_pool📡🇮🇹®️Ital... #3'
   network: tcp
   password: Aimer
   port: 8443
@@ -99424,14 +99303,14 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #193'
+  name: '@Hope_Net-join-us-on-Telegram #180'
   network: tcp
   port: '18423'
   server: 38.147.188.94
   tls: false
   type: vmess
   uuid: d74f7655-eb59-4b48-9f8f-98a9c64a9e10
-- name: '@Hope_Net-join-us-on-Telegram #194'
+- name: '@Hope_Net-join-us-on-Telegram #181'
   network: ws
   password: Aimer
   port: 443
@@ -99443,7 +99322,7 @@ proxies:
       Host: ngepz.ambercc.filegear-sg.me
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #195'
+  name: '@Hope_Net-join-us-on-Telegram #182'
   network: tcp
   port: '443'
   server: cn2.072659.xyz
@@ -99452,14 +99331,14 @@ proxies:
   uuid: f435af7b-d36e-4e8d-9c0f-3017bb71e2c9
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #196'
+  name: '@Hope_Net-join-us-on-Telegram #183'
   network: tcp
   port: 20014
   server: i.needss.top
   tls: false
   type: vmess
   uuid: d812a35f-a4de-4eee-b929-0b413c1ecb8a
-- name: '@Hope_Net-join-us-on-Telegram #197'
+- name: '@Hope_Net-join-us-on-Telegram #184'
   network: ws
   password: Aimer
   port: 2083
@@ -99471,7 +99350,7 @@ proxies:
       Host: ngepx.ambercc.filegear-sg.me
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #8'
+  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #6'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -99480,7 +99359,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇷®️Franc... #4'
+  name: 👉🆔@v2ray_configs_pool📡🇫®️Franc...
   network: tcp
   password: telegram-id-directvpn
   port: 22223
@@ -99489,28 +99368,28 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #199'
+  name: '@Hope_Net-join-us-on-Telegram #185'
   network: tcp
   port: 54774
   server: qd.needss.top
   tls: false
   type: vmess
   uuid: d812a35f-a4de-4eee-b929-0b413c1ecb8a
-- name: '@Hope_Net-join-us-on-Telegram #200'
+- name: '@Hope_Net-join-us-on-Telegram #186'
   network: tcp
   password: Aimer
   port: 2083
   server: 27.50.49.231
   sni: ngepy.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #201'
+- name: '@Hope_Net-join-us-on-Telegram #187'
   network: tcp
   password: '3763495894587285504'
   port: 443
   server: 216.238.77.127
   sni: climbing-racer.treefrog761.one
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #202'
+- name: '@Hope_Net-join-us-on-Telegram #188'
   network: tcp
   password: Aimer
   port: 443
@@ -99519,7 +99398,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #429'
+  name: '@Hope_Net-join-us-on-Telegram #389'
   network: tcp
   port: '8099'
   server: 154.47.21.27
@@ -99529,7 +99408,7 @@ proxies:
   uuid: fa1897db-1925-4c86-a495-939a959af900
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #204'
+  name: '@Hope_Net-join-us-on-Telegram #190'
   network: ws
   port: 443
   server: hknbyivfffj.site
@@ -99543,27 +99422,26 @@ proxies:
     path: /rbqqvws
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #205'
+  name: '@Hope_Net-join-us-on-Telegram #191'
   network: tcp
   port: 45112
   server: qd.needss.top
   tls: false
   type: vmess
   uuid: d812a35f-a4de-4eee-b929-0b413c1ecb8a
-- name: '@Hope_Net-join-us-on-Telegram #255'
+- name: '@Hope_Net-join-us-on-Telegram #192'
   password: telegram-id-privatevpns
   port: 22222
   server: 3.9.95.57
-  skip-cert-verify: false
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇸🇬®️Sing... #12'
+- name: '@Hope_Net-join-us-on-Telegram #193'
   password: Aimer
   port: 10000
   server: 154.19.241.230
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #328'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #111'
   network: ws
   password: bpb-trojan
   port: 443
@@ -99588,7 +99466,7 @@ proxies:
     headers:
       Host: www.53865734.xyz
     path: /path/170733132233
-- name: '@Hope_Net-join-us-on-Telegram #208'
+- name: '@Hope_Net-join-us-on-Telegram #194'
   network: ws
   password: blue2024
   port: 443
@@ -99598,18 +99476,18 @@ proxies:
   ws-opts:
     headers:
       Host: ta.promote.icu
-- name: '@Hope_Net-join-us-on-Telegram #209'
+- name: '@Hope_Net-join-us-on-Telegram #195'
   password: 89f84d5e-4170-4c64-bc78-ac99953b103a
   port: 50042
   server: 5.83.221.31
   sni: v2hgc03.fuqiangren.com
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #210'
+- name: '@Hope_Net-join-us-on-Telegram #196'
   password: 4732adfa16c6450bbef87264e41332db
   port: 443
   server: nextstepcareer.online
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #404'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #134'
   network: tcp
   password: bpb-trojan
   port: 443
@@ -99618,7 +99496,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #211'
+  name: '@Hope_Net-join-us-on-Telegram #197'
   network: tcp
   port: '18000'
   server: 79.127.229.54
@@ -99626,7 +99504,7 @@ proxies:
   tls: false
   type: vmess
   uuid: fa1897db-1925-4c86-a495-939a959af900
-- name: '@Hope_Net-join-us-on-Telegram` #54'
+- name: '@Hope_Net-join-us-on-Telegram` #53'
   network: ws
   password: Aimer
   port: 2083
@@ -99638,14 +99516,14 @@ proxies:
       Host: ngepx.ambercc.filegear-sg.me
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #11'
+  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #8'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22223
   server: 13.37.201.250
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #29'
+- name: '@Hope_Net-join-us-on-Telegram #198'
   network: ws
   password: NISHIKUITAN111
   port: 443
@@ -99656,7 +99534,7 @@ proxies:
     headers:
       Host: zb.ylks.xyz
     path: /
-- name: '@Hope_Net-join-us-on-Telegram #213'
+- name: '@Hope_Net-join-us-on-Telegram #199'
   network: ws
   password: Aimer
   port: 2096
@@ -99668,7 +99546,7 @@ proxies:
       Host: ngepy.ambercc.filegear-sg.me
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #214'
+  name: '@Hope_Net-join-us-on-Telegram #200'
   network: ws
   port: '8443'
   server: 140.238.173.181
@@ -99679,39 +99557,39 @@ proxies:
     headers:
       Host: fatcat.nevergonnagiveyouup.top
     path: /vmess-argo?ed=2048
-- name: '@Hope_Net-join-us-on-Telegram #215'
+- name: '@Hope_Net-join-us-on-Telegram #201'
   password: 89f84d5e-4170-4c64-bc78-ac99953b103a
   port: 50020
   server: 5.83.221.31
   sni: jp03.6kk.org
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇷®️South... #5'
+- name: '@Hope_Net-join-us-on-Telegram #202'
   password: Aimer
   port: 50000
   server: 59.1.59.225
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #55'
+- name: '@Hope_Net-join-us-on-Telegram` #54'
   password: Aimer
   port: 50000
   server: 218.152.197.93
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #443'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #140'
   network: tcp
   password: Aimer
   port: 443
   server: 172.64.35.127
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇰🇷®️Sout... #9'
+- name: '👉🆔@v2ray_configs_pool📡🇰🇷®️Sout... #1'
   network: tcp
   password: Aimer
   port: 50000
   server: 218.154.47.250
   sni: ngepy.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #402'
+- name: '@Hope_Net-join-us-on-Telegram` #55'
   network: ws
   password: WOeXShhJpL
   port: 443
@@ -99722,7 +99600,7 @@ proxies:
     headers:
       Host: 08jzus.zdzdzd.xyz
     path: /juzigongyi
-- name: '@Hope_Net-join-us-on-Telegram #297'
+- name: '@Hope_Net-join-us-on-Telegram #205'
   network: ws
   password: Aimer
   port: 8443
@@ -99732,7 +99610,7 @@ proxies:
   ws-opts:
     headers:
       Host: ngepy.ambercc.filegear-sg.me
-- name: '@Hope_Net-join-us-on-Telegram #220'
+- name: '@Hope_Net-join-us-on-Telegram #206'
   network: ws
   password: Ng35283528
   port: 443
@@ -99743,7 +99621,7 @@ proxies:
     headers:
       Host: c2.validbv3528.eu.org
     path: /?ed=2560
-- name: '@Hope_Net-join-us-on-Telegram` #57'
+- name: '@Hope_Net-join-us-on-Telegram` #56'
   password: 89f84d5e-4170-4c64-bc78-ac99953b103a
   port: 50011
   server: 5.83.221.31
@@ -99751,7 +99629,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #222'
+  name: '@Hope_Net-join-us-on-Telegram #207'
   network: tcp
   port: '8881'
   server: 66.42.90.216
@@ -99761,7 +99639,7 @@ proxies:
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇫®️Franc... #2'
+  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #10'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -99770,26 +99648,26 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #13'
+  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #11'
   network: tcp
   password: telegram-id-directvpn
   port: 22223
   server: 13.37.76.128
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #379'
+- name: '@Hope_Net-join-us-on-Telegram #208'
   password: er668
   port: 443
   server: 104.21.16.1
   sni: kfjdi.pages.dev
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #409'
+- name: '@Hope_Net-join-us-on-Telegram #209'
   password: blue2024
   port: 443
   server: 104.16.112.144
   sni: ta.promote.icu
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #58'
+- name: '@Hope_Net-join-us-on-Telegram` #57'
   network: ws
   password: RV<oAVP5SBk%Q@jE
   port: 2096
@@ -99800,27 +99678,27 @@ proxies:
     headers:
       Host: joinmahdiserver-484.pages.dev
     path: /trJBYdoA2UbPASexk2?ed=2560
-- name: '@Hope_Net-join-us-on-Telegram #225'
+- name: '@Hope_Net-join-us-on-Telegram #210'
   network: tcp
   password: Aimer
   port: 8443
   server: 154.26.176.94
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #226'
+- name: '@Hope_Net-join-us-on-Telegram #211'
   password: Aimer
   port: 54622
   server: 154.21.82.84
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #230'
+- name: '@Hope_Net-join-us-on-Telegram #214'
   network: tcp
   password: Aimer
   port: 2083
   server: 27.50.48.186
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #59'
+- name: '@Hope_Net-join-us-on-Telegram` #58'
   network: ws
   password: Aimer
   port: 2096
@@ -99830,26 +99708,26 @@ proxies:
   ws-opts:
     headers:
       Host: ngepx.ambercc.filegear-sg.me
-- name: '👉🆔@v2ray_configs_pool📡🇸🇬®️Sing... #3'
+- name: '@Hope_Net-join-us-on-Telegram #216'
   password: installshield
   port: 8443
   server: 38.180.249.177
   skip-cert-verify: false
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #61'
+- name: '@Hope_Net-join-us-on-Telegram` #60'
   password: Aimer
   port: 443
   server: 95.216.143.166
   sni: ngepy.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #233'
+- name: '@Hope_Net-join-us-on-Telegram #217'
   network: tcp
   password: telegram-id-directvpn
   port: 22222
   server: 3.124.233.190
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #234'
+- name: '@Hope_Net-join-us-on-Telegram #218'
   network: ws
   password: Aimer
   port: 2087
@@ -99859,14 +99737,14 @@ proxies:
   ws-opts:
     headers:
       Host: ngepx.ambercc.filegear-sg.me
-- name: '@Hope_Net-join-us-on-Telegram #235'
+- name: '@Hope_Net-join-us-on-Telegram #219'
   password: '3774827088566296576'
   port: 443
   server: 95.110.142.205
   skip-cert-verify: false
   sni: destined-cub.treefrog761.one
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #62'
+- name: '@Hope_Net-join-us-on-Telegram` #61'
   network: ws
   password: Aimer
   port: 2083
@@ -99876,20 +99754,20 @@ proxies:
   ws-opts:
     headers:
       Host: ngepy.ambercc.filegear-sg.me
-- name: '@Hope_Net-join-us-on-Telegram #237'
+- name: '@Hope_Net-join-us-on-Telegram #220'
   network: tcp
   password: '3774827088566296576'
   port: 443
   server: 185.67.125.78
   sni: deciding-mantis.treefrog761.one
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #238'
+- name: '@Hope_Net-join-us-on-Telegram #221'
   password: Aimer
   port: 50000
   server: 221.149.132.232
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #241'
+- name: '@Hope_Net-join-us-on-Telegram #223'
   network: tcp
   password: telegram-id-directvpn
   port: 22222
@@ -99898,7 +99776,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #244'
+  name: '@Hope_Net-join-us-on-Telegram #226'
   network: ws
   port: '23452'
   server: 140.245.58.136
@@ -99911,7 +99789,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #246'
+  name: '@Hope_Net-join-us-on-Telegram #227'
   network: ws
   port: '2082'
   server: s2.db-link01.top
@@ -99924,35 +99802,35 @@ proxies:
     path: /dabai.in104.20.128.34
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #247'
+  name: '@Hope_Net-join-us-on-Telegram #228'
   network: tcp
   password: telegram-id-directvpn
   port: 22222
   server: 3.64.66.113
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #66'
+- name: '@Hope_Net-join-us-on-Telegram` #65'
   network: tcp
   password: bpb-trojan
   port: 443
   server: 104.18.107.117
   sni: bpb.my79801.com
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #67'
+- name: '@Hope_Net-join-us-on-Telegram` #66'
   password: Aimer
   port: 443
   server: 91.149.239.238
   skip-cert-verify: false
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #251'
+- name: '@Hope_Net-join-us-on-Telegram #232'
   network: tcp
   password: Aimer
   port: 2083
   server: 66.81.247.88
   sni: ameqo.esslh.filegear-sg.me
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #64'
+- name: '@Hope_Net-join-us-on-Telegram #234'
   password: Aimer
   port: 2083
   server: 162.159.38.105
@@ -99969,35 +99847,35 @@ proxies:
   tls: false
   type: vmess
   uuid: 81647712-fcd8-4da9-8f80-bc7a149354f8
-- name: '@Hope_Net-join-us-on-Telegram` #69'
+- name: '👉🆔@v2ray_configs_pool📡🇵®️Japan... #2'
   password: 47072f01-8e77-4136-8e85-b0f0d9d08f1d
   port: 20230
   server: jp007.421421.xyz
   skip-cert-verify: false
   sni: 421421.xyz
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #377'
+- name: '@Hope_Net-join-us-on-Telegram #345'
   network: tcp
   password: Aimer
   port: 8443
   server: 46.254.93.37
   sni: acepo.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #70'
+- name: '@Hope_Net-join-us-on-Telegram` #68'
   password: 3aec9607-0136-4ca1-90c2-553a0322b25e
   port: 40383
   server: 91.199.84.112
   skip-cert-verify: true
   sni: cdn.alibaba.com
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #259'
+- name: '@Hope_Net-join-us-on-Telegram #238'
   password: Aimer
   port: 12601
   server: 210.103.48.53
   skip-cert-verify: false
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #71'
+- name: '@Hope_Net-join-us-on-Telegram` #69'
   password: Aimer
   port: 2096
   server: 172.67.68.56
@@ -100006,7 +99884,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #266'
+  name: '@Hope_Net-join-us-on-Telegram #245'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22222
@@ -100015,21 +99893,21 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #267'
+  name: '@Hope_Net-join-us-on-Telegram #246'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
   server: 18.169.69.27
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #268'
+- name: '@Hope_Net-join-us-on-Telegram #247'
   password: Aimer
   port: 443
   server: lynn.ns.cloudflare.com
   skip-cert-verify: false
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #274'
+- name: '@Hope_Net-join-us-on-Telegram #253'
   password: telegram-id-directvpn
   port: 22222
   server: 52.60.107.221
@@ -100038,7 +99916,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #276'
+  name: '@Hope_Net-join-us-on-Telegram #255'
   network: ws
   port: '443'
   server: 51.77.20.137
@@ -100049,7 +99927,7 @@ proxies:
     headers:
       Host: tilebani.com
     path: /
-- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #615'
+- name: '@Hope_Net-join-us-on-Telegram #257'
   network: ws
   password: bpb-trojan
   port: 443
@@ -100061,7 +99939,7 @@ proxies:
       Host: qq.vvii.us.kg
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #279'
+  name: '@Hope_Net-join-us-on-Telegram #258'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -100070,7 +99948,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #281'
+  name: '@Hope_Net-join-us-on-Telegram #260'
   network: ws
   port: '20312'
   server: 195.58.49.42
@@ -100084,7 +99962,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #498'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #152'
   network: ws
   port: 80
   server: OOoOOOooOp.222769.XYZ
@@ -100098,7 +99976,7 @@ proxies:
     path: /VaaSEfNLHdW3I98dxLkez
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #282'
+  name: '@Hope_Net-join-us-on-Telegram #261'
   network: ws
   port: '8443'
   server: 129.151.198.3
@@ -100109,28 +99987,22 @@ proxies:
     headers:
       Host: fatcat.nevergonnagiveyouup.top
     path: /vmess-argo?ed=2048
-- name: '@Hope_Net-join-us-on-Telegram #284'
-  password: '3774827088566296576'
-  port: 443
-  server: 185.67.125.78
-  sni: deciding-mantis.treefrog761.one
-  type: trojan
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #286'
+  name: '@Hope_Net-join-us-on-Telegram #264'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22222
   server: 16.16.250.233
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #289'
+- name: '@Hope_Net-join-us-on-Telegram #267'
   password: Aimer
   port: 443
   server: 52.40.102.162
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #421'
+- name: '@Hope_Net-join-us-on-Telegram #269'
   network: ws
   password: Aimer
   port: 443
@@ -100140,7 +100012,7 @@ proxies:
   ws-opts:
     headers:
       Host: ngepy.ambercc.filegear-sg.me
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #79'
+- name: '@Hope_Net-join-us-on-Telegram #270'
   password: Aimer
   port: 443
   server: ignacio.ns.cloudflare.com
@@ -100149,7 +100021,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #518'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #153'
   network: ws
   port: 8443
   server: 104.21.96.1
@@ -100160,28 +100032,28 @@ proxies:
     headers:
       Host: us01.sh-cloudflare.sbs
     path: /
-- name: '@Hope_Net-join-us-on-Telegram #293'
+- name: '@Hope_Net-join-us-on-Telegram #271'
   password: telegram-id-directvpn
   port: 22222
   server: 18.168.234.171
   skip-cert-verify: false
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇸🇬®️Sing... #6'
+- name: '👉🆔@v2ray_configs_pool📡🇬®️Singa... #1'
   network: tcp
   password: Aimer
   port: 2096
   server: 206.238.236.252
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #81'
+- name: '@Hope_Net-join-us-on-Telegram #276'
   password: Aimer
   port: 2053
   server: 162.159.44.231
   skip-cert-verify: false
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇺®️Russi... #1'
+- name: '@Hope_Net-join-us-on-Telegram #277'
   network: ws
   password: blue2024
   port: 443
@@ -100192,7 +100064,7 @@ proxies:
     headers:
       Host: tb.promote.icu
     path: /?ed
-- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #535'
+- name: '@Hope_Net-join-us-on-Telegram #278'
   password: Aimer
   port: 443
   server: 108.162.193.110
@@ -100200,33 +100072,33 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram` #79'
+  name: '@Hope_Net-join-us-on-Telegram` #77'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
   server: 35.181.208.27
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #304'
+- name: '@Hope_Net-join-us-on-Telegram #281'
   network: tcp
   password: Aimer
   port: 443
   server: 172.67.77.127
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #306'
+- name: '@Hope_Net-join-us-on-Telegram #283'
   password: Aimer
   port: 30029
   server: 185.183.84.94
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #307'
+- name: '@Hope_Net-join-us-on-Telegram #284'
   password: Aimer
   port: 2096
   server: 162.159.134.143
   sni: ngepy.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #308'
+- name: '@Hope_Net-join-us-on-Telegram #285'
   network: ws
   password: auto
   port: 443
@@ -100237,14 +100109,14 @@ proxies:
     headers:
       Host: b96ef9ae.trojanfree-76s.pages.dev
     path: /b96ef9ae.trojanfree-76s.pages.dev/
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #83'
+- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #24'
   network: tcp
   password: Aimer
   port: 2096
   server: 156.225.72.199
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #310'
+- name: '@Hope_Net-join-us-on-Telegram #287'
   network: ws
   password: Aimer
   port: 443
@@ -100254,34 +100126,34 @@ proxies:
   ws-opts:
     headers:
       Host: ngepz.ambercc.filegear-sg.me
-- name: '@Hope_Net-join-us-on-Telegram #311'
+- name: '@Hope_Net-join-us-on-Telegram #288'
   network: tcp
   password: Aimer
   port: 2087
   server: 103.116.7.100
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #394'
+- name: '@Hope_Net-join-us-on-Telegram #289'
   network: tcp
   password: Aimer
   port: 443
   server: 47.91.18.127
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #313'
+- name: '@Hope_Net-join-us-on-Telegram #290'
   password: '65086520307764900'
   port: 443
   server: relieved-raccoon.shiner427.skin
   sni: relieved-raccoon.shiner427.skin
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #81'
+- name: '@Hope_Net-join-us-on-Telegram` #79'
   network: tcp
   password: Aimer
   port: 12578
   server: 14.38.83.195
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #399'
+- name: '@Hope_Net-join-us-on-Telegram #291'
   network: ws
   password: Aimer
   port: 2053
@@ -100291,38 +100163,38 @@ proxies:
   ws-opts:
     headers:
       Host: ngepy.ambercc.filegear-sg.me
-- name: '@Hope_Net-join-us-on-Telegram #357'
+- name: '@Hope_Net-join-us-on-Telegram #292'
   password: Aimer
   port: 58443
   server: 58.176.10.111
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #316'
+- name: '@Hope_Net-join-us-on-Telegram #293'
   network: tcp
   password: Aimer
   port: 2087
   server: 45.67.215.217
   sni: ngepy.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #317'
+- name: '@Hope_Net-join-us-on-Telegram #294'
   password: Aimer
   port: 443
   server: 3.124.196.164
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #82'
+- name: '@Hope_Net-join-us-on-Telegram` #80'
   password: Aimer
   port: 2096
   server: 172.64.34.52
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #560'
+- name: '@Hope_Net-join-us-on-Telegram #295'
   password: Aimer
   port: 443
   server: duke.ns.cloudflare.com
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #83'
+- name: '@Hope_Net-join-us-on-Telegram` #81'
   network: ws
   password: SSorg
   port: 443
@@ -100333,7 +100205,7 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.mehttp/1.1
     path: /?ed
-- name: '@Hope_Net-join-us-on-Telegram #320'
+- name: '@Hope_Net-join-us-on-Telegram #296'
   network: ws
   password: auto
   port: 443
@@ -100344,30 +100216,16 @@ proxies:
     headers:
       Host: b96ef9ae.trojanfree-76s.pages.dev
     path: /b96ef9ae.trojanfree-76s.pages.dev/
-- name: '@Hope_Net-join-us-on-Telegram #322'
+- name: '@Hope_Net-join-us-on-Telegram #298'
   network: tcp
   password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad
   port: 443
   server: 103.173.66.192
   sni: cmc1.5gsieuvip.vn
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #323'
-  network: ws
-  port: 443
-  server: northflank.107421.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  ws-opts:
-    headers:
-      Host: northflank.107421.xyz
-    path: /vmess
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram` #84'
+  name: '@Hope_Net-join-us-on-Telegram` #82'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -100376,7 +100234,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #567'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #176'
   network: ws
   port: 443
   server: 15.235.50.172
@@ -100390,7 +100248,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #62'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #37'
   network: ws
   port: 443
   server: 57.129.25.25
@@ -100406,7 +100264,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: ''
-  name: '@Hope_Net-join-us-on-Telegram #327'
+  name: '@Hope_Net-join-us-on-Telegram #302'
   network: grpc
   port: '2087'
   server: 108.162.192.217
@@ -100414,7 +100272,7 @@ proxies:
   tls: true
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- name: '👉🆔@v2ray_configs_pool📡🇰🇷®️Sout... #12'
+- name: 👉🆔@v2ray_configs_pool📡🇰®️South...
   network: tcp
   password: Aimer
   port: 16064
@@ -100423,7 +100281,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: aes-128-gcm
-  name: '@Hope_Net-join-us-on-Telegram #331'
+  name: '@Hope_Net-join-us-on-Telegram #306'
   network: tcp
   port: '8080'
   server: 5.75.197.221
@@ -100431,14 +100289,14 @@ proxies:
   tls: false
   type: vmess
   uuid: b44ceabe-997c-4988-932d-8efa6a530fc5
-- name: '@Hope_Net-join-us-on-Telegram #332'
+- name: '@Hope_Net-join-us-on-Telegram #307'
   network: tcp
   password: Aimer
   port: 12452
   server: 121.132.58.142
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: 👉🆔@v2ray_configs_pool📡🇨🇳®️Chin...
+- name: '@Hope_Net-join-us-on-Telegram #308'
   password: fuck
   port: 443
   server: 42.236.73.72
@@ -100446,21 +100304,21 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #337'
+  name: '@Hope_Net-join-us-on-Telegram #311'
   network: tcp
   password: telegram-id-directvpn
   port: 22222
   server: 3.132.17.81
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #339'
+- name: '@Hope_Net-join-us-on-Telegram #312'
   network: tcp
   password: bpb-trojan
   port: 443
   server: 23.227.60.8
   sni: 403b3611-99bc-43b7-88D7-26Ed5D0825A9-3.paGeS.dev
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #341'
+- name: '@Hope_Net-join-us-on-Telegram #314'
   network: ws
   password: Aimer
   port: 2087
@@ -100470,21 +100328,21 @@ proxies:
   ws-opts:
     headers:
       Host: ngepx.ambercc.filegear-sg.me
-- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #606'
+- name: '@Hope_Net-join-us-on-Telegram #315'
   password: NISHIKUITAN111
   port: 443
   server: 172.67.49.68
   type: trojan
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #346'
+  name: '@Hope_Net-join-us-on-Telegram #319'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22222
   server: 3.132.17.81
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #347'
+- name: '@Hope_Net-join-us-on-Telegram #320'
   network: ws
   password: yaml777
   port: 443
@@ -100497,7 +100355,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #349'
+  name: '@Hope_Net-join-us-on-Telegram #322'
   network: ws
   port: 80
   server: 198.41.209.70
@@ -100511,7 +100369,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #598'
+  name: '@Hope_Net-join-us-on-Telegram #323'
   network: ws
   port: 2052
   server: s1.cn-db.top
@@ -100525,7 +100383,7 @@ proxies:
     path: /dabai.in104.18.179.207
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #351'
+  name: '@Hope_Net-join-us-on-Telegram #324'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -100582,13 +100440,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #605'
+- name: '@Hope_Net-join-us-on-Telegram` #88'
   password: Aimer
   port: 443
   server: 172.64.33.110
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #92'
+- name: '@Hope_Net-join-us-on-Telegram` #89'
   password: ba6f31de-7817-3eaf-9ae7-1e073efea38c
   port: 20305
   server: gy.58n.net
@@ -100599,14 +100457,14 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: ''
-  name: '@Hope_Net-join-us-on-Telegram #356'
+  name: '@Hope_Net-join-us-on-Telegram #327'
   network: grpc
   port: 38201
   server: 91.107.247.219
   tls: true
   type: vmess
   uuid: 075d2b0d-b2a1-4a96-9d92-5de89d844625
-- name: '@Hope_Net-join-us-on-Telegram #406'
+- name: '@Hope_Net-join-us-on-Telegram` #91'
   password: NISHIKUITAN111
   port: 443
   server: 104.20.138.222
@@ -100624,14 +100482,14 @@ proxies:
     headers:
       Host: mgcdn8.hfhfb.homes
     path: /market?ed=1024
-- name: '@Hope_Net-join-us-on-Telegram #361'
+- name: '@Hope_Net-join-us-on-Telegram #331'
   password: telegram-id-privatevpns
   port: 22222
   server: 3.78.65.240
   skip-cert-verify: false
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #363'
+- name: '@Hope_Net-join-us-on-Telegram #333'
   password: telegram-id-privatevpns
   port: 22222
   server: 3.125.23.39
@@ -100640,7 +100498,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #364'
+  name: '@Hope_Net-join-us-on-Telegram #334'
   network: tcp
   port: 26763
   server: 31.184.172.87
@@ -100649,7 +100507,7 @@ proxies:
   uuid: 5d74df68-8e43-4e9e-b16d-241e61b464f9
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram` #95'
+  name: '@Hope_Net-join-us-on-Telegram` #92'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22222
@@ -100658,7 +100516,7 @@ proxies:
   type: trojan
 - alterId: 32
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #24'
+  name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #10'
   network: ws
   port: 443
   server: vc.fly.dev
@@ -100672,14 +100530,14 @@ proxies:
     path: /vc
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #365'
+  name: '@Hope_Net-join-us-on-Telegram #335'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
   server: 35.176.154.96
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #96'
+- name: '@Hope_Net-join-us-on-Telegram` #93'
   password: telegram-id-privatevpns
   port: 22222
   server: 13.36.58.188
@@ -100688,7 +100546,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #616'
+  name: '@Hope_Net-join-us-on-Telegram #336'
   network: ws
   port: 8443
   server: 92.53.188.185
@@ -100702,7 +100560,7 @@ proxies:
     path: /xrenvws
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #369'
+  name: '@Hope_Net-join-us-on-Telegram #337'
   network: ws
   port: '23452'
   server: 140.245.32.60
@@ -100715,7 +100573,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #66'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #40'
   network: ws
   port: 443
   server: 57.129.24.124
@@ -100727,19 +100585,19 @@ proxies:
     headers:
       Host: aveiror.com
     path: /linkvws
-- name: '@Hope_Net-join-us-on-Telegram #371'
+- name: '@Hope_Net-join-us-on-Telegram #339'
   password: 89f84d5e-4170-4c64-bc78-ac99953b103a
   port: 50010
   server: 5.83.221.31
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #372'
+- name: '@Hope_Net-join-us-on-Telegram #340'
   password: NISHIKUITAN111
   port: 443
   server: 185.193.29.193
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #373'
+  name: '@Hope_Net-join-us-on-Telegram #341'
   network: tcp
   port: '17718'
   server: 20.213.20.185
@@ -100747,32 +100605,32 @@ proxies:
   tls: false
   type: vmess
   uuid: c206e022-34c6-4fe3-a232-b9c07ba3165d
-- name: '@Hope_Net-join-us-on-Telegram #375'
+- name: '@Hope_Net-join-us-on-Telegram #343'
   network: tcp
   password: Aimer
   port: 2053
   server: 178.250.159.120
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #376'
+- name: '@Hope_Net-join-us-on-Telegram #344'
   password: 89f84d5e-4170-4c64-bc78-ac99953b103a
   port: 50043
   server: 5.83.221.31
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #97'
+- name: '@Hope_Net-join-us-on-Telegram` #94'
   network: tcp
   password: Aimer
   port: 2053
   server: 104.26.15.138
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #380'
+- name: '@Hope_Net-join-us-on-Telegram #348'
   password: '3774827088566296576'
   port: 443
   server: more-tomcat.insect388.motorcycles
   sni: more-tomcat.insect388.motorcycles
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #381'
+- name: '@Hope_Net-join-us-on-Telegram #349'
   network: tcp
   password: Aimer
   port: 26443
@@ -100783,7 +100641,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: ''
-  name: '@Hope_Net-join-us-on-Telegram #383'
+  name: '@Hope_Net-join-us-on-Telegram #351'
   network: grpc
   port: 17571
   server: 91.107.247.219
@@ -100792,7 +100650,7 @@ proxies:
   uuid: dfde4381-1f31-451a-92d5-539b2e45b1c0
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #384'
+  name: '@Hope_Net-join-us-on-Telegram #352'
   network: ws
   port: '2082'
   server: 45.142.120.190
@@ -100804,21 +100662,21 @@ proxies:
     headers:
       Host: yellow-paper-029c.yvonna.workers.dev
     path: /az05.beyondy.cfd/link#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2570
-- name: '@Hope_Net-join-us-on-Telegram #385'
+- name: '@Hope_Net-join-us-on-Telegram #353'
   network: tcp
   password: Aimer
   port: 80
   server: 67.226.221.102
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #387'
+- name: '@Hope_Net-join-us-on-Telegram #355'
   network: tcp
   password: '3763495894587285504'
   port: 443
   server: 94.177.131.199
   sni: nearby-sheep.goat627.mom
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #388'
+- name: '@Hope_Net-join-us-on-Telegram #356'
   network: ws
   password: RV<oAVP5SBk%Q@jE
   port: 2096
@@ -100828,33 +100686,33 @@ proxies:
   ws-opts:
     headers:
       Host: joinmahdiserver-484.pages.dev
-- name: '@Hope_Net-join-us-on-Telegram #389'
+- name: '@Hope_Net-join-us-on-Telegram #357'
   network: tcp
   password: '65086520307764900'
   port: 443
   server: 3.147.196.132
   sni: grateful-lark.shiner427.skin
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #104'
+- name: '@Hope_Net-join-us-on-Telegram #358'
   password: '3770966768580042752'
   port: 443
   server: 23.22.196.39
   sni: bursting-bunny.goat627.mom
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #99'
+- name: '@Hope_Net-join-us-on-Telegram` #96'
   network: tcp
   password: bpb-trojan
   port: 443
   server: 172.66.44.203
   sni: 403b3611-99bC-43b7-88D7-26ED5D0825A9-3.pagES.DEv
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #100'
+- name: '@Hope_Net-join-us-on-Telegram` #97'
   password: telegram-id-privatevpns
   port: 22222
   server: 15.236.107.102
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #396'
+- name: '@Hope_Net-join-us-on-Telegram #362'
   network: ws
   password: NISHIKUITAN111
   port: 443
@@ -100865,7 +100723,7 @@ proxies:
     headers:
       Host: zb.ylks.xyz
     path: /
-- name: '@Hope_Net-join-us-on-Telegram` #101'
+- name: '@Hope_Net-join-us-on-Telegram` #98'
   password: Aimer
   port: 2087
   server: 104.196.250.34
@@ -100873,7 +100731,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #397'
+  name: '@Hope_Net-join-us-on-Telegram #363'
   network: ws
   port: 8880
   server: s1.db-link01.top
@@ -100885,7 +100743,7 @@ proxies:
     headers:
       Host: 100-250-32-53.s1.db-link01.top
     path: /dabai.in172.67.95.35
-- name: '@Hope_Net-join-us-on-Telegram #398'
+- name: '@Hope_Net-join-us-on-Telegram #364'
   network: ws
   password: auto
   port: 2087
@@ -100895,34 +100753,34 @@ proxies:
   ws-opts:
     headers:
       Host: abbas.ab841vpn.workers.dev
-- name: '@Hope_Net-join-us-on-Telegram #400'
+- name: '@Hope_Net-join-us-on-Telegram #365'
   network: tcp
   password: Aimer
   port: 8443
   server: 135.84.74.27
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #401'
+- name: '@Hope_Net-join-us-on-Telegram #366'
   password: Aimer
   port: 443
   server: 35.83.185.225
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #102'
+- name: '@Hope_Net-join-us-on-Telegram` #99'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
   server: 54.220.133.195
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #404'
+- name: '@Hope_Net-join-us-on-Telegram #368'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
   server: 18.135.14.252
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #405'
+- name: '@Hope_Net-join-us-on-Telegram #369'
   network: ws
   password: auto
   port: 443
@@ -100935,56 +100793,56 @@ proxies:
     path: /b96ef9ae.trojanfree-76s.pages.dev/
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram` #103'
+  name: '@Hope_Net-join-us-on-Telegram` #100'
   network: tcp
   password: telegram-id-directvpn
   port: 22222
   server: 18.168.234.171
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #407'
+- name: '@Hope_Net-join-us-on-Telegram #370'
   password: NISHIKUITAN111
   port: 443
   server: 104.16.80.174
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #408'
+- name: '@Hope_Net-join-us-on-Telegram #371'
   password: Aimer
   port: 8443
   server: 82.115.6.219
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #410'
+- name: '@Hope_Net-join-us-on-Telegram #372'
   password: Aimer
   port: 443
   server: 172.64.33.128
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #411'
+- name: '@Hope_Net-join-us-on-Telegram #373'
   password: 89f84d5e-4170-4c64-bc78-ac99953b103a
   port: 50018
   server: gnpid1111.ndycom.com
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #412'
+- name: '@Hope_Net-join-us-on-Telegram #374'
   network: tcp
   password: '3763495894587285504'
   port: 443
   server: 185.67.125.36
   sni: safe-seasnail.goat627.mom
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #414'
+- name: '@Hope_Net-join-us-on-Telegram #376'
   network: tcp
   password: Aimer
   port: 443
   server: 35.167.93.200
   sni: ngepy.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #105'
+- name: '@Hope_Net-join-us-on-Telegram` #101'
   password: Aimer
   port: 2096
   server: 162.159.44.232
   sni: ngepy.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #417'
+- name: '@Hope_Net-join-us-on-Telegram #378'
   password: Aimer
   port: 443
   server: 154.197.64.233
@@ -101002,20 +100860,20 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: '%2F'
-- name: '@Hope_Net-join-us-on-Telegram #418'
+- name: '@Hope_Net-join-us-on-Telegram #379'
   network: tcp
   password: Aimer
   port: 13800
   server: 23.169.184.28
   sni: ngepy.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #419'
+- name: '@Hope_Net-join-us-on-Telegram #380'
   password: blue2024
   port: 443
   server: 185.176.26.193
   sni: b.promote.icu
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #108'
+- name: '@Hope_Net-join-us-on-Telegram` #104'
   network: tcp
   password: '65086520307764900'
   port: 443
@@ -101024,7 +100882,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #422'
+  name: '@Hope_Net-join-us-on-Telegram #382'
   network: ws
   port: 40396
   server: sd3.forlive.live
@@ -101037,68 +100895,68 @@ proxies:
     path: /
 - alpn:
   - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #426'
+  name: '@Hope_Net-join-us-on-Telegram #386'
   network: tcp
   password: telegram-id-directvpn
   port: 22222
   server: 13.37.80.185
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #109'
+- name: '@Hope_Net-join-us-on-Telegram` #105'
   network: tcp
   password: bpb-trojan
   port: 443
   server: 172.67.209.80
   sni: 403b3611-99Bc-43b7-88D7-26ED5d0825a9-3.pAgeS.Dev
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #427'
+- name: '@Hope_Net-join-us-on-Telegram #387'
   password: baf8e463-daed-38ec-8f2b-49b2d8632676
   port: 20059
   server: gy.58n.net
   skip-cert-verify: true
   sni: x59.flybar.work
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #431'
+- name: '@Hope_Net-join-us-on-Telegram #391'
   password: baf8e463-daed-38ec-8f2b-49b2d8632676
   port: 20139
   server: gy.58n.net
   skip-cert-verify: true
   sni: z139.hongkongnode.top
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #433'
+- name: '@Hope_Net-join-us-on-Telegram #393'
   network: tcp
   password: Aimer
   port: 2087
   server: 199.34.228.164
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #112'
+- name: '@Hope_Net-join-us-on-Telegram` #108'
   password: 89f84d5e-4170-4c64-bc78-ac99953b103a
   port: 50043
   server: ae5f1a2a-fb75-4800.gttysd.com
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #438'
+- name: '@Hope_Net-join-us-on-Telegram #398'
   password: baf8e463-daed-38ec-8f2b-49b2d8632676
   port: 36821
   server: gy.58n.net
   skip-cert-verify: true
   sni: z262.hongkongnode.top
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #441'
+- name: '@Hope_Net-join-us-on-Telegram #401'
   network: tcp
   password: Aimer
   port: 2087
   server: 104.234.239.235
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #442'
+- name: '@Hope_Net-join-us-on-Telegram #402'
   network: tcp
   password: Aimer
   port: 8443
   server: 104.20.30.149
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #116'
+- name: '@Hope_Net-join-us-on-Telegram` #112'
   password: '3770966768580042752'
   port: 443
   server: 185.67.127.69

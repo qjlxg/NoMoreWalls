@@ -1,17 +1,17 @@
 proxies:
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_9
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_9 #1'
   network: tcp
   password: 3549abda-3854-11ef-b71e-f23c9164ca5d
   port: 27235
   server: 4720bf9e-sytz40-t0r7l4-1ruih.cm5.cnkuaishou.com
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_5
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_5 #1'
   network: tcp
   password: 225d1cca-d744-11ef-b790-f23c91cfbbc9
   port: 27235
   server: 0a7a80dc-sytz40-szxh9w-46gc.cm5.cnkuaishou.com
   type: trojan
-- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_3 #1'
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_16 #1'
   network: tcp
   password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
   port: 27235
@@ -29,7 +29,7 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_4
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_4 #1'
   network: tcp
   password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
   port: 27235
@@ -71,13 +71,13 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_4 #1'
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_8 #1'
   network: tcp
   password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
   port: 27235
   server: 274ba953-sytz40-t09za6-1m0fq.cm5.cnkuaishou.com
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_1
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_1 #1'
   network: tcp
   password: 4088a148-dbec-11ec-bd7c-f23c913c8d2b
   port: 27235
@@ -345,7 +345,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #14'
+  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #12'
   network: tcp
   port: 46676
   reality-opts:
@@ -358,13 +358,24 @@ proxies:
   uuid: fb0fddbd-37ec-4a55-81e3-165c8d04b30e
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #11'
+  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #8'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22223
   server: 13.37.201.250
   sni: trojan.burgerip.co.uk
   type: trojan
+- name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #9'
+  network: ws
+  port: 80
+  server: 151.101.242.172
+  tls: false
+  type: vless
+  uuid: fc7a34b8-7f83-475f-bca4-7a8f5dc861fb
+  ws-opts:
+    headers:
+      Host: Germandiginoe.com
+    path: WEDBAZ%3Fed%3D2048
 - alterId: 0
   cipher: auto
   name: '🇫🇷کانفیگ های بیشتر: @customv2r...'
@@ -376,7 +387,7 @@ proxies:
   type: vmess
   uuid: 81647712-fcd8-4da9-8f80-bc7a149354f8
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇫®️Franc... #3'
+  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #15'
   network: tcp
   port: 2333
   reality-opts:
@@ -409,13 +420,6 @@ proxies:
   type: vless
   uuid: 2917d821-9327-4c76-bf7f-1b7857b38811
 - name: '🇷[openproxylist.com] vless-FR #1'
-  network: grpc
-  port: 8880
-  server: 185.153.183.211
-  tls: false
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: '🇷[openproxylist.com] vless-FR #2'
   network: grpc
   port: 8880
   server: 185.231.205.99

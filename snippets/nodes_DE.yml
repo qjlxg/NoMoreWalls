@@ -3329,16 +3329,7 @@ proxies:
     path: /linkvws
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #20'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.77.65.88
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #22'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #13'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22223
@@ -3347,7 +3338,7 @@ proxies:
   type: trojan
 - alterId: 1
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #24'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #15'
   network: ws
   port: 443
   server: 57.129.25.20
@@ -3361,7 +3352,7 @@ proxies:
     path: linkvws
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #27'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #16'
   network: tcp
   password: telegram-id-directvpn
   port: 22223
@@ -3370,7 +3361,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #28'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #17'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -3379,7 +3370,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #41'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #24'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -3388,7 +3379,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #32'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #20'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22223
@@ -3397,7 +3388,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #62'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #37'
   network: ws
   port: 443
   server: 57.129.25.25
@@ -3411,7 +3402,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #66'
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #40'
   network: ws
   port: 443
   server: 57.129.24.124

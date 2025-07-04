@@ -143,7 +143,7 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: '%2FTelegram%40WangCai2%2F%3Fed%3D2560'
-- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #21'
+- name: '👉🆔@v2ray_configs_pool📡🇧®️Unite... #3'
   network: httpupgrade
   port: 80
   server: 141.101.121.19
@@ -3702,7 +3702,7 @@ proxies:
   ws-opts:
     headers:
       Host: SpeedTest.NET
-- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #3'
+- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #1'
   network: tcp
   port: 443
   server: 1237273737goodfiru.mongral.ir
@@ -3743,7 +3743,7 @@ proxies:
       Host: ''
     path: ''
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #4'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #2'
   network: tcp
   port: 1370
   reality-opts:
@@ -3759,7 +3759,7 @@ proxies:
       Host: ''
     path: ''
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #5'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #3'
   network: tcp
   port: 1370
   reality-opts:
@@ -3775,7 +3775,7 @@ proxies:
       Host: ''
     path: ''
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #6'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #4'
   network: tcp
   port: 1370
   reality-opts:
@@ -3791,7 +3791,7 @@ proxies:
       Host: ''
     path: ''
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #7'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #5'
   network: tcp
   port: 1370
   reality-opts:
@@ -3807,7 +3807,7 @@ proxies:
       Host: ''
     path: ''
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #8'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #6'
   network: tcp
   port: 1370
   reality-opts:
@@ -3823,7 +3823,7 @@ proxies:
       Host: ''
     path: ''
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #9'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #7'
   network: tcp
   port: 1370
   reality-opts:
@@ -3839,7 +3839,7 @@ proxies:
       Host: ''
     path: ''
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #10'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #8'
   network: tcp
   port: 1370
   reality-opts:
@@ -3855,7 +3855,7 @@ proxies:
       Host: ''
     path: ''
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #11'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #9'
   network: tcp
   port: 1370
   reality-opts:
@@ -3871,7 +3871,7 @@ proxies:
       Host: ''
     path: ''
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #12'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #10'
   network: tcp
   port: 1370
   reality-opts:
@@ -3898,7 +3898,7 @@ proxies:
       Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
     path: '%2F%3Fed'
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #13'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #11'
   network: tcp
   port: 1370
   reality-opts:
@@ -3913,21 +3913,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alpn:
-  - http/1.1
-  client-fingerprint: randomized
-  name: 'Channel id: @ShadowProxy66🇬🇧``...'
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: TITanTabLOmaNAHaMRaH.IR
-  tls: true
-  type: vless
-  uuid: 4d91916f-a7fd-419b-8b90-640bb8d1b9f4
-  ws-opts:
-    headers:
-      Host: titantablomanahamrah.ir
-    path: '%2FJHVdDlmFTThrY7WI%2FNjIuMy4xMi4xODU'
 - client-fingerprint: chrome
   name: 🇬🇧[openproxylist.com] vless-GB
   network: tcp
@@ -3940,17 +3925,6 @@ proxies:
   tls: false
   type: vless
   uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-- flow: ''
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #22'
-  network: tcp
-  port: 8080
-  server: 62.60.155.170
-  tls: false
-  type: vless
-  uuid: 19479452-d4e3-4ff7-9f64-a95aa055532f
-  ws-opts:
-    headers:
-      Host: SpeedTest.NET
 - client-fingerprint: chrome
   name: '[openproxylist.com] vless-GB'
   network: tcp
@@ -3963,31 +3937,8 @@ proxies:
   tls: false
   type: vless
   uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-- client-fingerprint: randomized
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #33'
-  network: ws
-  port: 8080
-  server: 141.101.121.108
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
-    path: '%2F%3Fed%3D2048'
-- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #28'
-  network: ws
-  port: 8080
-  server: 141.101.121.55
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
-    path: '%2F%3Fed%3D2048'
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #39'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #19'
   network: tcp
   port: 1370
   reality-opts:
@@ -3999,7 +3950,7 @@ proxies:
   type: vless
   uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇧®️Unite... #6'
+  name: '👉🆔@v2ray_configs_pool📡🇧®️Unite... #5'
   network: ws
   port: 443
   server: 194.147.35.250
@@ -4014,7 +3965,7 @@ proxies:
 - client-fingerprint: randomized
   grpc-opts:
     grpc-service-name: t.me/entryNET
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #30'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #14'
   network: grpc
   port: 32135
   reality-opts:
@@ -4026,7 +3977,7 @@ proxies:
   type: vless
   uuid: 71a3cd5b-90cf-4fea-b286-e011b31438cf
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #36'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #16'
   network: tcp
   port: 1370
   reality-opts:
@@ -4037,7 +3988,7 @@ proxies:
   tls: false
   type: vless
   uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #37'
+- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #17'
   network: ws
   port: 8880
   server: 91.193.58.88
@@ -4051,7 +4002,7 @@ proxies:
       Host: sk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #38'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #18'
   network: tcp
   port: 1370
   reality-opts:
@@ -4064,7 +4015,7 @@ proxies:
   uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
 - alpn:
   - h2
-  name: '👉🆔@v2ray_configs_pool📡🇧®️Unite... #9'
+  name: '👉🆔@v2ray_configs_pool📡🇧®️Unite... #7'
   network: grpc
   port: 443
   server: 185.135.9.3
@@ -4072,18 +4023,6 @@ proxies:
   tls: true
   type: vless
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- client-fingerprint: randomized
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #41'
-  network: ws
-  port: 8080
-  server: 141.101.121.108
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
-    path: '%2F%3Fed'
 - alterId: 0
   cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
@@ -4097,7 +4036,7 @@ proxies:
   name: '🇬🇧[openproxylist.com] vless-GB #1'
   network: ws
   port: 2096
-  server: 104.19.222.79
+  server: 104.19.223.79
   servername: wwwspeedtestnetwhiteberinsistomd6625996s01.gatesriver.ir
   tls: true
   type: vless
@@ -4110,7 +4049,7 @@ proxies:
   name: '🇬🇧[openproxylist.com] vless-GB #2'
   network: ws
   port: 2096
-  server: 162.159.241.133
+  server: 198.41.196.109
   servername: wwwspeedtestnetwhiteberinsistomd6625996s09.gatesriver.ir
   tls: true
   type: vless
@@ -4119,6 +4058,18 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s09.gatesriver.ir
     path: /
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: '🇬🇧[openproxylist.com] vless-GB #3'
+  network: tcp
+  port: 443
+  server: 51.89.229.8
+  servername: o2.sigmamessenger.com
+  tls: true
+  type: vless
+  uuid: c3e86d0c-bfe5-4bb5-a051-5e143df2024d
 - name: 英国
   network: ws
   port: 20889

@@ -69,7 +69,7 @@ proxies:
     headers:
       Host: dddfrt5.890602.xyz
     path: '%2F5UW2C42lpZ7Dj4VDwVOkZfoq'
-- name: 🇺🇸_US_美国_1
+- name: 'US美国(mibei77.com 米贝节点分享) #4'
   network: ws
   port: 80
   server: 104.16.1.106
@@ -130,7 +130,7 @@ proxies:
       Host: eerfgt6.890606.xyz
     path: '%2Fe49RZLgIb0TdfgF5HdHEIupMZeK'
 - client-fingerprint: chrome
-  name: '🔷🆔@v2ray_configs_pool🔷 #9'
+  name: '🔷🆔@v2ray_configs_pool🔷 #2'
   network: tcp
   port: 30501
   server: 94.232.168.16
@@ -1117,7 +1117,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: '🇺🇸_US_美国 #2'
+- name: '🇺🇸_US_美国 #3'
   network: ws
   password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
   port: 443
@@ -1128,18 +1128,6 @@ proxies:
     headers:
       Host: ZZzzzZZ.890601.XYZ
     path: /l96MZ8se5Kl2p8BiMhP42l
-- name: 🇺🇸_US_美国_2
-  network: ws
-  port: 2082
-  server: 104.17.148.22
-  servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-  tls: false
-  type: vless
-  uuid: c65c1b74-414c-40ce-e147-6f67d4f14ac8
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D2082'
 - client-fingerprint: random
   name: 老油条-US-
   network: ws
@@ -1504,7 +1492,7 @@ proxies:
     headers:
       Host: join.2.kiava.cloud.speedtest.net.xn--mgba2h8quf.cdn.h79.cloudfront.net.kiava.fun
     path: /?ed=2560
-- name: 🇩🇨🇪🇹🇡🇆🇒🇮🇅🇹🇮🇅🇣🇭🇹🇲🇱🇨🇸🇳🇴🇸🇮🇪🇅🇱🇮🇪🇅🇱...
+- name: 🇩🇨🇪🇹🇡🇆🇒🇮🇅🇹🇮🇅🇣🇭🇹🇲🇱🇨🇦🇸🇳🇴🇸🇮🇪🇅🇱🇮🇪🇅...
   network: httpupgrade
   port: 2052
   server: www.speedtest.net
@@ -2328,7 +2316,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 🔒 VL-HTTPUPGRADE-NONE 🇸 US-159...
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #4'
   network: httpupgrade
   port: 8880
   server: 159.246.55.168
@@ -2350,7 +2338,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #4'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #5'
   network: httpupgrade
   port: 8880
   server: 154.206.12.52
@@ -2669,7 +2657,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #6'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #7'
   network: httpupgrade
   port: 8880
   server: 154.206.12.105
@@ -2724,7 +2712,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #7'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #8'
   network: httpupgrade
   port: 8880
   server: 154.206.12.73
@@ -2801,7 +2789,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #8'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #9'
   network: httpupgrade
   port: 8880
   server: 154.206.12.216
@@ -2823,7 +2811,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #9'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #10'
   network: httpupgrade
   port: 8880
   server: 155.46.213.145
@@ -2856,7 +2844,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #10'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #11'
   network: httpupgrade
   port: 8880
   server: 155.46.213.82
@@ -2889,7 +2877,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #11'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #12'
   network: httpupgrade
   port: 8880
   server: 155.46.213.149
@@ -2900,7 +2888,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #12'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #13'
   network: httpupgrade
   port: 8880
   server: 155.46.213.102
@@ -3032,7 +3020,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #13'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #14'
   network: httpupgrade
   port: 8880
   server: 154.211.8.179
@@ -3164,7 +3152,7 @@ proxies:
     headers:
       Host: dl1.mcinet.xyz.
     path: '%2F'
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #14'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #15'
   network: httpupgrade
   port: 8880
   server: 155.46.213.158
@@ -3307,7 +3295,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #15'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #16'
   network: httpupgrade
   port: 8880
   server: 156.225.72.220
@@ -3346,7 +3334,7 @@ proxies:
     headers:
       Host: uk1.blackismyfavorite.ir
     path: '%2FXRAYVPNHTTPUPGRADE'
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #16'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #17'
   network: httpupgrade
   port: 8880
   server: 156.225.72.212
@@ -3368,7 +3356,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #17'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #18'
   network: httpupgrade
   port: 8880
   server: 159.112.235.42
@@ -3571,7 +3559,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇸 US-159... #1'
+- name: 🔒 VL-HTTPUPGRADE-NONE 🇸 US-159...
   network: httpupgrade
   port: 8880
   server: 159.246.55.136
@@ -3659,7 +3647,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #20'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #21'
   network: httpupgrade
   port: 8880
   server: 159.246.55.238
@@ -3714,7 +3702,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #21'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #22'
   network: httpupgrade
   port: 8880
   server: 154.206.12.114
@@ -3813,7 +3801,7 @@ proxies:
     headers:
       Host: fin-met.wordperessweb.ir
     path: /?ed%3D2082
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #22'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #23'
   network: httpupgrade
   port: 8880
   server: 154.206.12.61
@@ -3857,7 +3845,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: '%2F%252Ftelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER'
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #23'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #24'
   network: httpupgrade
   port: 8880
   server: 154.206.12.235
@@ -3879,7 +3867,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #24'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #25'
   network: httpupgrade
   port: 8880
   server: 154.206.12.19
@@ -4237,7 +4225,7 @@ proxies:
     headers:
       Host: uk1.blackismyfavorite.ir
     path: '%2FXRAYVPNHTTPUPGRADE'
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇸 US-154... #3'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #27'
   network: httpupgrade
   port: 8880
   server: 154.206.12.62
@@ -4380,7 +4368,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #26'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #28'
   network: httpupgrade
   port: 8880
   server: 155.46.213.155
@@ -4435,7 +4423,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #27'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #29'
   network: httpupgrade
   port: 8880
   server: 154.206.12.205
@@ -4446,7 +4434,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #28'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #30'
   network: httpupgrade
   port: 8880
   server: 155.46.213.83
@@ -4556,7 +4544,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #29'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #31'
   network: httpupgrade
   port: 8880
   server: 154.206.12.136
@@ -4644,7 +4632,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #30'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #32'
   network: httpupgrade
   port: 8880
   server: 159.112.235.232
@@ -4848,7 +4836,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #34'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #36'
   network: httpupgrade
   port: 8880
   server: 155.46.213.235
@@ -4914,7 +4902,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #35'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #37'
   network: httpupgrade
   port: 8880
   server: 154.206.12.106
@@ -4991,7 +4979,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #36'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #38'
   network: httpupgrade
   port: 8880
   server: 154.206.12.93
@@ -5035,7 +5023,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #37'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #39'
   network: httpupgrade
   port: 8880
   server: 155.46.213.14
@@ -5112,7 +5100,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #38'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #40'
   network: httpupgrade
   port: 8880
   server: 156.225.72.138
@@ -5189,7 +5177,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #39'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #41'
   network: httpupgrade
   port: 8880
   server: 155.46.213.75
@@ -5409,7 +5397,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #41'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #43'
   network: httpupgrade
   port: 8880
   server: 155.46.213.1
@@ -5420,7 +5408,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇸 US-154... #5'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇸 US-154... #4'
   network: httpupgrade
   port: 8880
   server: 154.211.8.45
@@ -5464,7 +5452,7 @@ proxies:
     headers:
       Host: dl1.mcinet.xyz.
     path: '%2F'
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #42'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #44'
   network: httpupgrade
   port: 8880
   server: 159.246.55.99
@@ -5486,7 +5474,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #43'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇸 US-159... #1'
   network: httpupgrade
   port: 8880
   server: 159.246.55.245
@@ -5563,7 +5551,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #45'
+- name: '🔒 VL-HTTPUPGRADE-NONE 🇺🇸 US-15... #46'
   network: httpupgrade
   port: 8880
   server: 159.112.235.58
@@ -5674,7 +5662,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: 🇺US_4245_@Surfboardv2ray
+- name: 🇺US_4241_@Surfboardv2ray
   network: httpupgrade
   port: 8880
   server: shaun.te1450.ir
@@ -8073,7 +8061,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🆔@v2ray_configs_pool📡🇪®️Sweden...
+  name: 🇸[openproxylist.com] vless-US`...
   network: ws
   port: 443
   server: 62.60.159.238
@@ -8087,7 +8075,7 @@ proxies:
     path: /hajmi?ed%3D2560
 - alpn:
   - http/1.1
-  name: 'telegram  DailyV2ry #5'
+  name: 👉🆔@v2ray_configs_pool📡🇸®️Unite...
   network: ws
   port: 443
   server: angelina.ns.cloudflare.com
@@ -8099,7 +8087,7 @@ proxies:
     headers:
       Host: svigot58.farinmarkets.ir
     path: /wss
-- name: 'telegram  DailyV2ry #13'
+- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #8'
   network: xhttp
   port: 443
   server: 45.63.77.67
@@ -8112,7 +8100,7 @@ proxies:
     path: '%2Fsdfgh'
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #14'
+  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #9'
   network: tcp
   port: 443
   server: abc.theyyszmn.sbs
@@ -8130,14 +8118,14 @@ proxies:
   tls: true
   type: vless
   uuid: ea286109-d20f-415e-849e-4af20ab04b65
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #16'
+- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #10'
   network: tcp
   port: 443
   server: 147135004002.sec20org.com
   tls: true
   type: vless
   uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #17'
+- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #11'
   network: tcp
   port: 443
   server: 47.251.95.178
@@ -8145,7 +8133,7 @@ proxies:
   tls: true
   type: vless
   uuid: ea286109-d20f-415e-849e-4af20ab04b65
-- name: '👉🆔@v2ray_configs_pool📡🇸®️Unite... #3'
+- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #12'
   network: ws
   port: 443
   server: sullivan.ns.cloudflare.com
@@ -8157,7 +8145,7 @@ proxies:
     headers:
       Host: rb.ylks0033.dpdns.org
     path: '%2F%3Fed%3D2560'
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #67'
+- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #13'
   network: xhttp
   port: 80
   server: 151.101.3.8
@@ -8170,7 +8158,7 @@ proxies:
     path: '%2F%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy'
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #52'
+  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #14'
   network: ws
   port: 2053
   server: 188.114.99.16
@@ -8182,17 +8170,7 @@ proxies:
     headers:
       Host: 019309b7.xyz0.pages.dev
     path: '%2FYzeJFTQqvmhtzTlE%3Fed%3D2560'
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #66'
-  network: xhttp
-  port: 80
-  server: 151.101.3.8
-  tls: false
-  type: vless
-  uuid: 0b55ec95-4f77-4c51-89ea-91d96cd149a8
-  ws-opts:
-    headers:
-      Host: joindhhprooxy.com
-- name: '👉🆔@v2ray_configs_pool📡🇸®️Unite... #8'
+- name: '👉🆔@v2ray_configs_pool📡🇸®️Unite... #2'
   network: tcp
   port: 8443
   server: 194.36.209.104
@@ -8202,7 +8180,7 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.net
-- name: '@Hope_Net-join-us-on-Telegram #256'
+- name: '@Hope_Net-join-us-on-Telegram #236'
   network: tcp
   port: 443
   server: 147.135.125.127
@@ -8211,7 +8189,7 @@ proxies:
   tls: true
   type: vless
   uuid: 3b9bc773-05eb-4d5f-8c1f-57342c0c4f40
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #78'
+- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #20'
   network: xhttp
   port: 80
   server: power.teampluss.ir
@@ -8222,23 +8200,11 @@ proxies:
     headers:
       Host: chs-t.global.ssl.fastly.net
     path: '%2FTscoOpTiMiZeR%3Fed%3D2048'
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #82'
-  network: ws
-  port: 2053
-  server: 188.114.99.16
-  servername: 019309B7.XyZ0.PaGeS.dEV
-  tls: true
-  type: vless
-  uuid: 54f6e78c-b497-4db7-ba48-38c4cf81d5ef
-  ws-opts:
-    headers:
-      Host: 019309B7.XyZ0.PaGeS.dEV
-    path: '%2FTELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI%3D%3Fed%3D2560'
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #76'
+  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #22'
   network: ws
   port: 443
   server: live.theworldwidewolf.com
@@ -8250,7 +8216,7 @@ proxies:
     headers:
       Host: stablenone.com
     path: '%2F%3Fed%3D2954'
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #77'
+- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #23'
   network: tcp
   port: 9435
   server: rene.blackkwolff.com
@@ -8264,7 +8230,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: randomized
-  name: '👉🆔@v2ray_configs_pool📡🇸®️Unite... #10'
+  name: '👉🆔@v2ray_configs_pool📡🇸®️Unite... #3'
   network: ws
   port: 8443
   server: 188.114.99.31
@@ -8278,7 +8244,7 @@ proxies:
     path: '%2FTelegram%40V2ray_Alpha%3D%3Fed%3D2560'
 - alpn:
   - h2
-  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #86'
+  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #25'
   network: grpc
   port: 443
   server: 108.165.216.167
@@ -8288,7 +8254,7 @@ proxies:
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
 - alpn:
   - h2
-  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #89'
+  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #27'
   network: grpc
   port: 443
   server: 167.68.42.18
@@ -8296,7 +8262,7 @@ proxies:
   tls: true
   type: vless
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 🇸[openproxylist.com] vless-US`...
+- name: '🇸[openproxylist.com] vless-US`... #1'
   network: tcp
   port: 443
   server: 135.148.74.157
@@ -8306,7 +8272,7 @@ proxies:
   type: vless
   uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
 - client-fingerprint: chrome
-  name: '🆔@v2ray_configs_pool📡🇺🇸®️Unite... #4'
+  name: 🇺🇸[openproxylist.com] vless-US
   network: tcp
   port: 443
   server: 135.148.152.110
@@ -8314,28 +8280,16 @@ proxies:
   tls: true
   type: vless
   uuid: ea286109-d20f-415e-849e-4af20ab04b65
-- name: '🇺🇸[openproxylist.com] vless-US #1'
+- name: 🇸[openproxylist.com] vless-US
   network: tcp
   port: 443
-  server: 147.135.4.2
+  server: 135.148.74.151
   servername: 147135004002.sec20org.com
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-- alpn:
-  - h2
-  - http/1.1
-  name: 🇺🇸[openproxylist.com] vless-US
-  network: tcp
-  port: 443
-  server: 135.148.220.188
-  servername: 147135001195.sec22org.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: ea286109-d20f-415e-849e-4af20ab04b65
-- name: '🇺🇸[openproxylist.com] vless-US #2'
+- name: '🇺🇸[openproxylist.com] vless-US #1'
   network: ws
   port: 443
   server: 154.17.225.73
@@ -8356,7 +8310,7 @@ proxies:
   uuid: 2fc97eb0-d9d2-4567-99bf-bb5f64b5d5e9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇺🇸[openproxylist.com] vless-US #3'
+  name: '🇺🇸[openproxylist.com] vless-US #2'
   network: tcp
   port: 443
   reality-opts:
@@ -8367,37 +8321,41 @@ proxies:
   tls: false
   type: vless
   uuid: 02d3ce27-70f5-4d26-ae35-6e5840d5c1a0
-- name: '🇺🇸[openproxylist.com] vless-US #4'
+- name: '🇺🇸[openproxylist.com] vless-US #3'
   network: grpc
   port: 8880
   server: 45.82.251.150
   tls: false
   type: vless
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
-- name: '🇺🇸[openproxylist.com] vless-US #5'
+- name: '🇺🇸[openproxylist.com] vless-US #4'
   network: ws
   port: 8880
   server: 108.162.198.247
   servername: ex.sue.x10.mx
+  skip-cert-verify: true
   tls: false
   type: vless
   uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
   ws-opts:
     headers:
       Host: ex.sue.x10.mx
-    path: /Telegram
-- name: '🇺🇸[openproxylist.com] vless-US #6'
+    path: /Telegram🇨
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇸[openproxylist.com] vless-US #2'
   network: ws
   port: 443
-  server: 104.21.68.76
-  servername: ccCcCcCf.222769.Xyz
+  server: 104.21.29.205
+  servername: LlLLLlLLLLLkjh.222560.xyZ
   tls: true
   type: vless
   uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
   ws-opts:
     headers:
-      Host: cccccccf.222769.xyz
-    path: '%2F1xrOld7e5RpK3I98dxLkez'
+      Host: lllllllllllkjh.222560.xyz
+    path: /1xrOld7e5RpK3I98dxLkez
 - alterId: 64
   cipher: auto
   name: '🇺🇸[openproxylist.com] vmess-US #2'
@@ -8409,20 +8367,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h2
-  name: '🇺🇸[openproxylist.com] vless-US #7'
+  name: '🇺🇸[openproxylist.com] vless-US #5'
   network: grpc
   port: 443
-  server: 31.43.179.38
+  server: 89.116.180.248
   servername: pqh23v4.hiddendom.shop
   tls: true
   type: vless
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
-  ws-opts:
-    headers:
-      Host: pqh23v4.hiddendom.shop
 - alpn:
   - h2
-  name: '🇺🇸[openproxylist.com] vless-US #8'
+  name: '🇺🇸[openproxylist.com] vless-US #6'
   network: grpc
   port: 443
   server: 104.26.3.186
@@ -8430,18 +8385,6 @@ proxies:
   tls: true
   type: vless
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- client-fingerprint: chrome
-  name: '🇺🇸[openproxylist.com] vless-US #9'
-  network: tcp
-  port: 32401
-  reality-opts:
-    public-key: 8RJPuc5C7fcVe5LSQ0olGnhiqFL8LX-0pnLMrEHD1Bs
-    short-id: 7fb7a1507826c540
-  server: 86.104.72.211
-  servername: dl.google.com
-  tls: false
-  type: vless
-  uuid: a90e3756-d330-4597-bcc3-ab7905741e52
 - alpn:
   - h3
   fast-open: true

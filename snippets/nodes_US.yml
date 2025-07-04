@@ -244,7 +244,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: '🇺🇸_US_美国 #2'
+- name: '🇺🇸_US_美国 #3'
   network: ws
   password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
   port: 443
@@ -981,7 +981,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #14'
+  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #9'
   network: tcp
   port: 443
   server: abc.theyyszmn.sbs

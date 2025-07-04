@@ -93,7 +93,7 @@ proxies:
     path: /vpnjantit
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #521'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #156'
   network: ws
   port: 443
   server: 23.162.200.227
@@ -107,7 +107,21 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #109'
+  name: 🇨🇦CA-134.195.198.147-7305
+  network: ws
+  port: 443
+  server: 134.195.198.147
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: inna.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #33'
   network: ws
   port: 2095
   server: 104.19.48.236
@@ -121,7 +135,7 @@ proxies:
     path: /dabai.in104.17.28.240
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #612'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #65'
   network: ws
   port: 443
   server: 15.235.83.227
@@ -135,22 +149,9 @@ proxies:
     path: /linkvws
 - alpn:
   - h3
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #151'
-  network: ws
-  password: Aimer
-  port: 443
-  server: pranab.ns.cloudflare.com
-  sni: epml.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epml.ambercc.filegear-sg.me
-    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
-- alpn:
-  - h3
   - h2
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #601'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #70'
   network: ws
   password: Xa4^l(;.;B#a
   port: 443
@@ -161,7 +162,7 @@ proxies:
     headers:
       Host: s1.mitivpn.workers.dev
     path: '%2FtrUXByA1rnbs4YQ1Xw%3Fed%3D2560'
-- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #350'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #88'
   network: ws
   password: trojan
   port: 443
@@ -174,7 +175,7 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #225'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #104'
   network: ws
   port: 8443
   server: 104.21.80.1
@@ -185,7 +186,7 @@ proxies:
     headers:
       Host: us01.sh-cloudflare.sbs
     path: /
-- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #328'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #111'
   network: ws
   password: bpb-trojan
   port: 443
@@ -198,7 +199,7 @@ proxies:
     path: '%2Ftr'
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #498'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #152'
   network: ws
   port: 80
   server: OOoOOOooOp.222769.XYZ
@@ -212,7 +213,7 @@ proxies:
     path: /VaaSEfNLHdW3I98dxLkez
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #518'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #153'
   network: ws
   port: 8443
   server: 104.21.96.1
@@ -225,7 +226,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #567'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #176'
   network: ws
   port: 443
   server: 15.235.50.172

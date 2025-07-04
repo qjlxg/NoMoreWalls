@@ -1,35 +1,35 @@
 proxies:
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_9
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_9 #1'
   network: tcp
   password: 3549abda-3854-11ef-b71e-f23c9164ca5d
   port: 27235
   server: 4720bf9e-sytz40-t0r7l4-1ruih.cm5.cnkuaishou.com
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_5
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_5 #1'
   network: tcp
   password: 225d1cca-d744-11ef-b790-f23c91cfbbc9
   port: 27235
   server: 0a7a80dc-sytz40-szxh9w-46gc.cm5.cnkuaishou.com
   type: trojan
-- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_3 #1'
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_16 #1'
   network: tcp
   password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
   port: 27235
   server: 4edfad82-sytz40-tcmken-19les.cm5.cnkuaishou.com
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_4
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_4 #1'
   network: tcp
   password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
   port: 27235
   server: 04000a76-sytz40-tb74a6-1q9g2.cm5.cnkuaishou.com
   type: trojan
-- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_4 #1'
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_8 #1'
   network: tcp
   password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
   port: 27235
   server: 274ba953-sytz40-t09za6-1m0fq.cm5.cnkuaishou.com
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_1
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_1 #1'
   network: tcp
   password: 4088a148-dbec-11ec-bd7c-f23c913c8d2b
   port: 27235
@@ -146,7 +146,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #11'
+  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #8'
   network: tcp
   password: telegram-id-v2rayvpnchannel
   port: 22223

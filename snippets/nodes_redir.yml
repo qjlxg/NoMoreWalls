@@ -109,43 +109,43 @@ proxies:
   server: a784fd6f-sytz40-t2c3sq-1spnr.cu2.plebai.net
   skip-cert-verify: false
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_2
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_2 #1'
   network: tcp
   password: 8f99107c-f091-11ee-9935-f23c9164ca5d
   port: 27235
   server: c5ce6f77-sytz40-ta64ri-1qzi1.cm5.cnkuaishou.com
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_3
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_3 #1'
   network: tcp
   password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
   port: 27235
   server: 83edf522-sytz40-t4qa9y-g43g.cm5.cnkuaishou.com
   type: trojan
-- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_1 #1'
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_6 #1'
   network: tcp
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 27235
   server: 916030df-sytz40-t16ejh-1rdqg.cm5.cnkuaishou.com
   type: trojan
-- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_6 #1'
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_7 #1'
   network: tcp
   password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
   port: 27235
   server: c3fe9cc6-sytz40-thv9l4-1jbj0.cm5.cnkuaishou.com
   type: trojan
-- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_5 #1'
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_10 #1'
   network: tcp
   password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
   port: 27235
   server: 1dde7ddd-sytz40-tbpu76-1thmd.cm5.cnkuaishou.com
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_11
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_11 #1'
   network: tcp
   password: 9e1ddc04-073b-11ed-bd7c-f23c913c8d2b
   port: 15229
   server: d0dfa01d-sytz40-t1jamc-1fvdh.cu2.plebai.net
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_12
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_12 #1'
   network: tcp
   password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
   port: 27235
@@ -153,7 +153,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #2'
   network: ws
   port: 30829
   server: 111.26.109.79
@@ -162,44 +162,23 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     path: /oooo
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_13
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_13 #1'
   network: tcp
   password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
   port: 15229
   server: a784fd6f-sytz40-t2c3sq-1spnr.cu2.plebai.net
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_14
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_14 #1'
   network: tcp
   password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
   port: 27235
   server: 864a90fc-sytz40-tee612-2r82.cm5.cnkuaishou.com
   type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_15
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_15 #1'
   network: tcp
   password: 80f73b42-8264-11ef-8dc4-f23c91cfbbc9
   port: 27235
   server: 7a89c69d-sytz40-tbvl5i-1mebs.cm5.cnkuaishou.com
-  type: trojan
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  network: tcp
-  password: 55f2afab-bc41-4231-b725-76bef15c3cf7
-  port: 55799
-  server: lm.kaiqsz.com
-  sni: mmbiz10.redapricotcloud.com
-  type: trojan
-- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_2 #1'
-  network: tcp
-  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-  port: 27235
-  server: ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com
-  sni: ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com
-  type: trojan
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
-  network: tcp
-  password: 55f2afab-bc41-4231-b725-76bef15c3cf7
-  port: 54031
-  server: lm.kaiqsz.com
-  sni: mmbiz10.redapricotcloud.com
   type: trojan
 - alterId: 0
   cipher: auto

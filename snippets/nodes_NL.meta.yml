@@ -457,7 +457,7 @@ proxies:
     headers:
       Host: www.speedtest.net.ftp.debian.org.%E8%87%AA%E5%B7%B1%E4%B8%8D%E5%8E%BB%E7%9C%8B%E5%95%A5%E4%BA%8B%E6%83%85%E5%9F%BA%E6%9C%AC%E4%BA%8B%E4%BA%8B.mobilewersach.ir.
     path: '%2FVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%3Fed%3D2560'
-- name: 🇱NL_1362_@Surfboardv2ray
+- name: 🇱NL_1353_@Surfboardv2ray
   network: httpupgrade
   port: 2095
   server: www.venzo.com.tr
@@ -468,7 +468,7 @@ proxies:
     headers:
       Host: egzoz3.ai351.com
     path: /?ed=2095
-- name: 🇱NL_3053_@Surfboardv2ray
+- name: 🇱NL_3058_@Surfboardv2ray
   network: httpupgrade
   port: 2095
   server: www.venzo.com.tr
@@ -861,7 +861,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 3038024f-3a34-4228-b61c-d741b2fbec8f
-- name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #1'
+- name: 👉🆔@v2ray_configs_pool📡®️The Ne...
   network: tcp
   port: 8880
   server: 0lan.amazon-osishop.ir
@@ -892,7 +892,7 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #20'
+  name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #1'
   network: xhttp
   port: 80
   reality-opts:
@@ -907,7 +907,7 @@ proxies:
     headers:
       Host: bleep.global.ssl.fastly.net
     path: '%2Fpwp'
-- name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #18'
+- name: '👉🆔@v2ray_configs_pool📡🇱®️The N... #1'
   network: tcp
   port: 2200
   server: 84.32.190.1
@@ -918,7 +918,7 @@ proxies:
     headers:
       Host: zula.ir
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡®️The Ne... #1'
+  name: '👉🆔@v2ray_configs_pool📡®️The Ne... #2'
   network: xhttp
   port: 80
   reality-opts:
@@ -935,7 +935,7 @@ proxies:
     path: '%2Fpwp'
 - alterId: 32
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #24'
+  name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #10'
   network: ws
   port: 443
   server: vc.fly.dev

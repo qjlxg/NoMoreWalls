@@ -1409,7 +1409,7 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: '@Hope_Net-join-us-on-Telegram #146'
+- name: 👉🆔@v2ray_configs_pool📡🇰®️Hong ...
   network: ws
   port: 2087
   server: 27.50.49.209
@@ -1421,7 +1421,7 @@ proxies:
     path: '%2F%3Fed'
 - alterId: 2
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇭🇰®️Hong... #5'
+  name: '👉🆔@v2ray_configs_pool📡🇭🇰®️Hong... #2'
   network: ws
   port: 80
   server: 24b01428-sv2sg0-td1l1t-1s824.hk.p5pv.com
@@ -1461,11 +1461,11 @@ proxies:
     path: /
 - name: 🇰[openproxylist.com] vless-HK
   network: tcp
-  port: 38971
+  port: 40830
   server: 47.76.81.217
   tls: false
   type: vless
-  uuid: 633d3f6b-5f34-4ef8-b240-01667f6dd07d
+  uuid: 4d5903dd-5d8a-4879-9e0d-cf12b8404b8e
 - client-fingerprint: chrome
   name: '🇰[openproxylist.com] vless-HK #1'
   network: ws
