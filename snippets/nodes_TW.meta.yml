@@ -1,1 +1,35 @@
-proxies: []
+proxies:
+- name: 'https://t.me/VTWORAY_WOLF #2'
+  network: httpupgrade
+  port: 80
+  server: speedtest-fr5.gcore.com
+  tls: false
+  type: vless
+  uuid: f4e82258-9328-46fe-bac7-8d31a905e25a
+  ws-opts:
+    headers:
+      Host: ap.ir
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: 台湾v2|@ripaojiedian
+  network: kcp
+  port: '17023'
+  server: 45.43.37.253
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fe797d32-6607-4b46-8e39-c4fb1e3c0872
+- client-fingerprint: chrome
+  name: '[openproxylist.com] vless-TW'
+  network: ws
+  port: 8443
+  server: 104.21.3.219
+  servername: ovhwuxian.pai50288.uk
+  tls: true
+  type: vless
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  ws-opts:
+    headers:
+      Host: ovhwuxian.pai50288.uk
+    path: /57ba2ab1

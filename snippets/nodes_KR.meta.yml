@@ -1,1 +1,61 @@
-proxies: []
+proxies:
+- name: '🇰🇷https://t.me/vpn_iossعضو+شو #6'
+  password: cd27884b-c5af-34ec-b75f-8248077818fe
+  port: 8443
+  server: 2.hg.kr.cat77.cloud
+  type: trojan
+- name: (S109)🇨🇵t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.38.46.232
+  type: trojan
+- name: '🇰🇷https://t.me/vpn_iossعضو+شو #1'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.219.170.164
+  type: trojan
+- name: '🇰🇷https://t.me/vpn_iossعضو+شو #3'
+  password: cd27884b-c5af-34ec-b75f-8248077818fe
+  port: 8443
+  server: 3.hg.kr.cat77.cloud
+  type: trojan
+- name: '🇹🇴https://t.me/vpn_iossعضو+شو #3'
+  password: 71354f48-e8c8-4c4c-a967-47d7ac5e953c
+  port: 443
+  server: jk.jkk.mkitty.top
+  type: trojan
+- name: '🇰🇷https://t.me/vpn_iossعضو+شو #2'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.130.234.249
+  type: trojan
+- name: (S784)🇨🇮t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.202.212.242
+  type: trojan
+- name: (S715)🇨🇵t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.36.160.12
+  type: trojan
+- name: '🇰🇷https://t.me/vpn_iossعضو+شو #8'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.237.100.107
+  type: trojan
+- name: (S709)🇨🇮t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.253.22.44
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇰🇷 KR-45.82.246.17...
+  network: tcp
+  port: '26521'
+  server: 45.82.246.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cff7001e-3a74-43e8-bfd8-a7af9630a58b

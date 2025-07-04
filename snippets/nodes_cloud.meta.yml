@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- name: '@V2rayi_net #12'
+  network: httpupgrade
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: c.4.www.speedtest.net.zula.ir.zemestanil.iR.
+    path: '%2FTelegram-ipV2Ray%3Fed%3D2048'

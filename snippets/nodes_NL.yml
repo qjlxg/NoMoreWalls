@@ -1,1 +1,90 @@
-proxies: []
+proxies:
+- name: Netherlands
+  network: tcp
+  password: 7d2f4381-c5d5-38ae-9ee9-5dd8e37f66d7
+  port: 443
+  server: 45.67.228.199
+  type: trojan
+- name: (S111)🇬🇧t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.169.162.105
+  type: trojan
+- name: 🇳🇱+https://t.me/vpn_iossعضو+شو
+  password: 4cfb5b98-5a9d-4c6d-8911-25deca297fa1
+  port: 7708
+  server: air-amsterdam13.900513.xyz
+  type: trojan
+- name: '🇳🇱https://t.me/vpn_iossعضو+شو #1'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 44.197.239.115
+  type: trojan
+- name: (S750)🇩🇪t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.196.81.92
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇳🇱 NL-152.53.104.3...
+  network: tcp
+  port: '56322'
+  server: 152.53.104.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d
+- alterId: 0
+  cipher: auto
+  name: '🔒 VM-TCP-NA 🇳🇱 NL-152.53.104.3... #1'
+  network: tcp
+  port: '56320'
+  server: 152.53.104.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d
+- alterId: 64
+  cipher: auto
+  name: 🔒 VM-WS-TLS 🇳🇱 NL-46.182.107.1...
+  network: ws
+  port: '41000'
+  server: 46.182.107.109
+  servername: www.42031742.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42031742.xyz
+    path: /path/170733132233
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇳🇱 NL-45.12.145.11...
+  network: tcp
+  port: 46290
+  server: 45.12.145.111
+  tls: false
+  type: vmess
+  uuid: 1b41153e-c4d4-431b-83eb-10472f869f93
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇳🇱 NL-45.8.145.145...
+  network: tcp
+  port: '30520'
+  server: 45.8.145.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3038024f-3a34-4228-b61c-d741b2fbec8f
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: '12540'
+  server: 93.115.172.175
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 056d3d35-a729-4ab4-bbae-d71d8458af19

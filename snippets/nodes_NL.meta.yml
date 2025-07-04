@@ -1,1 +1,658 @@
-proxies: []
+proxies:
+- name: 🇳🇱
+  network: httpupgrade
+  port: 2052
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 5a31818e-2b54-533a-a3e2-24f7da8d7e86
+  ws-opts:
+    headers:
+      Host: www-domain.nl1.vless.sitespeedtest.net
+    path: '%2Fhttpupgrade%3Fed%3D%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi'
+- name: 🇳🇱+VMESSKHODAM
+  network: httpupgrade
+  port: 8880
+  server: zula.ir
+  tls: false
+  type: vless
+  uuid: 53b890c5-de2e-4b67-a51b-ac70891064f4
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.ftp.debian.org.%E8%87%AA%E5%B7%B1%E4%B8%8D%E5%8E%BB%E7%9C%8B%E5%95%A5%E4%BA%8B%E6%83%85%E5%9F%BA%E6%9C%AC%E4%BA%8B%E4%BA%8B.mobilewersach.ir.
+    path: '%2FVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%3Fed%3D2560'
+- name: 🇨🇦🌏+@v2ray_v_vpn+کانفیگ+های+بی...
+  network: httpupgrade
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 2f1f7fbf-f37d-4275-c014-298a83f4e5a8
+  ws-opts:
+    headers:
+      Host: 1i2.diginoshops1.ir
+    path: '%2F'
+- name: '🇳🇱 👉 تمامی اینترنت ها '
+  network: httpupgrade
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 2fe4a10b-6116-4003-b0b9-5d8c4416c7ae
+  ws-opts:
+    headers:
+      Host: sub-89ytdd0zy-rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--qeiaa57238baaaaaaabaacaaaaaaaaaaaaaaaaaaaaa.apaspeedtest.netrat.com.eu.com.shw814.ir.xn--cr8haaaaaaaaaaaaaaaaa.xn--g28h.My-DigImeTo.iR.
+    path: '%2F%3Fed%3D2056'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇳🇱📡@serversiran
+  network: httpupgrade
+  port: 443
+  server: tabnak.twn24.ir
+  servername: tabnak.twn24.ir
+  tls: true
+  type: vless
+  uuid: 5b608ce2-011a-43aa-9e6c-0e93b3983edd
+  ws-opts:
+    headers:
+      Host: tabnak.twn24.ir
+    path: '%2F37089%2F%3Fed%3D2048'
+- name: (🇳🇱)TELEGRAM●ThunderV2ray
+  network: httpupgrade
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 10-wordpress-admin-cpanel-chanel-github-iran185.mralpha-vpn.com
+    path: /Telegram,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray%3Fed%3D2048
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: TurbooServer🇳🇱
+  network: splithttp
+  port: 443
+  server: proxy.quickturboserver.com
+  servername: proxy.quickturboserver.com
+  tls: true
+  type: vless
+  uuid: f0922303-e24b-4906-b6e3-80fe0daea854
+  ws-opts:
+    headers:
+      Host: proxy.quickturboserver.com
+    path: '%2FtClMH0V4j8vM7Ysq9IRZL'
+- name: (🇳🇱)TELEGRAMThunderV2ray
+  network: httpupgrade
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 10-wordpress-admin-cpanel-chanel-github-iran185.mralpha-vpn.com
+    path: /Telegram,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray%3Fed%3D2048
+- name: ()TELEGR
+  network: httpupgrade
+  port: 8880
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 10-wordpress-admin-cpanel-chanel-github-iran185.mralpha-vpn.com
+    path: /Telegram,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray%3Fed%3D2048
+- name: '(🇳🇱)TELEGRAM●ThunderV2ray #2'
+  network: httpupgrade
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 10-wordpress-admin-cpanel-chanel-github-iran185.mralpha-vpn.com
+    path: /Telegram,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray%3Fed%3D2048
+- name: '(🇳🇱)TELEGRAM●ThunderV2ray #3'
+  network: httpupgrade
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 10-wordpress-admin-cpanel-chanel-github-iran185.mralpha-vpn.com
+    path: /Telegram,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray%3Fed%3D2048
+- name: '(🇳🇱)TELEGRAM●ThunderV2ray #4'
+  network: httpupgrade
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 10-wordpress-admin-cpanel-chanel-github-iran185.mralpha-vpn.com
+    path: /Telegram,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray%3Fed%3D2048
+- name: '@v2ray_npv1 #9'
+  network: httpupgrade
+  port: 8880
+  server: 185.146.173.39
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Search.DigiKala.CYoU.
+    path: '%2F'
+- name: '(🇳🇱)TELEGRAM●ThunderV2ray #5'
+  network: httpupgrade
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 10-wordpress-admin-cpanel-chanel-github-iran185.mralpha-vpn.com
+    path: /Telegram,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray%3Fed%3D2048
+- name: '(🇳🇱)TELEGRAM●ThunderV2ray #6'
+  network: httpupgrade
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 10-wordpress-admin-cpanel-chanel-github-iran185.mralpha-vpn.com
+    path: /Telegram,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray,ThunderV2ray%3Fed%3D2048
+- name: '(🇳🇱)TELEGRAM●ThunderV2ray #7'
+  network: httpupgrade
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 10-wordpress-admin-cpanel-chanel-github-iran185.mralpha-vpn.com
+    path: '%2FTELEGRAM%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%2CTunderv2-ray%3Fed%3D2048'
+- name: '🇳🇱+VMESSKHODAM #1'
+  network: httpupgrade
+  port: 8880
+  server: zula.ir
+  tls: false
+  type: vless
+  uuid: eb86b972-2a95-450b-be37-ae5eb8528ef4
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.ftp.debian.org.%E8%87%AA%E5%B7%B1%E4%B8%8D%E5%8E%BB%E7%9C%8B%E5%95%A5%E4%BA%8B%E6%83%85%E5%9F%BA%E6%9C%AC%E4%BA%8B%E4%BA%8B.mobilewersach.ir.
+    path: '%2FVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%3Fed%3D2560'
+- name: '🇳🇱+VMESSKHODAM #2'
+  network: httpupgrade
+  port: 8880
+  server: zula.ir
+  tls: false
+  type: vless
+  uuid: bcbb17ea-1304-4fd9-ac4c-e147c151e769
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.ftp.debian.org.%E8%87%AA%E5%B7%B1%E4%B8%8D%E5%8E%BB%E7%9C%8B%E5%95%A5%E4%BA%8B%E6%83%85%E5%9F%BA%E6%9C%AC%E4%BA%8B%E4%BA%8B.mobilewersach.ir.
+    path: '%2FVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%3Fed%3D2560'
+- name: '🚀 - 𝗔𝗟𝗟 𝗡𝗘𝗧 | 🇳🇱 '
+  network: httpupgrade
+  port: 2082
+  server: date.akco16.fun
+  tls: false
+  type: vless
+  uuid: 7e8bd14f-56ac-4b3f-bc5e-17ea58e1e2da
+  ws-opts:
+    headers:
+      Host: holand.asraschool.ir
+    path: '%2F%3Fed%3D2560'
+- name: '🇳🇱+VMESSKHODAM #3'
+  network: httpupgrade
+  port: 8880
+  server: zula.ir
+  tls: false
+  type: vless
+  uuid: cce8d877-65fb-455d-9109-94e969494d65
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.ftp.debian.org.%E8%87%AA%E5%B7%B1%E4%B8%8D%E5%8E%BB%E7%9C%8B%E5%95%A5%E4%BA%8B%E6%83%85%E5%9F%BA%E6%9C%AC%E4%BA%8B%E4%BA%8B.mobilewersach.ir.
+    path: '%2FVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%3Fed%3D2560'
+- name: 🇱NL_1431_@Surfboardv2ray
+  network: httpupgrade
+  port: 2095
+  server: www.venzo.com.tr
+  tls: false
+  type: vless
+  uuid: 3294381c-2efe-4de4-be58-50aa8973d289
+  ws-opts:
+    headers:
+      Host: egzoz3.ai351.com
+    path: /?ed=2095
+- name: 🇱NL_3240_@Surfboardv2ray
+  network: httpupgrade
+  port: 2095
+  server: www.venzo.com.tr
+  tls: false
+  type: vless
+  uuid: 881bc54d-4a96-46d0-814c-c261718293f5
+  ws-opts:
+    headers:
+      Host: srv6.amazon-osishop.ir
+    path: /hu?ed=2095
+- name: 荷兰_070413132
+  network: httpupgrade
+  port: 8880
+  server: 5.10.246.224
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: '%2F'
+- name: 荷兰_070413133
+  network: httpupgrade
+  port: 8880
+  server: 45.131.7.126
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: '%2F'
+- name: 荷兰_070413280
+  network: httpupgrade
+  port: 8880
+  server: 45.131.4.211
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413293
+  network: httpupgrade
+  port: 8880
+  server: 45.131.211.246
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413306
+  network: httpupgrade
+  port: 8880
+  server: 5.10.245.60
+  tls: false
+  type: vless
+  uuid: 99727208-0086-43f9-f0ad-9e30f546b822
+  ws-opts:
+    headers:
+      Host: hamidjon.ddigicyber.click.
+    path: //telegram-NUFiLTER
+- name: 荷兰_070413310
+  network: httpupgrade
+  port: 8880
+  server: 5.10.245.225
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413323
+  network: httpupgrade
+  port: 8880
+  server: 5.10.245.59
+  tls: false
+  type: vless
+  uuid: 99727208-0086-43f9-f0ad-9e30f546b822
+  ws-opts:
+    headers:
+      Host: hamidjon.ddigicyber.click.
+    path: //telegram-NUFiLTER
+- name: 荷兰_070413325
+  network: httpupgrade
+  port: 8880
+  server: 5.10.246.128
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413347
+  network: httpupgrade
+  port: 8880
+  server: 45.131.210.197
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413388
+  network: httpupgrade
+  port: 8880
+  server: 45.131.209.182
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413396
+  network: httpupgrade
+  port: 8880
+  server: 5.10.246.90
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413420
+  network: httpupgrade
+  port: 8880
+  server: 5.10.245.140
+  tls: false
+  type: vless
+  uuid: 730f02b4-a187-4498-b3fa-9e9f1dccf47c
+  ws-opts:
+    headers:
+      Host: dl1.mcinet.xyz.
+    path: ''
+- name: 荷兰_070413423
+  network: httpupgrade
+  port: 8880
+  server: 45.131.211.92
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413449
+  network: httpupgrade
+  port: 8880
+  server: 45.131.211.150
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413473
+  network: httpupgrade
+  port: 8880
+  server: 45.131.208.38
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413475
+  network: httpupgrade
+  port: 8880
+  server: 45.131.5.165
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413492
+  network: httpupgrade
+  port: 2052
+  server: 45.131.4.5
+  tls: false
+  type: vless
+  uuid: 8cf73792-0b3e-8e8b-f833-e86067f7a22c
+  ws-opts:
+    headers:
+      Host: 2.v2.www.speedtest.net.blue99shop.ir.
+    path: ''
+- name: 荷兰_070413496
+  network: httpupgrade
+  port: 8880
+  server: 45.131.210.199
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413502
+  network: httpupgrade
+  port: 8880
+  server: 45.131.209.110
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413529
+  network: httpupgrade
+  port: 8880
+  server: 5.10.247.50
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413559
+  network: httpupgrade
+  port: 8880
+  server: 45.131.7.157
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413586
+  network: httpupgrade
+  port: 8880
+  server: 5.10.245.233
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413595
+  network: httpupgrade
+  port: 8880
+  server: 45.131.211.3
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 荷兰_070413598
+  network: httpupgrade
+  port: 8880
+  server: 45.131.7.251
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: Netherlands
+  network: tcp
+  password: 7d2f4381-c5d5-38ae-9ee9-5dd8e37f66d7
+  port: 443
+  server: 45.67.228.199
+  type: trojan
+- name: (S111)🇬🇧t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.169.162.105
+  type: trojan
+- name: 🇳🇱+https://t.me/vpn_iossعضو+شو
+  password: 4cfb5b98-5a9d-4c6d-8911-25deca297fa1
+  port: 7708
+  server: air-amsterdam13.900513.xyz
+  type: trojan
+- name: '🇳🇱https://t.me/vpn_iossعضو+شو #1'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 44.197.239.115
+  type: trojan
+- name: (S750)🇩🇪t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.196.81.92
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇳🇱 NL-152.53.104.3...
+  network: tcp
+  port: '56322'
+  server: 152.53.104.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d
+- alterId: 0
+  cipher: auto
+  name: '🔒 VM-TCP-NA 🇳🇱 NL-152.53.104.3... #1'
+  network: tcp
+  port: '56320'
+  server: 152.53.104.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d
+- alterId: 64
+  cipher: auto
+  name: 🔒 VM-WS-TLS 🇳🇱 NL-46.182.107.1...
+  network: ws
+  port: '41000'
+  server: 46.182.107.109
+  servername: www.42031742.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42031742.xyz
+    path: /path/170733132233
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇳🇱 NL-45.12.145.11...
+  network: tcp
+  port: 46290
+  server: 45.12.145.111
+  tls: false
+  type: vmess
+  uuid: 1b41153e-c4d4-431b-83eb-10472f869f93
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇳🇱 NL-45.8.145.145...
+  network: tcp
+  port: '30520'
+  server: 45.8.145.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3038024f-3a34-4228-b61c-d741b2fbec8f
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: '12540'
+  server: 93.115.172.175
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 056d3d35-a729-4ab4-bbae-d71d8458af19
+- name: '👉🆔@v2ray_configs_pool📡🇱®️The N... #1'
+  network: ws
+  port: 26066
+  server: 5.255.124.97
+  tls: false
+  type: vless
+  uuid: 5e251be5-4736-49ff-80cf-b41639949a4d
+  ws-opts:
+    path: '%2F'
+- client-fingerprint: chrome
+  name: 👉🆔@v2ray_configs_pool📡🇳🇱®️The ...
+  network: xhttp
+  port: 80
+  reality-opts:
+    public-key: C4LNbOB3Ar0cntu528Jtn5ivsMZhyk9tkuAlU-jeCio
+    short-id: 8c
+  server: 5.255.120.217
+  servername: journalofbigdata.springeropen.com
+  tls: false
+  type: vless
+  uuid: 2e671ca5-32a0-40e4-94a0-c2655f263a88
+  ws-opts:
+    headers:
+      Host: bleep.global.ssl.fastly.net
+    path: '%2Fpwp'
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇱®️The N... #2'
+  network: ws
+  port: 443
+  server: 95.215.8.25
+  servername: zula.ir
+  tls: true
+  type: vless
+  uuid: 0a9b5598-e5c6-5a96-9c37-2a8f1eee2cce
+  ws-opts:
+    headers:
+      Host: 95.215.8.25
+    path: '%2Fvless'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #1'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ
+    short-id: 21181028b56c8702
+  server: 185.193.158.10
+  servername: maviks.eu
+  tls: false
+  type: vless
+  uuid: f14d0d37-9c0e-4376-9d33-94aba1859e47
+  ws-opts:
+    headers:
+      Host: telegram-join-v2xaytelegram-join-v2xay-telegram-join

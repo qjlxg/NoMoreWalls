@@ -1,1 +1,33 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '@v2reyy #22489'
+  network: tcp
+  port: '443'
+  server: 167.235.205.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: '@meli_proxyyسرورای‌بیشتر #6'
+  network: tcp
+  port: '10534'
+  server: 94.136.185.230
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b01c7ef9-33ec-41f6-bfbf-77ddc4d21649
+- name: 🇳[openproxylist.com] trojan-IN
+  network: ws
+  password: ttfang
+  port: 2053
+  server: 166.0.244.206
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /

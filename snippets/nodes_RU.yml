@@ -1,1 +1,86 @@
-proxies: []
+proxies:
+- name: '@V2ray_NG🇷🇺'
+  password: 49f09099-f2c0-405e-baca-cd0567f3fb74
+  port: 443
+  server: ru.mjt001.com
+  type: trojan
+- name: '@V2ray_NG🇷🇺 #1'
+  password: 40fd551a-0bbe-460d-b0d9-4bf4ad413b0f
+  port: 443
+  server: insaneguo2333.top
+  type: trojan
+- name: 🇷🇺_Tel:@vless_vmess
+  password: f23e9db3-65bf-42a6-9cea-1f95d38fd9c0
+  port: 443
+  server: t2.teslacdn2.live
+  type: trojan
+- name: '(S864)🇬🇧t.me/PrivateVPNs #1'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.134.76.164
+  type: trojan
+- name: '(S807)🇸🇪t.me/PrivateVPNs #1'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.53.81.116
+  type: trojan
+- name: (S776)🇸🇪t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.50.144.161
+  type: trojan
+- name: '🇩🇪https://t.me/vpn_iossعضو+شو #9'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.239.213.155
+  type: trojan
+- name: '🇷🇺https://t.me/vpn_iossعضو+شو #8'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 44.199.234.210
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇷🇺 RU-45.12.114.15...
+  network: tcp
+  port: '20779'
+  server: 45.12.114.15
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9dc5bff8-bcbb-4703-b0fe-4f91ba517402
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-WS-NA 🇷🇺 RU-31.129.105.23...
+  network: ws
+  port: '16231'
+  server: 31.129.105.239
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 793e03cc-2b08-4d1b-bb0b-592567d19043
+  ws-opts:
+    headers:
+      Host: 31.129.105.239
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 🔒 VM-WS-TLS 🇷🇺 RU-185.133.42.1...
+  network: ws
+  port: '30001'
+  server: 185.133.42.144
+  servername: www.17336793.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.17336793.xyz
+    path: /path/170733132233
+- name: 👉🆔@v2ray_configs_pool📡🇺®️Russi...
+  password: Aimer
+  port: 2096
+  server: 213.109.205.55
+  skip-cert-verify: true
+  sni: agept.ambercc.filegear-sg.me
+  type: trojan
