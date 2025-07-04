@@ -143,17 +143,6 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: '%2FTelegram%40WangCai2%2F%3Fed%3D2560'
-- name: '👉🆔@v2ray_configs_pool📡🇧®️Unite... #3'
-  network: httpupgrade
-  port: 80
-  server: 141.101.121.19
-  tls: false
-  type: vless
-  uuid: a1f9998f-e611-4cd6-81d9-7dc10ef619a8
-  ws-opts:
-    headers:
-      Host: www.sPeedtest.net.ElectrOluxxv.iR.
-    path: '%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%3Fed%3D2048'
 - name: 🇬🇧
   network: httpupgrade
   port: 2052
@@ -3644,6 +3633,15 @@ proxies:
     path: /azumase.ren
 - alterId: 0
   cipher: auto
+  name: 🇬🇧 江苏省宿迁市 蒲公英网络有限公司
+  network: tcp
+  port: '45237'
+  server: fa.fxlcn.com
+  tls: false
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+- alterId: 0
+  cipher: auto
   name: 🔒 VM-TCP-NA 🇬🇧 GB-5.180.30.85:...
   network: tcp
   port: '18598'
@@ -3674,7 +3672,7 @@ proxies:
   uuid: b2347239-dd15-40b3-b683-50cc2ff19ae7
 - alterId: 0
   cipher: auto
-  name: 🔒 VM-TCP-NA 🇬🇧 GB-51.38.64.209...
+  name: '🇬🇧[openproxylist.com] vmess-GB #1'
   network: tcp
   port: '44023'
   server: 51.38.64.209
@@ -3692,7 +3690,7 @@ proxies:
   tls: false
   type: vmess
   uuid: a75f3f95-ad4e-4498-fc72-dd740dd02bfc
-- name: 👉🆔@v2ray_configs_pool📡🇧®️Unite...
+- name: 👉🆔@v2ray_configs_pool📡®️United...
   network: tcp
   port: 8080
   server: 62.60.155.170
@@ -3702,7 +3700,7 @@ proxies:
   ws-opts:
     headers:
       Host: SpeedTest.NET
-- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #1'
+- name: 👉🆔@v2ray_configs_pool📡🇬🇧®️Unit...
   network: tcp
   port: 443
   server: 1237273737goodfiru.mongral.ir
@@ -3713,206 +3711,46 @@ proxies:
     headers:
       Host: speedtest.net
     path: /ParsCDN.Telegram.ParsCDN
-- client-fingerprint: random
-  name: '[openproxylist.com] vless-GB``...'
-  network: ws
-  port: 2096
-  server: 104.19.223.79
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s07.gatesriver.ir
-  tls: true
-  type: vless
-  uuid: 7585f059-2c89-4a02-9dff-394bb7913ef5
-  ws-opts:
-    headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s07.gatesriver.ir
-    path: '%2F'
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇧®️Unite... #1'
+  name: '👉🆔@v2ray_configs_pool📡®️United... #3'
   network: tcp
   port: 1370
   reality-opts:
     public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
     short-id: e1afb93bfe75a34b
-  server: v10.vxlimir.com
+  server: 57.128.167.167
   servername: refersion.com
   tls: false
   type: vless
   uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡®️United... #4'
+  network: xhttp
+  port: 2052
+  reality-opts:
+    public-key: -4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io
+    short-id: f8fcb589
+  server: vip1.proxystore11.news
+  servername: vultr.com
+  tls: false
+  type: vless
+  uuid: deea9dec-8e01-41b6-b245-c565ff516d0b
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: '%2Fprx11'
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #2'
+  name: 🇧[openproxylist.com] vless-GB
   network: tcp
   port: 1370
   reality-opts:
     public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
     short-id: e1afb93bfe75a34b
-  server: v02.vxlimir.com
+  server: 51.89.230.95
   servername: refersion.com
   tls: false
   type: vless
   uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #3'
-  network: tcp
-  port: 1370
-  reality-opts:
-    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-    short-id: e1afb93bfe75a34b
-  server: v07.vxlimir.com
-  servername: refersion.com
-  tls: false
-  type: vless
-  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #4'
-  network: tcp
-  port: 1370
-  reality-opts:
-    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-    short-id: e1afb93bfe75a34b
-  server: v04.vxlimir.com
-  servername: refersion.com
-  tls: false
-  type: vless
-  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #5'
-  network: tcp
-  port: 1370
-  reality-opts:
-    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-    short-id: e1afb93bfe75a34b
-  server: v05.vxlimir.com
-  servername: refersion.com
-  tls: false
-  type: vless
-  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #6'
-  network: tcp
-  port: 1370
-  reality-opts:
-    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-    short-id: e1afb93bfe75a34b
-  server: v03.vxlimir.com
-  servername: refersion.com
-  tls: false
-  type: vless
-  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #7'
-  network: tcp
-  port: 1370
-  reality-opts:
-    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-    short-id: e1afb93bfe75a34b
-  server: v09.vxlimir.com
-  servername: refersion.com
-  tls: false
-  type: vless
-  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #8'
-  network: tcp
-  port: 1370
-  reality-opts:
-    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-    short-id: e1afb93bfe75a34b
-  server: v01.vxlimir.com
-  servername: refersion.com
-  tls: false
-  type: vless
-  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #9'
-  network: tcp
-  port: 1370
-  reality-opts:
-    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-    short-id: e1afb93bfe75a34b
-  server: v11.vxlimir.com
-  servername: refersion.com
-  tls: false
-  type: vless
-  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #10'
-  network: tcp
-  port: 1370
-  reality-opts:
-    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-    short-id: e1afb93bfe75a34b
-  server: v14.vxlimir.com
-  servername: refersion.com
-  tls: false
-  type: vless
-  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- name: '👉🆔@v2ray_configs_pool📡🇧®️Unite... #2'
-  network: ws
-  port: 8080
-  server: 141.101.121.55
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
-    path: '%2F%3Fed'
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #11'
-  network: tcp
-  port: 1370
-  reality-opts:
-    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-    short-id: e1afb93bfe75a34b
-  server: v12.vxlimir.com
-  servername: refersion.com
-  tls: false
-  type: vless
-  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - client-fingerprint: chrome
   name: 🇬🇧[openproxylist.com] vless-GB
   network: tcp
@@ -3925,104 +3763,6 @@ proxies:
   tls: false
   type: vless
   uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-- client-fingerprint: chrome
-  name: '[openproxylist.com] vless-GB'
-  network: tcp
-  port: 1370
-  reality-opts:
-    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-    short-id: e1afb93bfe75a34b
-  server: 51.89.230.95
-  servername: refersion.com
-  tls: false
-  type: vless
-  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #19'
-  network: tcp
-  port: 1370
-  reality-opts:
-    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-    short-id: e1afb93bfe75a34b
-  server: 51.195.233.195
-  servername: refersion.com
-  tls: false
-  type: vless
-  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇧®️Unite... #5'
-  network: ws
-  port: 443
-  server: 194.147.35.250
-  servername: zula.ir
-  tls: true
-  type: vless
-  uuid: 2bc38bf1-e880-5b6b-8795-590c7a67258e
-  ws-opts:
-    headers:
-      Host: 194.147.35.250
-    path: '%2Fvless'
-- client-fingerprint: randomized
-  grpc-opts:
-    grpc-service-name: t.me/entryNET
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #14'
-  network: grpc
-  port: 32135
-  reality-opts:
-    public-key: 0nV4IrMDDWiuFhntmuTBnQT3Q2uPagsRV1p4KXRnzCk
-    short-id: 085753500f657097
-  server: mariz.kuckenpq.ir
-  servername: journalofbigdata.springeropen.com
-  tls: false
-  type: vless
-  uuid: 71a3cd5b-90cf-4fea-b286-e011b31438cf
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #16'
-  network: tcp
-  port: 1370
-  reality-opts:
-    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-    short-id: e1afb93bfe75a34b
-  server: 51.89.175.164
-  servername: refersion.com
-  tls: false
-  type: vless
-  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #17'
-  network: ws
-  port: 8880
-  server: 91.193.58.88
-  servername: sk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #18'
-  network: tcp
-  port: 1370
-  reality-opts:
-    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-    short-id: e1afb93bfe75a34b
-  server: v04.vxlimir.com
-  servername: refersion.com
-  tls: false
-  type: vless
-  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
-- alpn:
-  - h2
-  name: '👉🆔@v2ray_configs_pool📡🇧®️Unite... #7'
-  network: grpc
-  port: 443
-  server: 185.135.9.3
-  servername: pqh36v4.hiddendom.shop
-  tls: true
-  type: vless
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
 - alterId: 0
   cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
@@ -4033,7 +3773,7 @@ proxies:
   type: vmess
   uuid: 5e6e263e-6bc4-457d-8429-774533ce7467
 - client-fingerprint: chrome
-  name: '🇬🇧[openproxylist.com] vless-GB #1'
+  name: '🇧[openproxylist.com] vless-GB #1'
   network: ws
   port: 2096
   server: 104.19.223.79
@@ -4046,10 +3786,10 @@ proxies:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s01.gatesriver.ir
     path: '%2F'
 - client-fingerprint: chrome
-  name: '🇬🇧[openproxylist.com] vless-GB #2'
+  name: '🇬🇧[openproxylist.com] vless-GB #1'
   network: ws
   port: 2096
-  server: 198.41.196.109
+  server: 104.17.219.86
   servername: wwwspeedtestnetwhiteberinsistomd6625996s09.gatesriver.ir
   tls: true
   type: vless
@@ -4062,7 +3802,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '🇬🇧[openproxylist.com] vless-GB #3'
+  name: '🇬🇧[openproxylist.com] vless-GB #2'
   network: tcp
   port: 443
   server: 51.89.229.8

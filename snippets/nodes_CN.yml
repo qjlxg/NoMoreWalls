@@ -15,31 +15,9 @@ proxies:
   server: dozo01.flztjc.top
   sni: hk-13-568.flztjc.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: _中国
-  network: tcp
-  port: '32209'
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
-  name: '_中国 #2'
-  network: ws
-  port: '30832'
-  server: v32.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: '_中国 #10'
+  name: '🇨🇳 吉林省 移动(全省通用) #1'
   network: ws
   port: '30829'
   server: 111.26.109.79
@@ -50,6 +28,15 @@ proxies:
     headers:
       Host: ''
     path: /oooo
+- alterId: 0
+  cipher: auto
+  name: _中国
+  network: tcp
+  port: '50002'
+  server: 120.26.55.225
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 🔒 VM-RAW-NA 🇨🇳 CN-47.92.152.16...
@@ -61,7 +48,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: none
-  name: '@Hope_Net-join-us-on-Telegram #297'
+  name: 🔒 VM-TCP-NA 🇨🇳 CN-183.236.51.3...
   network: tcp
   port: '59003'
   server: 183.236.51.36
@@ -203,13 +190,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 4381beae-45a6-4421-8547-65e312dd204a
-- alterId: 0
-  cipher: auto
-  name: 中国 - 广州市 - China Mobile commun...
-  network: tcp
-  port: '50002'
-  server: 120.210.205.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

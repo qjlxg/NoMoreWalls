@@ -466,16 +466,7 @@ proxies:
   tls: false
   type: vmess
   uuid: b31fc134-978e-4176-8579-8107d6a0cede
-- alterId: 0
-  cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇸🇬®️Sing... #1'
-  network: tcp
-  port: 56051
-  server: 38.47.176.251
-  tls: false
-  type: vmess
-  uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
-- name: 🇬[openproxylist.com] vless-SG
+- name: 🇸[openproxylist.com] vless-SG
   network: ws
   port: 80
   server: 141.193.213.21
@@ -486,16 +477,6 @@ proxies:
     headers:
       Host: 19.sahanwickramasinghe.shop
     path: '%2F'
-- alpn:
-  - h2
-  name: 👉🆔@v2ray_configs_pool📡🇬®️Singa...
-  network: grpc
-  port: 443
-  server: 45.8.211.71
-  servername: pqh24v3.hiddendom.shop
-  tls: true
-  type: vless
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
 - name: 🇸🇬[openproxylist.com] vless-SG
   network: ws
   port: 48705
@@ -517,7 +498,7 @@ proxies:
 - name: '🇸🇬[openproxylist.com] vless-SG #2'
   network: ws
   port: 8080
-  server: 172.67.193.239
+  server: 104.21.52.16
   tls: false
   type: vless
   uuid: 23d240b9-c5ec-43d1-ec3d-5066556537f4
@@ -539,7 +520,7 @@ proxies:
 - name: '🇸🇬[openproxylist.com] vless-SG #4'
   network: ws
   port: 8880
-  server: 104.26.13.31
+  server: 104.26.12.31
   tls: false
   type: vless
   uuid: 3054a28e-177a-412f-9b03-9855d79aa728
@@ -547,13 +528,17 @@ proxies:
     headers:
       Host: 0609.sunnyfish.dpdns.org
     path: '%2F'
-- name: '🇸🇬[openproxylist.com] vless-SG #5'
-  network: tcp
-  port: 41283
-  server: 43.156.217.68
+- name: '🇸🇬[openproxylist.com] vless-SG #6'
+  network: ws
+  port: 8880
+  server: 104.21.10.25
   tls: false
   type: vless
-  uuid: 4839e0b9-b275-47ea-81ab-9bfd38bbe7af
+  uuid: cca45b57-0f24-43c8-8911-f8dab5af1e10
+  ws-opts:
+    headers:
+      Host: 0522.yeyefeng.dpdns.org
+    path: '%2F'
 - client-fingerprint: random
   name: 老油条-SG-新加坡
   network: ws

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: '_中国 #3'
+  name: 🇨🇳 江苏省 移动
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -179,24 +179,3 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- alterId: 64
-  cipher: auto
-  name: 👉🆔@v2ray_configs_pool📡🇯🇵®️Japa...
-  network: ws
-  port: 30001
-  server: 107.148.6.67
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.53865734.xyz
-    path: /path/170733132233
-- name: '👉🆔@v2ray_configs_pool📡🇵®️Japan... #2'
-  password: 47072f01-8e77-4136-8e85-b0f0d9d08f1d
-  port: 20230
-  server: jp007.421421.xyz
-  skip-cert-verify: false
-  sni: 421421.xyz
-  type: trojan

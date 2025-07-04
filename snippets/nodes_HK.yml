@@ -69,19 +69,6 @@ proxies:
   port: 50110
   server: cn-hk-30.fnhffffe4.cc
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: '🇭🇰 香港6|@ripaojiedian #2'
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 9b604194-17b7-11ef-80b0-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 香港v2|@ripaojiedian
@@ -1053,7 +1040,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇭🇰®️Hong... #1'
+  name: 👉🆔@v2ray_configs_pool📡🇭🇰®️Hong...
   network: ws
   port: 8080
   server: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
@@ -1064,30 +1051,16 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 2
-  cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇭🇰®️Hong... #2'
-  network: ws
-  port: 80
-  server: 24b01428-sv2sg0-td1l1t-1s824.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 24b01428-sv2sg0-td1l1t-1s824.hk.p5pv.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: '8080'
-  server: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
+  server: 0e1121ca-swd340-teqqcv-1rc6n.hgc1.tcpbbr.net
   tls: false
   type: vmess
-  uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+  uuid: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
+      Host: 0e1121ca-swd340-teqqcv-1rc6n.hgc1.tcpbbr.net
     path: /

@@ -30,26 +30,15 @@ proxies:
   tls: false
   type: vmess
   uuid: b01c7ef9-33ec-41f6-bfbf-77ddc4d21649
-- name: 👉🆔@v2ray_configs_pool📡®️India©...
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.14
-  sni: epmk.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epmk.ambercc.filegear-sg.me
-    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
-- name: 🇮🇳[openproxylist.com] trojan-I...
+- name: 🇳[openproxylist.com] trojan-IN
   network: ws
   password: ttfang
-  port: 443
-  server: 13.233.5.49
+  port: 2053
+  server: 166.0.244.206
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
   ws-opts:
     headers:
       Host: ttfang.fange.me
-    path: '%2F'
+    path: /

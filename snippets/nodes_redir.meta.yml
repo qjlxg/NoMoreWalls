@@ -260,6 +260,33 @@ proxies:
     headers:
       Host: finhztco.nipytee.info
     path: '%2F'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: CF中转_0704131046
+  network: httpupgrade
+  port: 2087
+  server: 104.26.14.16
+  servername: bEAt.MIRaclETaxbiTS.Top.
+  tls: true
+  type: vless
+  uuid: b43d4bd7-ae01-4a96-b44a-70140f9bd556
+  ws-opts:
+    headers:
+      Host: BeAt.mIRacLeTaXbItS.tOP.
+    path: '%2F%40V2rayyNGvpn%3Fed%3D2560'
+- name: '@NUFiLTER 🇮🇷🚀🇱🇺 #1'
+  network: httpupgrade
+  port: 8080
+  server: 104.18.26.90
+  tls: false
+  type: vless
+  uuid: b8fad738-ce93-4ef1-a632-b8059ec582de
+  ws-opts:
+    headers:
+      Host: kk46.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.pro.
+    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
 - name: CF中转_0704131293
   network: httpupgrade
   port: 8080
@@ -547,6 +574,83 @@ proxies:
     headers:
       Host: www.sPeedtest.net.ElectrOluxxv.iR.
     path: '%2F%40XpnTeam%2F...%3Fed%3D2048'
+- name: CF中转_0704133416
+  network: httpupgrade
+  port: 80
+  server: 104.17.128.198
+  tls: false
+  type: vless
+  uuid: 6115d238-cad0-437e-bed6-b62a24b397db
+  ws-opts:
+    headers:
+      Host: kk78.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.pro.
+    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D80'
+- name: CF中转_0704133417
+  network: httpupgrade
+  port: 80
+  server: 188.114.98.233
+  tls: false
+  type: vless
+  uuid: a1f9998f-e611-4cd6-81d9-7dc10ef619a8
+  ws-opts:
+    headers:
+      Host: www.sPeedtest.net.ElectrOluxxv.iR.
+    path: '%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%3Fed%3D2048'
+- name: '@NUFiLTER 🇮🇷🚀🇱🇺2 (همراه)'
+  network: httpupgrade
+  port: 80
+  server: 104.18.26.90
+  tls: false
+  type: vless
+  uuid: 6115d238-cad0-437e-bed6-b62a24b397db
+  ws-opts:
+    headers:
+      Host: Kk78.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.pro.
+    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D80'
+- name: CF中转_0704133419
+  network: httpupgrade
+  port: 80
+  server: 172.67.176.106
+  tls: false
+  type: vless
+  uuid: 6115d238-cad0-437e-bed6-b62a24b397db
+  ws-opts:
+    headers:
+      Host: Kk78.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.pro.
+    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D80'
+- name: CF中转_0704133507
+  network: httpupgrade
+  port: 80
+  server: 104.25.244.76
+  tls: false
+  type: vless
+  uuid: b2bb37ae-918a-4c7b-8cfb-3bcf35cf9c7e
+  ws-opts:
+    headers:
+      Host: www.sPeedtest.net.ElectrOluxxv.iR.
+    path: '%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%3Fed%3D2048'
+- name: CF中转_0704133519
+  network: httpupgrade
+  port: 2086
+  server: 172.66.168.210
+  tls: false
+  type: vless
+  uuid: 635d94da-5fe8-4223-a806-bda390b3f119
+  ws-opts:
+    headers:
+      Host: Www.nnMn.YskBs.kDbDuB.jsiHsbS.Www.ClouD.faler.FjfUb.KetAbChI.ToP.
+    path: '%2F%40DarkHub_VPN%D9%80%40DarkHub_VPN%D9%80%40DarkHub_VPN%D9%80%40DarkHub_VPN%D9%80%40DarkHub_VPN%D9%80%40DarkHub_VPN%3Fed%3D8880'
+- name: CF中转_0704133520
+  network: httpupgrade
+  port: 2086
+  server: 104.17.147.22
+  tls: false
+  type: vless
+  uuid: 3cf29c75-261f-468f-9a79-dd77d484624a
+  ws-opts:
+    headers:
+      Host: Www.nnMn.YskBs.kDbDuB.jsiHsbS.Www.ClouD.faler.FjfUb.KetAbChI.ToP.
+    path: '%2F%40DarkHub_VPN%D9%80%40DarkHub_VPN%D9%80%40DarkHub_VPN%D9%80%40DarkHub_VPN%D9%80%40DarkHub_VPN%D9%80%40DarkHub_VPN%3Fed%3D8880'
 - alpn:
   - h3
   client-fingerprint: chrome

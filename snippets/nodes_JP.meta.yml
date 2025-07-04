@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: '_中国 #3'
+  name: 🇨🇳 江苏省 移动
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -900,7 +900,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
-- name: 🇵JP_2212_@Surfboardv2ray
+- name: 🇵JP_2315_@Surfboardv2ray
   network: httpupgrade
   port: 21576
   server: 217.60.37.197
@@ -1145,61 +1145,7 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 👉🆔@v2ray_configs_pool📡🇵®️Japan...
-  network: tcp
-  port: 35457
-  reality-opts:
-    public-key: 3gb-aG6qLCJpEOFrEPZ9qKqLvVPA_ovlu0X1PvjcE0k
-    short-id: 05288db3
-  server: aws-link15.liangxin1.xyz
-  servername: www.apple.com.cn
-  tls: false
-  type: vless
-  uuid: be0b1c5d-e2f4-4828-a527-f4e0f2eaea1a
-- name: '👉🆔@v2ray_configs_pool📡🇵®️Japan... #1'
-  network: ws
-  port: 8880
-  server: 156.238.18.166
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: Telegram%40WangCai2%2F%3Fed%3D2048
-- alterId: 64
-  cipher: auto
-  name: 👉🆔@v2ray_configs_pool📡🇯🇵®️Japa...
-  network: ws
-  port: 30001
-  server: 107.148.6.67
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.53865734.xyz
-    path: /path/170733132233
-- name: '👉🆔@v2ray_configs_pool📡🇵®️Japan... #2'
-  password: 47072f01-8e77-4136-8e85-b0f0d9d08f1d
-  port: 20230
-  server: jp007.421421.xyz
-  skip-cert-verify: false
-  sni: 421421.xyz
-  type: trojan
 - name: 🇵[openproxylist.com] vless-JP
-  network: ws
-  port: 80
-  server: 5.253.41.223
-  tls: false
-  type: vless
-  uuid: a0a866bd-8c0c-464c-9b96-c6dafa154419
-  ws-opts:
-    path: /vless/
-- name: 🇯🇵[openproxylist.com] vless-JP
   network: ws
   port: 80
   server: 45.12.134.217
@@ -1208,7 +1154,7 @@ proxies:
   uuid: ed242313-b502-4a4a-97f4-336da621a837
   ws-opts:
     path: /vless/
-- name: '🇯🇵[openproxylist.com] vless-JP #1'
+- name: 🇯🇵[openproxylist.com] vless-JP
   network: ws
   port: 80
   server: 172.111.146.64

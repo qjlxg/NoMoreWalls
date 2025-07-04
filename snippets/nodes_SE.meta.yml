@@ -1,4 +1,15 @@
 proxies:
+- name: '👉🆔@v2ray_configs_pool📡🇪®️Swede... #1'
+  network: httpupgrade
+  port: 2086
+  server: 185.146.173.39
+  tls: false
+  type: vless
+  uuid: 980176a7-0350-40c1-afa7-42367ed04d1c
+  ws-opts:
+    headers:
+      Host: Parsashonam-de.Rubika.cYoU.
+    path: '%2FParsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam%2F%3Fed%3D2560'
 - name: 🇸🇪
   network: httpupgrade
   port: 2052
@@ -485,7 +496,7 @@ proxies:
     path: '%2Ftelegram-%53%56%4E%54%45%41%4D%3Fed%3D2056'
 - grpc-opts:
     grpc-service-name: '@V2rayNGcloud-Telegram-v2rayNGcloud-@V2rayNGcloud-Telegram-@V2rayNGcloud-Telegram-@V2rayNGcloud'
-  name: SE_3486_@Surfboardv2ray
+  name: SE_3612_@Surfboardv2ray
   network: httpupgrade
   port: 8880
   server: 185.146.173.39
@@ -498,7 +509,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: '@V2rayNGcloud-Telegram-v2rayNGcloud-@V2rayNGcloud-Telegram-@V2rayNGcloud-Telegram-@V2rayNGcloud'
-  name: 🇸🇪SE_3488_@Surfboardv2ray
+  name: 🇸🇪SE_3614_@Surfboardv2ray
   network: httpupgrade
   port: 8880
   server: 185.146.173.39
@@ -511,7 +522,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: '@V2rayNGcloud-Telegram-v2rayNGcloud-@V2rayNGcloud-Telegram-@V2rayNGcloud-Telegram-@V2rayNGcloud'
-  name: 🇸🇪SE_3490_@Surfboardv2ray
+  name: 🇸🇪SE_3616_@Surfboardv2ray
   network: httpupgrade
   port: 8880
   server: 185.146.173.39
@@ -524,7 +535,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: '@V2rayNGcloud-Telegram-v2rayNGcloud-@V2rayNGcloud-Telegram-@V2rayNGcloud-Telegram-@V2rayNGcloud'
-  name: 🇸🇪SE_3492_@Surfboardv2ray
+  name: 🇸🇪SE_3618_@Surfboardv2ray
   network: httpupgrade
   port: 8880
   server: 185.146.173.39
@@ -537,7 +548,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: '@V2rayNGcloud-Telegram-v2rayNGcloud-@V2rayNGcloud-Telegram-@V2rayNGcloud-Telegram-@V2rayNGcloud'
-  name: 🇸🇪SE_3494_@Surfboardv2ray
+  name: 🇸🇪SE_3620_@Surfboardv2ray
   network: httpupgrade
   port: 8880
   server: 185.146.173.39
@@ -550,7 +561,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: '@V2rayNGcloud-Telegram-v2rayNGcloud-@V2rayNGcloud-Telegram-@V2rayNGcloud-Telegram-@V2rayNGcloud'
-  name: 🇸🇪SE_3496_@Surfboardv2ray
+  name: 🇸🇪SE_3622_@Surfboardv2ray
   network: httpupgrade
   port: 8880
   server: 185.146.173.39
@@ -563,7 +574,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: '@V2rayNGcloud-Telegram-v2rayNGcloud-@V2rayNGcloud-Telegram-@V2rayNGcloud-Telegram-@V2rayNGcloud'
-  name: 🇸🇪SE_3498_@Surfboardv2ray
+  name: 🇸🇪SE_3624_@Surfboardv2ray
   network: httpupgrade
   port: 8880
   server: 185.146.173.39
@@ -576,7 +587,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: '@V2rayNGcloud-Telegram-v2rayNGcloud-@V2rayNGcloud-Telegram-@V2rayNGcloud-Telegram-@V2rayNGcloud'
-  name: 🇸🇪SE_3500_@Surfboardv2ray
+  name: 🇸🇪SE_3626_@Surfboardv2ray
   network: httpupgrade
   port: 8880
   server: 185.146.173.39
@@ -589,7 +600,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: '@V2rayNGcloud-Telegram-v2rayNGcloud-@V2rayNGcloud-Telegram-@V2rayNGcloud-Telegram-@V2rayNGcloud'
-  name: 🇸🇪SE_3502_@Surfboardv2ray
+  name: 🇸🇪SE_3628_@Surfboardv2ray
   network: httpupgrade
   port: 8880
   server: 185.146.173.39
@@ -602,7 +613,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: '@V2rayNGcloud-Telegram-v2rayNGcloud-@V2rayNGcloud-Telegram-@V2rayNGcloud-Telegram-@V2rayNGcloud'
-  name: 🇸🇪SE_3504_@Surfboardv2ray
+  name: 🇸🇪SE_3630_@Surfboardv2ray
   network: httpupgrade
   port: 8880
   server: 185.146.173.39
@@ -615,7 +626,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: '@V2rayNGcloud-Telegram-v2rayNGcloud-@V2rayNGcloud-Telegram-@V2rayNGcloud-Telegram-@V2rayNGcloud'
-  name: 🇸🇪SE_3506_@Surfboardv2ray
+  name: 🇸🇪SE_3632_@Surfboardv2ray
   network: httpupgrade
   port: 8880
   server: 185.146.173.39
@@ -628,7 +639,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: '@V2rayNGcloud-Telegram-v2rayNGcloud-@V2rayNGcloud-Telegram-@V2rayNGcloud-Telegram-@V2rayNGcloud'
-  name: 🇸🇪SE_3508_@Surfboardv2ray
+  name: 🇸🇪SE_3634_@Surfboardv2ray
   network: httpupgrade
   port: 8880
   server: 185.146.173.39
@@ -3439,10 +3450,21 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇸🇪®️Swed... #2'
+  name: 🔒 VM-TCP-NA 🇸🇪 SE-169.150.208....
   network: tcp
   port: 18000
   server: 169.150.208.83
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- client-fingerprint: chrome
+  name: 👉🆔@v2ray_configs_pool📡🇪®️Swede...
+  network: ws
+  port: 8443
+  server: 129.151.198.3
+  servername: re.vs2024.us.kg
+  tls: true
+  type: vless
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    path: '%2Fuxs.vs2024.us.kg'

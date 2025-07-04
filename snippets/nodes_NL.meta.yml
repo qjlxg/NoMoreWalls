@@ -192,7 +192,7 @@ proxies:
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
-  name: '🇳🇱[openproxylist.com] vmess-NL #2'
+  name: 🇳🇱[openproxylist.com] vmess-NL
   network: tcp
   port: '12540'
   server: 93.115.172.175
@@ -457,7 +457,7 @@ proxies:
     headers:
       Host: www.speedtest.net.ftp.debian.org.%E8%87%AA%E5%B7%B1%E4%B8%8D%E5%8E%BB%E7%9C%8B%E5%95%A5%E4%BA%8B%E6%83%85%E5%9F%BA%E6%9C%AC%E4%BA%8B%E4%BA%8B.mobilewersach.ir.
     path: '%2FVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%3Fed%3D2560'
-- name: 🇱NL_1353_@Surfboardv2ray
+- name: 🇱NL_1400_@Surfboardv2ray
   network: httpupgrade
   port: 2095
   server: www.venzo.com.tr
@@ -468,7 +468,7 @@ proxies:
     headers:
       Host: egzoz3.ai351.com
     path: /?ed=2095
-- name: 🇱NL_3058_@Surfboardv2ray
+- name: 🇱NL_3177_@Surfboardv2ray
   network: httpupgrade
   port: 2095
   server: www.venzo.com.tr
@@ -769,45 +769,6 @@ proxies:
   port: 22222
   server: 18.196.81.92
   type: trojan
-- alterId: 64
-  cipher: auto
-  name: 🇳🇱 _荷兰
-  network: ws
-  port: '30001'
-  server: 45.58.180.35
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.97749651.xyz
-    path: /path/1751545834550
-- alterId: 64
-  cipher: auto
-  name: '🇳🇱 _荷兰 #1'
-  network: ws
-  port: '31001'
-  server: 45.58.186.23
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.24420256.xyz
-    path: /path/1751546044274
-- alterId: 64
-  cipher: auto
-  name: '🇳🇱 _荷兰 #2'
-  network: ws
-  port: '30002'
-  server: 45.58.166.156
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.25741825.xyz
-    path: /path/1751546044274
 - alterId: 0
   cipher: auto
   name: 🔒 VM-TCP-NA 🇳🇱 NL-152.53.104.3...
@@ -861,64 +822,8 @@ proxies:
   tls: false
   type: vmess
   uuid: 3038024f-3a34-4228-b61c-d741b2fbec8f
-- name: 👉🆔@v2ray_configs_pool📡®️The Ne...
-  network: tcp
-  port: 8880
-  server: 0lan.amazon-osishop.ir
-  tls: false
-  type: vless
-  uuid: a2eda8e1-4452-481b-9a71-aab18d3ed17e
-  ws-opts:
-    headers:
-      Host: eN.TwiTtER.cOM.%3A8880
-- name: 👉🆔@v2ray_configs_pool📡🇱®️The N...
-  network: tcp
-  port: 443
-  server: soghandi.mohamad.sbs
-  tls: false
-  type: vless
-  uuid: 36583778-a75e-4647-9406-09128cf42823
-  ws-opts:
-    headers:
-      Host: netv2reyng.fast.com
-    path: '%2Fnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng'
-- name: 🇳🇱[openproxylist.com] vless-NL
-  network: ws
-  port: 26066
-  server: 5.255.124.97
-  tls: false
-  type: vless
-  uuid: 5e251be5-4736-49ff-80cf-b41639949a4d
-  ws-opts:
-    path: /
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #1'
-  network: xhttp
-  port: 80
-  reality-opts:
-    public-key: C4LNbOB3Ar0cntu528Jtn5ivsMZhyk9tkuAlU-jeCio
-    short-id: 8c
-  server: 5.255.120.217
-  servername: journalofbigdata.springeropen.com
-  tls: false
-  type: vless
-  uuid: ab9f05f2-e2f7-4cea-bf0d-e90f36ff92ac
-  ws-opts:
-    headers:
-      Host: bleep.global.ssl.fastly.net
-    path: '%2Fpwp'
-- name: '👉🆔@v2ray_configs_pool📡🇱®️The N... #1'
-  network: tcp
-  port: 2200
-  server: 84.32.190.1
-  tls: false
-  type: vless
-  uuid: 86892e3f-83ed-49c1-ade2-c12f8ace1487
-  ws-opts:
-    headers:
-      Host: zula.ir
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡®️The Ne... #2'
+  name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #2'
   network: xhttp
   port: 80
   reality-opts:
@@ -933,30 +838,15 @@ proxies:
     headers:
       Host: bleep.global.ssl.fastly.net
     path: '%2Fpwp'
-- alterId: 32
-  cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #10'
+- name: '👉🆔@v2ray_configs_pool📡🇱®️The N... #1'
   network: ws
-  port: 443
-  server: vc.fly.dev
-  servername: vc.fly.dev
-  tls: true
-  type: vmess
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  ws-opts:
-    headers:
-      Host: vc.fly.dev
-    path: /vc
-- alterId: 0
-  cipher: auto
-  name: 🇧🇬[openproxylist.com] vmess-BG
-  network: tcp
-  port: '17564'
-  server: 5.160.197.78
-  servername: ''
+  port: 26066
+  server: 5.255.124.97
   tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  type: vless
+  uuid: 5e251be5-4736-49ff-80cf-b41639949a4d
+  ws-opts:
+    path: '%2F'
 - client-fingerprint: randomized
   name: 🇳🇱 NL-8-NBS-MMDLeecher-v
   network: ws

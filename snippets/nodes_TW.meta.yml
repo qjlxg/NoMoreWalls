@@ -36,19 +36,6 @@ proxies:
   type: vmess
   uuid: fe797d32-6607-4b46-8e39-c4fb1e3c0872
 - client-fingerprint: chrome
-  name: 🇹[openproxylist.com] vless-TW`...
-  network: ws
-  port: 8443
-  server: 172.67.153.156
-  servername: ovhwuxian.pai50288.uk
-  tls: true
-  type: vless
-  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-  ws-opts:
-    headers:
-      Host: ovhwuxian.pai50288.uk
-    path: /57ba2ab1
-- client-fingerprint: chrome
   name: '[openproxylist.com] vless-TW'
   network: ws
   port: 8443

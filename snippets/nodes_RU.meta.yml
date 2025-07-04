@@ -575,54 +575,13 @@ proxies:
     headers:
       Host: www.17336793.xyz
     path: /path/170733132233
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 👉🆔@v2ray_configs_pool📡🇺®️Russi...
-  network: xhttp
-  port: 8443
-  server: ru2.asc-sam.ir
-  tls: true
-  type: vless
-  uuid: ac7e5f1e-1a04-4685-b075-cc9d8cff63b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: '%2FrgtsreuiRYcfq=---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann'
-- name: '👉🆔@v2ray_configs_pool📡🇺®️Russi... #1'
-  network: ws
-  port: 80
-  server: 185.148.106.219
-  tls: false
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
-    path: Telegram%3A%40ShadowProxy66%2F%3Fed%3D2560
-- alpn:
-  - h2
-  name: '👉🆔@v2ray_configs_pool📡🇺®️Russi... #2'
-  network: grpc
-  port: 443
-  server: 31.12.75.185
-  servername: pqh36v4.hiddendom.shop
-  tls: true
-  type: vless
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- client-fingerprint: chrome
-  name: 🇺[openproxylist.com] vless-RU
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c
-  server: 109.73.206.90
-  servername: google.com
-  tls: false
-  type: vless
-  uuid: 4eff2388-2092-4b0a-aa74-0e464889ffaf
+- name: 👉🆔@v2ray_configs_pool📡🇷🇺®️Russ...
+  password: Aimer
+  port: 2096
+  server: 213.109.205.55
+  skip-cert-verify: true
+  sni: agept.ambercc.filegear-sg.me
+  type: trojan
 - client-fingerprint: random
   name: 俄勒冈100g
   network: tcp

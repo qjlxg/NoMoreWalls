@@ -74,16 +74,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 👉🆔@v2ray_configs_pool📡🇭®️Switz...
-  network: tcp
-  port: 54586
-  reality-opts:
-    public-key: ahuCTYYd4tNfL01Ta75EACP2tRqEddXIRSD7xZ-xAFE
-    short-id: 676a
-  server: agashka-vpn.com
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888

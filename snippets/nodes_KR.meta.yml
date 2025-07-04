@@ -255,19 +255,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cff7001e-3a74-43e8-bfd8-a7af9630a58b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '👉🆔@v2ray_configs_pool📡🇷®️South... #1'
-  network: tcp
-  port: 34578
-  reality-opts:
-    public-key: PSn2s5TN4e7n0LkzPunu2IA1hSmOoPYFu3d_psl2Nmc
-    short-id: e534c8be
-  server: aws-link25.liangxin1.xyz
-  servername: download-porter.hoyoverse.com
-  tls: false
-  type: vless
-  uuid: be0b1c5d-e2f4-4828-a527-f4e0f2eaea1a
 - client-fingerprint: random
   name: 老油条-KR-韩国
   network: ws

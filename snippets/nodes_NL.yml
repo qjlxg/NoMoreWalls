@@ -12,7 +12,7 @@ proxies:
     path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
 - alterId: 0
   cipher: auto
-  name: '🇳🇱[openproxylist.com] vmess-NL #2'
+  name: 🇳🇱[openproxylist.com] vmess-NL
   network: tcp
   port: '12540'
   server: 93.115.172.175
@@ -60,45 +60,6 @@ proxies:
   port: 22222
   server: 18.196.81.92
   type: trojan
-- alterId: 64
-  cipher: auto
-  name: 🇳🇱 _荷兰
-  network: ws
-  port: '30001'
-  server: 45.58.180.35
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.97749651.xyz
-    path: /path/1751545834550
-- alterId: 64
-  cipher: auto
-  name: '🇳🇱 _荷兰 #1'
-  network: ws
-  port: '31001'
-  server: 45.58.186.23
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.24420256.xyz
-    path: /path/1751546044274
-- alterId: 64
-  cipher: auto
-  name: '🇳🇱 _荷兰 #2'
-  network: ws
-  port: '30002'
-  server: 45.58.166.156
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.25741825.xyz
-    path: /path/1751546044274
 - alterId: 0
   cipher: auto
   name: 🔒 VM-TCP-NA 🇳🇱 NL-152.53.104.3...
@@ -152,27 +113,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 3038024f-3a34-4228-b61c-d741b2fbec8f
-- alterId: 32
-  cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #10'
-  network: ws
-  port: 443
-  server: vc.fly.dev
-  servername: vc.fly.dev
-  tls: true
-  type: vmess
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  ws-opts:
-    headers:
-      Host: vc.fly.dev
-    path: /vc
-- alterId: 0
-  cipher: auto
-  name: 🇧🇬[openproxylist.com] vmess-BG
-  network: tcp
-  port: '17564'
-  server: 5.160.197.78
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
