@@ -9,7 +9,7 @@ proxies:
     headers:
       Host: 1i5.diginoshops10.ir
     path: '%2F'
-- name: '🔒 TR-HTTPUPGRADE-NONE 🏴‍☠️ NA-... #1'
+- name: 🔒 TR-HTTPUPGRADE-NONE ‍☠️ NA-1...
   network: httpupgrade
   password: 2f1f7fbf-f37d-4275-c014-298a83f4e5a8
   port: 80
@@ -111,7 +111,7 @@ proxies:
     headers:
       Host: Freedomisnear.onetwothree123.ir
     path: '%2Fmehdi'
-- name: 未知100
+- name: '🔒 TR-HTTPUPGRADE-TLS 🏴‍☠️ NA-1... #8'
   network: httpupgrade
   password: VGZ0nM9KY3Qz
   port: 2096
@@ -165,7 +165,7 @@ proxies:
     headers:
       Host: shabestan.itn24.ir
     path: /@M3HDIO1
-- name: '🔒 TR-HTTPUPGRADE-TLS 🏴‍☠️ NA-1... #13'
+- name: 未知131
   network: httpupgrade
   password: TUFfeTYV56
   port: 2096
@@ -3221,7 +3221,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 未知139 17.9MB/s
+  name: 🔒 VM-TCP-NA 🇩🇪 DE-45.12.138.47...
   network: tcp
   port: '22839'
   server: 45.12.138.47
@@ -3327,3 +3327,10 @@ proxies:
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /linkvws
+- name: 🇪[openproxylist.com] trojan-DE
+  network: tcp
+  password: 6gZh2JbfhQ
+  port: 1935
+  server: 104.248.18.1
+  sni: x1-germany-digitalocean-v2.devefun.org
+  type: trojan

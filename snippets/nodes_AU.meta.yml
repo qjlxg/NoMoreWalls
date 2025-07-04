@@ -1,5 +1,5 @@
 proxies:
-- name: 澳大利亚_070413024
+- name: 澳大利亚_070418024
   network: httpupgrade
   port: 8880
   server: 103.169.142.77
@@ -10,7 +10,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 澳大利亚_070413061
+- name: 澳大利亚_070418061
   network: httpupgrade
   port: 8880
   server: 103.169.142.131
@@ -21,7 +21,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 澳大利亚_070413062
+- name: 澳大利亚_070418062
   network: httpupgrade
   port: 8880
   server: 103.169.142.99
@@ -32,7 +32,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 澳大利亚_070413079
+- name: 澳大利亚_070418079
   network: httpupgrade
   port: 8880
   server: 103.169.142.163
@@ -43,7 +43,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 澳大利亚_070413085
+- name: 澳大利亚_070418085
   network: httpupgrade
   port: 8880
   server: 103.169.142.137

@@ -81,8 +81,22 @@ proxies:
   tls: false
   type: vless
   uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+- alterId: 0
+  cipher: auto
+  name: '@Hope_Net-join-us-on-Telegram #22'
+  network: ws
+  port: 2083
+  server: 91.107.166.68
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5016d935-aacb-4ac3-987c-a306afeed4c4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - client-fingerprint: chrome
-  name: '@Hope_Net-join-us-on-Telegram #70'
+  name: '@Hope_Net-join-us-on-Telegram #13'
   network: ws
   port: 443
   server: 151.101.66.228
@@ -94,7 +108,7 @@ proxies:
     headers:
       Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v09.drlimit.net
     path: '%2F'
-- name: '@Hope_Net-join-us-on-Telegram #72'
+- name: '@Hope_Net-join-us-on-Telegram #14'
   network: ws
   port: 80
   server: 151.101.192.155
@@ -105,7 +119,7 @@ proxies:
     headers:
       Host: sp.servopen.com
     path: '%2Fspdnet%3Fed%3D2048'
-- name: '@Hope_Net-join-us-on-Telegram #80'
+- name: '@Hope_Net-join-us-on-Telegram #15'
   network: ws
   port: 2087
   server: 206.238.236.192
@@ -116,7 +130,7 @@ proxies:
   ws-opts:
     path: '%2F%3Fed'
 - client-fingerprint: chrome
-  name: '@Hope_Net-join-us-on-Telegram` #23'
+  name: '@Hope_Net-join-us-on-Telegram`'
   network: ws
   port: 443
   server: 217.163.76.99
@@ -126,7 +140,7 @@ proxies:
   uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     path: '%2F%20re.vs2024.us.kg'
-- name: '@Hope_Net-join-us-on-Telegram` #24'
+- name: '@Hope_Net-join-us-on-Telegram` #1'
   network: ws
   port: 443
   server: 144.24.167.37
@@ -138,7 +152,7 @@ proxies:
     path: '%2F%3Fed'
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #96'
+  name: '@Hope_Net-join-us-on-Telegram #16'
   network: ws
   port: '8443'
   server: 172.67.153.156
@@ -151,7 +165,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #98'
+  name: '@Hope_Net-join-us-on-Telegram #17'
   network: ws
   port: 2082
   server: s4.db-link01.top
@@ -165,7 +179,7 @@ proxies:
     path: /dabai.in104.25.248.188
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #100'
+  name: '@Hope_Net-join-us-on-Telegram #18'
   network: ws
   port: 2095
   server: s1.cn-db.top
@@ -179,7 +193,7 @@ proxies:
     path: /dabai.in104.25.132.97
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #104'
+  name: '@Hope_Net-join-us-on-Telegram #19'
   network: ws
   port: 2082
   server: s2.db-link02.top
@@ -193,7 +207,7 @@ proxies:
     path: /dabai.in104.24.131.61
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #106'
+  name: '@Hope_Net-join-us-on-Telegram #20'
   network: ws
   port: 443
   server: 146.19.168.161
@@ -207,7 +221,7 @@ proxies:
     path: /link
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #111'
+  name: '@Hope_Net-join-us-on-Telegram #21'
   network: ws
   port: 443
   server: tokyo.899994.xyz
@@ -219,1156 +233,250 @@ proxies:
     headers:
       Host: tokyo.899994.xyz
     path: /index
-- alterId: 0
-  cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #115'
-  network: ws
-  port: 2083
-  server: 91.107.166.68
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5016d935-aacb-4ac3-987c-a306afeed4c4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- name: '@Hope_Net-join-us-on-Telegram #22'
-  network: ws
-  port: 80
-  server: 104.21.48.1
-  tls: false
-  type: vless
-  uuid: b775ec56-b44d-473a-9e8e-99ef575d832a
-  ws-opts:
-    headers:
-      Host: young-silence-6861.sjsbdjansbdjksb.workers.dev
-    path: '%2F%3Fed%3D2560'
 - name: '@Hope_Net-join-us-on-Telegram #23'
-  network: ws
-  port: 8080
-  server: 104.17.148.22
-  tls: false
-  type: vless
-  uuid: d8dfafb3-786f-42d1-b25a-732014dd734e
-  ws-opts:
-    headers:
-      Host: Akbari.bklink.iR
-    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D8080'
+  password: NISHIKUITAN111
+  port: 443
+  server: 104.24.184.159
+  type: trojan
 - name: '@Hope_Net-join-us-on-Telegram #24'
-  network: ws
-  port: 80
-  server: 104.21.112.1
-  tls: false
-  type: vless
-  uuid: b775ec56-b44d-473a-9e8e-99ef575d832a
-  ws-opts:
-    headers:
-      Host: young-silence-6861.sjsbdjansbdjksb.workers.dev
-    path: '%2F%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #25'
-  network: ws
-  port: '8443'
-  server: 13.95.69.133
-  tls: true
-  type: vmess
-  uuid: 71f81d10-2979-4b12-c2b6-9249b3e444bd
-  ws-opts:
-    headers:
-      Host: cc.kakypa.filegear-sg.me
-    path: /
-- name: Telegram@vmessorg
   network: tcp
-  port: 450
-  server: 85.9.99.89
+  port: 3229
+  server: 35.95.136.253
   tls: false
   type: vless
-  uuid: db67312c-8388-470c-a8aa-9995732a6f8d
-- name: '@Hope_Net-join-us-on-Telegram` #2'
-  network: ws
-  port: 80
-  server: 104.21.32.1
+  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
+- name: '@Hope_Net-join-us-on-Telegram #25'
+  network: tcp
+  port: 3229
+  server: 54.202.178.1
   tls: false
   type: vless
-  uuid: b775ec56-b44d-473a-9e8e-99ef575d832a
-  ws-opts:
-    headers:
-      Host: young-silence-6861.sjsbdjansbdjksb.workers.dev
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  name: '@Hope_Net-join-us-on-Telegram #26'
-  network: ws
-  port: 2053
-  server: 172.66.44.75
-  servername: mahdiseRvEr-3H9.paGeS.deV
-  tls: true
-  type: vless
-  uuid: b9c49aa8-9e33-46e1-83c2-825deaeb8640
-  ws-opts:
-    headers:
-      Host: mahdiserver-3h9.pages.dev
-    path: '%2FBGJgZ9G8CAVUniv2%3Fed%3D2560'
+  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
+- name: '@Hope_Net-join-us-on-Telegram #26'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.171.77.143
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - name: '@Hope_Net-join-us-on-Telegram #27'
-  network: ws
-  port: 80
-  server: 151.101.194.165
-  tls: false
-  type: vless
-  uuid: 0c04dd79-71ad-475e-9a22-8fe625afccbb
-  ws-opts:
-    headers:
-      Host: JoinBede--VPNCUSTOMIZE--VPNCUSTOMIZE.ir
-    path: '%2Ftelegram-VPNCUSTOMIZE--telegram-VPNCUSTOMIZE--telegram---VPNCUSTOMIZE--telegram---VPNCUSTOMIZE--telegram---VPNCUSTOMIZE%3Fed%3D2048'
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  name: '@Hope_Net-join-us-on-Telegram` #3'
-  network: ws
-  port: 2087
-  server: 172.66.47.153
-  servername: MAHDIServEr-3M4.PAgES.DEV
-  tls: true
-  type: vless
-  uuid: 3ccf8b38-b790-4735-a4d8-848d75481e47
-  ws-opts:
-    headers:
-      Host: mahdiserver-3m4.pages.dev
-    path: '%2FthFtzT7jnYHeBIXQ%3Fed%3D2560'
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  name: '@Hope_Net-join-us-on-Telegram #28'
-  network: ws
-  port: 8443
-  server: 172.66.46.213
-  servername: MaHDiSERvEr-wds.paGes.DEV
-  tls: true
-  type: vless
-  uuid: bc37cb73-a103-4af3-a3a7-9f3bc8e23bfe
-  ws-opts:
-    headers:
-      Host: mahdiserver-wds.pages.dev
-    path: '%2FaDvbLsDUC5jsLmiC%3Fed%3D2560'
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  name: '@Hope_Net-join-us-on-Telegram #29'
-  network: ws
-  port: 443
-  server: 172.66.47.59
-  servername: MahDISERveR-xnr.pAgES.dev
-  tls: true
-  type: vless
-  uuid: b3ec1385-e08f-422e-b32a-9d032f80ea01
-  ws-opts:
-    headers:
-      Host: mahdiserver-xnr.pages.dev
-    path: '%2FrFUTD89NIbVo64GI%3Fed%3D2560'
-- name: '@Hope_Net-join-us-on-Telegram` #4'
-  network: ws
-  port: 443
-  server: 151.101.194.228
-  servername: hajlab.ucdavis.edu
-  tls: true
-  type: vless
-  uuid: dbc04665-1a67-49f9-a20f-8adb30eb7210
-  ws-opts:
-    headers:
-      Host: joinshhproxybedeeeee.ir
-    path: '%2F%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy%3Fed%3D2048'
-- name: '🇪[openproxylist.com] vless-DE #4'
   network: tcp
-  port: 51615
-  server: 91.99.203.69
-  tls: false
-  type: vless
-  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-  ws-opts:
-    headers:
-      Host: zula.ir
-- name: '@Hope_Net-join-us-on-Telegram` #5'
-  network: ws
-  port: 80
-  server: 91.107.248.32
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  tls: false
-  type: vless
-  uuid: 25b8f4b0-4f7d-400f-bc4a-f10e5b8796a2
-  ws-opts:
-    path: '%2Fstream%2F'
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '@Hope_Net-join-us-on-Telegramv...'
-  network: ws
-  port: 443
-  server: 151.101.130.133
-  servername: live.theworldwidewolf.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 0f886d4f-be34-4303-be75-2308851d347c
-  ws-opts:
-    headers:
-      Host: rohammmmmvistav2.ir
-    path: '%2F%40vistav2ray---%40vistav2ray----%40vistav2ray----%40vistav2ray----%40vistav2ray----%40vistav2ray----%40vistav2ray----%40vistav2ray----%40vistav2ray----%40vistav2ray----%40vist'
-- name: '@Hope_Net-join-us-on-Telegram #30'
-  network: ws
-  port: 12601
-  server: 210.103.48.53
-  servername: ngedc.ambercc.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-  ws-opts:
-    path: '%2F%3Fed'
-- client-fingerprint: chrome
-  name: '@Hope_Net-join-us-on-Telegram` #6'
-  network: ws
-  port: 443
-  server: 63.141.128.193
-  servername: re.vs2024.us.kg
-  tls: true
-  type: vless
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    path: '%2F%3Fed'
-- name: '@Hope_Net-join-us-on-Telegram #31'
-  network: tcp
-  port: 3229
-  server: 34.218.255.222
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #32'
-  network: ws
-  port: 35500
-  server: 61.239.234.5
-  servername: re.vs2024.us.kg
-  tls: true
-  type: vless
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    path: '%2Fuxs.vs2024.us.kg'
-- client-fingerprint: chrome
-  name: '@Hope_Net-join-us-on-Telegram #33'
-  network: tcp
-  port: 28028
-  reality-opts:
-    public-key: xXwGwJOlSUEvc17KLNCPDF1WtjxiMTUxQb8aaZIuCnI
-    short-id: 0a896646c2
-  server: 5.75.203.85
-  servername: www.speedtest.net
-  tls: false
-  type: vless
-  uuid: b4b49e84-777c-4de2-8efc-beece7d8a06f
-  ws-opts:
-    path: /telegram@ph_onex-VpIi-21-pHOneX.www.speedtest.net.zula.ir.1.FoNexWallbeSTphOnex.cOM
-- name: '@Hope_Net-join-us-on-Telegram #34'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.74.196.216
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #9'
-  network: ws
-  port: 443
-  server: 160.79.104.98
-  servername: re.vs2024.us.kg
-  tls: true
-  type: vless
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    path: '%2F%3Fed'
-- name: '@Hope_Net-join-us-on-Telegram` #7'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.21.91.17
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #36'
-  network: tcp
-  port: 3229
-  server: 54.212.218.82
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #37'
-  network: tcp
-  port: 3229
-  server: 44.243.223.245
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram` #8'
-  network: tcp
-  port: 3229
-  server: 3.12.85.32
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #38'
-  network: tcp
-  port: 3229
-  server: 18.222.145.178
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #39'
-  network: ws
-  port: 443
-  server: 27.50.48.21
-  servername: ngedc.ambercc.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-  ws-opts:
-    path: '%2F%3Fed'
-- name: '@Hope_Net-join-us-on-Telegram` #9'
-  network: ws
-  port: 443
-  server: 158.178.238.239
-  servername: mmdserver.us.kg
-  tls: true
-  type: vless
-  uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
-  ws-opts:
-    path: '%2F%3Fed'
-- name: '@Hope_Net-join-us-on-Telegram #40'
-  network: tcp
-  port: 3229
-  server: 52.10.173.159
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- alpn:
-  - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #41'
-  network: ws
-  port: 443
-  server: 108.162.194.232
-  servername: gufnlz.testsnew.com
-  tls: true
-  type: vless
-  uuid: 4bfc7217-e5d0-4a7c-a4c3-f75b7ce42b60
-  ws-opts:
-    headers:
-      Host: gufnlz.testsnew.com
-    path: /wss
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #1'
-  network: tcp
-  port: 443
-  server: 147.135.125.118
-  servername: 147135010103.sec19org.com
-  tls: true
-  type: vless
-  uuid: 3b9bc773-05eb-4d5f-8c1f-57342c0c4f40
-- name: '@Hope_Net-join-us-on-Telegram #42'
-  network: ws
-  port: 80
-  server: 151.101.194.165
-  tls: false
-  type: vless
-  uuid: 77fcd69c-d54c-4d16-a373-57625c086c65
-  ws-opts:
-    headers:
-      Host: JoinBede--VPNCUSTOMIZE--VPNCUSTOMIZE.ir
-    path: '%2Ftelegram-VPNCUSTOMIZE--telegram-VPNCUSTOMIZE--telegram---VPNCUSTOMIZE--telegram---VPNCUSTOMIZE--telegram---VPNCUSTOMIZE%3Fed%3D2048'
-- client-fingerprint: chrome
-  name: '@Hope_Net-join-us-on-Telegram #43'
-  network: ws
-  port: 443
-  server: 185.133.35.242
-  servername: re.vs2024.us.kg
-  tls: true
-  type: vless
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    path: '%2F%3Fed'
-- name: '@Hope_Net-join-us-on-Telegram` #11'
-  network: tcp
-  port: 3229
-  server: 35.92.172.41
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #44'
-  network: tcp
-  port: 3229
-  server: 18.237.193.219
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #45'
-  network: tcp
-  port: 3229
-  server: 54.149.227.251
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- alpn:
-  - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram` #12'
-  network: ws
-  port: 443
-  server: 172.64.34.232
-  servername: 63ehlh.isfshzist.com
-  tls: true
-  type: vless
-  uuid: 5132ce2f-f82b-4264-89db-ae7ce612bc1a
-  ws-opts:
-    headers:
-      Host: 63ehlh.isfshzist.com
-    path: /wss
-- name: '@Hope_Net-join-us-on-Telegram #46'
-  network: tcp
-  port: 3229
-  server: 18.223.252.105
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- alpn:
-  - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #10'
-  network: ws
-  port: 443
-  server: 162.159.38.232
-  servername: 63ehlh.isfshzist.com
-  tls: true
-  type: vless
-  uuid: 5132ce2f-f82b-4264-89db-ae7ce612bc1a
-  ws-opts:
-    headers:
-      Host: 63ehlh.isfshzist.com
-    path: /wss
-- alterId: 0
-  cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #48'
-  network: ws
-  port: 2052
-  server: 104.16.155.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-196-90-59.s5.db-link02.top
-    path: /dabai.in172.64.19.172
-- name: '@Hope_Net-join-us-on-Telegram` #13'
-  network: tcp
-  port: 3229
-  server: 13.59.82.38
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #49'
-  network: ws
-  port: 50000
-  server: 125.128.227.141
-  servername: ngedc.ambercc.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-  ws-opts:
-    path: '%2F%3Fed'
-- name: '@Hope_Net-join-us-on-Telegram #50'
-  network: tcp
-  port: 3229
-  server: 52.88.27.30
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #51'
-  network: tcp
-  port: 3229
-  server: 34.211.58.61
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #52'
-  network: tcp
-  port: 3229
-  server: 35.160.196.114
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram` #14'
-  network: tcp
-  port: 3229
-  server: 44.244.202.79
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #53'
-  network: tcp
-  port: 3229
-  server: 18.222.176.235
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #54'
-  network: tcp
-  port: 3229
-  server: 52.24.250.63
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #55'
-  password: 3aec9607-0136-4ca1-90c2-553a0322b25e
-  port: 40383
-  server: zfa01.333210.xyz
-  skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #15'
-  network: ws
-  port: 443
-  server: 47.57.13.107
-  servername: mmdserver.us.kg
-  tls: true
-  type: vless
-  uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
-  ws-opts:
-    path: '%2F%3Fed'
-- name: '@Hope_Net-join-us-on-Telegram #56'
-  network: ws
-  port: 443
-  server: 143.47.183.1
-  servername: mmdserver.us.kg
-  tls: true
-  type: vless
-  uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
-  ws-opts:
-    path: '%2F%3Fed'
-- name: '@Hope_Net-join-us-on-Telegram #57'
-  network: tcp
-  port: 3229
-  server: 54.185.10.148
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- alpn:
-  - http/1.1
-  name: '@Hope_Net-join-us-on-Telegram #58'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.125.23.39
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '@Hope_Net-join-us-on-Telegram` #16'
-  network: ws
-  port: 443
-  server: 65.109.184.121
-  servername: dd2.atelienaderr.ir
-  tls: true
-  type: vless
-  uuid: 6c198339-837d-4f61-940f-fa4f6776dc07
-  ws-opts:
-    headers:
-      Host: dd2.atelienaderr.ir
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '@Hope_Net-join-us-on-Telegram #59'
-  network: ws
-  port: 443
-  server: 217.163.76.102
-  servername: re.vs2024.us.kg
-  tls: true
-  type: vless
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    path: '%2F%3Fed'
-- client-fingerprint: chrome
-  name: '@Hope_Net-join-us-on-Telegram` #17'
-  network: ws
-  port: 443
-  server: 185.16.110.111
-  servername: re.vs2024.us.kg
-  tls: true
-  type: vless
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    path: '%2F%3Fed'
-- alterId: 0
-  cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #60'
-  network: ws
-  port: '80'
-  server: plex.com
-  tls: false
-  type: vmess
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-  ws-opts:
-    headers:
-      Host: telegram-isvvpn.ir
-    path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
-- client-fingerprint: chrome
-  name: '@Hope_Net-join-us-on-Telegram` #18'
-  network: ws
-  port: 50000
-  server: 221.149.132.232
-  servername: ngedc.ambercc.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-  ws-opts:
-    path: '%2F%3Fed'
-- client-fingerprint: chrome
-  name: '@Hope_Net-join-us-on-Telegram #61'
-  network: ws
-  port: 443
-  server: 63.141.128.163
-  servername: re.vs2024.us.kg
-  tls: true
-  type: vless
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    path: '%2Fuxs.vs2024.us.kg'
-- name: '@Hope_Net-join-us-on-Telegram` #19'
   password: Aimer
-  port: 8443
-  server: 185.204.109.190
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
+  port: 26443
+  server: 45.59.187.105
+  sni: ngepy.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #62'
-  password: Aimer
-  port: 2096
-  server: 172.67.70.33
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #63'
+- name: '@Hope_Net-join-us-on-Telegram` #2'
   password: '!!str 3774827088566296576'
   port: 443
   server: robust-insect.insect388.motorcycles
   skip-cert-verify: true
   sni: robust-insect.insect388.motorcycles
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #64'
-  network: tcp
-  port: 3229
-  server: 3.143.231.119
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #65'
-  network: ws
-  port: 443
-  server: 8.218.135.92
-  servername: mmdserver.us.kg
-  tls: true
-  type: vless
-  uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
-  ws-opts:
-    path: '%2F%3Fed'
-- name: '@Hope_Net-join-us-on-Telegram #66'
-  password: Aimer
-  port: 19014
-  server: 59.23.141.222
+- name: '@Hope_Net-join-us-on-Telegram #28'
+  password: 67848035-173f-3aa5-8808-f5912297f8e9
+  port: 20141
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
+  sni: z141.hongkongnode.top
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #67'
-  network: tcp
-  port: 37172
-  server: 217.61.63.148
-  tls: false
-  type: vless
-  uuid: 9564b172-744e-45bb-a720-c1b3115def9d
-- name: '@Hope_Net-join-us-on-Telegram #68'
-  network: tcp
-  port: 3229
-  server: 54.213.147.98
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #69'
-  password: Aimer
-  port: 443
-  server: 91.149.239.238
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #20'
-  network: tcp
-  port: 3229
-  server: 3.143.143.226
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #71'
-  password: Aimer
-  port: 443
-  server: theo.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #73'
-  network: tcp
-  port: 3229
-  server: 18.220.193.76
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #74'
-  password: '!!str 3774827088566296576'
-  port: 443
-  server: real-meerkat.insect388.motorcycles
-  skip-cert-verify: true
-  sni: real-meerkat.insect388.motorcycles
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #75'
-  password: Aimer
-  port: 50000
-  server: 220.125.26.232
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #76'
-  password: Aimer
-  port: 443
-  server: 162.159.39.181
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #21'
-  password: Aimer
-  port: 443
-  server: 35.234.3.153
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #77'
-  password: Aimer
-  port: 50000
-  server: 59.1.59.225
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #22'
-  password: Aimer
-  port: 443
-  server: 8.20.125.1
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #78'
-  network: tcp
-  port: 3229
-  server: 3.15.41.24
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #79'
-  password: Aimer
-  port: 8443
-  server: 82.115.6.219
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #81'
-  password: Aimer
-  port: 50000
-  server: 59.7.61.67
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #82'
-  password: '!!str 3774827088566296576'
-  port: 443
-  server: allowed-bear.insect388.motorcycles
-  skip-cert-verify: true
-  sni: allowed-bear.insect388.motorcycles
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #83'
-  password: 89f84d5e-4170-4c64-bc78-ac99953b103a
-  port: 50025
-  server: 5.83.221.31
-  skip-cert-verify: false
-  sni: v2tw01.fuqiangren.com
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #84'
-  password: Aimer
-  port: 443
-  server: 58.176.95.46
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #85'
-  password: Aimer
-  port: 443
-  server: 146.56.178.79
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #86'
-  password: Aimer
-  port: 443
-  server: duke.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #87'
-  password: '!!str 3774827088566296576'
-  port: 443
-  server: more-tomcat.insect388.motorcycles
-  skip-cert-verify: true
-  sni: more-tomcat.insect388.motorcycles
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #88'
-  password: 89f84d5e-4170-4c64-bc78-ac99953b103a
-  port: 50015
-  server: gnpid1111.ndycom.com
-  skip-cert-verify: false
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #89'
-  password: '!!str 3774827088566296576'
-  port: 443
-  server: probable-drum.treefrog761.one
-  skip-cert-verify: true
-  sni: probable-drum.treefrog761.one
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #90'
-  password: 89f84d5e-4170-4c64-bc78-ac99953b103a
-  port: 50025
-  server: gnpid1111.ndycom.com
-  skip-cert-verify: false
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #91'
-  password: 89f84d5e-4170-4c64-bc78-ac99953b103a
-  port: 50038
-  server: ae5f1a2a-fb75-4800.gttysd.com
-  skip-cert-verify: false
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #92'
-  password: Aimer
-  port: 443
-  server: thaddeus.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #93'
-  network: tcp
-  password: Aimer
-  port: 50000
-  server: 121.180.184.145
-  sni: ngepy.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #25'
+- name: '@Hope_Net-join-us-on-Telegram #29'
   password: Aimer
   port: 2083
-  server: 172.67.65.113
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
+  server: 173.245.59.202
+  sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #94'
+- name: '@Hope_Net-join-us-on-Telegram #30'
   network: tcp
-  port: 3229
-  server: 54.218.115.95
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram` #26'
+  password: '!!str 65086520307764900'
+  port: 443
+  server: 18.141.14.110
+  sni: summary-sawfish.shiner427.skin
+  type: trojan
+- name: '@Hope_Net-join-us-on-Telegram #31'
   password: '!!str 3774827088566296576'
   port: 443
-  server: settled-corgi.insect388.motorcycles
-  skip-cert-verify: true
-  sni: settled-corgi.insect388.motorcycles
+  server: 18.139.99.11
+  sni: probable-drum.treefrog761.one
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #95'
+- name: '@Hope_Net-join-us-on-Telegram` #3'
   network: tcp
-  port: 3229
-  server: 34.221.226.133
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #97'
-  network: tcp
-  port: 3229
-  server: 35.163.43.74
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- alterId: 0
-  cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #99'
-  network: tcp
-  port: '19901'
-  server: xg.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: bff773bb-fc5e-4d51-9799-462ff4b8f841
-- alterId: 0
-  cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #101'
-  network: tcp
-  port: '12926'
-  server: 38.147.189.163
-  tls: false
-  type: vmess
-  uuid: e2103b64-fdfd-4efb-8330-c1c1ff0efdea
-- name: '@Hope_Net-join-us-on-Telegram #102'
-  password: '!!str 3774827088566296576'
-  port: 443
-  server: sunny-jackal.insect388.motorcycles
-  skip-cert-verify: true
-  sni: sunny-jackal.insect388.motorcycles
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #27'
-  password: 89f84d5e-4170-4c64-bc78-ac99953b103a
-  port: 50015
-  server: 5.83.221.31
-  skip-cert-verify: false
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #103'
   password: Aimer
   port: 443
-  server: pranab.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
+  server: 162.159.44.168
+  sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #28'
-  network: tcp
-  port: 3229
-  server: 35.92.107.105
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #105'
-  password: Aimer
-  port: 58443
-  server: 58.176.10.111
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #107'
-  password: Aimer
-  port: 443
-  server: kip.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #108'
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.157.239.29
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram` #29'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.21.72.209
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #109'
-  password: Aimer
-  port: 2053
-  server: 185.51.246.121
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #110'
-  password: 89f84d5e-4170-4c64-bc78-ac99953b103a
-  port: 50030
-  server: gnpid1111.ndycom.com
-  skip-cert-verify: false
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #112'
-  network: tcp
-  port: 3229
-  server: 54.244.80.168
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #113'
-  network: tcp
-  port: 3229
-  server: 3.138.85.33
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- alterId: 0
-  cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #114'
-  network: tcp
-  port: '8881'
-  server: 66.42.90.216
-  tls: false
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- name: '@Hope_Net-join-us-on-Telegram #116'
-  password: telegram-id-directvpn
-  port: 22222
-  server: 15.156.41.125
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #117'
-  network: tcp
-  port: 3229
-  server: 52.13.108.89
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #118'
-  password: Aimer
-  port: 52001
-  server: 45.87.103.154
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: 👉🆔@v2ray_configs_pool📡®️Hong K...
-  password: 89f84d5e-4170-4c64-bc78-ac99953b103a
-  port: 50022
-  server: gnpid1111.ndycom.com
-  skip-cert-verify: false
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #119'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.236.216.189
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: '@Hope_Net-join-us-on-Telegram #120'
-  network: tcp
-  port: 3229
-  server: 18.222.197.47
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- alterId: 0
-  cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #121'
+- name: '@Hope_Net-join-us-on-Telegram #32'
   network: ws
-  port: '23452'
-  server: 140.245.43.84
-  tls: false
-  type: vmess
-  uuid: b5dd2cca-96b9-44de-b642-fe2ca57bfcad
+  password: Ng35283528
+  port: 443
+  server: 104.16.83.176
+  sni: c2.validbv3528.eu.org
+  type: trojan
   ws-opts:
     headers:
-      Host: westsg2-ddns.oraclenat.cc
-    path: /
+      Host: c2.validbv3528.eu.org
+    path: /?ed=2560
+- name: '@Hope_Net-join-us-on-Telegram #33'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.60.126.30
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: '@Hope_Net-join-us-on-Telegram` #4'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 34.238.217.147
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #122'
-  network: ws
-  port: 2052
-  server: s2.cn-db.top
+  name: '@Hope_Net-join-us-on-Telegram #34'
+  network: tcp
+  port: '41887'
+  server: 49.12.115.200
   servername: ''
   tls: false
   type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-252-79-9.s2.cn-db.top
-    path: /dabai.in104.17.31.68
-- name: '@Hope_Net-join-us-on-Telegram #123'
+  uuid: be564078-66d3-4307-f164-e90aa1bc3cfa
+- name: '@Hope_Net-join-us-on-Telegram #35'
   network: tcp
-  port: 3229
-  server: 3.138.187.62
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- alterId: 0
-  cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #124'
-  network: ws
-  port: 443
-  server: 104.21.77.29
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
-  ws-opts:
-    headers:
-      Host: beyonddbc.sbs
-    path: /linkws
-- name: '@Hope_Net-join-us-on-Telegram` #31'
-  network: tcp
-  port: 3229
-  server: 35.87.125.157
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #125'
-  network: tcp
-  port: 3229
-  server: 18.217.170.226
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #126'
   password: telegram-id-privatevpns
   port: 22222
-  server: 54.220.132.216
+  server: 54.220.133.195
   sni: trojan.burgerip.co.uk
   type: trojan
 - alterId: 64
   cipher: auto
-  name: '@Hope_Net-join-us-on-Telegram #127'
-  network: ws
-  port: 36003
-  server: 137.175.23.140
+  name: '@Hope_Net-join-us-on-Telegram #36'
+  network: tcp
+  port: '45017'
+  server: 142.0.134.241
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: '@Hope_Net-join-us-on-Telegram #37'
+  password: '!!str 3774827088566296576'
+  port: 443
+  server: more-tomcat.insect388.motorcycles
+  sni: more-tomcat.insect388.motorcycles
+  type: trojan
+- name: '@Hope_Net-join-us-on-Telegram #38'
+  password: blue2024
+  port: 443
+  server: 188.114.99.102
+  sni: hb.lii2010.us.kg
+  type: trojan
+- name: '@Hope_Net-join-us-on-Telegram #39'
+  network: tcp
+  password: bpb-trojan
+  port: 443
+  server: 162.159.152.198
+  sni: bpbpanel.ac.cn.eu.org
+  type: trojan
+- name: '@Hope_Net-join-us-on-Telegram #40'
+  network: ws
+  password: SSorg
+  port: 2087
+  server: 46.254.93.134
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
   ws-opts:
     headers:
-      Host: ''
-    path: /path/1738402429044
-- name: '@Hope_Net-join-us-on-Telegram #128'
+      Host: ssjj.esslh.filegear-sg.mehttp/1.1
+    path: /?ed
+- name: '@Hope_Net-join-us-on-Telegram #41'
+  network: tcp
+  password: Aimer
+  port: 8443
+  server: 92.243.74.180
+  sni: ngepy.ambercc.filegear-sg.me
+  type: trojan
+- name: '@Hope_Net-join-us-on-Telegram #42'
   network: tcp
   port: 3229
-  server: 54.203.220.184
+  server: 35.89.213.86
   tls: false
   type: vless
   uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #129'
+- name: '@Hope_Net-join-us-on-Telegram #43'
+  password: Aimer
+  port: 54622
+  server: 154.21.82.84
+  sni: ngepz.ambercc.filegear-sg.me
+  type: trojan
+- name: '@Hope_Net-join-us-on-Telegram #44'
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.18.123.217
+  sni: ta.promote.icu
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ta.promote.icu
+- name: '@Hope_Net-join-us-on-Telegram #45'
+  network: tcp
+  password: blue2024
+  port: 443
+  server: 172.64.146.66
+  sni: ta.promote.icu
+  type: trojan
+- name: '@Hope_Net-join-us-on-Telegram #46'
+  password: '!!str 3774827088566296576'
+  port: 443
+  server: 63.177.221.114
+  sni: natural-aphid.insect388.motorcycles
+  type: trojan
+- name: '@Hope_Net-join-us-on-Telegram` #5'
+  password: '!!str 3770966768580042752'
+  port: 443
+  server: 185.67.125.177
+  sni: clever-primate.goat627.mom
+  type: trojan
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #128'
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 172.67.180.227
+  sni: qq.vvii.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: qq.vvii.us.kg
+    path: /tr?ed=2560
+- name: '@Hope_Net-join-us-on-Telegram #48'
   network: tcp
   port: 3229
-  server: 18.116.201.254
+  server: 18.237.207.242
   tls: false
   type: vless
   uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #130'
+- name: '@Hope_Net-join-us-on-Telegram` #6'
   network: tcp
-  port: 3229
-  server: 35.92.7.136
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram #131'
+  password: Aimer
+  port: 2053
+  server: 45.153.7.216
+  sni: ngepx.ambercc.filegear-sg.me
+  type: trojan
+- name: '@Hope_Net-join-us-on-Telegram #49'
   network: tcp
-  port: 3229
-  server: 18.216.121.120
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
-- name: '@Hope_Net-join-us-on-Telegram` #32'
-  network: tcp
-  port: 3229
-  server: 35.89.90.87
-  tls: false
-  type: vless
-  uuid: 7fc993f5-7cd7-4485-9e6f-1f7c5160c910
+  password: Aimer
+  port: 2083
+  server: 66.81.247.88
+  sni: ameqo.esslh.filegear-sg.me
+  type: trojan
+- name: '@Hope_Net-join-us-on-Telegram #50'
+  password: Aimer
+  port: 50000
+  server: 121.137.62.90
+  sni: ngepz.ambercc.filegear-sg.me
+  type: trojan
+- name: '@Hope_Net-join-us-on-Telegram #51'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.177.194.108
+  sni: trojan.burgerip.co.uk
+  type: trojan

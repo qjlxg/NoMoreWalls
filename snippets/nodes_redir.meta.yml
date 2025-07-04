@@ -70,34 +70,7 @@ proxies:
     headers:
       Host: finhztco.nipytee.info
     path: '%2F'
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: CF中转_0704131046
-  network: httpupgrade
-  port: 2087
-  server: 104.26.14.16
-  servername: bEAt.MIRaclETaxbiTS.Top.
-  tls: true
-  type: vless
-  uuid: b43d4bd7-ae01-4a96-b44a-70140f9bd556
-  ws-opts:
-    headers:
-      Host: BeAt.mIRacLeTaXbItS.tOP.
-    path: '%2F%40V2rayyNGvpn%3Fed%3D2560'
-- name: 'https://t.me/vip_vpn_2022 #2'
-  network: httpupgrade
-  port: 8080
-  server: 104.18.26.90
-  tls: false
-  type: vless
-  uuid: b8fad738-ce93-4ef1-a632-b8059ec582de
-  ws-opts:
-    headers:
-      Host: kk46.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.pro.
-    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
-- name: CF中转_0704131293
+- name: CF中转_0704181288
   network: httpupgrade
   port: 8080
   server: 104.21.49.71
@@ -107,7 +80,7 @@ proxies:
   ws-opts:
     headers:
       Host: Upgrade.SpeedGood.Com.Google.Com.BestSpeed....
-- name: CF中转_0704131295
+- name: CF中转_0704181290
   network: httpupgrade
   port: 2095
   server: 104.19.209.229
@@ -118,7 +91,7 @@ proxies:
     headers:
       Host: ES.www.speedtest.net.ftp.debian.org.NIGHTGEMSHHOP.es.tbhuf.com.
     path: '%2Fwss9000%3Fed%3D2560'
-- name: CF中转_0704131331
+- name: CF中转_0704181326
   network: httpupgrade
   port: 2082
   server: 104.16.53.11
@@ -129,7 +102,7 @@ proxies:
     headers:
       Host: myeRsdrivingschool.cOm.SpeedTest.Net.BlackRaven.NL.4.kaktusatom.iR.
     path: '%2F%3Fed%3D8880'
-- name: CF中转_0704131426
+- name: CF中转_0704181421
   network: httpupgrade
   port: 8080
   server: 162.159.153.2
@@ -140,7 +113,7 @@ proxies:
     headers:
       Host: 1.www.speedtest.net.Mact.iR.
     path: '%2FTelegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray%3Fed%3D2048'
-- name: CF中转_0704131427
+- name: CF中转_0704181422
   network: httpupgrade
   port: 8080
   server: 104.21.69.44
@@ -151,7 +124,7 @@ proxies:
     headers:
       Host: 2.www.speedtest.net.Mact.iR.
     path: '%2FTe...'
-- name: CF中转_0704131561
+- name: CF中转_0704181556
   network: httpupgrade
   port: 2095
   server: 104.21.16.1
@@ -164,7 +137,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: CF中转_0704131770
+  name: CF中转_0704181765
   network: httpupgrade
   port: 8443
   server: 104.21.37.43
@@ -176,7 +149,7 @@ proxies:
     headers:
       Host: app.soft10.ir
     path: '%2F8PaKguUsL3cShypYFXoLUeVZ81vwc'
-- name: CF中转_0704131854
+- name: CF中转_0704181849
   network: httpupgrade
   port: 8080
   server: 172.67.209.117
@@ -186,7 +159,7 @@ proxies:
   ws-opts:
     headers:
       Host: website.amin-app.ir
-- name: CF中转_0704131915
+- name: CF中转_0704181911
   network: httpupgrade
   port: 2095
   server: 104.21.23.63
@@ -200,7 +173,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: CF中转_0704131920
+  name: CF中转_0704181916
   network: httpupgrade
   port: 443
   server: 172.67.211.141
@@ -212,7 +185,7 @@ proxies:
     headers:
       Host: aaa2.hajalii.com
     path: '%2FYaPmf4AHa9IotdA9NmktIxw'
-- name: CF中转_0704131945
+- name: CF中转_0704181941
   network: httpupgrade
   port: 8080
   server: 173.245.59.132
@@ -222,7 +195,7 @@ proxies:
   ws-opts:
     headers:
       Host: evay-free.ysphs.top.
-- name: CF中转_0704131947
+- name: CF中转_0704181943
   network: httpupgrade
   port: 80
   server: 104.17.147.22
@@ -233,7 +206,7 @@ proxies:
     headers:
       Host: www.speedtest.net.ns.cloudflare.com.try.cloudflare.com.toshan.ip-ddns.com.
     path: '%2FTelegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-'
-- name: CF中转_0704131950
+- name: CF中转_0704181946
   network: httpupgrade
   port: 2086
   server: 104.17.148.22
@@ -243,7 +216,7 @@ proxies:
   ws-opts:
     headers:
       Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.p...
-- name: CF中转_0704131981
+- name: CF中转_0704181977
   network: httpupgrade
   port: 2086
   server: 104.17.147.22
@@ -254,7 +227,7 @@ proxies:
     headers:
       Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
     path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D2086'
-- name: CF中转_0704131989
+- name: CF中转_0704181985
   network: httpupgrade
   port: 2082
   server: 172.67.209.117
@@ -265,7 +238,7 @@ proxies:
     headers:
       Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
     path: '%252...'
-- name: CF中转_0704131991
+- name: CF中转_0704181987
   network: httpupgrade
   port: 8880
   server: 104.17.148.22
@@ -276,7 +249,7 @@ proxies:
     headers:
       Host: www.speedtest.net.Tajrish-Rayaneh.ir.
     path: '%2FWedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel%3Fed%3D2048'
-- name: CF中转_0704131996
+- name: CF中转_0704181992
   network: httpupgrade
   port: 8080
   server: 172.67.210.123
@@ -287,7 +260,7 @@ proxies:
     headers:
       Host: panel.sitwe.ir
     path: '%2FTelegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs%3Fed%3D2048'
-- name: CF中转_0704132284
+- name: CF中转_0704182280
   network: httpupgrade
   port: 2086
   server: 104.16.127.23
@@ -297,7 +270,7 @@ proxies:
   ws-opts:
     headers:
       Host: DarkShield.nl.wowshops.ir.
-- name: CF中转_0704132289
+- name: CF中转_0704182285
   network: httpupgrade
   port: 2095
   server: 104.17.147.22
@@ -308,7 +281,7 @@ proxies:
     headers:
       Host: PM.SODOGODPING.IR
     path: '%2F'
-- name: CF中转_0704132314
+- name: CF中转_0704182310
   network: httpupgrade
   port: 80
   server: 162.159.20.126
@@ -318,7 +291,7 @@ proxies:
   ws-opts:
     headers:
       Host: v2ngfast.nanvrfood.ir.
-- name: CF中转_0704132340
+- name: CF中转_0704182336
   network: httpupgrade
   port: 8080
   server: 104.16.157.108
@@ -329,7 +302,7 @@ proxies:
     headers:
       Host: mahdiserver.nanvrfood.ir.
     path: '%2F%40...'
-- name: CF中转_0704132402
+- name: CF中转_0704182399
   network: httpupgrade
   port: 8080
   server: 173.245.59.100
@@ -340,7 +313,7 @@ proxies:
     headers:
       Host: turkiye.serrjioo.ir
     path: '%2FGoodLuck%3Fed%3D2560'
-- name: CF中转_0704132443
+- name: CF中转_0704182440
   network: httpupgrade
   port: 8080
   server: 104.17.21.157
@@ -351,7 +324,7 @@ proxies:
     headers:
       Host: selllv2rayng.nanvrfood.ir.
     path: '%2F%40MaHDiSeRVeR-%40MaHDiSeRVeR-%40MaHDiSeRVeR-%40MaHDiSeRVeR-%40MaHDiSeRVeR-%40MaHDiSeRVeR%3Fed%3D2048'
-- name: CF中转_0704132631
+- name: CF中转_0704182628
   network: httpupgrade
   port: 80
   server: 162.159.153.2
@@ -362,7 +335,7 @@ proxies:
     headers:
       Host: revolutiontime-dailyconfigs.vigilante.ir
     path: '%2F%40Daily_Configs%2C%40Daily_Configs%2C%40Daily_Configs%2C%40Daily_Configs%2C%40Daily_Configs%2C%40Daily_Configs%2C%40Daily_Configs%2C%40Daily_Configs%3Fed%3D2048'
-- name: CF中转_0704132888
+- name: CF中转_0704182886
   network: httpupgrade
   port: 2052
   server: 173.245.58.100
@@ -373,7 +346,34 @@ proxies:
     headers:
       Host: 1.dreshghi.ir.ferialmostofi.c-om.padaco.ir.arashnasiri.com.shafashiraz.ir.honartandis.com.shouba.ir.iran-dental.com.sardkhoone.com.mohammadsalehpour.ir.abadgan.com.arvijpub.com.chmctruck.com.gandom-yar.ir
     path: '%2FGoodLuck%3Fed%3D2560'
-- name: CF中转_0704133415
+- name: https://t.me/vip_vpn_2022
+  network: httpupgrade
+  port: 8080
+  server: 104.18.26.90
+  tls: false
+  type: vless
+  uuid: b8fad738-ce93-4ef1-a632-b8059ec582de
+  ws-opts:
+    headers:
+      Host: kk46.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.pro.
+    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: CF中转_0704183439
+  network: httpupgrade
+  port: 2087
+  server: 104.26.14.16
+  servername: bEAt.MIRaclETaxbiTS.Top.
+  tls: true
+  type: vless
+  uuid: b43d4bd7-ae01-4a96-b44a-70140f9bd556
+  ws-opts:
+    headers:
+      Host: BeAt.mIRacLeTaXbItS.tOP.
+    path: '%2F%40V2rayyNGvpn%3Fed%3D2560'
+- name: CF中转_0704183445
   network: httpupgrade
   port: 80
   server: 104.18.26.90
@@ -384,7 +384,7 @@ proxies:
     headers:
       Host: www.sPeedtest.net.ElectrOluxxv.iR.
     path: '%2F%40XpnTeam%2F...%3Fed%3D2048'
-- name: CF中转_0704133416
+- name: CF中转_0704183446
   network: httpupgrade
   port: 80
   server: 104.17.128.198
@@ -395,7 +395,7 @@ proxies:
     headers:
       Host: kk78.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.pro.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D80'
-- name: CF中转_0704133417
+- name: CF中转_0704183447
   network: httpupgrade
   port: 80
   server: 188.114.98.233
@@ -417,7 +417,7 @@ proxies:
     headers:
       Host: Kk78.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.pro.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D80'
-- name: CF中转_0704133419
+- name: CF中转_0704183449
   network: httpupgrade
   port: 80
   server: 172.67.176.106
@@ -428,7 +428,7 @@ proxies:
     headers:
       Host: Kk78.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.pro.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D80'
-- name: CF中转_0704133507
+- name: CF中转_0704183537
   network: httpupgrade
   port: 80
   server: 104.25.244.76
@@ -439,7 +439,7 @@ proxies:
     headers:
       Host: www.sPeedtest.net.ElectrOluxxv.iR.
     path: '%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%3Fed%3D2048'
-- name: CF中转_0704133519
+- name: CF中转_0704183549
   network: httpupgrade
   port: 2086
   server: 172.66.168.210
@@ -450,7 +450,7 @@ proxies:
     headers:
       Host: Www.nnMn.YskBs.kDbDuB.jsiHsbS.Www.ClouD.faler.FjfUb.KetAbChI.ToP.
     path: '%2F%40DarkHub_VPN%D9%80%40DarkHub_VPN%D9%80%40DarkHub_VPN%D9%80%40DarkHub_VPN%D9%80%40DarkHub_VPN%D9%80%40DarkHub_VPN%3Fed%3D8880'
-- name: CF中转_0704133520
+- name: CF中转_0704183550
   network: httpupgrade
   port: 2086
   server: 104.17.147.22
@@ -464,7 +464,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: chrome
-  name: CF中转_0704133814
+  name: CF中转_0704183844
   network: httpupgrade
   port: 443
   server: 104.17.148.22
@@ -475,7 +475,7 @@ proxies:
   ws-opts:
     headers:
       Host: new2.hosting-mmd.ir.
-- name: CF中转_0704133816
+- name: CF中转_0704183846
   network: httpupgrade
   port: 2082
   server: 104.26.14.85
@@ -486,7 +486,7 @@ proxies:
     headers:
       Host: 1S3-0MH-HJ1JAR06--BPKV6G4V--sWZW5eMD_QKJ__ZWB4FRTV7_KA7A.0912.ORG.
     path: /?ed%3D2082
-- name: CF中转_0704134056
+- name: CF中转_0704184086
   network: httpupgrade
   port: 2086
   server: 104.17.148.22
@@ -501,7 +501,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: firefox
-  name: CF中转_0704134065
+  name: CF中转_0704184095
   network: httpupgrade
   port: 2087
   server: 104.21.67.187
@@ -513,7 +513,7 @@ proxies:
     headers:
       Host: unitedkingdom.iranfastspeed.net
     path: '%2F%40saeedtelcom%3Fed%3D2048'
-- name: CF中转_0704134204
+- name: CF中转_0704184234
   network: httpupgrade
   port: 8080
   server: 173.245.59.132
@@ -528,7 +528,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: randomized
-  name: CF中转_0704134253
+  name: CF中转_0704184282
   network: httpupgrade
   port: 2096
   server: 104.17.147.22
@@ -546,7 +546,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: randomized
-  name: CF中转_0704134376
+  name: CF中转_0704184405
   network: httpupgrade
   port: 2096
   server: 104.17.148.22
@@ -559,7 +559,7 @@ proxies:
     headers:
       Host: dash.miraji.ir
     path: '%2Fmiraji.ir%2Ff16%3Fed%3D2053'
-- name: CF中转_0704134625
+- name: CF中转_0704184654
   network: httpupgrade
   port: 8880
   server: 173.245.59.100
@@ -570,7 +570,7 @@ proxies:
     headers:
       Host: dE-sNaPp.MaStErSrV.iR.aCaDeMiGrOuP.Ir.
 - client-fingerprint: chrome
-  name: CF中转_0704134694
+  name: CF中转_0704184723
   network: httpupgrade
   port: 2096
   server: 104.21.69.44
@@ -582,7 +582,7 @@ proxies:
     headers:
       Host: geremi.newtechstoon.ir
     path: '%2Fgereminewtech%3Fed%3D2048'
-- name: CF中转_0704134764
+- name: CF中转_0704184793
   network: httpupgrade
   port: 2052
   server: 173.245.59.100
@@ -592,7 +592,7 @@ proxies:
   ws-opts:
     headers:
       Host: 3.dreshghi.ir.ferialmostofi.c-om.padaco.ir.arashnasiri.com.shafashiraz.ir.honartandis.com.shouba.ir.iran-dental.com.sardkhoone.com.mohammadsalehpour.ir.abadgan.com.arvijpub.com.chmctruck.com.gandom-yar.ir
-- name: CF中转_0704134813
+- name: CF中转_0704184842
   network: httpupgrade
   port: 8880
   server: 104.21.43.116
@@ -603,7 +603,7 @@ proxies:
     headers:
       Host: 2.v2.www.speedtest.net.blue99shop.ir
     path: ''
-- name: CF中转_0704134825
+- name: CF中转_0704184854
   network: httpupgrade
   port: 8880
   server: 172.67.72.2
@@ -613,7 +613,7 @@ proxies:
   ws-opts:
     headers:
       Host: top.golnar-clod.ir
-- name: CF中转_0704134992
+- name: CF中转_0704185021
   network: httpupgrade
   port: 2052
   server: 104.17.148.22
@@ -624,7 +624,7 @@ proxies:
     headers:
       Host: web-cdn-829ytdd0zy-rubika.ir.google.xn--aaaaaaaaaaaaaaaaaaaaaa-v150bgai.apaspeedtest.netrat.com.eu.com.shw814.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaacdamaagg.tnw.of.to
     path: '%2FphpMyAdmin%3Fq%3D%E4%B8%80%E4%BD%8D%E8%99%95%E5%A5%B3%E5%9C%A8%E5%AD%AB%E5%85%88%E7%94%9F%E7%9A%84%E8%BE%B2%E5%A0%B4%E5%B7%A5%E4%BD%9C%E3%80%82'
-- name: CF中转_0704135103
+- name: CF中转_0704185132
   network: httpupgrade
   port: 2086
   server: 172.67.137.11
@@ -635,7 +635,7 @@ proxies:
     headers:
       Host: TdWwPlBs61.kOmAtSo.oRg
     path: ''
-- name: CF中转_0704135324
+- name: CF中转_0704185353
   network: httpupgrade
   port: 2082
   server: 104.21.23.63
@@ -645,7 +645,7 @@ proxies:
   ws-opts:
     headers:
       Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
-- name: CF中转_0704135437
+- name: CF中转_0704185466
   network: httpupgrade
   port: 8080
   server: 104.17.147.22
@@ -658,7 +658,7 @@ proxies:
 - alpn:
   - h2
   client-fingerprint: chrome
-  name: CF中转_0704135452
+  name: CF中转_0704185481
   network: httpupgrade
   port: 2087
   server: 172.67.69.236
@@ -669,7 +669,7 @@ proxies:
   ws-opts:
     headers:
       Host: BeAt.mIRacLeTaXbItS.tOP.
-- name: CF中转_0704135479
+- name: CF中转_0704185508
   network: httpupgrade
   port: 2086
   server: 104.17.148.22
@@ -680,7 +680,7 @@ proxies:
     headers:
       Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
     path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D2086'
-- name: CF中转_0704135638
+- name: CF中转_0704185667
   network: httpupgrade
   port: 2086
   server: 104.17.147.22
@@ -690,7 +690,7 @@ proxies:
   ws-opts:
     headers:
       Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-- name: CF中转_0704135738
+- name: CF中转_0704185767
   network: httpupgrade
   port: 8880
   server: 172.67.178.144
@@ -701,7 +701,7 @@ proxies:
     headers:
       Host: 2.v2.www.speedtest.net.blue99shop.ir
     path: ''
-- name: CF中转_0704135746
+- name: CF中转_0704185775
   network: httpupgrade
   port: 2052
   server: 104.16.53.11
@@ -715,7 +715,7 @@ proxies:
 - alpn:
   - h2
   client-fingerprint: chrome
-  name: CF中转_0704135759
+  name: CF中转_0704185788
   network: httpupgrade
   port: 2087
   server: 104.22.32.78
@@ -730,7 +730,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: chrome
-  name: CF中转_0704135843
+  name: CF中转_0704185872
   network: httpupgrade
   port: 2096
   server: 104.17.148.22
@@ -741,7 +741,7 @@ proxies:
   ws-opts:
     headers:
       Host: dash.miraji.ir
-- name: CF中转_0704135849
+- name: CF中转_0704185878
   network: httpupgrade
   port: 8080
   server: 104.16.53.11
@@ -752,7 +752,7 @@ proxies:
     headers:
       Host: pivaz-a.plas-nim.org
     path: '%2F%3Fed%3D2087'
-- name: CF中转_0704135977
+- name: CF中转_0704186006
   network: httpupgrade
   port: 8880
   server: 173.245.59.132
@@ -763,7 +763,7 @@ proxies:
     headers:
       Host: nL-sNaPp.ZeMpA-lOvE.ir
     path: ''
-- name: CF中转_0704135989
+- name: CF中转_0704186018
   network: httpupgrade
   port: 2095
   server: 104.21.16.1
@@ -778,7 +778,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: randomized
-  name: CF中转_0704136225
+  name: CF中转_0704186254
   network: httpupgrade
   port: 2096
   server: 104.17.147.22
@@ -791,7 +791,7 @@ proxies:
     headers:
       Host: dash.miraji.ir
     path: '%2F%40shahabslimi%2Ff16%3Fed%3D2053'
-- name: CF中转_0704136314
+- name: CF中转_0704186343
   network: httpupgrade
   port: 2082
   server: 172.67.209.117
@@ -801,7 +801,7 @@ proxies:
   ws-opts:
     headers:
       Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
-- name: CF中转_0704136436
+- name: CF中转_0704186465
   network: httpupgrade
   port: 2052
   server: 173.245.59.100
@@ -811,7 +811,7 @@ proxies:
   ws-opts:
     headers:
       Host: Espa.serrjioo.ir
-- name: CF中转_0704136529
+- name: CF中转_0704186558
   network: httpupgrade
   port: 2095
   server: 104.21.48.1
@@ -822,7 +822,7 @@ proxies:
     headers:
       Host: speeDxpnte.socksChangeRt.ir.
     path: '%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%3Fed%3D2048'
-- name: CF中转_0704136558
+- name: CF中转_0704186587
   network: httpupgrade
   port: 2052
   server: 173.245.59.132
@@ -834,7 +834,7 @@ proxies:
 - alpn:
   - h2
   client-fingerprint: chrome
-  name: CF中转_0704136562
+  name: CF中转_0704186591
   network: httpupgrade
   port: 2087
   server: 104.26.14.16

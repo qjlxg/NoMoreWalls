@@ -10,7 +10,7 @@ proxies:
     headers:
       Host: epic-espain-sub-89ytdd0zy-rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--qeiaa57238baaaaaaabaacaaaaaaaaaaaaaaaaaaaaa.apaspeedtest.netrat.com.eu.com.shw814.ir.xn--cr8haaaaaaaaaaaaaaaaa.xn--g28h.My-SoFTmETo.IR.
     path: '%2F%3Fed%3D2048'
-- name: 爱沙尼亚_070413004
+- name: 爱沙尼亚_070418004
   network: httpupgrade
   port: 8880
   server: 45.80.110.14
@@ -21,7 +21,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 爱沙尼亚_070413013
+- name: 爱沙尼亚_070418014
   network: httpupgrade
   port: 8880
   server: 45.80.110.62
@@ -32,7 +32,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 爱沙尼亚_070413014
+- name: 爱沙尼亚_070418015
   network: httpupgrade
   port: 8880
   server: 45.80.108.117
@@ -43,7 +43,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 爱沙尼亚_070413015
+- name: 爱沙尼亚_070418016
   network: httpupgrade
   port: 8880
   server: 45.80.110.8
@@ -54,7 +54,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 爱沙尼亚_070413020
+- name: 爱沙尼亚_070418021
   network: httpupgrade
   port: 8880
   server: 45.80.108.99
@@ -65,7 +65,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 爱沙尼亚_070413021
+- name: 爱沙尼亚_070418022
   network: httpupgrade
   port: 8880
   server: 45.80.110.89
@@ -76,3 +76,13 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
+- name: '👉🆔@v2ray_configs_pool📡🇪®️Eston... #1'
+  network: tcp
+  port: 2025
+  server: essi.kimjo.ir
+  tls: false
+  type: vless
+  uuid: 2fe99aec-afeb-415a-8c44-3fb8bd061f5c
+  ws-opts:
+    headers:
+      Host: speedtest.net

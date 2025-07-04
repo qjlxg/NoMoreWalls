@@ -180,17 +180,6 @@ proxies:
     headers:
       Host: join.2.kiava.cloud.speedtest.net.xn--mgba2h8quf.cdn.h79.cloudfront.net.kiava.fun
     path: /?ed=2560
-- name: 🇩🇨🇪🇹🇡🇆🇒🇮🇅🇹🇮🇅🇣🇭🇹🇲🇱🇨🇸🇳🇴🇸🇮🇪🇅🇱🇮🇪🇅🇱...
-  network: httpupgrade
-  port: 2052
-  server: www.speedtest.net
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Bo2bo2.bia2bax.shoP.
-    path: /www.zula.ir?ed=2052
 - alpn:
   - http/1.1
   name: 🇺🇸US(AzadNet.t.me)
@@ -640,7 +629,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: 美国_070413263
+- name: 美国_070418259
   network: httpupgrade
   port: 2086
   server: 63.141.128.17
@@ -662,7 +651,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: 美国_070413281
+- name: 美国_070418277
   network: httpupgrade
   port: 8880
   server: 147.185.161.199
@@ -673,7 +662,7 @@ proxies:
     headers:
       Host: dl1.mcinet.xyz.
     path: '%2F'
-- name: 美国_070413283
+- name: 美国_070418279
   network: httpupgrade
   port: 8880
   server: 167.68.11.196
@@ -684,7 +673,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: 美国_0704132392
+- name: 美国_070418280
   network: httpupgrade
   port: 8880
   server: 45.159.218.151
@@ -717,7 +706,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132543
+- name: 美国_0704182549
   network: httpupgrade
   port: 8880
   server: 155.46.213.66
@@ -728,7 +717,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: 美国_0704132556
+- name: 美国_0704182562
   network: httpupgrade
   port: 8880
   server: 104.129.165.95
@@ -739,7 +728,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
-- name: 美国_0704132559
+- name: 美国_0704182565
   network: httpupgrade
   port: 8880
   server: 103.133.1.17
@@ -755,7 +744,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 美国_0704132571
+  name: 美国_0704182577
   network: httpupgrade
   port: 443
   server: 199.34.230.125
@@ -778,7 +767,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132581
+- name: 美国_0704182587
   network: httpupgrade
   port: 2082
   server: 155.46.213.246
@@ -800,7 +789,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132585
+- name: 美国_0704182591
   network: httpupgrade
   port: 8880
   server: 155.46.213.24
@@ -822,7 +811,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132539
+- name: 美国_0704182545
   network: httpupgrade
   port: 8880
   server: 103.133.1.130
@@ -844,7 +833,7 @@ proxies:
     headers:
       Host: dl1.mcinet.xyz.
     path: '%2F'
-- name: 美国_0704132342
+- name: 美国_0704182359
   network: httpupgrade
   port: 8880
   server: 104.129.167.246
@@ -888,7 +877,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704131810
+- name: 美国_0704181825
   network: httpupgrade
   port: 8880
   server: 104.129.167.203
@@ -1136,7 +1125,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
-- name: 美国_0704131969
+- name: 美国_0704181983
   network: httpupgrade
   port: 8880
   server: 104.129.167.149
@@ -1147,7 +1136,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: 美国_0704132435
+- name: 美国_0704182445
   network: httpupgrade
   port: 8880
   server: 155.46.213.152
@@ -1180,7 +1169,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132265
+- name: 美国_0704182282
   network: httpupgrade
   port: 8880
   server: 66.225.252.80
@@ -1224,7 +1213,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132294
+- name: 美国_0704182311
   network: httpupgrade
   port: 8880
   server: 167.68.11.203
@@ -1257,7 +1246,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: 美国_0704132446
+- name: 美国_0704182455
   network: httpupgrade
   port: 8880
   server: 104.129.167.167
@@ -1268,7 +1257,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 美国_0704132218
+- name: 美国_0704182235
   network: httpupgrade
   port: 8880
   server: 14.102.229.71
@@ -1334,7 +1323,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: 美国_0704132360
+- name: 美国_0704182377
   network: httpupgrade
   port: 8880
   server: 66.225.252.224
@@ -1389,7 +1378,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: 美国_0704131687
+- name: 美国_0704181704
   network: httpupgrade
   port: 8880
   server: 141.193.213.188
@@ -1411,7 +1400,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: 美国_0704132089
+- name: 美国_0704182103
   network: httpupgrade
   port: 8880
   server: 135.84.67.74
@@ -1422,7 +1411,7 @@ proxies:
     headers:
       Host: heidi.ns.clooudflare.com.mahxray.com.
     path: '%2F%3Fed%3D2048'
-- name: 美国_0704132404
+- name: 美国_0704182418
   network: httpupgrade
   port: 8880
   server: 45.159.216.83
@@ -1609,7 +1598,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132091
+- name: 美国_0704182105
   network: httpupgrade
   port: 8880
   server: 108.165.216.218
@@ -1653,7 +1642,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: 美国_0704132261
+- name: 美国_0704182278
   network: httpupgrade
   port: 8880
   server: 103.133.1.19
@@ -1664,7 +1653,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: '%2F%252Ftelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER'
-- name: 美国_0704131905
+- name: 美国_0704181919
   network: httpupgrade
   port: 8080
   server: 154.206.12.52
@@ -1686,7 +1675,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132097
+- name: 美国_0704182111
   network: httpupgrade
   port: 8880
   server: 167.68.5.247
@@ -1769,7 +1758,7 @@ proxies:
     headers:
       Host: uk1.blackismyfavorite.ir
     path: '%2FXRAYVPNHTTPUPGRADE'
-- name: 美国_0704131716
+- name: 美国_0704181733
   network: httpupgrade
   port: 8080
   server: 104.129.167.203
@@ -1817,7 +1806,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: 美国_0704132440
+  name: 美国_0704182450
   network: httpupgrade
   port: 443
   server: 199.34.229.63
@@ -1829,7 +1818,7 @@ proxies:
     headers:
       Host: uk1.blackismyfavorite.ir
     path: '%2FXRAYVPNHTTPUPGRADE'
-- name: 美国_0704131993
+- name: 美国_0704182007
   network: httpupgrade
   port: 8880
   server: 155.46.213.120
@@ -1939,7 +1928,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132358
+- name: 美国_0704182375
   network: httpupgrade
   port: 8880
   server: 160.153.0.40
@@ -1950,7 +1939,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: 美国_0704131910
+- name: 美国_0704181924
   network: httpupgrade
   port: 8880
   server: 104.129.167.154
@@ -2088,7 +2077,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704131933
+- name: 美国_0704181947
   network: httpupgrade
   port: 8880
   server: 159.112.235.89
@@ -2110,7 +2099,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704131591
+- name: 美国_0704181608
   network: httpupgrade
   port: 8880
   server: 104.129.166.249
@@ -2143,7 +2132,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: 美国_0704131682
+- name: 美国_0704181699
   network: httpupgrade
   port: 8880
   server: 14.102.229.220
@@ -2158,7 +2147,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: 美国_0704131736
+  name: 美国_0704181753
   network: httpupgrade
   port: 443
   server: 199.34.229.57
@@ -2170,7 +2159,7 @@ proxies:
     headers:
       Host: uk1.blackismyfavorite.ir
     path: '%2FXRAYVPNHTTPUPGRADE'
-- name: 美国_0704132027
+- name: 美国_0704182041
   network: httpupgrade
   port: 2082
   server: 167.68.11.96
@@ -2181,7 +2170,7 @@ proxies:
     headers:
       Host: fin-met.wordperessweb.ir
     path: /?ed%3D2082
-- name: 美国_0704132049
+- name: 美国_0704182063
   network: httpupgrade
   port: 2082
   server: 154.206.12.114
@@ -2236,7 +2225,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132348
+- name: 美国_0704182365
   network: httpupgrade
   port: 8880
   server: 167.68.11.45
@@ -2291,7 +2280,7 @@ proxies:
     headers:
       Host: dl1.mcinet.xyz.
     path: '%2F'
-- name: 美国_0704131976
+- name: 美国_0704181990
   network: httpupgrade
   port: 8880
   server: 104.129.164.98
@@ -2313,7 +2302,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 美国_0704132149
+- name: 美国_0704182163
   network: httpupgrade
   port: 8880
   server: 14.102.229.27
@@ -2445,7 +2434,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132451
+- name: 美国_0704182460
   network: httpupgrade
   port: 8880
   server: 104.129.164.105
@@ -2566,7 +2555,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132242
+- name: 美国_0704182259
   network: httpupgrade
   port: 8880
   server: 147.185.161.225
@@ -2577,7 +2566,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: 美国_0704131740
+- name: 美国_0704181757
   network: httpupgrade
   port: 2082
   server: 45.159.218.151
@@ -2610,7 +2599,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132352
+- name: 美国_0704182369
   network: httpupgrade
   port: 8880
   server: 192.200.160.17
@@ -2643,7 +2632,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 美国_0704131636
+- name: 美国_0704181653
   network: httpupgrade
   port: 8880
   server: 103.133.1.85
@@ -2698,7 +2687,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132236
+- name: 美国_0704182253
   network: httpupgrade
   port: 8880
   server: 108.165.216.142
@@ -2731,7 +2720,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704131565
+- name: 美国_0704181582
   network: httpupgrade
   port: 8880
   server: 154.206.12.206
@@ -2753,7 +2742,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: 美国_0704132303
+- name: 美国_0704182320
   network: httpupgrade
   port: 8880
   server: 104.129.167.23
@@ -2775,7 +2764,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132413
+- name: 美国_0704182426
   network: httpupgrade
   port: 8880
   server: 141.193.213.11
@@ -2786,7 +2775,7 @@ proxies:
     headers:
       Host: Www.soft98.ir.snap.ir.Www.Abantether.ir.te1450.ir
     path: '%2F2048'
-- name: 美国_0704131606
+- name: 美国_0704181623
   network: httpupgrade
   port: 8880
   server: 156.225.72.214
@@ -2797,7 +2786,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
-- name: 美国_0704132168
+- name: 美国_0704182183
   network: httpupgrade
   port: 8880
   server: 141.193.213.55
@@ -2819,7 +2808,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704131954
+- name: 美国_0704181968
   network: httpupgrade
   port: 8880
   server: 104.129.164.197
@@ -2874,7 +2863,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704131541
+- name: 美国_0704181558
   network: httpupgrade
   port: 8880
   server: 159.246.55.156
@@ -2901,7 +2890,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 美国_0704131894
+  name: 美国_0704181908
   network: httpupgrade
   port: 443
   server: 199.34.230.63
@@ -2924,7 +2913,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: 美国_0704132080
+- name: 美国_0704182094
   network: httpupgrade
   port: 8880
   server: 45.159.216.244
@@ -2935,7 +2924,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: '%2F%252Ftelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER'
-- name: 美国_0704131614
+- name: 美国_0704181631
   network: httpupgrade
   port: 8880
   server: 14.102.229.131
@@ -2957,7 +2946,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132345
+- name: 美国_0704182362
   network: httpupgrade
   port: 8880
   server: 45.159.216.112
@@ -3078,7 +3067,7 @@ proxies:
     headers:
       Host: dl1.mcinet.xyz.
     path: '%2F'
-- name: 美国_0704131978
+- name: 美国_0704181992
   network: httpupgrade
   port: 8880
   server: 141.193.213.193
@@ -3089,7 +3078,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
-- name: 美国_0704132088
+- name: 美国_0704182102
   network: httpupgrade
   port: 8880
   server: 154.206.12.65
@@ -3133,7 +3122,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
-- name: 美国_0704132323
+- name: 美国_0704182340
   network: httpupgrade
   port: 8880
   server: 14.102.229.26
@@ -3144,7 +3133,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: 美国_0704131907
+- name: 美国_0704181921
   network: httpupgrade
   port: 8880
   server: 14.102.229.88
@@ -3243,7 +3232,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704131680
+- name: 美国_0704181697
   network: httpupgrade
   port: 8880
   server: 104.129.164.109
@@ -3331,7 +3320,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: 美国_0704131536
+- name: 美国_0704181553
   network: httpupgrade
   port: 8880
   server: 159.112.235.70
@@ -3342,7 +3331,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 美国_0704132317
+- name: 美国_0704182334
   network: httpupgrade
   port: 8880
   server: 104.129.167.144
@@ -3381,7 +3370,7 @@ proxies:
     headers:
       Host: uk1.blackismyfavorite.ir
     path: '%2FXRAYVPNHTTPUPGRADE'
-- name: 美国_0704132234
+- name: 美国_0704182251
   network: httpupgrade
   port: 8880
   server: 104.129.167.126
@@ -3403,7 +3392,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704131916
+- name: 美国_0704181930
   network: httpupgrade
   port: 8880
   server: 156.225.72.106
@@ -3458,7 +3447,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 美国_0704131964
+- name: 美国_0704181978
   network: httpupgrade
   port: 8880
   server: 156.225.72.118
@@ -3568,7 +3557,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: 美国_0704131869
+- name: 美国_0704181884
   network: httpupgrade
   port: 8880
   server: 14.102.229.70
@@ -3601,7 +3590,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: 美国_0704132184
+- name: 美国_0704182201
   network: httpupgrade
   port: 8880
   server: 155.46.213.181
@@ -3656,7 +3645,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704131764
+- name: 美国_0704181780
   network: httpupgrade
   port: 8880
   server: 66.225.252.75
@@ -3777,7 +3766,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704131936
+- name: 美国_0704181950
   network: httpupgrade
   port: 8880
   server: 103.133.1.108
@@ -3799,7 +3788,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704131883
+- name: 美国_0704181897
   network: httpupgrade
   port: 8880
   server: 147.185.161.124
@@ -3810,7 +3799,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: 美国_0704132466
+- name: 美国_0704182473
   network: httpupgrade
   port: 8880
   server: 104.254.140.249
@@ -3876,7 +3865,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER
-- name: 美国_0704132066
+- name: 美国_0704182080
   network: httpupgrade
   port: 8880
   server: 147.185.161.175
@@ -3887,7 +3876,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: 美国_0704131807
+- name: 美国_0704181823
   network: httpupgrade
   port: 8880
   server: 147.185.161.240
@@ -3898,7 +3887,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: 美国_0704132082
+- name: 美国_0704182096
   network: httpupgrade
   port: 8880
   server: 154.206.12.245
@@ -3964,7 +3953,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132063
+- name: 美国_0704182077
   network: httpupgrade
   port: 2082
   server: 154.206.12.170
@@ -4041,7 +4030,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704131679
+- name: 美国_0704181696
   network: httpupgrade
   port: 8880
   server: 167.68.11.141
@@ -4074,7 +4063,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704131664
+- name: 美国_0704181681
   network: httpupgrade
   port: 8880
   server: 160.153.0.219
@@ -4228,7 +4217,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 美国_0704132090
+- name: 美国_0704182104
   network: httpupgrade
   port: 8880
   server: 154.206.12.195
@@ -4261,7 +4250,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 美国_0704132498
+- name: 美国_0704182504
   network: httpupgrade
   port: 8880
   server: 14.102.229.172
@@ -4299,7 +4288,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 美国_0704131638
+  name: 美国_0704181655
   network: httpupgrade
   port: 443
   server: 199.34.230.30
@@ -4327,7 +4316,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 美国_0704131899
+  name: 美国_0704181913
   network: httpupgrade
   port: 443
   server: 199.34.229.68
@@ -4339,7 +4328,7 @@ proxies:
     headers:
       Host: uk1.blackismyfavorite.ir
     path: '%2FXRAYVPNHTTPUPGRADE'
-- name: 美国_0704131806
+- name: 美国_0704181822
   network: httpupgrade
   port: 8880
   server: 155.46.213.246
@@ -4350,7 +4339,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: 🇺US_4493_@Surfboardv2ray
+- name: 🇺US_4352_@Surfboardv2ray
   network: httpupgrade
   port: 8880
   server: shaun.te1450.ir
@@ -4361,7 +4350,7 @@ proxies:
     headers:
       Host: Www.soft98.ir.snap.ir.Www.Abantether.ir.te1450.ir
     path: /2048
-- name: 美国_0704131521
+- name: 美国_0704181538
   network: httpupgrade
   port: 8880
   server: 108.165.216.178
@@ -4372,7 +4361,7 @@ proxies:
     headers:
       Host: dl1.mcinet.xyz.
     path: ''
-- name: 美国_0704131524
+- name: 美国_0704181541
   network: httpupgrade
   port: 8880
   server: 45.159.218.38
@@ -4383,7 +4372,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131533
+- name: 美国_0704181550
   network: httpupgrade
   port: 8880
   server: 170.114.46.185
@@ -4394,7 +4383,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /telegram-NUFiLTER
-- name: 美国_0704131537
+- name: 美国_0704181554
   network: httpupgrade
   port: 8880
   server: 162.120.94.51
@@ -4405,7 +4394,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131545
+- name: 美国_0704181562
   network: httpupgrade
   port: 8880
   server: 103.133.1.235
@@ -4416,7 +4405,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /telegram-NUFiLTER
-- name: 美国_0704131569
+- name: 美国_0704181586
   network: httpupgrade
   port: 8880
   server: 45.205.0.52
@@ -4427,7 +4416,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131578
+- name: 美国_0704181595
   network: httpupgrade
   port: 8880
   server: 155.46.213.102
@@ -4438,7 +4427,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131584
+- name: 美国_0704181601
   network: httpupgrade
   port: 8880
   server: 66.81.247.215
@@ -4449,7 +4438,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131612
+- name: 美国_0704181629
   network: httpupgrade
   port: 8880
   server: 104.129.164.102
@@ -4460,7 +4449,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131613
+- name: 美国_0704181630
   network: httpupgrade
   port: 8880
   server: 160.153.0.45
@@ -4471,7 +4460,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131619
+- name: 美国_0704181636
   network: httpupgrade
   port: 8880
   server: 162.120.94.154
@@ -4482,7 +4471,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131620
+- name: 美国_0704181637
   network: httpupgrade
   port: 8880
   server: 168.100.6.150
@@ -4493,7 +4482,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131622
+- name: 美国_0704181639
   network: httpupgrade
   port: 8880
   server: 45.159.219.211
@@ -4504,7 +4493,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131634
+- name: 美国_0704181651
   network: httpupgrade
   port: 8880
   server: 103.116.7.183
@@ -4515,7 +4504,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131635
+- name: 美国_0704181652
   network: httpupgrade
   port: 8880
   server: 162.120.94.67
@@ -4526,7 +4515,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131642
+- name: 美国_0704181659
   network: httpupgrade
   port: 8880
   server: 184.174.80.199
@@ -4537,7 +4526,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131657
+- name: 美国_0704181674
   network: httpupgrade
   port: 8880
   server: 14.102.229.244
@@ -4548,7 +4537,7 @@ proxies:
     headers:
       Host: dl1.mcinet.xyz.
     path: ''
-- name: 美国_0704131658
+- name: 美国_0704181675
   network: httpupgrade
   port: 8880
   server: 103.133.1.18
@@ -4559,7 +4548,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131693
+- name: 美国_0704181710
   network: httpupgrade
   port: 8880
   server: 14.102.229.222
@@ -4570,7 +4559,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 美国_0704131695
+- name: 美国_0704181712
   network: httpupgrade
   port: 8880
   server: 103.116.7.190
@@ -4581,7 +4570,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131697
+- name: 美国_0704181714
   network: httpupgrade
   port: 8880
   server: 45.159.219.137
@@ -4592,7 +4581,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131698
+- name: 美国_0704181715
   network: httpupgrade
   port: 8880
   server: 45.159.218.104
@@ -4603,7 +4592,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 美国_0704131702
+- name: 美国_0704181719
   network: httpupgrade
   port: 8880
   server: 170.114.46.48
@@ -4614,7 +4603,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131710
+- name: 美国_0704181727
   network: httpupgrade
   port: 8880
   server: 45.194.53.149
@@ -4625,7 +4614,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131724
+- name: 美国_0704181741
   network: httpupgrade
   port: 8880
   server: 154.206.12.235
@@ -4636,7 +4625,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131725
+- name: 美国_0704181742
   network: httpupgrade
   port: 8880
   server: 108.165.152.104
@@ -4647,7 +4636,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131729
+- name: 美国_0704181746
   network: httpupgrade
   port: 8880
   server: 156.225.72.168
@@ -4658,7 +4647,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131735
+- name: 美国_0704181752
   network: httpupgrade
   port: 8880
   server: 104.129.164.78
@@ -4669,7 +4658,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 美国_0704131745
+- name: 美国_0704181762
   network: httpupgrade
   port: 8880
   server: 104.129.167.229
@@ -4680,7 +4669,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131760
+- name: 美国_0704181776
   network: httpupgrade
   port: 8880
   server: 45.159.216.154
@@ -4691,7 +4680,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 美国_0704131770
+- name: 美国_0704181786
   network: httpupgrade
   port: 8880
   server: 184.174.80.120
@@ -4702,7 +4691,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131776
+- name: 美国_0704181792
   network: httpupgrade
   port: 8880
   server: 104.129.164.145
@@ -4713,7 +4702,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131777
+- name: 美国_0704181793
   network: httpupgrade
   port: 8880
   server: 45.159.216.192
@@ -4724,7 +4713,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131780
+- name: 美国_0704181796
   network: httpupgrade
   port: 8880
   server: 184.174.80.142
@@ -4735,7 +4724,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131799
+- name: 美国_0704181815
   network: httpupgrade
   port: 8880
   server: 14.102.229.248
@@ -4746,7 +4735,7 @@ proxies:
     headers:
       Host: dl1.mcinet.xyz.
     path: ''
-- name: 美国_0704131802
+- name: 美国_0704181818
   network: httpupgrade
   port: 8880
   server: 14.102.228.131
@@ -4757,7 +4746,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131811
+- name: 美国_0704181826
   network: httpupgrade
   port: 8880
   server: 167.68.11.106
@@ -4768,7 +4757,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 美国_0704131815
+- name: 美国_0704181830
   network: httpupgrade
   port: 8880
   server: 45.159.218.102
@@ -4779,7 +4768,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131819
+- name: 美国_0704181834
   network: httpupgrade
   port: 8880
   server: 162.120.94.145
@@ -4790,7 +4779,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131824
+- name: 美国_0704181839
   network: httpupgrade
   port: 8880
   server: 155.46.213.75
@@ -4801,7 +4790,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 美国_0704131827
+- name: 美国_0704181842
   network: httpupgrade
   port: 8880
   server: 103.133.1.197
@@ -4812,7 +4801,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131829
+- name: 美国_0704181844
   network: httpupgrade
   port: 8880
   server: 160.153.0.239
@@ -4823,7 +4812,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131844
+- name: 美国_0704181859
   network: httpupgrade
   port: 8880
   server: 104.129.167.30
@@ -4834,7 +4823,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 美国_0704131846
+- name: 美国_0704181861
   network: httpupgrade
   port: 8880
   server: 170.114.45.23
@@ -4845,7 +4834,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131852
+- name: 美国_0704181867
   network: httpupgrade
   port: 8880
   server: 14.102.229.9
@@ -4856,7 +4845,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 美国_0704131861
+- name: 美国_0704181876
   network: httpupgrade
   port: 8880
   server: 66.225.252.211
@@ -4867,7 +4856,7 @@ proxies:
     headers:
       Host: dl1.mcinet.xyz.
     path: ''
-- name: 美国_0704131867
+- name: 美国_0704181882
   network: httpupgrade
   port: 8880
   server: 14.102.228.52
@@ -4878,7 +4867,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131876
+- name: 美国_0704181890
   network: httpupgrade
   port: 8880
   server: 45.159.217.228
@@ -4889,7 +4878,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131893
+- name: 美国_0704181907
   network: httpupgrade
   port: 8880
   server: 147.185.161.125
@@ -4900,7 +4889,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131897
+- name: 美国_0704181911
   network: httpupgrade
   port: 8880
   server: 104.129.167.199
@@ -4911,7 +4900,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131957
+- name: 美国_0704181971
   network: httpupgrade
   port: 8880
   server: 170.114.46.236
@@ -4922,7 +4911,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704131982
+- name: 美国_0704181996
   network: httpupgrade
   port: 8880
   server: 14.102.229.66
@@ -4933,7 +4922,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132003
+- name: 美国_0704182017
   network: httpupgrade
   port: 8880
   server: 167.68.11.219
@@ -4944,7 +4933,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132008
+- name: 美国_0704182022
   network: httpupgrade
   port: 8880
   server: 14.102.228.170
@@ -4955,7 +4944,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132014
+- name: 美国_0704182028
   network: httpupgrade
   port: 8880
   server: 108.165.152.248
@@ -4966,7 +4955,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132062
+- name: 美国_0704182076
   network: httpupgrade
   port: 8880
   server: 154.206.12.205
@@ -4977,7 +4966,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132064
+- name: 美国_0704182078
   network: httpupgrade
   port: 8880
   server: 14.102.228.41
@@ -4988,7 +4977,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132083
+- name: 美国_0704182097
   network: httpupgrade
   port: 8880
   server: 155.46.213.158
@@ -4999,7 +4988,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 美国_0704132107
+- name: 美国_0704182121
   network: httpupgrade
   port: 2095
   server: www.venzo.com.tr
@@ -5010,7 +4999,7 @@ proxies:
     headers:
       Host: srv6.amazon-osishop.ir
     path: '%2Fhu%3Fed%3D2095'
-- name: 美国_0704132114
+- name: 美国_0704182128
   network: httpupgrade
   port: 8880
   server: 103.116.7.171
@@ -5021,7 +5010,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132135
+- name: 美国_0704182149
   network: httpupgrade
   port: 2095
   server: 91.206.71.162
@@ -5032,7 +5021,7 @@ proxies:
     headers:
       Host: srv6.amazon-osishop.ir
     path: '%2Fhu%3Fed%3D2095'
-- name: 美国_0704132148
+- name: 美国_0704182162
   network: httpupgrade
   port: 8880
   server: 141.193.213.143
@@ -5043,7 +5032,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132179
+- name: 美国_0704182195
   network: httpupgrade
   port: 8880
   server: 159.112.235.232
@@ -5054,7 +5043,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 美国_0704132197
+- name: 美国_0704182214
   network: httpupgrade
   port: 8880
   server: 104.129.165.106
@@ -5065,7 +5054,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132198
+- name: 美国_0704182215
   network: httpupgrade
   port: 8880
   server: 45.159.219.140
@@ -5076,7 +5065,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132200
+- name: 美国_0704182217
   network: httpupgrade
   port: 2095
   server: 91.206.71.162
@@ -5087,7 +5076,7 @@ proxies:
     headers:
       Host: srv6.amazon-osishop.ir
     path: '%2Fhu%3Fed%3D2095'
-- name: 美国_0704132202
+- name: 美国_0704182219
   network: httpupgrade
   port: 8880
   server: 45.159.219.52
@@ -5098,7 +5087,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132204
+- name: 美国_0704182221
   network: httpupgrade
   port: 8880
   server: 167.68.4.192
@@ -5109,7 +5098,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132213
+- name: 美国_0704182230
   network: httpupgrade
   port: 8880
   server: 45.159.216.190
@@ -5120,7 +5109,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132214
+- name: 美国_0704182231
   network: httpupgrade
   port: 8880
   server: 45.159.217.47
@@ -5131,7 +5120,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132217
+- name: 美国_0704182234
   network: httpupgrade
   port: 8880
   server: 108.165.152.182
@@ -5142,7 +5131,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132235
+- name: 美国_0704182252
   network: httpupgrade
   port: 8880
   server: 66.225.252.60
@@ -5153,7 +5142,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 美国_0704132252
+- name: 美国_0704182269
   network: httpupgrade
   port: 8880
   server: 45.159.216.49
@@ -5164,7 +5153,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 美国_0704132267
+- name: 美国_0704182284
   network: httpupgrade
   port: 8880
   server: 167.68.4.98
@@ -5175,7 +5164,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132268
+- name: 美国_0704182285
   network: httpupgrade
   port: 8880
   server: 45.159.217.189
@@ -5186,73 +5175,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132276
-  network: httpupgrade
-  port: 8880
-  server: 104.129.167.80
-  tls: false
-  type: vless
-  uuid: 730f02b4-a187-4498-b3fa-9e9f1dccf47c
-  ws-opts:
-    headers:
-      Host: dl1.mcinet.xyz.
-    path: ''
-- name: 美国_0704132287
-  network: httpupgrade
-  port: 8880
-  server: 103.133.1.16
-  tls: false
-  type: vless
-  uuid: 99727208-0086-43f9-f0ad-9e30f546b822
-  ws-opts:
-    headers:
-      Host: hamidjon.ddigicyber.click.
-    path: //telegram-NUFiLTER
-- name: 美国_0704132300
-  network: httpupgrade
-  port: 8880
-  server: 159.246.55.168
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 美国_0704132315
-  network: httpupgrade
-  port: 8880
-  server: 167.68.5.208
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 美国_0704132322
-  network: httpupgrade
-  port: 8880
-  server: 155.46.213.155
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 美国_0704132327
-  network: httpupgrade
-  port: 8880
-  server: 185.148.104.1
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 美国_070413233
+- name: 美国_070418229
   network: httpupgrade
   port: 8880
   server: 167.68.4.157
@@ -5263,7 +5186,73 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132338
+- name: 美国_0704182293
+  network: httpupgrade
+  port: 8880
+  server: 104.129.167.80
+  tls: false
+  type: vless
+  uuid: 730f02b4-a187-4498-b3fa-9e9f1dccf47c
+  ws-opts:
+    headers:
+      Host: dl1.mcinet.xyz.
+    path: ''
+- name: 美国_0704182304
+  network: httpupgrade
+  port: 8880
+  server: 103.133.1.16
+  tls: false
+  type: vless
+  uuid: 99727208-0086-43f9-f0ad-9e30f546b822
+  ws-opts:
+    headers:
+      Host: hamidjon.ddigicyber.click.
+    path: //telegram-NUFiLTER
+- name: 美国_0704182317
+  network: httpupgrade
+  port: 8880
+  server: 159.246.55.168
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 美国_0704182332
+  network: httpupgrade
+  port: 8880
+  server: 167.68.5.208
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 美国_0704182339
+  network: httpupgrade
+  port: 8880
+  server: 155.46.213.155
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 美国_0704182344
+  network: httpupgrade
+  port: 8880
+  server: 185.148.104.1
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 美国_0704182355
   network: httpupgrade
   port: 8880
   server: 168.100.6.127
@@ -5274,7 +5263,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132353
+- name: 美国_0704182370
   network: httpupgrade
   port: 8880
   server: 108.165.216.119
@@ -5285,7 +5274,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132356
+- name: 美国_0704182373
   network: httpupgrade
   port: 8880
   server: 108.165.216.136
@@ -5296,7 +5285,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132367
+- name: 美国_0704182384
   network: httpupgrade
   port: 8880
   server: 159.112.235.58
@@ -5307,84 +5296,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132387
-  network: httpupgrade
-  port: 8880
-  server: 104.129.164.14
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 美国_0704132391
-  network: httpupgrade
-  port: 8880
-  server: 170.114.45.21
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 美国_0704132395
-  network: httpupgrade
-  port: 8880
-  server: 170.114.46.227
-  tls: false
-  type: vless
-  uuid: 99727208-0086-43f9-f0ad-9e30f546b822
-  ws-opts:
-    headers:
-      Host: hamidjon.ddigicyber.click.
-    path: //telegram-NUFiLTER
-- name: 美国_0704132411
-  network: httpupgrade
-  port: 8880
-  server: 167.68.11.215
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 美国_0704132412
-  network: httpupgrade
-  port: 8880
-  server: 167.68.4.235
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 美国_0704132429
-  network: httpupgrade
-  port: 8880
-  server: 154.206.12.73
-  tls: false
-  type: vless
-  uuid: 99727208-0086-43f9-f0ad-9e30f546b822
-  ws-opts:
-    headers:
-      Host: hamidjon.ddigicyber.click.
-    path: //telegram-NUFiLTER
-- name: 美国_0704132434
-  network: httpupgrade
-  port: 8880
-  server: 45.159.219.107
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 美国_070413244
+- name: 美国_070418240
   network: httpupgrade
   port: 8880
   server: 154.206.12.148
@@ -5395,10 +5307,10 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 美国_0704132442
+- name: 美国_0704182404
   network: httpupgrade
   port: 8880
-  server: 147.185.161.38
+  server: 104.129.164.14
   tls: false
   type: vless
   uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
@@ -5406,7 +5318,62 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132454
+- name: 美国_0704182407
+  network: httpupgrade
+  port: 8880
+  server: 170.114.45.21
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 美国_0704182410
+  network: httpupgrade
+  port: 8880
+  server: 170.114.46.227
+  tls: false
+  type: vless
+  uuid: 99727208-0086-43f9-f0ad-9e30f546b822
+  ws-opts:
+    headers:
+      Host: hamidjon.ddigicyber.click.
+    path: //telegram-NUFiLTER
+- name: 美国_0704182425
+  network: httpupgrade
+  port: 8880
+  server: 167.68.11.215
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 美国_0704182440
+  network: httpupgrade
+  port: 8880
+  server: 154.206.12.73
+  tls: false
+  type: vless
+  uuid: 99727208-0086-43f9-f0ad-9e30f546b822
+  ws-opts:
+    headers:
+      Host: hamidjon.ddigicyber.click.
+    path: //telegram-NUFiLTER
+- name: 美国_0704182444
+  network: httpupgrade
+  port: 8880
+  server: 45.159.219.107
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 美国_0704182462
   network: httpupgrade
   port: 8880
   server: 141.193.213.171
@@ -5417,7 +5384,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132473
+- name: 美国_0704182479
   network: httpupgrade
   port: 8880
   server: 108.165.152.206
@@ -5428,7 +5395,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132479
+- name: 美国_0704182485
   network: httpupgrade
   port: 8880
   server: 141.193.213.239
@@ -5439,7 +5406,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132505
+- name: 美国_0704182511
   network: httpupgrade
   port: 8880
   server: 168.100.6.220
@@ -5450,7 +5417,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /telegram-NUFiLTER
-- name: 美国_0704132509
+- name: 美国_0704182515
   network: httpupgrade
   port: 8880
   server: 104.129.167.131
@@ -5461,7 +5428,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132517
+- name: 美国_0704182523
   network: httpupgrade
   port: 8880
   server: 104.129.166.240
@@ -5472,7 +5439,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132534
+- name: 美国_0704182540
   network: httpupgrade
   port: 2095
   server: www.venzo.com.tr
@@ -5483,7 +5450,7 @@ proxies:
     headers:
       Host: srv6.amazon-osishop.ir
     path: '%2Fhu%3Fed%3D2095'
-- name: 美国_0704132542
+- name: 美国_0704182548
   network: httpupgrade
   port: 8880
   server: 185.148.104.67
@@ -5494,7 +5461,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132572
+- name: 美国_0704182578
   network: httpupgrade
   port: 8880
   server: 167.68.4.36
@@ -5505,7 +5472,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132584
+- name: 美国_0704182590
   network: httpupgrade
   port: 8880
   server: 45.159.216.134
@@ -5516,7 +5483,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_0704132591
+- name: 美国_0704182597
   network: httpupgrade
   port: 8880
   server: 45.159.217.165
@@ -5527,7 +5494,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 美国_070413278
+- name: 美国_070418274
   network: httpupgrade
   port: 8880
   server: 154.206.12.77
@@ -5538,7 +5505,29 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 美国_070413656
+- name: 美国_070418282
+  network: httpupgrade
+  port: 8880
+  server: 167.68.4.235
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 美国_070418285
+  network: httpupgrade
+  port: 8880
+  server: 147.185.161.38
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 美国_070418662
   network: httpupgrade
   port: 8880
   server: 167.68.11.117
@@ -5549,7 +5538,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 美国_070413657
+- name: 美国_070418663
   network: httpupgrade
   port: 8880
   server: 155.46.213.82
@@ -5560,7 +5549,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 美国_070413658
+- name: 美国_070418664
   network: httpupgrade
   port: 8880
   server: 170.114.45.131
@@ -5571,7 +5560,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 美国_070413704
+- name: 美国_070418710
   network: httpupgrade
   port: 8880
   server: 156.225.72.220
@@ -5582,7 +5571,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 美国_070413714
+- name: 美国_070418720
   network: httpupgrade
   port: 8880
   server: 162.120.94.218
@@ -5715,7 +5704,7 @@ proxies:
   uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 0
   cipher: auto
-  name: '🇺🇸[openproxylist.com] vmess-US #3'
+  name: '🇺🇸[openproxylist.com] vmess-US #2'
   network: tcp
   port: '15361'
   server: 15.204.11.190
@@ -5860,7 +5849,7 @@ proxies:
     path: /564dfa20/
 - alterId: 64
   cipher: auto
-  name: 🔒 VM-WS-TLS 🇺🇸 US-23.224.15.17...
+  name: US26
   network: ws
   port: '30000'
   server: 23.224.15.179
@@ -6103,77 +6092,17 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: '👉🆔@v2ray_configs_pool📡®️United... #1'
-  network: ws
-  port: 80
-  server: fastly.vipfast7.site
+- name: 🇸[openproxylist.com] vless-US
+  network: tcp
+  port: 3333
+  server: 62.60.163.77
   tls: false
   type: vless
-  uuid: 35e905b6-01d4-4697-8e1a-fce4cac9df75
+  uuid: 7d283c1a-3a5b-4b2a-a924-0bd256e89726
   ws-opts:
     headers:
-      Host: testfast7.v2fast7.com
-    path: '%2F%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%3Fed%3D2048'
-- name: 👉🆔@v2ray_configs_pool📡🇺🇸®️Unit...
-  network: ws
-  port: 80
-  server: speedtest.net
-  tls: false
-  type: vless
-  uuid: 35e905b6-01d4-4697-8e1a-fce4cac9df75
-  ws-opts:
-    headers:
-      Host: testfast7.v2fast7.com
-    path: '%2F%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%3Fed%3D2048'
-- name: '👉🆔@v2ray_configs_pool📡®️United... #2'
-  password: Aimer
-  port: 443
-  server: sage.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #2'
-  password: Aimer
-  port: 8443
-  server: 162.159.44.233
-  skip-cert-verify: true
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇺🇸[openproxylist.com] vless-US #9'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y
-  server: 5.181.171.10
-  servername: speed.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 49ed01ad-3bb4-204f-b0ff-a58f658fd618
-- name: 🏳[openproxylist.com] vless-
-  network: tcp
-  port: 443
-  server: 135.148.74.151
-  servername: 147135004002.sec20org.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #7'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y
-    short-id: ''
-  server: 5.181.171.10
-  servername: speed.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 49ed01ad-3bb4-204f-b0ff-a58f658fd618
-- name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #13'
+      Host: bmw.com
+- name: 👉🆔@v2ray_configs_pool📡®️United...
   network: xhttp
   port: 80
   server: 151.101.3.8
@@ -6184,6 +6113,56 @@ proxies:
     headers:
       Host: joindhhprooxy.com
     path: '%2F%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy'
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: Tel%3A%40VPN_KING_V2RAY
+  name: '👉🆔@v2ray_configs_pool📡®️United... #2'
+  network: grpc
+  port: 2053
+  reality-opts:
+    public-key: wd2z7R-Ii-ZOONFtn0oDRn66m82E9Ow1LujWRzUTCTI
+    short-id: '04'
+  server: 167.172.2.233
+  servername: speedtest.net
+  tls: false
+  type: vless
+  uuid: 5509083e-5773-44df-9218-81f7f4c1ba35
+- client-fingerprint: chrome
+  flow: ''
+  name: 👉🆔@v2ray_configs_pool📡🇸®️Unite...
+  network: ws
+  port: 443
+  server: 66.112.216.70
+  servername: usa.rtot.me
+  tls: true
+  type: vless
+  uuid: f19ed531-81cb-433e-8746-1a69e009f9df
+  ws-opts:
+    headers:
+      Host: usa.rtot.me
+    path: '%2Fbing'
+- name: '👉🆔@v2ray_configs_pool📡🇸®️Unite... #1'
+  network: xhttp
+  port: 443
+  server: 149.28.115.187
+  tls: false
+  type: vless
+  uuid: 7197f7d0-0fd2-40d4-83ad-d2755a4f91b3
+  ws-opts:
+    headers:
+      Host: ''
+    path: '%2Fijuhgf'
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇺🇸[openproxylist.com] vless-US
+  network: tcp
+  port: 443
+  server: 135.148.152.106
+  servername: 147135001195.sec22org.com
+  tls: true
+  type: vless
+  uuid: ea286109-d20f-415e-849e-4af20ab04b65
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -6197,42 +6176,36 @@ proxies:
     headers:
       Host: mgcdn8.hfhfb.homes
     path: /market?ed=1024
-- name: 🇸[openproxylist.com] vless-US
+- name: '🇺🇸[openproxylist.com] vless-US #1'
+  network: tcp
+  port: 443
+  server: 15.204.200.208
+  servername: 147135004002.sec20org.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+- name: '🇸[openproxylist.com] vless-US #1'
   network: tcp
   port: 12188
   server: 45.63.60.98
   tls: false
   type: vless
   uuid: 2fc97eb0-d9d2-4567-99bf-bb5f64b5d5e9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸[openproxylist.com] vless-US
+- name: '🇺🇸[openproxylist.com] vless-US #2'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: dl8h7j1NKxBL_p2leIy9SWKznB0VG5h8ftsb0hlLICk
-    short-id: '2404'
-  server: 172.245.232.117
-  servername: google.com
+  port: 2321
+  server: 172.233.141.49
   tls: false
   type: vless
-  uuid: 02d3ce27-70f5-4d26-ae35-6e5840d5c1a0
-- name: '🇺🇸[openproxylist.com] vless-US #1'
+  uuid: 55c065e4-3429-49bf-aea2-d05ff7dd6586
+- name: '🇺🇸[openproxylist.com] vless-US #3'
   network: grpc
   port: 8880
   server: 45.82.251.150
   tls: false
   type: vless
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
-- name: '🇸[openproxylist.com] vless-US #1'
-  network: ws
-  port: 80
-  server: 45.8.146.207
-  tls: false
-  type: vless
-  uuid: a6c4db3e-7785-429e-8bc5-9eaf7b1a79b1
-  ws-opts:
-    path: '%2Fvless%2F'
 - alterId: 0
   cipher: auto
   name: '🇺🇸[openproxylist.com] vmess-US #1'
@@ -6247,20 +6220,7 @@ proxies:
     headers:
       Host: us01.sh-cloudflare.sbs
     path: /
-- name: '🇸[openproxylist.com] vless-US #2'
-  network: ws
-  port: 8880
-  server: 108.162.198.247
-  servername: ex.sue.x10.mx
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  ws-opts:
-    headers:
-      Host: ex.sue.x10.mx
-    path: /Telegram🇨
-- name: '🇺🇸[openproxylist.com] vless-US #2'
+- name: '🇺🇸[openproxylist.com] vless-US #4'
   network: ws
   port: 443
   server: 104.21.68.76
@@ -6272,31 +6232,19 @@ proxies:
     headers:
       Host: cccccccf.222769.xyz
     path: '%2F1xrOld7e5RpK3I98dxLkez'
-- alterId: 64
-  cipher: auto
-  name: '🇺🇸[openproxylist.com] vmess-US #2'
-  network: tcp
-  port: '44883'
-  server: 198.2.218.216
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h2
-  name: '🇺🇸[openproxylist.com] vless-US #3'
+  name: '🇺🇸[openproxylist.com] vless-US #5'
   network: grpc
   port: 443
-  server: 31.43.179.38
+  server: 94.140.0.141
   servername: pqh23v4.hiddendom.shop
   tls: true
   type: vless
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
-  ws-opts:
-    headers:
-      Host: pqh23v4.hiddendom.shop
 - alpn:
   - h2
-  name: '🇺🇸[openproxylist.com] vless-US #4'
+  name: '🇺🇸[openproxylist.com] vless-US #6'
   network: grpc
   port: 443
   server: 104.26.3.186
@@ -6305,17 +6253,17 @@ proxies:
   type: vless
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
 - client-fingerprint: chrome
-  name: '🇺🇸[openproxylist.com] vless-US #5'
+  flow: xtls-rprx-vision
+  name: '🇺🇸[openproxylist.com] vless-US #18'
   network: tcp
-  port: 32401
+  port: 443
   reality-opts:
-    public-key: 8RJPuc5C7fcVe5LSQ0olGnhiqFL8LX-0pnLMrEHD1Bs
-    short-id: 7fb7a1507826c540
-  server: 86.104.72.211
-  servername: dl.google.com
+    public-key: YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y
+  server: 5.181.171.10
+  servername: speed.cloudflare.com
   tls: false
   type: vless
-  uuid: a90e3756-d330-4597-bcc3-ab7905741e52
+  uuid: 49ed01ad-3bb4-204f-b0ff-a58f658fd618
 - alpn:
   - http/1.1
   name: 🇸[openproxylist.com] trojan-US
@@ -6342,7 +6290,7 @@ proxies:
     headers:
       Host: xxxxxxxxxc.666461.xyz
     path: '%2Fx9F83IcyjcEyBXZBROjL3Q5vTymr'
-- name: '🇸[openproxylist.com] vless-US #3'
+- name: '🇸[openproxylist.com] vless-US #2'
   network: ws
   port: 8880
   server: 108.162.198.254
@@ -6363,3 +6311,219 @@ proxies:
   tls: true
   type: vless
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
+- alpn:
+  - http/1.1
+  name: '🇺🇸[openproxylist.com] trojan-U... #1'
+  network: ws
+  password: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+  port: 443
+  server: 172.67.191.174
+  sni: zzzZZZZz.222769.XYZ
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zzzzzzzz.222769.xyz
+    path: '%2FWs1FkyQlT190JQOSZb9TPR'
+- alpn:
+  - http/1.1
+  name: '🇺🇸[openproxylist.com] trojan-U... #2'
+  network: ws
+  password: 4174b95d-115e-4d39-add6-1f8db95bb860
+  port: 443
+  server: 104.21.88.226
+  sni: qqqqqqqqqqa.www890604.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: qqqqqqqqqqa.www890604.dpdns.org
+    path: '%2FuzJNzgkkYWRWGxgFnoFPw1'
+- alpn:
+  - http/1.1
+  name: '🇺🇸[openproxylist.com] vless-US #13'
+  network: ws
+  port: 443
+  server: 104.21.9.71
+  servername: eEeEeEEEEe.777198.xyz
+  tls: true
+  type: vless
+  uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
+  ws-opts:
+    headers:
+      Host: eEeEeEEEEe.777198.xyz
+    path: '%2FOjdW89Bpg4ykd4O'
+- alpn:
+  - http/1.1
+  name: '🇺🇸[openproxylist.com] trojan-U... #3'
+  network: ws
+  password: a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2
+  port: 443
+  server: 104.21.88.37
+  sni: XXcdVFghYUIOp.999165.xyZ
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xxcdvfghyuiop.999165.xyz
+    path: '%2FmFvK3LJyIAe8ydvnmRKWDa8'
+- name: '🇺🇸[openproxylist.com] vless-US #14'
+  network: grpc
+  port: 8880
+  server: 45.82.251.152
+  servername: pqh33v6.cinema33.shop
+  tls: false
+  type: vless
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+- alpn:
+  - http/1.1
+  name: '🇺🇸[openproxylist.com] trojan-U... #4'
+  network: ws
+  password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+  port: 443
+  server: 172.67.157.220
+  sni: 6666YHjU.777159.xYz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 6666yhju.777159.xyz
+    path: '%2FdilyfCPEmLvYr5hYXD'
+- alpn:
+  - http/1.1
+  name: '🇺🇸[openproxylist.com] trojan-U... #5'
+  network: ws
+  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
+  port: 443
+  server: 172.67.214.21
+  sni: xXcdvFgt.191268.XYz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xxcdvfgt.191268.xyz
+    path: '%2FctdmgeIg3NII3ibrzzKXJGy3S1'
+- alpn:
+  - http/1.1
+  name: '🇺🇸[openproxylist.com] trojan-U... #6'
+  network: ws
+  password: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+  port: 443
+  server: 104.21.71.131
+  sni: xxcdfR.999854.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xxcdfr.999854.xyz
+    path: '%2FXmTzATQPJv9RO3xr1D40NK'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸[openproxylist.com] vless-US #16'
+  network: ws
+  port: 443
+  server: 172.67.204.120
+  servername: dddddFFfFffF.890603.xYZ
+  tls: true
+  type: vless
+  uuid: c891d9fe-c4eb-4526-94e0-d9bf841c572a
+  ws-opts:
+    headers:
+      Host: dddddfffffff.890603.xyz
+    path: '%2FYVOu6Dbaf1WT6O9LnD'
+- alpn:
+  - http/1.1
+  name: '🇺🇸[openproxylist.com] trojan-U... #7'
+  network: ws
+  password: 509ed9b7-8d64-4204-8ec8-6b749020ac3f
+  port: 443
+  server: 104.21.3.189
+  sni: CcCVfGTyU.89060004.Xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cccvfgtyu.89060004.xyz
+    path: '%2F5MkU0nARgHwk3aXBStn7'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇺🇸[openproxylist.com] vless-US #20'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI
+  server: 103.175.79.10
+  servername: speed.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 49ed01ad-3bb4-204f-b0ff-a58f658fd618
+- alpn:
+  - http/1.1
+  name: '🇺🇸[openproxylist.com] trojan-U... #8'
+  network: ws
+  password: da128246-33b0-4c88-a44e-d91e9e0a1e05
+  port: 443
+  server: 104.21.17.127
+  sni: x4.859885.XYz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: x4.859885.xyz
+    path: '%2FUmUQq8h08wB9JsgTazwz9'
+- alpn:
+  - http/1.1
+  name: '🇺🇸[openproxylist.com] trojan-U... #9'
+  network: ws
+  password: 6e5925c0-f39e-4449-93e9-2e2e9772b17b
+  port: 443
+  server: 104.21.21.72
+  sni: 11q.003330333.Xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 11q.003330333.xyz
+    path: '%2Fa4unyD0ay1Vp4fx59ry'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸[openproxylist.com] vless-US #19'
+  network: ws
+  port: 443
+  server: 104.21.70.32
+  servername: pPP0.89890604.xYZ
+  tls: true
+  type: vless
+  uuid: fa050497-fc2a-45ee-89c0-96670c4ecb65
+  ws-opts:
+    headers:
+      Host: ppp0.89890604.xyz
+    path: '%2F0USILhLWoWgQPuXTwt'
+- alpn:
+  - http/1.1
+  name: '🇺🇸[openproxylist.com] trojan-U... #10'
+  network: ws
+  password: 2d068083-2cb0-4ae3-a44a-6fc82f3039cc
+  port: 443
+  server: 104.21.77.149
+  sni: VvvvVVvVvvvBBbNNMJkiOO.999834.xYz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vvvvvvvvvvvbbbnnmjkioo.999834.xyz
+    path: '%2FyBqYg1mv8EDa06b88JSo'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸[openproxylist.com] vless-US #21'
+  network: ws
+  port: 443
+  server: 172.67.200.11
+  servername: SsSSSSSsSSSD.890606.Xyz
+  tls: true
+  type: vless
+  uuid: 357b1bba-6400-4944-baff-1b933311ff28
+  ws-opts:
+    headers:
+      Host: SsSSSSSsSSSD.890606.Xyz
+    path: '%2FkSIHD28dr9nkaMBYIsgt'
+- name: '🇺🇸[openproxylist.com] vless-US #22'
+  network: grpc
+  port: 8880
+  server: 45.82.251.147
+  tls: false
+  type: vless
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e

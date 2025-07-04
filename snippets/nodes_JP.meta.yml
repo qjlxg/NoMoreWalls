@@ -10,7 +10,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 捷克_070413006
+- name: 捷克_070418006
   network: httpupgrade
   port: 8880
   server: 154.197.108.113
@@ -21,7 +21,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 日本_070413342
+- name: 日本_070418341
   network: httpupgrade
   port: 8880
   server: 156.238.18.213
@@ -54,7 +54,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: /
-- name: 捷克_070413017
+- name: 捷克_070418017
   network: httpupgrade
   port: 8880
   server: 154.197.108.186
@@ -98,7 +98,7 @@ proxies:
     headers:
       Host: S130.DdigicYber.clicK.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024'
-- name: 日本_070413310
+- name: 日本_070418309
   network: httpupgrade
   port: 8880
   server: 156.238.18.129
@@ -208,7 +208,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 日本_070413365
+- name: 日本_070418364
   network: httpupgrade
   port: 2082
   server: 156.238.18.69
@@ -241,7 +241,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER'
-- name: 🇵JP_2333_@Surfboardv2ray
+- name: 🇵JP_2278_@Surfboardv2ray
   network: httpupgrade
   port: 21576
   server: 217.60.37.197
@@ -252,7 +252,7 @@ proxies:
     headers:
       Host: ''
     path: /@VPNPacket
-- name: 日本_070413328
+- name: 日本_070418327
   network: httpupgrade
   port: 8880
   server: 156.238.18.26
@@ -263,7 +263,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 日本_070413331
+- name: 日本_070418330
   network: httpupgrade
   port: 8880
   server: 156.238.19.117
@@ -274,7 +274,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 日本_070413333
+- name: 日本_070418332
   network: httpupgrade
   port: 8880
   server: 156.238.18.38
@@ -285,7 +285,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 日本_070413347
+- name: 日本_070418346
   network: httpupgrade
   port: 8880
   server: 156.238.18.41
@@ -384,7 +384,7 @@ proxies:
   uuid: 04AD7029-AC73-C78D-2E6E-338107678C59
 - alterId: 64
   cipher: auto
-  name: 🔒 VM-WS-TLS 🇯🇵 JP-103.72.5.221...
+  name: 未知142
   network: ws
   port: '46666'
   server: 103.72.5.221
@@ -441,7 +441,32 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- name: 🇵[openproxylist.com] vless-JP
+- name: '@Hope_Net-join-us-on-Telegram`...'
+  password: installshield
+  port: 8443
+  server: 38.180.249.177
+  type: trojan
+- name: 🇯🇵[openproxylist.com] trojan-J...
+  network: ws
+  password: Aimer
+  port: 45956
+  server: 154.26.181.30
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epmk.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+- name: 🇯🇵[openproxylist.com] vless-JP
+  network: ws
+  port: 80
+  server: 5.253.41.223
+  tls: false
+  type: vless
+  uuid: a0a866bd-8c0c-464c-9b96-c6dafa154419
+  ws-opts:
+    path: /vless/
+- name: '🇯🇵[openproxylist.com] vless-JP #1'
   network: ws
   port: 80
   server: 45.12.134.217
@@ -450,7 +475,7 @@ proxies:
   uuid: ed242313-b502-4a4a-97f4-336da621a837
   ws-opts:
     path: /vless/
-- name: 🇯🇵[openproxylist.com] vless-JP
+- name: '🇯🇵[openproxylist.com] vless-JP #2'
   network: ws
   port: 80
   server: 172.111.146.64

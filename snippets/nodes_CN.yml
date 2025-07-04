@@ -105,7 +105,7 @@ proxies:
     path: /home
 - alterId: 0
   cipher: auto
-  name: 未知91
+  name: 🔒 VM-WS-TLS 🇨🇳 CN-183.236.51.1...
   network: ws
   port: '35146'
   server: 183.236.51.187
@@ -214,3 +214,10 @@ proxies:
   tls: false
   type: vmess
   uuid: 4381beae-45a6-4421-8547-65e312dd204a
+- name: 👉🆔@v2ray_configs_pool📡®️China©...
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 9141
+  server: 36.151.192.10
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan

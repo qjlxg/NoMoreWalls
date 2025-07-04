@@ -10,7 +10,7 @@ proxies:
     headers:
       Host: www.speedtest.net.zula.ir.Shad.ir.sHaparak.ir.torob.com.namaSha.com.namnak.com.filiMo.com.Rokna.net.teleweBion.com.iraNikala.toP.
     path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D1024'
-- name: 新加坡_070413098
+- name: 新加坡_070418098
   network: httpupgrade
   port: 8880
   server: 27.50.48.252
@@ -21,7 +21,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 新加坡_070413187
+- name: 新加坡_070418188
   network: httpupgrade
   port: 8880
   server: 92.243.75.46
@@ -32,7 +32,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070413201
+- name: 新加坡_070418202
   network: httpupgrade
   port: 8880
   server: 27.50.48.149
@@ -43,7 +43,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070413203
+- name: 新加坡_070418204
   network: httpupgrade
   port: 8880
   server: 27.50.48.193
@@ -54,7 +54,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070413218
+- name: 新加坡_070418219
   network: httpupgrade
   port: 8880
   server: 92.243.75.121
@@ -65,7 +65,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070413219
+- name: 新加坡_070418220
   network: httpupgrade
   port: 8880
   server: 154.194.12.25
@@ -76,7 +76,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070413226
+- name: 新加坡_070418227
   network: httpupgrade
   port: 8880
   server: 92.243.75.161
@@ -87,7 +87,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070413232
+- name: 新加坡_070418233
   network: httpupgrade
   port: 8880
   server: 27.50.48.198
@@ -98,7 +98,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070413281
+- name: 新加坡_070418282
   network: httpupgrade
   port: 8880
   server: 92.243.74.211
@@ -109,7 +109,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070413285
+- name: 新加坡_070418286
   network: httpupgrade
   port: 8880
   server: 92.243.74.5
@@ -169,7 +169,7 @@ proxies:
   uuid: 1ddf3ade-5b8c-420c-84f6-f96979ec3080
 - alterId: 64
   cipher: auto
-  name: 🔒 VM-WS-TLS 🇸🇬 SG-134.122.133....
+  name: 未知32
   network: ws
   port: '48887'
   server: 134.122.133.119
@@ -183,7 +183,7 @@ proxies:
     path: /path/170733132233
 - alterId: 0
   cipher: auto
-  name: 未知104 417.4KB/s
+  name: 🔒 VM-TCP-NA 🇸🇬 SG-46.250.234.3...
   network: tcp
   port: '45317'
   server: 46.250.234.32
@@ -325,7 +325,18 @@ proxies:
   tls: false
   type: vmess
   uuid: b31fc134-978e-4176-8579-8107d6a0cede
-- name: 🇬[openproxylist.com] vless-SG
+- name: 👉🆔@v2ray_configs_pool📡🇬®️Singa...
+  network: ws
+  port: 80
+  server: 45.8.211.239
+  tls: false
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
+    path: TELEGRAM%40YamYamProxy_YamYamProxy_YamYamProxy%2F%3Fed%3D2560
+- name: 🇸🇬[openproxylist.com] vless-SG
   network: ws
   port: 80
   server: 141.193.213.21
@@ -336,17 +347,6 @@ proxies:
     headers:
       Host: 19.sahanwickramasinghe.shop
     path: '%2F'
-- name: 🇸🇬[openproxylist.com] vless-SG
-  network: ws
-  port: 48705
-  server: 157.230.248.167
-  tls: false
-  type: vless
-  uuid: 9ddfb86c-315e-4710-8d68-29b40c28b47c
-  ws-opts:
-    headers:
-      Host: ind.faceid.hyperverge.co
-    path: '%2FFREE%20by%20Tharuwa%20%280767597317%29'
 - name: '🇸🇬[openproxylist.com] vless-SG #1'
   network: tcp
   port: 443
@@ -368,7 +368,7 @@ proxies:
 - name: '🇸🇬[openproxylist.com] vless-SG #3'
   network: ws
   port: 8080
-  server: 172.67.75.172
+  server: 104.26.12.31
   tls: false
   type: vless
   uuid: d03d2ff3-0b28-4c6b-bab5-4bfac274aa91
@@ -387,6 +387,13 @@ proxies:
     headers:
       Host: 0609.sunnyfish.dpdns.org
     path: '%2F'
+- name: '🇸🇬[openproxylist.com] vless-SG #5'
+  network: tcp
+  port: 41283
+  server: 43.156.217.68
+  tls: false
+  type: vless
+  uuid: 4839e0b9-b275-47ea-81ab-9bfd38bbe7af
 - name: '🇸🇬[openproxylist.com] vless-SG #6'
   network: ws
   port: 8880
@@ -398,3 +405,14 @@ proxies:
     headers:
       Host: 0522.yeyefeng.dpdns.org
     path: '%2F'
+- name: '🇸🇬[openproxylist.com] vless-SG #7'
+  network: ws
+  port: 80
+  server: 15.235.186.127
+  tls: false
+  type: vless
+  uuid: 74bcfbf9-2596-4243-8c0f-1042e4725ae7
+  ws-opts:
+    headers:
+      Host: m.facebook.com
+    path: '%2Fws1'

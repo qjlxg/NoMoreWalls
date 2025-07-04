@@ -87,7 +87,7 @@ proxies:
   uuid: 04AD7029-AC73-C78D-2E6E-338107678C59
 - alterId: 64
   cipher: auto
-  name: 🔒 VM-WS-TLS 🇯🇵 JP-103.72.5.221...
+  name: 未知142
   network: ws
   port: '46666'
   server: 103.72.5.221
@@ -144,3 +144,19 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
+- name: '@Hope_Net-join-us-on-Telegram`...'
+  password: installshield
+  port: 8443
+  server: 38.180.249.177
+  type: trojan
+- name: 🇯🇵[openproxylist.com] trojan-J...
+  network: ws
+  password: Aimer
+  port: 45956
+  server: 154.26.181.30
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epmk.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'

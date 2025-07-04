@@ -48,7 +48,7 @@ proxies:
   uuid: 1ddf3ade-5b8c-420c-84f6-f96979ec3080
 - alterId: 64
   cipher: auto
-  name: 🔒 VM-WS-TLS 🇸🇬 SG-134.122.133....
+  name: 未知32
   network: ws
   port: '48887'
   server: 134.122.133.119
@@ -62,7 +62,7 @@ proxies:
     path: /path/170733132233
 - alterId: 0
   cipher: auto
-  name: 未知104 417.4KB/s
+  name: 🔒 VM-TCP-NA 🇸🇬 SG-46.250.234.3...
   network: tcp
   port: '45317'
   server: 46.250.234.32

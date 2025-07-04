@@ -1,5 +1,5 @@
 proxies:
-- name: 香港_070413185
+- name: 香港_070418200
   network: httpupgrade
   port: 8880
   server: 154.218.15.88
@@ -10,7 +10,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 香港_070413189
+- name: 香港_070418204
   network: httpupgrade
   port: 8880
   server: 154.218.15.106
@@ -21,7 +21,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 香港_070413198
+- name: 香港_070418213
   network: httpupgrade
   port: 8880
   server: 154.218.15.43
@@ -32,7 +32,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 香港_070413202
+- name: 香港_070418217
   network: httpupgrade
   port: 8880
   server: 154.218.15.244
@@ -43,7 +43,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 香港_070413204
+- name: 香港_070418219
   network: httpupgrade
   port: 8880
   server: 154.218.15.112
@@ -54,7 +54,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 香港_070413208
+- name: 香港_070418223
   network: httpupgrade
   port: 8880
   server: 154.218.15.152
@@ -65,7 +65,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 香港_070413213
+- name: 香港_070418228
   network: httpupgrade
   port: 8880
   server: 154.218.15.20
@@ -1062,19 +1062,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 👉🆔@v2ray_configs_pool📡🇭🇰®️Hong...
-  network: ws
-  port: 8080
-  server: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
-  tls: false
-  type: vmess
-  uuid: f61628aa-3d18-11ec-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: '8080'
@@ -1086,15 +1073,8 @@ proxies:
     headers:
       Host: 0e1121ca-swd340-teqqcv-1rc6n.hgc1.tcpbbr.net
     path: /
-- name: 🇰[openproxylist.com] vless-HK
-  network: tcp
-  port: 40830
-  server: 47.76.81.217
-  tls: false
-  type: vless
-  uuid: 4d5903dd-5d8a-4879-9e0d-cf12b8404b8e
 - client-fingerprint: chrome
-  name: '🇰[openproxylist.com] vless-HK #1'
+  name: 🇰[openproxylist.com] vless-HK
   network: ws
   port: 19816
   server: 45.144.167.46

@@ -43,7 +43,7 @@ proxies:
     headers:
       Host: itsmymeowly.mashti.bloG.
     path: '%2Ftelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%3Fed%3D2560'
-- name: 瑞士_070413028
+- name: 瑞士_070418028
   network: httpupgrade
   port: 8880
   server: 185.18.250.172
@@ -54,7 +54,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 瑞士_070413033
+- name: 瑞士_070418033
   network: httpupgrade
   port: 8880
   server: 185.18.250.227
