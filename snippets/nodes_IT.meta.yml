@@ -1,15 +1,25 @@
 proxies:
-- name: 'redhat_vpn- 🇮🇹-ایتالیا-qr6nt17... #1'
-  network: tcp
-  port: 11951
-  server: g1.lalash.ir
+- name: 意大利(mibei77.com 米贝节点分享)
+  network: ws
+  port: 8880
+  server: 92.60.74.177
+  servername: Telegram-channel-WangCai2
   tls: false
   type: vless
-  uuid: 0d4e694b-6437-4068-aae7-38d6a99261dc
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
   ws-opts:
     headers:
-      Host: speedtest.net
-    path: '%2F'
+      Host: ip.langmanshanxi.top
+    path: '%2FTelegram%40WangCai2%2F%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: 🇮🇹 IEPL专线 意大利 NO1
+  port: 33320
+  server: i.needss.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
 - alpn:
   - h2
   - http/1.1
@@ -25,3 +35,211 @@ proxies:
     headers:
       Host: web.rubika.ir
     path: '%2FIVApi%2FIT%2F1'
+- name: redhat_vpn- 🇮🇹-ایتالیا-qr6nt17...
+  network: tcp
+  port: 11951
+  server: g1.lalash.ir
+  tls: false
+  type: vless
+  uuid: 0d4e694b-6437-4068-aae7-38d6a99261dc
+  ws-opts:
+    headers:
+      Host: speedtest.net
+    path: '%2F'
+- name: 🔗 Vauth - 4101
+  network: splithttp
+  port: 2086
+  server: 172.67.204.84
+  tls: false
+  type: vless
+  uuid: c548e8b9-ac16-ee24-1e65-54485ee05746
+  ws-opts:
+    headers:
+      Host: xhttp.fr1.inservices.ir
+    path: /Devil?ed%3D2560@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+- name: 🔒 VL-SPLITHTTP-NONE 🏴‍☠️ NA-10...
+  network: splithttp
+  port: 2086
+  server: 104.21.69.44
+  tls: false
+  type: vless
+  uuid: c548e8b9-ac16-ee24-1e65-54485ee05746
+  ws-opts:
+    headers:
+      Host: xhttp.fr1.inservices.ir
+    path: /Devil?ed%3D2560@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔗 Vauth - 2976
+  network: splithttp
+  port: 2087
+  server: 104.16.3.189
+  servername: tyop.nim-kafe.xyz
+  tls: true
+  type: vless
+  uuid: 94e31e3d-3b84-4a05-9caa-b71926043084
+  ws-opts:
+    headers:
+      Host: tyop.nim-kafe.xyz
+    path: '%2Fpark'
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 🔗 Vauth - 1830
+  network: splithttp
+  port: 2087
+  server: 172.67.238.244
+  servername: asoo.gogoosh.shop
+  tls: true
+  type: vless
+  uuid: 8364441e-36d5-4bce-8612-57e9fd2b876a
+  ws-opts:
+    headers:
+      Host: asoo.gogoosh.shop
+    path: '%2Fkurd%3Fed%3D2096'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: random
+  name: 🔗 Vauth - 3569
+  network: splithttp
+  port: 2053
+  server: 104.21.92.214
+  servername: 9-9.9-9.lol
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6b91d025-da4e-45c1-a9a0-1124454b0765
+  ws-opts:
+    headers:
+      Host: 9-9.9-9.lol
+    path: '%2F9-9.9-9.lol9-9.9-9.lol'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔗 Vauth - 3694
+  network: splithttp
+  port: 2087
+  server: 104.16.4.189
+  servername: tyop.nim-kafe.xyz
+  tls: true
+  type: vless
+  uuid: 94e31e3d-3b84-4a05-9caa-b71926043084
+  ws-opts:
+    headers:
+      Host: tyop.nim-kafe.xyz
+    path: '%2Fpark'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔗 Vauth - 2553
+  network: splithttp
+  port: 2087
+  server: 104.16.5.189
+  servername: tyop.nim-kafe.xyz
+  tls: true
+  type: vless
+  uuid: 94e31e3d-3b84-4a05-9caa-b71926043084
+  ws-opts:
+    headers:
+      Host: tyop.nim-kafe.xyz
+    path: '%2Fpark'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔗 Vauth - 1264
+  network: splithttp
+  port: 2087
+  server: 104.16.2.189
+  servername: tyop.nim-kafe.xyz
+  tls: true
+  type: vless
+  uuid: 94e31e3d-3b84-4a05-9caa-b71926043084
+  ws-opts:
+    headers:
+      Host: tyop.nim-kafe.xyz
+    path: '%2Fpark'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🔗 Vauth - 1753
+  network: splithttp
+  port: 2087
+  server: 104.16.6.189
+  servername: tyop.nim-kafe.xyz
+  tls: true
+  type: vless
+  uuid: 94e31e3d-3b84-4a05-9caa-b71926043084
+  ws-opts:
+    headers:
+      Host: tyop.nim-kafe.xyz
+    path: '%2Fpark'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: random
+  name: 🔗 Vauth - 1629
+  network: splithttp
+  port: 2053
+  server: 172.67.198.217
+  servername: 9-9.9-9.lol
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6b91d025-da4e-45c1-a9a0-1124454b0765
+  ws-opts:
+    headers:
+      Host: 9-9.9-9.lol
+    path: '%2F9-9.9-9.lol9-9.9-9.lol'
+- name: '6124'
+  network: httpupgrade
+  port: 8880
+  server: 104.17.148.22
+  tls: false
+  type: vless
+  uuid: 66941ec6-d1ce-489c-97ee-934fafb55a03
+  ws-opts:
+    headers:
+      Host: Tt.parqi.ir.
+    path: '%2F'
+- name: '@appsooner+کانال+تلگرام+🇮🇹'
+  network: httpupgrade
+  port: 8080
+  server: 172.64.111.69
+  tls: false
+  type: vless
+  uuid: 4ee50f98-d646-4491-b5a5-339fd79153a4
+  ws-opts:
+    headers:
+      Host: h17.Xn--gmq282ekfhyys3gs.Com.
+    path: '%2Fspeedtest.net%3Fed%3DTELEGRAM-MARAMBASHI%2F%3Fed%3D2048'
+- name: '[+🇮🇹+]+Channel+:+@HELIX_Server...'
+  network: httpupgrade
+  port: 8080
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 4ee50f98-d646-4491-b5a5-339fd79153a4
+  ws-opts:
+    headers:
+      Host: h17.Xn--gmq282ekfhyys3gs.Com.
+    path: '%2Fspeedtest.net%3Fed%3D2560'
+- name: Italy
+  network: tcp
+  password: 9e4fa728-3d7d-4371-8053-f175c019ef2c
+  port: 443
+  server: yangleduo.cf
+  type: trojan

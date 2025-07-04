@@ -1,117 +1,39 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 广东省广州市 移动-clone
+  name: 🇨🇳_CN_中国
   network: tcp
-  port: '45020'
-  server: 183.236.51.23
-  servername: ''
+  port: 50002
+  server: 120.26.55.225
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 1|🌀2-CN |  1.7MB/s
-  port: 62157
-  server: shenzhou02.mysynology.net
-  servername: www.nvidia.com
-  tls: false
+- name: 'US美国(mibei77.com 米贝节点分享) #49'
+  network: tcp
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: dozo01.flztjc.top
+  sni: hk-13-568.flztjc.net
+  type: trojan
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 🇨CN_1202_@Surfboardv2ray
+  network: httpupgrade
+  port: 443
+  server: 103.184.45.164
+  servername: wwwd7e1909f3a7e4477.jostar-data.nl
+  tls: true
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1,14|CN_speednode_0017
-  port: 16955
-  server: bsuqian01.dynu.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1,14|CN_speednode_0015
-  port: 14548
-  server: csuzhou01.1cooldns.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1,14|CN_speednode_0010
-  port: 44003
-  server: csuzhou01.1cooldns.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1,14|CN_speednode_0020
-  port: 17889
-  server: bsuqian01.dynu.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 14|CN_speednode_0005
-  port: 11555
-  server: test123.zlqhdns.top
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 14|CN_speednode_0008
-  port: 56127
-  server: agaungzhou01.bumbleshrimp.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 14|CN_speednode_0009
-  port: 27631
-  server: bsuqian01.dynu.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 14|CN_speednode_0012
-  port: 31800
-  server: agaungzhou01.bumbleshrimp.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 14|CN_speednode_0016
-  port: 13989
-  server: csuzhou01.1cooldns.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 14|CN_speednode_0018
-  port: 12791
-  server: agaungzhou01.bumbleshrimp.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 深圳市|阿里云
-  network: ws
-  port: 49943
-  server: 120.76.194.113
-  tls: false
-  type: vmess
-  uuid: 6b35e5e2-d75c-4bed-b4e2-97aa3ee7a099
+  uuid: 782efefc-aac2-a7f2-6e2b-e42f7bc5d75a
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '深圳市|阿里云 #1'
-  network: tcp
-  port: 39508
-  server: 39.108.72.153
-  tls: false
-  type: vmess
-  uuid: a8045850-5f7b-4635-e277-e859fb7d0d1b
+      Host: d7e1909f3a7e4477.jostar-data.nl
+    path: /quran/deam_net301.67+GB/?ed=2560
 - alpn:
   - h2
   flow: xtls-rprx-vision
-  name: 'CN_SZ_OFFICE_ROUTER_XTLS #1'
+  name: CN_SZ_OFFICE_ROUTER_XTLS
   network: tcp
   port: 32768
   server: vobot.iopcb.com
@@ -123,18 +45,191 @@ proxies:
     headers:
       Host: vobot.iopcb.com
     path: '%2Fdododo'
-- name: 🇨🇳|CN|@wxgqlfx|400<br />
-  password: 1b4c16925f934c57b954a9f0f23dea33
-  port: 8842
-  server: 42.240.152.238
-  type: trojan
-- name: 🇨🇳|CN|@wxgqlfx|401<br />
-  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
-  port: 21017
-  server: 120.233.44.201
-  type: trojan
-- name: 🇨🇳|CN|@wxgqlfx|405<br />
-  password: LfcDJuqe
-  port: 43196
-  server: 223.111.144.12
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: _中国
+  network: tcp
+  port: '32209'
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: '_中国 #2'
+  network: ws
+  port: '30832'
+  server: v32.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  name: '_中国 #10'
+  network: ws
+  port: '30829'
+  server: 111.26.109.79
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ''
+    path: /oooo
+- alterId: 64
+  cipher: auto
+  name: 🔒 VM-RAW-NA 🇨🇳 CN-47.92.152.16...
+  network: raw
+  port: '50002'
+  server: 47.92.152.169
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: none
+  name: 未知29
+  network: tcp
+  port: '59003'
+  server: 183.236.51.36
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.6...
+  network: tcp
+  port: '42337'
+  server: 219.151.20.62
+  tls: false
+  type: vmess
+  uuid: 4381beae-45a6-4421-8547-65e312dd204a
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-WS-TLS 🇨🇳 CN-120.253.242....
+  network: ws
+  port: '35214'
+  server: 120.253.242.194
+  servername: jp4.g2.moonbase.life
+  tls: true
+  type: vmess
+  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-WS-TLS 🇨🇳 CN-183.236.51.1...
+  network: ws
+  port: '35146'
+  server: 183.236.51.187
+  servername: sg6.vip2.g2.moonbase.life
+  tls: true
+  type: vmess
+  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇨🇳 CN-112.132.215....
+  network: tcp
+  port: '50007'
+  server: 112.132.215.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '🔒 VM-WS-TLS 🇨🇳 CN-120.253.242.... #1'
+  network: ws
+  port: '35244'
+  server: 120.253.242.194
+  servername: jp4.vip2.g2.moonbase.life
+  tls: true
+  type: vmess
+  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
+  ws-opts:
+    headers:
+      Host: jp4.vip2.g2.moonbase.life
+    path: /home
+- alterId: 0
+  cipher: auto
+  name: '🔒 VM-WS-TLS 🇨🇳 CN-183.236.51.1... #1'
+  network: ws
+  port: '35111'
+  server: 183.236.51.131
+  servername: sg1.g2.moonbase.life
+  tls: true
+  type: vmess
+  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
+  ws-opts:
+    headers:
+      Host: sg1.g2.moonbase.life
+    path: /home
+- alterId: 0
+  cipher: auto
+  name: '🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.6... #1'
+  network: tcp
+  port: '42320'
+  server: 219.151.20.62
+  tls: false
+  type: vmess
+  uuid: 4381beae-45a6-4421-8547-65e312dd204a
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-WS-TLS 🇨🇳 CN-36.150.94.79...
+  network: ws
+  port: '35216'
+  server: 36.150.94.79
+  servername: jp6.g2.moonbase.life
+  tls: true
+  type: vmess
+  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home
+- alterId: 0
+  cipher: auto
+  name: '🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.6... #2'
+  network: tcp
+  port: '42333'
+  server: 219.151.20.62
+  tls: false
+  type: vmess
+  uuid: 4381beae-45a6-4421-8547-65e312dd204a
+- alterId: 0
+  cipher: auto
+  name: '🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.6... #3'
+  network: tcp
+  port: '42301'
+  server: 219.151.20.62
+  tls: false
+  type: vmess
+  uuid: 4381beae-45a6-4421-8547-65e312dd204a
+- alterId: 0
+  cipher: auto
+  name: '🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.6... #4'
+  network: tcp
+  port: '42346'
+  server: 219.151.20.62
+  tls: false
+  type: vmess
+  uuid: 4381beae-45a6-4421-8547-65e312dd204a
+- alterId: 0
+  cipher: auto
+  name: '🔒 VM-TCP-NA 🇨🇳 CN-219.151.20.6... #5'
+  network: tcp
+  port: '42324'
+  server: 219.151.20.62
+  tls: false
+  type: vmess
+  uuid: 4381beae-45a6-4421-8547-65e312dd204a

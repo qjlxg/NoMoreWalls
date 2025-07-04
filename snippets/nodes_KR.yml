@@ -1,148 +1,241 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 12,13|韩国|@ripaojiedian
+- name: KR韩国(mibei77.com 米贝节点分享)
   network: ws
-  port: '30828'
-  server: v28.heduian.link
+  password: Aimer
+  port: 50000
+  server: 125.136.221.63
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epmk.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+- name: 'KR韩国(mibei77.com 米贝节点分享) #1'
+  network: ws
+  password: Aimer
+  port: 50000
+  server: 121.178.51.126
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epml.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+- name: 'KR韩国(mibei77.com 米贝节点分享) #2'
+  network: ws
+  password: Aimer
+  port: 12315
+  server: 121.149.228.125
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epmk.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+- name: 'KR韩国(mibei77.com 米贝节点分享) #3'
+  network: ws
+  password: Aimer
+  port: 12315
+  server: 121.149.228.125
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epml.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+- name: 'KR韩国(mibei77.com 米贝节点分享) #4'
+  network: ws
+  password: Aimer
+  port: 50000
+  server: 121.178.51.126
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epmk.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+- name: 'KR韩国(mibei77.com 米贝节点分享) #5'
+  network: ws
+  password: Aimer
+  port: 50003
+  server: 210.178.96.12
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epml.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+- name: 'KR韩国(mibei77.com 米贝节点分享) #6'
+  network: ws
+  password: Aimer
+  port: 50000
+  server: 125.136.221.63
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epml.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+- name: 'KR韩国(mibei77.com 米贝节点分享) #7'
+  network: ws
+  password: Aimer
+  port: 50003
+  server: 210.178.96.12
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epmk.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+- name: '🇰🇷 韩国|@stairnode #1'
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 203.156.253.12
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
+- name: 🇰🇷 韩国2|@stairnode
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 4448
+  server: 36.151.192.61
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: 🇰🇷 韩国4|@stairnode
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6668
+  server: 3.36.117.121
+  skip-cert-verify: false
+  sni: baidu.com
+  type: trojan
+- name: '🇰🇷 韩国2|@stairnode #1'
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6668
+  server: 13.125.64.14
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+- name: '🇰🇷 韩国4|@stairnode #1'
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 13967
+  server: 36.151.192.60
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: 🇰🇷 韩国-三网优化2-1C
+  password: b262e991-a233-4dfd-87e2-9c5898ecd4c2
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 IEPL专线 韩国 NO1
+  port: 20021
+  server: i.needss.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
+- name: 🇰🇷 韩国-三网优化2-1B
+  password: d6e0952a-dab2-427a-8b72-4e0fece5d1a0
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国-三网优化2-1D
+  password: 2129ce31-c7b4-44da-b06e-c0377a901a70
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国-三网优化2-1F
+  password: b4917678-6091-4234-98f5-0b0cf7472972
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国-三网优化2-1E
+  password: 7464a3ba-a75c-4ef6-b9bd-0b2e7242f5d1
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国-三网优化2-1A
+  password: e62ca6d0-9d0e-4eb3-8d03-71263b6d1f71
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: '🇰🇷https://t.me/vpn_iossعضو+شو #6'
+  password: cd27884b-c5af-34ec-b75f-8248077818fe
+  port: 8443
+  server: 2.hg.kr.cat77.cloud
+  type: trojan
+- name: (S109)🇨🇵t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.38.46.232
+  type: trojan
+- name: '🇰🇷https://t.me/vpn_iossعضو+شو #1'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.219.170.164
+  type: trojan
+- name: '🇰🇷https://t.me/vpn_iossعضو+شو #3'
+  password: cd27884b-c5af-34ec-b75f-8248077818fe
+  port: 8443
+  server: 3.hg.kr.cat77.cloud
+  type: trojan
+- name: '🇹🇴https://t.me/vpn_iossعضو+شو #3'
+  password: 71354f48-e8c8-4c4c-a967-47d7ac5e953c
+  port: 443
+  server: jk.jkk.mkitty.top
+  type: trojan
+- name: '🇰🇷https://t.me/vpn_iossعضو+شو #2'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.130.234.249
+  type: trojan
+- name: (S784)🇨🇮t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.202.212.242
+  type: trojan
+- name: (S715)🇨🇵t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.36.160.12
+  type: trojan
+- name: '🇰🇷https://t.me/vpn_iossعضو+شو #8'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.237.100.107
+  type: trojan
+- name: (S709)🇨🇮t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.253.22.44
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇰🇷 KR-45.82.246.17...
+  network: tcp
+  port: '26521'
+  server: 45.82.246.173
   servername: ''
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- name: 🇰🇷|KR|@wxgqlfx|397<br />
-  password: ttfang
-  port: 34529
-  server: 112.165.17.199
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|366<br />
-  password: ttfang
-  port: 36840
-  server: 59.26.30.111
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|367<br />
-  password: ttfang
-  port: 17682
-  server: 59.26.30.111
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|332<br />
-  password: ttfang
-  port: 10098
-  server: 59.5.53.119
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|333<br />
-  password: ttfang
-  port: 31491
-  server: 220.71.245.141
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|334<br />
-  password: ttfang
-  port: 31348
-  server: 218.157.11.21
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|335<br />
-  password: ttfang
-  port: 10126
-  server: 121.154.79.130
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|336<br />
-  password: ttfang
-  port: 24304
-  server: 220.87.243.193
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|338<br />
-  password: ttfang
-  port: 37865
-  server: 220.87.229.22
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|339<br />
-  password: ttfang
-  port: 28827
-  server: 118.37.105.12
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|340<br />
-  password: ttfang
-  port: 34689
-  server: 121.172.5.248
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|343<br />
-  password: ttfang
-  port: 12601
-  server: 218.157.11.21
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|346<br />
-  password: ttfang
-  port: 39427
-  server: 218.157.11.21
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|228<br />
-  password: ttfang
-  port: 25156
-  server: 121.167.145.40
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|310<br />
-  password: ttfang
-  port: 14982
-  server: 59.5.53.119
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|315<br />
-  password: ttfang
-  port: 29264
-  server: 221.161.58.134
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|320<br />
-  password: ttfang
-  port: 28568
-  server: 220.87.243.193
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|321<br />
-  password: ttfang
-  port: 14491
-  server: 61.83.219.114
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇰🇷|KR|@wxgqlfx|324<br />
-  password: ttfang
-  port: 10482
-  server: 183.100.144.36
-  type: trojan
-  ws-opts:
-    path: '%2F'
+  uuid: cff7001e-3a74-43e8-bfd8-a7af9630a58b

@@ -1,193 +1,20 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡|@ripaojiedian
-  network: ws
-  port: '46016'
-  server: mmsg16.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- name: 1|🇸🇬3 |  3.3MB/s
-  port: 8443
-  server: 111.119.235.98
-  servername: sgp.cayuo.me
-  tls: false
-  type: vless
-  uuid: a89981b0-8096-4bbc-8d24-da2330650c4b
-- name: 1|🇸🇬7 |  2.0MB/s
-  port: 10778
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: false
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 1|🇸🇬9 |  3.7MB/s
-  network: tcp
-  port: 4135
-  server: 637b7bc9-sudhc0-svibx4-1s4a.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 337cb930-073d-11ee-8120-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 1|🇸🇬10 |  1.4MB/s
-  network: tcp
-  port: 4137
-  server: fd89b2da-sudhc0-svibx4-1s4a.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 337cb930-073d-11ee-8120-f23c93136cb3
-- name: 11|Hysteria 🇸🇬 @v2meowcf
-  password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
-  port: 443
-  server: 146.19.100.138
+- name: '🇸🇬 新加坡|@stairnode #1'
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 7571
+  server: 36.151.192.60
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 11|新加坡
-  password: a914681a-8dda-4c98-8468-c313f5539b14
-  port: 2056
-  server: sg3.eyucdn.xyz
+  sni: www.baidu.com
+  type: trojan
+- name: '🇸🇬 新加坡2|@stairnode #1'
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 40621
+  server: 36.151.192.60
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
-  password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
-  port: 443
-  server: 103.195.189.54
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 新加坡|@ripaojiedian
-  network: tcp
-  port: 4135
-  server: 81d99721-sudhc0-tbxnq7-3qpz.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 3cafb97e-8bf1-11ee-8ebe-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡|@ripaojiedian
-  network: tcp
-  port: '4135'
-  server: 81d99721-sudhc0-tbxnq7-3qpz.d.volczijie.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3cafb97e-8bf1-11ee-8ebe-f23c93136cb3
-- name: 14|SG_speednode_0069
-  port: 443
-  server: 40.65.164.247
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 9b594ac9-7e1c-4bcc-9fa5-797a7a58211d
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 TEST_Hycan-holdings
-  network: tcp
-  port: '12015'
-  server: wnpck.thecxfcsp.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3
-- alterId: 0
-  cipher: auto
-  name: 新加坡
-  network: ws
-  port: 35777
-  server: 8.222.194.126
-  tls: false
-  type: vmess
-  uuid: bb28a1d7-5cb9-46ca-886a-828b18fd79e4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb28a1d7
-- name: 'redhat_vpn-🇸🇬-سنگاپور-h7i2wqfa #1'
-  network: tcp
-  port: 17310
-  server: g1.lalash.ir
-  tls: false
-  type: vless
-  uuid: abd9b850-a6d5-4900-a603-3d9c2d7a41f6
-  ws-opts:
-    headers:
-      Host: speedtest.net
-    path: '%2F'
-- alpn:
-  - h3
-  client-fingerprint: random
-  name: 'SG #2'
-  network: ws
-  port: 40000
-  server: 54.255.80.89
-  servername: warp.wlcf.lol
-  tls: true
-  type: vless
-  uuid: f41afc19-93cb-406d-af1c-04e75221708c
-  ws-opts:
-    headers:
-      Host: warp.wlcf.lol
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - h3
-  client-fingerprint: random
-  name: 'SG #3'
-  network: ws
-  port: 6443
-  server: 138.2.64.175
-  servername: warp.wlcf.lol
-  tls: true
-  type: vless
-  uuid: f41afc19-93cb-406d-af1c-04e75221708c
-  ws-opts:
-    headers:
-      Host: warp.wlcf.lol
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - h2
-  flow: xtls-rprx-vision
-  name: 'SG_CLAW_XTLS #1'
-  network: tcp
-  port: 8443
-  server: sg.nba9.com
-  servername: sg.nba9.com
-  tls: true
-  type: vless
-  uuid: deadbeef-e2b8-4a2a-acc3-4b85f876002c
-  ws-opts:
-    headers:
-      Host: sg.nba9.com
-    path: '%2Fdododo'
-- alpn:
-  - h2
-  flow: xtls-rprx-vision
-  name: 'SG_CLAW_XTLS_BACKUP #1'
-  network: tcp
-  port: 7443
-  server: sg.nba9.com
-  servername: sg.nba9.com
-  tls: true
-  type: vless
-  uuid: deadbeef-e2b8-4a2a-acc3-4b85f876002c
-  ws-opts:
-    headers:
-      Host: sg.nba9.com
-    path: '%2Fdododo'
+  sni: www.baidu.com
+  type: trojan
 - client-fingerprint: random
-  name: '老油条-SG-新加坡 #1'
+  name: 老油条-SG-
   network: ws
   port: 443
   server: sg.laoyoutiao.link
@@ -197,36 +24,10 @@ proxies:
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: sg.laoyoutiao.link
-    path: '%2F%3Fed%3D2560'
+      host: sg.laoyoutiao.link
+    path: /?ed=2560
 - client-fingerprint: random
-  name: '老油条-新加坡-cdn #1'
-  network: ws
-  port: 443
-  server: cdn.laoyoutiao.link
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: '%2F%3Fed%3D2560'
-- client-fingerprint: random
-  name: '老油条-新加坡-cdn1 #1'
-  network: ws
-  port: 443
-  server: cdn1.laoyoutiao.link
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: '%2F%3Fed%3D2560'
-- client-fingerprint: random
-  name: '老油条-新加坡-cfcdn1 #1'
+  name: 老油条-新加坡-cfcdn1
   network: ws
   port: 443
   server: cfcdn1.langmanshanxi.top
@@ -236,174 +37,86 @@ proxies:
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: sg.laoyoutiao.link
-    path: '%2F%3Fed%3D2560'
-- client-fingerprint: random
-  name: '老油条-新加坡-cfcdn2 #1'
-  network: ws
-  port: 443
-  server: cfcdn2.langmanshanxi.top
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: '%2F%3Fed%3D2560'
-- client-fingerprint: random
-  name: '老油条-新加坡-cfcdn3 #1'
-  network: ws
-  port: 443
-  server: cfcdn3.langmanshanxi.top
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: '%2F%3Fed%3D2560'
-- client-fingerprint: random
-  name: '老油条-新加坡-cfcdns #1'
-  network: ws
-  port: 443
-  server: cfcdns.langmanshanxi.top
-  servername: sg.laoyoutiao.link
-  tls: true
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: '%2F%3Fed%3D2560'
-- name: 🇸🇬|SG|@wxgqlfx|396<br />
-  password: ttfang
-  port: 443
-  server: 140.245.53.130
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇸🇬|SG|@wxgqlfx|399<br />
-  password: ttfang
-  port: 1111
-  server: 138.2.95.61
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇸🇬|SG|@wxgqlfx|360<br />
-  password: ttfang
-  port: 443
-  server: 139.180.154.158
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇸🇬|SG|@wxgqlfx|361<br />
-  password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-  port: 10086
-  server: asg.pagate.top
-  tls: false
+      host: sg.laoyoutiao.link
+    path: /?ed=2560
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 🇸🇬 新加坡07奈非
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 32052
+  server: sg07v6.sulink.one
+  skip-cert-verify: true
+  sni: www.bing.com
   type: hysteria2
-- name: 🇸🇬|SG|@wxgqlfx|368<br />
-  password: ttfang
-  port: 443
-  server: 128.199.237.143
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇸🇬|SG|@wxgqlfx|337<br />
-  password: ttfang
-  port: 443
-  server: 13.228.142.218
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇸🇬|SG|@wxgqlfx|344<br />
-  port: 443
-  server: 168.138.181.208
-  tls: false
-  type: vless
-  uuid: 0783b1b9-5d8b-4d03-adc3-b050acc71a29
-  ws-opts:
-    path: '%2Fbing'
-- name: 🇸🇬|SG|@wxgqlfx|345<br />
-  port: 38091
-  server: 43.128.95.84
-  tls: false
-  type: vless
-  uuid: f184c89c-80a4-4a3a-bc67-97db43266c11
-  ws-opts:
-    path: '%2FTG%40wxgqlfx%3Fed%3D2560'
-- name: '🇸🇬|SG|@wxgqlfx|158<br /> #1'
-  password: ttfang
-  port: 5027
-  server: 8.219.77.72
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇸🇬|SG|@wxgqlfx|224<br />
-  port: 8880
-  server: 154.194.12.213
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-- name: 🇸🇬|SG|@wxgqlfx|103<br />
-  password: ttfang
-  port: 8443
-  server: 47.236.181.185
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇸🇬|SG|@wxgqlfx|104<br />
-  port: 8880
-  server: 27.50.49.213
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-- name: 🇸🇬|SG|@wxgqlfx|119<br />
-  password: ttfang
-  port: 9000
-  server: 47.245.91.197
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇸🇬|SG|@wxgqlfx|124<br />
-  port: 8880
-  server: 27.50.48.213
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-- name: 🇸🇬|SG|@wxgqlfx|311<br />
-  password: ttfang
-  port: 44009
-  server: 129.150.50.21
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇸🇬|SG|@wxgqlfx|314<br />
-  password: ttfang
-  port: 32962
-  server: 138.2.89.64
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇸🇬|SG|@wxgqlfx|323<br />
-  password: ttfang
-  port: 26621
-  server: 138.2.100.221
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: 🇸🇬|SG|@wxgqlfx|325<br />
-  password: ttfang
-  port: 53076
-  server: 152.69.220.136
-  type: trojan
-  ws-opts:
-    path: '%2F'
+  udp: true
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 🇸🇬 新加坡03奈非
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 22052
+  server: sg03v6.sulink.one
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '🇸🇬 SG-84.247.148.192:44396 #1'
+  name: 🇸🇬 新加坡NO.1
+  port: 45054
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡NO.2
+  port: 45055
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
+- auth: 36771992-8df4-4d2c-b4f1-36f5c584f406
+  name: 🇸🇬 新加坡-1
+  password: 36771992-8df4-4d2c-b4f1-36f5c584f406
+  port: 30001
+  server: oracle-amd-singapore1.lanmaoyun.icu
+  skip-cert-verify: true
+  sni: main.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 IEPL专线 新加坡 NO1
+  port: 44412
+  server: i.needss.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡05极速节点|油管速度优化
+  network: ws
+  port: 80
+  server: yx.sulink.one
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  ws-opts:
+    headers:
+      Host: sg05.sulink.one
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡1SS移动直连
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 12343
+  server: sg6.sulink.one
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇸🇬 SG-84.247.148.1...
   network: tcp
   port: '44396'
   server: 84.247.148.192
@@ -413,7 +126,7 @@ proxies:
   uuid: 3ca35e0a-e430-43fe-9c12-2e2eea70f873
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 SG-84.247.150.177:36141
+  name: 🔒 VM-TCP-NA 🇸🇬 SG-84.247.150.1...
   network: tcp
   port: '36141'
   server: 84.247.150.177
@@ -433,7 +146,7 @@ proxies:
   uuid: fb674260-1c21-4f99-8bd0-3d1d341c6771
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 SG-84.247.147.67:54179
+  name: 🔒 VM-TCP-NA 🇸🇬 SG-84.247.147.6...
   network: tcp
   port: '54179'
   server: 84.247.147.67
@@ -443,7 +156,7 @@ proxies:
   uuid: d143ebbc-7825-4b43-a55e-f11cb153bd5b
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 SG-84.247.147.243:51566
+  name: 🔒 VM-TCP-NA 🇸🇬 SG-84.247.147.2...
   network: tcp
   port: '51566'
   server: 84.247.147.243
@@ -471,3 +184,536 @@ proxies:
   tls: false
   type: vmess
   uuid: 7aa56e39-29b8-45c3-8b53-6d2a23b2461c
+- name: redhat_vpn-🇸🇬-سنگاپور-h7i2wqfa
+  network: tcp
+  port: 17310
+  server: g1.lalash.ir
+  tls: false
+  type: vless
+  uuid: abd9b850-a6d5-4900-a603-3d9c2d7a41f6
+  ws-opts:
+    headers:
+      Host: speedtest.net
+    path: '%2F'
+- name: 🇸🇬🌏+@v2ray_v_vpn+کانفیگ+های+بی...
+  network: httpupgrade
+  port: 2086
+  server: 104.17.147.22
+  tls: false
+  type: vless
+  uuid: c0fbe05a-79c5-4b1e-bcbe-643ef08c4a02
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.zula.ir.Shad.ir.sHaparak.ir.torob.com.namaSha.com.namnak.com.filiMo.com.Rokna.net.teleweBion.com.iraNikala.toP.
+    path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D1024'
+- name: 新加坡_070409095
+  network: httpupgrade
+  port: 8880
+  server: 27.50.48.252
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: '%2F'
+- name: 新加坡_070409188
+  network: httpupgrade
+  port: 8880
+  server: 92.243.75.46
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 新加坡_070409202
+  network: httpupgrade
+  port: 8880
+  server: 27.50.48.149
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 新加坡_070409204
+  network: httpupgrade
+  port: 8880
+  server: 27.50.48.193
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 新加坡_070409219
+  network: httpupgrade
+  port: 8880
+  server: 92.243.75.121
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 新加坡_070409220
+  network: httpupgrade
+  port: 8880
+  server: 154.194.12.25
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 新加坡_070409227
+  network: httpupgrade
+  port: 8880
+  server: 92.243.75.161
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 新加坡_070409233
+  network: httpupgrade
+  port: 8880
+  server: 27.50.48.198
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 新加坡_070409282
+  network: httpupgrade
+  port: 8880
+  server: 92.243.74.211
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 新加坡_070409286
+  network: httpupgrade
+  port: 8880
+  server: 92.243.74.5
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: SG
+  network: ws
+  port: 40000
+  server: 54.255.80.89
+  servername: warp.wlcf.lol
+  tls: true
+  type: vless
+  uuid: f41afc19-93cb-406d-af1c-04e75221708c
+  ws-opts:
+    headers:
+      Host: warp.wlcf.lol
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'SG #1'
+  network: ws
+  port: 6443
+  server: 138.2.64.175
+  servername: warp.wlcf.lol
+  tls: true
+  type: vless
+  uuid: f41afc19-93cb-406d-af1c-04e75221708c
+  ws-opts:
+    headers:
+      Host: warp.wlcf.lol
+    path: '%2F%3Fed%3D2560'
+- name: 🇸🇬_Tel:@vless_vmess
+  password: 14dfcbc3-fb69-43f4-a1a1-d06124eb3d03
+  port: 50132
+  server: sgp-2.fuckjdieng.uk
+  type: trojan
+- name: '🇸🇬_Tel:@vless_vmess #1'
+  password: cd27884b-c5af-34ec-b75f-8248077818fe
+  port: 5678
+  server: 5.sg.cat77.cloud
+  type: trojan
+- name: '🇸🇬_Tel:@vless_vmess #2'
+  password: cd27884b-c5af-34ec-b75f-8248077818fe
+  port: 8443
+  server: 2.sg.cat77.cloud
+  type: trojan
+- name: '🇸🇬_Tel:@vless_vmess #3'
+  password: '!!str 123456'
+  port: 443
+  server: trojan-ctb-sg01.globalssh.xyz
+  type: trojan
+- alpn:
+  - h2
+  flow: xtls-rprx-vision
+  name: SG_CLAW_XTLS
+  network: tcp
+  port: 8443
+  server: sg.nba9.com
+  servername: sg.nba9.com
+  tls: true
+  type: vless
+  uuid: deadbeef-e2b8-4a2a-acc3-4b85f876002c
+  ws-opts:
+    headers:
+      Host: sg.nba9.com
+    path: '%2Fdododo'
+- alpn:
+  - h2
+  flow: xtls-rprx-vision
+  name: SG_CLAW_XTLS_BACKUP
+  network: tcp
+  port: 7443
+  server: sg.nba9.com
+  servername: sg.nba9.com
+  tls: true
+  type: vless
+  uuid: deadbeef-e2b8-4a2a-acc3-4b85f876002c
+  ws-opts:
+    headers:
+      Host: sg.nba9.com
+    path: '%2Fdododo'
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NONE 🇸🇬 SG-154.26.129...
+  network: tcp
+  port: 57143
+  server: 154.26.129.247
+  tls: false
+  type: vmess
+  uuid: 28efbf36-079a-4c98-8470-d13458db6ee6
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇸🇬 SG-43.156.102.6...
+  network: tcp
+  port: '11060'
+  server: 43.156.102.65
+  tls: false
+  type: vmess
+  uuid: 5cdd371e-cc4e-4ea2-91a8-c755f00f67a0
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NONE 🇸🇬 SG-62.146.233...
+  network: tcp
+  port: 43763
+  server: 62.146.233.159
+  tls: false
+  type: vmess
+  uuid: 1ddf3ade-5b8c-420c-84f6-f96979ec3080
+- alterId: 64
+  cipher: auto
+  name: 🔒 VM-WS-TLS 🇸🇬 SG-134.122.133....
+  network: ws
+  port: '48887'
+  server: 134.122.133.119
+  servername: www.86711926.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.86711926.xyz
+    path: /path/170733132233
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇸🇬 SG-46.250.234.3...
+  network: tcp
+  port: '45317'
+  server: 46.250.234.32
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b2836369-220b-4840-80c4-8cf904c735ee
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇸🇬 SG-154.26.134.2...
+  network: tcp
+  port: '54813'
+  server: 154.26.134.221
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: df9c6e9e-9e7a-4d06-88bb-9b29337b973f
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NONE 🇸🇬 SG-109.123.23...
+  network: tcp
+  port: 59032
+  server: 109.123.232.74
+  tls: false
+  type: vmess
+  uuid: 96ab7e1f-bf0d-45cd-8ebc-c8be2f8d43cd
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇸🇬 SG-194.233.72.2...
+  network: tcp
+  port: '27575'
+  server: 194.233.72.228
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 16509262-dbe2-43ba-99ce-07913d2a18b4
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-RAW-NA 🇸🇬 SG-62.146.233.1...
+  network: raw
+  port: '36712'
+  server: 62.146.233.112
+  tls: false
+  type: vmess
+  uuid: 9266df42-0830-48c2-8509-4c57b30fe29d
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬[openproxylist.com] vmess-SG
+  network: tcp
+  port: '56051'
+  server: 38.47.176.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
+- alterId: 0
+  cipher: auto
+  name: 未知2 435.3KB/s
+  network: tcp
+  port: '14129'
+  server: 154.26.134.106
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e7798e09-3090-4366-ae80-f18afdaabf4f
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NONE 🇸🇬 SG-154.26.137...
+  network: tcp
+  port: 44104
+  server: 154.26.137.42
+  tls: false
+  type: vmess
+  uuid: e9933a4c-e56e-458c-bcf4-9cb3875bba55
+- alterId: 0
+  cipher: auto
+  name: '🔒 VM-TCP-NONE 🇸🇬 SG-62.146.233... #1'
+  network: tcp
+  port: 50678
+  server: 62.146.233.53
+  tls: false
+  type: vmess
+  uuid: 5d1ec6e7-fd58-4e85-91c5-6335a86d2775
+- alterId: 0
+  cipher: auto
+  name: '🔒 VM-TCP-NONE 🇸🇬 SG-62.146.233... #2'
+  network: tcp
+  port: 38324
+  server: 62.146.233.115
+  tls: false
+  type: vmess
+  uuid: f863ef99-5ef0-4321-aaac-a476a5e8c3fb
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇸🇬 SG-46.250.237.1...
+  network: tcp
+  port: '29999'
+  server: 46.250.237.196
+  tls: false
+  type: vmess
+  uuid: b31fc134-978e-4176-8579-8107d6a0cede
+- name: 🇬[openproxylist.com] vless-SG
+  network: ws
+  port: 80
+  server: 141.193.213.21
+  tls: false
+  type: vless
+  uuid: 25585ad5-242d-4b58-ad50-2492ee122ab6
+  ws-opts:
+    headers:
+      Host: 19.sahanwickramasinghe.shop
+    path: '%2F'
+- name: 🇸🇬[openproxylist.com] vless-SG
+  network: ws
+  port: 48705
+  server: 157.230.248.167
+  tls: false
+  type: vless
+  uuid: 9ddfb86c-315e-4710-8d68-29b40c28b47c
+  ws-opts:
+    headers:
+      Host: ind.faceid.hyperverge.co
+    path: '%2FFREE%20by%20Tharuwa%20%280767597317%29'
+- name: '🇸🇬[openproxylist.com] vless-SG #1'
+  network: tcp
+  port: 443
+  server: 85.9.100.62
+  tls: false
+  type: vless
+  uuid: ab1f0258-fe28-4f80-b21d-70561f3a2c6f
+- name: '🇸🇬[openproxylist.com] vless-SG #2'
+  network: ws
+  port: 8080
+  server: 172.67.193.239
+  tls: false
+  type: vless
+  uuid: 23d240b9-c5ec-43d1-ec3d-5066556537f4
+  ws-opts:
+    headers:
+      Host: 0617.heweiyi.dpdns.org
+    path: '%2Fsearch'
+- name: '🇸🇬[openproxylist.com] vless-SG #3'
+  network: ws
+  port: 8080
+  server: 172.67.75.172
+  tls: false
+  type: vless
+  uuid: d03d2ff3-0b28-4c6b-bab5-4bfac274aa91
+  ws-opts:
+    headers:
+      Host: 0613.heweiyi.dpdns.org
+    path: '%2F'
+- name: '🇸🇬[openproxylist.com] vless-SG #4'
+  network: ws
+  port: 8880
+  server: 104.26.13.31
+  tls: false
+  type: vless
+  uuid: 3054a28e-177a-412f-9b03-9855d79aa728
+  ws-opts:
+    headers:
+      Host: 0609.sunnyfish.dpdns.org
+    path: '%2F'
+- name: '🇸🇬[openproxylist.com] vless-SG #5'
+  network: tcp
+  port: 41283
+  server: 43.156.217.68
+  tls: false
+  type: vless
+  uuid: 4839e0b9-b275-47ea-81ab-9bfd38bbe7af
+- client-fingerprint: random
+  name: 老油条-SG-新加坡
+  network: ws
+  port: 443
+  server: sg.laoyoutiao.link
+  servername: sg.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: 老油条-新加坡-cdn
+  network: ws
+  port: 443
+  server: cdn.laoyoutiao.link
+  servername: sg.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: 老油条-新加坡-cdn1
+  network: ws
+  port: 443
+  server: cdn1.laoyoutiao.link
+  servername: sg.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: '老油条-新加坡-cfcdn1 #2'
+  network: ws
+  port: 443
+  server: cfcdn1.langmanshanxi.top
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: 老油条-新加坡-cfcdn2
+  network: ws
+  port: 443
+  server: cfcdn2.langmanshanxi.top
+  servername: sg.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: 老油条-新加坡-cfcdn3
+  network: ws
+  port: 443
+  server: cfcdn3.langmanshanxi.top
+  servername: sg.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: '老油条-新加坡-cfcdns #1'
+  network: ws
+  port: 443
+  server: cfcdns.langmanshanxi.top
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: 老油条-新加坡-cdn2
+  network: ws
+  port: 443
+  server: cdn2.laoyoutiao.link
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'

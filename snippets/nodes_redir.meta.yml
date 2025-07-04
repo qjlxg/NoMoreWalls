@@ -1,4 +1,1231 @@
 proxies:
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国
+  password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
+  port: 27235
+  server: 0bdf3a95-sytz40-t09t13-z7a1.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #1'
+  password: 4088a148-dbec-11ec-bd7c-f23c913c8d2b
+  port: 27235
+  server: f4bbb283-sytz40-t01cuj-1itli.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #2'
+  password: 80f73b42-8264-11ef-8dc4-f23c91cfbbc9
+  port: 27235
+  server: 7a89c69d-sytz40-tbvl5i-1mebs.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #3'
+  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  port: 27235
+  server: c3fe9cc6-sytz40-thv9l4-1jbj0.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #4'
+  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+  port: 27235
+  server: 274ba953-sytz40-t09za6-1m0fq.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #5'
+  password: 3549abda-3854-11ef-b71e-f23c9164ca5d
+  port: 27235
+  server: 4720bf9e-sytz40-t0r7l4-1ruih.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #6'
+  password: 8f99107c-f091-11ee-9935-f23c9164ca5d
+  port: 27235
+  server: c5ce6f77-sytz40-ta64ri-1qzi1.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #7'
+  password: 225d1cca-d744-11ef-b790-f23c91cfbbc9
+  port: 27235
+  server: 0a7a80dc-sytz40-szxh9w-46gc.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #8'
+  password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
+  port: 27235
+  server: 83edf522-sytz40-t4qa9y-g43g.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #9'
+  password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+  port: 27235
+  server: 864a90fc-sytz40-tee612-2r82.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #10'
+  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  port: 27235
+  server: 4edfad82-sytz40-tcmken-19les.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- name: 🇮🇷_IR_伊朗->🇹🇷_TR_土耳其
+  network: ws
+  port: 39984
+  server: 185.155.72.152
+  tls: false
+  type: vless
+  uuid: a0e8f5ff-602a-4fbf-83da-f50d538c21fc
+  ws-opts:
+    path: /
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #11'
+  password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+  port: 27235
+  server: 04000a76-sytz40-tb74a6-1q9g2.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #12'
+  password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
+  port: 27235
+  server: 1dde7ddd-sytz40-tbpu76-1thmd.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #13'
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  port: 27235
+  server: 916030df-sytz40-t16ejh-1rdqg.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  network: ws
+  port: 30829
+  server: 111.26.109.79
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ''
+    path: /oooo
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #14'
+  password: 9e1ddc04-073b-11ed-bd7c-f23c913c8d2b
+  port: 15229
+  server: d0dfa01d-sytz40-t1jamc-1fvdh.cu2.plebai.net
+  skip-cert-verify: false
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #15'
+  password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
+  port: 15229
+  server: a784fd6f-sytz40-t2c3sq-1spnr.cu2.plebai.net
+  skip-cert-verify: false
+  type: trojan
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_2
+  network: tcp
+  password: 8f99107c-f091-11ee-9935-f23c9164ca5d
+  port: 27235
+  server: c5ce6f77-sytz40-ta64ri-1qzi1.cm5.cnkuaishou.com
+  type: trojan
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_3
+  network: tcp
+  password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
+  port: 27235
+  server: 83edf522-sytz40-t4qa9y-g43g.cm5.cnkuaishou.com
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_1 #1'
+  network: tcp
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  port: 27235
+  server: 916030df-sytz40-t16ejh-1rdqg.cm5.cnkuaishou.com
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_6 #1'
+  network: tcp
+  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  port: 27235
+  server: c3fe9cc6-sytz40-thv9l4-1jbj0.cm5.cnkuaishou.com
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_5 #1'
+  network: tcp
+  password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
+  port: 27235
+  server: 1dde7ddd-sytz40-tbpu76-1thmd.cm5.cnkuaishou.com
+  type: trojan
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_11
+  network: tcp
+  password: 9e1ddc04-073b-11ed-bd7c-f23c913c8d2b
+  port: 15229
+  server: d0dfa01d-sytz40-t1jamc-1fvdh.cu2.plebai.net
+  type: trojan
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_12
+  network: tcp
+  password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
+  port: 27235
+  server: 0bdf3a95-sytz40-t09t13-z7a1.cm5.cnkuaishou.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  network: ws
+  port: 30829
+  server: 111.26.109.79
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /oooo
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_13
+  network: tcp
+  password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
+  port: 15229
+  server: a784fd6f-sytz40-t2c3sq-1spnr.cu2.plebai.net
+  type: trojan
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_14
+  network: tcp
+  password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+  port: 27235
+  server: 864a90fc-sytz40-tee612-2r82.cm5.cnkuaishou.com
+  type: trojan
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_15
+  network: tcp
+  password: 80f73b42-8264-11ef-8dc4-f23c91cfbbc9
+  port: 27235
+  server: 7a89c69d-sytz40-tbvl5i-1mebs.cm5.cnkuaishou.com
+  type: trojan
+- name: 🇺🇸_US_美国->🇨🇳_CN_中国
+  network: ws
+  port: 2086
+  server: 104.17.147.22
+  servername: ws.DafieMikoneTheWeekendPlay.SpAcE.
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ws.DafieMikoneTheWeekendPlay.SpAcE.
+    path: '%2F---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam%3Fed%3D2048'
+- name: 🇮🇷_IR_伊朗->🇺🇦_UA_乌克兰
+  network: ws
+  port: 41901
+  server: 37.152.175.231
+  servername: telewebion.com
+  tls: false
+  type: vless
+  uuid: 51e1b3df-4de4-493d-b661-aaf8dc2433ab
+  ws-opts:
+    headers:
+      Host: telewebion.com
+    path: '%2F'
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  network: tcp
+  password: 55f2afab-bc41-4231-b725-76bef15c3cf7
+  port: 55799
+  server: lm.kaiqsz.com
+  sni: mmbiz10.redapricotcloud.com
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_2 #1'
+  network: tcp
+  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  port: 27235
+  server: ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com
+  sni: ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com
+  type: trojan
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+  network: tcp
+  password: 55f2afab-bc41-4231-b725-76bef15c3cf7
+  port: 54031
+  server: lm.kaiqsz.com
+  sni: mmbiz10.redapricotcloud.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡中转 02
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 44776
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 英国中转 03
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 13708
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港中转 02
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 36858
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾中转 04
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 25149
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾中转 03
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 14232
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港中转 05
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 20901
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡中转 03
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 11599
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港中转 03
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 14407
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 英国中转 01
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 29172
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 🇭🇰 香港01-奈非-中转
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 32052
+  server: sl.sulink.one
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国中转 03
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 23631
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾中转 01
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 27110
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本中转 05
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 21743
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 🇯🇵 日本04三网中转|5x
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 33152
+  server: sl.sulink.one
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本中转 03
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 38225
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡中转 01
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 21667
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 英国中转 02
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 34013
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾中转 02
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 17010
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本中转 04
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 38649
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本中转 02
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 57661
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港中转 04
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 11618
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港中转 01
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 43641
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国中转 02
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 15070
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国中转 01
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 26858
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 🇭🇰 三网中转香港|5x
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 42052
+  server: sl.sulink.one
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本中转 01
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 13706
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾中转 05
+  password: b103d104-bff0-4cee-b42a-85dad07e2036
+  port: 35846
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 139-CF中转_1210047768
+  network: httpupgrade
+  port: 2082
+  server: 172.67.73.226
+  servername: sdfsdurg32-4987sduiovychsliufgi32-4987iyfhoisudhrop32-47i9yfios.vipvipmbl.ir.
+  tls: false
+  type: vless
+  uuid: e60fbed7-5aaf-404e-8fac-fe59093010e5
+  ws-opts:
+    headers:
+      Host: sdfsdurg32-4987sduiovychsliufgi32-4987iyfhoisudhrop32-47i9yfios.vipvipmbl.ir.
+    path: '%2Fwww.speedtest.net-www.speedtest.net-www.speedtest.net%3Fed%3D24695'
+- name: 'خرید+پایدار+ترین+کانفیگ+ها+از+... #6'
+  network: httpupgrade
+  port: 2082
+  server: xc644.vrspeeds.site
+  tls: false
+  type: vless
+  uuid: 3fa3261f-8f6b-4f5a-8f75-eb39911a0798
+  ws-opts:
+    headers:
+      Host: finhztco.nipytee.info
+    path: '%2F'
+- name: 'خرید+پایدار+ترین+کانفیگ+ها+از+... #13'
+  network: httpupgrade
+  port: 2082
+  server: love.salarvand.org
+  tls: false
+  type: vless
+  uuid: 3fa3261f-8f6b-4f5a-8f75-eb39911a0798
+  ws-opts:
+    headers:
+      Host: finhztco.nipytee.info
+    path: '%2F'
+- name: 'خرید+پایدار+ترین+کانفیگ+ها+از+... #7'
+  network: httpupgrade
+  port: 2082
+  server: m.giggoacc.com
+  tls: false
+  type: vless
+  uuid: 3fa3261f-8f6b-4f5a-8f75-eb39911a0798
+  ws-opts:
+    headers:
+      Host: finhztco.nipytee.info
+    path: '%2F'
+- name: 'خرید+پایدار+ترین+کانفیگ+ها+از+... #14'
+  network: httpupgrade
+  port: 2082
+  server: vnfd46.vrspeeds.site
+  tls: false
+  type: vless
+  uuid: 3fa3261f-8f6b-4f5a-8f75-eb39911a0798
+  ws-opts:
+    headers:
+      Host: finhztco.nipytee.info
+    path: '%2F'
+- name: 'خرید+پایدار+ترین+کانفیگ+ها+از+... #12'
+  network: httpupgrade
+  port: 2082
+  server: dc1.hytext-man.monster
+  tls: false
+  type: vless
+  uuid: 3fa3261f-8f6b-4f5a-8f75-eb39911a0798
+  ws-opts:
+    headers:
+      Host: finhztco.nipytee.info
+    path: '%2F'
+- name: CF中转_0704091051
+  network: httpupgrade
+  port: 80
+  server: 104.18.26.90
+  tls: false
+  type: vless
+  uuid: b2bb37ae-918a-4c7b-8cfb-3bcf35cf9c7e
+  ws-opts:
+    headers:
+      Host: www.sPeedtest.net.ElectrOluxxv.iR.
+    path: '%2F%40XpnTeam%2F...%3Fed%3D2048'
+- name: CF中转_0704091052
+  network: httpupgrade
+  port: 80
+  server: 104.17.128.198
+  tls: false
+  type: vless
+  uuid: 6115d238-cad0-437e-bed6-b62a24b397db
+  ws-opts:
+    headers:
+      Host: kk78.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.pro.
+    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D80'
+- name: CF中转_0704091053
+  network: httpupgrade
+  port: 80
+  server: 188.114.98.233
+  tls: false
+  type: vless
+  uuid: a1f9998f-e611-4cd6-81d9-7dc10ef619a8
+  ws-opts:
+    headers:
+      Host: www.sPeedtest.net.ElectrOluxxv.iR.
+    path: '%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%3Fed%3D2048'
+- name: '@NUFiLTER 🇮🇷🚀🇱🇺2 (همراه)'
+  network: httpupgrade
+  port: 80
+  server: 104.18.26.90
+  tls: false
+  type: vless
+  uuid: 6115d238-cad0-437e-bed6-b62a24b397db
+  ws-opts:
+    headers:
+      Host: Kk78.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.pro.
+    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D80'
+- name: CF中转_0704091056
+  network: httpupgrade
+  port: 80
+  server: 172.67.176.106
+  tls: false
+  type: vless
+  uuid: 6115d238-cad0-437e-bed6-b62a24b397db
+  ws-opts:
+    headers:
+      Host: Kk78.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.pro.
+    path: '%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D80'
+- name: CF中转_0704091291
+  network: httpupgrade
+  port: 8080
+  server: 104.21.49.71
+  tls: false
+  type: vless
+  uuid: c3d302cb-3eed-4bfb-a7e3-c84bda6847a8
+  ws-opts:
+    headers:
+      Host: Upgrade.SpeedGood.Com.Google.Com.BestSpeed....
+- name: CF中转_0704091293
+  network: httpupgrade
+  port: 2095
+  server: 104.19.209.229
+  tls: false
+  type: vless
+  uuid: b8e61b83-1b97-4694-acff-e553bb6744ca
+  ws-opts:
+    headers:
+      Host: ES.www.speedtest.net.ftp.debian.org.NIGHTGEMSHHOP.es.tbhuf.com.
+    path: '%2Fwss9000%3Fed%3D2560'
+- name: CF中转_0704091329
+  network: httpupgrade
+  port: 2082
+  server: 104.16.53.11
+  tls: false
+  type: vless
+  uuid: e687f150-548d-4db4-a9d9-7971023e9f68
+  ws-opts:
+    headers:
+      Host: myeRsdrivingschool.cOm.SpeedTest.Net.BlackRaven.NL.4.kaktusatom.iR.
+    path: '%2F%3Fed%3D8880'
+- name: CF中转_0704091424
+  network: httpupgrade
+  port: 8080
+  server: 162.159.153.2
+  tls: false
+  type: vless
+  uuid: abfacaa4-70ea-4061-b362-263b5a4070a4
+  ws-opts:
+    headers:
+      Host: 1.www.speedtest.net.Mact.iR.
+    path: '%2FTelegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray%3Fed%3D2048'
+- name: CF中转_0704091425
+  network: httpupgrade
+  port: 8080
+  server: 104.21.69.44
+  tls: false
+  type: vless
+  uuid: 46e35e68-b04f-464b-93ac-ca069aded819
+  ws-opts:
+    headers:
+      Host: 2.www.speedtest.net.Mact.iR.
+    path: '%2FTe...'
+- name: CF中转_0704091559
+  network: httpupgrade
+  port: 2095
+  server: 104.21.16.1
+  tls: false
+  type: vless
+  uuid: 2d0b88c0-bdd0-46a3-ad5a-f32cb639197d
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.www.speedtest.net.www.speedtest.net.www.spee...
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: CF中转_0704091768
+  network: httpupgrade
+  port: 8443
+  server: 104.21.37.43
+  servername: app.soft10.ir
+  tls: true
+  type: vless
+  uuid: e53ecb38-1974-4cca-b640-039e1f310710
+  ws-opts:
+    headers:
+      Host: app.soft10.ir
+    path: '%2F8PaKguUsL3cShypYFXoLUeVZ81vwc'
+- name: CF中转_0704091852
+  network: httpupgrade
+  port: 8080
+  server: 172.67.209.117
+  tls: false
+  type: vless
+  uuid: 0983f90e-744a-4dcc-9959-94d70c7a3fda
+  ws-opts:
+    headers:
+      Host: website.amin-app.ir
+- name: CF中转_0704091913
+  network: httpupgrade
+  port: 2095
+  server: 104.21.23.63
+  tls: false
+  type: vless
+  uuid: 7c951907-d4a8-49f3-86c8-0a6fc00e3f81
+  ws-opts:
+    headers:
+      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
+    path: '%2FJoin--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--in--EXPRESSVPN_420%3Fed%3D2048'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: CF中转_0704091918
+  network: httpupgrade
+  port: 443
+  server: 172.67.211.141
+  servername: aaa2.hajalii.com
+  tls: true
+  type: vless
+  uuid: fc228061-1144-4817-99f7-ac7401b6ee2b
+  ws-opts:
+    headers:
+      Host: aaa2.hajalii.com
+    path: '%2FYaPmf4AHa9IotdA9NmktIxw'
+- name: CF中转_0704091943
+  network: httpupgrade
+  port: 8080
+  server: 173.245.59.132
+  tls: false
+  type: vless
+  uuid: 9dc7fc80-3db6-4456-96cd-328cfcf54e25
+  ws-opts:
+    headers:
+      Host: evay-free.ysphs.top.
+- name: CF中转_0704091945
+  network: httpupgrade
+  port: 80
+  server: 104.17.147.22
+  tls: false
+  type: vless
+  uuid: f4deb8e2-d957-4042-c2ee-39bbd16fc00a
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.ns.cloudflare.com.try.cloudflare.com.toshan.ip-ddns.com.
+    path: '%2FTelegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-'
+- name: CF中转_0704091948
+  network: httpupgrade
+  port: 2086
+  server: 104.17.148.22
+  tls: false
+  type: vless
+  uuid: 32bfe0bf-1a95-4e4d-97b8-eff82032cbea
+  ws-opts:
+    headers:
+      Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.p...
+- name: CF中转_0704091979
+  network: httpupgrade
+  port: 2086
+  server: 104.17.147.22
+  tls: false
+  type: vless
+  uuid: beb9c4e8-4ada-4bd3-98a0-620caf938f5a
+  ws-opts:
+    headers:
+      Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D2086'
+- name: CF中转_0704091987
+  network: httpupgrade
+  port: 2082
+  server: 172.67.209.117
+  tls: false
+  type: vless
+  uuid: 0a6f34c4-39a7-4a27-914c-9d9ec9b57a89
+  ws-opts:
+    headers:
+      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
+    path: '%252...'
+- name: CF中转_0704091989
+  network: httpupgrade
+  port: 8880
+  server: 104.17.148.22
+  tls: false
+  type: vless
+  uuid: 4dc4bf3b-f78c-401c-d7b6-4dcf28e8079a
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.Tajrish-Rayaneh.ir.
+    path: '%2FWedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel%3Fed%3D2048'
+- name: CF中转_0704091994
+  network: httpupgrade
+  port: 8080
+  server: 172.67.210.123
+  tls: false
+  type: vless
+  uuid: 14e1f919-7d8e-4d9f-9685-1b3486d22584
+  ws-opts:
+    headers:
+      Host: panel.sitwe.ir
+    path: '%2FTelegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs%3Fed%3D2048'
+- name: CF中转_0704092283
+  network: httpupgrade
+  port: 2086
+  server: 104.16.127.23
+  tls: false
+  type: vless
+  uuid: 00b91c86-78b2-76b5-8664-25fbcd00c724
+  ws-opts:
+    headers:
+      Host: DarkShield.nl.wowshops.ir.
+- name: CF中转_0704092288
+  network: httpupgrade
+  port: 2095
+  server: 104.17.147.22
+  tls: false
+  type: vless
+  uuid: 2084deb2-fb34-4fd5-9f74-f6e2c5360206
+  ws-opts:
+    headers:
+      Host: PM.SODOGODPING.IR
+    path: '%2F'
+- name: CF中转_0704092313
+  network: httpupgrade
+  port: 80
+  server: 162.159.20.126
+  tls: false
+  type: vless
+  uuid: e33c49e1-0c70-4619-8849-ae183de195db
+  ws-opts:
+    headers:
+      Host: v2ngfast.nanvrfood.ir.
+- name: CF中转_0704092339
+  network: httpupgrade
+  port: 8080
+  server: 104.16.157.108
+  tls: false
+  type: vless
+  uuid: 4a502545-aeee-40aa-8302-0e4ca7f37adf
+  ws-opts:
+    headers:
+      Host: mahdiserver.nanvrfood.ir.
+    path: '%2F%40...'
+- name: CF中转_0704092401
+  network: httpupgrade
+  port: 8080
+  server: 173.245.59.100
+  tls: false
+  type: vless
+  uuid: 522af137-d625-4974-ae1e-911a980e3844
+  ws-opts:
+    headers:
+      Host: turkiye.serrjioo.ir
+    path: '%2FGoodLuck%3Fed%3D2560'
+- name: CF中转_0704092442
+  network: httpupgrade
+  port: 8080
+  server: 104.17.21.157
+  tls: false
+  type: vless
+  uuid: c94af54c-72b5-4d77-8288-28f2d87ba679
+  ws-opts:
+    headers:
+      Host: selllv2rayng.nanvrfood.ir.
+    path: '%2F%40MaHDiSeRVeR-%40MaHDiSeRVeR-%40MaHDiSeRVeR-%40MaHDiSeRVeR-%40MaHDiSeRVeR-%40MaHDiSeRVeR%3Fed%3D2048'
+- name: CF中转_0704092630
+  network: httpupgrade
+  port: 80
+  server: 162.159.153.2
+  tls: false
+  type: vless
+  uuid: 1d2e5ab1-1bbd-491c-9e24-4fc41c4bd3a3
+  ws-opts:
+    headers:
+      Host: revolutiontime-dailyconfigs.vigilante.ir
+    path: '%2F%40Daily_Configs%2C%40Daily_Configs%2C%40Daily_Configs%2C%40Daily_Configs%2C%40Daily_Configs%2C%40Daily_Configs%2C%40Daily_Configs%2C%40Daily_Configs%3Fed%3D2048'
+- name: CF中转_0704092886
+  network: httpupgrade
+  port: 2052
+  server: 173.245.58.100
+  tls: false
+  type: vless
+  uuid: b3dfdcfa-a791-4f73-9c06-e90a11ff24ea
+  ws-opts:
+    headers:
+      Host: 1.dreshghi.ir.ferialmostofi.c-om.padaco.ir.arashnasiri.com.shafashiraz.ir.honartandis.com.shouba.ir.iran-dental.com.sardkhoone.com.mohammadsalehpour.ir.abadgan.com.arvijpub.com.chmctruck.com.gandom-yar.ir
+    path: '%2FGoodLuck%3Fed%3D2560'
+- name: CF中转_0704093494
+  network: httpupgrade
+  port: 80
+  server: 104.25.244.76
+  tls: false
+  type: vless
+  uuid: b2bb37ae-918a-4c7b-8cfb-3bcf35cf9c7e
+  ws-opts:
+    headers:
+      Host: www.sPeedtest.net.ElectrOluxxv.iR.
+    path: '%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%3Fed%3D2048'
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: CF中转_0704093801
+  network: httpupgrade
+  port: 443
+  server: 104.17.148.22
+  servername: new2.hosting-mmd.ir.
+  tls: true
+  type: vless
+  uuid: 34c8b6c9-7a1d-445a-92fb-2f10215d8c94
+  ws-opts:
+    headers:
+      Host: new2.hosting-mmd.ir.
+- name: CF中转_0704093803
+  network: httpupgrade
+  port: 2082
+  server: 104.26.14.85
+  tls: false
+  type: vless
+  uuid: d424ae34-8aff-4093-b1c9-715de61aa144
+  ws-opts:
+    headers:
+      Host: 1S3-0MH-HJ1JAR06--BPKV6G4V--sWZW5eMD_QKJ__ZWB4FRTV7_KA7A.0912.ORG.
+    path: /?ed%3D2082
+- name: CF中转_0704094043
+  network: httpupgrade
+  port: 2086
+  server: 104.17.148.22
+  tls: false
+  type: vless
+  uuid: 9f31c202-4065-4cd4-ea22-8fd3f50355f2
+  ws-opts:
+    headers:
+      Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D2086'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: CF中转_0704094052
+  network: httpupgrade
+  port: 2087
+  server: 104.21.67.187
+  servername: unitedkingdom.iranfastspeed.net
+  tls: true
+  type: vless
+  uuid: d8506e85-4631-4513-9651-5914b8b33e5d
+  ws-opts:
+    headers:
+      Host: unitedkingdom.iranfastspeed.net
+    path: '%2F%40saeedtelcom%3Fed%3D2048'
+- name: CF中转_0704094191
+  network: httpupgrade
+  port: 8080
+  server: 173.245.59.132
+  tls: false
+  type: vless
+  uuid: ffbcc76d-0d20-4ece-bad2-50ff8180b0a5
+  ws-opts:
+    headers:
+      Host: mahdiserver.nanvrfood.ir.
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: CF中转_0704094240
+  network: httpupgrade
+  port: 2096
+  server: 104.17.147.22
+  servername: fix.miraji.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 109105db-e58b-481c-b00f-2725335324a5
+  ws-opts:
+    headers:
+      Host: dash.miraji.ir
+    path: '%2Fmiraji.ir%2Ff16%3Fed%3D2053'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: CF中转_0704094363
+  network: httpupgrade
+  port: 2096
+  server: 104.17.148.22
+  servername: fix.miraji.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 109105db-e58b-481c-b00f-2725335324a5
+  ws-opts:
+    headers:
+      Host: dash.miraji.ir
+    path: '%2Fmiraji.ir%2Ff16%3Fed%3D2053'
+- name: CF中转_0704094612
+  network: httpupgrade
+  port: 8880
+  server: 173.245.59.100
+  tls: false
+  type: vless
+  uuid: 590807f7-75af-48fd-b815-d6364760b352
+  ws-opts:
+    headers:
+      Host: dE-sNaPp.MaStErSrV.iR.aCaDeMiGrOuP.Ir.
+- client-fingerprint: chrome
+  name: CF中转_0704094681
+  network: httpupgrade
+  port: 2096
+  server: 104.21.69.44
+  servername: geremi.newtechstoon.ir
+  tls: true
+  type: vless
+  uuid: c4bf3d19-4371-4112-8f02-5a36e7dd5d9f
+  ws-opts:
+    headers:
+      Host: geremi.newtechstoon.ir
+    path: '%2Fgereminewtech%3Fed%3D2048'
+- name: CF中转_0704094751
+  network: httpupgrade
+  port: 2052
+  server: 173.245.59.100
+  tls: false
+  type: vless
+  uuid: fc7e3916-4beb-4dab-b4e1-f8898d98ac79
+  ws-opts:
+    headers:
+      Host: 3.dreshghi.ir.ferialmostofi.c-om.padaco.ir.arashnasiri.com.shafashiraz.ir.honartandis.com.shouba.ir.iran-dental.com.sardkhoone.com.mohammadsalehpour.ir.abadgan.com.arvijpub.com.chmctruck.com.gandom-yar.ir
+- name: CF中转_0704094800
+  network: httpupgrade
+  port: 8880
+  server: 104.21.43.116
+  tls: false
+  type: vless
+  uuid: 405f0726-89dc-6729-5bd6-a1464e61b6ea
+  ws-opts:
+    headers:
+      Host: 2.v2.www.speedtest.net.blue99shop.ir
+    path: ''
+- name: CF中转_0704094812
+  network: httpupgrade
+  port: 8880
+  server: 172.67.72.2
+  tls: false
+  type: vless
+  uuid: f376b256-f665-407d-8435-a3b6fdb812c8
+  ws-opts:
+    headers:
+      Host: top.golnar-clod.ir
+- name: CF中转_0704094979
+  network: httpupgrade
+  port: 2052
+  server: 104.17.148.22
+  tls: false
+  type: vless
+  uuid: 2476b968-3130-44f5-81e9-97a9701cffd9
+  ws-opts:
+    headers:
+      Host: web-cdn-829ytdd0zy-rubika.ir.google.xn--aaaaaaaaaaaaaaaaaaaaaa-v150bgai.apaspeedtest.netrat.com.eu.com.shw814.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaacdamaagg.tnw.of.to
+    path: '%2FphpMyAdmin%3Fq%3D%E4%B8%80%E4%BD%8D%E8%99%95%E5%A5%B3%E5%9C%A8%E5%AD%AB%E5%85%88%E7%94%9F%E7%9A%84%E8%BE%B2%E5%A0%B4%E5%B7%A5%E4%BD%9C%E3%80%82'
+- name: CF中转_0704095090
+  network: httpupgrade
+  port: 2086
+  server: 172.67.137.11
+  tls: false
+  type: vless
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: TdWwPlBs61.kOmAtSo.oRg
+    path: ''
+- name: CF中转_0704095311
+  network: httpupgrade
+  port: 2082
+  server: 104.21.23.63
+  tls: false
+  type: vless
+  uuid: a6125fc7-370a-4e23-b99d-90709d59f7dc
+  ws-opts:
+    headers:
+      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
+- name: CF中转_0704095424
+  network: httpupgrade
+  port: 8080
+  server: 104.17.147.22
+  tls: false
+  type: vless
+  uuid: 406f9109-b416-4c3e-b72c-16441cc9776a
+  ws-opts:
+    headers:
+      Host: UsErAnDoM.97hEzAr.Ir.AcAdEmIgRoUp.IR.
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: CF中转_0704095439
+  network: httpupgrade
+  port: 2087
+  server: 172.67.69.236
+  servername: bEAt.MIRaclETaxbiTS.Top.
+  tls: true
+  type: vless
+  uuid: 552b2a43-49b4-4f0f-a23a-79e2b5e63e58
+  ws-opts:
+    headers:
+      Host: BeAt.mIRacLeTaXbItS.tOP.
+- name: CF中转_0704095466
+  network: httpupgrade
+  port: 2086
+  server: 104.17.148.22
+  tls: false
+  type: vless
+  uuid: ebd82404-c2de-47e5-938b-e01e0c906eec
+  ws-opts:
+    headers:
+      Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D2086'
+- name: CF中转_0704095625
+  network: httpupgrade
+  port: 2086
+  server: 104.17.147.22
+  tls: false
+  type: vless
+  uuid: f7b55a8d-5640-4041-cd87-74fa8cc8f9f5
+  ws-opts:
+    headers:
+      Host: cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+- name: CF中转_0704095725
+  network: httpupgrade
+  port: 8880
+  server: 172.67.178.144
+  tls: false
+  type: vless
+  uuid: 405f0726-89dc-6729-5bd6-a1464e61b6ea
+  ws-opts:
+    headers:
+      Host: 2.v2.www.speedtest.net.blue99shop.ir
+    path: ''
+- name: CF中转_0704095733
+  network: httpupgrade
+  port: 2052
+  server: 104.16.53.11
+  tls: false
+  type: vless
+  uuid: 03391eb4-54c0-4e44-bdf4-709ba41a1078
+  ws-opts:
+    headers:
+      Host: speedtest.wikipedia.sharif.amoozeshbarayeto.ir
+    path: '%2Fsalamkhoobichetorichekhabarachekaramikonirefighkhabariazmanemigirinamardye2tomandaridastibemabedi%3F'
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: CF中转_0704095746
+  network: httpupgrade
+  port: 2087
+  server: 104.22.32.78
+  servername: bEAt.MIRaclETaxbiTS.Top.
+  tls: true
+  type: vless
+  uuid: f88e0a3c-75d5-411d-a39d-7a95bb123fd0
+  ws-opts:
+    headers:
+      Host: BeAt.mIRacLeTaXbItS.tOP.
+    path: '%2F%40V2rayyNGvpn%3Fed%3D2560'
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: CF中转_0704095830
+  network: httpupgrade
+  port: 2096
+  server: 104.17.148.22
+  servername: fix.miraji.ir
+  tls: true
+  type: vless
+  uuid: 69d2eac4-573d-49cd-a9bc-0e586ba3702e
+  ws-opts:
+    headers:
+      Host: dash.miraji.ir
+- name: CF中转_0704095836
+  network: httpupgrade
+  port: 8080
+  server: 104.16.53.11
+  tls: false
+  type: vless
+  uuid: 4964340d-251f-441f-a44e-c5699c28167f
+  ws-opts:
+    headers:
+      Host: pivaz-a.plas-nim.org
+    path: '%2F%3Fed%3D2087'
+- name: CF中转_0704095964
+  network: httpupgrade
+  port: 8880
+  server: 173.245.59.132
+  tls: false
+  type: vless
+  uuid: 570f00ba-af38-44b9-955c-86f8272e0d3a
+  ws-opts:
+    headers:
+      Host: nL-sNaPp.ZeMpA-lOvE.ir
+    path: ''
+- name: CF中转_0704095976
+  network: httpupgrade
+  port: 2095
+  server: 104.21.16.1
+  tls: false
+  type: vless
+  uuid: 4290621f-483f-4e40-a15a-07c8cfb93873
+  ws-opts:
+    headers:
+      Host: speeDxpnte.socksChangeRt.ir.
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: CF中转_0704096212
+  network: httpupgrade
+  port: 2096
+  server: 104.17.147.22
+  servername: fix.miraji.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 40211975-8883-443f-9aa8-6ee110b81b6a
+  ws-opts:
+    headers:
+      Host: dash.miraji.ir
+    path: '%2F%40shahabslimi%2Ff16%3Fed%3D2053'
+- name: CF中转_0704096301
+  network: httpupgrade
+  port: 2082
+  server: 172.67.209.117
+  tls: false
+  type: vless
+  uuid: a6125fc7-370a-4e23-b99d-90709d59f7dc
+  ws-opts:
+    headers:
+      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
+- name: CF中转_0704096423
+  network: httpupgrade
+  port: 2052
+  server: 173.245.59.100
+  tls: false
+  type: vless
+  uuid: 94fa689f-363d-4274-a5d5-f64144da8501
+  ws-opts:
+    headers:
+      Host: Espa.serrjioo.ir
+- name: CF中转_0704096516
+  network: httpupgrade
+  port: 2095
+  server: 104.21.48.1
+  tls: false
+  type: vless
+  uuid: 4290621f-483f-4e40-a15a-07c8cfb93873
+  ws-opts:
+    headers:
+      Host: speeDxpnte.socksChangeRt.ir.
+    path: '%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%3Fed%3D2048'
+- name: CF中转_0704096545
+  network: httpupgrade
+  port: 2052
+  server: 173.245.59.132
+  tls: false
+  type: vless
+  uuid: e404df18-a2a5-4ca0-b878-8cda9cec7163
+  ws-opts:
+    path: ''
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: CF中转_0704096549
+  network: httpupgrade
+  port: 2087
+  server: 104.26.14.16
+  servername: bEAt.MIRaclETaxbiTS.Top.
+  tls: true
+  type: vless
+  uuid: 552b2a43-49b4-4f0f-a23a-79e2b5e63e58
+  ws-opts:
+    headers:
+      Host: BeAt.mIRacLeTaXbItS.tOP.
 - alterId: 0
   cipher: auto
   name: 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大

@@ -1,7 +1,27 @@
 proxies:
+- name: 'NL荷兰(mibei77.com 米贝节点分享) #3'
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 45.134.21.8
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epml.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
 - alterId: 0
   cipher: auto
-  name: 🇳🇱 NL-93.115.172.175:12540
+  name: 🇳🇱 CM 隧道 荷兰 NO1
+  port: 20025
+  server: sh3.needss.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
+- alterId: 0
+  cipher: auto
+  name: '🇳🇱[openproxylist.com] vmess-NL #2'
   network: tcp
   port: '12540'
   server: 93.115.172.175
@@ -23,3 +43,131 @@ proxies:
     headers:
       Host: ''
     path: /
+- name: Netherlands
+  network: tcp
+  password: 7d2f4381-c5d5-38ae-9ee9-5dd8e37f66d7
+  port: 443
+  server: 45.67.228.199
+  type: trojan
+- name: (S111)🇬🇧t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.169.162.105
+  type: trojan
+- name: 🇳🇱+https://t.me/vpn_iossعضو+شو
+  password: 4cfb5b98-5a9d-4c6d-8911-25deca297fa1
+  port: 7708
+  server: air-amsterdam13.900513.xyz
+  type: trojan
+- name: '🇳🇱https://t.me/vpn_iossعضو+شو #1'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 44.197.239.115
+  type: trojan
+- name: (S750)🇩🇪t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.196.81.92
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 🇳🇱 _荷兰
+  network: ws
+  port: '30001'
+  server: 45.58.180.35
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.97749651.xyz
+    path: /path/1751545834550
+- alterId: 64
+  cipher: auto
+  name: '🇳🇱 _荷兰 #1'
+  network: ws
+  port: '31001'
+  server: 45.58.186.23
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.24420256.xyz
+    path: /path/1751546044274
+- alterId: 64
+  cipher: auto
+  name: '🇳🇱 _荷兰 #2'
+  network: ws
+  port: '30002'
+  server: 45.58.166.156
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.25741825.xyz
+    path: /path/1751546044274
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇳🇱 NL-152.53.104.3...
+  network: tcp
+  port: '56322'
+  server: 152.53.104.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d
+- alterId: 0
+  cipher: auto
+  name: '🔒 VM-TCP-NA 🇳🇱 NL-152.53.104.3... #1'
+  network: tcp
+  port: '56320'
+  server: 152.53.104.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c4ec67a8-1dcc-471d-a6d7-4d9b9ec1726d
+- alterId: 64
+  cipher: auto
+  name: 🔒 VM-WS-TLS 🇳🇱 NL-46.182.107.1...
+  network: ws
+  port: '41000'
+  server: 46.182.107.109
+  servername: www.42031742.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42031742.xyz
+    path: /path/170733132233
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇳🇱 NL-45.12.145.11...
+  network: tcp
+  port: 46290
+  server: 45.12.145.111
+  tls: false
+  type: vmess
+  uuid: 1b41153e-c4d4-431b-83eb-10472f869f93
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇳🇱 NL-45.8.145.145...
+  network: tcp
+  port: '30520'
+  server: 45.8.145.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3038024f-3a34-4228-b61c-d741b2fbec8f
+- alterId: 0
+  cipher: auto
+  name: 🇧🇬[openproxylist.com] vmess-BG
+  network: tcp
+  port: '17564'
+  server: 5.160.197.78
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888

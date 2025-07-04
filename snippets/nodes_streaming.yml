@@ -1,1 +1,49 @@
-proxies: []
+proxies:
+- alterId: 64
+  cipher: auto
+  name: '1 |  1.0MB/s|0%|Netflix|Disn..... #1'
+  network: tcp
+  port: '49291'
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '4-TH |  2.6MB/s|55%|Netflix|O.... #1'
+  network: ws
+  port: '443'
+  server: 38.47.96.30
+  tls: true
+  type: vmess
+  uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
+  ws-opts:
+    headers:
+      Host: th.lzj520hxw.dpdns.org
+    path: /lzjjj
+- alterId: 0
+  cipher: auto
+  name: '1 |  1.8MB/s|15%|Disney|Yout..... #1'
+  network: ws
+  port: '8080'
+  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🌀4-TH |  2.6MB/s|55%|Netflix|O...
+  network: ws
+  port: 443
+  server: 38.47.96.30
+  tls: true
+  type: vmess
+  uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
+  ws-opts:
+    headers:
+      Host: th.lzj520hxw.dpdns.org
+    path: /lzjjj

@@ -1,32 +1,78 @@
 proxies:
-- name: 1|🇧🇷1 |  1.4MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.200
+- name: All-@V2ray_Raha-13
+  network: httpupgrade
+  port: 8080
+  server: www.speedtest.net
   tls: false
   type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: AB.841.vpn.ir.de2.vless.sitespeedtest.net
+    path: '%2Fhttpupgrade'
+- name: '(S960)🇬🇧t.me/PrivateVPNs #1'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.40.44.31
+  type: trojan
+- name: '(S911)🇨🇵t.me/PrivateVPNs #2'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.236.36.253
+  type: trojan
+- name: '🇺🇾https://t.me/vpn_iossعضو+شو #4'
+  password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf
+  port: 20785
+  server: azgy001.xibai6.top
+  type: trojan
+- name: '🇲🇸https://t.me/vpn_iossعضو+شو #3'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.99.174.228
+  type: trojan
+- name: (S771)🇩🇪t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.77.128.189
+  type: trojan
+- name: (S764)🇬🇧t.me/PrivateVPNs
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.9.12.151
+  type: trojan
+- name: '🇧🇷https://t.me/vpn_iossعضو+شو #13'
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.96.142.149
+  type: trojan
+- name: '🇧🇷https://t.me/vpn_iossعضو+شو #14'
+  password: 0785f3b9-4574-4f50-9a31-62b9880102df
+  port: 443
+  server: mci-2.reporthername.online
+  type: trojan
+  ws-opts:
+    path: '%2FJiwZIyGBB8SinHJCE%2Ftrojanws'
 - alterId: 0
   cipher: auto
-  name: 1|🇧🇷2 |  1.3MB/s
-  network: ws
-  port: 80
-  server: 104.18.23.68
+  name: 🔒 VM-TCP-NA 🇧🇷 BR-95.164.4.140...
+  network: tcp
+  port: '52937'
+  server: 95.164.4.140
+  servername: ''
   tls: false
   type: vmess
-  uuid: bd9c1aea-240a-463a-83ee-e7b3a6a4ac7a
-  ws-opts:
-    headers:
-      Host: 375175914186712025032911325872796.s15.chibaba.filegear-sg.me
-    path: /s15.html?ed=2048
-- name: '🇧🇷@𝐒𝐢𝐍𝐀𝐕𝐌👈5️⃣کانال+تلگرام #1'
+  uuid: 71820e62-7b99-4ed9-a836-1e0f814c33a1
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-WS-NA 🇧🇷 BR-95.164.4.88:8...
   network: ws
-  port: 80
-  server: 104.17.105.92
+  port: '80'
+  server: 95.164.4.88
+  servername: ''
   tls: false
-  type: vless
-  uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
+  type: vmess
+  uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
   ws-opts:
     headers:
-      Host: dw.alibichareh.dpdns.org
-    path: '%2F%3Fed%3D2570'
+      Host: pq-brazil1.09vpn.com
+    path: /vmess/

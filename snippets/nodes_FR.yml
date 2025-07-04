@@ -1,7 +1,70 @@
 proxies:
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_9
+  network: tcp
+  password: 3549abda-3854-11ef-b71e-f23c9164ca5d
+  port: 27235
+  server: 4720bf9e-sytz40-t0r7l4-1ruih.cm5.cnkuaishou.com
+  type: trojan
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_5
+  network: tcp
+  password: 225d1cca-d744-11ef-b790-f23c91cfbbc9
+  port: 27235
+  server: 0a7a80dc-sytz40-szxh9w-46gc.cm5.cnkuaishou.com
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_3 #1'
+  network: tcp
+  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  port: 27235
+  server: 4edfad82-sytz40-tcmken-19les.cm5.cnkuaishou.com
+  type: trojan
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_4
+  network: tcp
+  password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+  port: 27235
+  server: 04000a76-sytz40-tb74a6-1q9g2.cm5.cnkuaishou.com
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_4 #1'
+  network: tcp
+  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+  port: 27235
+  server: 274ba953-sytz40-t09za6-1m0fq.cm5.cnkuaishou.com
+  type: trojan
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_1
+  network: tcp
+  password: 4088a148-dbec-11ec-bd7c-f23c913c8d2b
+  port: 27235
+  server: f4bbb283-sytz40-t01cuj-1itli.cm5.cnkuaishou.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇫🇷 FR-135.125.182.74:28213
+  name: 🇫🇷 法国1
+  port: 45072
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 CM 隧道 法国 NO1
+  port: 52108
+  server: sh3.needss.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国2
+  port: 45071
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇫🇷 FR-135.125.182....
   network: tcp
   port: '28213'
   server: 135.125.182.74
@@ -9,3 +72,84 @@ proxies:
   tls: false
   type: vmess
   uuid: 81852771-76fb-4e94-e4f1-4e37a698a49a
+- name: 🇫🇷 Test
+  password: VfwoVmXyBn
+  port: 38614
+  server: t1.mjk.world
+  type: trojan
+- name: 🇫🇷 @UltraPing Test
+  password: RIAHuZOQHX
+  port: 56421
+  server: tt.dlfile.site
+  type: trojan
+- name: '🇫🇷 @UltraPing Test #1'
+  password: LlgoG37gPP
+  port: 16796
+  server: tt.dlfile.site
+  type: trojan
+- name: 🇫🇷 @ Test
+  password: xDHFeo74kU
+  port: 20954
+  server: war.dlfile.site
+  type: trojan
+- name: 🇫🇷_Tel@vless_vmess
+  password: e018b9e8-96eb-45b6-b929-a39812631a30
+  port: 443
+  server: texas.misnetwork.top
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: VMESS-未知>法国-ChatGPT-1a2d514b-3...
+  network: ws
+  port: 443
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇫🇷 FR-2.56.126.103...
+  network: tcp
+  port: '33579'
+  server: 2.56.126.103
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2eb3ee2a-7bf8-4b50-9b93-2d489d2f3456
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇫🇷 FR-45.12.133.43...
+  network: tcp
+  port: '28444'
+  server: 45.12.133.43
+  tls: false
+  type: vmess
+  uuid: 1be8eddb-4f8c-45d0-b2a1-e538eb3abd39
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-45.145.165.114-7356
+  network: ws
+  port: 443
+  server: beyonddsz.cfd
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alpn:
+  - http/1.1
+  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #1'
+  network: tcp
+  password: telegram-id-v2rayvpnchannel
+  port: 22223
+  server: 52.47.92.41
+  sni: trojan.burgerip.co.uk
+  type: trojan

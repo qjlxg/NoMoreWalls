@@ -1,21 +1,111 @@
 proxies:
-- name: 1|🇦🇺2 |  1.5MB/s
-  port: 42426
-  server: bsuqian01.dynu.net
-  servername: gateway.icloud.com
-  tls: false
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1|🇦🇺3 |  5.6MB/s
-  port: 443
-  server: 162.159.38.219
-  servername: fari7.clodmolt3.com
-  tls: false
-  type: vless
-  uuid: 9fdc6f83-bfbd-40dd-8e4e-1678ee20351c
-- name: 🇦🇺|AU|@wxgqlfx|225<br />
+- name: 澳大利亚(mibei77.com 米贝节点分享)
+  network: ws
   port: 8880
-  server: 103.169.142.213
+  server: 103.133.1.177
+  servername: Telegram-channel-WangCai2
   tls: false
   type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: '%2FTelegram%40WangCai2%2F%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺 澳大利亚原生2
+  port: 45063
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺 IEPL专线 澳大利亚 NO1
+  port: 20011
+  server: i.needss.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
+- cipher: chacha20-ietf-poly1305
+  name: 🇦🇺 澳大利亚 悉尼
+  password: 437a58c3-b8dc-4d43-a269-59b0331eb07f
+  port: 10086
+  server: syd-01.oci.ee
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇲🇴 澳门NO.2
+  port: 45051
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺 澳大利亚原生1
+  port: 45062
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
+- name: 澳大利亚_070409024
+  network: httpupgrade
+  port: 8880
+  server: 103.169.142.77
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 澳大利亚_070409061
+  network: httpupgrade
+  port: 8880
+  server: 103.169.142.131
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 澳大利亚_070409062
+  network: httpupgrade
+  port: 8880
+  server: 103.169.142.99
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 澳大利亚_070409079
+  network: httpupgrade
+  port: 8880
+  server: 103.169.142.163
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
+- name: 澳大利亚_070409085
+  network: httpupgrade
+  port: 8880
+  server: 103.169.142.137
+  tls: false
+  type: vless
+  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  ws-opts:
+    headers:
+      Host: nufillter.jtip.sbs.
+    path: ''
