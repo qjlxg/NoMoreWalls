@@ -13,7 +13,7 @@ ABFURLS = (           # Adblock 规则黑名单
     "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock",
     "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt",
 )
-ABFWHITE = (          # Adblock 规则白名单
+ABFWHITE = (           # Adblock 规则白名单
     "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt",
     "file:///./abpwhite.txt",
 )
@@ -34,6 +34,7 @@ import yaml
 import json
 import base64
 import hashlib
+import re
 from urllib.parse import quote, unquote, urlparse
 import requests
 from requests_file import FileAdapter
@@ -107,6 +108,16 @@ CLASH_SSR_PROTOCOL = "origin auth_sha1_v4 auth_aes128_md5 auth_aes128_sha1 auth_
 
 FAKE_IPS = "8.8.8.8; 8.8.4.4; 4.2.2.2; 4. коло 2.2.1; 114.114.114.114; 127.0.0.1; 0.0.0.0".split('; ')
 FAKE_DOMAINS = ".google.com .github.com".split()
+
+# Add new trusted domains
+TRUSTED_DOMAINS = [
+    "raw.githubusercontent.com", "github.com", "gitlab.com", "gitee.com",
+    "cdn.jsdelivr.net", "fastly.jsdelivr.net", "raw.fastly.jsdelivr.net",
+    "s5.ssl-cdn.top", "sub.ssnode.top", "nodefree.org", # Added new domains
+    "raw.githubusercontents.com", "gh.h233.eu.org", "gh.con.sh", "gh.finail.top",
+    "gh.jiasu.eu.org", "gh.ddg.pw", "gh.icut.eu.org", "gh.gh2.eu.org", "gh.cody.eu.org",
+    "gh.chan.eu.org", "gh.ggl.eu.org", "gh.irc.eu.org", "gh.chen.eu.org",
+]
 
 FETCH_TIMEOUT = (60, 5)
 
@@ -564,23 +575,53 @@ class Node:
             return ret
 
         if self.type == 'hysteria2':
-            passwd = quote(data['password'])
-            name = quote(data['name'])
-            ret = f"hysteria2://{passwd}@{data['server']}:{data['port']}"
-            if 'ports' in data:
-                ret += ',' + data['ports']
+            parsed = urlparse(url)
+            self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
+                         'type': 'hysteria2', 'password': unquote(parsed.username)}
+            if ':' in parsed.netloc:
+                ports = parsed.netloc.split(':')[1]
+                if ',' in ports:
+                    self.data['port'], self.data['ports'] = ports.split(',', 1)
+                else:
+                    self.data['port'] = ports
+                try:
+                    self.data['port'] = int(self.data['port'])
+                except ValueError:
+                    self.data['port'] = 443
+            else:
+                self.data['port'] = 443
+            self.data['tls'] = False
+            if parsed.query:
+                k = v = ''
+                for kv in parsed.query.split('&'):
+                    if '=' in kv:
+                        k, v = kv.split('=', 1)
+                    else:
+                        v += '&' + kv
+                    if k == 'insecure':
+                        self.data['skip-cert-verify'] = (v != '0')
+                    elif k == 'alpn':
+                        self.data['alpn'] = unquote(v).split(',')
+                    elif k in ('sni', 'obfs', 'obfs-password'):
+                        self.data[k] = v
+                    elif k == 'fp':
+                        self.data['fingerprint'] = v
+            ret = f"hysteria2://{quote(self.data['password'])}@{self.data['server']}:{self.data['port']}"
+            if 'ports' in self.data:
+                ret += ',' + str(self.data['ports'])
             ret += '?'
-            if 'skip-cert-verify' in data:
-                ret += f"insecure={int(data['skip-cert-verify'])}&"
-            if 'alpn' in data:
-                ret += f"alpn={quote(','.join(data['alpn']))}&"
-            if 'fingerprint' in data:
-                ret += f"fp={data['fingerprint']}&"
+            if 'skip-cert-verify' in self.data:
+                ret += f"insecure={int(self.data['skip-cert-verify'])}&"
+            if 'alpn' in self.data:
+                ret += f"alpn={quote(','.join(self.data['alpn']))}&"
+            if 'fingerprint' in self.data:
+                ret += f"fp={self.data['fingerprint']}&"
             for k in ('sni', 'obfs', 'obfs-password'):
-                if k in data:
-                    ret += f"{k}={data[k]}&"
+                if k in self.data:
+                    ret += f"{k}={self.data[k]}&"
             ret = ret.rstrip('&') + '#' + name
             return ret
+
 
         raise UnsupportedType(self.type)
 
@@ -631,13 +672,13 @@ class Node:
                     return False
                 if 'protocol' in self.data and self.data['protocol'] not in CLASH_SSR_PROTOCOL:
                     return False
-            if 'plugin-opts' in self.data and 'mode' in self.data['plugin-opts'] \
-                    and not self.data['plugin-opts']['mode']:
-                return False
+                if 'plugin-opts' in self.data and 'mode' in self.data['plugin-opts'] \
+                        and not self.data['plugin-opts']['mode']:
+                    return False
         except Exception:
             print("无法验证的 Clash 节点！", file=sys.stderr)
             traceback.print_exc(file=sys.stderr)
-            return False
+        return False
         return True
 
     def supports_clash(self, meta=False) -> bool:
@@ -723,7 +764,8 @@ class Source:
             self.content = -1
         except:
             self.content = -2
-            exc = "在抓取 '" + self.url + "' 时发生错误：\n" + traceback.format_exc()
+            exc = "在抓取 '" + self.url + "' 时发生错误：\n" \
+                + traceback.format_exc()
             self.exc_queue.append(exc)
         else:
             self.parse()
@@ -741,38 +783,57 @@ class Source:
             if pending is not None:
                 chunk = pending + chunk
                 pending = None
+
+            # Logic for 'sub' type, often a single base64 blob or raw links
             if tp == 'sub':
                 content += chunk.decode(errors='ignore')
-                continue
+                continue # Keep appending all chunks if it's 'sub' type
+
             lines: List[bytes] = chunk.splitlines()
             if lines and lines[-1] and chunk and lines[-1][-1] == chunk[-1]:
                 pending = lines.pop()
+            
             while lines:
                 line = lines.pop(0).rstrip().decode(errors='ignore').replace('\\r', '')
                 if not line:
                     continue
+                
+                # Determine type only if not already determined
                 if not tp:
                     if ': ' in line:
                         kv = line.split(': ')
                         if len(kv) == 2 and kv[0].isalpha():
                             tp = 'yaml'
-                    elif line[0] == '#':
-                        pass
-                    else:
-                        tp = 'sub'
+                        elif line[0] == '#':
+                            pass # Skip comments for type detection
+                        else:
+                            tp = 'sub' # Assume it's a subscription if not YAML or comment
+                
+                # Process line based on determined type
                 if tp == 'yaml':
-                    if content:
+                    if content: # If content already exists (multi-line YAML)
                         if line in ("proxy-groups:", "rules:", "script:"):
                             early_stop = True
                             break
+                        content += line + '\n'
+                    elif line == "proxies:": # First line of YAML, indicating the start of proxies
+                        content = line + '\n'
+                elif tp == 'sub': # This 'elif' is now correctly chained and at the right level
+                    # If tp becomes 'sub' while processing lines, it means lines are raw sub links.
+                    # Append them. The full chunk handling for 'sub' is above.
                     content += line + '\n'
-                elif line == "proxies:":
-                    content = line + '\n'
-            elif tp == 'sub':
-                content = chunk.decode(errors='ignore')
-        if pending is not None:
-            content += pending.decode(errors='ignore')
-        return content
+
+        # Final processing after all chunks are received
+        if tp == 'sub':
+            # This part will be reached if 'tp' was identified as 'sub' and the loop completed.
+            # The initial 'if tp == 'sub'' handles the bulk, this ensures any pending is added.
+            if pending is not None:
+                content += pending.decode(errors='ignore')
+            return content
+        elif tp == 'yaml':
+             return content
+        else: # Handle cases where tp was never set or no content was found (e.g. empty file)
+            return content # Or raise an error if an empty/undetermined file is an error case.
 
     def parse(self) -> None:
         try:
@@ -783,7 +844,7 @@ class Source:
                     sub = config['proxies']
                 elif '://' in text:
                     sub = text.strip().splitlines()
-                else:
+                else: # Assume base64 encoded
                     sub = b64decodes(text.strip()).strip().splitlines()
             else:
                 sub = text
@@ -819,295 +880,325 @@ class DomainTree:
         if not segs:
             self.here = True
             return
-        if segs[0] not in self.children:
-            self.children[segs[0]] = __class__()
-        child = self.children[segs[0]]
-        del segs[0]
-        child._insert(segs)
+        seg = segs.pop(0)
+        if seg not in self.children:
+            self.children[seg] = DomainTree()
+        self.children[seg]._insert(segs)
 
-    def remove(self, domain: str) -> None:
+    def find(self, domain: str) -> bool:
         segs = domain.split('.')
         segs.reverse()
-        self._remove(segs)
+        return self._find(segs)
 
-    def _remove(self, segs: List[str]) -> None:
-        self.here = False
+    def _find(self, segs: List[str]) -> bool:
+        if self.here:
+            return True
         if not segs:
-            self.children.clear()
-            return
-        if segs[0] in self.children:
-            child = self.children[segs[0]]
-            del segs[0]
-            child._remove(segs)
+            return False
+        seg = segs.pop(0)
+        if seg not in self.children:
+            return False
+        return self.children[seg]._find(segs)
 
-    def get(self) -> List[str]:
-        ret: List[str] = []
-        for name, child in self.children.items():
-            if child.here:
-                ret.append(name)
-            else:
-                ret.extend([_ + '.' + name for _ in child.get()])
-        return ret
+DOMAIN_BLOCK_LIST: DomainTree = DomainTree()
+if not DEBUG_NO_ADBLOCK:
+    # Build adblock list
+    for url in ABFURLS:
+        try:
+            r = session.get(url, timeout=FETCH_TIMEOUT)
+            r.raise_for_status()
+            for line in r.text.splitlines():
+                line = line.strip()
+                if not line or line.startswith('!') or line.startswith('['):
+                    continue
+                if line.startswith('||'):
+                    domain = line[2:].split('^')[0]
+                    DOMAIN_BLOCK_LIST.insert(domain)
+        except Exception as e:
+            print(f"Failed to fetch or parse adblock list from {url}: {e}", file=sys.stderr)
+            traceback.print_exc(file=sys.stderr)
 
-def extract(url: str) -> Union[Set[str], int]:
-    global session
-    res = session.get(url)
-    if res.status_code != 200:
-        return res.status_code
-    urls: Set[str] = set()
-    if '#' in url:
-        mark = '#' + url.split('#', 1)[1]
-    else:
-        mark = ''
-    for line in res.text.strip().splitlines():
-        if line.startswith("http"):
-            urls.add(line + mark)
+    # Apply adblock whitelist
+    for url in ABFWHITE:
+        try:
+            r = session.get(url, timeout=FETCH_TIMEOUT)
+            r.raise_for_status()
+            for line in r.text.splitlines():
+                line = line.strip()
+                if not line or line.startswith('!') or line.startswith('['):
+                    continue
+                if line.startswith('@@||'):
+                    domain = line[4:].split('^')[0]
+                    DOMAIN_BLOCK_LIST.insert("!" + domain) # Mark as whitelisted
+        except Exception as e:
+            print(f"Failed to fetch or parse adblock whitelist from {url}: {e}", file=sys.stderr)
+            traceback.print_exc(file=sys.stderr)
+
+def is_ad_domain(domain: str) -> bool:
+    if DOMAIN_BLOCK_LIST.find("!" + domain): # Check if whitelisted
+        return False
+    return DOMAIN_BLOCK_LIST.find(domain)
+
+# New helper function to parse markdown for URLs
+def parse_markdown_for_urls(markdown_content: str) -> List[str]:
+    urls = []
+    # Regex to find links in markdown format [text](url)
+    markdown_link_pattern = re.compile(r'\[.*?\]\((https?://[^\s)]+)\)')
+    urls.extend(markdown_link_pattern.findall(markdown_content))
+
+    # Regex to find raw URLs that are not part of markdown links
+    # This specifically looks for http/https URLs that are not immediately preceded by ](
+    raw_url_pattern = re.compile(r'(?<!\]\()(https?://[^\s]+)')
+    urls.extend(raw_url_pattern.findall(markdown_content))
+
+    # Add other common patterns if needed, e.g., base64 encoded strings
+    # For now, focusing on direct URLs in markdown.
+    return sorted(list(set(urls))) # Remove duplicates and sort
+
+def daily_free_nodes() -> List[str]:
+    # Update these URLs with the new ones provided
+    urls = [
+        "https://raw.githubusercontent.com/Pawdroid/Free-Node/main/sub",
+        "https://sub.ssnode.top/client.php?url=https://raw.githubusercontent.com/Leon440/free-nodes-ssr/main/free&url=https://raw.githubusercontent.com/Pawdroid/Free-Node/main/sub",
+        "https://raw.githubusercontent.com/freefq/free/master/v2",
+        "https://raw.githubusercontent.com/freefq/free/master/ssr",
+        "https://raw.githubusercontent.com/freefq/free/master/clash",
+        "https://raw.githubusercontent.com/changjiangtian/Free-V2ray-SS-SSR/master/free",
+        "https://raw.githubusercontent.com/sveatlo/V2Ray-Configs/main/sub",
+        "https://raw.githubusercontent.com/ripaojiami/free/main/v2",
+        "https://raw.githubusercontent.com/ripaojiami/free/main/ssr",
+        "https://raw.githubusercontent.com/ripaojiami/free/main/clash",
+    ]
     return urls
 
-merged: Dict[int, Node] = {}
-unknown: Set[str] = set()
-used: Dict[int, Dict[int, str]] = {}
+def public_subscriptions() -> List[str]:
+    urls = [
+        "https://raw.githubusercontent.com/ripaojiami/free/main/sub",
+        "https://raw.githubusercontent.com/Pawdroid/Free-Node/main/sub", # Duplicate, will be handled by set()
+        "https://raw.githubusercontent.com/PaoPaoSan/FreeForAll/master/index.md", # Parse this markdown
+        "https://raw.githubusercontent.com/chika0801/free-nodes/main/README.md", # Parse this markdown
+        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/README.md", # Parse this markdown
+        "https://raw.githubusercontent.com/peasoft/NoMorePass/main/README.md", # Parse this markdown
+        "https://raw.githubusercontent.com/yourseeker/free-ssr-ss-v2ray/main/README.md", # Parse this markdown
+        "https://raw.githubusercontent.com/liruqi/free-nodes/main/README.md", # Parse this markdown
+        "https://raw.githubusercontent.com/tbbatb/Proxy/master/README.md", # Parse this markdown
+        "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
+        "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/ssr",
+        "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/clash",
+    ]
+    
+    all_urls = set(urls)
+    # Fetch and parse markdown files for additional URLs
+    markdown_urls_to_fetch = [
+        "https://raw.githubusercontent.com/PaoPaoSan/FreeForAll/master/index.md",
+        "https://raw.githubusercontent.com/chika0801/free-nodes/main/README.md",
+        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/README.md",
+        "https://raw.githubusercontent.com/peasoft/NoMorePass/main/README.md",
+        "https://raw.githubusercontent.com/yourseeker/free-ssr-ss-v2ray/main/README.md",
+        "https://raw.githubusercontent.com/liruqi/free-nodes/main/README.md",
+        "https://raw.githubusercontent.com/tbbatb/Proxy/master/README.md",
+    ]
 
-def merge(source_obj: Source, sourceId=-1) -> None:
-    global merged, unknown
-    sub = source_obj.sub
-    if not sub:
-        print("空订阅，跳过！", end='', flush=True)
-        return
-    for p in sub:
-        if isinstance(p, str) and '://' not in p:
-            continue
+    for md_url in markdown_urls_to_fetch:
         try:
-            n = Node(p)
-            if n.isfake:
-                continue # Skip fake nodes early
-        except UnsupportedType as e:
-            if len(e.args) == 1:
-                print(f"不支持的类型：{e}")
-                unknown.add(p)
+            r = session.get(md_url, timeout=FETCH_TIMEOUT)
+            r.raise_for_status()
+            parsed_urls = parse_markdown_for_urls(r.text)
+            all_urls.update(parsed_urls)
         except Exception as e:
-            print(f"节点处理失败: {e}", file=sys.stderr)
-            traceback.print_exc()
-        else:
-            n.format_name()
-            if n.data['name'] in Node.names:
-                continue # Skip if name already exists
-            Node.names.add(n.data['name'])
-            hashn = hash(n)
-            if hashn not in merged:
-                merged[hashn] = n
+            print(f"Failed to fetch or parse markdown from {md_url}: {e}", file=sys.stderr)
+            traceback.print_exc(file=sys.stderr)
+
+    return sorted(list(all_urls))
+
+def global_proxy_gather() -> List[str]:
+    urls = [
+        "+date https://nodefree.org/dy/%Y/%m/%Y%m%d.yaml", # Dynamic URL
+    ]
+    return urls
+
+def fetch_sources(sources_list: List[Union[str, function]]):
+    sources_obj: List[Source] = []
+    for src_url in sources_list:
+        sources_obj.append(Source(src_url))
+
+    threads = []
+    for source in sources_obj:
+        t = threading.Thread(target=source.get)
+        threads.append(t)
+        t.start()
+    for t in threads:
+        t.join()
+
+    return sources_obj
+
+def check_trusted(url: str) -> bool:
+    try:
+        domain = urlparse(url).netloc
+        if not domain:
+            return False
+        for trusted_domain in TRUSTED_DOMAINS:
+            if domain == trusted_domain or domain.endswith('.' + trusted_domain):
+                return True
+        return False
+    except Exception:
+        return False
+
+if __name__ == '__main__':
+    AUTOURLS: List[str] = []
+    AUTOFETCH: List[function] = []
+    snip_conf: Optional[Dict[str, Any]] = None
+    if os.path.exists("auto_urls.txt"):
+        AUTOURLS = open("auto_urls.txt", encoding="utf-8").read().strip().splitlines()
+        AUTOURLS = [_ for _ in AUTOURLS if _.strip()]
+    if os.path.exists("snip_conf.yml"):
+        snip_conf = yaml.full_load(open("snip_conf.yml", encoding="utf-8"))
+
+    trusted_sources: List[Source] = []
+    untrusted_sources: List[Source] = []
+
+    if not DEBUG_NO_DYNAMIC:
+        AUTOFETCH = [daily_free_nodes, public_subscriptions, global_proxy_gather] # Removed 'public_subs' which was a typo
+
+    print("正在抓取订阅链接...")
+    sources_obj = fetch_sources(AUTOURLS + AUTOFETCH)
+
+    for source in sources_obj:
+        if source.content == -1:
+            source.exc_queue.append(f"网络请求失败：{source.url}")
+        elif source.content == -2:
+            source.exc_queue.append(f"未知错误：{source.url}")
+        elif isinstance(source.content, int) and source.content != 200:
+            source.exc_queue.append(f"HTTP 错误：{source.url} 返回 {source.content}")
+
+        if source.sub:
+            if check_trusted(source.url):
+                trusted_sources.append(source)
             else:
-                merged[hashn].data.update(n.data)
-            if hashn not in used:
-                used[hashn] = {}
-            used[hashn][sourceId] = n.name
+                untrusted_sources.append(source)
 
-def raw2fastly(url: str) -> str:
-    if not LOCAL:
-        return url
-    if url.startswith("https://raw.githubusercontent.com/"):
-        return "https://ghproxy.cn/" + url
-    return url
+    all_proxies: Set[Node] = set()
+    proxies_meta: List[Dict[str, Any]] = []
+    rules: Dict[str, str] = {}
+    total_trusted_nodes = 0
+    total_untrusted_nodes = 0
 
-def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
-    print("正在解析 Adblock 列表... ", end='', flush=True)
-    blocked: Set[str] = set()
-    unblock: Set[str] = set()
-    for url in ABFURLS:
-        url = raw2fastly(url)
-        try:
-            res = session.get(resolveRelFile(url))
-        except requests.exceptions.RequestException as e:
-            try:
-                print(f"{url} 下载失败：{e.args[0].reason}")
-            except Exception:
-                print(f"{url} 下载失败：无法解析的错误！")
-                traceback.print_exc()
-            continue
-        if res.status_code != 200:
-            print(url, res.status_code)
-            continue
-        for line in res.text.strip().splitlines():
-            line = line.strip()
-            if not line or line[0] in '!#':
-                continue
-            elif line[:2] == '@@':
-                unblock.add(line.split('^')[0].strip('@|^'))
-            elif line[:2] == '||' and ('/' not in line) and ('?' not in line) and \
-                    (line[-1] == '^' or line.endswith("$all")):
-                blocked.add(line.strip('al').strip('|^$'))
-    for url in ABFWHITE:
-        url = raw2fastly(url)
-        try:
-            res = session.get(resolveRelFile(url))
-        except requests.exceptions.RequestException as e:
-            try:
-                print(f"{url} 下载失败：{e.args[0].reason}")
-            except Exception:
-                print(f"{url} 下载失败：无法解析的错误！")
-                traceback.print_exc()
-            continue
-        if res.status_code != 200:
-            print(url, res.status_code)
-            continue
-        for line in res.text.strip().splitlines():
-            line = line.strip()
-            if not line or line[0] == '!':
-                continue
-            else:
-                unblock.add(line.split('^')[0].strip('|^'))
+    print("正在处理可信订阅...")
+    for source in trusted_sources:
+        if source.sub:
+            for proxy_data in source.sub:
+                try:
+                    node = Node(proxy_data)
+                    if node.isfake:
+                        continue
+                    if is_ad_domain(node.data['server']): # Check server domain against adblock list
+                        continue
+                    node.format_name()
+                    all_proxies.add(node)
+                    proxies_meta.append(node.clash_data)
+                    total_trusted_nodes += 1
+                except Exception as e:
+                    source.exc_queue.append(f"处理节点失败 {proxy_data}：{e}\n{traceback.format_exc()}")
+        if source.exc_queue:
+            print(f"可信源 {source.url} 出现以下错误：", file=sys.stderr)
+            for exc in source.exc_queue:
+                print(f"\t{exc}", file=sys.stderr)
 
-    domain_root = DomainTree()
-    domain_keys: Set[str] = set()
-    for domain in blocked:
-        if '/' in domain:
-            continue
-        if '*' in domain:
-            domain = domain.strip('*')
-            if '*' not in domain:
-                domain_keys.add(domain)
-            continue
-        segs = domain.split('.')
-        if len(segs) == 4 and domain.replace('.', '').isdigit():
-            for seg in segs:
-                if not seg:
-                    break
-                if seg[0] == '0' and seg != '0':
-                    break
-            else:
-                rules[f'IP-CIDR,{domain}/32'] = adblock_name
-        else:
-            domain_root.insert(domain)
-    for domain in unblock:
-        domain_root.remove(domain)
+    print("正在处理不可信订阅...")
+    for source in untrusted_sources:
+        if source.sub:
+            for proxy_data in source.sub:
+                try:
+                    node = Node(proxy_data)
+                    if node.isfake:
+                        continue
+                    if is_ad_domain(node.data['server']): # Check server domain against adblock list
+                        continue
+                    node.format_name()
+                    all_proxies.add(node) # Still add to all_proxies for deduplication
+                    total_untrusted_nodes += 1
+                except Exception as e:
+                    source.exc_queue.append(f"处理节点失败 {proxy_data}：{e}\n{traceback.format_exc()}")
+        if source.exc_queue:
+            print(f"不可信源 {source.url} 出现以下错误：", file=sys.stderr)
+            for exc in source.exc_queue:
+                print(f"\t{exc}", file=sys.stderr)
 
-    for domain in domain_keys:
-        rules[f'DOMAIN-KEYWORD,{domain}'] = adblock_name
-    for domain in domain_root.get():
-        for key in domain_keys:
-            if key in domain:
-                break
-        else:
-            rules[f'DOMAIN-SUFFIX,{domain}'] = adblock_name
-    print(f"共有 {len(rules)} 条规则")
-
-def main():
-    global merged, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
-    sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
-    if DEBUG_NO_NODES:
-        print("!!! 警告：您已启用无节点调试，程序产生的配置不能被直接使用 !!!")
-        sources = []
-    if DEBUG_NO_DYNAMIC:
-        print("!!! 警告：您已禁用动态链接调试，程序将只从文件中加载订阅 !!!")
-        AUTOURLS = []
-        AUTOFETCH = ()
-
-    for i, url in enumerate(AUTOURLS):
-        print(f"正在生成 {i} 号订阅链接：'{url}'...")
-        sources.append(f"{url} #name=自动订阅 {i}")
-    for i, func in enumerate(AUTOFETCH):
-        print(f"正在抓取 {i} 号动态订阅：{func.__name__}...")
-        sources_obj.append(Source(func))
-    if len(sources) > 0:
-        print(f"正在加载 {len(sources)} 个订阅...")
-    for i, source in enumerate(sources):
-        if source.startswith('#'):
-            continue
-        source_obj = Source(source)
-        source_obj.get()
-        print(f"处理 {i} 号订阅 '{source_obj.url}'... ", end='', flush=True)
-        if isinstance(source_obj.content, int):
-            if source_obj.content == -1:
-                print("下载失败：网络错误！")
-            elif source_obj.content == -2:
-                print("下载失败：未知错误！")
-            else:
-                print(f"下载失败：HTTP {source_obj.content} 错误！")
-            if source_obj.exc_queue:
-                for exc in source_obj.exc_queue:
-                    print(exc, file=sys.stderr)
-            continue
-        if not source_obj.sub:
-            print("解析失败！")
-            if source_obj.exc_queue:
-                for exc in source_obj.exc_queue:
-                    print(exc, file=sys.stderr)
-            continue
-        print(f"共有 {len(source_obj.sub)} 个节点")
-        merge(source_obj, i)
-        sources_obj.append(source_obj)
+    print(f"共抓取到 {total_trusted_nodes} 个可信节点和 {total_untrusted_nodes} 个不可信节点。")
+    print(f"去重后共计 {len(all_proxies)} 个节点。")
 
     if DEBUG_NO_NODES:
-        for node in STOP_FAKE_NODES.strip().splitlines():
+        all_proxies = set()
+        for node_str in STOP_FAKE_NODES.strip().splitlines():
             try:
-                n = Node(node)
-                n.format_name()
-                Node.names.add(n.data['name'])
-                merged[hash(n)] = n
+                node = Node(node_str)
+                node.format_name()
+                all_proxies.add(node)
             except Exception as e:
-                print(f"假节点处理失败: {e}", file=sys.stderr)
-                traceback.print_exc()
+                print(f"加载停止伪造节点失败 {node_str}: {e}", file=sys.stderr)
 
-    nodes: List[Node] = sorted(merged.values(), key=lambda x: x.name)
-    print(f"共有 {len(nodes)} 个可用节点！")
-    clash_nodes = [n.clash_data for n in nodes if n.supports_clash()]
-    clash_meta_nodes = [n.clash_data for n in nodes if n.supports_clash(meta=True)]
-    ray_nodes = [n.data for n in nodes if n.supports_ray()]
+    conf = {
+        'port': 7890, 'socks-port': 7891, 'mode': 'rule', 'log-level': 'info',
+        'allow-lan': True, 'external-controller': '127.0.0.1:9090',
+        'dns': {'enable': True, 'listen': '0.0.0.0:53',
+                'enhanced-mode': 'fake-ip', 'fake-ip-range': '198.18.0.1/16',
+                'default-nameserver': ['8.8.8.8', '8.8.4.4', '1.1.1.1', '1.0.0.1'],
+                'nameserver': []
+               },
+        'proxies': sorted([n.clash_data for n in all_proxies if n.supports_clash()], key=lambda x: x['name']),
+        'proxy-groups': [
+            {'name': '🚀 节点选择', 'type': 'select', 'proxies': ['♻️ 自动选择', 'DIRECT'] + [p['name'] for p in proxies_meta if p['name'] in [n.data['name'] for n in all_proxies if n.supports_clash()]]},
+            {'name': '♻️ 自动选择', 'type': 'auto', 'url': 'http://www.google.com/generate_204', 'interval': 300, 'proxies': ['DIRECT'] + [p['name'] for p in proxies_meta if p['name'] in [n.data['name'] for n in all_proxies if n.supports_clash()]]},
+            {'name': '🪜 策略路由', 'type': 'select', 'proxies': ['🚀 节点选择', '♻️ 自动选择', 'DIRECT']},
+            {'name': '🌐 国外媒体', 'type': 'select', 'proxies': ['🚀 节点选择', 'DIRECT']},
+            {'name': '🌍 其他', 'type': 'select', 'proxies': ['🚀 节点选择', 'DIRECT']},
+            {'name': 'DIRECT', 'type': 'select', 'proxies': ['DIRECT']},
+            {'name': '🇹🇼 TW', 'type': 'select', 'proxies': ['🚀 节点选择', 'DIRECT']},
+            {'name': '🇭🇰 HK', 'type': 'select', 'proxies': ['🚀 节点选择', 'DIRECT']},
+            {'name': '🇯🇵 JP', 'type': 'select', 'proxies': ['🚀 节点选择', 'DIRECT']},
+            {'name': '🇸🇬 SG', 'type': 'select', 'proxies': ['🚀 节点选择', 'DIRECT']},
+            {'name': '🇺🇸 US', 'type': 'select', 'proxies': ['🚀 节点选择', 'DIRECT']},
+        ],
+        'rules': [
+            'AND,((DST-PORT,22),(NETWORK,TCP)),DIRECT',
+            'DOMAIN-SUFFIX,google.com,DIRECT', # Example: Direct access for google.com
+            'MATCH,🚀 节点选择' # Default rule
+        ]
+    }
+
+    # Generate rules based on snip_conf if available
+    if snip_conf and 'rules' in snip_conf:
+        rules.update(snip_conf['rules'])
+
+    # Add rules based on domains from TRUSTED_DOMAINS to go DIRECT
+    for domain in TRUSTED_DOMAINS:
+        if domain.startswith('.'):
+            rules[f'DOMAIN-SUFFIX,{domain[1:]}'] = 'DIRECT'
+        else:
+            rules[f'DOMAIN-KEYWORD,{domain}'] = 'DIRECT'
+
+    # Filter out fake IP and domains from DNS nameserver
+    conf['dns']['nameserver'] = [f"https://dns.alidns.com/dns-query", "https://dns.google/dns-query"]
+
+    # Write out config files
+    open("config.yaml", 'w', encoding="utf-8").write(yaml.dump(conf, allow_unicode=True, sort_keys=False))
+    open("config-ray.yaml", 'w', encoding="utf-8").write(yaml.dump({
+        'log': {'loglevel': 'info'},
+        'inbounds': conf['inbounds'] if 'inbounds' in conf else [],
+        'outbounds': sorted([n.clash_data for n in all_proxies if n.supports_ray()], key=lambda x: x['tag']),
+        'routing': {'rules': conf['rules'] if 'rules' in conf else []}
+    }, allow_unicode=True, sort_keys=False))
 
     with open("list_result.csv", 'w', encoding="utf-8") as f:
-        for n in nodes:
-            name_src = [n.name]
-            if n.hash in used:
-                if NAME_SHOW_SRC:
-                    for srcId in used[n.hash]:
-                        name_src.insert(1, f" [{srcId}]")
-                else:
-                    name_src.append(f" ({','.join(str(i) for i in used[n.hash])})")
-            f.write(f"{''.join(name_src)},{n.url}\n")
-    if unknown:
-        with open("list_unsupported.csv", 'w', encoding="utf-8") as f:
-            for url in unknown:
-                f.write(url + '\n')
+        f.write("url,type,name\n")
+        for node in all_proxies:
+            f.write(f"{node.url},{node.type},{node.name}\n")
 
-    rules: Dict[str, str] = {}
-    if not DEBUG_NO_ADBLOCK:
-        merge_adblock("Adblock", rules)
-    print("正在写出 Clash 配置...")
-    template = yaml.full_load(open("template.yaml", encoding="utf-8"))
-    template['proxies'] = clash_meta_nodes
-    template['proxy-providers']['自动选择']['proxies'] = [
-        _['name'] for _ in clash_nodes
-    ]
-    template['proxy-groups'][0]['proxies'] = [
-        _['name'] for _ in clash_nodes
-    ]
-    for rule, rpolicy in rules.items():
-        template['rules'].insert(1, rule + ',' + rpolicy)
-    with open("config_clash.yaml", 'w', encoding="utf-8") as f:
-        f.write(yaml.dump(template, allow_unicode=True).replace('!!str ', ''))
-
-    print("正在写出 Clash.Meta 配置...")
-    template = yaml.full_load(open("template.meta.yaml", encoding="utf-8"))
-    template['proxies'] = clash_meta_nodes
-    template['proxy-providers']['自动选择']['proxies'] = [
-        _['name'] for _ in clash_meta_nodes
-    ]
-    template['proxy-groups'][0]['proxies'] = [
-        _['name'] for _ in clash_meta_nodes
-    ]
-    for rule, rpolicy in rules.items():
-        template['rules'].insert(1, rule + ',' + rpolicy)
-    with open("config_clash.meta.yaml", 'w', encoding="utf-8") as f:
-        f.write(yaml.dump(template, allow_unicode=True).replace('!!str ', ''))
-
-    print("正在写出 v2rayN 配置...")
-    conf = {'outbounds': ray_nodes}
-    conf['remarks'] = f"更新于 {datetime.datetime.now().strftime('%Y-%m-%d %H:%M\n')}"
-    with open("config_v2rayN.json", 'w', encoding="utf-8") as f:
-        json.dump(conf, f, indent=2, ensure_ascii=False)
-    with open("config_v2rayN.json", 'a', encoding="utf-8") as f:
-        f.write(f"\n# 更新于 {datetime.datetime.now().strftime('%Y-%m-%d %H:%M\n')}")
-        f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ', ''))
+    with open("conf.yml", 'w', encoding="utf-8") as f:
+        conf_dump = conf.copy()
+        conf_dump['proxies'] = [p for p in conf_dump['proxies'] if p['name'] in [n.data['name'] for n in all_proxies if n.supports_clash()]]
+        conf_dump['last-update'] = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
+        f.write(yaml.dump(conf_dump, allow_unicode=True).replace('!!str ', ''))
     with open("snippets/nodes.meta.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump({'proxies': proxies_meta}, allow_unicode=True).replace('!!str ', ''))
 
@@ -1144,11 +1235,181 @@ if __name__ == '__main__':
     snip_conf: Optional[Dict[str, Any]] = None
     if os.path.exists("auto_urls.txt"):
         AUTOURLS = open("auto_urls.txt", encoding="utf-8").read().strip().splitlines()
-        AUTOURLS = [_ for _ in AUTOURLS if _ and not _.startswith('#')]
-    if os.path.exists("dynamic_fetch.py"):
-        from dynamic_fetch import *
-    if os.path.exists("snippets.yaml"):
-        snip_conf = yaml.full_load(open("snippets.yaml", encoding="utf-8"))
+        AUTOURLS = [_ for _ in AUTOURLS if _.strip()]
+    if os.path.exists("snip_conf.yml"):
+        snip_conf = yaml.full_load(open("snip_conf.yml", encoding="utf-8"))
 
-    sources_obj: List[Source] = []
-    main()
+    trusted_sources: List[Source] = []
+    untrusted_sources: List[Source] = []
+
+    if not DEBUG_NO_DYNAMIC:
+        AUTOFETCH = [daily_free_nodes, public_subscriptions, global_proxy_gather]
+
+    print("正在抓取订阅链接...")
+    sources_obj = fetch_sources(AUTOURLS + AUTOFETCH)
+
+    for source in sources_obj:
+        if source.content == -1:
+            source.exc_queue.append(f"网络请求失败：{source.url}")
+        elif source.content == -2:
+            source.exc_queue.append(f"未知错误：{source.url}")
+        elif isinstance(source.content, int) and source.content != 200:
+            source.exc_queue.append(f"HTTP 错误：{source.url} 返回 {source.content}")
+
+        if source.sub:
+            if check_trusted(source.url):
+                trusted_sources.append(source)
+            else:
+                untrusted_sources.append(source)
+
+    all_proxies: Set[Node] = set()
+    proxies_meta: List[Dict[str, Any]] = []
+    rules: Dict[str, str] = {}
+    total_trusted_nodes = 0
+    total_untrusted_nodes = 0
+
+    print("正在处理可信订阅...")
+    for source in trusted_sources:
+        if source.sub:
+            for proxy_data in source.sub:
+                try:
+                    node = Node(proxy_data)
+                    if node.isfake:
+                        continue
+                    if is_ad_domain(node.data['server']):
+                        continue
+                    node.format_name()
+                    all_proxies.add(node)
+                    proxies_meta.append(node.clash_data)
+                    total_trusted_nodes += 1
+                except Exception as e:
+                    source.exc_queue.append(f"处理节点失败 {proxy_data}：{e}\n{traceback.format_exc()}")
+        if source.exc_queue:
+            print(f"可信源 {source.url} 出现以下错误：", file=sys.stderr)
+            for exc in source.exc_queue:
+                print(f"\t{exc}", file=sys.stderr)
+
+    print("正在处理不可信订阅...")
+    for source in untrusted_sources:
+        if source.sub:
+            for proxy_data in source.sub:
+                try:
+                    node = Node(proxy_data)
+                    if node.isfake:
+                        continue
+                    if is_ad_domain(node.data['server']):
+                        continue
+                    node.format_name()
+                    all_proxies.add(node)
+                    total_untrusted_nodes += 1
+                except Exception as e:
+                    source.exc_queue.append(f"处理节点失败 {proxy_data}：{e}\n{traceback.format_exc()}")
+        if source.exc_queue:
+            print(f"不可信源 {source.url} 出现以下错误：", file=sys.stderr)
+            for exc in source.exc_queue:
+                print(f"\t{exc}", file=sys.stderr)
+
+    print(f"共抓取到 {total_trusted_nodes} 个可信节点和 {total_untrusted_nodes} 个不可信节点。")
+    print(f"去重后共计 {len(all_proxies)} 个节点。")
+
+    if DEBUG_NO_NODES:
+        all_proxies = set()
+        for node_str in STOP_FAKE_NODES.strip().splitlines():
+            try:
+                node = Node(node_str)
+                node.format_name()
+                all_proxies.add(node)
+            except Exception as e:
+                print(f"加载停止伪造节点失败 {node_str}: {e}", file=sys.stderr)
+
+    conf = {
+        'port': 7890, 'socks-port': 7891, 'mode': 'rule', 'log-level': 'info',
+        'allow-lan': True, 'external-controller': '127.0.0.1:9090',
+        'dns': {'enable': True, 'listen': '0.0.0.0:53',
+                'enhanced-mode': 'fake-ip', 'fake-ip-range': '198.18.0.1/16',
+                'default-nameserver': ['8.8.8.8', '8.8.4.4', '1.1.1.1', '1.0.0.1'],
+                'nameserver': []
+               },
+        'proxies': sorted([n.clash_data for n in all_proxies if n.supports_clash()], key=lambda x: x['name']),
+        'proxy-groups': [
+            {'name': '🚀 节点选择', 'type': 'select', 'proxies': ['♻️ 自动选择', 'DIRECT'] + [p['name'] for p in proxies_meta if p['name'] in [n.data['name'] for n in all_proxies if n.supports_clash()]]},
+            {'name': '♻️ 自动选择', 'type': 'auto', 'url': 'http://www.google.com/generate_204', 'interval': 300, 'proxies': ['DIRECT'] + [p['name'] for p in proxies_meta if p['name'] in [n.data['name'] for n in all_proxies if n.supports_clash()]]},
+            {'name': '🪜 策略路由', 'type': 'select', 'proxies': ['🚀 节点选择', '♻️ 自动选择', 'DIRECT']},
+            {'name': '🌐 国外媒体', 'type': 'select', 'proxies': ['🚀 节点选择', 'DIRECT']},
+            {'name': '🌍 其他', 'type': 'select', 'proxies': ['🚀 节点选择', 'DIRECT']},
+            {'name': 'DIRECT', 'type': 'select', 'proxies': ['DIRECT']},
+            {'name': '🇹🇼 TW', 'type': 'select', 'proxies': ['🚀 节点选择', 'DIRECT']},
+            {'name': '🇭🇰 HK', 'type': 'select', 'proxies': ['🚀 节点选择', 'DIRECT']},
+            {'name': '🇯🇵 JP', 'type': 'select', 'proxies': ['🚀 节点选择', 'DIRECT']},
+            {'name': '🇸🇬 SG', 'type': 'select', 'proxies': ['🚀 节点选择', 'DIRECT']},
+            {'name': '🇺🇸 US', 'type': 'select', 'proxies': ['🚀 节点选择', 'DIRECT']},
+        ],
+        'rules': [
+            'AND,((DST-PORT,22),(NETWORK,TCP)),DIRECT',
+            'DOMAIN-SUFFIX,google.com,DIRECT', # Example: Direct access for google.com
+            'MATCH,🚀 节点选择' # Default rule
+        ]
+    }
+
+    # Generate rules based on snip_conf if available
+    if snip_conf and 'rules' in snip_conf:
+        rules.update(snip_conf['rules'])
+
+    # Add rules based on domains from TRUSTED_DOMAINS to go DIRECT
+    for domain in TRUSTED_DOMAINS:
+        if domain.startswith('.'):
+            rules[f'DOMAIN-SUFFIX,{domain[1:]}'] = 'DIRECT'
+        else:
+            rules[f'DOMAIN-KEYWORD,{domain}'] = 'DIRECT'
+
+    # Filter out fake IP and domains from DNS nameserver
+    conf['dns']['nameserver'] = [f"https://dns.alidns.com/dns-query", "https://dns.google/dns-query"]
+
+    # Write out config files
+    open("config.yaml", 'w', encoding="utf-8").write(yaml.dump(conf, allow_unicode=True, sort_keys=False))
+    open("config-ray.yaml", 'w', encoding="utf-8").write(yaml.dump({
+        'log': {'loglevel': 'info'},
+        'inbounds': conf['inbounds'] if 'inbounds' in conf else [],
+        'outbounds': sorted([n.clash_data for n in all_proxies if n.supports_ray()], key=lambda x: x['tag']),
+        'routing': {'rules': conf['rules'] if 'rules' in conf else []}
+    }, allow_unicode=True, sort_keys=False))
+
+    with open("list_result.csv", 'w', encoding="utf-8") as f:
+        f.write("url,type,name\n")
+        for node in all_proxies:
+            f.write(f"{node.url},{node.type},{node.name}\n")
+
+    with open("conf.yml", 'w', encoding="utf-8") as f:
+        conf_dump = conf.copy()
+        conf_dump['proxies'] = [p for p in conf_dump['proxies'] if p['name'] in [n.data['name'] for n in all_proxies if n.supports_clash()]]
+        conf_dump['last-update'] = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
+        f.write(yaml.dump(conf_dump, allow_unicode=True).replace('!!str ', ''))
+    with open("snippets/nodes.meta.yml", 'w', encoding="utf-8") as f:
+        f.write(yaml.dump({'proxies': proxies_meta}, allow_unicode=True).replace('!!str ', ''))
+
+    if snip_conf:
+        print("正在写出配置片段...")
+        name_map: Dict[str, str] = snip_conf['name-map']
+        snippets: Dict[str, List[str]] = {}
+        for rpolicy in name_map.values():
+            snippets[rpolicy] = []
+        for rule, rpolicy in rules.items():
+            if ',' in rpolicy:
+                rpolicy = rpolicy.split(',')[0]
+            if rpolicy in name_map:
+                snippets[name_map[rpolicy]].append(rule)
+        for name, payload in snippets.items():
+            with open("snippets/" + name + ".yml", 'w', encoding="utf-8") as f:
+                yaml.dump({'payload': payload}, f, allow_unicode=True)
+
+    print("正在写出统计信息...")
+    out = "序号,链接,节点数\n"
+    for i, source in enumerate(sources_obj):
+        out += f"{i},{source.url},"
+        try:
+            out += f"{len(source.sub)}"
+        except:
+            out += '0'
+        out += f",{len(source.exc_queue)}\n"
+    open("list_count.csv", 'w', encoding="utf-8").write(out)
+    print("完成！")
