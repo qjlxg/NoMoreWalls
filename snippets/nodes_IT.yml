@@ -1,7 +1,1 @@
-proxies:
-- name: Italy
-  network: tcp
-  password: 9e4fa728-3d7d-4371-8053-f175c019ef2c
-  port: 443
-  server: yangleduo.cf
-  type: trojan
+proxies: []
