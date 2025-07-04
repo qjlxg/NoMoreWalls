@@ -83,51 +83,6 @@ proxies:
   port: 27235
   server: f4bbb283-sytz40-t01cuj-1itli.cm5.cnkuaishou.com
   type: trojan
-- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 🇫🇷 法国IPV6-09
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 40149
-  server: fr09.sulian.life
-  skip-cert-verify: true
-  sni: fr09.sulian.life
-  type: hysteria2
-  udp: true
-- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 🇫🇷 法国IPV6-10
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 41148
-  server: fr10.sulink.one
-  skip-cert-verify: true
-  sni: fr10.sulink.one
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国1
-  port: 45072
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 CM 隧道 法国 NO1
-  port: 52108
-  server: sh3.needss.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国2
-  port: 45071
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
 - alterId: 0
   cipher: auto
   name: 🔒 VM-TCP-NA 🇫🇷 FR-135.125.182....
@@ -350,7 +305,7 @@ proxies:
   uuid: 1be8eddb-4f8c-45d0-b2a1-e538eb3abd39
 - alterId: 0
   cipher: auto
-  name: 🇫🇷FR-45.145.165.114-7356
+  name: 🇫🇷FR-45.145.165.114-7310
   network: ws
   port: 443
   server: beyonddsz.cfd
@@ -371,27 +326,68 @@ proxies:
   server: 52.47.92.41
   sni: trojan.burgerip.co.uk
   type: trojan
+- alpn:
+  - http/1.1
+  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #3'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 35.181.64.222
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #4'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.181.64.222
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #14'
+  network: tcp
+  port: 46676
+  reality-opts:
+    public-key: XL4DISs_AWwOgRC2OpLZuMtcUXPPK0q9stHiCVHW1S0
+    short-id: '800359'
+  server: 109.120.178.187
+  servername: www.latimes.com
+  tls: false
+  type: vless
+  uuid: fb0fddbd-37ec-4a55-81e3-165c8d04b30e
+- alpn:
+  - http/1.1
+  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #11'
+  network: tcp
+  password: telegram-id-v2rayvpnchannel
+  port: 22223
+  server: 13.37.201.250
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '🇫🇷کانفیگ های بیشتر: @customv2r...'
+  network: tcp
+  port: '5008'
+  server: e2dcaeba08d40886.jjavaher.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 81647712-fcd8-4da9-8f80-bc7a149354f8
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇫®️Franc... #3'
+  network: tcp
+  port: 2333
+  reality-opts:
+    public-key: B0iyLON-ED76Ok1x3v5oGAvRHvKYyldQL70dAQHeKVk
+    short-id: 4649d3
+  server: 45.77.62.189
+  servername: siahkor.com
+  tls: false
+  type: vless
+  uuid: 0aeb5cc9-516d-4040-a9d6-73bd2d05b656
 - name: 🇷[openproxylist.com] vless-FR
-  network: tcp
-  port: 19161
-  server: 185.133.125.10
-  tls: false
-  type: vless
-  uuid: c5b69a7f-8e71-4425-8613-0f3c2a97d6d7
-  ws-opts:
-    headers:
-      Host: soft98.ir
-- name: 🇫🇷[openproxylist.com] vless-FR
-  network: tcp
-  port: 19151
-  server: 185.133.125.6
-  tls: false
-  type: vless
-  uuid: 84e7d7ea-fbb8-4a62-b3c6-a22165a21bee
-  ws-opts:
-    headers:
-      Host: soft98.ir
-- name: '🇷[openproxylist.com] vless-FR #1'
   network: ws
   port: 80
   server: 51.38.232.101
@@ -412,14 +408,14 @@ proxies:
   tls: false
   type: vless
   uuid: 2917d821-9327-4c76-bf7f-1b7857b38811
-- name: '🇷[openproxylist.com] vless-FR #2'
+- name: '🇷[openproxylist.com] vless-FR #1'
   network: grpc
   port: 8880
   server: 185.153.183.211
   tls: false
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: '🇷[openproxylist.com] vless-FR #3'
+- name: '🇷[openproxylist.com] vless-FR #2'
   network: grpc
   port: 8880
   server: 185.231.205.99
@@ -430,7 +426,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷[openproxylist.com] vless-FR #2'
+  name: '🇫[openproxylist.com] vless-FR #1'
   network: grpc
   port: 8880
   server: 95.164.45.94

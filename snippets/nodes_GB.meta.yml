@@ -143,30 +143,17 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: '%2FTelegram%40WangCai2%2F%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 伦敦专线
-  network: ws
-  port: 30000
-  server: xr004.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 228f31f4-392c-4f8f-80d5-149fd6417ada
+- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #21'
+  network: httpupgrade
+  port: 80
+  server: 141.101.121.19
+  tls: false
+  type: vless
+  uuid: a1f9998f-e611-4cd6-81d9-7dc10ef619a8
   ws-opts:
     headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 IEPL专线 英国 NO1
-  port: 54774
-  server: sh3.needss.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
+      Host: www.sPeedtest.net.ElectrOluxxv.iR.
+    path: '%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%2F%40XpnTeam%3Fed%3D2048'
 - name: 🇬🇧
   network: httpupgrade
   port: 2052
@@ -651,13 +638,13 @@ proxies:
     headers:
       Host: 1Vpn_Mikey-speedtest.net.Amir-Mikey.Tech.
     path: /@Vpn_Mikey@Vpn_Mikey
-- name: CF中转_0704093066
+- name: CF中转_0704133066
   port: 8880
   server: 104.16.128.22
   tls: false
   type: vless
   uuid: 3c5e9486-df15-4544-98ff-edb57a2453d0
-- name: 英国_070409036
+- name: 英国_070413088
   network: httpupgrade
   port: 8880
   server: 104.239.72.202
@@ -668,7 +655,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 英国_070409041
+- name: 英国_070413093
   network: httpupgrade
   port: 8880
   server: 102.177.189.39
@@ -679,7 +666,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409065
+- name: 英国_070413117
   network: httpupgrade
   port: 8080
   server: 91.193.59.187
@@ -690,7 +677,7 @@ proxies:
     headers:
       Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
     path: '%2FJoin--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420%3Fed%3D2048'
-- name: 英国_070409074
+- name: 英国_070413127
   network: httpupgrade
   port: 2052
   server: 91.193.59.187
@@ -701,7 +688,7 @@ proxies:
     headers:
       Host: LondoN-Ar-12.pcsTorearsOft.iR.
     path: '%2Fegram---AR_ore--tem--ar_sre--egram--AR_st_n--tegram--ar_orE_pn--tgram----aR_tre_pN%3Fed%3D2048'
-- name: 英国_070409076
+- name: 英国_070413129
   network: httpupgrade
   port: 8080
   server: 154.197.121.138
@@ -712,7 +699,7 @@ proxies:
     headers:
       Host: LondoN-Ar-11.pcsTorearsOft.iR.
     path: '...'
-- name: 英国_070409081
+- name: 英国_070413134
   network: httpupgrade
   port: 8880
   server: 102.177.189.107
@@ -723,7 +710,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 英国_070409082
+- name: 英国_070413135
   network: httpupgrade
   port: 8880
   server: 102.177.189.63
@@ -735,7 +722,7 @@ proxies:
       Host: nufillter.jtip.sbs.
     path: '%2F'
 - client-fingerprint: chrome
-  name: 英国_070409092
+  name: 英国_070413143
   network: httpupgrade
   port: 443
   server: a.nl.cdn.maviks.eu
@@ -747,7 +734,7 @@ proxies:
     headers:
       Host: cdn.maviks.eu
     path: '%2FMaGLM25tSikPTFr75Q0Yri'
-- name: 英国_070409237
+- name: 英国_070413239
   network: httpupgrade
   port: 8880
   server: 102.177.189.31
@@ -758,7 +745,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 英国_070409248
+- name: 英国_070413250
   network: httpupgrade
   port: 8880
   server: 102.177.189.88
@@ -769,7 +756,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409250
+- name: 英国_070413252
   network: httpupgrade
   port: 8880
   server: 102.177.189.1
@@ -780,7 +767,7 @@ proxies:
     headers:
       Host: dl1.mcinet.xyz.
     path: ''
-- name: 英国_070409255
+- name: 英国_070413257
   network: httpupgrade
   port: 8880
   server: 104.239.72.37
@@ -791,7 +778,7 @@ proxies:
     headers:
       Host: dl1.mcinet.xyz.
     path: ''
-- name: 英国_070409258
+- name: 英国_070413260
   network: httpupgrade
   port: 8880
   server: 102.177.189.26
@@ -802,7 +789,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409267
+- name: 英国_070413269
   network: httpupgrade
   port: 8880
   server: 77.75.199.253
@@ -813,7 +800,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409275
+- name: 英国_070413277
   network: httpupgrade
   port: 8880
   server: 102.177.189.176
@@ -824,7 +811,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 英国_070409284
+- name: 英国_070413286
   network: httpupgrade
   port: 8880
   server: 94.247.142.175
@@ -835,7 +822,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409292
+- name: 英国_070413294
   network: httpupgrade
   port: 8880
   server: 164.38.155.4
@@ -846,7 +833,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409294
+- name: 英国_070413296
   network: httpupgrade
   port: 8880
   server: 102.177.189.8
@@ -857,7 +844,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409314
+- name: 英国_070413316
   network: httpupgrade
   port: 8880
   server: 94.247.142.42
@@ -868,7 +855,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409320
+- name: 英国_070413322
   network: httpupgrade
   port: 8880
   server: 91.193.58.235
@@ -879,7 +866,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409324
+- name: 英国_070413326
   network: httpupgrade
   port: 8880
   server: 91.193.59.15
@@ -890,7 +877,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409331
+- name: 英国_070413333
   network: httpupgrade
   port: 8880
   server: 104.239.72.22
@@ -901,7 +888,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 英国_070409353
+- name: 英国_070413355
   network: httpupgrade
   port: 8880
   server: 154.197.121.69
@@ -912,7 +899,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409357
+- name: 英国_070413359
   network: httpupgrade
   port: 8880
   server: 104.239.72.90
@@ -923,7 +910,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409370
+- name: 英国_070413372
   network: httpupgrade
   port: 8880
   server: 77.75.199.121
@@ -934,7 +921,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409379
+- name: 英国_070413381
   network: httpupgrade
   port: 8880
   server: 164.38.155.99
@@ -945,7 +932,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409381
+- name: 英国_070413383
   network: httpupgrade
   port: 8880
   server: 77.75.199.9
@@ -956,7 +943,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409398
+- name: 英国_070413400
   network: httpupgrade
   port: 8880
   server: 104.239.72.224
@@ -967,7 +954,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 英国_070409410
+- name: 英国_070413412
   network: httpupgrade
   port: 8880
   server: 102.177.189.20
@@ -978,7 +965,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409421
+- name: 英国_070413423
   network: httpupgrade
   port: 8880
   server: 154.197.121.211
@@ -989,7 +976,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 英国_070409423
+- name: 英国_070413425
   network: httpupgrade
   port: 8880
   server: 102.177.189.167
@@ -3677,7 +3664,7 @@ proxies:
   uuid: bcf86479-aab4-47cf-9d6e-34d353baa1a2
 - alterId: 0
   cipher: auto
-  name: 🔒 VM-TCP-NA 🇬🇧 GB-5.180.30.146...
+  name: 未知26 19.8MB/s
   network: tcp
   port: '27773'
   server: 5.180.30.146
@@ -3697,7 +3684,7 @@ proxies:
   uuid: 7da457da-ed0f-437d-c81d-6c35885bbea3
 - alterId: 0
   cipher: auto
-  name: 未知75 370.2KB/s
+  name: 🔒 VM-TCP-NA 🇬🇧 GB-46.250.243.5...
   network: tcp
   port: '50394'
   server: 46.250.243.56
@@ -3715,7 +3702,7 @@ proxies:
   ws-opts:
     headers:
       Host: SpeedTest.NET
-- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #1'
+- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #3'
   network: tcp
   port: 443
   server: 1237273737goodfiru.mongral.ir
@@ -3740,19 +3727,209 @@ proxies:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s07.gatesriver.ir
     path: '%2F'
 - client-fingerprint: chrome
-  name: 🇬🇧[openproxylist.com] vless-GB
+  name: '👉🆔@v2ray_configs_pool📡🇧®️Unite... #1'
   network: tcp
   port: 1370
   reality-opts:
     public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
     short-id: e1afb93bfe75a34b
-  server: 51.89.230.95
+  server: v10.vxlimir.com
   servername: refersion.com
   tls: false
   type: vless
   uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - client-fingerprint: chrome
-  name: '🇬🇧[openproxylist.com] vless-GB #1'
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #4'
+  network: tcp
+  port: 1370
+  reality-opts:
+    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+    short-id: e1afb93bfe75a34b
+  server: v02.vxlimir.com
+  servername: refersion.com
+  tls: false
+  type: vless
+  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #5'
+  network: tcp
+  port: 1370
+  reality-opts:
+    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+    short-id: e1afb93bfe75a34b
+  server: v07.vxlimir.com
+  servername: refersion.com
+  tls: false
+  type: vless
+  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #6'
+  network: tcp
+  port: 1370
+  reality-opts:
+    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+    short-id: e1afb93bfe75a34b
+  server: v04.vxlimir.com
+  servername: refersion.com
+  tls: false
+  type: vless
+  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #7'
+  network: tcp
+  port: 1370
+  reality-opts:
+    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+    short-id: e1afb93bfe75a34b
+  server: v05.vxlimir.com
+  servername: refersion.com
+  tls: false
+  type: vless
+  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #8'
+  network: tcp
+  port: 1370
+  reality-opts:
+    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+    short-id: e1afb93bfe75a34b
+  server: v03.vxlimir.com
+  servername: refersion.com
+  tls: false
+  type: vless
+  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #9'
+  network: tcp
+  port: 1370
+  reality-opts:
+    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+    short-id: e1afb93bfe75a34b
+  server: v09.vxlimir.com
+  servername: refersion.com
+  tls: false
+  type: vless
+  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #10'
+  network: tcp
+  port: 1370
+  reality-opts:
+    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+    short-id: e1afb93bfe75a34b
+  server: v01.vxlimir.com
+  servername: refersion.com
+  tls: false
+  type: vless
+  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #11'
+  network: tcp
+  port: 1370
+  reality-opts:
+    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+    short-id: e1afb93bfe75a34b
+  server: v11.vxlimir.com
+  servername: refersion.com
+  tls: false
+  type: vless
+  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #12'
+  network: tcp
+  port: 1370
+  reality-opts:
+    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+    short-id: e1afb93bfe75a34b
+  server: v14.vxlimir.com
+  servername: refersion.com
+  tls: false
+  type: vless
+  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- name: '👉🆔@v2ray_configs_pool📡🇧®️Unite... #2'
+  network: ws
+  port: 8080
+  server: 141.101.121.55
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    path: '%2F%3Fed'
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #13'
+  network: tcp
+  port: 1370
+  reality-opts:
+    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+    short-id: e1afb93bfe75a34b
+  server: v12.vxlimir.com
+  servername: refersion.com
+  tls: false
+  type: vless
+  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alpn:
+  - http/1.1
+  client-fingerprint: randomized
+  name: 'Channel id: @ShadowProxy66🇬🇧``...'
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: TITanTabLOmaNAHaMRaH.IR
+  tls: true
+  type: vless
+  uuid: 4d91916f-a7fd-419b-8b90-640bb8d1b9f4
+  ws-opts:
+    headers:
+      Host: titantablomanahamrah.ir
+    path: '%2FJHVdDlmFTThrY7WI%2FNjIuMy4xMi4xODU'
+- client-fingerprint: chrome
+  name: 🇬🇧[openproxylist.com] vless-GB
   network: tcp
   port: 1370
   reality-opts:
@@ -3763,6 +3940,150 @@ proxies:
   tls: false
   type: vless
   uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+- flow: ''
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #22'
+  network: tcp
+  port: 8080
+  server: 62.60.155.170
+  tls: false
+  type: vless
+  uuid: 19479452-d4e3-4ff7-9f64-a95aa055532f
+  ws-opts:
+    headers:
+      Host: SpeedTest.NET
+- client-fingerprint: chrome
+  name: '[openproxylist.com] vless-GB'
+  network: tcp
+  port: 1370
+  reality-opts:
+    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+    short-id: e1afb93bfe75a34b
+  server: 51.89.230.95
+  servername: refersion.com
+  tls: false
+  type: vless
+  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+- client-fingerprint: randomized
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #33'
+  network: ws
+  port: 8080
+  server: 141.101.121.108
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    path: '%2F%3Fed%3D2048'
+- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #28'
+  network: ws
+  port: 8080
+  server: 141.101.121.55
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    path: '%2F%3Fed%3D2048'
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #39'
+  network: tcp
+  port: 1370
+  reality-opts:
+    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+    short-id: e1afb93bfe75a34b
+  server: 51.195.233.195
+  servername: refersion.com
+  tls: false
+  type: vless
+  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇧®️Unite... #6'
+  network: ws
+  port: 443
+  server: 194.147.35.250
+  servername: zula.ir
+  tls: true
+  type: vless
+  uuid: 2bc38bf1-e880-5b6b-8795-590c7a67258e
+  ws-opts:
+    headers:
+      Host: 194.147.35.250
+    path: '%2Fvless'
+- client-fingerprint: randomized
+  grpc-opts:
+    grpc-service-name: t.me/entryNET
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #30'
+  network: grpc
+  port: 32135
+  reality-opts:
+    public-key: 0nV4IrMDDWiuFhntmuTBnQT3Q2uPagsRV1p4KXRnzCk
+    short-id: 085753500f657097
+  server: mariz.kuckenpq.ir
+  servername: journalofbigdata.springeropen.com
+  tls: false
+  type: vless
+  uuid: 71a3cd5b-90cf-4fea-b286-e011b31438cf
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #36'
+  network: tcp
+  port: 1370
+  reality-opts:
+    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+    short-id: e1afb93bfe75a34b
+  server: 51.89.175.164
+  servername: refersion.com
+  tls: false
+  type: vless
+  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+- name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #37'
+  network: ws
+  port: 8880
+  server: 91.193.58.88
+  servername: sk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #38'
+  network: tcp
+  port: 1370
+  reality-opts:
+    public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+    short-id: e1afb93bfe75a34b
+  server: v04.vxlimir.com
+  servername: refersion.com
+  tls: false
+  type: vless
+  uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
+- alpn:
+  - h2
+  name: '👉🆔@v2ray_configs_pool📡🇧®️Unite... #9'
+  network: grpc
+  port: 443
+  server: 185.135.9.3
+  servername: pqh36v4.hiddendom.shop
+  tls: true
+  type: vless
+  uuid: 401374e6-df77-41fb-f638-dad8184f175b
+- client-fingerprint: randomized
+  name: '👉🆔@v2ray_configs_pool📡🇬🇧®️Unit... #41'
+  network: ws
+  port: 8080
+  server: 141.101.121.108
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    path: '%2F%3Fed'
 - alterId: 0
   cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
@@ -3773,7 +4094,7 @@ proxies:
   type: vmess
   uuid: 5e6e263e-6bc4-457d-8429-774533ce7467
 - client-fingerprint: chrome
-  name: 🇧[openproxylist.com] vless-GB
+  name: '🇬🇧[openproxylist.com] vless-GB #1'
   network: ws
   port: 2096
   server: 104.19.222.79
@@ -3789,7 +4110,7 @@ proxies:
   name: '🇬🇧[openproxylist.com] vless-GB #2'
   network: ws
   port: 2096
-  server: 172.66.144.57
+  server: 162.159.241.133
   servername: wwwspeedtestnetwhiteberinsistomd6625996s09.gatesriver.ir
   tls: true
   type: vless
@@ -3798,31 +4119,6 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s09.gatesriver.ir
     path: /
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '🇧[openproxylist.com] vless-GB #1'
-  network: tcp
-  port: 443
-  server: 51.89.229.8
-  servername: o2.sigmamessenger.com
-  tls: true
-  type: vless
-  uuid: c3e86d0c-bfe5-4bb5-a051-5e143df2024d
-- client-fingerprint: chrome
-  name: '🇬🇧[openproxylist.com] vless-GB #3'
-  network: ws
-  port: 443
-  server: 198.41.209.70
-  servername: is.oldcloud.online
-  tls: true
-  type: vless
-  uuid: 753fa8e8-a3e8-442e-abf7-875ed776eacb
-  ws-opts:
-    headers:
-      Host: is.oldcloud.online
-    path: '%2F'
 - name: 英国
   network: ws
   port: 20889

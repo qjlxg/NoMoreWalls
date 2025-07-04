@@ -29,39 +29,6 @@ proxies:
     path: /index
 - alterId: 0
   cipher: auto
-  name: 🇨🇦 加拿大2
-  port: 45065
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 加拿大1
-  port: 45064
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 加拿大专线
-  network: ws
-  port: 30000
-  server: xr003.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 228f31f4-392c-4f8f-80d5-149fd6417ada
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 0
-  cipher: auto
   name: 🔒 VM-TCP-NA 🇨🇦 CA-51.79.86.182...
   network: tcp
   port: '42610'
@@ -126,7 +93,7 @@ proxies:
     path: /vpnjantit
 - alterId: 0
   cipher: auto
-  name: 🇨🇦CA-23.162.200.227-7340
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #521'
   network: ws
   port: 443
   server: 23.162.200.227
@@ -140,7 +107,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #14'
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #109'
   network: ws
   port: 2095
   server: 104.19.48.236
@@ -152,3 +119,134 @@ proxies:
     headers:
       Host: 100-114-107-221.s4.db-link01.top
     path: /dabai.in104.17.28.240
+- alterId: 0
+  cipher: auto
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #612'
+  network: ws
+  port: 443
+  server: 15.235.83.227
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: mankadmu.com
+    path: /linkvws
+- alpn:
+  - h3
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #151'
+  network: ws
+  password: Aimer
+  port: 443
+  server: pranab.ns.cloudflare.com
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epml.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #601'
+  network: ws
+  password: Xa4^l(;.;B#a
+  port: 443
+  server: 104.18.26.90
+  sni: S1.mitivpN.wOrKeRS.DEV
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s1.mitivpn.workers.dev
+    path: '%2FtrUXByA1rnbs4YQ1Xw%3Fed%3D2560'
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #350'
+  network: ws
+  password: trojan
+  port: 443
+  server: www.digitalocean.com
+  sni: azadnet-9ya.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: azadnet-9ya.pages.dev
+    path: '%2F%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #225'
+  network: ws
+  port: 8443
+  server: 104.21.80.1
+  tls: true
+  type: vmess
+  uuid: f10598e2-c606-4945-bfde-e5730756a2dd
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #328'
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 162.159.152.2
+  sni: zamim340.ggff.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zamim340.ggff.net
+    path: '%2Ftr'
+- alterId: 0
+  cipher: auto
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #498'
+  network: ws
+  port: 80
+  server: OOoOOOooOp.222769.XYZ
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
+  ws-opts:
+    headers:
+      Host: OOoOOOooOp.222769.XYZ
+    path: /VaaSEfNLHdW3I98dxLkez
+- alterId: 0
+  cipher: auto
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #518'
+  network: ws
+  port: 8443
+  server: 104.21.96.1
+  tls: true
+  type: vmess
+  uuid: 2bd0c9d7-f239-437e-a1e1-6cf830af2a1a
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #567'
+  network: ws
+  port: 443
+  server: 15.235.50.172
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: baradiha.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 2086
+  server: awetdfgn_cdn.hfhfb.homes
+  tls: false
+  type: vmess
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      Host: mgcdn8.hfhfb.homes
+    path: /market?ed=1024

@@ -192,15 +192,6 @@ proxies:
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
-  name: 🇳🇱 CM 隧道 荷兰 NO1
-  port: 20025
-  server: sh3.needss.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
-- alterId: 0
-  cipher: auto
   name: '🇳🇱[openproxylist.com] vmess-NL #2'
   network: tcp
   port: '12540'
@@ -466,7 +457,7 @@ proxies:
     headers:
       Host: www.speedtest.net.ftp.debian.org.%E8%87%AA%E5%B7%B1%E4%B8%8D%E5%8E%BB%E7%9C%8B%E5%95%A5%E4%BA%8B%E6%83%85%E5%9F%BA%E6%9C%AC%E4%BA%8B%E4%BA%8B.mobilewersach.ir.
     path: '%2FVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%2CVMESSKHODAM%3Fed%3D2560'
-- name: 🇱NL_1418_@Surfboardv2ray
+- name: 🇱NL_1362_@Surfboardv2ray
   network: httpupgrade
   port: 2095
   server: www.venzo.com.tr
@@ -477,7 +468,7 @@ proxies:
     headers:
       Host: egzoz3.ai351.com
     path: /?ed=2095
-- name: 🇳🇱NL_3185_@Surfboardv2ray
+- name: 🇱NL_3053_@Surfboardv2ray
   network: httpupgrade
   port: 2095
   server: www.venzo.com.tr
@@ -488,7 +479,7 @@ proxies:
     headers:
       Host: srv6.amazon-osishop.ir
     path: /hu?ed=2095
-- name: 荷兰_070409132
+- name: 荷兰_070413132
   network: httpupgrade
   port: 8880
   server: 5.10.246.224
@@ -499,7 +490,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 荷兰_070409133
+- name: 荷兰_070413133
   network: httpupgrade
   port: 8880
   server: 45.131.7.126
@@ -510,7 +501,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 荷兰_070409279
+- name: 荷兰_070413280
   network: httpupgrade
   port: 8880
   server: 45.131.4.211
@@ -521,7 +512,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409292
+- name: 荷兰_070413293
   network: httpupgrade
   port: 8880
   server: 45.131.211.246
@@ -532,7 +523,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409305
+- name: 荷兰_070413306
   network: httpupgrade
   port: 8880
   server: 5.10.245.60
@@ -543,7 +534,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 荷兰_070409309
+- name: 荷兰_070413310
   network: httpupgrade
   port: 8880
   server: 5.10.245.225
@@ -554,7 +545,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409322
+- name: 荷兰_070413323
   network: httpupgrade
   port: 8880
   server: 5.10.245.59
@@ -565,7 +556,7 @@ proxies:
     headers:
       Host: hamidjon.ddigicyber.click.
     path: //telegram-NUFiLTER
-- name: 荷兰_070409324
+- name: 荷兰_070413325
   network: httpupgrade
   port: 8880
   server: 5.10.246.128
@@ -576,7 +567,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409346
+- name: 荷兰_070413347
   network: httpupgrade
   port: 8880
   server: 45.131.210.197
@@ -587,7 +578,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409387
+- name: 荷兰_070413388
   network: httpupgrade
   port: 8880
   server: 45.131.209.182
@@ -598,7 +589,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409395
+- name: 荷兰_070413396
   network: httpupgrade
   port: 8880
   server: 5.10.246.90
@@ -609,7 +600,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409419
+- name: 荷兰_070413420
   network: httpupgrade
   port: 8880
   server: 5.10.245.140
@@ -620,7 +611,7 @@ proxies:
     headers:
       Host: dl1.mcinet.xyz.
     path: ''
-- name: 荷兰_070409422
+- name: 荷兰_070413423
   network: httpupgrade
   port: 8880
   server: 45.131.211.92
@@ -631,7 +622,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409448
+- name: 荷兰_070413449
   network: httpupgrade
   port: 8880
   server: 45.131.211.150
@@ -642,7 +633,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409472
+- name: 荷兰_070413473
   network: httpupgrade
   port: 8880
   server: 45.131.208.38
@@ -653,7 +644,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409474
+- name: 荷兰_070413475
   network: httpupgrade
   port: 8880
   server: 45.131.5.165
@@ -664,7 +655,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409491
+- name: 荷兰_070413492
   network: httpupgrade
   port: 2052
   server: 45.131.4.5
@@ -675,7 +666,7 @@ proxies:
     headers:
       Host: 2.v2.www.speedtest.net.blue99shop.ir.
     path: ''
-- name: 荷兰_070409495
+- name: 荷兰_070413496
   network: httpupgrade
   port: 8880
   server: 45.131.210.199
@@ -686,7 +677,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409501
+- name: 荷兰_070413502
   network: httpupgrade
   port: 8880
   server: 45.131.209.110
@@ -697,7 +688,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409528
+- name: 荷兰_070413529
   network: httpupgrade
   port: 8880
   server: 5.10.247.50
@@ -708,7 +699,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409558
+- name: 荷兰_070413559
   network: httpupgrade
   port: 8880
   server: 45.131.7.157
@@ -719,7 +710,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409585
+- name: 荷兰_070413586
   network: httpupgrade
   port: 8880
   server: 5.10.245.233
@@ -730,7 +721,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409594
+- name: 荷兰_070413595
   network: httpupgrade
   port: 8880
   server: 45.131.211.3
@@ -741,7 +732,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 荷兰_070409597
+- name: 荷兰_070413598
   network: httpupgrade
   port: 8880
   server: 45.131.7.251
@@ -870,7 +861,28 @@ proxies:
   tls: false
   type: vmess
   uuid: 3038024f-3a34-4228-b61c-d741b2fbec8f
-- name: '[openproxylist.com] vless-NL'
+- name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #1'
+  network: tcp
+  port: 8880
+  server: 0lan.amazon-osishop.ir
+  tls: false
+  type: vless
+  uuid: a2eda8e1-4452-481b-9a71-aab18d3ed17e
+  ws-opts:
+    headers:
+      Host: eN.TwiTtER.cOM.%3A8880
+- name: 👉🆔@v2ray_configs_pool📡🇱®️The N...
+  network: tcp
+  port: 443
+  server: soghandi.mohamad.sbs
+  tls: false
+  type: vless
+  uuid: 36583778-a75e-4647-9406-09128cf42823
+  ws-opts:
+    headers:
+      Host: netv2reyng.fast.com
+    path: '%2Fnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng%2Cnetv2reyng'
+- name: 🇳🇱[openproxylist.com] vless-NL
   network: ws
   port: 26066
   server: 5.255.124.97
@@ -879,13 +891,62 @@ proxies:
   uuid: 5e251be5-4736-49ff-80cf-b41639949a4d
   ws-opts:
     path: /
-- name: 🇱[openproxylist.com] vless-NL
-  network: tcp
-  port: 2060
-  server: 45.94.213.90
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #20'
+  network: xhttp
+  port: 80
+  reality-opts:
+    public-key: C4LNbOB3Ar0cntu528Jtn5ivsMZhyk9tkuAlU-jeCio
+    short-id: 8c
+  server: 5.255.120.217
+  servername: journalofbigdata.springeropen.com
   tls: false
   type: vless
-  uuid: 7adb2684-8b2a-48f1-a2c5-722e6c2b853c
+  uuid: ab9f05f2-e2f7-4cea-bf0d-e90f36ff92ac
+  ws-opts:
+    headers:
+      Host: bleep.global.ssl.fastly.net
+    path: '%2Fpwp'
+- name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #18'
+  network: tcp
+  port: 2200
+  server: 84.32.190.1
+  tls: false
+  type: vless
+  uuid: 86892e3f-83ed-49c1-ade2-c12f8ace1487
+  ws-opts:
+    headers:
+      Host: zula.ir
+- client-fingerprint: chrome
+  name: '👉🆔@v2ray_configs_pool📡®️The Ne... #1'
+  network: xhttp
+  port: 80
+  reality-opts:
+    public-key: C4LNbOB3Ar0cntu528Jtn5ivsMZhyk9tkuAlU-jeCio
+    short-id: 8c
+  server: 5.255.120.217
+  servername: journalofbigdata.springeropen.com
+  tls: false
+  type: vless
+  uuid: 2e671ca5-32a0-40e4-94a0-c2655f263a88
+  ws-opts:
+    headers:
+      Host: bleep.global.ssl.fastly.net
+    path: '%2Fpwp'
+- alterId: 32
+  cipher: auto
+  name: '👉🆔@v2ray_configs_pool📡🇳🇱®️The ... #24'
+  network: ws
+  port: 443
+  server: vc.fly.dev
+  servername: vc.fly.dev
+  tls: true
+  type: vmess
+  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+  ws-opts:
+    headers:
+      Host: vc.fly.dev
+    path: /vc
 - alterId: 0
   cipher: auto
   name: 🇧🇬[openproxylist.com] vmess-BG

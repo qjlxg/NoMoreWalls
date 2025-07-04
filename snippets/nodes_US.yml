@@ -178,7 +178,7 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: 香港|@ripaojiedian
+  name: '🇭🇰 香港|@ripaojiedian #2'
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -255,47 +255,6 @@ proxies:
     headers:
       Host: ZZzzzZZ.890601.XYZ
     path: /l96MZ8se5Kl2p8BiMhP42l
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 IEPL专线 美国 NO1
-  port: 54770
-  server: i.needss.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01
-  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国NO.2
-  port: 45053
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国NO.1
-  port: 45052
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2
-  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🔒 VM-TCP-NA 🇺🇸 US-51.81.203.57...
@@ -1022,31 +981,14 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 2086
-  server: awetdfgn_cdn.hfhfb.homes
-  tls: false
-  type: vmess
-  uuid: 16f000d7-7805-459d-9130-200d00180b7c
-  ws-opts:
-    headers:
-      Host: mgcdn8.hfhfb.homes
-    path: /market?ed=1024
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸[openproxylist.com] vmess-US #1'
-  network: ws
-  port: '8443'
-  server: 104.21.112.1
-  servername: us01.sh-cloudflare.sbs
+  name: '👉🆔@v2ray_configs_pool📡🇺🇸®️Unit... #14'
+  network: tcp
+  port: 443
+  server: abc.theyyszmn.sbs
+  servername: abc.theyyszmn.sbs
   tls: true
   type: vmess
-  uuid: f10598e2-c606-4945-bfde-e5730756a2dd
-  ws-opts:
-    headers:
-      Host: us01.sh-cloudflare.sbs
-    path: /
+  uuid: 3d84a668-0588-447b-fbe1-058deb5baf93
 - alterId: 64
   cipher: auto
   name: '🇺🇸[openproxylist.com] vmess-US #2'

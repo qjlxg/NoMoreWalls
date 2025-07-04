@@ -11,15 +11,6 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: '%2FTelegram%40WangCai2%2F%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  name: 🇮🇹 IEPL专线 意大利 NO1
-  port: 33320
-  server: i.needss.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
 - alpn:
   - h2
   - http/1.1

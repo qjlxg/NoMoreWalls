@@ -91,7 +91,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: none
-  name: 未知29
+  name: '@Hope_Net-join-us-on-Telegram #321'
   network: tcp
   port: '59003'
   server: 183.236.51.36
@@ -124,7 +124,7 @@ proxies:
     path: /home
 - alterId: 0
   cipher: auto
-  name: 🔒 VM-WS-TLS 🇨🇳 CN-183.236.51.1...
+  name: 未知91
   network: ws
   port: '35146'
   server: 183.236.51.187
@@ -233,3 +233,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 4381beae-45a6-4421-8547-65e312dd204a
+- alterId: 0
+  cipher: auto
+  name: 中国 - 广州市 - China Mobile commun...
+  network: tcp
+  port: '50002'
+  server: 120.210.205.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

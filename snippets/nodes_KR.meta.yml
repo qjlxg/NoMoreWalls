@@ -135,126 +135,6 @@ proxies:
     headers:
       host: sk.laoyoutiao.link
     path: /?ed=2560
-- auth: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  name: 🇰🇷 韩国-2
-  password: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  port: 30001
-  server: oracle-arm-chuncheon2.lanmaoyun.icu
-  skip-cert-verify: true
-  sni: korea.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- name: 🇰🇷 韩国-三网优化2-1C
-  password: b262e991-a233-4dfd-87e2-9c5898ecd4c2
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 IEPL专线 韩国 NO1
-  port: 20021
-  server: i.needss.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
-- auth: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  name: 🇰🇷 韩国-1
-  password: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  port: 30001
-  server: oracle-arm-chuncheon1.lanmaoyun.icu
-  skip-cert-verify: true
-  sni: korea.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- auth: be9029b5-3f99-439f-b6f9-c6d3012a6a0c
-  name: 🇰🇷 韩国-首尔4-1A
-  password: be9029b5-3f99-439f-b6f9-c6d3012a6a0c
-  port: 22424
-  server: seoul4-500m.node.xn--l6qx3lcvp58x.com
-  skip-cert-verify: false
-  sni: 1.nodes.yljc.online
-  type: hysteria2
-  udp: true
-- name: 🇰🇷 韩国-三网优化2-1B
-  password: d6e0952a-dab2-427a-8b72-4e0fece5d1a0
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国-三网优化2-1D
-  password: 2129ce31-c7b4-44da-b06e-c0377a901a70
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国-三网优化2-1F
-  password: b4917678-6091-4234-98f5-0b0cf7472972
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- auth: be9029b5-3f99-439f-b6f9-c6d3012a6a0c
-  name: 🇰🇷 韩国-首尔3-1A
-  password: be9029b5-3f99-439f-b6f9-c6d3012a6a0c
-  port: 21046
-  server: seoul3-500m.node.xn--l6qx3lcvp58x.com
-  skip-cert-verify: false
-  sni: 1.nodes.yljc.online
-  type: hysteria2
-  udp: true
-- auth: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  name: 🇰🇷 韩国-首尔
-  password: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  port: 30001
-  server: oracle-arm-seoul1.lanmaoyun.icu
-  skip-cert-verify: true
-  sni: korea.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- auth: 9db6e682-262c-4212-8f49-ac6a3e0ce53d
-  name: 🇰🇷 韩国-首尔4-1B
-  password: 9db6e682-262c-4212-8f49-ac6a3e0ce53d
-  port: 22331
-  server: seoul4-500m.node.xn--l6qx3lcvp58x.com
-  skip-cert-verify: false
-  sni: 1.nodes.yljc.online
-  type: hysteria2
-  udp: true
-- name: 🇰🇷 韩国-三网优化2-1E
-  password: 7464a3ba-a75c-4ef6-b9bd-0b2e7242f5d1
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国-三网优化2-1A
-  password: e62ca6d0-9d0e-4eb3-8d03-71263b6d1f71
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- auth: 9db6e682-262c-4212-8f49-ac6a3e0ce53d
-  name: 🇰🇷 韩国-首尔3-1B
-  password: 9db6e682-262c-4212-8f49-ac6a3e0ce53d
-  port: 23043
-  server: seoul3-500m.node.xn--l6qx3lcvp58x.com
-  skip-cert-verify: false
-  sni: 1.nodes.yljc.online
-  type: hysteria2
-  udp: true
 - alpn:
   - h3
   client-fingerprint: random
@@ -376,17 +256,18 @@ proxies:
   type: vmess
   uuid: cff7001e-3a74-43e8-bfd8-a7af9630a58b
 - client-fingerprint: chrome
-  name: 🇷[openproxylist.com] vless-KR
+  flow: xtls-rprx-vision
+  name: '👉🆔@v2ray_configs_pool📡🇷®️South... #1'
   network: tcp
-  port: 443
+  port: 34578
   reality-opts:
-    public-key: DNdTBHyztOVJOBJQX91YXEhNkWbSAntqUoTFBHc6Clw
-    short-id: 6ba85179e30d4fc2
-  server: 8.213.149.42
-  servername: wwwimages2.adobe.com
+    public-key: PSn2s5TN4e7n0LkzPunu2IA1hSmOoPYFu3d_psl2Nmc
+    short-id: e534c8be
+  server: aws-link25.liangxin1.xyz
+  servername: download-porter.hoyoverse.com
   tls: false
   type: vless
-  uuid: 5c183802-747d-4d2f-a6f1-aff2d5d78401
+  uuid: be0b1c5d-e2f4-4828-a527-f4e0f2eaea1a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇰🇷[openproxylist.com] vless-KR
@@ -397,19 +278,6 @@ proxies:
   tls: true
   type: vless
   uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇰🇷[openproxylist.com] vless-KR #1'
-  network: tcp
-  port: 8880
-  reality-opts:
-    public-key: afyGbyVtSnU4-TVYh_UG3eAOwjrH2MNgxcxKeD_aOEM
-    short-id: 93c21ebdd1f7349e
-  server: 113.29.230.65
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 54af7d89-3ac6-426b-82c2-993984064066
 - client-fingerprint: random
   name: 老油条-KR-韩国
   network: ws

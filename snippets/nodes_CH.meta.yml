@@ -43,7 +43,7 @@ proxies:
     headers:
       Host: itsmymeowly.mashti.bloG.
     path: '%2Ftelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%3Fed%3D2560'
-- name: 瑞士_070409028
+- name: 瑞士_070413028
   network: httpupgrade
   port: 8880
   server: 185.18.250.172
@@ -54,7 +54,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 瑞士_070409033
+- name: 瑞士_070413033
   network: httpupgrade
   port: 8880
   server: 185.18.250.227
@@ -74,3 +74,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '👉🆔@v2ray_configs_pool📡🇨®️Switz... #2'
+  network: tcp
+  port: 54586
+  reality-opts:
+    public-key: ahuCTYYd4tNfL01Ta75EACP2tRqEddXIRSD7xZ-xAFE
+    short-id: 676a
+  server: agashka-vpn.com
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888

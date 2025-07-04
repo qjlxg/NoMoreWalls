@@ -12,30 +12,6 @@ proxies:
     path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
 - alterId: 0
   cipher: auto
-  name: 🇷🇺 莫斯科专线
-  network: ws
-  port: 30000
-  server: xr002.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 228f31f4-392c-4f8f-80d5-149fd6417ada
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺 IEPL专线 俄罗斯 NO1
-  port: 21111
-  server: i.needss.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
-- alterId: 0
-  cipher: auto
   name: 🔒 VM-WS-NA 🇷🇺 RU-31.129.105.23...
   network: ws
   port: '16231'

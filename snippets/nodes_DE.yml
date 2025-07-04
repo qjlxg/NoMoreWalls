@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 IEPL专线 德国 NO1
-  port: 54787
-  server: sh3.needss.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
 - name: 🔒 TR-HTTPUPGRADE-NONE 🏴‍☠️ NA-...
   network: httpupgrade
   password: 2f1f7fbf-f37d-4275-c014-298a83f4e5a8
@@ -120,7 +111,7 @@ proxies:
     headers:
       Host: Freedomisnear.onetwothree123.ir
     path: '%2Fmehdi'
-- name: '🔒 TR-HTTPUPGRADE-TLS 🏴‍☠️ NA-1... #8'
+- name: 未知100
   network: httpupgrade
   password: VGZ0nM9KY3Qz
   port: 2096
@@ -152,7 +143,7 @@ proxies:
     headers:
       Host: soft.onetwothree123.ir
     path: /L9sBUTui
-- name: 未知132
+- name: '🔒 TR-HTTPUPGRADE-TLS 🏴‍☠️ NA-1... #11'
   network: httpupgrade
   password: ncynDWKB7Um7
   port: 443
@@ -3230,7 +3221,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🔒 VM-TCP-NA 🇩🇪 DE-45.12.138.47...
+  name: 未知139 17.9MB/s
   network: tcp
   port: '22839'
   server: 45.12.138.47
@@ -3322,6 +3313,116 @@ proxies:
   tls: true
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-57.129.24.125-7299
+  network: ws
+  port: 443
+  server: 57.129.24.125
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- alpn:
+  - http/1.1
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #20'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.77.65.88
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #22'
+  network: tcp
+  password: telegram-id-v2rayvpnchannel
+  port: 22223
+  server: 3.77.65.88
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 1
+  cipher: auto
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #24'
+  network: ws
+  port: 443
+  server: 57.129.25.20
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 57.129.25.20
+    path: linkvws
+- alpn:
+  - http/1.1
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #27'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.120.23.217
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #28'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.120.23.217
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #41'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.73.30.42
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #32'
+  network: tcp
+  password: telegram-id-v2rayvpnchannel
+  port: 22223
+  server: 3.73.30.42
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #62'
+  network: ws
+  port: 443
+  server: 57.129.25.25
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: f.khilei.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '👉🆔@v2ray_configs_pool📡🇩🇪®️Germ... #66'
+  network: ws
+  port: 443
+  server: 57.129.24.124
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: aveiror.com
+    path: /linkvws
 - name: 🇪[openproxylist.com] trojan-DE
   network: tcp
   password: 6gZh2JbfhQ
@@ -3329,17 +3430,3 @@ proxies:
   server: 104.248.18.1
   sni: x1-germany-digitalocean-v2.devefun.org
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 8080
-  server: 104.17.176.171
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03
-  ws-opts:
-    headers:
-      Host: ke7hz36ewz-4515017473.mashallahbet.com
-    path: /nasnet/cdn

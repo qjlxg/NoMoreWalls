@@ -39,81 +39,6 @@ proxies:
     headers:
       host: sg.laoyoutiao.link
     path: /?ed=2560
-- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 🇸🇬 新加坡07奈非
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 32052
-  server: sg07v6.sulink.one
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 🇸🇬 新加坡03奈非
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 22052
-  server: sg03v6.sulink.one
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡NO.1
-  port: 45054
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡NO.2
-  port: 45055
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
-- auth: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  name: 🇸🇬 新加坡-1
-  password: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  port: 30001
-  server: oracle-amd-singapore1.lanmaoyun.icu
-  skip-cert-verify: true
-  sni: main.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 IEPL专线 新加坡 NO1
-  port: 44412
-  server: i.needss.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡05极速节点|油管速度优化
-  network: ws
-  port: 80
-  server: yx.sulink.one
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  ws-opts:
-    headers:
-      Host: sg05.sulink.one
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡1SS移动直连
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 12343
-  server: sg6.sulink.one
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🔒 VM-TCP-NA 🇸🇬 SG-84.247.148.1...
@@ -206,7 +131,7 @@ proxies:
     headers:
       Host: www.speedtest.net.zula.ir.Shad.ir.sHaparak.ir.torob.com.namaSha.com.namnak.com.filiMo.com.Rokna.net.teleweBion.com.iraNikala.toP.
     path: '%2F%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn-%40spikevpn%3Fed%3D1024'
-- name: 新加坡_070409095
+- name: 新加坡_070413098
   network: httpupgrade
   port: 8880
   server: 27.50.48.252
@@ -217,7 +142,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: '%2F'
-- name: 新加坡_070409188
+- name: 新加坡_070413187
   network: httpupgrade
   port: 8880
   server: 92.243.75.46
@@ -228,7 +153,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070409202
+- name: 新加坡_070413201
   network: httpupgrade
   port: 8880
   server: 27.50.48.149
@@ -239,7 +164,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070409204
+- name: 新加坡_070413203
   network: httpupgrade
   port: 8880
   server: 27.50.48.193
@@ -250,7 +175,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070409219
+- name: 新加坡_070413218
   network: httpupgrade
   port: 8880
   server: 92.243.75.121
@@ -261,7 +186,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070409220
+- name: 新加坡_070413219
   network: httpupgrade
   port: 8880
   server: 154.194.12.25
@@ -272,7 +197,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070409227
+- name: 新加坡_070413226
   network: httpupgrade
   port: 8880
   server: 92.243.75.161
@@ -283,7 +208,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070409233
+- name: 新加坡_070413232
   network: httpupgrade
   port: 8880
   server: 27.50.48.198
@@ -294,7 +219,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070409282
+- name: 新加坡_070413281
   network: httpupgrade
   port: 8880
   server: 92.243.74.211
@@ -305,7 +230,7 @@ proxies:
     headers:
       Host: nufillter.jtip.sbs.
     path: ''
-- name: 新加坡_070409286
+- name: 新加坡_070413285
   network: httpupgrade
   port: 8880
   server: 92.243.74.5
@@ -439,7 +364,7 @@ proxies:
     path: /path/170733132233
 - alterId: 0
   cipher: auto
-  name: 🔒 VM-TCP-NA 🇸🇬 SG-46.250.234.3...
+  name: 未知104 417.4KB/s
   network: tcp
   port: '45317'
   server: 46.250.234.32
@@ -497,7 +422,7 @@ proxies:
   uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
 - alterId: 0
   cipher: auto
-  name: 未知2 435.3KB/s
+  name: 🔒 VM-TCP-NONE 🇸🇬 SG-154.26.134...
   network: tcp
   port: '14129'
   server: 154.26.134.106
@@ -541,7 +466,16 @@ proxies:
   tls: false
   type: vmess
   uuid: b31fc134-978e-4176-8579-8107d6a0cede
-- name: 🇬[openproxylist.com] vless-SG
+- alterId: 0
+  cipher: auto
+  name: '👉🆔@v2ray_configs_pool📡🇸🇬®️Sing... #5'
+  network: tcp
+  port: 56051
+  server: 38.47.176.251
+  tls: false
+  type: vmess
+  uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
+- name: 🇸🇬[openproxylist.com] vless-SG
   network: ws
   port: 80
   server: 141.193.213.21
@@ -552,17 +486,16 @@ proxies:
     headers:
       Host: 19.sahanwickramasinghe.shop
     path: '%2F'
-- name: 🇸🇬[openproxylist.com] vless-SG
-  network: ws
-  port: 48705
-  server: 157.230.248.167
-  tls: false
+- alpn:
+  - h2
+  name: '👉🆔@v2ray_configs_pool📡🇸🇬®️Sing... #4'
+  network: grpc
+  port: 443
+  server: 45.8.211.71
+  servername: pqh24v3.hiddendom.shop
+  tls: true
   type: vless
-  uuid: 9ddfb86c-315e-4710-8d68-29b40c28b47c
-  ws-opts:
-    headers:
-      Host: ind.faceid.hyperverge.co
-    path: '%2FFREE%20by%20Tharuwa%20%280767597317%29'
+  uuid: 401374e6-df77-41fb-f638-dad8184f175b
 - name: '🇸🇬[openproxylist.com] vless-SG #1'
   network: tcp
   port: 443
@@ -595,7 +528,7 @@ proxies:
 - name: '🇸🇬[openproxylist.com] vless-SG #4'
   network: ws
   port: 8880
-  server: 104.26.13.31
+  server: 172.67.75.172
   tls: false
   type: vless
   uuid: 3054a28e-177a-412f-9b03-9855d79aa728

@@ -1,28 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 伦敦专线
-  network: ws
-  port: 30000
-  server: xr004.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 228f31f4-392c-4f8f-80d5-149fd6417ada
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 IEPL专线 英国 NO1
-  port: 54774
-  server: sh3.needss.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
 - name: (S353)🇬🇧t.me/PrivateVPNs
   password: telegram-id-privatevpns
   port: 22222
@@ -2700,7 +2676,7 @@ proxies:
   uuid: bcf86479-aab4-47cf-9d6e-34d353baa1a2
 - alterId: 0
   cipher: auto
-  name: 🔒 VM-TCP-NA 🇬🇧 GB-5.180.30.146...
+  name: 未知26 19.8MB/s
   network: tcp
   port: '27773'
   server: 5.180.30.146
@@ -2720,7 +2696,7 @@ proxies:
   uuid: 7da457da-ed0f-437d-c81d-6c35885bbea3
 - alterId: 0
   cipher: auto
-  name: 未知75 370.2KB/s
+  name: 🔒 VM-TCP-NA 🇬🇧 GB-46.250.243.5...
   network: tcp
   port: '50394'
   server: 46.250.243.56
