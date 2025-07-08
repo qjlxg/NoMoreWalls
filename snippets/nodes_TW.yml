@@ -9,3 +9,17 @@ proxies:
   tls: false
   type: vmess
   uuid: fe797d32-6607-4b46-8e39-c4fb1e3c0872
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW-111.243.71.24-5217
+  network: ws
+  port: 80
+  server: twjxlnnoljxc2.jkhkgj.xyz
+  servername: file.dingtalk.com
+  tls: false
+  type: vmess
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      Host: twjxlnnoljxc2.jkhkgj.xyz
+    path: /market/tw?ed=512

@@ -1,25 +1,1144 @@
 proxies:
-- name: WS² | 🇩🇪ALL ²@SkiVpn🏂
-  network: httpupgrade
-  port: 2052
-  server: visa.com
-  tls: false
+- name: Google+LLC+(IN)
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 3124e283-2c26-4d3b-a259-2d12984d60a5
   ws-opts:
     headers:
-      Host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudnss.loveiran.top
-    path: '%2FTelegram%2CV2RAXX%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  name: '@v2reyy #22489'
-  network: tcp
-  port: '443'
-  server: 167.235.205.182
-  servername: ''
+      Host: cf.vless.sandesh.fr
+    path: '%2Fgcp3'
+- name: The+Pinnacle+Group+Inc+(IN)
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: 4e0531a6-a356-4f01-b281-d3fe6e1d7f94
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2FPinnacle'
+- name: 'Google+LLC+(IN)&quot;)"><i cla... #5'
+  port: 80
+  server: jio.sandeshsahu.tech
   tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+  type: vless
+  uuid: 28d61bbf-f244-49cd-9d3b-97d5ba5bc9b1
+  ws-opts:
+    path: '%2Fgcp2'
+- name: 'The+Pinnacle+Group+Inc+(IN)</p... #1'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 4e0531a6-a356-4f01-b281-d3fe6e1d7f94
+- name: Microsoft+Corporation+(IN)</p>
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 224b15b3-9517-46e2-95c1-79caef0a2ebb
+  ws-opts:
+    path: '%2Fazure2'
+- name: DigitalOcean,+LLC+(IN)
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: ad960a92-aabb-435b-a826-0cfae78f6158
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fdigtalocean4'
+- name: 'The+Constant+Company,+LLC+(IN)... #1'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: efd87a9f-dea3-4f64-ab0e-bb83f184352f
+- name: 'DigitalOcean,+LLC+(IN) #1'
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: 5f2f26e9-5ea2-4a36-bdaf-55036406ad27
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fdigtalocean2'
+- name: 'DigitalOcean,+LLC+(IN)&quot;)"... #5'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 2a3f151d-e9b6-4c92-853b-7e16e1e3c927
+- name: 'DigitalOcean,+LLC+(IN)&quot;)"... #4'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: ad960a92-aabb-435b-a826-0cfae78f6158
+- name: PDR+(IN)</p>
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: c26f9814-99f5-4462-86cf-c638330494a5
+- name: Microsoft+Corporation+(IN)
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: c0071ce1-e582-40bc-a5a2-a4b38ce3727c
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fazure'
+- name: 'DigitalOcean,+LLC+(IN)</p> #6'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 31a25db0-9aa2-490a-8c9f-187c4dbc3d63
+  ws-opts:
+    path: '%2Fdigtalocean3'
+- name: 'Microsoft+Corporation+(IN)</p> #4'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: c0071ce1-e582-40bc-a5a2-a4b38ce3727c
+- name: 'Google+LLC+(IN) #1'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 68df5f77-b7b1-40f5-98b3-52d998b8d42b
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fgcp3'
+- name: Tata+Communications+Limited+(I...
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: ba6a8f80-b178-4e83-851b-b2741cdee480
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Ftata'
+- name: 'Tata+Communications+Limited+(I... #3'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 039bc98b-2b5c-4979-b94b-f2d8fb2be2e4
+- name: 'Google+LLC+(IN)</p> #4'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 3124e283-2c26-4d3b-a259-2d12984d60a5
+- name: 'Google+LLC+(IN)&quot;)"><i cla... #2'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 57cfd62b-77ba-4e4f-a58d-79205279c3fc
+- name: 'DigitalOcean,+LLC+(IN)</p> #9'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 5f2f26e9-5ea2-4a36-bdaf-55036406ad27
+- name: 'Microsoft+Corporation+(IN)</p> #5'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 3eb9320b-c2dd-4ecd-b6b3-3046ea83a534
+  ws-opts:
+    path: '%2Fazure3'
+- name: 'DigitalOcean,+LLC+(IN)</p> #4'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 4c8c3076-0676-4763-b5d7-d4817d7ee002
+- name: 'DigitalOcean,+LLC+(IN)</p> #3'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 16ae798a-f098-4c10-a86f-e69643dfef26
+- name: 'DigitalOcean,+LLC+(IN) #2'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 05ecb999-0347-4a1f-a3f2-b5e1edb3b529
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fdigtalocean4'
+- name: 'Google+LLC+(IN)&quot;)"><i cla... #3'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 9f71b431-cd47-484f-93be-b6effa7e5d1b
+- name: 'Google+LLC+(IN)</p> #5'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 210f577f-e6ef-4b16-a364-cfbba38c12ea
+  ws-opts:
+    path: '%2Fgcp'
+- name: 'The+Pinnacle+Group+Inc+(IN)&qu... #1'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 9c8b8764-4f5a-4476-b05f-b361618d23f7
+  ws-opts:
+    path: '%2FPinnacle'
+- name: 'Microsoft+Corporation+(IN)</p> #6'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: d20a36dc-9e2e-4c11-8a43-584ef9a9046b
+- name: 'Microsoft+Corporation+(IN) #1'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 3eb9320b-c2dd-4ecd-b6b3-3046ea83a534
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fazure3'
+- name: 'Microsoft+Corporation+(IN) #2'
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: 23b2782f-2408-4948-b6eb-c8d802991a6c
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fazure4'
+- name: 'DigitalOcean,+LLC+(IN)</p> #7'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: dcb255ec-e0ab-45e4-8f8f-a0d6cebb66a6
+  ws-opts:
+    path: '%2Fdigtalocean5'
+- name: 'DigitalOcean,+LLC+(IN)&quot;)"... #8'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 05ecb999-0347-4a1f-a3f2-b5e1edb3b529
+  ws-opts:
+    path: '%2Fdigtalocean4'
+- name: 'Tata+Communications+Limited+(I... #11'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 88d3d426-c736-4061-836f-47801950e5ce
+- name: 'Microsoft+Corporation+(IN)</p> #2'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 4939ee85-5af2-409b-93ff-2a5d2f526b51
+  ws-opts:
+    path: '%2Fazure4'
+- name: 'The+Pinnacle+Group+Inc+(IN) #1'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 9c8b8764-4f5a-4476-b05f-b361618d23f7
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2FPinnacle'
+- name: 'Microsoft+Corporation+(IN) #3'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 4939ee85-5af2-409b-93ff-2a5d2f526b51
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fazure4'
+- name: 'Microsoft+Corporation+(IN)&quo... #7'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 5842e924-e895-4e6f-8b18-bca257eb5628
+  ws-opts:
+    path: '%2Fazure'
+- name: 'DigitalOcean,+LLC+(IN) #3'
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: 4c8c3076-0676-4763-b5d7-d4817d7ee002
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fdigtalocean'
+- name: 'DigitalOcean,+LLC+(IN) #4'
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: 16ae798a-f098-4c10-a86f-e69643dfef26
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fdigtalocean5'
+- name: 'Tata+Communications+Limited+(I... #6'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: ba6a8f80-b178-4e83-851b-b2741cdee480
+  ws-opts:
+    path: '%2Ftata'
+- name: 'Microsoft+Corporation+(IN)&quo... #5'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 23b2782f-2408-4948-b6eb-c8d802991a6c
+- name: The+Constant+Company,+LLC+(IN)
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 165947f0-48b8-4b02-92cc-db9a5016b777
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fvultr'
+- name: 'Microsoft+Corporation+(IN) #4'
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: 2e2ca498-fe17-49ff-923a-799470297e07
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fazure2'
+- name: 'Google+LLC+(IN)</p> #3'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 68df5f77-b7b1-40f5-98b3-52d998b8d42b
+  ws-opts:
+    path: '%2Fgcp3'
+- name: 'Tata+Communications+Limited+(I... #9'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 8b8b9805-fe86-4b54-aeb1-12c7874e93b3
+  ws-opts:
+    path: '%2Fjio'
+- name: 'DigitalOcean,+LLC+(IN) #5'
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: 2a3f151d-e9b6-4c92-853b-7e16e1e3c927
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fdigtalocean3'
+- name: 'DigitalOcean,+LLC+(IN) #6'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: dcb255ec-e0ab-45e4-8f8f-a0d6cebb66a6
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fdigtalocean5'
+- name: 'DigitalOcean,+LLC+(IN)&quot;)"... #9'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 07744c12-e5b5-42f1-b10b-c01e7865aa86
+  ws-opts:
+    path: '%2Fdigtalocean2'
+- name: 'The+Constant+Company,+LLC+(IN)... #3'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 165947f0-48b8-4b02-92cc-db9a5016b777
+  ws-opts:
+    path: '%2Fvultr'
+- name: 'DigitalOcean,+LLC+(IN)</p> #8'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 96c7ad68-d269-43db-80bc-dbd4d9b99482
+  ws-opts:
+    path: '%2Fdigtalocean'
+- name: PDR+(IN)
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: c26f9814-99f5-4462-86cf-c638330494a5
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fpdr'
+- name: 'Google+LLC+(IN) #2'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 210f577f-e6ef-4b16-a364-cfbba38c12ea
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fgcp'
+- name: 'The+Constant+Company,+LLC+(IN) #1'
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: efd87a9f-dea3-4f64-ab0e-bb83f184352f
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fvultr'
+- name: 'Google+LLC+(IN) #3'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 28d61bbf-f244-49cd-9d3b-97d5ba5bc9b1
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fgcp2'
+- name: 'PDR+(IN) #1'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 99aff6fe-e7fc-42f5-9987-4329af40cfaf
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fpdr'
+- name: 'Tata+Communications+Limited+(I... #7'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 8b8b9805-fe86-4b54-aeb1-12c7874e93b3
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fjio'
+- name: 'DigitalOcean,+LLC+(IN) #7'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 07744c12-e5b5-42f1-b10b-c01e7865aa86
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fdigtalocean2'
+- name: 'Tata+Communications+Limited+(I... #8'
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: 039bc98b-2b5c-4979-b94b-f2d8fb2be2e4
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Ftata'
+- name: 'Microsoft+Corporation+(IN) #5'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 224b15b3-9517-46e2-95c1-79caef0a2ebb
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fazure2'
+- name: 'Microsoft+Corporation+(IN) #6'
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: d20a36dc-9e2e-4c11-8a43-584ef9a9046b
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fazure3'
+- name: 'DigitalOcean,+LLC+(IN) #8'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 31a25db0-9aa2-490a-8c9f-187c4dbc3d63
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fdigtalocean3'
+- name: 'Microsoft+Corporation+(IN)</p> #7'
+  port: 443
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 2e2ca498-fe17-49ff-923a-799470297e07
+- name: 'DigitalOcean,+LLC+(IN) #9'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 96c7ad68-d269-43db-80bc-dbd4d9b99482
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fdigtalocean'
+- name: 'PDR+(IN)&quot;)"><i class="fa ... #1'
+  port: 80
+  server: jio.sandeshsahu.tech
+  tls: false
+  type: vless
+  uuid: 99aff6fe-e7fc-42f5-9987-4329af40cfaf
+  ws-opts:
+    path: '%2Fpdr'
+- name: 'Tata+Communications+Limited+(I... #10'
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: 88d3d426-c736-4061-836f-47801950e5ce
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fjio'
+- name: 'Microsoft+Corporation+(IN) #7'
+  network: ws
+  port: 80
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: false
+  type: vless
+  uuid: 5842e924-e895-4e6f-8b18-bca257eb5628
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fazure'
+- name: 'Google+LLC+(IN) #4'
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: 9f71b431-cd47-484f-93be-b6effa7e5d1b
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fgcp'
+- name: 'Google+LLC+(IN) #5'
+  network: ws
+  port: 443
+  server: jio.sandeshsahu.tech
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  uuid: 57cfd62b-77ba-4e4f-a58d-79205279c3fc
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: '%2Fgcp2'
+- name: 'DigitalOcean,+LLC+(IN)&quot;)"... #15'
+  port: 443
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: a9f9df18-4caa-443d-b199-62d72945b05a
+- name: 'Microsoft+Corporation+(IN)</p> #12'
+  port: 443
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 1f2a74bd-7f6f-40e7-bad6-9006eb12d464
+- name: 'DigitalOcean,+LLC+(IN)</p> #16'
+  port: 80
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: bd7f7563-e539-4a76-a2e8-294885997d16
+  ws-opts:
+    path: '%2Fdo4'
+- name: 'DigitalOcean,+LLC+(IN)</p> #17'
+  port: 80
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 97d71c6d-232b-4d07-8758-d8da9bb9843b
+  ws-opts:
+    path: '%2Fdo5'
+- name: 'DigitalOcean,+LLC+(IN)&quot;)"... #17'
+  port: 443
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: dbe36808-c788-4d1c-839a-795413bc93af
+- name: 'Tata+Communications+Limited+(I... #21'
+  port: 80
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: ea97828c-1798-43aa-ad20-f982e350289b
+  ws-opts:
+    path: '%2Ftata'
+- name: 'DigitalOcean,+LLC+(IN)</p> #14'
+  port: 80
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 1a485986-69bb-4779-833d-0b45a82587c6
+  ws-opts:
+    path: '%2Fdo2'
+- name: 'Microsoft+Corporation+(IN) #8'
+  network: ws
+  port: 443
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: true
+  type: vless
+  uuid: 9afc2326-1e24-42b3-8e5a-c256d724a661
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fazure2'
+- name: 'Google+LLC+(IN) #6'
+  network: ws
+  port: 443
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: true
+  type: vless
+  uuid: 111b8846-aa65-408a-b3f7-6b3f68a32b1d
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fgcp'
+- name: 'DigitalOcean,+LLC+(IN) #10'
+  network: ws
+  port: 443
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: true
+  type: vless
+  uuid: 83432b01-fcce-45f4-8323-b9fea374bd87
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fdo5'
+- name: 'Microsoft+Corporation+(IN) #9'
+  network: ws
+  port: 80
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: b573648d-7ac1-465f-a56d-3c3e0772ef3e
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fazure2'
+- name: 'Microsoft+Corporation+(IN)</p> #8'
+  port: 80
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: b573648d-7ac1-465f-a56d-3c3e0772ef3e
+  ws-opts:
+    path: '%2Fazure2'
+- name: 'Microsoft+Corporation+(IN)</p> #14'
+  port: 80
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 8f542352-a7b5-4ebb-afe6-2f68d9042b59
+  ws-opts:
+    path: '%2Fazure4'
+- name: 'DigitalOcean,+LLC+(IN)</p> #18'
+  port: 443
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 706bce9c-74a1-4157-ad0a-5ba7bbe0ddbf
+- name: 'Google+LLC+(IN)&quot;)"><i cla... #6'
+  port: 80
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: d117f4cc-d67f-4b36-b21a-957eed20dd61
+  ws-opts:
+    path: '%2Fgcp'
+- name: 'Tata+Communications+Limited+(I... #13'
+  network: ws
+  port: 80
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: ea97828c-1798-43aa-ad20-f982e350289b
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Ftata'
+- name: 'DigitalOcean,+LLC+(IN) #11'
+  network: ws
+  port: 443
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: true
+  type: vless
+  uuid: c7704d2e-fcda-4f19-9dca-3634f988ed92
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fdo3'
+- name: 'DigitalOcean,+LLC+(IN)&quot;)"... #16'
+  port: 80
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 7d62aefa-c62a-4c41-bcaa-126fc9adc10a
+  ws-opts:
+    path: '%2Fdo'
+- name: 'DigitalOcean,+LLC+(IN)</p> #13'
+  port: 443
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: c7704d2e-fcda-4f19-9dca-3634f988ed92
+- name: 'DigitalOcean,+LLC+(IN) #12'
+  network: ws
+  port: 80
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 97d71c6d-232b-4d07-8758-d8da9bb9843b
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fdo5'
+- name: 'Microsoft+Corporation+(IN)&quo... #12'
+  port: 443
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: e38cea2b-d76f-46bc-9863-e2b2ae48cef7
+- name: 'Microsoft+Corporation+(IN)&quo... #15'
+  port: 443
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 9afc2326-1e24-42b3-8e5a-c256d724a661
+- name: 'Microsoft+Corporation+(IN)&quo... #14'
+  port: 80
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: f71c04c4-445a-4788-a3f3-45de03ed758a
+  ws-opts:
+    path: '%2Fazure3'
+- name: 'DigitalOcean,+LLC+(IN) #13'
+  network: ws
+  port: 443
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: true
+  type: vless
+  uuid: dbe36808-c788-4d1c-839a-795413bc93af
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fdo4'
+- name: 'Microsoft+Corporation+(IN)</p> #13'
+  port: 443
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: cfb3f183-821d-4d1c-afa2-248f4682b216
+- name: 'Google+LLC+(IN)</p> #9'
+  port: 443
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 111b8846-aa65-408a-b3f7-6b3f68a32b1d
+- name: 'DigitalOcean,+LLC+(IN) #14'
+  network: ws
+  port: 80
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 1a485986-69bb-4779-833d-0b45a82587c6
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fdo2'
+- name: 'DigitalOcean,+LLC+(IN) #15'
+  network: ws
+  port: 80
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 7d62aefa-c62a-4c41-bcaa-126fc9adc10a
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fdo'
+- name: 'Microsoft+Corporation+(IN) #10'
+  network: ws
+  port: 443
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: true
+  type: vless
+  uuid: 1f2a74bd-7f6f-40e7-bad6-9006eb12d464
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fazure3'
+- name: 'Tata+Communications+Limited+(I... #18'
+  port: 443
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: abe730cf-5df8-4e3d-a537-7dbab51c4425
+- name: 'Microsoft+Corporation+(IN) #11'
+  network: ws
+  port: 443
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: true
+  type: vless
+  uuid: cfb3f183-821d-4d1c-afa2-248f4682b216
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fazure'
+- name: 'Microsoft+Corporation+(IN) #12'
+  network: ws
+  port: 80
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: f71c04c4-445a-4788-a3f3-45de03ed758a
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fazure3'
+- name: 'DigitalOcean,+LLC+(IN) #16'
+  network: ws
+  port: 443
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: true
+  type: vless
+  uuid: a9f9df18-4caa-443d-b199-62d72945b05a
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fdo'
+- name: 'DigitalOcean,+LLC+(IN)&quot;)"... #19'
+  port: 443
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 83432b01-fcce-45f4-8323-b9fea374bd87
+- name: 'Tata+Communications+Limited+(I... #17'
+  port: 80
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: c2d2c212-9e50-4938-b331-1878ce2fd930
+  ws-opts:
+    path: '%2Fjio'
+- name: 'Microsoft+Corporation+(IN) #13'
+  network: ws
+  port: 80
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 8f542352-a7b5-4ebb-afe6-2f68d9042b59
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fazure4'
+- name: 'DigitalOcean,+LLC+(IN) #17'
+  network: ws
+  port: 443
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: true
+  type: vless
+  uuid: 706bce9c-74a1-4157-ad0a-5ba7bbe0ddbf
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fdo2'
+- name: 'Google+LLC+(IN) #7'
+  network: ws
+  port: 80
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: d117f4cc-d67f-4b36-b21a-957eed20dd61
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fgcp'
+- name: 'Microsoft+Corporation+(IN)</p> #15'
+  port: 80
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 056ee30a-a2b0-4923-9f3b-e16e8479bd75
+  ws-opts:
+    path: '%2Fazure'
+- name: 'Tata+Communications+Limited+(I... #16'
+  network: ws
+  port: 80
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: c2d2c212-9e50-4938-b331-1878ce2fd930
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fjio'
+- name: 'DigitalOcean,+LLC+(IN)</p> #19'
+  port: 80
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 68071354-7734-4028-826a-1384fb1e8596
+  ws-opts:
+    path: '%2Fdo3'
+- name: 'Microsoft+Corporation+(IN) #14'
+  network: ws
+  port: 80
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 056ee30a-a2b0-4923-9f3b-e16e8479bd75
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fazure'
+- name: 'Google+LLC+(IN) #8'
+  network: ws
+  port: 443
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: true
+  type: vless
+  uuid: 9c51f9e3-5111-426b-ba05-b58fe633be25
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fgcp2'
+- name: 'Google+LLC+(IN)</p> #8'
+  port: 443
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 9c51f9e3-5111-426b-ba05-b58fe633be25
+- name: 'Tata+Communications+Limited+(I... #20'
+  port: 443
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: d74c4613-771d-4270-a311-06173a9a5f5a
+- name: 'Microsoft+Corporation+(IN) #15'
+  network: ws
+  port: 443
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: true
+  type: vless
+  uuid: e38cea2b-d76f-46bc-9863-e2b2ae48cef7
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fazure4'
+- name: 'Google+LLC+(IN)&quot;)"><i cla... #9'
+  port: 80
+  server: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: cdd400e9-e3eb-4816-9e91-721b38216dd5
+  ws-opts:
+    path: '%2Fgcp2'
+- name: 'DigitalOcean,+LLC+(IN) #18'
+  network: ws
+  port: 80
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: 68071354-7734-4028-826a-1384fb1e8596
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fdo3'
+- name: 'Google+LLC+(IN) #9'
+  network: ws
+  port: 80
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: cdd400e9-e3eb-4816-9e91-721b38216dd5
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fgcp2'
+- name: 'DigitalOcean,+LLC+(IN) #19'
+  network: ws
+  port: 80
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: false
+  type: vless
+  uuid: bd7f7563-e539-4a76-a2e8-294885997d16
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fdo4'
+- name: 'Tata+Communications+Limited+(I... #22'
+  network: ws
+  port: 443
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: true
+  type: vless
+  uuid: d74c4613-771d-4270-a311-06173a9a5f5a
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Fjio'
+- name: 'Tata+Communications+Limited+(I... #23'
+  network: ws
+  port: 443
+  server: pvt.moonop.tech
+  servername: pvt.moonop.tech
+  tls: true
+  type: vless
+  uuid: abe730cf-5df8-4e3d-a537-7dbab51c4425
+  ws-opts:
+    headers:
+      Host: pvt.moonop.tech
+    path: '%2Ftata'
 - alterId: 0
   cipher: auto
   name: 🔒 VM-TCP-NA 🇮🇳 IN-94.136.185.2...
@@ -30,15 +1149,1738 @@ proxies:
   tls: false
   type: vmess
   uuid: b01c7ef9-33ec-41f6-bfbf-77ddc4d21649
-- name: 🇳[openproxylist.com] trojan-IN
+- name: '[openproxylist.com] trojan-IN'
   network: ws
   password: ttfang
-  port: 2053
-  server: 166.0.244.206
+  port: 443
+  server: 13.233.5.49
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
   ws-opts:
     headers:
       Host: ttfang.fange.me
+    path: '%2F'
+- name: (AE) Zenlayer INC-[Tls]-[TR]
+  password: dc418173-eb67-49b0-8ae8-73899618b65e
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (IN) Readydedis-[Tls]-[VL]
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: e98e0ffa-93dc-4518-b57b-2fb8161363e5
+  ws-opts:
     path: /
+- name: (IN) Akamai Technologies-[Tls]...
+  password: c10f939c-e60f-4935-8618-4e0a7d4636a7
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (IN) Digitalocean-[Tls]-[VL]
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 9033d1e1-e308-4c5a-ab7c-925c3c1090cf
+  ws-opts:
+    path: /
+- name: (IN) OVH SAS-[Tls]-[VL]
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ca933bf8-14e4-4767-a1e6-beb3b8ad0670
+  ws-opts:
+    path: /
+- name: (AE) Zenlayer INC-[Tls]-[VL]
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 43e14603-b046-4c20-b7fa-2a69bd903c0f
+  ws-opts:
+    path: /
+- name: (IN) OVH SAS-[Tls]-[TR]
+  password: d64514a7-ec1d-4bc2-b74f-ca63909ad494
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) Akamai Technologies-[Tls]... #1'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: a6d39c89-617c-400d-b111-2d2c777a08cf
+  ws-opts:
+    path: /
+- name: '(IN) OVH SAS-[Tls]-[VL] #1'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: fa2c0725-f95e-43cd-9b3b-254542302d11
+  ws-opts:
+    path: /
+- name: (IN) M S HARVIL MEDIA-[Tls]-[V...
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 62b067ed-5900-425a-9443-ccb2a8da0d7e
+  ws-opts:
+    path: /
+- name: '(IN) Oracle Corporation-[Tls]-... #1'
+  password: 1c19813b-ace7-4e63-a820-b119f2484015
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) The Constant Company-[Tls... #1'
+  password: 32a80c1a-febc-4532-ba48-8682344acac6
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) Oracle Corporation-[Tls]-... #2'
+  password: 0e9f54ff-25b8-4099-a55e-fdcc6035166a
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) Oracle Corporation-[Tls]-... #3'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: e534e3be-27be-42a3-a915-72e70d90f901
+  ws-opts:
+    path: /
+- name: '(IN) Oracle Corporation-[Tls]-... #4'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 84dd8926-2713-4bb8-9234-b54f63ecaf56
+  ws-opts:
+    path: /
+- name: (IN) Digitalocean-[Tls]-[TR]
+  password: f9ad9487-6303-449a-a11c-c9c66c952c36
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) The Constant Company-[Tls... #2'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ab245add-1f24-4085-991a-6622f2ecd647
+  ws-opts:
+    path: /
+- name: (IN) M S HARVIL MEDIA-[Tls]-[T...
+  password: 5895e3c1-ec91-484b-a3ae-d6e2f4ce8e28
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) Reliance Jio Infocomm Lim... #1'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ab1bef66-ce8e-40fd-bc94-d342db9913e9
+  ws-opts:
+    path: /
+- name: '(IN) Digitalocean-[Tls]-[VL] #1'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: bf4df4fe-03b5-44e4-bc04-d7f9d9223cc3
+  ws-opts:
+    path: /
+- name: '(IN) The Constant Company-[Tls... #3'
+  password: 579729c1-3879-4479-beb3-b5eeda78fd0e
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) Akamai Technologies-[Tls]... #3'
+  password: 57db5eec-834a-4615-adb0-3cfbe25ec8d8
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) M S HARVIL MEDIA-[Tls]-[T... #1'
+  password: f7f6ddf2-eaeb-4599-b0e4-b291bba5ad4f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) Digitalocean-[Tls]-[TR] #1'
+  password: 254c29d4-beba-4660-9239-56347cad0f32
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) The Constant Company-[Tls... #5'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 06dd5263-f2db-4bef-89bd-5dafd04e6808
+  ws-opts:
+    path: /
+- name: (IN) PDR-[Tls]-[VL]
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 0428a9e0-228a-4a50-8c67-257e05ed42f7
+  ws-opts:
+    path: /
+- name: '(IN) Digitalocean-[Tls]-[TR] #2'
+  password: c0d1ef9a-8d1c-47d6-ab1f-855b15b45f7f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) Oracle Corporation-[Tls]-... #7'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1f477da0-bd19-42e9-9f53-ff76189ab71d
+  ws-opts:
+    path: /
+- name: '(IN) The Constant Company-[Tls... #7'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: accf8ba0-94e6-4a6c-8255-a7a8e27b8804
+  ws-opts:
+    path: /
+- name: '(IN) Akamai Technologies-[Tls]... #4'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 35330439-8ebe-4262-b51a-f891b0a5077a
+  ws-opts:
+    path: /
+- name: '(IN) Reliance Jio Infocomm Lim... #2'
+  password: cb900db2-6065-4815-b89b-68eff1d58602
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) Oracle Corporation-[Tls]-... #8'
+  password: 65199150-a355-4edb-99c2-82d922016776
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) OVH SAS-[Tls]-[TR] #1'
+  password: 9d461001-144b-417d-b464-94ff83384d03
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) M S HARVIL MEDIA-[Tls]-[V... #1'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 9f392ee3-d94e-44b5-99a5-eef70ab526dc
+  ws-opts:
+    path: /
+- name: '(IN) The Constant Company-[Tls... #8'
+  password: 93621be6-7e3d-4f0d-b077-92562bc0f4a5
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN) Digitalocean-[Tls]-[VL] #2'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 23718f2f-a14e-40cd-bbea-e16a632b22b4
+  ws-opts:
+    path: /
+- name: (IN) Readydedis-[Tls]-[TR]
+  password: 2f8ee1cf-4189-4d52-a508-3d64451fc483
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (IN) PDR-[Tls]-[TR]
+  password: ba936aa9-b8fa-4001-94c6-8e0ba8e27faa
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Akamai Technologies-[Tls]''... #1'
+  password: 883d6cb4-ce8e-4f26-8152-521de9f7ada6
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- client-fingerprint: randomized
+  name: (IN)OVH SAS-[NTls]
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 0bb25e82-f2a2-414e-8d14-0d968a3e7967
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F148.113.43.228%3D2053'
+- name: '(IN)M S HARVIL MEDIA-[Tls]'')">... #2'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 84a53cdd-4aa5-49ef-a4d3-c45e79fe9c8e
+- name: (IN)Reliance Jio Infocomm Limi...
+  network: ws
+  password: f9dacb69-12f1-4116-bcea-2adc919a3542
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F115.242.180.202%3D19000'
+- name: '(IN)The Constant Company-[NTls... #15'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 5caee135-7470-4f1f-a084-e03ee7070e66
+- name: '(IN)The Constant Company-[Tls]... #6'
+  password: bb98a7e8-be6e-4eeb-a6cd-0fd6399223d8
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (IN)Oracle Corporation-[Tls]
+  network: ws
+  password: ff57929b-ca6e-489e-b367-0769f0b055fd
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F146.56.48.138%3D23010'
+- name: '(IN)M S HARVIL MEDIA-[Tls]</pr... #1'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 30100ecd-ab31-490c-b286-d51263f16d29
+- name: '(IN)The Constant Company-[NTls... #1'
+  network: ws
+  password: 79737ac8-9a83-49bb-a893-e500aee7b629
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F65.20.82.22%3D443'
+- name: (AE)Zenlayer INC-[NTls]')">Cop...
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: a543a5c9-7382-47db-9adb-95702dbc99a3
+- name: (IN)Readydedis-[Tls]</pre>
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: cd4369e2-4db1-407b-8c16-913cf51d1d5f
+- name: '(IN)OVH SAS-[Tls]</pre> #2'
+  password: dfab489b-541e-4650-a71e-2cc9bdb86285
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- client-fingerprint: randomized
+  name: (IN)The Constant Company-[Tls]
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 3df2cfb1-6772-4d41-a86f-486c14ef0eea
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F65.20.82.22%3D443'
+- name: '(IN)OVH SAS-[Tls]</pre> #3'
+  password: 72878ba9-a7cf-438c-92be-7fe7a16ddb94
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (IN)Digitalocean-[Tls]
+  network: ws
+  password: 76471e7c-1261-4bcd-ad9e-95deeee7c2fe
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F64.227.184.166%3D8443'
+- name: '(IN)Akamai Technologies-[NTls]... #7'
+  password: b56f80e8-c791-4774-9135-1f65c373e883
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (IN)PDR-[NTls]')">Copy Trojan ...
+  password: 7986cb5b-c156-4ddf-8f50-e759dbcfe651
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)The Constant Company-[NTls... #3'
+  password: 030bdabe-f8be-47d2-bd3f-ec37e935f572
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)M S HARVIL MEDIA-[NTls]'')"... #3'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 8c4a85be-7efb-46b9-b20e-1c781c050b2c
+- name: '(IN)Digitalocean-[NTls]</pre> #2'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 0eab73c6-a1d7-492c-89d0-8ba39b8d47e8
+- name: '(IN)OVH SAS-[NTls]'')">Copy Tro... #1'
+  password: 0ae969e1-778e-4eb7-9555-150ba2e20815
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Digitalocean-[NTls]'')">Cop... #2'
+  password: 3db5d27b-5f1c-4960-8e34-d2b28c81a027
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Reliance Jio Infocomm Limi... #2'
+  password: f49a8122-674f-43ec-b5e3-c28340382ab8
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Microsoft Corporation-[NTl... #2'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 353ba8a6-4714-4c02-8f8a-72ef192b3a2e
+- name: (IN)PDR-[Tls]
+  network: ws
+  password: 324c4a6a-5d0d-48a5-a44a-4a031fa77816
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F216.10.243.159%3D443'
+- name: '(IN)Oracle Corporation-[NTls]''... #4'
+  password: fecff3c2-7cb9-4510-ae70-fa5a4066057c
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)The Constant Company-[NTls... #4'
+  network: ws
+  password: 6ae06fff-ad5d-4323-878d-7935204de82f
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F65.20.76.125%3D8443'
+- name: '(IN)Oracle Corporation-[Tls]</... #5'
+  password: ff57929b-ca6e-489e-b367-0769f0b055fd
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (IN)Akamai Technologies-[Tls]'...
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: db985534-8cf4-4d3d-ba18-9efc75a30d43
+- name: '(IN)Oracle Corporation-[NTls]''... #2'
+  password: 521f06de-913b-4e5a-a1aa-b2cdd4c9c41f
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)The Constant Company-[Tls] #1'
+  network: ws
+  password: 02de077f-8af0-4472-8d6b-0d8aed849d07
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F65.20.76.125%3D8443'
+- name: (IN)Oracle Corporation-[NTls]
+  network: ws
+  password: 521f06de-913b-4e5a-a1aa-b2cdd4c9c41f
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F146.56.48.138%3D23010'
+- name: '(IN)Digitalocean-[Tls]</pre> #3'
+  password: 4381b7b7-afee-4498-b4b5-7340347dd6c5
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)The Constant Company-[NTls... #13'
+  password: 6ae06fff-ad5d-4323-878d-7935204de82f
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- client-fingerprint: randomized
+  name: (IN)OVH SAS-[Tls]
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 80c311b7-b14e-4b5c-8474-dd262c3daeca
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F148.113.43.228%3D8443'
+- client-fingerprint: randomized
+  name: '(IN)OVH SAS-[NTls] #1'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 66d1f0ab-6e84-4626-9d70-7e4ed9aac590
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F148.113.43.228%3D8443'
+- name: (IN)M S HARVIL MEDIA-[Tls]
+  network: ws
+  password: 731cfdf4-2b43-4e94-86c3-a063cd2a11ab
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F166.0.244.206%3D2053'
+- name: '(IN)M S HARVIL MEDIA-[Tls]</pr... #3'
+  password: d04bfd7d-2c1e-4166-823a-2c2ecb579729
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)The Constant Company-[NTls... #6'
+  network: ws
+  password: 030bdabe-f8be-47d2-bd3f-ec37e935f572
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F65.20.74.136%3D2053'
+- name: '(IN)Microsoft Corporation-[Tls... #4'
+  password: c7e04b1f-9bd1-4117-a45a-ab0addf1f9b9
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Readydedis-[NTls]'')">Copy ... #1'
+  password: 51c37d2c-1b95-4129-9df3-a6d1dbb5d28c
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)The Constant Company-[Tls]... #3'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 0e5c19c3-10f4-493f-8eca-a1b840c62309
+- client-fingerprint: randomized
+  name: '(IN)Oracle Corporation-[Tls] #1'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 9aca42a3-dc78-4bf9-822f-3f4cba5ce756
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F146.56.48.138%3D23010'
+- name: (IN)PDR-[Tls]')">Copy Vless TL...
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: a6b61888-6a3f-4ec2-8423-98c34c5cfed0
+- name: (IN)PDR-[NTls]')">Copy Vless N...
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: de9e0e94-a23c-4d6b-8ee4-7693bd53b645
+- name: '(IN)Oracle Corporation-[NTls]''... #1'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 2637e8dd-0a1f-4d0b-bbd3-01ac59144653
+- name: '(IN)Digitalocean-[NTls]'')">Cop... #5'
+  password: 8992a3b9-901e-46e4-8376-cada70ccf512
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- client-fingerprint: randomized
+  name: '(IN)The Constant Company-[Tls] #2'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 942f29ba-8497-4cd3-9ca9-6d1b5acbe786
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F65.20.76.125%3D8443'
+- name: '(IN)The Constant Company-[NTls... #11'
+  password: 79737ac8-9a83-49bb-a893-e500aee7b629
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Oracle Corporation-[NTls]<... #4'
+  password: 9cfa29e0-d05f-4ea6-a4e7-93fda9bfbc96
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)OVH SAS-[Tls]'')">Copy Vles... #1'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 6840c18a-9915-4775-8559-f740b7fad1b5
+- client-fingerprint: randomized
+  name: '(IN)The Constant Company-[Tls] #3'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 0e5c19c3-10f4-493f-8eca-a1b840c62309
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F65.20.74.136%3D2053'
+- name: '(AE)Zenlayer INC-[Tls]'')">Copy... #1'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 0a25dc4a-3ee9-4323-bf6e-a9c6b2710741
+- name: '(IN)Akamai Technologies-[NTls]... #4'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 5b2e1edd-b90a-4572-89df-6c10e7873c78
+- name: '(IN)Akamai Technologies-[NTls]... #5'
+  password: cc456611-e674-4682-aebc-4e18baa704ec
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)The Constant Company-[Tls] #4'
+  network: ws
+  password: bb98a7e8-be6e-4eeb-a6cd-0fd6399223d8
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F65.20.82.22%3D443'
+- name: '(IN)OVH SAS-[NTls] #2'
+  network: ws
+  password: 0ae969e1-778e-4eb7-9555-150ba2e20815
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F148.113.43.228%3D8443'
+- name: '(IN)Microsoft Corporation-[Tls... #1'
+  network: ws
+  password: c7e04b1f-9bd1-4117-a45a-ab0addf1f9b9
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F20.235.105.146%3D443'
+- name: '(IN)Oracle Corporation-[NTls] #1'
+  network: ws
+  password: fecff3c2-7cb9-4510-ae70-fa5a4066057c
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F152.70.76.104%3D46000'
+- name: '(IN)Oracle Corporation-[Tls]'')... #2'
+  password: c1ece539-be89-49db-9ad3-0f41152c6028
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Reliance Jio Infocomm Limi... #10'
+  password: f9dacb69-12f1-4116-bcea-2adc919a3542
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- client-fingerprint: randomized
+  name: (AE)Zenlayer INC-[Tls]
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 0a25dc4a-3ee9-4323-bf6e-a9c6b2710741
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F98.98.236.58%3D15608'
+- name: '(IN)Oracle Corporation-[Tls]</... #1'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 9aca42a3-dc78-4bf9-822f-3f4cba5ce756
+- name: (IN)Akamai Technologies-[Tls]
+  network: ws
+  password: 6c23a0d1-81c4-4104-ae75-ffe9b77aeef2
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F172.105.62.71%3D2443'
+- name: (AE)Zenlayer INC-[NTls]
+  network: ws
+  password: 64cc3658-574b-43a3-ae48-2537de701b08
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F98.98.236.58%3D15608'
+- name: '(IN)The Constant Company-[NTls... #14'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 5d17c03b-db62-4f2d-952a-0190dba10f1c
+- name: '(IN)Digitalocean-[NTls]</pre> #4'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 5470dcf5-1057-47c0-ac12-5aa7f672de51
+- name: '(IN)M S HARVIL MEDIA-[Tls] #1'
+  network: ws
+  password: d04bfd7d-2c1e-4166-823a-2c2ecb579729
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F166.0.244.206%3D8443'
+- name: '(IN)OVH SAS-[NTls]</pre> #1'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 66d1f0ab-6e84-4626-9d70-7e4ed9aac590
+- name: (IN)M S HARVIL MEDIA-[NTls]
+  network: ws
+  password: e1108df3-681f-4650-9882-f1b068771964
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F166.0.244.206%3D2053'
+- name: '(IN)OVH SAS-[NTls]</pre> #2'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 0bb25e82-f2a2-414e-8d14-0d968a3e7967
+- name: '(IN)Oracle Corporation-[Tls] #2'
+  network: ws
+  password: c1ece539-be89-49db-9ad3-0f41152c6028
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F152.70.76.104%3D46000'
+- client-fingerprint: randomized
+  name: '(IN)Akamai Technologies-[Tls] #1'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 37542311-a478-4138-8e09-41d98c0fbf8b
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F172.232.112.240%3D587'
+- name: '(IN)Digitalocean-[Tls]'')">Copy... #5'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: fe033943-c69f-4833-b9f4-300be815a67a
+- name: '(IN)Oracle Corporation-[NTls]''... #5'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 633e816d-e7da-4b88-b755-5985eafb0d03
+- name: '(IN)The Constant Company-[Tls]... #10'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 3df2cfb1-6772-4d41-a86f-486c14ef0eea
+- name: '(AE)Zenlayer INC-[NTls]'')">Cop... #1'
+  password: 64cc3658-574b-43a3-ae48-2537de701b08
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- client-fingerprint: randomized
+  name: '(IN)M S HARVIL MEDIA-[NTls] #1'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 8c4a85be-7efb-46b9-b20e-1c781c050b2c
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F166.0.244.206%3D8443'
+- client-fingerprint: randomized
+  name: '(IN)Reliance Jio Infocomm Limi... #4'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 0e929b39-6ba6-421a-8499-58386dfcdb1e
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F115.242.180.202%3D19000'
+- name: (IN)OVH SAS-[Tls]')">Copy Vles...
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 80c311b7-b14e-4b5c-8474-dd262c3daeca
+- client-fingerprint: randomized
+  name: '(IN)The Constant Company-[NTls... #9'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 457f2093-2d15-49f6-9bf3-464077e60c79
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F65.20.74.136%3D2053'
+- client-fingerprint: randomized
+  name: '(IN)Microsoft Corporation-[Tls... #2'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: b4877b0f-392e-4f5d-a272-990d62c72b3e
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F20.235.105.146%3D443'
+- name: '(IN)M S HARVIL MEDIA-[NTls]</p... #2'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 4234a8c0-5504-4f2b-b4c0-44adfe757263
+- name: '(IN)M S HARVIL MEDIA-[NTls]</p... #1'
+  password: c3a83ffa-ad59-4f37-9d63-8efd4d86f142
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)M S HARVIL MEDIA-[NTls]</p... #3'
+  password: e1108df3-681f-4650-9882-f1b068771964
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(AE)Zenlayer INC-[Tls]</pre> #1'
+  password: 74ccbf6e-b14a-40c9-83bd-f44340d69a40
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Microsoft Corporation-[NTl... #3'
+  password: 40e116d0-4b47-4d5e-81d8-33a82a9407af
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)The Constant Company-[Tls]... #11'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 942f29ba-8497-4cd3-9ca9-6d1b5acbe786
+- name: '(IN)The Constant Company-[Tls]... #9'
+  password: 02de077f-8af0-4472-8d6b-0d8aed849d07
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Digitalocean-[NTls]'')">Cop... #4'
+  password: ad9836f5-199c-4b75-805a-53cbc9f2b75b
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)The Constant Company-[NTls... #12'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 457f2093-2d15-49f6-9bf3-464077e60c79
+- name: '(IN)OVH SAS-[NTls]</pre> #3'
+  password: afac8808-2a59-4e1a-be99-7f781d3627f3
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- client-fingerprint: randomized
+  name: '(IN)Oracle Corporation-[NTls] #2'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 633e816d-e7da-4b88-b755-5985eafb0d03
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F152.70.75.80%3D15805'
+- name: '(IN)Oracle Corporation-[NTls]<... #5'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: d07375a8-7ddd-42da-b863-8f174b8a8b13
+- name: (IN)PDR-[NTls]
+  network: ws
+  password: 7986cb5b-c156-4ddf-8f50-e759dbcfe651
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F216.10.243.159%3D443'
+- name: '(IN)M S HARVIL MEDIA-[NTls] #2'
+  network: ws
+  password: c3a83ffa-ad59-4f37-9d63-8efd4d86f142
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F166.0.244.206%3D8443'
+- name: '(IN)Oracle Corporation-[NTls] #3'
+  network: ws
+  password: 9cfa29e0-d05f-4ea6-a4e7-93fda9bfbc96
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F152.70.75.80%3D15805'
+- name: '(IN)Akamai Technologies-[Tls] #2'
+  network: ws
+  password: 883d6cb4-ce8e-4f26-8152-521de9f7ada6
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F172.232.112.240%3D587'
+- name: '(IN)Digitalocean-[Tls]</pre> #5'
+  password: 7b817935-97bf-4c4e-b7af-e57f3ade25e6
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Akamai Technologies-[NTls]... #6'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 16af9e70-7a87-4f4c-895c-be015b3827a4
+- client-fingerprint: randomized
+  name: '(IN)Oracle Corporation-[NTls] #4'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: d07375a8-7ddd-42da-b863-8f174b8a8b13
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F152.70.76.104%3D46000'
+- client-fingerprint: randomized
+  name: (IN)Readydedis-[Tls]
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: cd4369e2-4db1-407b-8c16-913cf51d1d5f
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F134.195.137.107%3D22473'
+- name: (IN)Akamai Technologies-[NTls]
+  network: ws
+  password: cc456611-e674-4682-aebc-4e18baa704ec
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F172.105.62.71%3D2443'
+- client-fingerprint: randomized
+  name: '(IN)M S HARVIL MEDIA-[NTls] #3'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 4234a8c0-5504-4f2b-b4c0-44adfe757263
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F166.0.244.206%3D2053'
+- name: '(IN)Akamai Technologies-[Tls]''... #3'
+  password: 6c23a0d1-81c4-4104-ae75-ffe9b77aeef2
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Oracle Corporation-[Tls] #3'
+  network: ws
+  password: b8c0476d-4b2f-4510-b840-2c20022246f2
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F152.70.75.80%3D15805'
+- name: '(IN)PDR-[Tls]</pre> #1'
+  password: 324c4a6a-5d0d-48a5-a44a-4a031fa77816
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Akamai Technologies-[NTls] #1'
+  network: ws
+  password: b56f80e8-c791-4774-9135-1f65c373e883
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F172.232.112.240%3D587'
+- name: '(IN)Digitalocean-[Tls]</pre> #4'
+  password: 76471e7c-1261-4bcd-ad9e-95deeee7c2fe
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- client-fingerprint: randomized
+  name: '(IN)M S HARVIL MEDIA-[Tls] #2'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 84a53cdd-4aa5-49ef-a4d3-c45e79fe9c8e
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F166.0.244.206%3D8443'
+- client-fingerprint: randomized
+  name: '(IN)Digitalocean-[Tls] #1'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 93cfa93b-bb90-4173-9579-c784fbb90af0
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F139.59.48.26%3D8443'
+- client-fingerprint: randomized
+  name: '(IN)Digitalocean-[Tls] #2'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: fe033943-c69f-4833-b9f4-300be815a67a
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F64.227.184.166%3D8443'
+- name: '(IN)Digitalocean-[Tls]'')">Copy... #4'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 93cfa93b-bb90-4173-9579-c784fbb90af0
+- name: (IN)Digitalocean-[NTls]
+  network: ws
+  password: 8992a3b9-901e-46e4-8376-cada70ccf512
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F64.227.184.166%3D8443'
+- name: '(IN)Digitalocean-[Tls]</pre> #2'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: e0d7dcdd-b67f-4ac1-a325-8aa9c0b314da
+- name: '(IN)Microsoft Corporation-[Tls... #5'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: b4877b0f-392e-4f5d-a272-990d62c72b3e
+- name: '(IN)Oracle Corporation-[Tls]</... #2'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 2acfb687-3450-45e0-96fe-6478d6726cea
+- client-fingerprint: randomized
+  name: '(IN)PDR-[Tls] #1'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: a6b61888-6a3f-4ec2-8423-98c34c5cfed0
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F216.10.243.159%3D443'
+- client-fingerprint: randomized
+  name: '(IN)Oracle Corporation-[Tls] #4'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 2acfb687-3450-45e0-96fe-6478d6726cea
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F152.70.75.80%3D15805'
+- name: '(IN)Digitalocean-[NTls]'')">Cop... #3'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 435ca08a-0d18-4fb2-be4c-050486b7a15a
+- name: '(IN)Reliance Jio Infocomm Limi... #11'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 0e929b39-6ba6-421a-8499-58386dfcdb1e
+- name: '(IN)Readydedis-[NTls]</pre> #1'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 1d493999-0fda-43a3-b289-72502a42405f
+- client-fingerprint: randomized
+  name: '(IN)Oracle Corporation-[Tls] #5'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 9697b4d0-cc69-40df-96c0-582d74dc4403
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F152.70.76.104%3D46000'
+- name: '(IN)Reliance Jio Infocomm Limi... #8'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: a1f27bf1-315f-47a4-9208-757f13fb5058
+- client-fingerprint: randomized
+  name: '(IN)Digitalocean-[NTls] #1'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 5470dcf5-1057-47c0-ac12-5aa7f672de51
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F139.59.48.26%3D8443'
+- name: '(IN)M S HARVIL MEDIA-[Tls]'')">... #3'
+  password: 731cfdf4-2b43-4e94-86c3-a063cd2a11ab
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Digitalocean-[Tls] #3'
+  network: ws
+  password: 4381b7b7-afee-4498-b4b5-7340347dd6c5
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F128.199.18.189%3D2053'
+- name: '(IN)Akamai Technologies-[Tls]''... #2'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 37542311-a478-4138-8e09-41d98c0fbf8b
+- name: (IN)Readydedis-[Tls]')">Copy T...
+  password: 73677a2e-b63f-4db3-a453-c304732ac014
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Oracle Corporation-[Tls]'')... #4'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 9697b4d0-cc69-40df-96c0-582d74dc4403
+- name: '(IN)The Constant Company-[Tls] #5'
+  network: ws
+  password: 7064c9b5-6dd4-47f2-a0bb-71f053126463
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F65.20.74.136%3D2053'
+- name: '(IN)Oracle Corporation-[Tls]'')... #5'
+  password: b8c0476d-4b2f-4510-b840-2c20022246f2
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(IN)Reliance Jio Infocomm Limi... #7'
+  network: ws
+  password: f49a8122-674f-43ec-b5e3-c28340382ab8
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F115.242.180.202%3D19000'
+- name: '(IN)Digitalocean-[NTls] #2'
+  network: ws
+  password: ad9836f5-199c-4b75-805a-53cbc9f2b75b
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F128.199.18.189%3D2053'
+- name: '(IN)The Constant Company-[Tls]... #8'
+  password: 7064c9b5-6dd4-47f2-a0bb-71f053126463
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- client-fingerprint: randomized
+  name: '(IN)Digitalocean-[NTls] #3'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 435ca08a-0d18-4fb2-be4c-050486b7a15a
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F128.199.18.189%3D2053'
+- client-fingerprint: randomized
+  name: '(IN)M S HARVIL MEDIA-[Tls] #3'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 30100ecd-ab31-490c-b286-d51263f16d29
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F166.0.244.206%3D2053'
+- name: '(IN)OVH SAS-[Tls] #1'
+  network: ws
+  password: 72878ba9-a7cf-438c-92be-7fe7a16ddb94
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F148.113.43.228%3D2053'
+- name: (IN)Readydedis-[NTls]
+  network: ws
+  password: 51c37d2c-1b95-4129-9df3-a6d1dbb5d28c
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F134.195.137.107%3D22473'
+- client-fingerprint: randomized
+  name: '(IN)Digitalocean-[Tls] #4'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: e0d7dcdd-b67f-4ac1-a325-8aa9c0b314da
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F128.199.18.189%3D2053'
+- client-fingerprint: randomized
+  name: '(IN)Digitalocean-[NTls] #4'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 0eab73c6-a1d7-492c-89d0-8ba39b8d47e8
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F64.227.184.166%3D8443'
+- client-fingerprint: randomized
+  name: '(IN)Oracle Corporation-[NTls] #5'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 2637e8dd-0a1f-4d0b-bbd3-01ac59144653
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F146.56.48.138%3D23010'
+- name: '(IN)Digitalocean-[NTls] #5'
+  network: ws
+  password: 3db5d27b-5f1c-4960-8e34-d2b28c81a027
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F139.59.48.26%3D8443'
+- name: '(IN)Microsoft Corporation-[NTl... #4'
+  network: ws
+  password: 40e116d0-4b47-4d5e-81d8-33a82a9407af
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F20.235.105.146%3D443'
+- client-fingerprint: randomized
+  name: '(IN)Readydedis-[NTls] #1'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 1d493999-0fda-43a3-b289-72502a42405f
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F134.195.137.107%3D22473'
+- client-fingerprint: randomized
+  name: '(IN)The Constant Company-[NTls... #16'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 5d17c03b-db62-4f2d-952a-0190dba10f1c
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F65.20.82.22%3D443'
+- name: '(IN)OVH SAS-[Tls] #2'
+  network: ws
+  password: dfab489b-541e-4650-a71e-2cc9bdb86285
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F148.113.43.228%3D8443'
+- name: '(AE)Zenlayer INC-[Tls] #1'
+  network: ws
+  password: 74ccbf6e-b14a-40c9-83bd-f44340d69a40
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F98.98.236.58%3D15608'
+- client-fingerprint: randomized
+  name: '(IN)Microsoft Corporation-[NTl... #5'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 353ba8a6-4714-4c02-8f8a-72ef192b3a2e
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F20.235.105.146%3D443'
+- client-fingerprint: randomized
+  name: '(IN)Akamai Technologies-[NTls] #2'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 5b2e1edd-b90a-4572-89df-6c10e7873c78
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F172.232.112.240%3D587'
+- client-fingerprint: randomized
+  name: '(IN)OVH SAS-[Tls] #3'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 6840c18a-9915-4775-8559-f740b7fad1b5
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F148.113.43.228%3D2053'
+- client-fingerprint: randomized
+  name: '(AE)Zenlayer INC-[NTls] #1'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: a543a5c9-7382-47db-9adb-95702dbc99a3
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F98.98.236.58%3D15608'
+- client-fingerprint: randomized
+  name: '(IN)Reliance Jio Infocomm Limi... #9'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: a1f27bf1-315f-47a4-9208-757f13fb5058
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F115.242.180.202%3D19000'
+- client-fingerprint: randomized
+  name: '(IN)PDR-[NTls] #1'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: de9e0e94-a23c-4d6b-8ee4-7693bd53b645
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F216.10.243.159%3D443'
+- client-fingerprint: randomized
+  name: '(IN)Akamai Technologies-[NTls] #3'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 16af9e70-7a87-4f4c-895c-be015b3827a4
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F172.105.62.71%3D2443'
+- client-fingerprint: randomized
+  name: '(IN)The Constant Company-[NTls... #17'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 5caee135-7470-4f1f-a084-e03ee7070e66
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F65.20.76.125%3D8443'
+- name: '(IN)OVH SAS-[NTls] #3'
+  network: ws
+  password: afac8808-2a59-4e1a-be99-7f781d3627f3
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F148.113.43.228%3D2053'
+- client-fingerprint: randomized
+  name: '(IN)Akamai Technologies-[Tls] #3'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: db985534-8cf4-4d3d-ba18-9efc75a30d43
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F172.105.62.71%3D2443'
+- name: '(IN)Digitalocean-[Tls] #5'
+  network: ws
+  password: 7b817935-97bf-4c4e-b7af-e57f3ade25e6
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F139.59.48.26%3D8443'
+- name: '(IN)Readydedis-[Tls] #1'
+  network: ws
+  password: 73677a2e-b63f-4db3-a453-c304732ac014
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F134.195.137.107%3D22473'

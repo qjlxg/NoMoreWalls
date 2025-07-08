@@ -1,7 +1,213 @@
 proxies:
-- name: Italy
-  network: tcp
-  password: 9e4fa728-3d7d-4371-8053-f175c019ef2c
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #2'
+  network: ws
+  password: 84449898-2fa2-4c31-932e-5b7d4f3e78c1
   port: 443
-  server: yangleduo.cf
+  server: ads.ruangguru.com.joss.checker-ip.web.id
+  sni: ads.ruangguru.com.joss.checker-ip.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.joss.checker-ip.web.id
+    path: /Free-VPN-CF-Geo-Project%2F194.156.103.58%3D41210
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #3'
+  network: ws
+  password: 4778ece1-2a94-4d6e-b422-590bc69bf97c
+  port: 443
+  server: ads.ruangguru.com.joss.checker-ip.web.id
+  sni: ads.ruangguru.com.joss.checker-ip.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.joss.checker-ip.web.id
+    path: /Free-VPN-CF-Geo-Project%2F194.156.103.31%3D8443
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #5'
+  password: 9adc25bc-04ba-401d-8492-35bfe9bb4161
+  port: 443
+  server: api.midtrans.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #7'
+  password: 48e93e46-4cb2-471d-9909-238adf694550
+  port: 443
+  server: api.midtrans.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #9'
+  password: edab65f2-4bb2-4c55-a0e6-ca8e19a74a79
+  port: 443
+  server: ava.game.naver.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #10'
+  password: cf583245-48cb-454a-a589-3187b68da30b
+  port: 443
+  server: ava.game.naver.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #12'
+  password: 3a797628-14c1-4572-bd95-fc9681dd1e2c
+  port: 443
+  server: beta.zoom.us.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #13'
+  password: 115edce8-2001-405a-9181-87568ffc68db
+  port: 443
+  server: beta.zoom.us.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #17'
+  password: 0a49e3d5-7731-4ab1-9648-3e4dbc9d5989
+  port: 443
+  server: blog.webex.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #18'
+  password: 8e68a7ef-3c90-443b-a26b-3bd99146b4b9
+  port: 443
+  server: blog.webex.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #20'
+  password: e9c32775-76c1-41c7-a979-ca534c86e594
+  port: 443
+  server: cache.netflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #21'
+  password: 23fd53b9-3d33-4a57-99e0-5ab165f3d2aa
+  port: 443
+  server: cache.netflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #25'
+  password: e738deb6-e746-417d-8dca-56560335d431
+  port: 443
+  server: creativeservices.netflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #26'
+  password: 5394456d-7e14-4e15-9ab6-50b60efdb2ec
+  port: 443
+  server: creativeservices.netflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #29'
+  password: e46abd33-8da6-4cfc-9b0d-2e2e5442cd4d
+  port: 443
+  server: data.mt.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #31'
+  password: 0aaff4ba-c424-4360-bf1d-313fc70a5d93
+  port: 443
+  server: data.mt.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #32'
+  password: b9bb220c-92ad-441a-893a-f80857108d8f
+  port: 443
+  server: df.game.naver.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #34'
+  password: fd9ba4eb-7000-48b6-b1af-98b237794656
+  port: 443
+  server: df.game.naver.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #38'
+  password: 809e6bb5-fde4-4543-9187-b6c23e277c49
+  port: 443
+  server: img.email1.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #39'
+  password: b876602c-7154-489b-929e-26403e5ba5f6
+  port: 443
+  server: img.email1.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #40'
+  password: 76775478-875f-414f-889b-9f904bf04b96
+  port: 443
+  server: img.email2.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #43'
+  password: bac4db6f-cfd4-4eae-8eab-ccc4dd72969b
+  port: 443
+  server: img.email2.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #46'
+  password: f684588e-28d9-40f4-ab49-2ef78a2d8982
+  port: 443
+  server: img.email3.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #47'
+  password: 1ec166c4-ebc5-4416-8b27-c4b9055e9f8a
+  port: 443
+  server: img.email3.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #49'
+  password: 937a8f8e-e707-41b7-a5d0-ca36baf021f0
+  port: 443
+  server: io.ruangguru.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #51'
+  password: 20ccc356-591b-48fb-bdaf-75ad49061953
+  port: 443
+  server: io.ruangguru.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #52'
+  password: dd4cc951-0bd7-4791-adef-10cf76c9295a
+  port: 443
+  server: joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #55'
+  password: c4407975-d989-4658-a4cb-fe3af00cbd27
+  port: 443
+  server: joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #57'
+  password: 3963f618-455d-458d-a8d3-f736d85c5399
+  port: 443
+  server: live.iflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #59'
+  password: 1e8de9b8-4065-408d-a81d-8e6fa1c48b5a
+  port: 443
+  server: live.iflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #61'
+  password: f38bf305-9c0b-4478-b942-6558edd16178
+  port: 443
+  server: mssdk24-normal-useast2a.tiktokv.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #62'
+  password: ee24f416-3f18-4f15-9e71-55ff0b676c12
+  port: 443
+  server: mssdk24-normal-useast2a.tiktokv.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #66'
+  password: befed9c8-f141-44ae-866c-37dbb2786a14
+  port: 443
+  server: quiz.int.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #67'
+  password: b2443cdf-61cc-4c66-9249-d8b71645b7a0
+  port: 443
+  server: quiz.int.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #70'
+  password: f6599436-b905-4ea7-8d6b-769bce50849b
+  port: 443
+  server: quiz.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #71'
+  password: 260cfa9d-94e4-4d98-a89f-cff624ade6b8
+  port: 443
+  server: quiz.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #72'
+  password: 8fb25179-bd4c-4601-8211-32abf6b93ca7
+  port: 443
+  server: support.zoom.us.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #75'
+  password: 9117c2d9-b008-4444-b925-bf0a261b3a93
+  port: 443
+  server: support.zoom.us.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #76'
+  password: 09ef7669-4bf5-4b4a-a90b-e33d4b1a0f55
+  port: 443
+  server: zaintest.vuclip.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #79'
+  password: fda4e626-30db-45cb-a1cf-c8d417e86393
+  port: 443
+  server: zaintest.vuclip.com.joss.checker-ip.web.id
   type: trojan

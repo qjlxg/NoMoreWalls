@@ -1,12 +1,1553 @@
 proxies:
-- name: '@V2rayi_net #12'
-  network: httpupgrade
-  port: 80
-  server: www.speedtest.net
+- name: (ID) AWS')">
+  password: 5842720d-e96a-4e33-a99c-74a4fc941ae2
+  port: 443
+  server: a.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #1'
+  port: 443
+  server: a.fstores.web.id
   tls: false
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 2339f700-0467-4314-b9ba-cc2663ff61d4
+- name: '(ID) AWS'')"> #2'
+  password: 2339f700-0467-4314-b9ba-cc2663ff61d4
+  port: 443
+  server: a.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #3'
+  port: 443
+  server: a.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 5842720d-e96a-4e33-a99c-74a4fc941ae2
+- name: '(ID) AWS'')"> #4'
+  password: c75276b7-84bd-45b5-b5ec-39099e45d968
+  port: 443
+  server: ab.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #5'
+  port: 443
+  server: ab.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: c75276b7-84bd-45b5-b5ec-39099e45d968
+- name: '(ID) AWS'')"> #6'
+  password: 0d05121a-c763-486d-b40b-d6b8459dbf5d
+  port: 443
+  server: ab.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #7'
+  port: 443
+  server: ab.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 0d05121a-c763-486d-b40b-d6b8459dbf5d
+- name: '(ID) AWS'')"> #8'
+  port: 443
+  server: anu.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 13fa3098-8ee5-4d51-9381-9d751e8eb6fd
+- name: '(ID) AWS'')"> #9'
+  port: 443
+  server: anu.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 99fc070c-eaf5-46b0-ad9c-20e5b42db45b
+- name: '(ID) AWS'')"> #10'
+  password: 13fa3098-8ee5-4d51-9381-9d751e8eb6fd
+  port: 443
+  server: anu.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #11'
+  password: 99fc070c-eaf5-46b0-ad9c-20e5b42db45b
+  port: 443
+  server: anu.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #12'
+  password: a42c2faf-c773-4d25-823c-e534aec17dc4
+  port: 443
+  server: api.blibli.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #13'
+  port: 443
+  server: api.blibli.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: a42c2faf-c773-4d25-823c-e534aec17dc4
+- name: '(ID) AWS'')"> #14'
+  password: 11e8ecd1-24e0-42ca-90ca-583e644646f8
+  port: 443
+  server: api.blibli.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #15'
+  port: 443
+  server: api.blibli.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 11e8ecd1-24e0-42ca-90ca-583e644646f8
+- name: '(ID) AWS'')"> #16'
+  password: a92e80c1-de31-41a4-8604-7cad61d4db53
+  port: 443
+  server: app.gopay.co.id.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #17'
+  password: 8302ce0a-3eee-4238-a216-9e72e428f4de
+  port: 443
+  server: app.gopay.co.id.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #18'
+  port: 443
+  server: app.gopay.co.id.fstores.web.id
+  tls: false
+  type: vless
+  uuid: a92e80c1-de31-41a4-8604-7cad61d4db53
+- name: '(ID) AWS'')"> #19'
+  port: 443
+  server: app.gopay.co.id.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 8302ce0a-3eee-4238-a216-9e72e428f4de
+- name: '(ID) AWS'')"> #20'
+  password: 8e612092-b071-41d8-a041-996aaadced44
+  port: 443
+  server: as.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #21'
+  port: 443
+  server: as.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 8e612092-b071-41d8-a041-996aaadced44
+- name: '(ID) AWS'')"> #22'
+  password: 04c443ab-831b-46c9-8136-caf0a9bc35a4
+  port: 443
+  server: as.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #23'
+  port: 443
+  server: as.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 04c443ab-831b-46c9-8136-caf0a9bc35a4
+- name: '(ID) AWS'')"> #24'
+  password: 6c18305a-b31f-429b-b5ec-ad6dafdc50cc
+  port: 443
+  server: ava.game.naver.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #25'
+  password: 25b6d2b6-ee6b-4e34-9db6-b6e62f831dac
+  port: 443
+  server: ava.game.naver.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #26'
+  port: 443
+  server: ava.game.naver.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 6c18305a-b31f-429b-b5ec-ad6dafdc50cc
+- name: '(ID) AWS'')"> #27'
+  port: 443
+  server: ava.game.naver.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 25b6d2b6-ee6b-4e34-9db6-b6e62f831dac
+- name: '(ID) AWS'')"> #28'
+  password: 01aad7b2-bc86-4dc1-a5d2-3866e3f7cd34
+  port: 443
+  server: ava.game.naver.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #29'
+  port: 443
+  server: ava.game.naver.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 01aad7b2-bc86-4dc1-a5d2-3866e3f7cd34
+- name: '(ID) AWS'')"> #30'
+  port: 443
+  server: ava.game.naver.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 9686efa4-2bb9-4f45-bea9-6bb52c215985
+- name: '(ID) AWS'')"> #31'
+  password: 9686efa4-2bb9-4f45-bea9-6bb52c215985
+  port: 443
+  server: ava.game.naver.com.fstores.web.id
+  type: trojan
+- name: (ID) AWS🇮🇩🇮🇩')">
+  password: e6d3f538-898c-4ca1-9938-4d7ca903c97c
+  port: 443
+  server: b.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #32'
+  password: 4737c0c2-93c3-4aac-b76e-b785c6fc69df
+  port: 443
+  server: b.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #33'
+  port: 443
+  server: b.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 4737c0c2-93c3-4aac-b76e-b785c6fc69df
+- name: '(ID) AWS'')"> #34'
+  port: 443
+  server: b.fstores.web.id
+  tls: false
+  type: vless
+  uuid: e6d3f538-898c-4ca1-9938-4d7ca903c97c
+- name: '(ID) AWS'')"> #35'
+  password: b5235508-e5a7-4662-bc16-7be394c3d371
+  port: 443
+  server: bimbel.ruangguru.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #36'
+  port: 443
+  server: bimbel.ruangguru.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: b5235508-e5a7-4662-bc16-7be394c3d371
+- name: '(ID) AWS'')"> #37'
+  port: 443
+  server: bimbel.ruangguru.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: f8cb6d69-3b0e-4da9-b829-15a4c08de0d4
+- name: '(ID) AWS'')"> #38'
+  password: f8cb6d69-3b0e-4da9-b829-15a4c08de0d4
+  port: 443
+  server: bimbel.ruangguru.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #39'
+  port: 443
+  server: bimbel.ruangguru.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 177cc6e1-7ad4-45b6-a223-47b9695f4ef3
+- name: '(ID) AWS'')"> #40'
+  port: 443
+  server: bimbel.ruangguru.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 4755ece1-b118-44dd-9119-8a7efc441672
+- name: '(ID) AWS'')"> #41'
+  password: 4755ece1-b118-44dd-9119-8a7efc441672
+  port: 443
+  server: bimbel.ruangguru.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #42'
+  password: 177cc6e1-7ad4-45b6-a223-47b9695f4ef3
+  port: 443
+  server: bimbel.ruangguru.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #43'
+  password: b51972da-eaca-4354-ab33-36405cf34b2f
+  port: 443
+  server: blog.webex.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #44'
+  password: 49d4af91-fa12-4654-a4bb-02fba6bfb2a5
+  port: 443
+  server: blog.webex.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #45'
+  port: 443
+  server: blog.webex.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 49d4af91-fa12-4654-a4bb-02fba6bfb2a5
+- name: '(ID) AWS'')"> #46'
+  port: 443
+  server: blog.webex.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: b51972da-eaca-4354-ab33-36405cf34b2f
+- name: '(ID) AWS🇮🇩🇮🇩'')"> #1'
+  password: b7667bc5-17f7-4047-ae68-b709cbcfc653
+  port: 443
+  server: cache.netflix.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #47'
+  port: 443
+  server: cache.netflix.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 2c9a0d19-3f18-416d-b5c3-3d489be848d9
+- name: '(ID) AWS'')"> #48'
+  password: 2c9a0d19-3f18-416d-b5c3-3d489be848d9
+  port: 443
+  server: cache.netflix.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #49'
+  port: 443
+  server: cache.netflix.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: b7667bc5-17f7-4047-ae68-b709cbcfc653
+- name: '(ID) AWS'')"> #50'
+  port: 443
+  server: cache.netflix.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: ece3a459-fb6f-4c95-9cd5-a73021b9daed
+- name: '(ID) AWS'')"> #51'
+  password: ece3a459-fb6f-4c95-9cd5-a73021b9daed
+  port: 443
+  server: cache.netflix.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #52'
+  password: 8596b7d2-eefb-4110-9217-ca3793da4e4f
+  port: 443
+  server: cache.netflix.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #53'
+  port: 443
+  server: cache.netflix.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 8596b7d2-eefb-4110-9217-ca3793da4e4f
+- name: '(ID) AWS'')"> #54'
+  password: 13f6ba39-adb8-4332-9706-f349410a8988
+  port: 443
+  server: cdn.zoom.us.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #55'
+  password: 0a3b7b18-fca9-46ca-b786-eb0657520d38
+  port: 443
+  server: cdn.zoom.us.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #56'
+  port: 443
+  server: cdn.zoom.us.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 13f6ba39-adb8-4332-9706-f349410a8988
+- name: '(ID) AWS'')"> #57'
+  port: 443
+  server: cdn.zoom.us.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 0a3b7b18-fca9-46ca-b786-eb0657520d38
+- name: '(ID) AWS'')"> #58'
+  port: 443
+  server: cf.shopee.co.id.sea-sw.swiftserve.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 1531b194-9619-4187-8284-f2643f88ea31
+- name: '(ID) AWS'')"> #59'
+  password: 1531b194-9619-4187-8284-f2643f88ea31
+  port: 443
+  server: cf.shopee.co.id.sea-sw.swiftserve.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #60'
+  port: 443
+  server: cf.shopee.co.id.sea-sw.swiftserve.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 21bb8934-a186-4032-b487-92d49ebdd969
+- name: '(ID) AWS'')"> #61'
+  password: 21bb8934-a186-4032-b487-92d49ebdd969
+  port: 443
+  server: cf.shopee.co.id.sea-sw.swiftserve.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #62'
+  port: 443
+  server: co.id.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 65f94a26-767c-41ff-9c4e-7d82f4baf189
+- name: '(ID) AWS'')"> #63'
+  port: 443
+  server: co.id.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 67698886-8421-4cd3-80cf-677499ff313e
+- name: '(ID) AWS'')"> #64'
+  password: 67698886-8421-4cd3-80cf-677499ff313e
+  port: 443
+  server: co.id.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #65'
+  password: 65f94a26-767c-41ff-9c4e-7d82f4baf189
+  port: 443
+  server: co.id.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #66'
+  password: 16520bd5-ae74-4427-8add-c7269db177e8
+  port: 443
+  server: com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #67'
+  password: 53638bf4-6719-4d04-b9f5-b680348a2a87
+  port: 443
+  server: com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #68'
+  port: 443
+  server: com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 53638bf4-6719-4d04-b9f5-b680348a2a87
+- name: '(ID) AWS'')"> #69'
+  port: 443
+  server: com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 16520bd5-ae74-4427-8add-c7269db177e8
+- name: '(ID) AWS'')"> #70'
+  password: 8af9d677-48e5-4869-9987-b344e0a129b0
+  port: 443
+  server: df.ava.game.naver.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #71'
+  port: 443
+  server: df.ava.game.naver.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 8af9d677-48e5-4869-9987-b344e0a129b0
+- name: '(ID) AWS'')"> #72'
+  password: b9c5a7f5-61fe-4978-9ddd-0b1123aa5afa
+  port: 443
+  server: df.ava.game.naver.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #73'
+  port: 443
+  server: df.ava.game.naver.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: b9c5a7f5-61fe-4978-9ddd-0b1123aa5afa
+- name: '(ID) AWS'')"> #74'
+  password: 6754ce5a-f2c9-4048-8cfa-5d2cf56d676f
+  port: 443
+  server: df.ava.game.naver.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #75'
+  port: 443
+  server: df.ava.game.naver.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: c330402b-158d-4975-a4f8-e3edba7ae706
+- name: '(ID) AWS'')"> #76'
+  port: 443
+  server: df.ava.game.naver.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 6754ce5a-f2c9-4048-8cfa-5d2cf56d676f
+- name: '(ID) AWS'')"> #77'
+  password: c330402b-158d-4975-a4f8-e3edba7ae706
+  port: 443
+  server: df.ava.game.naver.com.fstores.web.id
+  type: trojan
+- name: 💻 Net Account 05
+  network: ws
+  port: 443
+  server: zula.ir
+  servername: rayan-supra.parisa.dpdns.org
+  tls: true
+  type: vless
+  uuid: 172ed5fd-83a6-469e-863c-50e251a6c17d
   ws-opts:
     headers:
-      Host: c.4.www.speedtest.net.zula.ir.zemestanil.iR.
-    path: '%2FTelegram-ipV2Ray%3Fed%3D2048'
+      Host: rayan-supra.parisa.dpdns.org
+    path: '%2F%3Fed%3D%23TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI%3D%3Fed%3D2560'
+- name: '未命名 #8464'
+  network: tcp
+  port: 443
+  server: 91.99.198.174
+  tls: false
+  type: vless
+  uuid: 7a66b8ef-9713-4b69-b839-6bb45070af35
+  ws-opts:
+    headers:
+      Host: zula.ir%2F%3FTELEGRAM%40JOKERRVPN
+- name: 💻 Net Account 08
+  port: 80
+  server: 147.185.161.229
+  tls: false
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+- name: '@v2ray_configs_poolCanadaToron... #34'
+  port: 443
+  server: zula.ir
+  tls: false
+  type: vless
+  uuid: 172ed5fd-83a6-469e-863c-50e251a6c17d
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: '@v2ray_configs_poolCanadaToron... #56'
+  port: 80
+  server: 172.67.128.105
+  tls: false
+  type: vless
+  uuid: 4179c595-08ca-45cd-b555-91b6f1faeadc
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: '[openproxylist.com] vless-DE #78'
+  network: tcp
+  port: 443
+  server: 91.99.160.217
+  tls: false
+  type: vless
+  uuid: 7a66b8ef-9713-4b69-b839-6bb45070af35
+  ws-opts:
+    headers:
+      Host: zula.ir
+    path: '%2F'
+- name: '[openproxylist.com] vless-DE #52'
+  network: tcp
+  port: 443
+  server: 91.99.203.65
+  tls: false
+  type: vless
+  uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+  ws-opts:
+    headers:
+      Host: account.zula.ir%2F%3FJOKERRVPNBIA_CHANEL%40JOKERRVPN
+- name: '@v2ray_configs_poolCanadaToron... #134'
+  port: 80
+  server: add.ski1plag.ir
+  tls: false
+  type: vless
+  uuid: 7c9e3c1d-a360-4429-9189-e45a98de7fde
+  ws-opts:
+    path: '%2Fupload'
+- name: 💻 Net Account 03
+  network: ws
+  port: 2053
+  server: 188.114.99.16
+  servername: 019309B7.XyZ0.PaGeS.dEV
+  tls: true
+  type: vless
+  uuid: 54f6e78c-b497-4db7-ba48-38c4cf81d5ef
+  ws-opts:
+    headers:
+      Host: 019309B7.XyZ0.PaGeS.dEV
+    path: '%2FTELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI%3D%3Fed%3D2560'
+- name: '未命名 #7751'
+  port: 443
+  server: 154.92.9.46
+  tls: false
+  type: vless
+  uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
+- client-fingerprint: chrome
+  name: '@v2ray_configs_poolCanadaToron... #51'
+  network: ws
+  port: 80
+  server: 172.67.128.105
+  tls: false
+  type: vless
+  uuid: 4179c595-08ca-45cd-b555-91b6f1faeadc
+  ws-opts:
+    headers:
+      Host: di.dibdibini.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: chrome
+  name: '💻 Net Account 08 #1'
+  network: ws
+  port: 80
+  server: 147.185.161.229
+  tls: false
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
+    path: Telegram%3A%40ShadowProxy66%2F%3Fed%3D2560
+- client-fingerprint: chrome
+  name: '@v2ray_configs_poolCanadaToron... #30'
+  network: ws
+  port: 80
+  server: add.ski1plag.ir
+  tls: false
+  type: vless
+  uuid: 7c9e3c1d-a360-4429-9189-e45a98de7fde
+  ws-opts:
+    headers:
+      Host: my.ski1plag.ir
+    path: '%2Fupload'
+- client-fingerprint: firefox
+  name: '💻 Net Account 11 #1'
+  network: ws
+  port: 443
+  server: 154.92.9.46
+  servername: simorgh.hpcode.ir
+  tls: true
+  type: vless
+  uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
+  ws-opts:
+    headers:
+      Host: simorgh.hpcode.ir
+    path: '%2FJavid-SHAH-KingRezaPahlavi%2F%3Fed%3D2560'
+- name: '@flyv2ray #2'
+  port: 80
+  server: 104.16.0.113
+  tls: false
+  type: vless
+  uuid: bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: chrome
+  name: '@flyv2ray #1'
+  network: ws
+  port: 80
+  server: 104.16.0.113
+  tls: false
+  type: vless
+  uuid: bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0
+  ws-opts:
+    headers:
+      Host: barayeiran.nastaranh.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- name: '💻 Net Account 03 #1'
+  port: 2053
+  server: 188.114.99.16
+  tls: false
+  type: vless
+  uuid: 54f6e78c-b497-4db7-ba48-38c4cf81d5ef
+- name: '(ID) AWS'')"> #78'
+  password: 583c0243-11f3-483e-9034-9542928ee5f7
+  port: 443
+  server: fb.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #79'
+  password: 8f194046-08f4-4fbe-9a78-efd7a2e14fe2
+  port: 443
+  server: fb.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #80'
+  port: 443
+  server: fb.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 583c0243-11f3-483e-9034-9542928ee5f7
+- name: '(ID) AWS'')"> #81'
+  port: 443
+  server: fb.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 8f194046-08f4-4fbe-9a78-efd7a2e14fe2
+- name: '(ID) AWS'')"> #82'
+  password: 2d064d77-6ca5-4c63-822f-02a8d4fd2ed9
+  port: 443
+  server: fey.fshop.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #83'
+  port: 443
+  server: fey.fshop.web.id
+  tls: false
+  type: vless
+  uuid: 2d064d77-6ca5-4c63-822f-02a8d4fd2ed9
+- name: '(ID) AWS'')"> #84'
+  port: 443
+  server: fshop.web.id
+  tls: false
+  type: vless
+  uuid: 63d9820f-2ce9-4139-be30-0e4cec2839f2
+- name: '(ID) AWS'')"> #85'
+  password: 63d9820f-2ce9-4139-be30-0e4cec2839f2
+  port: 443
+  server: fshop.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #86'
+  password: 95a7cf91-23cf-402d-bf3d-adaa2263c6aa
+  port: 443
+  server: fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #87'
+  port: 443
+  server: fsid.web.id
+  tls: false
+  type: vless
+  uuid: 95a7cf91-23cf-402d-bf3d-adaa2263c6aa
+- name: '(ID) AWS'')"> #88'
+  password: f3352dcf-265e-4d0b-a656-7f37114afa6c
+  port: 443
+  server: fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #89'
+  port: 443
+  server: fsid.web.id
+  tls: false
+  type: vless
+  uuid: f3352dcf-265e-4d0b-a656-7f37114afa6c
+- name: '(ID) AWS'')"> #90'
+  port: 443
+  server: fstores.web.id
+  tls: false
+  type: vless
+  uuid: e2509bb7-f72c-422d-a093-0e419b4b9e4c
+- name: '(ID) AWS'')"> #91'
+  port: 443
+  server: fstores.web.id
+  tls: false
+  type: vless
+  uuid: 0f843acd-f7b9-48f3-b85d-14efaa26d676
+- name: '(ID) AWS'')"> #92'
+  password: 0f843acd-f7b9-48f3-b85d-14efaa26d676
+  port: 443
+  server: fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #93'
+  password: e2509bb7-f72c-422d-a093-0e419b4b9e4c
+  port: 443
+  server: fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #94'
+  port: 443
+  server: game.naver.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: e29b02b7-9cf3-478c-a463-79e227d39872
+- name: '(ID) AWS'')"> #95'
+  password: e29b02b7-9cf3-478c-a463-79e227d39872
+  port: 443
+  server: game.naver.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #96'
+  password: e0d3463d-5090-4fe0-b995-84eeb1d16921
+  port: 443
+  server: game.naver.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #97'
+  port: 443
+  server: game.naver.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: e0d3463d-5090-4fe0-b995-84eeb1d16921
+- name: '(ID) AWS'')"> #98'
+  password: fedea019-b685-4b9e-a1f0-35331fbc01a6
+  port: 443
+  server: gomarketplacecontent-cf.zoom.us.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #99'
+  password: 1c26a75f-8a3f-4103-a83f-5fe7f0fea2a6
+  port: 443
+  server: gomarketplacecontent-cf.zoom.us.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #100'
+  port: 443
+  server: gomarketplacecontent-cf.zoom.us.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 1c26a75f-8a3f-4103-a83f-5fe7f0fea2a6
+- name: '(ID) AWS'')"> #101'
+  port: 443
+  server: gomarketplacecontent-cf.zoom.us.fstores.web.id
+  tls: false
+  type: vless
+  uuid: fedea019-b685-4b9e-a1f0-35331fbc01a6
+- name: '(ID) AWS'')"> #102'
+  port: 443
+  server: gopay.co.id.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 55b9bff5-225a-4cc3-a698-922f0e777894
+- name: '(ID) AWS'')"> #103'
+  password: 42a4f342-7c0c-41a8-8f45-8697b89b9a46
+  port: 443
+  server: gopay.co.id.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #104'
+  port: 443
+  server: gopay.co.id.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 42a4f342-7c0c-41a8-8f45-8697b89b9a46
+- name: '(ID) AWS'')"> #105'
+  password: 55b9bff5-225a-4cc3-a698-922f0e777894
+  port: 443
+  server: gopay.co.id.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #106'
+  password: 292faf32-5085-48e8-acf7-c79b83dd7a63
+  port: 443
+  server: help.zoom.us.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #107'
+  port: 443
+  server: help.zoom.us.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 6f2f6078-9cd5-43e4-a3b3-62929fe5f0f7
+- name: '(ID) AWS'')"> #108'
+  password: 6f2f6078-9cd5-43e4-a3b3-62929fe5f0f7
+  port: 443
+  server: help.zoom.us.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #109'
+  port: 443
+  server: help.zoom.us.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 292faf32-5085-48e8-acf7-c79b83dd7a63
+- name: '(ID) AWS'')"> #110'
+  password: b0b4926c-9798-4ada-812a-f153a91e7060
+  port: 443
+  server: id.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #111'
+  port: 443
+  server: id.fstores.web.id
+  tls: false
+  type: vless
+  uuid: b0b4926c-9798-4ada-812a-f153a91e7060
+- name: '(ID) AWS'')"> #112'
+  port: 443
+  server: id.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 7f2bdf22-41bd-4fef-9cae-8113cf235f9e
+- name: '(ID) AWS'')"> #113'
+  password: 7f2bdf22-41bd-4fef-9cae-8113cf235f9e
+  port: 443
+  server: id.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #114'
+  port: 443
+  server: int.vidio.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: d6018b20-de49-45a5-b244-0af2ebd78d71
+- name: '(ID) AWS'')"> #115'
+  password: d6018b20-de49-45a5-b244-0af2ebd78d71
+  port: 443
+  server: int.vidio.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #116'
+  port: 443
+  server: int.vidio.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 29183a68-a4ca-4de8-8e1b-5ac94f0a17e5
+- name: '(ID) AWS'')"> #117'
+  password: 29183a68-a4ca-4de8-8e1b-5ac94f0a17e5
+  port: 443
+  server: int.vidio.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #118'
+  port: 443
+  server: investor.fb.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 51b57917-3d1e-4061-b0ea-ef9836624352
+- name: '(ID) AWS'')"> #119'
+  password: b8b0b7f9-753e-48cf-8a85-665af9220f53
+  port: 443
+  server: investor.fb.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #120'
+  password: 51b57917-3d1e-4061-b0ea-ef9836624352
+  port: 443
+  server: investor.fb.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #121'
+  port: 443
+  server: investor.fb.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: b8b0b7f9-753e-48cf-8a85-665af9220f53
+- name: '(ID) AWS'')"> #122'
+  port: 443
+  server: investor.fb.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 1006e6c6-9a03-4c15-901e-cbf5a003ec6e
+- name: '(ID) AWS'')"> #123'
+  port: 443
+  server: investor.fb.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 91851236-5a04-4a3d-b097-263c7a50f5a3
+- name: '(ID) AWS'')"> #124'
+  password: 1006e6c6-9a03-4c15-901e-cbf5a003ec6e
+  port: 443
+  server: investor.fb.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #125'
+  password: 91851236-5a04-4a3d-b097-263c7a50f5a3
+  port: 443
+  server: investor.fb.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #126'
+  port: 443
+  server: investors.spotify.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: bd7e881b-d291-485a-928d-cb2dfdba162d
+- name: '(ID) AWS'')"> #127'
+  password: bd7e881b-d291-485a-928d-cb2dfdba162d
+  port: 443
+  server: investors.spotify.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #128'
+  password: f23ca4a6-4e49-4f59-a52b-a8db89e6faa9
+  port: 443
+  server: investors.spotify.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #129'
+  port: 443
+  server: investors.spotify.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: f23ca4a6-4e49-4f59-a52b-a8db89e6faa9
+- name: '(ID) AWS'')"> #130'
+  port: 443
+  server: io.ruangguru.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: bb2f4a36-9369-439e-ba3c-f49f6c2b7d1e
+- name: '(ID) AWS'')"> #131'
+  port: 443
+  server: io.ruangguru.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: c1398a12-7b54-42bb-a6f3-c1db1d4da1d1
+- name: '(ID) AWS'')"> #132'
+  password: c1398a12-7b54-42bb-a6f3-c1db1d4da1d1
+  port: 443
+  server: io.ruangguru.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #133'
+  password: bb2f4a36-9369-439e-ba3c-f49f6c2b7d1e
+  port: 443
+  server: io.ruangguru.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #134'
+  password: 4be2dd99-c9c9-4146-b068-104820f16be6
+  port: 443
+  server: io.ruangguru.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #135'
+  password: 20955544-4a18-456e-a43f-a9e31d59bfcf
+  port: 443
+  server: io.ruangguru.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #136'
+  port: 443
+  server: io.ruangguru.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 4be2dd99-c9c9-4146-b068-104820f16be6
+- name: '(ID) AWS'')"> #137'
+  port: 443
+  server: io.ruangguru.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 20955544-4a18-456e-a43f-a9e31d59bfcf
+- name: '(ID) AWS'')"> #138'
+  password: 33220aad-c4a2-4791-98b9-c0d3ec559e79
+  port: 443
+  server: naver.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #139'
+  password: b0ae9f1f-6d72-495b-8596-3ceb1d7d5100
+  port: 443
+  server: naver.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #140'
+  port: 443
+  server: naver.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: b0ae9f1f-6d72-495b-8596-3ceb1d7d5100
+- name: '(ID) AWS'')"> #141'
+  port: 443
+  server: naver.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 33220aad-c4a2-4791-98b9-c0d3ec559e79
+- name: '(ID) AWS'')"> #142'
+  password: e58ebfa0-0376-4744-b105-03d8815b0b71
+  port: 443
+  server: netflix.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #143'
+  port: 443
+  server: netflix.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: be3b3c32-b331-4f38-a487-29ffacf97293
+- name: '(ID) AWS'')"> #144'
+  password: be3b3c32-b331-4f38-a487-29ffacf97293
+  port: 443
+  server: netflix.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #145'
+  port: 443
+  server: netflix.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: e58ebfa0-0376-4744-b105-03d8815b0b71
+- name: '(ID) AWS'')"> #146'
+  password: 09bc8df0-a466-45a9-9fab-e4ae4b05836a
+  port: 443
+  server: npca.netflix.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #147'
+  password: 3934e0ea-5129-4d3e-9080-2303ed4606b0
+  port: 443
+  server: npca.netflix.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #148'
+  port: 443
+  server: npca.netflix.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 09bc8df0-a466-45a9-9fab-e4ae4b05836a
+- name: '(ID) AWS'')"> #149'
+  port: 443
+  server: npca.netflix.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 3934e0ea-5129-4d3e-9080-2303ed4606b0
+- name: '(ID) AWS'')"> #150'
+  port: 443
+  server: partner.zoom.us.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 77cbd43e-15bb-4553-9a1e-9d73a1e09087
+- name: '(ID) AWS'')"> #151'
+  password: c7ff0bd9-92e3-44b5-93e8-ac73215c22c7
+  port: 443
+  server: partner.zoom.us.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #152'
+  port: 443
+  server: partner.zoom.us.fsid.web.id
+  tls: false
+  type: vless
+  uuid: c7ff0bd9-92e3-44b5-93e8-ac73215c22c7
+- name: '(ID) AWS'')"> #153'
+  password: 77cbd43e-15bb-4553-9a1e-9d73a1e09087
+  port: 443
+  server: partner.zoom.us.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #154'
+  password: 5eaa21e5-c1c6-47f7-82a2-5e915db41697
+  port: 443
+  server: partner.zoom.us.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #155'
+  port: 443
+  server: partner.zoom.us.fstores.web.id
+  tls: false
+  type: vless
+  uuid: b1e30d94-4c02-407f-b476-2fd2ae0ec10e
+- name: '(ID) AWS'')"> #156'
+  password: b1e30d94-4c02-407f-b476-2fd2ae0ec10e
+  port: 443
+  server: partner.zoom.us.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #157'
+  port: 443
+  server: partner.zoom.us.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 5eaa21e5-c1c6-47f7-82a2-5e915db41697
+- name: '(ID) AWS'')"> #158'
+  password: e05d5bee-8809-4f9c-874d-cd602d26cdc4
+  port: 443
+  server: quiz.int.vidio.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #159'
+  password: 86761dc2-904f-432d-abe1-f9ede142376c
+  port: 443
+  server: quiz.int.vidio.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #160'
+  port: 443
+  server: quiz.int.vidio.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: e05d5bee-8809-4f9c-874d-cd602d26cdc4
+- name: '(ID) AWS'')"> #161'
+  port: 443
+  server: quiz.int.vidio.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 86761dc2-904f-432d-abe1-f9ede142376c
+- name: '(ID) AWS'')"> #162'
+  password: 73719fcb-195e-486b-a2a1-931c31c99675
+  port: 443
+  server: quiz.int.vidio.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #163'
+  port: 443
+  server: quiz.int.vidio.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 3316b57d-8322-49a4-a057-0ec2bac13a5b
+- name: '(ID) AWS'')"> #164'
+  port: 443
+  server: quiz.int.vidio.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 73719fcb-195e-486b-a2a1-931c31c99675
+- name: '(ID) AWS'')"> #165'
+  password: 3316b57d-8322-49a4-a057-0ec2bac13a5b
+  port: 443
+  server: quiz.int.vidio.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #166'
+  password: 68a46b37-2ef0-4430-af90-7ad2b46aea02
+  port: 443
+  server: quiz.staging.vidio.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #167'
+  port: 443
+  server: quiz.staging.vidio.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 68a46b37-2ef0-4430-af90-7ad2b46aea02
+- name: '(ID) AWS'')"> #168'
+  port: 443
+  server: quiz.staging.vidio.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 3a45a84c-2b78-4f2f-a1bf-4a3ab2bfd6ec
+- name: '(ID) AWS'')"> #169'
+  password: 3a45a84c-2b78-4f2f-a1bf-4a3ab2bfd6ec
+  port: 443
+  server: quiz.staging.vidio.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #170'
+  port: 443
+  server: quiz.staging.vidio.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 24bf37e9-95e9-46e1-90bb-20ead07fd340
+- name: '(ID) AWS'')"> #171'
+  password: 24bf37e9-95e9-46e1-90bb-20ead07fd340
+  port: 443
+  server: quiz.staging.vidio.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #172'
+  password: 150c6db9-11cc-4bb4-bbfb-989447e61157
+  port: 443
+  server: quiz.staging.vidio.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #173'
+  port: 443
+  server: quiz.staging.vidio.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 150c6db9-11cc-4bb4-bbfb-989447e61157
+- name: '(ID) AWS'')"> #174'
+  port: 443
+  server: quiz.vidio.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 6e9f2ac6-1c20-452d-91fa-cb04b2af7f51
+- name: '(ID) AWS'')"> #175'
+  password: b4df8f15-ff1d-4cdf-8b5a-45344666a7ae
+  port: 443
+  server: quiz.vidio.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #176'
+  port: 443
+  server: quiz.vidio.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: b4df8f15-ff1d-4cdf-8b5a-45344666a7ae
+- name: '(ID) AWS'')"> #177'
+  password: 6e9f2ac6-1c20-452d-91fa-cb04b2af7f51
+  port: 443
+  server: quiz.vidio.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #178'
+  password: d504e427-1a9c-435d-8e89-e962739895c6
+  port: 443
+  server: quiz.vidio.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #179'
+  password: 87f322d6-443a-4ee2-821a-e70de51388b4
+  port: 443
+  server: quiz.vidio.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #180'
+  port: 443
+  server: quiz.vidio.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 87f322d6-443a-4ee2-821a-e70de51388b4
+- name: '(ID) AWS'')"> #181'
+  port: 443
+  server: quiz.vidio.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: d504e427-1a9c-435d-8e89-e962739895c6
+- name: '(ID) AWS'')"> #182'
+  port: 443
+  server: ruangguru.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: e26afd1c-7373-48b1-8938-ecbd6c3f0ed1
+- name: '(ID) AWS'')"> #183'
+  password: e26afd1c-7373-48b1-8938-ecbd6c3f0ed1
+  port: 443
+  server: ruangguru.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #184'
+  port: 443
+  server: ruangguru.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: e5f8f2fb-0203-4839-9a30-6343be342872
+- name: '(ID) AWS'')"> #185'
+  password: e5f8f2fb-0203-4839-9a30-6343be342872
+  port: 443
+  server: ruangguru.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS🇮🇩🇮🇩'')"> #2'
+  password: ae5f7e33-c7ad-4d88-b1d7-b28c62228c00
+  port: 443
+  server: staging.vidio.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #186'
+  port: 443
+  server: staging.vidio.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: ae5f7e33-c7ad-4d88-b1d7-b28c62228c00
+- name: '(ID) AWS'')"> #187'
+  port: 443
+  server: staging.vidio.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 958b3f2c-e3ff-4fac-9f75-b5087851cdbf
+- name: '(ID) AWS'')"> #188'
+  password: 958b3f2c-e3ff-4fac-9f75-b5087851cdbf
+  port: 443
+  server: staging.vidio.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #189'
+  password: 8b6832a4-fd1c-4642-8bc7-d75a6882f6f2
+  port: 443
+  server: sub.fstore.live
+  type: trojan
+- name: '(ID) AWS'')"> #190'
+  password: 866c5c36-a11c-47d5-bf0f-36a49287b2aa
+  port: 443
+  server: sub.fstore.live
+  type: trojan
+- name: '(ID) AWS'')"> #191'
+  port: 443
+  server: sub.fstore.live
+  tls: false
+  type: vless
+  uuid: 866c5c36-a11c-47d5-bf0f-36a49287b2aa
+- name: '(ID) AWS'')"> #192'
+  port: 443
+  server: sub.fstore.live
+  tls: false
+  type: vless
+  uuid: 8b6832a4-fd1c-4642-8bc7-d75a6882f6f2
+- name: '(ID) AWS'')"> #193'
+  password: 44feecf2-06e9-4ae7-be6b-3316924a76da
+  port: 443
+  server: support.zoom.us.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #194'
+  port: 443
+  server: support.zoom.us.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 44feecf2-06e9-4ae7-be6b-3316924a76da
+- name: '(ID) AWS'')"> #195'
+  password: af98eb09-0a7b-4dee-bd05-0065c518af17
+  port: 443
+  server: support.zoom.us.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #196'
+  port: 443
+  server: support.zoom.us.fstores.web.id
+  tls: false
+  type: vless
+  uuid: af98eb09-0a7b-4dee-bd05-0065c518af17
+- name: '(ID) AWS'')"> #197'
+  password: 081088af-b1bf-4ce0-a13b-751a3e0cd688
+  port: 443
+  server: tes.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #198'
+  password: 302390ab-3fd4-4850-bd80-43f6915caba7
+  port: 443
+  server: tes.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #199'
+  port: 443
+  server: tes.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 081088af-b1bf-4ce0-a13b-751a3e0cd688
+- name: '(ID) AWS'')"> #200'
+  port: 443
+  server: tes.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 302390ab-3fd4-4850-bd80-43f6915caba7
+- name: '(ID) AWS'')"> #201'
+  password: b6fcf802-be10-47a0-ab29-f69279ad195b
+  port: 443
+  server: us.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #202'
+  port: 443
+  server: us.fstores.web.id
+  tls: false
+  type: vless
+  uuid: b6fcf802-be10-47a0-ab29-f69279ad195b
+- name: '(ID) AWS'')"> #203'
+  password: a3932ff3-ed6c-4930-a6c4-7bb81de961d8
+  port: 443
+  server: us.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #204'
+  port: 443
+  server: us.fstores.web.id
+  tls: false
+  type: vless
+  uuid: a3932ff3-ed6c-4930-a6c4-7bb81de961d8
+- name: '(ID) AWS'')"> #205'
+  port: 443
+  server: vidio.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: a8817c53-866e-4cf3-8bdc-95eabd6ebf63
+- name: '(ID) AWS'')"> #206'
+  password: a8817c53-866e-4cf3-8bdc-95eabd6ebf63
+  port: 443
+  server: vidio.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #207'
+  password: 33061060-41c0-4d43-9fb2-a76d02cc38bc
+  port: 443
+  server: vidio.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #208'
+  port: 443
+  server: vidio.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 33061060-41c0-4d43-9fb2-a76d02cc38bc
+- name: '(ID) AWS'')"> #209'
+  password: f1a3197b-e789-4c25-b93a-e759ab1b19f6
+  port: 443
+  server: vip.boy-vpn.my.id
+  type: trojan
+- name: '(ID) AWS'')"> #210'
+  port: 443
+  server: vip.boy-vpn.my.id
+  tls: false
+  type: vless
+  uuid: a2cdcaf4-181d-463d-b127-227ee9c537b9
+- name: '(ID) AWS'')"> #211'
+  password: a2cdcaf4-181d-463d-b127-227ee9c537b9
+  port: 443
+  server: vip.boy-vpn.my.id
+  type: trojan
+- name: '(ID) AWS'')"> #212'
+  port: 443
+  server: vip.boy-vpn.my.id
+  tls: false
+  type: vless
+  uuid: f1a3197b-e789-4c25-b93a-e759ab1b19f6
+- name: '(ID) AWS'')"> #213'
+  password: 95bf8d8f-5db0-401f-80bb-d4dc15e82253
+  port: 443
+  server: vip.kholilah.xyz
+  type: trojan
+- name: '(ID) AWS'')"> #214'
+  port: 443
+  server: vip.kholilah.xyz
+  tls: false
+  type: vless
+  uuid: 95bf8d8f-5db0-401f-80bb-d4dc15e82253
+- name: '(ID) AWS'')"> #215'
+  port: 443
+  server: vip.kholilah.xyz
+  tls: false
+  type: vless
+  uuid: 9366a8a5-2228-4073-a72b-09b109b14459
+- name: '(ID) AWS'')"> #216'
+  password: 9366a8a5-2228-4073-a72b-09b109b14459
+  port: 443
+  server: vip.kholilah.xyz
+  type: trojan
+- name: '(ID) AWS'')"> #217'
+  password: 15f0ff9d-6839-4370-b136-23e02f2849db
+  port: 443
+  server: vuclip.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #218'
+  password: 95bd3a76-e2d5-49a5-884e-38d99995dcde
+  port: 443
+  server: vuclip.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #219'
+  port: 443
+  server: vuclip.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 15f0ff9d-6839-4370-b136-23e02f2849db
+- name: '(ID) AWS'')"> #220'
+  port: 443
+  server: vuclip.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 95bd3a76-e2d5-49a5-884e-38d99995dcde
+- name: '(ID) AWS'')"> #221'
+  port: 443
+  server: webex.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: e0f5058f-5d6d-4cb1-8f64-5ac2f165f75d
+- name: '(ID) AWS'')"> #222'
+  port: 443
+  server: webex.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: cfc4505e-3eda-427f-a821-d4b4d92e3bf3
+- name: '(ID) AWS'')"> #223'
+  password: e0f5058f-5d6d-4cb1-8f64-5ac2f165f75d
+  port: 443
+  server: webex.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #224'
+  password: cfc4505e-3eda-427f-a821-d4b4d92e3bf3
+  port: 443
+  server: webex.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #225'
+  password: 5f743feb-02a3-4ecb-8cd1-3475736b2505
+  port: 443
+  server: zaintest.vuclip.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #226'
+  port: 443
+  server: zaintest.vuclip.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 3a6f71e5-bd14-4d59-9190-f37e1bc10fe4
+- name: '(ID) AWS'')"> #227'
+  port: 443
+  server: zaintest.vuclip.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 5f743feb-02a3-4ecb-8cd1-3475736b2505
+- name: '(ID) AWS'')"> #228'
+  password: 3a6f71e5-bd14-4d59-9190-f37e1bc10fe4
+  port: 443
+  server: zaintest.vuclip.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #229'
+  port: 443
+  server: zaintest.vuclip.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 8ff379bb-33a0-42e8-9650-be8e675795c0
+- name: '(ID) AWS'')"> #230'
+  port: 443
+  server: zaintest.vuclip.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 0609ac7b-7938-4554-8b6c-351343b4869e
+- name: '(ID) AWS'')"> #231'
+  password: 0609ac7b-7938-4554-8b6c-351343b4869e
+  port: 443
+  server: zaintest.vuclip.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #232'
+  password: 8ff379bb-33a0-42e8-9650-be8e675795c0
+  port: 443
+  server: zaintest.vuclip.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #233'
+  password: c586453a-d3ca-4560-b6af-a9aa100fec17
+  port: 443
+  server: zoom.us.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #234'
+  port: 443
+  server: zoom.us.fstores.web.id
+  tls: false
+  type: vless
+  uuid: f8882c17-ee67-499f-9e80-8e147a0c94d3
+- name: '(ID) AWS'')"> #235'
+  password: f8882c17-ee67-499f-9e80-8e147a0c94d3
+  port: 443
+  server: zoom.us.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #236'
+  port: 443
+  server: zoom.us.fstores.web.id
+  tls: false
+  type: vless
+  uuid: c586453a-d3ca-4560-b6af-a9aa100fec17
+- name: '(ID) AWS'')"> #237'
+  port: 443
+  server: zoomcares.zoom.us.fsid.web.id
+  tls: false
+  type: vless
+  uuid: f1f15179-10e7-4df8-950a-5d7a770a5fb0
+- name: '(ID) AWS'')"> #238'
+  password: a10b4cdc-aada-42f4-af73-ffe04750d798
+  port: 443
+  server: zoomcares.zoom.us.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #239'
+  port: 443
+  server: zoomcares.zoom.us.fsid.web.id
+  tls: false
+  type: vless
+  uuid: a10b4cdc-aada-42f4-af73-ffe04750d798
+- name: '(ID) AWS'')"> #240'
+  password: f1f15179-10e7-4df8-950a-5d7a770a5fb0
+  port: 443
+  server: zoomcares.zoom.us.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #241'
+  password: 0c25477d-46e0-4117-837e-07805a75f8e6
+  port: 443
+  server: zoomgov.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #242'
+  password: 8770f0bd-b6f2-4a68-b1ae-b3576a07138d
+  port: 443
+  server: zoomgov.com.fsid.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #243'
+  port: 443
+  server: zoomgov.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 0c25477d-46e0-4117-837e-07805a75f8e6
+- name: '(ID) AWS'')"> #244'
+  port: 443
+  server: zoomgov.com.fsid.web.id
+  tls: false
+  type: vless
+  uuid: 8770f0bd-b6f2-4a68-b1ae-b3576a07138d
+- name: '(ID) AWS'')"> #245'
+  port: 443
+  server: zoomgov.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: b8cc39bf-ee67-4d3d-a0c9-5ddb9f12795c
+- name: '(ID) AWS'')"> #246'
+  password: b8cc39bf-ee67-4d3d-a0c9-5ddb9f12795c
+  port: 443
+  server: zoomgov.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #247'
+  password: 5f0a3a27-ebd2-4c7c-9345-9c398714a528
+  port: 443
+  server: zoomgov.com.fstores.web.id
+  type: trojan
+- name: '(ID) AWS'')"> #248'
+  port: 443
+  server: zoomgov.com.fstores.web.id
+  tls: false
+  type: vless
+  uuid: 5f0a3a27-ebd2-4c7c-9345-9c398714a528

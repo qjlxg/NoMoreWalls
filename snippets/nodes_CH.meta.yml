@@ -1,70 +1,42 @@
 proxies:
-- name: Moftinet 🇨🇭
-  network: httpupgrade
-  port: 2052
-  server: www.speedtest.net
+- name: 'CH #2'
+  port: 443
+  server: 140.238.212.95
   tls: false
   type: vless
-  uuid: f684e6b4-6d74-4039-95a8-2839aba14367
-  ws-opts:
-    headers:
-      Host: epic-zurich-sub-89ytdd0zy-rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--qeiaa57238baaaaaaabaacaaaaaaaaaaaaaaaaaaaaa.apaspeedtest.netrat.com.eu.com.shw814.ir.xn--cr8haaaaaaaaaaaaaaaaa.xn--g28h.betacloud.ir.
-    path: '%2F%3Fed%3D2048'
-- name: 'Moftinet 🇨🇭 #1'
-  network: httpupgrade
-  port: 2052
-  server: www.speedtest.net
-  tls: false
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'CH #1'
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 529f64ee-d1da-45eb-b41f-55af281c65ce
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      Host: epic-zurich-sub-89ytdd0zy-rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--qeiaa57238baaaaaaabaacaaaaaaaaaaaaaaaaaaaaa.apaspeedtest.netrat.com.eu.com.shw814.ir.xn--cr8haaaaaaaaaaaaaaaaa.xn--g28h.BArGhPaRs.IR.
-    path: '%2F%3Fed%3D2048'
-- name: 🇨🇭 5936
-  network: httpupgrade
-  port: 2086
-  server: www.speedtest.net
-  tls: false
+      Host: jv.bgm2024.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'CH #3'
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 8d63bcfc-5759-4c6b-9189-9b32f2a10733
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      Host: itsmymeowly.mashti.bloG.
-    path: '%2Ftelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%3Fed%3D2560'
-- name: 🇨🇭 5901
-  network: httpupgrade
-  port: 2086
-  server: www.speedtest.net
-  tls: false
-  type: vless
-  uuid: 5b6d9ffb-99ab-4ae0-8d88-3d4ea3076b3c
-  ws-opts:
-    headers:
-      Host: itsmymeowly.mashti.bloG.
-    path: '%2Ftelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%2Ctelegram-%40LegenderY_Servers%3Fed%3D2560'
-- name: 瑞士_070418028
-  network: httpupgrade
-  port: 8880
-  server: 185.18.250.172
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 瑞士_070418033
-  network: httpupgrade
-  port: 8880
-  server: 185.18.250.227
-  tls: false
-  type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
+      Host: dv.bgm2024.dpdns.org
+    path: '%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
   name: 🔒 VM-TCP-NA 🇨🇭 CH-186.190.215....

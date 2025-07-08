@@ -1,159 +1,126 @@
 proxies:
-- name: 'خرید+@Orange_support #4'
-  network: httpupgrade
-  port: 2052
-  server: ns1.esfahansiman.com
-  tls: false
-  type: vless
-  uuid: 44ab7429-dd2f-4a5f-8755-72695074000d
+- alpn:
+  - h3
+  name: FRA
+  network: ws
+  password: Aimer
+  port: 81
+  server: 45.80.209.25
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
   ws-opts:
     headers:
-      Host: WWW.tehrANSiman.coM.
-    path: '%2F%3Fed%3D2560'
-- name: 🇫🇷FR_411_@Surfboardv2ray
-  network: httpupgrade
-  port: 2052
-  server: 185.16.110.30
-  tls: false
-  type: vless
-  uuid: 0f0897cf-469f-421b-9018-b739fb47b721
+      Host: epml.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+- alpn:
+  - h3
+  name: 'FRA #3'
+  network: ws
+  password: Aimer
+  port: 81
+  server: 45.80.209.25
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
   ws-opts:
     headers:
-      Host: WWW.tehrANSiman.coM.
-    path: /?ed=2560
-- name: 🇨🇭📡@Serversiran11
-  network: httpupgrade
-  port: 2052
-  server: ns1.esfahansiman.com
-  tls: false
-  type: vless
-  uuid: 1c9f20e4-8888-4a4e-941b-cd35922a1125
-  ws-opts:
-    headers:
-      Host: www.speedttestcloudflare.arashmobile.info
-- name: 🇫🇷FR_2281_@Surfboardv2ray
-  network: httpupgrade
-  port: 2052
-  server: ns2.esfahansiman.com
-  tls: false
-  type: vless
-  uuid: be6d2019-b9c8-48c4-a915-90a99c2c562c
-  ws-opts:
-    headers:
-      Host: FTP.tehrANSiman.coM.
-    path: /?ed=2560
-- name: '@FILTERK0SH+|+VIP+SERVER💯 #10'
-  network: httpupgrade
-  port: 8080
-  server: 104.17.234.128
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: JOIN.%53%56%4E%54%45%41%4D.fra.speedtest.net.FiSvn.ir.
-    path: '%2Ftelegram-%53%56%4E%54%45%41%4D%3Fed%3D2056'
-- name: 🇫🇷🌏+@v2ray_v_vpn+کانفیگ+های+بی...
-  network: httpupgrade
-  port: 2095
-  server: 104.19.15.10
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: vira.www.speedtest.net.zula.digikala.com.avincloud.ir
-    path: digikala.com%2Flogin%2F%40ViraV2ray%2C%40ViraV2ray%2C%40ViraV2ray%3Fed%3D2560
-- name: Moftinet+🇫🇷
-  network: httpupgrade
+      Host: epmk.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: random
+  name: 🇫🇷 @iProxyRobot [FR↹🇮🇷]
+  network: ws
   port: 80
-  server: www.speedtest.net
+  server: 81.12.92.233
   tls: false
   type: vless
-  uuid: c058ae8f-e477-4b5a-8ed9-ec914db9778f
+  uuid: 469ea395-6372-ba2e-05c0-6790e06848d9
   ws-opts:
     headers:
-      Host: sub-89ytdd0zy-rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--qeiaa57238baaaaaaabaacaaaaaaaaaaaaaaaaaaaaa.apaspeedtest.netrat.com.eu.com.shw814.ir.xn--cr8haaaaaaaaaaaaaaaaa.xn--g28h.UplOaD-sOftMeTo.Ir.
-    path: '%2F%3Fed%3D2048'
-- grpc-opts:
-    grpc-service-name: /@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH
-  name: '@FILTERK0SH+|+All+²🇫🇷'
+      Host: web.rubika.ir
+    path: '%2FIVApi%2FFR%2F1'
+- name: '🇨🇦 @iProxyRobot [CA↹🇮🇷] #1'
+  port: 80
+  server: 81.12.92.233
+  tls: false
+  type: vless
+  uuid: 469ea395-6372-ba2e-05c0-6790e06848d9
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: FR_5239_@Surfboardv2ray
   network: httpupgrade
-  port: 8080
-  server: 104.17.234.128
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: JOIN.%53%56%4E%54%45%41%4D.fra.speedtest.net.FiSvn.ir.
-    path: '%2Ftelegram-%53%56%4E%54%45%41%4D%3Fed%3D2056'
-- name: '[🇫🇷]𝐣𝐨𝐢𝐧𓄂𓆃 @v2rayngrit'
-  network: httpupgrade
-  port: 2052
-  server: ns1.esfahansiman.com
-  tls: false
-  type: vless
-  uuid: 668e2f3c-28d6-49d0-900e-511b1ef6fe8d
-  ws-opts:
-    headers:
-      Host: WWW.tehrANSiman.coM.
-    path: '%2F%3Fed%3D2560'
-- name: 🚀 - 𝗔𝗟𝗟 𝗡𝗘𝗧 |🇫🇷
-  network: httpupgrade
-  port: 2082
-  server: date.akco16.fun
-  tls: false
-  type: vless
-  uuid: 7e8bd14f-56ac-4b3f-bc5e-17ea58e1e2da
-  ws-opts:
-    headers:
-      Host: franch.asraschool.ir
-    path: '%2F%3Fed%3D2560'
-- name: '🇫🇷🌏+@v2ray_v_vpn+کانفیگ+های+بی... #1'
-  network: httpupgrade
-  port: 8880
-  server: 104.21.69.44
-  tls: false
-  type: vless
-  uuid: 8ab0ad08-4804-41e4-a385-6e87543972fd
-  ws-opts:
-    headers:
-      Host: join-daily-configs.broken-dreams.ir
-    path: '%2F'
-- name: 🇫🇷 Test
-  password: VfwoVmXyBn
-  port: 38614
-  server: t1.mjk.world
-  type: trojan
-- name: 🇫🇷 @UltraPing Test
-  password: RIAHuZOQHX
-  port: 56421
-  server: tt.dlfile.site
-  type: trojan
-- name: '🇫🇷 @UltraPing Test #1'
-  password: LlgoG37gPP
-  port: 16796
-  server: tt.dlfile.site
-  type: trojan
-- name: 🇫🇷 @ Test
-  password: xDHFeo74kU
-  port: 20954
-  server: war.dlfile.site
-  type: trojan
-- name: 🇫🇷_Tel@vless_vmess
-  password: e018b9e8-96eb-45b6-b929-a39812631a30
   port: 443
-  server: texas.misnetwork.top
-  type: trojan
+  server: ssl2.komanserver.ir
+  servername: am.komanserver.ir.
+  tls: true
+  type: vless
+  uuid: da587398-b8bd-4edb-b3b3-5eef00988809
+  ws-opts:
+    path: /digikala.com/login/?ed=2560
+- name: 'FR_5241_@Surfboardv2ray #1'
+  port: 443
+  server: ssl2.komanserver.ir
+  tls: false
+  type: vless
+  uuid: da587398-b8bd-4edb-b3b3-5eef00988809
+  ws-opts:
+    path: /digikala.com/login/?ed=2560
+- name: FR
+  port: 443
+  server: 185.87.150.54
+  tls: false
+  type: vless
+  uuid: f41afc19-93cb-406d-af1c-04e75221708c
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'FR #1'
+  network: ws
+  port: 443
+  server: 185.87.150.54
+  servername: warp.wlcf.lol
+  tls: true
+  type: vless
+  uuid: f41afc19-93cb-406d-af1c-04e75221708c
+  ws-opts:
+    headers:
+      Host: warp.wlcf.lol
+    path: '%2F%3Fed%3D2560'
+- name: '🇫🇷_FR_法国 #2'
+  network: tcp
+  port: 33156
+  server: 45.81.35.6
+  tls: false
+  type: vless
+  uuid: 3983dfa7-c19e-4ef9-a635-122cd78a802e
 - alterId: 0
   cipher: auto
-  name: VMESS-未知>法国-ChatGPT-1a2d514b-3...
+  name: 🇫🇷FR-45.145.165.114-7310
+  network: ws
+  port: 443
+  server: beyonddsz.cfd
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.200.13-5204
   network: ws
   port: 443
   server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-  servername: ''
-  tls: false
+  servername: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  tls: true
   type: vmess
   uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
   ws-opts:
@@ -172,16 +139,6 @@ proxies:
   uuid: 2eb3ee2a-7bf8-4b50-9b93-2d489d2f3456
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: tcp
-  port: '28213'
-  server: 135.125.182.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 81852771-76fb-4e94-e4f1-4e37a698a49a
-- alterId: 0
-  cipher: auto
   name: 🔒 VM-TCP-NA 🇫🇷 FR-45.12.133.43...
   network: tcp
   port: '28444'
@@ -189,77 +146,104 @@ proxies:
   tls: false
   type: vmess
   uuid: 1be8eddb-4f8c-45d0-b2a1-e538eb3abd39
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷FR-45.145.165.114-7310
-  network: ws
-  port: 443
-  server: beyonddsz.cfd
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #2'
+- name: '[openproxylist.com] vless-FR #5'
   network: grpc
   port: 8880
-  server: 638820971350283180.belgrade-shledrc-acbs.info
+  server: 185.231.205.99
   tls: false
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: '🇫🇷کانفیگ های بیشتر: @customv2r...'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[openproxylist.com] vless-FR #3'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: XThpnyytziagvWMwmxGuSQ0nqfUw2sosq49F2fUEzmk
+    short-id: 0ca18da2c8f9
+  server: 2.56.126.76
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: 7f97131b-0d9d-4be9-b7b4-3fa21403cffa
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[openproxylist.com] vless-FR #2'
+  network: grpc
+  port: 8880
+  server: 95.164.45.94
+  servername: TABRIZ.NET
+  tls: false
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: '[openproxylist.com] vless-FR #4'
+  port: 8880
+  server: 95.164.45.94
+  tls: false
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: '[openproxylist.com] vless-FR #6'
+  network: grpc
+  port: 8880
+  server: 185.153.183.211
+  tls: false
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: France🚀 🇫🇷 -[VLESS]-[stagekost...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CuLjZaOWwaC_didE-f8CZoUK0mGH75iq-0u1St_wjUU
+    short-id: 67f8515f3fa23d2f
+  server: fr.fasti.win
+  servername: fr.fasti.win
+  tls: false
+  type: vless
+  uuid: 6c49485f-843c-4e96-abfe-046bc473c7b0
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- client-fingerprint: randomized
+  name: 🇫🇷 FR-2-NBC-MMDLeecher-v
   network: ws
   port: 443
-  server: zula.ir
-  servername: rayan-supra.parisa.dpdns.org
+  server: 185.143.233.5
+  servername: anten.ir
   tls: true
   type: vless
-  uuid: 172ed5fd-83a6-469e-863c-50e251a6c17d
+  uuid: 3ddf5ad7-7b60-4345-8197-1f7f55861b43
   ws-opts:
     headers:
-      Host: rayan-supra.parisa.dpdns.org
-    path: '%2F%3Fed%3D2560'
+      Host: anten.ir.escantratout.iranwebs.site
+    path: '%2F'
 - client-fingerprint: chrome
-  name: '👉🆔@v2ray_configs_pool📡🇫🇷®️Fran... #8'
+  flow: xtls-rprx-vision
+  name: '🇫🇷4|TCP|Reality-sublink #1'
   network: tcp
-  port: 58440
+  port: 443
   reality-opts:
-    public-key: 9qIfswg5ImAKqsb7k_8Zlyj-EcPacIvEfZnhEkYktHg
-    short-id: 3bba58385bf1ad
-  server: 103.249.133.79
-  servername: www.latimes.com
+    public-key: WNcXg-3WpjyiJ0bZiQ9xeQz954-l8DHWUa2tikS2WWg
+    short-id: 7e66
+  server: rack4.biseda2.eu
+  servername: rack4.biseda2.eu
   tls: false
   type: vless
-  uuid: f711153f-b7b3-47cc-9d99-2b2a25fd0d73
-- name: 🇫[openproxylist.com] vless-FR
+  uuid: 3fc4876d-9b5a-4c78-9504-33d054c49e3f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇫🇷 *5 |Reality|TCP-Sublink #1'
   network: tcp
-  port: 19161
-  server: 185.133.125.10
+  port: 443
+  reality-opts:
+    public-key: nJCFKiVAMgQ8iagUkAgA-k7HZAjlhAWXXQo928BjgGA
+    short-id: 98688195cdbd38
+  server: racknerd5.merckchemicals.ir
+  servername: racknerd5.merckchemicals.ir
   tls: false
   type: vless
-  uuid: c5b69a7f-8e71-4425-8613-0f3c2a97d6d7
-  ws-opts:
-    headers:
-      Host: soft98.ir
-- name: 🇫🇷[openproxylist.com] vless-FR
-  network: tcp
-  port: 19151
-  server: 185.133.125.8
-  tls: false
-  type: vless
-  uuid: 84e7d7ea-fbb8-4a62-b3c6-a22165a21bee
-  ws-opts:
-    headers:
-      Host: soft98.ir
-- name: 🇷[openproxylist.com] vless-FR
-  network: ws
-  port: 80
-  server: 51.38.232.101
-  tls: false
-  type: vless
-  uuid: 21389e1d-e91f-4156-93ee-4ed2c321e37c
-  ws-opts:
-    path: /vless/
+  uuid: 28e56b77-e393-4f37-b404-7eb8bad7d75c

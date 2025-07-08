@@ -1,57 +1,76 @@
 proxies:
-- name: All-@V2ray_Raha-13
-  network: httpupgrade
-  port: 8080
-  server: www.speedtest.net
-  tls: false
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: BR
+  network: ws
+  port: 443
+  server: 185.133.35.183
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      Host: AB.841.vpn.ir.de2.vless.sitespeedtest.net
-    path: '%2Fhttpupgrade'
-- name: '(S960)🇬🇧t.me/PrivateVPNs #1'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.40.44.31
-  type: trojan
-- name: '(S911)🇨🇵t.me/PrivateVPNs #2'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.236.36.253
-  type: trojan
-- name: '🇺🇾https://t.me/vpn_iossعضو+شو #4'
-  password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf
-  port: 20785
-  server: azgy001.xibai6.top
-  type: trojan
-- name: '🇲🇸https://t.me/vpn_iossعضو+شو #3'
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.99.174.228
-  type: trojan
-- name: (S771)🇩🇪t.me/PrivateVPNs
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.77.128.189
-  type: trojan
-- name: (S764)🇬🇧t.me/PrivateVPNs
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.9.12.151
-  type: trojan
-- name: '🇧🇷https://t.me/vpn_iossعضو+شو #13'
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.96.142.149
-  type: trojan
-- name: '🇧🇷https://t.me/vpn_iossعضو+شو #14'
-  password: 0785f3b9-4574-4f50-9a31-62b9880102df
+      Host: dv.bgm2024.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: random
+  name: 'BR #1'
+  network: ws
   port: 443
-  server: mci-2.reporthername.online
-  type: trojan
+  server: 185.133.35.22
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
-    path: '%2FJiwZIyGBB8SinHJCE%2Ftrojanws'
+    headers:
+      Host: jv.bgm2024.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- name: 'BR #4'
+  port: 443
+  server: 185.133.35.22
+  tls: false
+  type: vless
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'BR #3'
+  network: ws
+  port: 443
+  server: 185.133.35.183
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      Host: jv.bgm2024.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- name: 'BR #7'
+  port: 443
+  server: 185.133.35.183
+  tls: false
+  type: vless
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+- client-fingerprint: random
+  name: 'BR #6'
+  network: ws
+  port: 443
+  server: 185.133.35.22
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      Host: dv.bgm2024.dpdns.org
+    path: '%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
   name: 🔒 VM-TCP-NA 🇧🇷 BR-95.164.4.140...

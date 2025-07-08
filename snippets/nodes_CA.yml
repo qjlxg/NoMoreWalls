@@ -1,44 +1,56 @@
 proxies:
-- name: 🇨🇦_Tel:@vless_vmess
-  password: cQv2PgL1Im
-  port: 37985
-  server: amir.greenboys.xyz
-  type: trojan
-- name: (S122)🇨🇮t.me/PrivateVPNs
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 34.245.19.83
-  type: trojan
-- name: (S989)🇨🇵t.me/PrivateVPNs
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.39.44.173
-  type: trojan
-- name: '🇨🇦https://t.me/vpn_iossعضو+شو #2'
-  password: iyHH7r3JD4
-  port: 41008
-  server: 198.27.88.235
-  type: trojan
-- name: '🇨🇦https://t.me/vpn_iossعضو+شو #3'
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.96.173.77
-  type: trojan
-- name: '(S787)🇸🇪t.me/PrivateVPNs #1'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.50.192.41
-  type: trojan
-- name: '(S728)🇸🇪t.me/PrivateVPNs #2'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 16.171.65.200
-  type: trojan
-- name: (S706)🇬🇧t.me/PrivateVPNs
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.10.199.13
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '_中国 #1'
+  network: ws
+  port: '30840'
+  server: 111.26.109.79
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: api100-core-quic-lf.amemv.com
+    path: /index
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.21.73.150-5247
+  network: ws
+  port: 443
+  server: sSsdCVfBGNjkI.931.PP.Ua
+  servername: sssdcvfbgnjki.931.pp.ua
+  tls: true
+  type: vmess
+  uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e
+  ws-opts:
+    headers:
+      Host: sSsdCVfBGNjkI.931.PP.Ua
+    path: /14Fziqw1hYgCXNutkS5H
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦[openproxylist.com] vmess-CA
+  network: tcp
+  port: '42610'
+  server: 51.79.86.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e0957ca6-f613-4017-ff3c-effd1da8871a
+- alterId: 0
+  cipher: auto
+  name: '@Hope_Net-join-us-on-Telegram #250'
+  network: ws
+  port: 443
+  server: 134.195.198.147
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: inna.cfd
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 🔒 VM-WS-NA 🇨🇦 CA-158.69.48.14:...
@@ -55,17 +67,7 @@ proxies:
     path: /vpnjantit
 - alterId: 0
   cipher: auto
-  name: 🇨🇦[openproxylist.com] vmess-CA
-  network: tcp
-  port: '42610'
-  server: 51.79.86.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e0957ca6-f613-4017-ff3c-effd1da8871a
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦CA-23.162.200.227-7301
+  name: 🇨🇦CA-23.162.200.227-7025
   network: ws
   port: 443
   server: 23.162.200.227
@@ -77,57 +79,66 @@ proxies:
     headers:
       Host: ''
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦CA-134.195.198.147-7305
+- name: '@v2ray_configs_poolCanadaToron... #16'
   network: ws
+  password: Aimer
   port: 443
-  server: 134.195.198.147
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: ignacio.ns.cloudflare.com
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
   ws-opts:
     headers:
-      Host: inna.cfd
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #50'
-  network: ws
-  port: 443
-  server: cloudgetservice2.mcloudservice.site
-  tls: true
-  type: vmess
-  uuid: c208e0ae-6f6d-4745-99da-44a44744c530
-  ws-opts:
-    headers:
-      Host: blazE-GEr-248.blAZeClOuDmaiN.sitE
-    path: /linkwsrt
+      Host: epmk.ambercc.filegear-sg.me
+    path: '%2F'
 - alpn:
+  - http/1.1
+  name: '@v2ray_configs_poolCanadaToron... #22'
+  network: ws
+  password: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+  port: 443
+  server: 172.67.187.28
+  sni: dddDdDdDDFfFf.iran2035.dPdNS.ORG
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dddddddddffff.iran2035.dpdns.org
+    path: '%2Fxa846InEcmjyiKVby2Lp'
+- name: '@v2ray_configs_poolCanadaToron... #29'
+  network: ws
+  password: Aimer
+  port: 443
+  server: ignacio.ns.cloudflare.com
+  type: trojan
+- name: '@v2ray_configs_poolCanadaToron... #76'
+  network: ws
+  password: vip
+  port: 443
+  server: 104.18.42.163
+  sni: heihu880.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: heihu880.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: '@v2ray_configs_poolCanadaToron... #97'
+  password: Xa4^l(;.;B#a
+  port: 443
+  server: 104.18.26.90
+  type: trojan
+  ws-opts:
+    path: '%2FtrUXByA1rnbs4YQ1Xw%3Fed%3D2560'
+- alpn:
+  - h3
   - h2
   - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #98'
+  name: '@v2ray_configs_poolCanadaToron... #138'
   network: ws
-  password: redfree8
+  password: Xa4^l(;.;B#a
   port: 443
-  server: 104.17.148.22
-  sni: redfree8-p1.pooriashop.ir
+  server: 104.18.26.90
+  sni: S1.mitivpN.wOrKeRS.DEV
   type: trojan
   ws-opts:
     headers:
-      Host: redfree8-p1.pooriashop.ir
-    path: '%2FtrTelegram@@M4Dvpn%2F%3Fed%3D2560'
-- alpn:
-  - http/1.1
-  name: '👉🆔@v2ray_configs_pool📡🇨🇦®️Cana... #133'
-  network: ws
-  password: 10b1e371-d734-4306-b67f-0fc1f95c2485
-  port: 443
-  server: aazxsde.003330333.xyz
-  sni: aazxSde.003330333.xyZ
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aazxsde.003330333.xyz
-    path: '%2FKodE23lBlbnEsM'
+      Host: s1.mitivpn.workers.dev
+    path: '%2FtrUXByA1rnbs4YQ1Xw%3Fed%3D2560'

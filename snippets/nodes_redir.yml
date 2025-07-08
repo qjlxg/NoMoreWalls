@@ -1,1 +1,297 @@
-proxies: []
+proxies:
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_6 #1'
+  network: tcp
+  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  port: 27235
+  server: c3fe9cc6-sytz40-thv9l4-1jbj0.cm5.cnkuaishou.com
+  type: trojan
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_3 #1'
+  network: tcp
+  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  port: 27235
+  server: 4edfad82-sytz40-tcmken-19les.cm5.cnkuaishou.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: '_中国 #3'
+  network: ws
+  port: '30829'
+  server: 111.26.109.79
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ''
+    path: /oooo
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_2
+  network: tcp
+  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  port: 27235
+  server: ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com
+  type: trojan
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+  network: tcp
+  password: 55f2afab-bc41-4231-b725-76bef15c3cf7
+  port: 54031
+  server: lm.kaiqsz.com
+  sni: mmbiz10.redapricotcloud.com
+  type: trojan
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  network: tcp
+  password: 55f2afab-bc41-4231-b725-76bef15c3cf7
+  port: 55799
+  server: lm.kaiqsz.com
+  sni: mmbiz10.redapricotcloud.com
+  type: trojan
+- name: '🇨🇳_CN_中国->🇺🇸_US_美国 #3'
+  network: tcp
+  password: GsKYmYOE
+  port: 1617
+  server: 223.113.54.154
+  type: trojan
+- name: '🇨🇳_CN_中国->🇺🇸_US_美国_1 #1'
+  network: tcp
+  password: 55f2afab-bc41-4231-b725-76bef15c3cf7
+  port: 55799
+  server: lm.kaiqsz.com
+  type: trojan
+- name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  network: grpc
+  password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2
+  port: 443
+  server: 104.21.47.176
+  sni: hdfyc1.achaemenidempireofpersia.uk
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: 2086
+  server: 104.19.47.27
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_4
+  network: tcp
+  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+  port: 27235
+  server: 274ba953-sytz40-t09za6-1m0fq.cm5.cnkuaishou.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯 #2'
+  network: ws
+  port: 2052
+  server: 104.26.0.66
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯 #3'
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
+  ws-opts: {}
+- name: '🇨🇳_CN_中国->🇫🇷_FR_法国_2 #1'
+  network: tcp
+  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  port: 27235
+  server: ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com
+  sni: ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com
+  type: trojan
+- name: '🇨🇳_CN_中国->🇺🇸_US_美国_3 #1'
+  network: tcp
+  password: 55f2afab-bc41-4231-b725-76bef15c3cf7
+  port: 54031
+  server: lm.kaiqsz.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: 2086
+  server: 104.19.47.36
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
+- alterId: 64
+  cipher: auto
+  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #1'
+  network: tcp
+  port: 32998
+  server: 183.240.235.164
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: '🇨🇳_CN_中国->🇺🇸_US_美国 #2'
+  network: ws
+  password: moist
+  port: 23555
+  server: 211.72.156.17
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #4'
+  network: tcp
+  port: 54002
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_5
+  network: tcp
+  password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
+  port: 27235
+  server: 1dde7ddd-sytz40-tbpu76-1thmd.cm5.cnkuaishou.com
+  type: trojan
+- name: '🇨🇳_CN_中国->🇺🇸_US_美国 #5'
+  network: ws
+  password: moist
+  port: 23555
+  server: 211.72.156.17
+  sni: trojan.freenods.sbs
+  type: trojan
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_1
+  network: tcp
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  port: 27235
+  server: 916030df-sytz40-t16ejh-1rdqg.cm5.cnkuaishou.com
+  type: trojan
+- name: '未命名 #8136'
+  network: grpc
+  password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2
+  port: 443
+  server: 104.21.47.176
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大
+  network: ws
+  port: '2082'
+  server: 146.19.21.61
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸_US_美国->🇨🇦_CA_加拿大 #2'
+  network: ws
+  port: 2082
+  server: 159.112.235.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
+  network: ws
+  port: 2082
+  server: 190.93.244.228
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
+  network: ws
+  port: 2082
+  server: 185.148.107.11
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
+  network: ws
+  port: 2082
+  server: 190.93.246.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_GB_英国->🇨🇦_CA_加拿大
+  network: ws
+  port: 2082
+  server: 45.8.211.242
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
+  network: ws
+  port: 2082
+  server: 185.193.31.108
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸_US_美国->🇨🇦_CA_加拿大 #4'
+  network: ws
+  port: '2082'
+  server: 190.93.245.76
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: 2082
+  server: 190.93.247.203
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999

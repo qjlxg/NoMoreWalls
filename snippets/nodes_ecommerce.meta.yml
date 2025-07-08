@@ -1,1 +1,3733 @@
-proxies: []
+proxies:
+- name: (ID) Amazoncom', 'vless://cf02...
+  port: 443
+  server: account-gopay.midtrans.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: cf024a37-d961-45a7-92ba-88cd67886828
+- name: (ID) Amazoncom', 'vless://08a5...
+  port: 443
+  server: account-gopay.midtrans.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 08a5f8c1-109b-4653-bf2f-347776539353
+- name: (ID) Alibaba', 'trojan://4c39f...
+  password: 4c39fa34-90be-43be-a181-c432eee37288
+  port: 443
+  server: account-gopay.midtrans.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'trojan://08a...
+  password: 08a5f8c1-109b-4653-bf2f-347776539353
+  port: 443
+  server: account-gopay.midtrans.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'trojan://cf0...
+  password: cf024a37-d961-45a7-92ba-88cd67886828
+  port: 443
+  server: account-gopay.midtrans.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Alibaba', 'vless://4c39fa...
+  port: 443
+  server: account-gopay.midtrans.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 4c39fa34-90be-43be-a181-c432eee37288
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ...'
+  network: ws
+  port: 443
+  server: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+  servername: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+    path: '%2FFree-CF-Proxy-AE17'
+- name: '[AE] Amazon Data Services UAE ... #1'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+  sni: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+    path: '%2FFree-CF-Proxy-AE17'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #2'
+  network: ws
+  port: 443
+  server: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+  servername: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+    path: '%2FFree-CF-Proxy-AE20'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #3'
+  network: ws
+  port: 443
+  server: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+  servername: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+    path: '%2FFree-CF-Proxy-AE21'
+- name: '[AE] Amazon Data Services UAE ... #4'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+  sni: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+    path: '%2FFree-CF-Proxy-AE20'
+- name: '[AE] Amazon Data Services UAE ... #5'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+  sni: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.freevpn.cloudproxyip.my.id
+    path: '%2FFree-CF-Proxy-AE21'
+- name: '[AE] G-Core Labs Customer assi... #23'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: ads.ruangguru.com.freevpn.turah.my.id
+  type: trojan
+- name: (AE) Amazon Data Services UAE'...
+  network: ws
+  password: 2d1432a2-3910-4b13-9809-e4ae00d8980c
+  port: 443
+  server: ads.ruangguru.com.joss.checker-ip.web.id
+  sni: ads.ruangguru.com.joss.checker-ip.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.joss.checker-ip.web.id
+    path: /Free-VPN-CF-Geo-Project%2F3.28.199.214%3D443
+- client-fingerprint: randomized
+  name: '(AE) Amazon Data Services UAE''... #1'
+  network: ws
+  port: 443
+  server: ads.ruangguru.com.joss.checker-ip.web.id
+  servername: ads.ruangguru.com.joss.checker-ip.web.id
+  tls: true
+  type: vless
+  uuid: 0087a61a-f1fd-4a32-a47f-3a0bc8d58259
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.joss.checker-ip.web.id
+    path: /Free-VPN-CF-Geo-Project%2F3.28.62.7%3D443
+- name: '(AE) Amazon Data Services UAE''... #2'
+  network: ws
+  password: 9b6103c3-4d9a-4ffd-aa90-a0a664192ba2
+  port: 443
+  server: ads.ruangguru.com.joss.checker-ip.web.id
+  sni: ads.ruangguru.com.joss.checker-ip.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.joss.checker-ip.web.id
+    path: /Free-VPN-CF-Geo-Project%2F3.29.115.162%3D8443
+- client-fingerprint: randomized
+  name: '(AE) Amazon Data Services UAE''... #3'
+  network: ws
+  port: 443
+  server: ads.ruangguru.com.joss.checker-ip.web.id
+  servername: ads.ruangguru.com.joss.checker-ip.web.id
+  tls: true
+  type: vless
+  uuid: 2d1432a2-3910-4b13-9809-e4ae00d8980c
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.joss.checker-ip.web.id
+    path: /Free-VPN-CF-Geo-Project%2F3.28.199.214%3D443
+- client-fingerprint: randomized
+  name: '(AE) Amazon Data Services UAE''... #4'
+  network: ws
+  port: 443
+  server: ads.ruangguru.com.joss.checker-ip.web.id
+  servername: ads.ruangguru.com.joss.checker-ip.web.id
+  tls: true
+  type: vless
+  uuid: 9b6103c3-4d9a-4ffd-aa90-a0a664192ba2
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.joss.checker-ip.web.id
+    path: /Free-VPN-CF-Geo-Project%2F3.29.115.162%3D8443
+- name: '(AE) Amazon Data Services UAE''... #5'
+  network: ws
+  password: 0087a61a-f1fd-4a32-a47f-3a0bc8d58259
+  port: 443
+  server: ads.ruangguru.com.joss.checker-ip.web.id
+  sni: ads.ruangguru.com.joss.checker-ip.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.joss.checker-ip.web.id
+    path: /Free-VPN-CF-Geo-Project%2F3.28.62.7%3D443
+- name: '[AM] Proitlab LLC '')"> #70'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: ads.ruangguru.com.web.bmkg.xyz
+  type: trojan
+- name: '[AE] Oracle Corporation '')"> #167'
+  port: 443
+  server: api.midtrans.com.freevpn.ndeso.web.id
+  tls: false
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+- name: '[AE] Oracle Corporation '')"> #195'
+  port: 443
+  server: api.midtrans.com.freexxx.bmkg.xyz
+  tls: false
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+- name: '[AE] BlueVPS OU '')"> #28'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: api.midtrans.com.freexxx.ndeso.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #6'
+  port: 443
+  server: api.midtrans.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: a2d1b3f0-f8af-45f9-98b9-308f02966b47
+- name: '(AE) Amazon Data Services UAE''... #7'
+  password: 7c4bd482-76aa-4ed1-82d7-19d6a197030a
+  port: 443
+  server: api.midtrans.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #8'
+  password: a2d1b3f0-f8af-45f9-98b9-308f02966b47
+  port: 443
+  server: api.midtrans.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #9'
+  password: 7240174c-6e10-47d6-8457-1ba1c48f8823
+  port: 443
+  server: api.midtrans.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #10'
+  port: 443
+  server: api.midtrans.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 7c4bd482-76aa-4ed1-82d7-19d6a197030a
+- name: '(AE) Amazon Data Services UAE''... #11'
+  port: 443
+  server: api.midtrans.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 7240174c-6e10-47d6-8457-1ba1c48f8823
+- name: (ID) Alibaba', 'trojan://e860a...
+  password: e860a153-bf09-44a2-b345-fe970179b61e
+  port: 443
+  server: app.gopay.co.id.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'vless://eacb...
+  port: 443
+  server: app.gopay.co.id.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: eacbe732-49fe-42c8-a325-49049befc9bd
+- name: (ID) Amazoncom', 'vless://c6e5...
+  port: 443
+  server: app.gopay.co.id.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: c6e5ef99-c26f-4756-bf03-6ee7c0fb86a4
+- name: (ID) Alibaba', 'vless://e860a1...
+  port: 443
+  server: app.gopay.co.id.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: e860a153-bf09-44a2-b345-fe970179b61e
+- name: (ID) Amazoncom', 'trojan://eac...
+  password: eacbe732-49fe-42c8-a325-49049befc9bd
+  port: 443
+  server: app.gopay.co.id.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'trojan://c6e...
+  password: c6e5ef99-c26f-4756-bf03-6ee7c0fb86a4
+  port: 443
+  server: app.gopay.co.id.but.xsmnet.buzz
+  type: trojan
+- name: 23 🇸🇬 Leaseweb Asia WS TLS [mu...
+  password: 437e4947-7e4f-4acc-b3ad-d9062122eb4d
+  port: 443
+  server: app.gopay.co.id.multi.xsmnet.buzz
+  type: trojan
+- name: (ID) Alibaba', 'trojan://3de13...
+  password: 3de13f9c-4388-46bf-8d1b-6201db951e15
+  port: 443
+  server: app.midtrans.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'trojan://29b...
+  password: 29bdcfe5-e89a-42a3-9c14-09c00c4060de
+  port: 443
+  server: app.midtrans.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Alibaba', 'vless://3de13f...
+  port: 443
+  server: app.midtrans.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 3de13f9c-4388-46bf-8d1b-6201db951e15
+- name: (ID) Amazoncom', 'trojan://d82...
+  password: d82b3b7b-b551-465d-9a3f-9d6f1ca4de13
+  port: 443
+  server: app.midtrans.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'vless://d82b...
+  port: 443
+  server: app.midtrans.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: d82b3b7b-b551-465d-9a3f-9d6f1ca4de13
+- name: (ID) Amazoncom', 'vless://29bd...
+  port: 443
+  server: app.midtrans.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 29bdcfe5-e89a-42a3-9c14-09c00c4060de
+- name: '21 🇸🇬 Cloudflare Warp WS TLS [... #2'
+  port: 443
+  server: app.midtrans.com.multi.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: e304d35b-07c5-479c-a448-737ab7d6ab5d
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #4'
+  port: 443
+  server: app-stg.gopay.co.id.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 719e820d-ebde-4cc6-9b95-1ce993ebc133
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #7'
+  password: dce001fd-0075-4ad2-9ecb-90d074763cc2
+  port: 443
+  server: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID)</p> #6'
+  port: 80
+  server: app-stg.gopay.co.id.servpn.my.id
+  tls: false
+  type: vless
+  uuid: c02ebb63-1465-482d-9bb3-06fe82e1c212
+  ws-opts:
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #5'
+  port: 80
+  server: app-stg.gopay.co.id.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 4cb68479-d662-47c1-b5cd-3454b2983962
+  ws-opts:
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID)</p> #3'
+  password: 9f3239e6-d945-4883-9d3e-74c0377753d8
+  port: 80
+  server: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)</p> #5'
+  password: 0a5de88b-f85c-458d-a3b9-fda54a379a83
+  port: 80
+  server: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid4'
+- name: Amazon.com,+Inc.+(ID)
+  network: ws
+  password: 0a5de88b-f85c-458d-a3b9-fda54a379a83
+  port: 80
+  server: app-stg.gopay.co.id.servpn.my.id
+  sni: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID)</p> #7'
+  password: 670b78c3-a6f3-4b05-8770-79fc86810de3
+  port: 443
+  server: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #6'
+  port: 443
+  server: app-stg.gopay.co.id.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 0b5f85ef-fb66-40ef-aedf-5b65f52ca358
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #1'
+  network: ws
+  port: 443
+  server: app-stg.gopay.co.id.servpn.my.id
+  servername: app-stg.gopay.co.id.servpn.my.id
+  tls: true
+  type: vless
+  uuid: 0b5f85ef-fb66-40ef-aedf-5b65f52ca358
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: '%2Fid5'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #2'
+  network: ws
+  port: 80
+  server: app-stg.gopay.co.id.servpn.my.id
+  servername: app-stg.gopay.co.id.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 4cb68479-d662-47c1-b5cd-3454b2983962
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID) #3'
+  network: ws
+  password: 670b78c3-a6f3-4b05-8770-79fc86810de3
+  port: 443
+  server: app-stg.gopay.co.id.servpn.my.id
+  sni: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: '%2Fid5'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #4'
+  network: ws
+  port: 443
+  server: app-stg.gopay.co.id.servpn.my.id
+  servername: app-stg.gopay.co.id.servpn.my.id
+  tls: true
+  type: vless
+  uuid: 719e820d-ebde-4cc6-9b95-1ce993ebc133
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID) #5'
+  network: ws
+  password: dce001fd-0075-4ad2-9ecb-90d074763cc2
+  port: 443
+  server: app-stg.gopay.co.id.servpn.my.id
+  sni: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: '%2Fid4'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #6'
+  network: ws
+  port: 80
+  server: app-stg.gopay.co.id.servpn.my.id
+  servername: app-stg.gopay.co.id.servpn.my.id
+  tls: false
+  type: vless
+  uuid: c02ebb63-1465-482d-9bb3-06fe82e1c212
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID) #7'
+  network: ws
+  password: 9f3239e6-d945-4883-9d3e-74c0377753d8
+  port: 80
+  server: app-stg.gopay.co.id.servpn.my.id
+  sni: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: '%2Fid5'
+- name: Amazon.com, Inc. (ID)
+  network: ws
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: b45c3e6c-a64a-4693-bdb6-2ac2b5e73be4
+  ws-opts:
+    path: /
+- name: 'Amazon.com, Inc. (ID) #1'
+  network: ws
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 0df2b307-9da0-476a-b6c7-54d8730e44eb
+  ws-opts:
+    path: /
+- name: 'Amazon.com, Inc. (ID) #2'
+  network: ws
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 85b41073-37b4-4a12-9673-decf6c399f3d
+  ws-opts:
+    path: /
+- name: 'Amazon.com, Inc. (ID) #3'
+  network: ws
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 273c3f38-b91b-484a-8ae0-1727d14dde3f
+  ws-opts:
+    path: /
+- name: '[AE] Amazon Data Services UAE ... #120'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: ava.game.naver.com.freevpn.ndeso.web.id
+  sni: ava.game.naver.com.freevpn.ndeso.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.freevpn.ndeso.web.id
+    path: '%2FFree-CF-Proxy-AE21'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #121'
+  network: ws
+  port: 443
+  server: ava.game.naver.com.freevpn.ndeso.web.id
+  servername: ava.game.naver.com.freevpn.ndeso.web.id
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.freevpn.ndeso.web.id
+    path: '%2FFree-CF-Proxy-AE20'
+- name: '[AE] Amazon Data Services UAE ... #122'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: ava.game.naver.com.freevpn.ndeso.web.id
+  sni: ava.game.naver.com.freevpn.ndeso.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.freevpn.ndeso.web.id
+    path: '%2FFree-CF-Proxy-AE20'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #123'
+  network: ws
+  port: 443
+  server: ava.game.naver.com.freevpn.ndeso.web.id
+  servername: ava.game.naver.com.freevpn.ndeso.web.id
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.freevpn.ndeso.web.id
+    path: '%2FFree-CF-Proxy-AE17'
+- name: '[AE] Amazon Data Services UAE ... #124'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: ava.game.naver.com.freevpn.ndeso.web.id
+  sni: ava.game.naver.com.freevpn.ndeso.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.freevpn.ndeso.web.id
+    path: '%2FFree-CF-Proxy-AE17'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #125'
+  network: ws
+  port: 443
+  server: ava.game.naver.com.freevpn.ndeso.web.id
+  servername: ava.game.naver.com.freevpn.ndeso.web.id
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.freevpn.ndeso.web.id
+    path: '%2FFree-CF-Proxy-AE21'
+- name: '[AE] Oracle Corporation '')"> #319'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: ava.game.naver.com.freevpn.xhamster.biz.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #12'
+  port: 443
+  server: ava.game.naver.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: f895dbfb-d28c-4c67-b6aa-3b5b98ec647d
+- name: '(AE) Amazon Data Services UAE''... #13'
+  password: 27579c0a-9a9b-4809-97f4-a3f4ba1da363
+  port: 443
+  server: ava.game.naver.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #14'
+  port: 443
+  server: ava.game.naver.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 2e30d2c3-fb90-4c4e-8d02-bebbed5ddad8
+- name: '(AE) Amazon Data Services UAE''... #15'
+  password: f895dbfb-d28c-4c67-b6aa-3b5b98ec647d
+  port: 443
+  server: ava.game.naver.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #16'
+  password: 2e30d2c3-fb90-4c4e-8d02-bebbed5ddad8
+  port: 443
+  server: ava.game.naver.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #17'
+  port: 443
+  server: ava.game.naver.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 27579c0a-9a9b-4809-97f4-a3f4ba1da363
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #8'
+  network: ws
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  servername: ava.game.naver.com.servpn.my.id
+  tls: true
+  type: vless
+  uuid: 3d82d47f-efef-4602-bbb7-e7e097584f06
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.servpn.my.id
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #13'
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 6cf5ee03-50c9-4420-bdbd-3b4a082a790b
+- name: 'Amazon.com,+Inc.+(ID)</p> #11'
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  tls: false
+  type: vless
+  uuid: a2aa9c79-c204-4085-8007-ac7507210977
+  ws-opts:
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #10'
+  password: 10457455-72b3-42bd-82df-bf508be54cbc
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)</p> #15'
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 43256efa-f8e1-42bc-a488-0570d4113cb5
+  ws-opts:
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #14'
+  password: 628b0d80-4b78-483c-a028-e096120f5ad1
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID) #9'
+  network: ws
+  password: 6a896141-144f-47c5-89c5-bfe5540542f5
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  sni: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.servpn.my.id
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID) #10'
+  network: ws
+  password: 10457455-72b3-42bd-82df-bf508be54cbc
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  sni: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.servpn.my.id
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID) #11'
+  network: ws
+  password: 628b0d80-4b78-483c-a028-e096120f5ad1
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  sni: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.servpn.my.id
+    path: '%2Fid4'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #12'
+  network: ws
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  servername: ava.game.naver.com.servpn.my.id
+  tls: false
+  type: vless
+  uuid: a2aa9c79-c204-4085-8007-ac7507210977
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.servpn.my.id
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)</p> #13'
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 3d82d47f-efef-4602-bbb7-e7e097584f06
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #15'
+  password: 56aa43d1-194d-40ba-9031-5be00dbd6cc5
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID)</p> #14'
+  password: 6a896141-144f-47c5-89c5-bfe5540542f5
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid5'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #13'
+  network: ws
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  servername: ava.game.naver.com.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 43256efa-f8e1-42bc-a488-0570d4113cb5
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.servpn.my.id
+    path: '%2Fid4'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #14'
+  network: ws
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  servername: ava.game.naver.com.servpn.my.id
+  tls: true
+  type: vless
+  uuid: 6cf5ee03-50c9-4420-bdbd-3b4a082a790b
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.servpn.my.id
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID) #15'
+  network: ws
+  password: 56aa43d1-194d-40ba-9031-5be00dbd6cc5
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  sni: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.servpn.my.id
+    path: '%2Fid4'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #138'
+  network: ws
+  port: 443
+  server: ava.game.naver.com.web.bmkg.xyz
+  servername: ava.game.naver.com.web.bmkg.xyz
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.web.bmkg.xyz
+    path: '%2FFree-CF-Proxy-AE17'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #139'
+  network: ws
+  port: 443
+  server: ava.game.naver.com.web.bmkg.xyz
+  servername: ava.game.naver.com.web.bmkg.xyz
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.web.bmkg.xyz
+    path: '%2FFree-CF-Proxy-AE21'
+- name: '[AE] Amazon Data Services UAE ... #140'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: ava.game.naver.com.web.bmkg.xyz
+  sni: ava.game.naver.com.web.bmkg.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.web.bmkg.xyz
+    path: '%2FFree-CF-Proxy-AE20'
+- name: '[AE] Amazon Data Services UAE ... #141'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: ava.game.naver.com.web.bmkg.xyz
+  sni: ava.game.naver.com.web.bmkg.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.web.bmkg.xyz
+    path: '%2FFree-CF-Proxy-AE17'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #142'
+  network: ws
+  port: 443
+  server: ava.game.naver.com.web.bmkg.xyz
+  servername: ava.game.naver.com.web.bmkg.xyz
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.web.bmkg.xyz
+    path: '%2FFree-CF-Proxy-AE20'
+- name: '[AE] Amazon Data Services UAE ... #143'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: ava.game.naver.com.web.bmkg.xyz
+  sni: ava.game.naver.com.web.bmkg.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.web.bmkg.xyz
+    path: '%2FFree-CF-Proxy-AE21'
+- client-fingerprint: randomized
+  name: Amazon.com, Inc.
+  network: ws
+  port: 443
+  server: ava.game.naver.com.xsm.web.id
+  servername: ava.game.naver.com.xsm.web.id
+  tls: true
+  type: vless
+  uuid: 26c637d9-fe0d-4fbf-b3ed-2fe26b7f3f8b
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.xsm.web.id
+    path: /xsm
+- client-fingerprint: randomized
+  name: 'Amazon.com, Inc. #1'
+  network: ws
+  port: 80
+  server: ava.game.naver.com.xsm.web.id
+  servername: ava.game.naver.com.xsm.web.id
+  tls: false
+  type: vless
+  uuid: 26c637d9-fe0d-4fbf-b3ed-2fe26b7f3f8b
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.xsm.web.id
+    path: /xsm
+- name: 'Amazon.com,+Inc.&quot;)">Copy ... #1'
+  port: 443
+  server: ava.game.naver.com.xsm.web.id
+  tls: false
+  type: vless
+  uuid: 26c637d9-fe0d-4fbf-b3ed-2fe26b7f3f8b
+- name: 'Amazon.com, Inc. #3'
+  port: 80
+  server: ava.game.naver.com.xsm.web.id
+  tls: false
+  type: vless
+  uuid: 26c637d9-fe0d-4fbf-b3ed-2fe26b7f3f8b
+  ws-opts:
+    path: /xsm
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #17'
+  port: 80
+  server: ava.game.naver.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: 0c12ef20-4190-4877-85e6-7fe9876cdea1
+  ws-opts:
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #16'
+  port: 443
+  server: ava.game.naver.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: 96322f8c-fd2f-4088-94e0-b96fe1de8a07
+- name: 'Amazon.com,+Inc.+(ID) #16'
+  network: ws
+  port: 80
+  server: ava.game.naver.com.yaya.web.id
+  servername: ava.game.naver.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: 0c12ef20-4190-4877-85e6-7fe9876cdea1
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.yaya.web.id
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID) #17'
+  network: ws
+  port: 443
+  server: ava.game.naver.com.yaya.web.id
+  servername: ava.game.naver.com.yaya.web.id
+  tls: true
+  type: vless
+  uuid: 96322f8c-fd2f-4088-94e0-b96fe1de8a07
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.yaya.web.id
+    path: '%2Fbeon'
+- name: '12 🇸🇬 OVH Hosting WS TLS [mult... #5'
+  port: 443
+  server: bakrie.ac.id.multi.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 51107226-e76c-4748-8ed1-92e28971b58a
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #18'
+  network: ws
+  port: 80
+  server: bakrie.ac.id.servpn.my.id
+  servername: bakrie.ac.id.servpn.my.id
+  tls: false
+  type: vless
+  uuid: a4f994ed-7785-43e3-9d91-487c2b6324af
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.servpn.my.id
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #24'
+  password: 0f9e610b-614e-4d1d-9fdf-b998edc74bda
+  port: 443
+  server: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)</p> #22'
+  password: 0a0f6f2d-cba1-4269-9d72-50774bc75350
+  port: 80
+  server: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #23'
+  port: 80
+  server: bakrie.ac.id.servpn.my.id
+  tls: false
+  type: vless
+  uuid: a4f994ed-7785-43e3-9d91-487c2b6324af
+  ws-opts:
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID) #19'
+  network: ws
+  password: 0f9e610b-614e-4d1d-9fdf-b998edc74bda
+  port: 443
+  server: bakrie.ac.id.servpn.my.id
+  sni: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.servpn.my.id
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)</p> #24'
+  port: 443
+  server: bakrie.ac.id.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 23a0e5cb-f7a4-4f01-9eef-4667ac264aab
+- name: 'Amazon.com,+Inc.+(ID)</p> #20'
+  password: a3bbba68-8c17-4386-9320-6e89225a1ddf
+  port: 80
+  server: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)</p> #23'
+  port: 80
+  server: bakrie.ac.id.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 60206b74-08cf-46e8-a4b2-941c08ea6df4
+  ws-opts:
+    path: '%2Fid4'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #20'
+  network: ws
+  port: 80
+  server: bakrie.ac.id.servpn.my.id
+  servername: bakrie.ac.id.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 60206b74-08cf-46e8-a4b2-941c08ea6df4
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.servpn.my.id
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID)</p> #25'
+  port: 443
+  server: bakrie.ac.id.servpn.my.id
+  tls: false
+  type: vless
+  uuid: cfa2543c-28ef-45a6-8aad-a6aa9eb89be8
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #21'
+  network: ws
+  port: 443
+  server: bakrie.ac.id.servpn.my.id
+  servername: bakrie.ac.id.servpn.my.id
+  tls: true
+  type: vless
+  uuid: 23a0e5cb-f7a4-4f01-9eef-4667ac264aab
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.servpn.my.id
+    path: '%2Fid4'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #22'
+  network: ws
+  port: 443
+  server: bakrie.ac.id.servpn.my.id
+  servername: bakrie.ac.id.servpn.my.id
+  tls: true
+  type: vless
+  uuid: cfa2543c-28ef-45a6-8aad-a6aa9eb89be8
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.servpn.my.id
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #25'
+  password: 1befc247-cb31-4be6-9026-ebdcd8c74306
+  port: 443
+  server: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID) #23'
+  network: ws
+  password: 0a0f6f2d-cba1-4269-9d72-50774bc75350
+  port: 80
+  server: bakrie.ac.id.servpn.my.id
+  sni: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.servpn.my.id
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID) #24'
+  network: ws
+  password: 1befc247-cb31-4be6-9026-ebdcd8c74306
+  port: 443
+  server: bakrie.ac.id.servpn.my.id
+  sni: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.servpn.my.id
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID) #25'
+  network: ws
+  password: a3bbba68-8c17-4386-9320-6e89225a1ddf
+  port: 80
+  server: bakrie.ac.id.servpn.my.id
+  sni: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.servpn.my.id
+    path: '%2Fid5'
+- client-fingerprint: randomized
+  name: (ID) Alibaba
+  network: ws
+  port: 80
+  server: masukan.bug.ws
+  servername: bakrie.ac.id.wilcard.cyantiknya.my.id
+  tls: false
+  type: vless
+  uuid: e5a34c68-7974-4f6c-bbe6-91f5fdddcdec
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.wilcard.cyantiknya.my.id
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: (ID) Alibaba')">Copy Trojan N-...
+  password: TUREs7ApLQ4i
+  port: 80
+  server: masukan.bug.ws
+  type: trojan
+  ws-opts:
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba</pre> #1'
+  port: 80
+  server: masukan.bug.ws
+  tls: false
+  type: vless
+  uuid: e5a34c68-7974-4f6c-bbe6-91f5fdddcdec
+  ws-opts:
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba</pre> #2'
+  password: XE0X6nqZiPZo
+  port: 443
+  server: masukan.bug.ws
+  type: trojan
+- client-fingerprint: randomized
+  name: '(ID) Alibaba #1'
+  network: ws
+  port: 443
+  server: masukan.bug.ws
+  servername: bakrie.ac.id.wilcard.cyantiknya.my.id
+  tls: true
+  type: vless
+  uuid: 8392f361-2450-4f18-a8de-a48a121a8350
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.wilcard.cyantiknya.my.id
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba</pre> #3'
+  port: 443
+  server: masukan.bug.ws
+  tls: false
+  type: vless
+  uuid: 8392f361-2450-4f18-a8de-a48a121a8350
+- name: '(ID) Alibaba #2'
+  network: ws
+  password: XE0X6nqZiPZo
+  port: 443
+  server: masukan.bug.ws
+  sni: bakrie.ac.id.wilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.wilcard.cyantiknya.my.id
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba #3'
+  network: ws
+  password: TUREs7ApLQ4i
+  port: 80
+  server: masukan.bug.ws
+  sni: bakrie.ac.id.wilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.wilcard.cyantiknya.my.id
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- name: '(AE) Amazon Data Services UAE''... #18'
+  password: 7dfb9e11-3485-4e8d-8459-c8e845a5d60c
+  port: 443
+  server: beta.zoom.us.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #19'
+  port: 443
+  server: beta.zoom.us.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 7dfb9e11-3485-4e8d-8459-c8e845a5d60c
+- name: '(AE) Amazon Data Services UAE''... #20'
+  port: 443
+  server: beta.zoom.us.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 6ca7a81f-7490-44b0-8f38-0ca311fd6bde
+- name: '(AE) Amazon Data Services UAE''... #21'
+  port: 443
+  server: beta.zoom.us.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: c6604daf-ae85-49a2-8f8f-1eb9ee3b4f9c
+- name: '(AE) Amazon Data Services UAE''... #22'
+  password: c6604daf-ae85-49a2-8f8f-1eb9ee3b4f9c
+  port: 443
+  server: beta.zoom.us.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #23'
+  password: 6ca7a81f-7490-44b0-8f38-0ca311fd6bde
+  port: 443
+  server: beta.zoom.us.joss.checker-ip.web.id
+  type: trojan
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #31'
+  port: 80
+  server: blog.ruangguru.com.servpn.my.id
+  tls: false
+  type: vless
+  uuid: c5c62330-53a2-48cb-b079-c6cf75a9449a
+  ws-opts:
+    path: '%2Fid5'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #26'
+  network: ws
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  servername: blog.ruangguru.com.servpn.my.id
+  tls: true
+  type: vless
+  uuid: 22db3b87-fbf1-48c4-bb3d-d7e4addec45a
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)</p> #31'
+  password: 66f4bda7-f552-4560-a77d-ff4b9dfeb047
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID) #27'
+  network: ws
+  password: f60c9f8d-4bfb-4090-b61a-79dd84182257
+  port: 80
+  server: blog.ruangguru.com.servpn.my.id
+  sni: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: '%2Fid4'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #28'
+  network: ws
+  port: 80
+  server: blog.ruangguru.com.servpn.my.id
+  servername: blog.ruangguru.com.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 99454fd9-0c74-4cca-85fd-e16adeef9e5e
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID)</p> #32'
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 770d4d2e-b283-4db7-85e8-b45b531ef525
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #30'
+  port: 80
+  server: blog.ruangguru.com.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 99454fd9-0c74-4cca-85fd-e16adeef9e5e
+  ws-opts:
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID)</p> #29'
+  password: f60c9f8d-4bfb-4090-b61a-79dd84182257
+  port: 80
+  server: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #32'
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  tls: false
+  type: vless
+  uuid: 22db3b87-fbf1-48c4-bb3d-d7e4addec45a
+- name: 'Amazon.com,+Inc.+(ID) #29'
+  network: ws
+  password: 66f4bda7-f552-4560-a77d-ff4b9dfeb047
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  sni: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #33'
+  password: 2dbabc17-0272-47f9-8a03-b93fb6a70bfd
+  port: 80
+  server: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)</p> #33'
+  password: cf300cc8-c926-4b60-91ed-34ab4a245059
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID) #30'
+  network: ws
+  password: cf300cc8-c926-4b60-91ed-34ab4a245059
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  sni: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: '%2Fid4'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #31'
+  network: ws
+  port: 80
+  server: blog.ruangguru.com.servpn.my.id
+  servername: blog.ruangguru.com.servpn.my.id
+  tls: false
+  type: vless
+  uuid: c5c62330-53a2-48cb-b079-c6cf75a9449a
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: '%2Fid5'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #32'
+  network: ws
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  servername: blog.ruangguru.com.servpn.my.id
+  tls: true
+  type: vless
+  uuid: 770d4d2e-b283-4db7-85e8-b45b531ef525
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID) #33'
+  network: ws
+  password: 2dbabc17-0272-47f9-8a03-b93fb6a70bfd
+  port: 80
+  server: blog.ruangguru.com.servpn.my.id
+  sni: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: '%2Fid5'
+- name: '[AE] IROKO Networks Corporatio... #49'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: blog.webex.com.freevpn.najah.biz.id
+  type: trojan
+- name: '[AE] Oracle Corporation '')"> #362'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: blog.webex.com.freevpn.ndeso.web.id
+  type: trojan
+- name: '[AE] Oracle Corporation '')"> #376'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: blog.webex.com.freexxx.bmkg.xyz
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #24'
+  password: 2381d032-471c-4bcb-8b25-0a457cb0bcb7
+  port: 443
+  server: blog.webex.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #25'
+  port: 443
+  server: blog.webex.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 6d55b287-8c66-4a1d-94b0-1493c1f9cc95
+- name: '(AE) Amazon Data Services UAE''... #26'
+  password: 6d55b287-8c66-4a1d-94b0-1493c1f9cc95
+  port: 443
+  server: blog.webex.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #27'
+  password: f4b47af0-f7b1-4aa3-932f-7fd92d9c1d35
+  port: 443
+  server: blog.webex.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #28'
+  port: 443
+  server: blog.webex.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 2381d032-471c-4bcb-8b25-0a457cb0bcb7
+- name: '(AE) Amazon Data Services UAE''... #29'
+  port: 443
+  server: blog.webex.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: f4b47af0-f7b1-4aa3-932f-7fd92d9c1d35
+- name: 'Amazon.com,+Inc.+(ID) #34'
+  network: ws
+  port: 443
+  server: blog.webex.com.yaya.web.id
+  servername: blog.webex.com.yaya.web.id
+  tls: true
+  type: vless
+  uuid: 1a10e20f-d47f-4d6d-8b9e-2c51f6af71f2
+  ws-opts:
+    headers:
+      Host: blog.webex.com.yaya.web.id
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID)</p> #35'
+  port: 80
+  server: blog.webex.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: 26694405-72b7-4c39-be40-a60a2b1744c1
+  ws-opts:
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID)</p> #34'
+  port: 443
+  server: blog.webex.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: 1a10e20f-d47f-4d6d-8b9e-2c51f6af71f2
+- name: 'Amazon.com,+Inc.+(ID) #35'
+  network: ws
+  port: 80
+  server: blog.webex.com.yaya.web.id
+  servername: blog.webex.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: 26694405-72b7-4c39-be40-a60a2b1744c1
+  ws-opts:
+    headers:
+      Host: blog.webex.com.yaya.web.id
+    path: '%2Fbeon'
+- name: (ID) Amazoncom', 'vless://3b0d...
+  port: 443
+  server: but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 3b0decfe-7929-4534-a490-5684fac22ec5
+- name: (ID) Amazoncom', 'trojan://3b0...
+  password: 3b0decfe-7929-4534-a490-5684fac22ec5
+  port: 443
+  server: but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'vless://ac90...
+  port: 443
+  server: but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: ac908f4c-d1b9-4b36-a0e4-da4763e414bb
+- name: (ID) Alibaba', 'vless://0546ca...
+  port: 443
+  server: but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 0546ca83-e43e-401b-a2ae-cf3ec291c7a4
+- name: (ID) Alibaba', 'trojan://0546c...
+  password: 0546ca83-e43e-401b-a2ae-cf3ec291c7a4
+  port: 443
+  server: but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'trojan://ac9...
+  password: ac908f4c-d1b9-4b36-a0e4-da4763e414bb
+  port: 443
+  server: but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'trojan://41d...
+  password: 41d1abff-1160-467d-ab77-b0e01c5ff8c0
+  port: 443
+  server: cache.netflix.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'trojan://714...
+  password: 714ef615-ab89-4cec-a176-7f5dda077fd3
+  port: 443
+  server: cache.netflix.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Alibaba', 'vless://8a3218...
+  port: 443
+  server: cache.netflix.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 8a321893-5826-4e92-8459-2091e0789c80
+- name: (ID) Alibaba', 'trojan://8a321...
+  password: 8a321893-5826-4e92-8459-2091e0789c80
+  port: 443
+  server: cache.netflix.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'vless://714e...
+  port: 443
+  server: cache.netflix.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 714ef615-ab89-4cec-a176-7f5dda077fd3
+- name: (ID) Amazoncom', 'vless://41d1...
+  port: 443
+  server: cache.netflix.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 41d1abff-1160-467d-ab77-b0e01c5ff8c0
+- name: '[AE] Oracle Corporation '')"> #474'
+  port: 443
+  server: cache.netflix.com.freevpn.najah.biz.id
+  tls: false
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+- name: '[AE] Amazon Data Services UAE ... #209'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: cache.netflix.com.freevpn.turah.my.id
+  type: trojan
+- name: '[AE] Amazon Data Services UAE ... #233'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: cache.netflix.com.freexxx.xhamster.biz.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #30'
+  port: 443
+  server: cache.netflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 3bc76033-20ce-4233-876d-cb8b7967df2a
+- name: '(AE) Amazon Data Services UAE''... #31'
+  password: 3fa1e752-0c55-4c0b-a17b-8314e5fcc50f
+  port: 443
+  server: cache.netflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #32'
+  password: 3bc76033-20ce-4233-876d-cb8b7967df2a
+  port: 443
+  server: cache.netflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #33'
+  password: e4262cb1-476c-4341-91db-430e3957b584
+  port: 443
+  server: cache.netflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #34'
+  port: 443
+  server: cache.netflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 3fa1e752-0c55-4c0b-a17b-8314e5fcc50f
+- name: '(AE) Amazon Data Services UAE''... #35'
+  port: 443
+  server: cache.netflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: e4262cb1-476c-4341-91db-430e3957b584
+- name: '[AE] Oracle Corporation '')"> #558'
+  port: 443
+  server: cache.netflix.com.web.bmkg.xyz
+  tls: false
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+- name: 'Amazon.com,+Inc.+(ID)</p> #37'
+  port: 80
+  server: cache.netflix.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: b2f93efb-a747-416e-a9eb-d36e89b76dd2
+  ws-opts:
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #37'
+  port: 443
+  server: cache.netflix.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: 11b21aff-7bbd-488d-98c8-866cde10b428
+- name: 'Amazon.com,+Inc.+(ID) #36'
+  network: ws
+  port: 443
+  server: cache.netflix.com.yaya.web.id
+  servername: cache.netflix.com.yaya.web.id
+  tls: true
+  type: vless
+  uuid: 11b21aff-7bbd-488d-98c8-866cde10b428
+  ws-opts:
+    headers:
+      Host: cache.netflix.com.yaya.web.id
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID) #37'
+  network: ws
+  port: 80
+  server: cache.netflix.com.yaya.web.id
+  servername: cache.netflix.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: b2f93efb-a747-416e-a9eb-d36e89b76dd2
+  ws-opts:
+    headers:
+      Host: cache.netflix.com.yaya.web.id
+    path: '%2Fbeon'
+- name: (ID) Amazoncom', 'trojan://dd3...
+  password: dd359997-a975-4a32-9494-360e34764925
+  port: 443
+  server: chat.sociomile.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'vless://f991...
+  port: 443
+  server: chat.sociomile.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: f991c5a3-310f-43ef-8ae8-08c15ce97fbc
+- name: (ID) Amazoncom', 'trojan://f99...
+  password: f991c5a3-310f-43ef-8ae8-08c15ce97fbc
+  port: 443
+  server: chat.sociomile.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Alibaba', 'vless://767ac3...
+  port: 443
+  server: chat.sociomile.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 767ac3c3-8286-4c05-9253-a6ca508f10aa
+- name: (ID) Amazoncom', 'vless://dd35...
+  port: 443
+  server: chat.sociomile.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: dd359997-a975-4a32-9494-360e34764925
+- name: (ID) Alibaba', 'trojan://767ac...
+  password: 767ac3c3-8286-4c05-9253-a6ca508f10aa
+  port: 443
+  server: chat.sociomile.com.but.xsmnet.buzz
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #36'
+  port: 443
+  server: creativeservices.netflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 552ac226-e22e-45c0-8b23-b29cf4acc976
+- name: '(AE) Amazon Data Services UAE''... #37'
+  port: 443
+  server: creativeservices.netflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: d6130611-18d1-4d35-8883-d98453dfff25
+- name: '(AE) Amazon Data Services UAE''... #38'
+  password: f97e3cad-39d0-40d2-b3a3-99484ad5f157
+  port: 443
+  server: creativeservices.netflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #39'
+  password: d6130611-18d1-4d35-8883-d98453dfff25
+  port: 443
+  server: creativeservices.netflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #40'
+  port: 443
+  server: creativeservices.netflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: f97e3cad-39d0-40d2-b3a3-99484ad5f157
+- name: '(AE) Amazon Data Services UAE''... #41'
+  password: 552ac226-e22e-45c0-8b23-b29cf4acc976
+  port: 443
+  server: creativeservices.netflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #42'
+  password: 90c9a1c5-597f-4ba0-be6e-f4b2a486a8cf
+  port: 443
+  server: data.mt.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #43'
+  port: 443
+  server: data.mt.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 90c9a1c5-597f-4ba0-be6e-f4b2a486a8cf
+- name: '(AE) Amazon Data Services UAE''... #44'
+  port: 443
+  server: data.mt.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 92714688-ac5a-4026-831b-87e374c71745
+- name: '(AE) Amazon Data Services UAE''... #45'
+  password: 13601b54-844e-42f2-99b6-f837c0902380
+  port: 443
+  server: data.mt.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #46'
+  port: 443
+  server: data.mt.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 13601b54-844e-42f2-99b6-f837c0902380
+- name: '(AE) Amazon Data Services UAE''... #47'
+  password: 92714688-ac5a-4026-831b-87e374c71745
+  port: 443
+  server: data.mt.joss.checker-ip.web.id
+  type: trojan
+- name: (AE) Amazon Data Services UAE ...
+  port: 443
+  server: dedi.xl-unlimited.web.id
+  tls: false
+  type: vless
+  uuid: ef7e6244-30e3-4c35-92c4-d0f1f5bfcd8d
+- name: '(AE) Amazon Data Services UAE ... #1'
+  password: 8dbc5233-d15c-491d-bccb-806aefc4dadd
+  port: 443
+  server: dedi.xl-unlimited.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE ... #2'
+  port: 443
+  server: dedi.xl-unlimited.web.id
+  tls: false
+  type: vless
+  uuid: 327e5070-1f75-4401-aeff-cc668b735cf8
+- name: '(AE) Amazon Data Services UAE ... #3'
+  port: 443
+  server: dedi.xl-unlimited.web.id
+  tls: false
+  type: vless
+  uuid: 8dbc5233-d15c-491d-bccb-806aefc4dadd
+- name: '(AE) Amazon Data Services UAE ... #4'
+  password: 327e5070-1f75-4401-aeff-cc668b735cf8
+  port: 443
+  server: dedi.xl-unlimited.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE ... #5'
+  password: ef7e6244-30e3-4c35-92c4-d0f1f5bfcd8d
+  port: 443
+  server: dedi.xl-unlimited.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #48'
+  port: 443
+  server: df.game.naver.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 726cde9e-7c1e-47f6-be2e-fac85979a961
+- name: '(AE) Amazon Data Services UAE''... #49'
+  password: 3c22b5d2-62e2-489b-8db0-ebfbe6970bde
+  port: 443
+  server: df.game.naver.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #50'
+  port: 443
+  server: df.game.naver.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 3c22b5d2-62e2-489b-8db0-ebfbe6970bde
+- name: '(AE) Amazon Data Services UAE''... #51'
+  password: 726cde9e-7c1e-47f6-be2e-fac85979a961
+  port: 443
+  server: df.game.naver.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #52'
+  port: 443
+  server: df.game.naver.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: f8264d2f-a698-4d02-bb43-1b7beafcf381
+- name: '(AE) Amazon Data Services UAE''... #53'
+  password: f8264d2f-a698-4d02-bb43-1b7beafcf381
+  port: 443
+  server: df.game.naver.com.joss.checker-ip.web.id
+  type: trojan
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #39'
+  port: 80
+  server: edu.ruangguru.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: e263329c-cbd8-4122-b79c-0de866973152
+  ws-opts:
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #38'
+  port: 443
+  server: edu.ruangguru.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: 7d637b82-b736-464f-949f-4aa130ddabf4
+- name: 'Amazon.com,+Inc.+(ID) #38'
+  network: ws
+  port: 80
+  server: edu.ruangguru.com.yaya.web.id
+  servername: edu.ruangguru.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: e263329c-cbd8-4122-b79c-0de866973152
+  ws-opts:
+    headers:
+      Host: edu.ruangguru.com.yaya.web.id
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID) #39'
+  network: ws
+  port: 443
+  server: edu.ruangguru.com.yaya.web.id
+  servername: edu.ruangguru.com.yaya.web.id
+  tls: true
+  type: vless
+  uuid: 7d637b82-b736-464f-949f-4aa130ddabf4
+  ws-opts:
+    headers:
+      Host: edu.ruangguru.com.yaya.web.id
+    path: '%2Fbeon'
+- name: (ID) Amazon.com Inc   ')">
+  port: 443
+  server: fey.fshop.web.id
+  tls: false
+  type: vless
+  uuid: c913c4fb-0061-43bf-b17a-17c0d34b844d
+- name: '(ID) Amazon.com Inc   '')"> #1'
+  password: c913c4fb-0061-43bf-b17a-17c0d34b844d
+  port: 443
+  server: fey.fshop.web.id
+  type: trojan
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #246'
+  network: ws
+  port: 443
+  server: freevpn.bmkg.xyz
+  servername: freevpn.bmkg.xyz
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: freevpn.bmkg.xyz
+    path: '%2FFree-CF-Proxy-AE20'
+- name: '[AE] Amazon Data Services UAE ... #247'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: freevpn.bmkg.xyz
+  sni: freevpn.bmkg.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: freevpn.bmkg.xyz
+    path: '%2FFree-CF-Proxy-AE20'
+- name: '[AE] Amazon Data Services UAE ... #248'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: freevpn.bmkg.xyz
+  sni: freevpn.bmkg.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: freevpn.bmkg.xyz
+    path: '%2FFree-CF-Proxy-AE21'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #249'
+  network: ws
+  port: 443
+  server: freevpn.bmkg.xyz
+  servername: freevpn.bmkg.xyz
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: freevpn.bmkg.xyz
+    path: '%2FFree-CF-Proxy-AE21'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #250'
+  network: ws
+  port: 443
+  server: freevpn.bmkg.xyz
+  servername: freevpn.bmkg.xyz
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: freevpn.bmkg.xyz
+    path: '%2FFree-CF-Proxy-AE17'
+- name: '[AE] Amazon Data Services UAE ... #251'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: freevpn.bmkg.xyz
+  sni: freevpn.bmkg.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: freevpn.bmkg.xyz
+    path: '%2FFree-CF-Proxy-AE17'
+- name: '[AE] Oracle Corporation '')"> #614'
+  port: 443
+  server: freevpn.ndeso.web.id
+  tls: false
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+- name: '[AE] 3NT SOLUTIONS LLP '')"> #95'
+  port: 443
+  server: freexxx.bmkg.xyz
+  tls: false
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+- name: '[AD] Andorra Telecom '')"> #97'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: freexxx.cloudproxyip.my.id
+  type: trojan
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #306'
+  network: ws
+  port: 443
+  server: freexxx.ndeso.xyz
+  servername: freexxx.ndeso.xyz
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: freexxx.ndeso.xyz
+    path: '%2FFree-CF-Proxy-AE17'
+- name: '[AE] Amazon Data Services UAE ... #307'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: freexxx.ndeso.xyz
+  sni: freexxx.ndeso.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: freexxx.ndeso.xyz
+    path: '%2FFree-CF-Proxy-AE20'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #308'
+  network: ws
+  port: 443
+  server: freexxx.ndeso.xyz
+  servername: freexxx.ndeso.xyz
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: freexxx.ndeso.xyz
+    path: '%2FFree-CF-Proxy-AE21'
+- name: '[AE] Amazon Data Services UAE ... #309'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: freexxx.ndeso.xyz
+  sni: freexxx.ndeso.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: freexxx.ndeso.xyz
+    path: '%2FFree-CF-Proxy-AE17'
+- name: '[AE] Amazon Data Services UAE ... #310'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: freexxx.ndeso.xyz
+  sni: freexxx.ndeso.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: freexxx.ndeso.xyz
+    path: '%2FFree-CF-Proxy-AE21'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #311'
+  network: ws
+  port: 443
+  server: freexxx.ndeso.xyz
+  servername: freexxx.ndeso.xyz
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: freexxx.ndeso.xyz
+    path: '%2FFree-CF-Proxy-AE20'
+- name: '[AE] Amazon Data Services UAE ... #312'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: freexxx.turah.my.id
+  sni: freexxx.turah.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: freexxx.turah.my.id
+    path: '%2FFree-CF-Proxy-AE17'
+- name: '[AE] Amazon Data Services UAE ... #313'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: freexxx.turah.my.id
+  sni: freexxx.turah.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: freexxx.turah.my.id
+    path: '%2FFree-CF-Proxy-AE21'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #314'
+  network: ws
+  port: 443
+  server: freexxx.turah.my.id
+  servername: freexxx.turah.my.id
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: freexxx.turah.my.id
+    path: '%2FFree-CF-Proxy-AE17'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #315'
+  network: ws
+  port: 443
+  server: freexxx.turah.my.id
+  servername: freexxx.turah.my.id
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: freexxx.turah.my.id
+    path: '%2FFree-CF-Proxy-AE20'
+- name: '[AE] Amazon Data Services UAE ... #316'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: freexxx.turah.my.id
+  sni: freexxx.turah.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: freexxx.turah.my.id
+    path: '%2FFree-CF-Proxy-AE20'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #317'
+  network: ws
+  port: 443
+  server: freexxx.turah.my.id
+  servername: freexxx.turah.my.id
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: freexxx.turah.my.id
+    path: '%2FFree-CF-Proxy-AE21'
+- name: '(ID) Amazon.com Inc   '')"> #2'
+  port: 443
+  server: fshop.web.id
+  tls: false
+  type: vless
+  uuid: 075e45b0-6cf7-4816-bc16-2dff87c2b055
+- name: '(ID) Amazon.com Inc   '')"> #3'
+  password: 075e45b0-6cf7-4816-bc16-2dff87c2b055
+  port: 443
+  server: fshop.web.id
+  type: trojan
+- name: (ID) Alibaba')">
+  port: 443
+  server: id.server7.xyz
+  tls: false
+  type: vless
+  uuid: 2b98da46-8a38-4e95-a1df-7f5e8c6a5999
+- name: (ID) Amazon.com')">
+  port: 443
+  server: id.server7.xyz
+  tls: false
+  type: vless
+  uuid: 10b18d85-cac2-4148-a8c6-fec0481a477e
+- name: '(ID) Amazon.com'')"> #1'
+  password: 10b18d85-cac2-4148-a8c6-fec0481a477e
+  port: 443
+  server: id.server7.xyz
+  type: trojan
+- name: '(ID) Amazon.com'')"> #2'
+  port: 443
+  server: id.server7.xyz
+  tls: false
+  type: vless
+  uuid: 80bdc7bc-94fb-4298-9da2-ad0d5ebd63bf
+- name: '(ID) Amazon.com'')"> #3'
+  password: 80bdc7bc-94fb-4298-9da2-ad0d5ebd63bf
+  port: 443
+  server: id.server7.xyz
+  type: trojan
+- name: '(ID) Alibaba'')"> #1'
+  password: 2b98da46-8a38-4e95-a1df-7f5e8c6a5999
+  port: 443
+  server: id.server7.xyz
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #54'
+  password: 22af5fe0-f54c-417b-8bbe-e32480d1f2a0
+  port: 443
+  server: img.email1.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #55'
+  port: 443
+  server: img.email1.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 22af5fe0-f54c-417b-8bbe-e32480d1f2a0
+- name: '(AE) Amazon Data Services UAE''... #56'
+  password: c9078af4-fb01-433f-8607-b339595aee9b
+  port: 443
+  server: img.email1.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #57'
+  port: 443
+  server: img.email1.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: ce62d032-5105-45ed-93e0-c8b0ba990fc8
+- name: '(AE) Amazon Data Services UAE''... #58'
+  port: 443
+  server: img.email1.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: c9078af4-fb01-433f-8607-b339595aee9b
+- name: '(AE) Amazon Data Services UAE''... #59'
+  password: ce62d032-5105-45ed-93e0-c8b0ba990fc8
+  port: 443
+  server: img.email1.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #60'
+  password: 31a3f9e0-c90f-42a4-a472-95bc24ad7ec8
+  port: 443
+  server: img.email2.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #61'
+  password: 8ba6a137-bd6a-4da7-a070-2f146bfe36d3
+  port: 443
+  server: img.email2.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #62'
+  password: 00636690-3f86-4f07-a5c4-bd51c66478a8
+  port: 443
+  server: img.email2.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #63'
+  port: 443
+  server: img.email2.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 8ba6a137-bd6a-4da7-a070-2f146bfe36d3
+- name: '(AE) Amazon Data Services UAE''... #64'
+  port: 443
+  server: img.email2.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 31a3f9e0-c90f-42a4-a472-95bc24ad7ec8
+- name: '(AE) Amazon Data Services UAE''... #65'
+  port: 443
+  server: img.email2.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 00636690-3f86-4f07-a5c4-bd51c66478a8
+- name: '(AE) Amazon Data Services UAE''... #66'
+  port: 443
+  server: img.email3.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: ab1079fc-ea83-4fba-af83-92b501a45b86
+- name: '(AE) Amazon Data Services UAE''... #67'
+  password: 8b79e554-47d7-4cc4-be7e-7d51852aa3ba
+  port: 443
+  server: img.email3.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #68'
+  port: 443
+  server: img.email3.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 8b79e554-47d7-4cc4-be7e-7d51852aa3ba
+- name: '(AE) Amazon Data Services UAE''... #69'
+  port: 443
+  server: img.email3.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 5de7fb88-ea22-45f9-9536-f216e8f4840c
+- name: '(AE) Amazon Data Services UAE''... #70'
+  password: 5de7fb88-ea22-45f9-9536-f216e8f4840c
+  port: 443
+  server: img.email3.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #71'
+  password: ab1079fc-ea83-4fba-af83-92b501a45b86
+  port: 443
+  server: img.email3.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: (ID) Alibaba', 'vless://4865fe...
+  port: 443
+  server: investor.fb.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 4865fea9-1001-4550-8f86-3a32b88fcf03
+- name: (ID) Amazoncom', 'vless://d6a3...
+  port: 443
+  server: investor.fb.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: d6a3f4c2-3c49-4259-94fb-50b52a83b165
+- name: (ID) Amazoncom', 'trojan://6ae...
+  password: 6aebb9f7-abfd-4835-9b77-04306bf31bfe
+  port: 443
+  server: investor.fb.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'vless://6aeb...
+  port: 443
+  server: investor.fb.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 6aebb9f7-abfd-4835-9b77-04306bf31bfe
+- name: (ID) Alibaba', 'trojan://4865f...
+  password: 4865fea9-1001-4550-8f86-3a32b88fcf03
+  port: 443
+  server: investor.fb.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'trojan://d6a...
+  password: d6a3f4c2-3c49-4259-94fb-50b52a83b165
+  port: 443
+  server: investor.fb.com.but.xsmnet.buzz
+  type: trojan
+- name: '(ID) Alibaba</pre> #7'
+  port: 80
+  server: masukan.bug.ws
+  tls: false
+  type: vless
+  uuid: 54b6dcdf-4bd3-415e-bb51-8f1589d27cdc
+  ws-opts:
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba'')">Copy Vless TLS... #1'
+  port: 443
+  server: masukan.bug.ws
+  tls: false
+  type: vless
+  uuid: 2111794b-11ec-4878-a6b4-1e33267d78b7
+- name: '(ID) Alibaba'')">Copy Trojan TL... #1'
+  password: 9Z4lGFhqwiAi
+  port: 443
+  server: masukan.bug.ws
+  type: trojan
+- name: '(ID) Alibaba #4'
+  network: ws
+  password: 9Z4lGFhqwiAi
+  port: 443
+  server: masukan.bug.ws
+  sni: investors.fb.com.wilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: investors.fb.com.wilcard.cyantiknya.my.id
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- client-fingerprint: randomized
+  name: '(ID) Alibaba #5'
+  network: ws
+  port: 80
+  server: masukan.bug.ws
+  servername: investors.fb.com.wilcard.cyantiknya.my.id
+  tls: false
+  type: vless
+  uuid: 54b6dcdf-4bd3-415e-bb51-8f1589d27cdc
+  ws-opts:
+    headers:
+      Host: investors.fb.com.wilcard.cyantiknya.my.id
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba</pre> #6'
+  password: zj3MxMo82LJB
+  port: 80
+  server: masukan.bug.ws
+  type: trojan
+  ws-opts:
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba #6'
+  network: ws
+  password: zj3MxMo82LJB
+  port: 80
+  server: masukan.bug.ws
+  sni: investors.fb.com.wilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: investors.fb.com.wilcard.cyantiknya.my.id
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- client-fingerprint: randomized
+  name: '(ID) Alibaba #7'
+  network: ws
+  port: 443
+  server: masukan.bug.ws
+  servername: investors.fb.com.wilcard.cyantiknya.my.id
+  tls: true
+  type: vless
+  uuid: 2111794b-11ec-4878-a6b4-1e33267d78b7
+  ws-opts:
+    headers:
+      Host: investors.fb.com.wilcard.cyantiknya.my.id
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: '[AE] Amazon Data Services UAE ... #467'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: io.ruangguru.com.freexxx.bmkg.xyz
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #72'
+  password: 63a2951b-ab7d-4003-b623-0b14104de799
+  port: 443
+  server: io.ruangguru.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #73'
+  password: c0647915-d972-4518-8b11-f94686b6baa8
+  port: 443
+  server: io.ruangguru.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #74'
+  port: 443
+  server: io.ruangguru.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 65ccaaba-4621-433a-9bbd-5b6d6560a61b
+- name: '(AE) Amazon Data Services UAE''... #75'
+  port: 443
+  server: io.ruangguru.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: c0647915-d972-4518-8b11-f94686b6baa8
+- name: '(AE) Amazon Data Services UAE''... #76'
+  password: 65ccaaba-4621-433a-9bbd-5b6d6560a61b
+  port: 443
+  server: io.ruangguru.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #77'
+  port: 443
+  server: io.ruangguru.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 63a2951b-ab7d-4003-b623-0b14104de799
+- name: '22 🇸🇬 Oracle Cloud WS TLS [mul... #9'
+  port: 443
+  server: io.ruangguru.com.multi.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 9086ac8f-4e35-42c3-b1d4-fb84fa72a865
+- name: '(AE) Amazon Data Services UAE''... #78'
+  password: 46b05ed1-74ee-4fba-8ce5-2520e382e043
+  port: 443
+  server: joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #79'
+  port: 443
+  server: joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: a9f1580f-706a-4090-9616-9fbb2773f9d7
+- name: '(AE) Amazon Data Services UAE''... #80'
+  port: 443
+  server: joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 46b05ed1-74ee-4fba-8ce5-2520e382e043
+- name: '(AE) Amazon Data Services UAE''... #81'
+  password: a9f1580f-706a-4090-9616-9fbb2773f9d7
+  port: 443
+  server: joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #82'
+  port: 443
+  server: joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: c9194e54-d8e6-4267-85f5-80dfb6b2266b
+- name: '(AE) Amazon Data Services UAE''... #83'
+  password: c9194e54-d8e6-4267-85f5-80dfb6b2266b
+  port: 443
+  server: joss.checker-ip.web.id
+  type: trojan
+- name: (ID) Alibaba', 'trojan://b3a00...
+  password: b3a00af5-34dc-49f9-afe2-77eab3c3850e
+  port: 443
+  server: live.iflix.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'vless://5678...
+  port: 443
+  server: live.iflix.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 5678f39a-3602-4195-98a1-f329e338ffe5
+- name: (ID) Amazoncom', 'trojan://567...
+  password: 5678f39a-3602-4195-98a1-f329e338ffe5
+  port: 443
+  server: live.iflix.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'trojan://f31...
+  password: f318cf33-b79e-4418-8942-9a46b7d92719
+  port: 443
+  server: live.iflix.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Alibaba', 'vless://b3a00a...
+  port: 443
+  server: live.iflix.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: b3a00af5-34dc-49f9-afe2-77eab3c3850e
+- name: (ID) Amazoncom', 'vless://f318...
+  port: 443
+  server: live.iflix.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: f318cf33-b79e-4418-8942-9a46b7d92719
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #510'
+  network: ws
+  port: 443
+  server: live.iflix.com.freevpn.ndeso.web.id
+  servername: live.iflix.com.freevpn.ndeso.web.id
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: live.iflix.com.freevpn.ndeso.web.id
+    path: '%2FFree-CF-Proxy-AE17'
+- name: '[AE] Amazon Data Services UAE ... #511'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: live.iflix.com.freevpn.ndeso.web.id
+  sni: live.iflix.com.freevpn.ndeso.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: live.iflix.com.freevpn.ndeso.web.id
+    path: '%2FFree-CF-Proxy-AE21'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #512'
+  network: ws
+  port: 443
+  server: live.iflix.com.freevpn.ndeso.web.id
+  servername: live.iflix.com.freevpn.ndeso.web.id
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: live.iflix.com.freevpn.ndeso.web.id
+    path: '%2FFree-CF-Proxy-AE20'
+- name: '[AE] Amazon Data Services UAE ... #513'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: live.iflix.com.freevpn.ndeso.web.id
+  sni: live.iflix.com.freevpn.ndeso.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: live.iflix.com.freevpn.ndeso.web.id
+    path: '%2FFree-CF-Proxy-AE20'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #514'
+  network: ws
+  port: 443
+  server: live.iflix.com.freevpn.ndeso.web.id
+  servername: live.iflix.com.freevpn.ndeso.web.id
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: live.iflix.com.freevpn.ndeso.web.id
+    path: '%2FFree-CF-Proxy-AE21'
+- name: '[AE] Amazon Data Services UAE ... #515'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: live.iflix.com.freevpn.ndeso.web.id
+  sni: live.iflix.com.freevpn.ndeso.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: live.iflix.com.freevpn.ndeso.web.id
+    path: '%2FFree-CF-Proxy-AE17'
+- name: '[AM] Proitlab LLC '')"> #701'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: live.iflix.com.freevpn.xhamster.biz.id
+  type: trojan
+- name: '[AE] Oracle Svenska AB '')"> #179'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: live.iflix.com.freexxx.xhamster.biz.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #84'
+  password: 85eccb60-1859-4334-9f49-e23bfebcb9e4
+  port: 443
+  server: live.iflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #85'
+  port: 443
+  server: live.iflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 22f0930a-745a-400e-ae2c-ce459c1ec055
+- name: '(AE) Amazon Data Services UAE''... #86'
+  port: 443
+  server: live.iflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 85eccb60-1859-4334-9f49-e23bfebcb9e4
+- name: '(AE) Amazon Data Services UAE''... #87'
+  password: 22f0930a-745a-400e-ae2c-ce459c1ec055
+  port: 443
+  server: live.iflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #88'
+  password: 228274cb-e71a-4618-a580-cd67c863a462
+  port: 443
+  server: live.iflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #89'
+  port: 443
+  server: live.iflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 228274cb-e71a-4618-a580-cd67c863a462
+- name: '(AE) Amazon Data Services UAE ... #6'
+  password: ed1aec01-095e-429d-b611-bd1c209fa0b9
+  port: 443
+  server: mindir.ari-andika2.site
+  type: trojan
+- name: '(AE) Amazon Data Services UAE ... #7'
+  port: 443
+  server: mindir.ari-andika2.site
+  tls: false
+  type: vless
+  uuid: 06652b8a-9094-401e-af68-6db7db238642
+- name: '(AE) Amazon Data Services UAE ... #8'
+  port: 443
+  server: mindir.ari-andika2.site
+  tls: false
+  type: vless
+  uuid: ed1aec01-095e-429d-b611-bd1c209fa0b9
+- name: '(AE) Amazon Data Services UAE ... #9'
+  password: 50d33286-3cb3-4bf7-a084-13f2ce5927ee
+  port: 443
+  server: mindir.ari-andika2.site
+  type: trojan
+- name: '(AE) Amazon Data Services UAE ... #10'
+  port: 443
+  server: mindir.ari-andika2.site
+  tls: false
+  type: vless
+  uuid: 50d33286-3cb3-4bf7-a084-13f2ce5927ee
+- name: '(AE) Amazon Data Services UAE ... #11'
+  password: 06652b8a-9094-401e-af68-6db7db238642
+  port: 443
+  server: mindir.ari-andika2.site
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #90'
+  port: 443
+  server: mssdk24-normal-useast2a.tiktokv.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 23563545-571d-4114-bdc2-04dc5c20bab3
+- name: '(AE) Amazon Data Services UAE''... #91'
+  password: 23563545-571d-4114-bdc2-04dc5c20bab3
+  port: 443
+  server: mssdk24-normal-useast2a.tiktokv.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #92'
+  password: 2f995e2d-f718-439f-9a45-4865dd769b22
+  port: 443
+  server: mssdk24-normal-useast2a.tiktokv.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #93'
+  port: 443
+  server: mssdk24-normal-useast2a.tiktokv.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: bed66e52-fb06-43f9-816e-bf92b01f0e9c
+- name: '(AE) Amazon Data Services UAE''... #94'
+  password: bed66e52-fb06-43f9-816e-bf92b01f0e9c
+  port: 443
+  server: mssdk24-normal-useast2a.tiktokv.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #95'
+  port: 443
+  server: mssdk24-normal-useast2a.tiktokv.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 2f995e2d-f718-439f-9a45-4865dd769b22
+- name: '[AM] WorkTitans B.V. '')"> #185'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: quiz.int.vidio.com.freevpn.najah.biz.id
+  type: trojan
+- name: '[AE] Oracle Svenska AB '')"> #187'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: quiz.int.vidio.com.freevpn.xhamster.biz.id
+  type: trojan
+- name: '[AM] Proitlab LLC '')"> #765'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: quiz.int.vidio.com.freexxx.turah.my.id
+  type: trojan
+- name: '[AE] G-Core Labs Customer assi... #775'
+  port: 443
+  server: quiz.int.vidio.com.freexxx.xhamster.biz.id
+  tls: false
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+- name: '(AE) Amazon Data Services UAE''... #96'
+  password: c8e26bfe-dc99-4baf-9cac-1a29da735a5e
+  port: 443
+  server: quiz.int.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #97'
+  port: 443
+  server: quiz.int.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: c34a9d8a-af96-4994-b85e-72fc099150b2
+- name: '(AE) Amazon Data Services UAE''... #98'
+  password: e17ddf3a-ec02-421c-acd3-17762a8adc9c
+  port: 443
+  server: quiz.int.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #99'
+  password: c34a9d8a-af96-4994-b85e-72fc099150b2
+  port: 443
+  server: quiz.int.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #100'
+  port: 443
+  server: quiz.int.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: e17ddf3a-ec02-421c-acd3-17762a8adc9c
+- name: '(AE) Amazon Data Services UAE''... #101'
+  port: 443
+  server: quiz.int.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: c8e26bfe-dc99-4baf-9cac-1a29da735a5e
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #40'
+  port: 80
+  server: quiz.int.vidio.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: 3f3a451e-2c94-4cee-9648-0705d0651e32
+  ws-opts:
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID) #40'
+  network: ws
+  port: 80
+  server: quiz.int.vidio.com.yaya.web.id
+  servername: quiz.int.vidio.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: 3f3a451e-2c94-4cee-9648-0705d0651e32
+  ws-opts:
+    headers:
+      Host: quiz.int.vidio.com.yaya.web.id
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID)</p> #41'
+  port: 443
+  server: quiz.int.vidio.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: b94e96c4-14b6-458b-8de2-359bd0ac27b4
+- name: 'Amazon.com,+Inc.+(ID) #41'
+  network: ws
+  port: 443
+  server: quiz.int.vidio.com.yaya.web.id
+  servername: quiz.int.vidio.com.yaya.web.id
+  tls: true
+  type: vless
+  uuid: b94e96c4-14b6-458b-8de2-359bd0ac27b4
+  ws-opts:
+    headers:
+      Host: quiz.int.vidio.com.yaya.web.id
+    path: '%2Fbeon'
+- name: (ID) Amazoncom', 'vless://8c5c...
+  port: 443
+  server: quiz.vidio.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 8c5cf1c6-7939-48ac-990c-153da43a625d
+- name: (ID) Amazoncom', 'trojan://e05...
+  password: e05b970b-718a-4a7d-b8ea-57992dcc47d1
+  port: 443
+  server: quiz.vidio.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Alibaba', 'trojan://1e5f6...
+  password: 1e5f6f82-9b1b-442f-a4db-e27b722731e5
+  port: 443
+  server: quiz.vidio.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'trojan://8c5...
+  password: 8c5cf1c6-7939-48ac-990c-153da43a625d
+  port: 443
+  server: quiz.vidio.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'vless://e05b...
+  port: 443
+  server: quiz.vidio.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: e05b970b-718a-4a7d-b8ea-57992dcc47d1
+- name: (ID) Alibaba', 'vless://1e5f6f...
+  port: 443
+  server: quiz.vidio.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 1e5f6f82-9b1b-442f-a4db-e27b722731e5
+- name: '(AE) Amazon Data Services UAE''... #102'
+  port: 443
+  server: quiz.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: e9e5bb6a-645d-4fdb-aa53-d790b6aa6a8f
+- name: '(AE) Amazon Data Services UAE''... #103'
+  password: e9e5bb6a-645d-4fdb-aa53-d790b6aa6a8f
+  port: 443
+  server: quiz.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #104'
+  port: 443
+  server: quiz.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 2c43d600-34de-4176-8861-dd5fb4dd8b67
+- name: '(AE) Amazon Data Services UAE''... #105'
+  password: 2c43d600-34de-4176-8861-dd5fb4dd8b67
+  port: 443
+  server: quiz.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #106'
+  port: 443
+  server: quiz.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 4ce97751-0542-4135-8dbc-5112f42bb867
+- name: '(AE) Amazon Data Services UAE''... #107'
+  password: 4ce97751-0542-4135-8dbc-5112f42bb867
+  port: 443
+  server: quiz.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE ... #12'
+  port: 443
+  server: serim.ari-andika2.site
+  tls: false
+  type: vless
+  uuid: d93efbe7-d454-4c41-b47e-fd9e3cca5dbf
+- name: '(AE) Amazon Data Services UAE ... #13'
+  port: 443
+  server: serim.ari-andika2.site
+  tls: false
+  type: vless
+  uuid: 9011d30a-170c-4908-9722-f25a9a64df32
+- name: '(AE) Amazon Data Services UAE ... #14'
+  port: 443
+  server: serim.ari-andika2.site
+  tls: false
+  type: vless
+  uuid: a2d9ead1-ef0e-47a3-9f89-1874f7c26db6
+- name: '(AE) Amazon Data Services UAE ... #15'
+  password: a2d9ead1-ef0e-47a3-9f89-1874f7c26db6
+  port: 443
+  server: serim.ari-andika2.site
+  type: trojan
+- name: '(AE) Amazon Data Services UAE ... #16'
+  password: d93efbe7-d454-4c41-b47e-fd9e3cca5dbf
+  port: 443
+  server: serim.ari-andika2.site
+  type: trojan
+- name: '(AE) Amazon Data Services UAE ... #17'
+  password: 9011d30a-170c-4908-9722-f25a9a64df32
+  port: 443
+  server: serim.ari-andika2.site
+  type: trojan
+- name: 'Amazon.com,+Inc.+(ID)</p> #45'
+  password: 36351e6a-7438-429f-b536-edad499ead25
+  port: 443
+  server: servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #44'
+  port: 443
+  server: servpn.my.id
+  tls: false
+  type: vless
+  uuid: d99527df-4c37-4a24-a371-48faacc54586
+- name: 'Amazon.com,+Inc.+(ID) #42'
+  network: ws
+  password: 52c8fdea-fd56-4d31-a4d4-3b7ba2b35621
+  port: 443
+  server: servpn.my.id
+  sni: servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: servpn.my.id
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID) #43'
+  network: ws
+  password: 72d649ac-1b4d-43a4-883e-aeff645393f4
+  port: 80
+  server: servpn.my.id
+  sni: servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: servpn.my.id
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #48'
+  port: 80
+  server: servpn.my.id
+  tls: false
+  type: vless
+  uuid: d93a66b2-06fa-429d-b49a-4a60e9d14012
+  ws-opts:
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)</p> #46'
+  password: 52c8fdea-fd56-4d31-a4d4-3b7ba2b35621
+  port: 443
+  server: servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid4'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #44'
+  network: ws
+  port: 80
+  server: servpn.my.id
+  servername: servpn.my.id
+  tls: false
+  type: vless
+  uuid: d93a66b2-06fa-429d-b49a-4a60e9d14012
+  ws-opts:
+    headers:
+      Host: servpn.my.id
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #46'
+  port: 443
+  server: servpn.my.id
+  tls: false
+  type: vless
+  uuid: 6f57988e-7df1-44cd-87e9-cdfb7c114048
+- name: 'Amazon.com,+Inc.+(ID) #45'
+  network: ws
+  password: 3f96b825-f9e8-4e66-b46d-f9b3201e38dd
+  port: 80
+  server: servpn.my.id
+  sni: servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: servpn.my.id
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID)</p> #47'
+  password: 72d649ac-1b4d-43a4-883e-aeff645393f4
+  port: 80
+  server: servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid5'
+- name: 'Amazon.com,+Inc.+(ID)</p> #48'
+  password: 3f96b825-f9e8-4e66-b46d-f9b3201e38dd
+  port: 80
+  server: servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID)</p> #49'
+  port: 80
+  server: servpn.my.id
+  tls: false
+  type: vless
+  uuid: cc36f2da-237b-44a0-b1c2-a1f23f280d34
+  ws-opts:
+    path: '%2Fid4'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #46'
+  network: ws
+  port: 443
+  server: servpn.my.id
+  servername: servpn.my.id
+  tls: true
+  type: vless
+  uuid: d99527df-4c37-4a24-a371-48faacc54586
+  ws-opts:
+    headers:
+      Host: servpn.my.id
+    path: '%2Fid5'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #47'
+  network: ws
+  port: 80
+  server: servpn.my.id
+  servername: servpn.my.id
+  tls: false
+  type: vless
+  uuid: cc36f2da-237b-44a0-b1c2-a1f23f280d34
+  ws-opts:
+    headers:
+      Host: servpn.my.id
+    path: '%2Fid4'
+- name: 'Amazon.com,+Inc.+(ID) #48'
+  network: ws
+  password: 36351e6a-7438-429f-b536-edad499ead25
+  port: 443
+  server: servpn.my.id
+  sni: servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: servpn.my.id
+    path: '%2Fid5'
+- client-fingerprint: randomized
+  name: 'Amazon.com,+Inc.+(ID) #49'
+  network: ws
+  port: 443
+  server: servpn.my.id
+  servername: servpn.my.id
+  tls: true
+  type: vless
+  uuid: 6f57988e-7df1-44cd-87e9-cdfb7c114048
+  ws-opts:
+    headers:
+      Host: servpn.my.id
+    path: '%2Fid4'
+- name: (ID) Alibaba', 'trojan://7f351...
+  password: 7f35181a-2e67-467b-aab0-6a5d56bfea1a
+  port: 443
+  server: support.zoom.us.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'vless://0f2f...
+  port: 443
+  server: support.zoom.us.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 0f2fca86-a597-4cfc-9bfd-9a7db3eccba0
+- name: (ID) Amazoncom', 'trojan://0f2...
+  password: 0f2fca86-a597-4cfc-9bfd-9a7db3eccba0
+  port: 443
+  server: support.zoom.us.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Alibaba', 'vless://7f3518...
+  port: 443
+  server: support.zoom.us.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 7f35181a-2e67-467b-aab0-6a5d56bfea1a
+- name: (ID) Amazoncom', 'trojan://fbf...
+  password: fbff667d-6dbc-48b3-9b74-bdb4361dd171
+  port: 443
+  server: support.zoom.us.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'vless://fbff...
+  port: 443
+  server: support.zoom.us.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: fbff667d-6dbc-48b3-9b74-bdb4361dd171
+- name: '[AM] Proitlab LLC '')"> #789'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: support.zoom.us.freevpn.bmkg.xyz
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #108'
+  password: ae256856-9099-4dc3-9ab2-0016a636e45b
+  port: 443
+  server: support.zoom.us.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #109'
+  password: 0dc440ba-fcdc-4876-a704-e4bd896f4785
+  port: 443
+  server: support.zoom.us.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #110'
+  port: 443
+  server: support.zoom.us.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: ae256856-9099-4dc3-9ab2-0016a636e45b
+- name: '(AE) Amazon Data Services UAE''... #111'
+  port: 443
+  server: support.zoom.us.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 195e2f84-5f82-45e5-865c-d21f7c8cfb09
+- name: '(AE) Amazon Data Services UAE''... #112'
+  port: 443
+  server: support.zoom.us.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 0dc440ba-fcdc-4876-a704-e4bd896f4785
+- name: '(AE) Amazon Data Services UAE''... #113'
+  password: 195e2f84-5f82-45e5-865c-d21f7c8cfb09
+  port: 443
+  server: support.zoom.us.joss.checker-ip.web.id
+  type: trojan
+- name: '(ID) Alibaba'')">Copy Trojan N-... #2'
+  password: 6xmdK1ife0OM
+  port: 80
+  server: masukan.bug.ws
+  type: trojan
+  ws-opts:
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- client-fingerprint: randomized
+  name: '(ID) Alibaba #8'
+  network: ws
+  port: 80
+  server: masukan.bug.ws
+  servername: support.zoom.us.wilcard.cyantiknya.my.id
+  tls: false
+  type: vless
+  uuid: 17bc0dcc-3739-468b-bba4-3190cff01b2d
+  ws-opts:
+    headers:
+      Host: support.zoom.us.wilcard.cyantiknya.my.id
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba'')">Copy Trojan TL... #2'
+  password: XSiYEwuQBrhG
+  port: 443
+  server: masukan.bug.ws
+  type: trojan
+- name: '(ID) Alibaba #9'
+  network: ws
+  password: XSiYEwuQBrhG
+  port: 443
+  server: masukan.bug.ws
+  sni: support.zoom.us.wilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: support.zoom.us.wilcard.cyantiknya.my.id
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba'')">Copy Vless N-T... #2'
+  port: 80
+  server: masukan.bug.ws
+  tls: false
+  type: vless
+  uuid: 17bc0dcc-3739-468b-bba4-3190cff01b2d
+  ws-opts:
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba'')">Copy Vless TLS... #2'
+  port: 443
+  server: masukan.bug.ws
+  tls: false
+  type: vless
+  uuid: 291cdfd1-834f-4071-a49b-ea16015cece3
+- name: '(ID) Alibaba #10'
+  network: ws
+  password: 6xmdK1ife0OM
+  port: 80
+  server: masukan.bug.ws
+  sni: support.zoom.us.wilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: support.zoom.us.wilcard.cyantiknya.my.id
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- client-fingerprint: randomized
+  name: '(ID) Alibaba #11'
+  network: ws
+  port: 443
+  server: masukan.bug.ws
+  servername: support.zoom.us.wilcard.cyantiknya.my.id
+  tls: true
+  type: vless
+  uuid: 291cdfd1-834f-4071-a49b-ea16015cece3
+  ws-opts:
+    headers:
+      Host: support.zoom.us.wilcard.cyantiknya.my.id
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: ID+Amazoncom+Inc+
+  network: ws
+  password: 0631d913-bb0a-4f79-99fd-5a6935c13fc5
+  port: 443
+  server: vip.arivganteng.biz.id
+  sni: vip.arivganteng.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vip.arivganteng.biz.id
+    path: /arivtr%3D43.218.77.16%3D1443
+- name: 'ID+Amazoncom+Inc+&quot;)"><i c... #1'
+  port: 443
+  server: vip.arivganteng.biz.id
+  tls: false
+  type: vless
+  uuid: c90fb1d0-2d94-449f-8389-1ece798b8693
+- name: 'ID+Amazoncom+Inc+</p> #2'
+  port: 80
+  server: vip.arivganteng.biz.id
+  tls: false
+  type: vless
+  uuid: 7c86c496-59b2-4230-b214-ad1de0f38550
+- name: 'ID+Amazoncom+Inc+ #1'
+  network: ws
+  port: 80
+  server: vip.arivganteng.biz.id
+  tls: false
+  type: vless
+  uuid: 7c86c496-59b2-4230-b214-ad1de0f38550
+  ws-opts:
+    headers:
+      Host: vip.arivganteng.biz.id
+    path: /ariv%3D43.218.77.16%3D1443
+- name: 'ID+Amazoncom+Inc+&quot;)"><i c... #2'
+  password: 0631d913-bb0a-4f79-99fd-5a6935c13fc5
+  port: 443
+  server: vip.arivganteng.biz.id
+  type: trojan
+- name: 'ID+Amazoncom+Inc+ #2'
+  network: ws
+  port: 443
+  server: vip.arivganteng.biz.id
+  servername: vip.arivganteng.biz.id
+  tls: true
+  type: vless
+  uuid: c90fb1d0-2d94-449f-8389-1ece798b8693
+  ws-opts:
+    headers:
+      Host: vip.arivganteng.biz.id
+    path: /ariv%3D43.218.77.16%3D1443
+- client-fingerprint: randomized
+  name: '(ID) Alibaba #12'
+  network: ws
+  port: 443
+  server: masukan.bug.ws
+  servername: vless.cyantiknya.my.id
+  tls: true
+  type: vless
+  uuid: 4e89209e-dc71-4b87-ad79-e4d0c827fd8b
+  ws-opts:
+    headers:
+      Host: vless.cyantiknya.my.id
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba'')">Copy Vless N-T... #3'
+  port: 80
+  server: masukan.bug.ws
+  tls: false
+  type: vless
+  uuid: 23512cb6-b21b-452a-9302-39fce2b9ef47
+  ws-opts:
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba</pre> #15'
+  port: 443
+  server: masukan.bug.ws
+  tls: false
+  type: vless
+  uuid: 4e89209e-dc71-4b87-ad79-e4d0c827fd8b
+- name: '(ID) Alibaba'')">Copy Trojan TL... #3'
+  password: SvQoTIG73AFc
+  port: 443
+  server: masukan.bug.ws
+  type: trojan
+- name: '(ID) Alibaba'')">Copy Trojan N-... #3'
+  password: zxHvemAmBwk9
+  port: 80
+  server: masukan.bug.ws
+  type: trojan
+  ws-opts:
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba #13'
+  network: ws
+  password: SvQoTIG73AFc
+  port: 443
+  server: masukan.bug.ws
+  sni: vless.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vless.cyantiknya.my.id
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- client-fingerprint: randomized
+  name: '(ID) Alibaba #14'
+  network: ws
+  port: 80
+  server: masukan.bug.ws
+  servername: vless.cyantiknya.my.id
+  tls: false
+  type: vless
+  uuid: 23512cb6-b21b-452a-9302-39fce2b9ef47
+  ws-opts:
+    headers:
+      Host: vless.cyantiknya.my.id
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba #15'
+  network: ws
+  password: zxHvemAmBwk9
+  port: 80
+  server: masukan.bug.ws
+  sni: vless.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vless.cyantiknya.my.id
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- name: (ID) Amazon.com ')">
+  port: 443
+  server: vpn.lucka.biz.id
+  tls: false
+  type: vless
+  uuid: 758588ea-523f-43bc-8b62-3015af7b048b
+- name: '(ID) Amazon.com '')"> #1'
+  password: 758588ea-523f-43bc-8b62-3015af7b048b
+  port: 443
+  server: vpn.lucka.biz.id
+  type: trojan
+- client-fingerprint: randomized
+  name: 'Amazon.com, Inc. #4'
+  network: ws
+  port: 80
+  server: xsm.web.id
+  servername: xsm.web.id
+  tls: false
+  type: vless
+  uuid: 26c637d9-fe0d-4fbf-b3ed-2fe26b7f3f8b
+  ws-opts:
+    headers:
+      Host: xsm.web.id
+    path: /xsm
+- name: 'Amazon.com,+Inc.&quot;)">Copy ... #2'
+  port: 443
+  server: xsm.web.id
+  tls: false
+  type: vless
+  uuid: 26c637d9-fe0d-4fbf-b3ed-2fe26b7f3f8b
+- client-fingerprint: randomized
+  name: 'Amazon.com, Inc. #6'
+  network: ws
+  port: 443
+  server: xsm.web.id
+  servername: xsm.web.id
+  tls: true
+  type: vless
+  uuid: 26c637d9-fe0d-4fbf-b3ed-2fe26b7f3f8b
+  ws-opts:
+    headers:
+      Host: xsm.web.id
+    path: /xsm
+- name: 'Amazon.com,+Inc.&quot;)">Copy ... #3'
+  port: 80
+  server: xsm.web.id
+  tls: false
+  type: vless
+  uuid: 26c637d9-fe0d-4fbf-b3ed-2fe26b7f3f8b
+  ws-opts:
+    path: /xsm
+- name: 'Amazon.com,+Inc.+(ID) #50'
+  network: ws
+  port: 443
+  server: yaya.web.id
+  servername: yaya.web.id
+  tls: true
+  type: vless
+  uuid: 5358a852-615d-4de4-adae-52e0223c4ad9
+  ws-opts:
+    headers:
+      Host: yaya.web.id
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID) #51'
+  network: ws
+  port: 80
+  server: yaya.web.id
+  servername: yaya.web.id
+  tls: false
+  type: vless
+  uuid: 1bd6d8c7-f1ec-4cfe-bd51-f007fbcda8d4
+  ws-opts:
+    headers:
+      Host: yaya.web.id
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #50'
+  port: 80
+  server: yaya.web.id
+  tls: false
+  type: vless
+  uuid: 1bd6d8c7-f1ec-4cfe-bd51-f007fbcda8d4
+  ws-opts:
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID)</p> #51'
+  port: 443
+  server: yaya.web.id
+  tls: false
+  type: vless
+  uuid: 5358a852-615d-4de4-adae-52e0223c4ad9
+- name: (ID) Amazoncom🇮🇩', 'vless://ee...
+  port: 443
+  server: zaintest.vuclip.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: eec7b1d0-5f51-4456-91fc-78f2f3ccf795
+- name: (ID) Amazoncom', 'trojan://ed3...
+  password: ed335ec1-7f2e-4c2e-a558-6969ae84c6d2
+  port: 443
+  server: zaintest.vuclip.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'vless://ed33...
+  port: 443
+  server: zaintest.vuclip.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: ed335ec1-7f2e-4c2e-a558-6969ae84c6d2
+- name: (ID) Alibaba', 'trojan://d3fef...
+  password: d3fefe8d-a3af-46bc-bdae-ae195a636eb2
+  port: 443
+  server: zaintest.vuclip.com.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Alibaba', 'vless://d3fefe...
+  port: 443
+  server: zaintest.vuclip.com.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: d3fefe8d-a3af-46bc-bdae-ae195a636eb2
+- name: (ID) Amazoncom', 'trojan://eec...
+  password: eec7b1d0-5f51-4456-91fc-78f2f3ccf795
+  port: 443
+  server: zaintest.vuclip.com.but.xsmnet.buzz
+  type: trojan
+- name: '[AM] Proitlab LLC '')"> #860'
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: zaintest.vuclip.com.freevpn.najah.biz.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #114'
+  password: c37f8012-eb1d-4757-bc45-f3cab0e38f81
+  port: 443
+  server: zaintest.vuclip.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #115'
+  port: 443
+  server: zaintest.vuclip.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: c37f8012-eb1d-4757-bc45-f3cab0e38f81
+- name: '(AE) Amazon Data Services UAE''... #116'
+  port: 443
+  server: zaintest.vuclip.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 3d2fe7dc-a11e-4d20-a3c4-1807ea617df7
+- name: '(AE) Amazon Data Services UAE''... #117'
+  port: 443
+  server: zaintest.vuclip.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 2db575bb-a23f-40fc-b474-080b8b5d7e10
+- name: '(AE) Amazon Data Services UAE''... #118'
+  password: 2db575bb-a23f-40fc-b474-080b8b5d7e10
+  port: 443
+  server: zaintest.vuclip.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AE) Amazon Data Services UAE''... #119'
+  password: 3d2fe7dc-a11e-4d20-a3c4-1807ea617df7
+  port: 443
+  server: zaintest.vuclip.com.joss.checker-ip.web.id
+  type: trojan
+- name: '[AE] Amazon Data Services UAE ... #672'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: zaintest.vuclip.com.web.ndeso.xyz
+  sni: zaintest.vuclip.com.web.ndeso.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.com.web.ndeso.xyz
+    path: '%2FFree-CF-Proxy-AE21'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #673'
+  network: ws
+  port: 443
+  server: zaintest.vuclip.com.web.ndeso.xyz
+  servername: zaintest.vuclip.com.web.ndeso.xyz
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.com.web.ndeso.xyz
+    path: '%2FFree-CF-Proxy-AE20'
+- name: '[AE] Amazon Data Services UAE ... #674'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: zaintest.vuclip.com.web.ndeso.xyz
+  sni: zaintest.vuclip.com.web.ndeso.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.com.web.ndeso.xyz
+    path: '%2FFree-CF-Proxy-AE17'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #675'
+  network: ws
+  port: 443
+  server: zaintest.vuclip.com.web.ndeso.xyz
+  servername: zaintest.vuclip.com.web.ndeso.xyz
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.com.web.ndeso.xyz
+    path: '%2FFree-CF-Proxy-AE21'
+- name: '[AE] Amazon Data Services UAE ... #676'
+  network: ws
+  password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  port: 443
+  server: zaintest.vuclip.com.web.ndeso.xyz
+  sni: zaintest.vuclip.com.web.ndeso.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.com.web.ndeso.xyz
+    path: '%2FFree-CF-Proxy-AE20'
+- client-fingerprint: randomized
+  name: '[AE] Amazon Data Services UAE ... #677'
+  network: ws
+  port: 443
+  server: zaintest.vuclip.com.web.ndeso.xyz
+  servername: zaintest.vuclip.com.web.ndeso.xyz
+  tls: true
+  type: vless
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.com.web.ndeso.xyz
+    path: '%2FFree-CF-Proxy-AE17'
+- name: 'Amazon.com,+Inc.+(ID) #52'
+  network: ws
+  port: 80
+  server: zaintest.vuclip.com.yaya.web.id
+  servername: zaintest.vuclip.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: 6a819299-ed6f-4fd8-a6b4-2653e281e6b1
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.com.yaya.web.id
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID) #53'
+  network: ws
+  port: 443
+  server: zaintest.vuclip.com.yaya.web.id
+  servername: zaintest.vuclip.com.yaya.web.id
+  tls: true
+  type: vless
+  uuid: a027eaec-1ef4-4171-a814-f70a33ad9530
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.com.yaya.web.id
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID)</p> #52'
+  port: 80
+  server: zaintest.vuclip.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: 6a819299-ed6f-4fd8-a6b4-2653e281e6b1
+  ws-opts:
+    path: '%2Fbeon'
+- name: 'Amazon.com,+Inc.+(ID)&quot;)">... #53'
+  port: 443
+  server: zaintest.vuclip.com.yaya.web.id
+  tls: false
+  type: vless
+  uuid: a027eaec-1ef4-4171-a814-f70a33ad9530
+- name: '(ID) Alibaba'')">Copy Vless TLS... #4'
+  port: 443
+  server: masukan.bug.ws
+  tls: false
+  type: vless
+  uuid: fa10ce7e-89dd-47d5-bcb1-0653921cf4fd
+- name: '(ID) Alibaba</pre> #18'
+  port: 80
+  server: masukan.bug.ws
+  tls: false
+  type: vless
+  uuid: 374ca2e5-064d-4b2d-ae16-ae6e85d357a4
+  ws-opts:
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba'')">Copy Trojan N-... #4'
+  password: PgoRExOzHMb9
+  port: 80
+  server: masukan.bug.ws
+  type: trojan
+  ws-opts:
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba #16'
+  network: ws
+  password: xCzhqiumGlig
+  port: 443
+  server: masukan.bug.ws
+  sni: zaintest.vuclip.comwilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.comwilcard.cyantiknya.my.id
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba #17'
+  network: ws
+  password: PgoRExOzHMb9
+  port: 80
+  server: masukan.bug.ws
+  sni: zaintest.vuclip.comwilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.comwilcard.cyantiknya.my.id
+    path: '%2Ftr%3D149.129.250.187%3D443'
+- client-fingerprint: randomized
+  name: '(ID) Alibaba #18'
+  network: ws
+  port: 443
+  server: masukan.bug.ws
+  servername: zaintest.vuclip.comwilcard.cyantiknya.my.id
+  tls: true
+  type: vless
+  uuid: fa10ce7e-89dd-47d5-bcb1-0653921cf4fd
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.comwilcard.cyantiknya.my.id
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: '(ID) Alibaba</pre> #19'
+  password: xCzhqiumGlig
+  port: 443
+  server: masukan.bug.ws
+  type: trojan
+- client-fingerprint: randomized
+  name: '(ID) Alibaba #19'
+  network: ws
+  port: 80
+  server: masukan.bug.ws
+  servername: zaintest.vuclip.comwilcard.cyantiknya.my.id
+  tls: false
+  type: vless
+  uuid: 374ca2e5-064d-4b2d-ae16-ae6e85d357a4
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.comwilcard.cyantiknya.my.id
+    path: '%2Fvl%3D149.129.250.187%3D443'
+- name: (ID) Amazon.com-[Tls]-[VL]
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 8defa567-1ce6-4db5-97cc-c8b89925b860
+  ws-opts:
+    path: /
+- name: (ID) Amazon.com-[Tls]-[TR]
+  password: 829e7d69-c4f8-48d8-9a97-2fb2e353e744
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(ID) Amazon.com-[Tls]-[VL] #1'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 236380fa-8cac-4442-8aaa-8a72020136fe
+  ws-opts:
+    path: /
+- name: '(ID) Amazon.com-[Tls]-[TR] #1'
+  password: 64c5c8bc-502b-491d-a192-a3ac4b1f1f53
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (ID) Amazoncom', 'trojan://444...
+  password: 444e63d0-6416-4448-8620-8cc6e0c6e04b
+  port: 443
+  server: zoomgov.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Amazoncom', 'trojan://d7c...
+  password: d7cb803a-152f-48ce-8286-257f3e9bbbcb
+  port: 443
+  server: zoomgov.but.xsmnet.buzz
+  type: trojan
+- name: (ID) Alibaba', 'vless://a0277d...
+  port: 443
+  server: zoomgov.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: a0277d19-9769-4cec-9008-493e7c671a46
+- name: (ID) Amazoncom', 'vless://d7cb...
+  port: 443
+  server: zoomgov.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: d7cb803a-152f-48ce-8286-257f3e9bbbcb
+- name: (ID) Amazoncom', 'vless://444e...
+  port: 443
+  server: zoomgov.but.xsmnet.buzz
+  tls: false
+  type: vless
+  uuid: 444e63d0-6416-4448-8620-8cc6e0c6e04b
+- name: (ID) Alibaba', 'trojan://a0277...
+  password: a0277d19-9769-4cec-9008-493e7c671a46
+  port: 443
+  server: zoomgov.but.xsmnet.buzz
+  type: trojan
+- name: '(ID)Amazon.com-[NTls]'')">Copy ... #2'
+  password: 943d5d5d-22c4-463b-897e-bd4c8b5320bd
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(ID)Amazon.com-[Tls]</pre> #3'
+  password: c66516c9-f72c-4d31-8653-b3ce4403aa6c
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(ID)Amazon.com-[NTls]</pre> #1'
+  password: 66545a7c-5415-4014-b498-260a64a8fd9d
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(ID)Amazon.com-[NTls]</pre> #2'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 30e3369d-03e4-4a37-8d6d-50b096cbbfdf
+- name: (ID)Amazon.com-[Tls]')">Copy V...
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: fe31300f-3d50-4b04-a30e-235f7b08e44a
+- client-fingerprint: randomized
+  name: (ID)Amazon.com-[NTls]
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 10c6a950-4367-4d40-ab46-11dc74aded18
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F43.218.77.16%3D443'
+- name: '(ID)Amazon.com-[NTls] #1'
+  network: ws
+  password: 943d5d5d-22c4-463b-897e-bd4c8b5320bd
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F43.218.77.16%3D1443'
+- name: '(ID)Amazon.com-[Tls]'')">Copy V... #1'
+  port: 443
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 12b34b06-5544-4afc-8c36-655bcd1ffe1c
+- name: '(ID)Amazon.com-[NTls]</pre> #3'
+  port: 80
+  server: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 10c6a950-4367-4d40-ab46-11dc74aded18
+- name: (ID)Amazon.com-[Tls]
+  network: ws
+  password: c66516c9-f72c-4d31-8653-b3ce4403aa6c
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F43.218.77.16%3D443'
+- client-fingerprint: randomized
+  name: '(ID)Amazon.com-[NTls] #2'
+  network: ws
+  port: 80
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: false
+  type: vless
+  uuid: 30e3369d-03e4-4a37-8d6d-50b096cbbfdf
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F43.218.77.16%3D1443'
+- client-fingerprint: randomized
+  name: '(ID)Amazon.com-[Tls] #1'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: 12b34b06-5544-4afc-8c36-655bcd1ffe1c
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F43.218.77.16%3D1443'
+- name: '(ID)Amazon.com-[Tls]'')">Copy T... #1'
+  password: 9b194dd6-18e6-4da3-94e1-942273f19696
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(ID)Amazon.com-[Tls] #2'
+  network: ws
+  password: 9b194dd6-18e6-4da3-94e1-942273f19696
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F43.218.77.16%3D1443'
+- name: '(ID)Amazon.com-[NTls] #3'
+  network: ws
+  password: 66545a7c-5415-4014-b498-260a64a8fd9d
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F43.218.77.16%3D443'
+- client-fingerprint: randomized
+  name: '(ID)Amazon.com-[Tls] #3'
+  network: ws
+  port: 443
+  server: zoomgov.vipren.biz.id
+  servername: zoomgov.vipren.biz.id
+  tls: true
+  type: vless
+  uuid: fe31300f-3d50-4b04-a30e-235f7b08e44a
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F43.218.77.16%3D443'

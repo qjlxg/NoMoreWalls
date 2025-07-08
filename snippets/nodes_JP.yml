@@ -1,71 +1,679 @@
 proxies:
-- name: 🇯🇵_Tel:@vless_vmess
-  password: db75cc15-17fc-480c-af6f-773169fc93f4
-  port: 50126
-  server: jp-tk-31.fuckjdieng.uk
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳 江苏省 移动
+  network: ws
+  port: '30812'
+  server: v12.heduian.link
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- name: 🇯🇵 日本4|@stairnode
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 53067
+  server: 36.151.251.29
+  skip-cert-verify: true
+  sni: www.baidu.com
   type: trojan
-- name: '🇯🇵_Tel:@vless_vmess #1'
-  password: dee074c9-1d6b-4949-b1e2-50cc638a6811
-  port: 20220
-  server: zzjp01.gutingting.com
+- name: '🇯🇵 日本4|@stairnode #1'
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 53067
+  server: 36.151.251.29
+  skip-cert-verify: true
   type: trojan
-- name: '(S981)🇨🇮t.me/PrivateVPNs #1'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 34.250.2.250
+- name: 🇯🇵 日本3|@stairnode
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 21829
+  server: 36.151.251.58
+  skip-cert-verify: true
+  sni: www.baidu.com
   type: trojan
-- name: '🇯🇵_Tel:@vless_vmess #2'
-  password: ab0b21ff-53d1-4b02-800b-9d7db3aed104
+- name: '🇯🇵 日本4|@stairnode #2'
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 19577
+  server: 36.151.251.33
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: '🇯🇵 日本4|@stairnode #3'
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 19577
+  server: 36.151.251.33
+  skip-cert-verify: true
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 'JP日本(mibei77.com 米贝节点分享) #17'
+  network: ws
+  port: '30807'
+  server: 111.26.109.79
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- name: '🇯🇵 日本3|@stairnode #1'
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 21829
+  server: 36.151.251.58
+  skip-cert-verify: true
+  type: trojan
+- name: 'The+Constant+Company+(JP)&quot... #1'
+  password: b98f59dc-149c-4ef3-ba66-a2dfea6391a8
+  port: 80
+  server: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp2'
+- name: M247+Europe+SRL+(JP)
+  network: ws
+  password: 2f62cc88-a724-4f30-9a34-2b501eeebede
   port: 443
-  server: my.mjt001.com
+  server: app-stg.gopay.co.id.servpn.my.id
+  sni: app-stg.gopay.co.id.servpn.my.id
   type: trojan
-- name: (S884)🇨🇮t.me/PrivateVPNs
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 34.245.156.26
-  type: trojan
-- name: '(S832)🇨🇵t.me/PrivateVPNs #1'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.36.234.71
-  type: trojan
-- name: '🇯🇵https://t.me/vpn_iossعضو+شو #5'
-  password: telegram-id-directvpn
-  port: 22222
-  server: 63.32.95.121
-  type: trojan
-- name: '🇯🇵https://t.me/vpn_iossعضو+شو #6'
-  password: iI72baKdja
-  port: 2096
-  server: 45.85.119.200
-  type: trojan
-- name: (S808)🇩🇪t.me/PrivateVPNs
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.76.224.154
-  type: trojan
-- name: (S747)🇨🇮t.me/PrivateVPNs
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 54.220.85.124
-  type: trojan
-- name: '🇯🇵_Tel:@vless_vmess #3'
-  password: 6fab5b8e-2b5a-4ecd-82cb-fa3d1afb9ca7
-  port: 8443
-  server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.nbvpn.org
-  type: trojan
-- name: Japan
-  network: tcp
-  password: c09eb137-bf68-4658-84e0-102d94b74168
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: '%2Fjp1'
+- name: The+Constant+Company+(JP)
+  network: ws
+  password: 90830f21-1672-4a9f-b8f9-c35c5aa6d6b0
   port: 443
-  server: 150.230.217.213
+  server: app-stg.gopay.co.id.servpn.my.id
+  sni: app-stg.gopay.co.id.servpn.my.id
   type: trojan
-- name: 'Japan #2'
-  network: tcp
-  password: 5baea97b-7a9d-39ba-bd0f-0b13025de750
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: '%2Fjp2'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #11'
+  password: 649b0ce2-a079-4071-a80d-216cd68edddb
   port: 443
-  server: 43.206.140.200
+  server: app-stg.gopay.co.id.servpn.my.id
   type: trojan
+  ws-opts:
+    path: '%2Fsg9'
+- name: 'M247+Europe+SRL+(JP)&quot;)"><... #3'
+  password: 2f62cc88-a724-4f30-9a34-2b501eeebede
+  port: 443
+  server: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp1'
+- name: 'M247+Europe+SRL+(JP)</p> #2'
+  password: d69e382e-b28f-4b86-9a5f-5b06462ad4e8
+  port: 80
+  server: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp1'
+- name: 'M247+Europe+SRL+(JP) #2'
+  network: ws
+  password: d69e382e-b28f-4b86-9a5f-5b06462ad4e8
+  port: 80
+  server: app-stg.gopay.co.id.servpn.my.id
+  sni: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: '%2Fjp1'
+- name: 'The+Constant+Company+(JP)</p> #3'
+  password: 90830f21-1672-4a9f-b8f9-c35c5aa6d6b0
+  port: 443
+  server: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp2'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #2'
+  network: ws
+  password: cd0189dc-3220-4503-ab38-68d164cd8c46
+  port: 80
+  server: app-stg.gopay.co.id.servpn.my.id
+  sni: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: '%2Fsg9'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #8'
+  password: cd0189dc-3220-4503-ab38-68d164cd8c46
+  port: 80
+  server: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fsg9'
+- name: 'The+Constant+Company+(JP) #2'
+  network: ws
+  password: b98f59dc-149c-4ef3-ba66-a2dfea6391a8
+  port: 80
+  server: app-stg.gopay.co.id.servpn.my.id
+  sni: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: '%2Fjp2'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #10'
+  network: ws
+  password: 649b0ce2-a079-4071-a80d-216cd68edddb
+  port: 443
+  server: app-stg.gopay.co.id.servpn.my.id
+  sni: app-stg.gopay.co.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: '%2Fsg9'
+- name: 'M247+Europe+SRL+(JP)</p> #6'
+  password: 5fc7f054-e9dc-493a-aeff-8b33d609e04f
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp1'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #17'
+  password: 361dbbee-5b09-4b74-bce3-9ec282506f16
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fsg9'
+- name: 'The+Constant+Company+(JP) #5'
+  network: ws
+  password: 6c94edbc-ea8c-4dd6-ac38-a93e3f5dae7d
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  sni: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.servpn.my.id
+    path: '%2Fjp2'
+- name: 'The+Constant+Company+(JP)&quot... #5'
+  password: ad1713de-952d-4d6d-8938-1a4346dd5783
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp2'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #23'
+  password: 010feee0-9cc1-40b2-ab53-1b6409b05c52
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fsg9'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #19'
+  network: ws
+  password: 361dbbee-5b09-4b74-bce3-9ec282506f16
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  sni: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.servpn.my.id
+    path: '%2Fsg9'
+- name: 'M247+Europe+SRL+(JP) #5'
+  network: ws
+  password: 79fbec18-f71f-40df-8d4b-7d7fc0999a3a
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  sni: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.servpn.my.id
+    path: '%2Fjp1'
+- name: 'M247+Europe+SRL+(JP)</p> #7'
+  password: 79fbec18-f71f-40df-8d4b-7d7fc0999a3a
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp1'
+- name: 'The+Constant+Company+(JP) #7'
+  network: ws
+  password: ad1713de-952d-4d6d-8938-1a4346dd5783
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  sni: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.servpn.my.id
+    path: '%2Fjp2'
+- name: 'The+Constant+Company+(JP)&quot... #7'
+  password: 6c94edbc-ea8c-4dd6-ac38-a93e3f5dae7d
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp2'
+- name: 'M247+Europe+SRL+(JP) #7'
+  network: ws
+  password: 5fc7f054-e9dc-493a-aeff-8b33d609e04f
+  port: 80
+  server: ava.game.naver.com.servpn.my.id
+  sni: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.servpn.my.id
+    path: '%2Fjp1'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #21'
+  network: ws
+  password: 010feee0-9cc1-40b2-ab53-1b6409b05c52
+  port: 443
+  server: ava.game.naver.com.servpn.my.id
+  sni: ava.game.naver.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.servpn.my.id
+    path: '%2Fsg9'
+- name: 'M247+Europe+SRL+(JP) #8'
+  network: ws
+  password: 9b73caec-e966-4b24-bd0a-6f12c040fb5b
+  port: 443
+  server: bakrie.ac.id.servpn.my.id
+  sni: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.servpn.my.id
+    path: '%2Fjp1'
+- name: 'M247+Europe+SRL+(JP)&quot;)"><... #9'
+  password: 9b73caec-e966-4b24-bd0a-6f12c040fb5b
+  port: 443
+  server: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp1'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #33'
+  password: 799da6fc-1517-4599-9b31-1496b63eb336
+  port: 443
+  server: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fsg9'
+- name: 'The+Constant+Company+(JP)&quot... #9'
+  password: 29f6a167-5b4d-49a1-ad5a-616eadd918a9
+  port: 80
+  server: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp2'
+- name: 'The+Constant+Company+(JP) #9'
+  network: ws
+  password: f73627b1-085f-453a-9758-9418511a0f10
+  port: 443
+  server: bakrie.ac.id.servpn.my.id
+  sni: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.servpn.my.id
+    path: '%2Fjp2'
+- name: 'M247+Europe+SRL+(JP)&quot;)"><... #11'
+  password: 6e91aa99-9b73-4958-94ee-9a7a307e488d
+  port: 80
+  server: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp1'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #29'
+  network: ws
+  password: 799da6fc-1517-4599-9b31-1496b63eb336
+  port: 443
+  server: bakrie.ac.id.servpn.my.id
+  sni: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.servpn.my.id
+    path: '%2Fsg9'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #30'
+  network: ws
+  password: 0ea43f2b-5c9d-430f-b543-fd866a39526a
+  port: 80
+  server: bakrie.ac.id.servpn.my.id
+  sni: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.servpn.my.id
+    path: '%2Fsg9'
+- name: 'The+Constant+Company+(JP)</p> #10'
+  password: f73627b1-085f-453a-9758-9418511a0f10
+  port: 443
+  server: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp2'
+- name: 'The+Constant+Company+(JP) #11'
+  network: ws
+  password: 29f6a167-5b4d-49a1-ad5a-616eadd918a9
+  port: 80
+  server: bakrie.ac.id.servpn.my.id
+  sni: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.servpn.my.id
+    path: '%2Fjp2'
+- name: 'M247+Europe+SRL+(JP) #11'
+  network: ws
+  password: 6e91aa99-9b73-4958-94ee-9a7a307e488d
+  port: 80
+  server: bakrie.ac.id.servpn.my.id
+  sni: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.servpn.my.id
+    path: '%2Fjp1'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #35'
+  password: 0ea43f2b-5c9d-430f-b543-fd866a39526a
+  port: 80
+  server: bakrie.ac.id.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fsg9'
+- name: (JP) Nearoute')">Copy Trojan T...
+  password: hiAzvF76BVMg
+  port: 443
+  server: masukan.bug.ws
+  type: trojan
+- name: (JP) Nearoute')">Copy Trojan N...
+  password: MjKjDCyKcUIt
+  port: 80
+  server: masukan.bug.ws
+  type: trojan
+  ws-opts:
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: '(JP) Nearoute #1'
+  network: ws
+  password: hiAzvF76BVMg
+  port: 443
+  server: masukan.bug.ws
+  sni: bakrie.ac.id.wilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.wilcard.cyantiknya.my.id
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: '(JP) Nearoute #3'
+  network: ws
+  password: MjKjDCyKcUIt
+  port: 80
+  server: masukan.bug.ws
+  sni: bakrie.ac.id.wilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bakrie.ac.id.wilcard.cyantiknya.my.id
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: 'The+Constant+Company+(JP)</p> #13'
+  password: a79d51a7-9f49-4aa5-8673-409144ae9f42
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp2'
+- name: 'M247+Europe+SRL+(JP)&quot;)"><... #15'
+  password: 96c92aee-d146-495f-9d5d-964d15809f82
+  port: 80
+  server: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp1'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #41'
+  password: ab1bdd15-5560-4855-85aa-e415a265e507
+  port: 80
+  server: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fsg9'
+- name: 'M247+Europe+SRL+(JP) #14'
+  network: ws
+  password: 96c92aee-d146-495f-9d5d-964d15809f82
+  port: 80
+  server: blog.ruangguru.com.servpn.my.id
+  sni: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: '%2Fjp1'
+- name: 'M247+Europe+SRL+(JP) #15'
+  network: ws
+  password: b8a9e223-be14-49a5-8be2-55d916665042
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  sni: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: '%2Fjp1'
+- name: 'M247+Europe+SRL+(JP)</p> #15'
+  password: b8a9e223-be14-49a5-8be2-55d916665042
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp1'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #44'
+  password: 92ea31ae-1b5a-4272-a7d5-2667b6a4459c
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fsg9'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #43'
+  network: ws
+  password: 92ea31ae-1b5a-4272-a7d5-2667b6a4459c
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  sni: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: '%2Fsg9'
+- name: 'The+Constant+Company+(JP) #13'
+  network: ws
+  password: a79d51a7-9f49-4aa5-8673-409144ae9f42
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  sni: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: '%2Fjp2'
+- name: 'The+Constant+Company+(JP) #14'
+  network: ws
+  password: 767db28f-9d3d-4426-b97f-fa7a7a09c5e9
+  port: 80
+  server: blog.ruangguru.com.servpn.my.id
+  sni: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: '%2Fjp2'
+- name: 'The+Constant+Company+(JP)&quot... #15'
+  password: 767db28f-9d3d-4426-b97f-fa7a7a09c5e9
+  port: 80
+  server: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp2'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #46'
+  network: ws
+  password: ab1bdd15-5560-4855-85aa-e415a265e507
+  port: 80
+  server: blog.ruangguru.com.servpn.my.id
+  sni: blog.ruangguru.com.servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: '%2Fsg9'
+- name: '(JP) Nearoute #4'
+  network: ws
+  password: 6F43CYsfh6bV
+  port: 443
+  server: masukan.bug.ws
+  sni: investors.fb.com.wilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: investors.fb.com.wilcard.cyantiknya.my.id
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: '(JP) Nearoute #5'
+  network: ws
+  password: tWyAnA4qhOsY
+  port: 80
+  server: masukan.bug.ws
+  sni: investors.fb.com.wilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: investors.fb.com.wilcard.cyantiknya.my.id
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: '(JP) Nearoute</pre> #4'
+  password: 6F43CYsfh6bV
+  port: 443
+  server: masukan.bug.ws
+  type: trojan
+- name: '(JP) Nearoute</pre> #6'
+  password: tWyAnA4qhOsY
+  port: 80
+  server: masukan.bug.ws
+  type: trojan
+  ws-opts:
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #49'
+  network: ws
+  password: 054e62e7-829d-4718-aeeb-32f144314487
+  port: 80
+  server: servpn.my.id
+  sni: servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: servpn.my.id
+    path: '%2Fsg9'
+- name: 'The+Constant+Company+(JP)&quot... #18'
+  password: c500b6c9-a602-44e0-b795-7ebdff740468
+  port: 80
+  server: servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp2'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #52'
+  password: 7d1cd1a6-309b-402e-8e94-fe8e0962174c
+  port: 443
+  server: servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fsg9'
+- name: 'M247+Europe+SRL+(JP)&quot;)"><... #17'
+  password: 183fc3e2-15c2-4e6a-bc15-99da54f5c607
+  port: 443
+  server: servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp1'
+- name: 'The+Constant+Company+(JP)&quot... #19'
+  password: 72dddaf6-5b2f-4286-bcf3-b94368c726cc
+  port: 443
+  server: servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp2'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #54'
+  network: ws
+  password: 7d1cd1a6-309b-402e-8e94-fe8e0962174c
+  port: 443
+  server: servpn.my.id
+  sni: servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: servpn.my.id
+    path: '%2Fsg9'
+- name: 'M247+Europe+SRL+(JP) #16'
+  network: ws
+  password: 954139d4-7187-4601-b218-19c54636c8ba
+  port: 80
+  server: servpn.my.id
+  sni: servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: servpn.my.id
+    path: '%2Fjp1'
+- name: 'SOUTHEAST+ASIA+TELECOM(SG)+PTE... #59'
+  password: 054e62e7-829d-4718-aeeb-32f144314487
+  port: 80
+  server: servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fsg9'
+- name: 'M247+Europe+SRL+(JP)&quot;)"><... #19'
+  password: 954139d4-7187-4601-b218-19c54636c8ba
+  port: 80
+  server: servpn.my.id
+  type: trojan
+  ws-opts:
+    path: '%2Fjp1'
+- name: 'M247+Europe+SRL+(JP) #19'
+  network: ws
+  password: 183fc3e2-15c2-4e6a-bc15-99da54f5c607
+  port: 443
+  server: servpn.my.id
+  sni: servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: servpn.my.id
+    path: '%2Fjp1'
+- name: 'The+Constant+Company+(JP) #18'
+  network: ws
+  password: 72dddaf6-5b2f-4286-bcf3-b94368c726cc
+  port: 443
+  server: servpn.my.id
+  sni: servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: servpn.my.id
+    path: '%2Fjp2'
+- name: 'The+Constant+Company+(JP) #19'
+  network: ws
+  password: c500b6c9-a602-44e0-b795-7ebdff740468
+  port: 80
+  server: servpn.my.id
+  sni: servpn.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: servpn.my.id
+    path: '%2Fjp2'
 - alterId: 0
   cipher: auto
   name: 🔒 VM-TCP-NA 🇯🇵 JP-47.79.88.113...
@@ -76,15 +684,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 1db838d0-ecd2-4b73-a7f8-5af6b401d833
-- alterId: 0
-  cipher: auto
-  name: 🔒 VM-TCP-NA 🇯🇵 JP-167.179.93.1...
-  network: tcp
-  port: '30101'
-  server: 167.179.93.158
-  tls: false
-  type: vmess
-  uuid: 04AD7029-AC73-C78D-2E6E-338107678C59
 - alterId: 64
   cipher: auto
   name: 未知142
@@ -101,15 +700,6 @@ proxies:
     path: /path/170733132233
 - alterId: 0
   cipher: auto
-  name: 🔒 VM-TCP-NA 🇯🇵 JP-18.181.165.2...
-  network: tcp
-  port: '48889'
-  server: 18.181.165.231
-  tls: false
-  type: vmess
-  uuid: c130cb36-c93f-4be7-9228-a7a97d43885a
-- alterId: 0
-  cipher: auto
   name: 🔒 VM-TCP-NA 🇯🇵 JP-5.253.41.147...
   network: tcp
   port: '27750'
@@ -118,6 +708,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 4b1992cc-8e7c-4003-a45f-a28c3e6f6fa8
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇯🇵 JP-18.181.165.2...
+  network: tcp
+  port: '48889'
+  server: 18.181.165.231
+  tls: false
+  type: vmess
+  uuid: c130cb36-c93f-4be7-9228-a7a97d43885a
 - alterId: 0
   cipher: auto
   name: 🔒 VM-WS-NA 🇯🇵 JP-154.55.122.23...
@@ -131,32 +730,4035 @@ proxies:
     headers:
       Host: www.bing.com
     path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 🔒 VM-TCP-NA 🇯🇵 JP-167.179.93.1...
+  network: tcp
+  port: '30101'
+  server: 167.179.93.158
+  tls: false
+  type: vmess
+  uuid: 04AD7029-AC73-C78D-2E6E-338107678C59
+- alterId: 0
+  cipher: auto
+  name: 日本6|@ripaojiedian
+  network: ws
+  port: '443'
+  server: nmtow.hjdfghfc.asia
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      Host: file.dingtalk.com
+    path: /market?ed=512
 - alterId: 64
   cipher: auto
-  name: 🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 🇯🇵JP-107.148.6.67-0233
   network: ws
-  port: 1443
-  server: sslvpn.51job.com
+  port: 30001
+  server: 107.148.6.67
+  servername: www.53865734.xyz
   tls: true
   type: vmess
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: centos7
-    path: /634c5c4f9782
-- name: '@Hope_Net-join-us-on-Telegram`...'
-  password: installshield
-  port: 8443
-  server: 38.180.249.177
-  type: trojan
-- name: 🇯🇵[openproxylist.com] trojan-J...
+      Host: www.53865734.xyz
+    path: /path/170733132233
+- name: '(JP) Nearoute #8'
   network: ws
-  password: Aimer
-  port: 45956
-  server: 154.26.181.30
-  sni: epmk.ambercc.filegear-sg.me
+  password: mTOeHTiBzeJx
+  port: 443
+  server: masukan.bug.ws
+  sni: support.zoom.us.wilcard.cyantiknya.my.id
   type: trojan
   ws-opts:
     headers:
-      Host: epmk.ambercc.filegear-sg.me
-    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+      Host: support.zoom.us.wilcard.cyantiknya.my.id
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: '(JP) Nearoute</pre> #10'
+  password: CZBcqZMYkVN1
+  port: 80
+  server: masukan.bug.ws
+  type: trojan
+  ws-opts:
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: '(JP) Nearoute #10'
+  network: ws
+  password: CZBcqZMYkVN1
+  port: 80
+  server: masukan.bug.ws
+  sni: support.zoom.us.wilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: support.zoom.us.wilcard.cyantiknya.my.id
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: '(JP) Nearoute</pre> #11'
+  password: mTOeHTiBzeJx
+  port: 443
+  server: masukan.bug.ws
+  type: trojan
+- name: '(JP) Nearoute #13'
+  network: ws
+  password: A8RFRg6AUlFq
+  port: 443
+  server: masukan.bug.ws
+  sni: vless.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vless.cyantiknya.my.id
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: '(JP) Nearoute #14'
+  network: ws
+  password: 1kcDBzBtyXEP
+  port: 80
+  server: masukan.bug.ws
+  sni: vless.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vless.cyantiknya.my.id
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: '(JP) Nearoute</pre> #15'
+  password: A8RFRg6AUlFq
+  port: 443
+  server: masukan.bug.ws
+  type: trojan
+- name: '(JP) Nearoute'')">Copy Trojan N... #3'
+  password: 1kcDBzBtyXEP
+  port: 80
+  server: masukan.bug.ws
+  type: trojan
+  ws-opts:
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: '(JP) Nearoute'')">Copy Trojan N... #4'
+  password: VZbxg8cocxLA
+  port: 80
+  server: masukan.bug.ws
+  type: trojan
+  ws-opts:
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: '(JP) Nearoute #17'
+  network: ws
+  password: 768kBIgCNYTn
+  port: 443
+  server: masukan.bug.ws
+  sni: zaintest.vuclip.comwilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.comwilcard.cyantiknya.my.id
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: '(JP) Nearoute</pre> #17'
+  password: 768kBIgCNYTn
+  port: 443
+  server: masukan.bug.ws
+  type: trojan
+- name: '(JP) Nearoute #19'
+  network: ws
+  password: VZbxg8cocxLA
+  port: 80
+  server: masukan.bug.ws
+  sni: zaintest.vuclip.comwilcard.cyantiknya.my.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.comwilcard.cyantiknya.my.id
+    path: '%2Ftr%3D103.20.199.118%3D12999'
+- name: (JP) Alibaba us Technology Co....
+  password: 7292dc13-cd4e-4723-b6b0-cfd461c3dee2
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Alibaba us Technology Co.... #5'
+  password: 15f56f0f-a5f5-4c65-9f60-1f3f9aa57a6a
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Xtom Japan Corporation-[T... #4'
+  password: 254ff42b-3501-4078-8888-12bc9039b2d7
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Xtom Japan Corporation-[T... #5'
+  password: 4ce1253e-a5af-4a2a-9e77-9a97481ef8fc
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Alibaba us Technology Co.... #8'
+  password: 78b2fb48-c2dd-424c-b1f8-e313103d81cf
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #5'
+  password: 69f0de7c-c87d-4941-af22-f2edb4257069
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP) Amazon.com-[Tls]-[TR]
+  password: 3c7b8edc-a60b-49bb-a4d4-715bf358ddb3
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP) It Networks INC-[Tls]-[TR...
+  password: e5747446-6fb7-4cb6-9e50-db22cd63f47a
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #8'
+  password: 32bf0e47-2755-4f04-88cd-0355b1946a90
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #10'
+  password: 8e87dbb2-b066-4ef1-896d-0153a8b2700f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #11'
+  password: 86e8e39d-86d9-42d9-a741-852a0c992387
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP) Nearoute Limited-[Tls]-[T...
+  password: acf17f16-72f0-4c15-bccd-54b912911d2c
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP) Datacamp Limited-[Tls]-[T...
+  password: 64d510eb-19a6-453e-873f-6df5972bc379
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #13'
+  password: ab29d64b-caca-4ca9-9dd0-ce711c402ce1
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP) Latitude.sh-[Tls]-[TR]
+  password: 9a3ca463-27c8-4374-a77b-29018500d54a
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP) Optage Inc.-[Tls]-[TR]
+  password: e835cc3a-9b31-429b-85fd-984ba3c9d865
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #14'
+  password: c24ccb36-9612-4f57-bec8-7dedaba60d38
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP) GLOBAL CONNECTIVITY SOLUT...
+  password: af02d63d-cd64-4382-af0e-22bf4d7f2b4f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Akamai Technologies-[Tls]... #1'
+  password: 38a8d261-6520-447b-81c4-2628afddcd16
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #25'
+  password: 314ef40b-ff16-4a50-b598-e366a39dba4b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) The Constant Company-[Tls... #2'
+  password: d8cc990e-82c2-4c5f-af07-24d363e69950
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #26'
+  password: a2ec949f-e0cc-4a72-9c1e-db977f0a9f27
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #29'
+  password: 2f5257ca-47eb-4e30-8780-58d32b270119
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP) Brainstorm Network-[Tls]-...
+  password: 65cc5432-0def-47d8-9572-4908b8f0ceef
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #34'
+  password: 89fb768d-69d0-4dbe-a830-cc4887af2c38
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) The Constant Company-[Tls... #5'
+  password: a5cbcefc-c741-4ba7-8ab3-49b74a03f3aa
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #35'
+  password: 6ab5dd58-b0e5-47e7-b200-1c3fb49508a2
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #40'
+  password: 7a6987fa-da1c-4e45-96f8-9e3c3a711933
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP) Hosthatch-[Tls]-[TR]
+  password: 6b53a91e-a7a8-4328-843c-1417db8587d9
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Akamai Technologies-[Tls]... #3'
+  password: e518bfb5-114b-4d62-802b-b13dacd9d9de
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #42'
+  password: 0bd014cd-ea4e-4c19-9307-4a1bfeee3f8f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) The Constant Company-[Tls... #7'
+  password: a812790d-6fce-41df-a2ed-b23b5c93b27c
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #47'
+  password: 6b03deaf-8f53-4485-858b-5b2d8474522d
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #49'
+  password: 98f47b32-5b47-4086-9011-22bdcc5d4161
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #51'
+  password: d8b4a82a-3595-4488-9072-78a85da976fa
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #52'
+  password: f5b19c20-52a1-48e8-b909-0b50e256dfd0
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Amazon.com-[Tls]-[TR] #1'
+  password: c0655fb8-e535-400c-b787-fa33a3dc8437
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #56'
+  password: f0fb94ea-95d6-4c83-aebf-51deee49acd4
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #57'
+  password: cf2b7275-4b12-4bbb-a0b9-d33ca01eb0af
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #58'
+  password: 6ba96c80-a18c-4b62-9831-f3d5346fcf3f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP) M Europe SRL-[Tls]-[TR]
+  password: 7f7ed93a-dfda-4bf7-a66d-6a32ed063b52
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #59'
+  password: 6b9bba13-99af-4856-bbef-53c6a1a281d6
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #62'
+  password: 38a4fea9-8c08-46f7-92a0-3f3ec41605b6
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) The Constant Company-[Tls... #12'
+  password: ab244a7a-5fcf-4520-91ab-1e479e25478a
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #66'
+  password: 2c207afc-d8d2-40b5-b43e-9077a7781900
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #68'
+  password: 18085d83-8dd5-493b-a7cb-10f56bd4c6ce
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #69'
+  password: 1f19e876-d4c9-4d4b-9777-e4627906843e
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #72'
+  password: ba280233-eb1b-47f5-bac0-c97e7605dd85
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Akamai Technologies-[Tls]... #7'
+  password: 27c12bb9-d092-4b63-85b7-4bd72936d88b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #74'
+  password: 06570282-fc68-46a4-9a48-1c63846db825
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) The Constant Company-[Tls... #18'
+  password: 97c70e04-9153-47fe-8f4f-fc6827460d20
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #77'
+  password: 4cfeb923-186f-4a81-a4e7-05484701d4cf
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) The Constant Company-[Tls... #19'
+  password: 55d1f5ef-2843-4839-b9a9-8b1de6e27983
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #81'
+  password: 4752b5b5-2228-4083-888f-f4ac3d05d501
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) M Europe SRL-[Tls]-[TR] #1'
+  password: d60dab2b-1264-4450-a1f7-fa0778b92345
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #86'
+  password: 22b045e2-ed79-4cc9-bd08-fde73d398415
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #87'
+  password: f8b8af59-48e6-48c7-880d-9887aea1407d
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #89'
+  password: 9dbbc0b1-dca0-475d-a945-79349a27356a
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Akamai Technologies-[Tls]... #10'
+  password: 9ebacf14-573b-4741-bcfe-8f99723c3b85
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #91'
+  password: 9fd397be-92eb-46d6-8a97-c6458cb16464
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Shenzhen Tencent Computer... #2'
+  password: 5db63960-0612-4a1d-88e2-6fe1d406de0b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP) AKILE LTD-[Tls]-[TR]
+  password: 21f3200f-e657-420f-872b-d2a96999afee
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Akamai Technologies-[Tls]... #12'
+  password: 171f8066-302c-4e70-b013-67269b703b1b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) The Constant Company-[Tls... #21'
+  password: b52fe259-3edc-48fb-b232-bf528cf37f62
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Amazon.com-[Tls]-[TR] #2'
+  password: fc6abfca-575b-470f-88b0-c736b5c5504d
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #104'
+  password: 264f8783-507c-4326-8f17-08974e7f3a2b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Amazon.com-[Tls]-[TR] #3'
+  password: 48f33837-8036-4988-b3f0-087950f9cad4
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #107'
+  password: 6111a7cc-5fc7-4cbf-88f9-c09354a22597
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP) WAP.AC LTD-[Tls]-[TR]
+  password: 3bee2ba7-cc61-421c-ba0a-0220b8400aa3
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #109'
+  password: 864d7a65-50cd-4e73-9ff6-adba8e1c5e62
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #111'
+  password: fe859f76-3648-4c10-9ae4-8fa780cc77a0
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) The Constant Company-[Tls... #23'
+  password: cde49a48-4ef7-4b0e-8704-54c6b8b011a0
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Techavenue International ... #2'
+  password: 19fc1047-e6a8-4efe-a677-78d99ef1e640
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #122'
+  password: c7c51cbb-9670-4583-a07d-ada3df773430
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) AKILE LTD-[Tls]-[TR] #1'
+  password: 5af64a5e-0c42-4d31-aaa7-19e6fc8c2b7b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #127'
+  password: fdd55ae4-2d6f-484e-be24-189746d4b05c
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Brainstorm Network-[Tls]-... #5'
+  password: cb0e4178-26ef-4acd-8070-5ffd6e62dbbd
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #130'
+  password: 0fcb9e57-80f9-400f-af30-61dc7644b5b3
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Dmit Cloud Services-[Tls]... #2'
+  password: 7408848e-d253-462d-9be0-20d1e23666ba
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) It Networks INC-[Tls]-[TR... #1'
+  password: 65891e50-e23b-41cc-b631-af6ce7431507
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #131'
+  password: 25a5ebfd-1a34-451e-b549-0312fd7252b9
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #134'
+  password: 587d021f-f99f-4f36-bf50-bcf211ca1cdf
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Microsoft Corporation-[Tl... #2'
+  password: 299f369f-075e-4ae6-8f0e-bb8cd92236d4
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) It Networks INC-[Tls]-[TR... #2'
+  password: 9ac4d3f3-889f-413d-a7aa-a18646a6d6d1
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #139'
+  password: c3195c91-7f10-40b2-92bf-cba36e26ef7f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP) Jcom Co.-[Tls]-[TR]
+  password: ae0a177a-9546-4e09-91da-57c33707068c
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) M Europe SRL-[Tls]-[TR] #2'
+  password: 7b7a763b-9642-4a23-a470-8eff940d2208
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #140'
+  password: 2fcca837-09e0-48ef-8c34-cf9ee55e015c
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) M Europe SRL-[Tls]-[TR] #3'
+  password: 1c1ad8b5-d641-43bf-a43b-d900b0727589
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #141'
+  password: c98f11af-08ee-4a0a-a117-25e15d560ad8
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #143'
+  password: aa9e5a60-35f8-4c3b-858e-867a823049f8
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #144'
+  password: a987df72-7ed9-4361-8de6-789aa243ce8f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #145'
+  password: a27da317-adbd-4e56-b689-fc2b5f9a4193
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Gmo Internet Group-[Tls]-... #2'
+  password: 2cc0a89c-df1c-4a74-8eca-cf8f49871311
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #149'
+  password: c6cf7ed9-ae33-46db-b02d-580551801954
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #150'
+  password: cee6dd34-744c-476e-9806-5603c23bf53c
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Jcom Co.-[Tls]-[TR] #1'
+  password: aa497b84-2fcb-431f-b764-3ae8af5c2a39
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) The Constant Company-[Tls... #26'
+  password: 720e976f-cf89-4daa-bb92-afd93c55ed97
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP) Oracle Corporation-[Tls]-... #152'
+  password: 2c00269f-c882-46de-8a0a-b2128e902748
+  port: 443
+  server: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Oracle Corporation-[Tls]
+  network: ws
+  password: d2fa1327-30a4-4911-9601-757d32aa2640
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F150.230.214.172%3D16957'
+- name: '(JP)Latitude.sh-[Tls]</pre> #1'
+  password: efe6fd50-e640-406b-b320-c31bd9c63cfa
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #1'
+  network: ws
+  password: ff515082-b07a-4c69-ba09-e168e85fbd02
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F150.230.97.136%3D12502'
+- name: '(JP)Oracle Corporation-[NTls]<... #1'
+  password: 8dc8e91c-f638-4f52-88c3-ed681af96a28
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]''... #91'
+  password: 2e7180fc-181c-4f6e-afd6-a3474b9589ec
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Amazon.com-[NTls]
+  network: ws
+  password: cfc7a14c-df0a-4432-ae5b-eef136273727
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F3.112.21.102%3D443'
+- name: (JP)Datacamp Limited-[NTls]')"...
+  password: a3e28da6-8a1d-4b17-8ba4-ea4aac3a21c0
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #13'
+  password: e169d0a9-e046-433a-b8a0-284db8d70a1d
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #26'
+  password: ba708b09-57a6-4479-b391-99a1bc8bb89b
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Brainstorm Network-[Tls]')...
+  password: cf3f5661-a471-49d3-902d-6eda40722a82
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #78'
+  password: d2aa9834-df81-49a4-bcda-5b610be418eb
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #46'
+  password: 63eac0ff-62ce-4ffa-95dc-72c6b9e29468
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Alibaba us Technology Co.-... #26'
+  password: cb1d5945-3b18-4d8c-b51e-5bfe2edeeed6
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Oracle Corporation-[NTls]
+  network: ws
+  password: 8c1cde24-884e-40b1-b227-0cb3ca2eba26
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F217.142.243.98%3D51321'
+- name: '(JP)Oracle Corporation-[NTls] #1'
+  network: ws
+  password: 5f72abaf-eb42-47c3-af85-56314207d867
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.10.217%3D27446'
+- name: (JP)The Constant Company-[Tls]
+  network: ws
+  password: e68fadd9-12f2-4f23-b13f-c8e5de463595
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F198.13.42.58%3D32954'
+- name: '(JP)The Constant Company-[NTls... #16'
+  password: 7110ddee-fffb-4ffe-af44-2cadfe9fce0e
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #3'
+  network: ws
+  password: 7188573b-1048-4000-9eff-9f72d6cd2b8b
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.10.149%3D45638'
+- name: '(JP)Nearoute Limited-[NTls]</p... #1'
+  password: 59918ce9-e5c9-4193-b917-9c1005d7ccb5
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #74'
+  password: 70eb1b0c-ab3c-4e01-ba1d-f60bdaa3bcc9
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[NTls... #36'
+  password: 16c15fa4-ac8d-4261-b682-39190cc2c9ed
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[Tls]... #26'
+  password: e68fadd9-12f2-4f23-b13f-c8e5de463595
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Amazon.com-[Tls]
+  network: ws
+  password: a2ed069b-1292-4c54-859a-e9dc48748ad1
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F3.112.21.102%3D443'
+- name: '(JP)Oracle Corporation-[NTls]<... #22'
+  password: 7ed40e33-125b-4277-bd67-af646f390f4d
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Shenzhen Tencent Computer ...
+  network: ws
+  password: 6eb43d8e-4f6c-439e-ae28-1fd0569650e0
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F43.133.10.236%3D33405'
+- name: '(JP)Oracle Corporation-[NTls]''... #97'
+  password: faea301f-7bb9-4bdf-87f4-ac9b1456b88d
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #3'
+  network: ws
+  password: fa630575-3086-413e-b256-3e899be2aa52
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.213.1%3D50003'
+- name: (JP)Microsoft Corporation-[NTl...
+  network: ws
+  password: 83f71951-8bd9-4489-a4f4-19cdee824abe
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F20.243.85.49%3D10443'
+- name: '(JP)Jcom Co.-[Tls]'')">Copy Tro... #1'
+  password: 5c9dba5b-01ba-48a5-8dda-d0e345c6d935
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #4'
+  network: ws
+  password: 1a363ecb-8912-4ac9-8dde-c505c92cb991
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F158.101.146.3%3D44872'
+- name: '(JP)Shenzhen Tencent Computer ... #10'
+  password: 6eb43d8e-4f6c-439e-ae28-1fd0569650e0
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)AKILE LTD-[NTls]
+  network: ws
+  password: 37d35d9d-0c1f-4a17-bb8e-7fa07540874e
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F82.163.16.69%3D8080'
+- name: '(JP)Amazon.com-[NTls]</pre> #3'
+  password: 66c71144-0342-4067-9d9a-77fe5d625b61
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Jcom Co.-[Tls]
+  network: ws
+  password: 5c9dba5b-01ba-48a5-8dda-d0e345c6d935
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F219.117.2.190%3D48401'
+- name: '(JP)Oracle Corporation-[NTls]''... #89'
+  password: f090769e-0f59-4d66-bf08-d31ef4b8e6bd
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #64'
+  password: 2862b842-4872-470d-88ff-15086617a7ba
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Jcom Co.-[Tls] #1'
+  network: ws
+  password: 4fb39b5e-5ba4-4067-bdb2-89d7971af137
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F219.117.2.190%3D57517'
+- name: '(JP)Akamai Technologies-[Tls]''... #8'
+  password: 3b7a87d0-eefd-4e0b-8f4c-f72e6e2220cd
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #65'
+  password: 450a9020-aa18-49f3-899b-4930c29073ec
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Akamai Technologies-[Tls]''... #2'
+  password: 967d53e7-00ff-4bbc-a0a4-01b8bae35181
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #38'
+  password: c94b7531-41ba-4a5d-b6d5-38b4d7d6a67c
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)GLOBAL CONNECTIVITY SOLUTI... #9'
+  password: 43624489-bdb0-4ecb-abdf-a731a4c5ef65
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)WAP.AC LTD-[NTls]
+  network: ws
+  password: 6c0f7af5-5ef3-471e-bfe8-20565dca35ed
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F103.238.129.215%3D42734'
+- name: '(JP)Oracle Corporation-[NTls]<... #8'
+  password: fd10308d-fe41-4e6e-8c6c-4c8a031333e3
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]''... #49'
+  password: 1e3eed66-5463-471c-b156-bb29062a54a4
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #41'
+  password: 435cb651-4904-4014-abd0-5aa789c6221f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #73'
+  password: 57c02bf3-3b4f-4439-98ad-7a3e5affabc9
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)GLOBAL CONNECTIVITY SOLUTI... #1'
+  network: ws
+  password: 264e23f4-a086-41a1-beb8-8eacd9cda8a5
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F147.45.49.164%3D24443'
+- name: '(JP)The Constant Company-[NTls... #7'
+  network: ws
+  password: 7bbe4904-9abe-41f2-b5e3-8d07316eff45
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F149.28.21.106%3D443'
+- name: '(JP)Nearoute Limited-[Tls]</pr... #1'
+  password: 03914d83-2024-44c1-ad43-a7823f38c0ec
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[NTls... #10'
+  password: 7bbe4904-9abe-41f2-b5e3-8d07316eff45
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Xtom Japan Corporation-[Tl... #11'
+  password: cd48b82b-8410-4ab8-94ab-a292704ba596
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #24'
+  password: fa630575-3086-413e-b256-3e899be2aa52
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Amazon.com-[Tls]</pre> #1'
+  password: a2ed069b-1292-4c54-859a-e9dc48748ad1
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #6'
+  network: ws
+  password: 7ed40e33-125b-4277-bd67-af646f390f4d
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.213.1%3D50003'
+- name: '(JP)Oracle Corporation-[Tls] #8'
+  network: ws
+  password: 96fadbdd-e51f-4644-b7e2-0833a63931a6
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.32.76%3D15821'
+- name: '(JP)Oracle Corporation-[Tls] #9'
+  network: ws
+  password: a1f86f7c-74ad-49ac-a1c3-da34f577c56d
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F64.110.104.30%3D443'
+- name: '(JP)Oracle Corporation-[NTls] #7'
+  network: ws
+  password: 2e7180fc-181c-4f6e-afd6-a3474b9589ec
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F131.186.63.89%3D11655'
+- name: '(JP)The Constant Company-[Tls] #1'
+  network: ws
+  password: 1b036611-508e-4dce-be4c-0c8f1744928b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F45.76.192.129%3D24434'
+- name: (JP)AKILE LTD-[Tls]')">Copy Tr...
+  password: 746b4010-7e78-45c1-942d-2a1f4f4d0bd1
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #27'
+  password: a1f86f7c-74ad-49ac-a1c3-da34f577c56d
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #82'
+  password: 941278b8-e362-4d0d-9886-c0be73746fa2
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #55'
+  password: ff515082-b07a-4c69-ba09-e168e85fbd02
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Jcom Co.-[Tls]</pre> #2'
+  password: 4fb39b5e-5ba4-4067-bdb2-89d7971af137
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Akamai Technologies-[Tls]
+  network: ws
+  password: 847ce5ce-b28d-476a-b884-3bb912a5c992
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F139.162.102.152%3D7002'
+- name: '(JP)Oracle Corporation-[NTls]<... #44'
+  password: 99cece1f-c7e5-449a-b8c2-886a3d65de83
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #26'
+  password: 61c412cf-9459-4ffe-b126-bb9dc302ec79
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #50'
+  password: d4ac6ce7-79cb-4665-bd02-8bb0c811a8dc
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Akamai Technologies-[NTls]
+  network: ws
+  password: 578dd734-2723-4320-9ecc-2a9ada837b00
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F139.162.102.152%3D7002'
+- name: '(JP)Oracle Corporation-[Tls] #10'
+  network: ws
+  password: 782b59ea-a3f9-4733-808d-e6bc36918702
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F217.142.243.98%3D51321'
+- name: '(JP)M Europe SRL-[NTls]'')">Cop... #6'
+  password: a21ee947-ce61-403b-bbad-085ddb79e8e3
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #11'
+  network: ws
+  password: 6fa5041d-4c6b-4e46-b38c-a267d31b85fe
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.46.115%3D43138'
+- name: '(JP)Oracle Corporation-[NTls]<... #42'
+  password: 49f3e288-417d-4845-aeae-5894572c366a
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #103'
+  password: 473f186e-de14-4fd7-9264-2568fef2883c
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]''... #70'
+  password: 136570b6-52b8-45bf-b901-30dcc2056fdb
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #99'
+  password: 38079f88-39b1-49b3-819b-d2dc39548564
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #33'
+  password: a2271fa9-a147-4a7e-bfd7-59fea06d0070
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #90'
+  password: 3129e3ab-e513-4069-ab5c-f015a62f1d08
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #33'
+  password: f4de357e-6eb9-4888-a6a3-ae3df7cb4905
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Techavenue International L... #6'
+  password: 3d2c3496-1335-4cac-a7ce-511684f46cd9
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Amazon.com-[Tls]</pre> #3'
+  password: 3895e7b3-22ae-4a53-8190-5ce943284beb
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Gmo Internet Group-[NTls]<... #1'
+  password: df60b620-376b-4ffb-ba3f-67b31d97c3dc
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)WAP.AC LTD-[NTls]')">Copy ...
+  password: 6c0f7af5-5ef3-471e-bfe8-20565dca35ed
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #74'
+  password: 6a88d24a-cd19-4e44-8e99-43bf1cf0fe07
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #51'
+  password: 80ae6937-086b-4a6f-940b-8ef3c0ab3cc7
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Akamai Technologies-[Tls]''... #1'
+  password: 379f3e38-c437-4657-b50e-8c467984bb25
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #67'
+  password: 68e49405-3c69-48d1-9cb0-f40c2fef0d84
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[NTls... #14'
+  network: ws
+  password: 7110ddee-fffb-4ffe-af44-2cadfe9fce0e
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F108.160.139.154%3D8443'
+- name: '(JP)Oracle Corporation-[NTls]''... #38'
+  password: 7169f602-291b-4e66-bab6-7ff2bba2fb9f
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #70'
+  password: af6e6cf2-b604-4ed6-bda5-96e5699b70cf
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #94'
+  password: 3ac35d9b-ae02-422c-81a7-d634c30e645f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Microsoft Corporation-[NTl... #4'
+  password: 83f71951-8bd9-4489-a4f4-19cdee824abe
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]''... #55'
+  password: 4fd3c135-20be-4117-9c5e-50f46b440f84
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #77'
+  password: c19aa3a0-58e7-4046-93a9-f1ded40fb643
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[Tls] #2'
+  network: ws
+  password: 73bc246d-457f-474c-913c-2a9163f5d556
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F64.176.40.224%3D3533'
+- name: '(JP)Oracle Corporation-[NTls]<... #49'
+  password: 8382e22b-f7bc-4495-9a3d-490384719ced
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[Tls] #3'
+  network: ws
+  password: 3ea94362-d6a0-43db-b35b-7b724e5c4d1e
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F64.176.39.147%3D16387'
+- name: '(JP)The Constant Company-[NTls... #15'
+  network: ws
+  password: 045b5959-8b3a-49d9-81dd-d2af7333b9fc
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F149.28.30.146%3D44243'
+- name: '(JP)AKILE LTD-[Tls]'')">Copy Tr... #1'
+  password: a36d8731-8f28-421f-a1d3-4d4bda4899c0
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #14'
+  network: ws
+  password: 7ebecc7e-a09e-4c42-b892-65bd1c4f9ce7
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.49.197%3D587'
+- name: '(JP)Oracle Corporation-[NTls]<... #48'
+  password: 5f72abaf-eb42-47c3-af85-56314207d867
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Xtom Japan Corporation-[NT... #9'
+  password: da72aa9b-09c1-4001-8ed3-bf70fd2a905e
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Akamai Technologies-[NTls]... #6'
+  password: 578dd734-2723-4320-9ecc-2a9ada837b00
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Xtom Japan Corporation-[Tl... #3'
+  password: 6e0fbb68-9e74-4868-b150-514661b893cc
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #15'
+  network: ws
+  password: 0e167ccb-ca6b-4752-a3d0-3d2e4257421d
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F158.101.157.75%3D57105'
+- name: '(JP)Hosthatch-[Tls]</pre> #1'
+  password: 0e93c768-1cf1-46bf-bf89-0628871790d3
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #83'
+  password: 3023b9b9-f99e-4081-9bcd-f61feb7d5775
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #57'
+  password: 44fc6af6-a18f-4bbb-8f77-904536265860
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #19'
+  network: ws
+  password: 3023b9b9-f99e-4081-9bcd-f61feb7d5775
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.10.149%3D45638'
+- name: (JP)Brainstorm Network-[NTls]
+  network: ws
+  password: b7b6bc1e-182c-4cbf-9516-4469f77ac639
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F103.75.118.144%3D2053'
+- name: (JP)Brainstorm Network-[Tls]
+  network: ws
+  password: cf3f5661-a471-49d3-902d-6eda40722a82
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F103.75.118.144%3D2053'
+- name: '(JP)Alibaba us Technology Co.-... #35'
+  password: d6506f34-b3cd-4314-af56-19efa31af8be
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #16'
+  network: ws
+  password: 99cece1f-c7e5-449a-b8c2-886a3d65de83
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F150.230.204.21%3D10243'
+- name: '(JP)The Constant Company-[NTls... #59'
+  password: 6c72396c-e0c5-4717-a34b-3b655cab9fb3
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[NTls... #34'
+  password: bbaf6a99-49d5-473f-a1aa-bddd8455429a
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Brainstorm Network-[NTls]'...
+  password: b7b6bc1e-182c-4cbf-9516-4469f77ac639
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #35'
+  password: 1a363ecb-8912-4ac9-8dde-c505c92cb991
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #19'
+  network: ws
+  password: 49f3e288-417d-4845-aeae-5894572c366a
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.83.57.114%3D25965'
+- name: '(JP)The Constant Company-[NTls... #19'
+  network: ws
+  password: bbaf6a99-49d5-473f-a1aa-bddd8455429a
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F64.176.39.147%3D16387'
+- name: '(JP)Oracle Corporation-[Tls]</... #38'
+  password: 910d49a2-b471-492e-959d-306bbc2a0e04
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)AKILE LTD-[NTls] #2'
+  network: ws
+  password: 8fd6bdba-7b27-467a-a698-5dada0960ac0
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F103.232.213.117%3D8080'
+- name: '(JP)Oracle Corporation-[NTls] #20'
+  network: ws
+  password: 136570b6-52b8-45bf-b901-30dcc2056fdb
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F141.147.147.180%3D443'
+- name: '(JP)Oracle Corporation-[Tls] #20'
+  network: ws
+  password: e355978c-1136-4b98-ae88-f2bc72eb85e6
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F158.101.154.245%3D47001'
+- name: '(JP)Microsoft Corporation-[Tls... #5'
+  password: 15598a63-c003-476b-be08-2aec2dd12f7b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Datacamp Limited-[Tls]')">...
+  password: 998a08bf-a7d5-415c-a683-940d4ea43714
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Techavenue International L... #3'
+  password: 306e9e90-ffda-4358-afdc-148f9735d6bd
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #22'
+  network: ws
+  password: 44fc6af6-a18f-4bbb-8f77-904536265860
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F158.101.146.3%3D44872'
+- name: '(JP)Oracle Corporation-[Tls] #22'
+  network: ws
+  password: d2aa9834-df81-49a4-bcda-5b610be418eb
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.83.57.20%3D13118'
+- name: '(JP)Jcom Co.-[NTls] #1'
+  network: ws
+  password: f1a2c2b4-900e-4069-b17d-9d96f6a3ca46
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F219.117.2.190%3D48401'
+- name: '(JP)Akamai Technologies-[NTls]... #17'
+  password: aa1cf981-422f-4ec5-ba2b-dc11d751ee34
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #23'
+  network: ws
+  password: 051d0f24-afee-4f99-9952-7b5562b9edee
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F158.101.146.3%3D54516'
+- name: '(JP)Oracle Corporation-[NTls] #24'
+  network: ws
+  password: 6d84123c-15aa-4d94-b6c9-a9719c2979e9
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.3.222.124%3D46209'
+- name: '(JP)Akamai Technologies-[Tls]''... #3'
+  password: 60b21517-c588-4073-89ca-32d4e2d6a21c
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #26'
+  network: ws
+  password: 4a0bf1ad-d41f-4502-9a39-766d32f23160
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F132.145.126.40%3D32498'
+- name: (JP)Optage Inc.-[Tls]
+  network: ws
+  password: cba537e2-9e86-4541-8b42-3141b0c77f7e
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F121.85.55.59%3D19842'
+- name: (JP)Gmo Internet Group-[NTls]
+  network: ws
+  password: df60b620-376b-4ffb-ba3f-67b31d97c3dc
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F118.27.12.40%3D38443'
+- name: '(JP)Shenzhen Tencent Computer ... #11'
+  password: 3a1c673e-5b34-43b3-b4c5-7a951a8da331
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #27'
+  network: ws
+  password: 8dc8e91c-f638-4f52-88c3-ed681af96a28
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F132.145.116.192%3D44009'
+- name: '(JP)It Networks INC-[Tls]'')">C... #3'
+  password: 13f4623c-c13d-4694-9fe0-5e538616f530
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #28'
+  network: ws
+  password: 4fd3c135-20be-4117-9c5e-50f46b440f84
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.201.35%3D36637'
+- name: '(JP)Akamai Technologies-[NTls]... #12'
+  password: 7e88f729-d18b-4707-bdb4-972c6947f872
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #32'
+  password: 5c029d57-2a3a-4244-a6a7-a06246c797b5
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Alibaba us Technology Co.-... #9'
+  password: 78789503-d6ad-4b96-b2ec-fdc34e7531dd
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]''... #51'
+  password: d08dd4a9-c957-4efa-8e0c-569557c93afd
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #24'
+  network: ws
+  password: 57c02bf3-3b4f-4439-98ad-7a3e5affabc9
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.197.147%3D12345'
+- name: '(JP)Oracle Corporation-[NTls]''... #33'
+  password: 19fff42b-78a4-4556-8822-80453b29d8f8
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Alibaba us Technology Co.-... #19'
+  password: bdf71f6a-ff5a-4632-84ea-23679d0a4f14
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #30'
+  network: ws
+  password: d08dd4a9-c957-4efa-8e0c-569557c93afd
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F141.147.161.249%3D51037'
+- name: '(JP)The Constant Company-[NTls... #22'
+  network: ws
+  password: 16c15fa4-ac8d-4261-b682-39190cc2c9ed
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F45.77.25.6%3D48828'
+- name: '(JP)The Constant Company-[Tls] #5'
+  network: ws
+  password: e528d5e9-7a03-4ba7-b268-ee83f6902dbd
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F45.77.25.6%3D27854'
+- name: '(JP)Oracle Corporation-[Tls] #25'
+  network: ws
+  password: 4267537c-e447-4827-9b54-e3ba01c068a4
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F141.147.152.229%3D23333'
+- name: '(JP)The Constant Company-[NTls... #23'
+  network: ws
+  password: 6c72396c-e0c5-4717-a34b-3b655cab9fb3
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F45.76.192.129%3D24434'
+- name: '(JP)Oracle Corporation-[Tls]</... #26'
+  password: 96fadbdd-e51f-4644-b7e2-0833a63931a6
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #31'
+  network: ws
+  password: 6ba4aec9-482e-4a4d-8924-c33cd2110509
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F152.70.82.101%3D18650'
+- name: '(JP)M Europe SRL-[NTls] #1'
+  network: ws
+  password: 79b7cb77-c235-4427-af83-35a8b6d5b0e2
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F38.180.29.115%3D443'
+- name: '(JP)Jcom Co.-[NTls] #2'
+  network: ws
+  password: 5db77915-2330-44c8-834e-21633e5cb21a
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F219.117.2.190%3D57517'
+- name: '(JP)The Constant Company-[NTls... #29'
+  password: 045b5959-8b3a-49d9-81dd-d2af7333b9fc
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #26'
+  network: ws
+  password: d8ae9991-f134-4cb9-a9e1-57cd2993607f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F131.186.33.175%3D443'
+- name: '(JP)Oracle Corporation-[NTls] #32'
+  network: ws
+  password: c94b7531-41ba-4a5d-b6d5-38b4d7d6a67c
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F152.69.199.70%3D8443'
+- name: '(JP)The Constant Company-[NTls... #25'
+  network: ws
+  password: 49811154-b732-4d3a-a5ce-02ca1b93436b
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F198.13.42.58%3D32954'
+- name: '(JP)Oracle Corporation-[Tls] #29'
+  network: ws
+  password: 42bd9763-c97c-4604-bded-d85f1e610f63
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F217.142.230.253%3D587'
+- name: '(JP)Oracle Corporation-[NTls]<... #90'
+  password: 7ebecc7e-a09e-4c42-b892-65bd1c4f9ce7
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #31'
+  network: ws
+  password: a2271fa9-a147-4a7e-bfd7-59fea06d0070
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.3.222.124%3D46209'
+- name: '(JP)Oracle Corporation-[NTls] #34'
+  network: ws
+  password: 56b604a4-30d9-4741-bac2-0ee2023f20cf
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.59.96%3D10129'
+- name: '(JP)AKILE LTD-[Tls] #1'
+  network: ws
+  password: a36d8731-8f28-421f-a1d3-4d4bda4899c0
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F103.232.213.117%3D8080'
+- name: '(JP)The Constant Company-[NTls... #52'
+  password: 5f7545ad-c9d4-4082-8c46-3200a08d5113
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #55'
+  password: 982fd55e-bc8a-47f6-8420-68c0a18d12a7
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[NTls... #46'
+  password: 99411f26-67f5-4402-b27d-ff5bca2ad528
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]''... #80'
+  password: 1d8f1d8c-0c64-4fe9-8e90-8477ca8334fb
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #36'
+  network: ws
+  password: faea301f-7bb9-4bdf-87f4-ac9b1456b88d
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F152.69.192.40%3D57005'
+- name: '(JP)Oracle Corporation-[NTls]''... #34'
+  password: 56b604a4-30d9-4741-bac2-0ee2023f20cf
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #102'
+  password: 93d1cce5-7bff-41a3-8e99-781dfa392ed5
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)It Networks INC-[Tls] #1'
+  network: ws
+  password: 13f4623c-c13d-4694-9fe0-5e538616f530
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F23.106.143.190%3D39027'
+- name: '(JP)The Constant Company-[Tls]... #33'
+  password: 73bc246d-457f-474c-913c-2a9163f5d556
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #88'
+  password: e355978c-1136-4b98-ae88-f2bc72eb85e6
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[NTls... #28'
+  network: ws
+  password: 3db8a622-98d0-4b54-8afd-789784c6d2fc
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F45.76.198.248%3D443'
+- name: '(JP)Oracle Corporation-[NTls] #37'
+  network: ws
+  password: f090769e-0f59-4d66-bf08-d31ef4b8e6bd
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.193.174%3D11959'
+- name: '(JP)Oracle Corporation-[NTls]<... #62'
+  password: bf0a052e-4912-432d-b9e1-477b2319ff43
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Latitude.sh-[NTls] #1'
+  network: ws
+  password: 37163622-550c-49c1-accf-5963f1cc408d
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F185.18.222.208%3D2053'
+- name: '(JP)Oracle Corporation-[NTls] #39'
+  network: ws
+  password: 19fff42b-78a4-4556-8822-80453b29d8f8
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.18.82%3D8880'
+- name: '(JP)Oracle Corporation-[NTls] #40'
+  network: ws
+  password: fd92f4e6-eb12-4968-a46b-df57f93413a9
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.46.67%3D443'
+- name: '(JP)M Europe SRL-[NTls]'')">Cop... #3'
+  password: cf4b73af-db79-48a1-91f7-c5abaac86979
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #76'
+  password: 4b78e92b-9e5c-4e29-94b5-73e60a377950
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)It Networks INC-[Tls]</pre... #3'
+  password: 97bdfd53-a561-4fbe-bb9b-0d46aa2b0349
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #51'
+  password: 6fa5041d-4c6b-4e46-b38c-a267d31b85fe
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #79'
+  password: 42bd9763-c97c-4604-bded-d85f1e610f63
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #92'
+  password: 4267537c-e447-4827-9b54-e3ba01c068a4
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #33'
+  network: ws
+  password: 910d49a2-b471-492e-959d-306bbc2a0e04
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F158.101.146.3%3D54516'
+- name: '(JP)Oracle Corporation-[Tls]</... #61'
+  password: 5ce10bbd-0293-48dd-a38b-8697a86b2b89
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)M Europe SRL-[Tls]'')">Copy... #5'
+  password: 6a08ffed-ffd3-40d1-a492-5461ee14936e
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Alibaba us Technology Co.-... #21'
+  password: b09803e2-6626-48c2-b445-ff975361af17
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)AKILE LTD-[NTls]')">Copy T...
+  password: 8fd6bdba-7b27-467a-a698-5dada0960ac0
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Xtom Japan Corporation-[NT... #7'
+  password: dc678d2c-a579-4ffd-80dc-6bb966b4943f
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #37'
+  password: 051d0f24-afee-4f99-9952-7b5562b9edee
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Dmit Cloud Services-[Tls]''... #1'
+  password: 03c89930-9dd4-4d4a-97b9-d1439192c206
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #98'
+  password: b259cd5f-c0f1-426a-bf3a-8f96091972f0
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #39'
+  network: ws
+  password: 959e14ba-819c-4d7b-abdc-d88988f22223
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.18.82%3D8880'
+- name: (JP)Hosthatch-[NTls]')">Copy T...
+  password: 98bceda6-130a-4492-bfcc-ca377f215645
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #60'
+  password: 3395bde6-5a4a-4970-b8ea-6e9acd60cdc7
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #43'
+  network: ws
+  password: d4ac6ce7-79cb-4665-bd02-8bb0c811a8dc
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.46.115%3D43138'
+- name: '(JP)Akamai Technologies-[Tls] #3'
+  network: ws
+  password: 379f3e38-c437-4657-b50e-8c467984bb25
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F172.105.233.112%3D18836'
+- name: '(JP)Oracle Corporation-[Tls] #40'
+  network: ws
+  password: df6eb8e6-c1d1-4eda-969e-91d58268adf1
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.83.37.134%3D46478'
+- name: '(JP)Latitude.sh-[NTls]</pre> #1'
+  password: 37163622-550c-49c1-accf-5963f1cc408d
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #41'
+  network: ws
+  password: 61c412cf-9459-4ffe-b126-bb9dc302ec79
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F141.147.183.49%3D29876'
+- name: '(JP)Brainstorm Network-[NTls]''... #2'
+  password: 5ce33c05-4a12-4cd0-b645-060e16be8e9a
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Amazon.com-[NTls]'')">Copy ... #2'
+  password: cfc7a14c-df0a-4432-ae5b-eef136273727
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Alibaba us Technology Co.-... #22'
+  password: 0c25aeaf-bbc1-4424-a5dc-26c8567e8627
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Alibaba us Technology Co.-... #13'
+  network: ws
+  password: 78789503-d6ad-4b96-b2ec-fdc34e7531dd
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F8.216.81.183%3D3939'
+- name: '(JP)Oracle Corporation-[NTls] #47'
+  network: ws
+  password: 2888de9f-71d6-491f-94c5-bc2ae087a81e
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F141.147.183.49%3D29876'
+- name: '(JP)Oracle Corporation-[Tls]'')... #67'
+  password: 6b00f7fe-df1b-481b-af7a-dff212a60e35
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Brainstorm Network-[Tls] #1'
+  network: ws
+  password: 509c5c91-bc84-4292-a883-88e83e353ab4
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F103.106.228.126%3D2053'
+- name: '(JP)Akamai Technologies-[Tls]<... #9'
+  password: 847ce5ce-b28d-476a-b884-3bb912a5c992
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Akamai Technologies-[NTls]... #15'
+  password: 09a843b9-35c7-4e64-b1be-b0617c49d860
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Alibaba us Technology Co.-... #14'
+  network: ws
+  password: d6506f34-b3cd-4314-af56-19efa31af8be
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F8.216.81.183%3D3939'
+- name: '(JP)Oracle Corporation-[NTls] #48'
+  network: ws
+  password: 941278b8-e362-4d0d-9886-c0be73746fa2
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.83.57.20%3D13118'
+- name: '(JP)Oracle Corporation-[NTls] #49'
+  network: ws
+  password: 7169f602-291b-4e66-bab6-7ff2bba2fb9f
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F64.110.101.90%3D55007'
+- name: '(JP)The Constant Company-[NTls... #48'
+  password: 49811154-b732-4d3a-a5ce-02ca1b93436b
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Akamai Technologies-[Tls] #4'
+  network: ws
+  password: 3b7a87d0-eefd-4e0b-8f4c-f72e6e2220cd
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F139.162.127.55%3D18836'
+- name: '(JP)Oracle Corporation-[Tls]</... #35'
+  password: f7d05050-6b19-428b-b72a-ccb52e4c48b7
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[Tls]... #10'
+  password: 605113c7-2e0f-4d14-9d09-fac2606fdd5d
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #85'
+  password: 139e005c-7c45-471d-b52e-e901145946d3
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]''... #61'
+  password: eb936420-0e78-4cdd-b29f-f692462ec413
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)M Europe SRL-[Tls]'')">Copy... #1'
+  password: 4367cb74-b53d-4d39-a5b9-e07f2e1c345a
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #79'
+  password: 8c1cde24-884e-40b1-b227-0cb3ca2eba26
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #107'
+  password: 3ebc7ace-409e-4940-9972-98c534d52001
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)M Europe SRL-[NTls] #2'
+  network: ws
+  password: a21ee947-ce61-403b-bbad-085ddb79e8e3
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F38.180.28.163%3D2053'
+- name: '(JP)It Networks INC-[NTls] #1'
+  network: ws
+  password: 629b56b6-75c0-4104-b80a-20e6ad699e1a
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F23.106.143.190%3D39027'
+- name: '(JP)The Constant Company-[Tls]... #17'
+  password: 8e7dc599-5bb9-41a5-97cf-603c0a399e8c
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #51'
+  network: ws
+  password: 887c2169-3395-46c7-bfec-df51946050f5
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.238.62.82%3D1443'
+- name: '(JP)Oracle Corporation-[NTls]<... #53'
+  password: 0e167ccb-ca6b-4752-a3d0-3d2e4257421d
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]</... #107'
+  password: e8640581-77b0-4442-b6b6-f60b800bdc9b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]''... #81'
+  password: 378cda4f-187b-4b05-bbce-20b3dad095ef
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Xtom Japan Corporation-[Tl... #4'
+  network: ws
+  password: cd48b82b-8410-4ab8-94ab-a292704ba596
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F45.66.218.194%3D12965'
+- name: '(JP)Akamai Technologies-[NTls] #4'
+  network: ws
+  password: 00cfa329-5948-4d67-a0dc-6cd785b07e02
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F139.162.127.55%3D18836'
+- name: '(JP)It Networks INC-[NTls] #3'
+  network: ws
+  password: 9585c204-956f-4f42-aae6-43c144a32ee5
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F192.243.127.224%3D443'
+- name: '(JP)Oracle Corporation-[Tls]'')... #87'
+  password: 1b538bc7-1cf5-4dda-9e93-a5d983dfc344
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Alibaba us Technology Co.-... #17'
+  network: ws
+  password: bdf71f6a-ff5a-4632-84ea-23679d0a4f14
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F8.209.220.50%3D21273'
+- name: '(JP)Oracle Corporation-[Tls] #48'
+  network: ws
+  password: 3ac35d9b-ae02-422c-81a7-d634c30e645f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F132.145.126.40%3D32498'
+- name: '(JP)The Constant Company-[NTls... #51'
+  password: 3db8a622-98d0-4b54-8afd-789784c6d2fc
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #58'
+  password: 887c2169-3395-46c7-bfec-df51946050f5
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Alibaba us Technology Co.-... #18'
+  network: ws
+  password: b09803e2-6626-48c2-b445-ff975361af17
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F8.209.220.50%3D21273'
+- name: '(JP)Oracle Corporation-[Tls]'')... #80'
+  password: db8d4771-9f1a-4cf5-88be-72ede9f72752
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]''... #85'
+  password: 4a0bf1ad-d41f-4502-9a39-766d32f23160
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #82'
+  password: 3324f8ad-f928-4d89-9d9a-f8b797e6be74
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]''... #59'
+  password: 258fe516-c395-4968-8351-e42c965bdd17
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #51'
+  network: ws
+  password: e8640581-77b0-4442-b6b6-f60b800bdc9b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.198.7%3D27560'
+- name: (JP)Optage Inc.-[Tls]')">Copy ...
+  password: cba537e2-9e86-4541-8b42-3141b0c77f7e
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #53'
+  network: ws
+  password: ea7170b2-97ed-40e0-9886-00bafbdaceb3
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F217.142.243.226%3D443'
+- name: '(JP)Oracle Corporation-[NTls] #53'
+  network: ws
+  password: ba708b09-57a6-4479-b391-99a1bc8bb89b
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.192.16%3D54584'
+- name: '(JP)Oracle Corporation-[Tls]</... #52'
+  password: d8ae9991-f134-4cb9-a9e1-57cd2993607f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)M Europe SRL-[Tls] #3'
+  network: ws
+  password: 4367cb74-b53d-4d39-a5b9-e07f2e1c345a
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F38.180.28.163%3D2053'
+- name: '(JP)Oracle Corporation-[Tls] #54'
+  network: ws
+  password: 3129e3ab-e513-4069-ab5c-f015a62f1d08
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.83.56.110%3D56417'
+- name: '(JP)Oracle Corporation-[Tls] #55'
+  network: ws
+  password: 2bc944bb-2206-4244-91c2-9a5351483d5f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F141.147.161.249%3D51037'
+- name: '(JP)Xtom Japan Corporation-[NT... #6'
+  network: ws
+  password: da72aa9b-09c1-4001-8ed3-bf70fd2a905e
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F45.66.218.194%3D12965'
+- name: '(JP)Oracle Corporation-[Tls]</... #95'
+  password: 61504b04-4e14-460d-a98c-238793604c97
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Nearoute Limited-[NTls]
+  network: ws
+  password: 59918ce9-e5c9-4193-b917-9c1005d7ccb5
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F103.20.199.118%3D12999'
+- name: '(JP)Oracle Corporation-[Tls] #56'
+  network: ws
+  password: 1b538bc7-1cf5-4dda-9e93-a5d983dfc344
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.49.197%3D587'
+- name: '(JP)Oracle Corporation-[Tls] #57'
+  network: ws
+  password: 5ce10bbd-0293-48dd-a38b-8697a86b2b89
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.83.57.183%3D22735'
+- name: '(JP)The Constant Company-[Tls] #9'
+  network: ws
+  password: 20c3996a-b5aa-441a-8d88-4d43ca7c9dc0
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F149.28.21.106%3D443'
+- name: '(JP)It Networks INC-[NTls]</pr... #3'
+  password: 629b56b6-75c0-4104-b80a-20e6ad699e1a
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)It Networks INC-[Tls] #3'
+  network: ws
+  password: 97bdfd53-a561-4fbe-bb9b-0d46aa2b0349
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F192.243.127.224%3D443'
+- name: '(JP)Oracle Corporation-[Tls] #58'
+  network: ws
+  password: b259cd5f-c0f1-426a-bf3a-8f96091972f0
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.83.59.158%3D15805'
+- name: '(JP)M Europe SRL-[Tls] #4'
+  network: ws
+  password: 8cd19df4-5053-4504-a031-cb338e78f285
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F176.97.70.51%3D2053'
+- name: '(JP)It Networks INC-[NTls]</pr... #2'
+  password: 9585c204-956f-4f42-aae6-43c144a32ee5
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[Tls] #10'
+  network: ws
+  password: 605113c7-2e0f-4d14-9d09-fac2606fdd5d
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F149.28.30.146%3D44243'
+- name: '(JP)Oracle Corporation-[Tls] #59'
+  network: ws
+  password: deedc28f-40b2-4080-9c98-a6fb0c12124d
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.193.174%3D11959'
+- name: '(JP)The Constant Company-[Tls]... #23'
+  password: 3ea94362-d6a0-43db-b35b-7b724e5c4d1e
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Brainstorm Network-[Tls]'')... #2'
+  password: 509c5c91-bc84-4292-a883-88e83e353ab4
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Optage Inc.-[NTls]')">Copy...
+  password: 89efe822-6816-4822-b4c1-0d934b3eb08e
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Jcom Co.-[NTls]')">Copy Tr...
+  password: 5db77915-2330-44c8-834e-21633e5cb21a
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #107'
+  password: aad54ca4-840f-4161-b712-fd19f00a134b
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]''... #102'
+  password: 6d84123c-15aa-4d94-b6c9-a9719c2979e9
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[Tls]... #27'
+  password: 3fd31492-8fad-4246-a93e-afbec4072287
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[Tls]... #29'
+  password: 20c3996a-b5aa-441a-8d88-4d43ca7c9dc0
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #62'
+  password: df6eb8e6-c1d1-4eda-969e-91d58268adf1
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)M Europe SRL-[Tls] #5'
+  network: ws
+  password: 6a08ffed-ffd3-40d1-a492-5461ee14936e
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F38.180.29.115%3D443'
+- name: '(JP)Oracle Corporation-[NTls] #61'
+  network: ws
+  password: a6ec1164-13f9-48fc-8b2e-077805b0eed4
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F141.147.152.229%3D23333'
+- name: '(JP)The Constant Company-[Tls] #12'
+  network: ws
+  password: de933ed2-3878-4a90-a9c0-cb9479408bfe
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F45.76.198.248%3D443'
+- name: (JP)Datacamp Limited-[NTls]
+  network: ws
+  password: a3e28da6-8a1d-4b17-8ba4-ea4aac3a21c0
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F45.11.1.118%3D44004'
+- name: '(JP)Oracle Corporation-[NTls]''... #62'
+  password: a6ec1164-13f9-48fc-8b2e-077805b0eed4
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #64'
+  network: ws
+  password: 63eac0ff-62ce-4ffa-95dc-72c6b9e29468
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F152.69.192.40%3D57005'
+- name: '(JP)Oracle Corporation-[NTls]<... #98'
+  password: ab3ab042-4919-488d-a1f1-20fcd65c257b
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #69'
+  password: deedc28f-40b2-4080-9c98-a6fb0c12124d
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #63'
+  network: ws
+  password: 4b78e92b-9e5c-4e29-94b5-73e60a377950
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F158.101.152.6%3D2919'
+- name: '(JP)Oracle Corporation-[NTls] #64'
+  network: ws
+  password: 6812fc00-8c86-4788-b8c3-ba712fbaf82c
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F217.142.243.226%3D443'
+- name: '(JP)Shenzhen Tencent Computer ... #7'
+  network: ws
+  password: 3a1c673e-5b34-43b3-b4c5-7a951a8da331
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F43.133.10.236%3D33405'
+- name: '(JP)Oracle Corporation-[NTls] #65'
+  network: ws
+  password: c19aa3a0-58e7-4046-93a9-f1ded40fb643
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F64.110.104.30%3D443'
+- name: '(JP)M Europe SRL-[NTls]'')">Cop... #7'
+  password: 3cfa5826-3f0d-4ab1-84ff-b85b10445528
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #66'
+  network: ws
+  password: f4de357e-6eb9-4888-a6a3-ae3df7cb4905
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F217.142.250.195%3D587'
+- name: '(JP)Oracle Corporation-[Tls] #65'
+  network: ws
+  password: 3324f8ad-f928-4d89-9d9a-f8b797e6be74
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.238.62.82%3D1443'
+- name: '(JP)M Europe SRL-[NTls] #3'
+  network: ws
+  password: 3cfa5826-3f0d-4ab1-84ff-b85b10445528
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F176.97.70.51%3D2053'
+- name: (JP)Latitude.sh-[Tls]
+  network: ws
+  password: efe6fd50-e640-406b-b320-c31bd9c63cfa
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F185.18.222.208%3D2053'
+- name: '(JP)Oracle Corporation-[Tls] #67'
+  network: ws
+  password: 58301568-664d-44ba-b2b3-e1074437436b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.201.35%3D36637'
+- name: '(JP)Oracle Corporation-[NTls] #67'
+  network: ws
+  password: 8382e22b-f7bc-4495-9a3d-490384719ced
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F150.230.214.172%3D16957'
+- name: '(JP)Oracle Corporation-[NTls]<... #97'
+  password: 2888de9f-71d6-491f-94c5-bc2ae087a81e
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #68'
+  network: ws
+  password: eb936420-0e78-4cdd-b29f-f692462ec413
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F217.142.236.93%3D443'
+- name: '(JP)GLOBAL CONNECTIVITY SOLUTI... #8'
+  password: 264e23f4-a086-41a1-beb8-8eacd9cda8a5
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[Tls]... #38'
+  password: e528d5e9-7a03-4ba7-b268-ee83f6902dbd
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #90'
+  password: 0fcf38f0-f649-4a32-88c9-98d594bffb2b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #70'
+  network: ws
+  password: 450a9020-aa18-49f3-899b-4930c29073ec
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.198.7%3D27560'
+- name: '(JP)Oracle Corporation-[Tls] #68'
+  network: ws
+  password: 6b00f7fe-df1b-481b-af7a-dff212a60e35
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F150.230.5.34%3D45681'
+- name: '(JP)Akamai Technologies-[Tls] #6'
+  network: ws
+  password: 60b21517-c588-4073-89ca-32d4e2d6a21c
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F139.162.127.39%3D18836'
+- name: '(JP)Oracle Corporation-[Tls] #69'
+  network: ws
+  password: 435cb651-4904-4014-abd0-5aa789c6221f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F132.226.8.109%3D43257'
+- name: '(JP)Oracle Corporation-[NTls]<... #81'
+  password: 6812fc00-8c86-4788-b8c3-ba712fbaf82c
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #73'
+  network: ws
+  password: aea2b87d-505e-4e83-b7ae-e0f545a97001
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.32.76%3D15821'
+- name: (JP)WAP.AC LTD-[Tls]')">Copy T...
+  password: e2913d37-00f4-45be-a589-8d1373d84bd0
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #76'
+  network: ws
+  password: 68e49405-3c69-48d1-9cb0-f40c2fef0d84
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.83.37.134%3D46478'
+- name: '(JP)Akamai Technologies-[NTls] #6'
+  network: ws
+  password: 09a843b9-35c7-4e64-b1be-b0617c49d860
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F172.105.233.112%3D18836'
+- name: '(JP)Oracle Corporation-[Tls]'')... #74'
+  password: 58301568-664d-44ba-b2b3-e1074437436b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #92'
+  password: fd92f4e6-eb12-4968-a46b-df57f93413a9
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls]'')... #84'
+  password: f5c76b65-43e4-42a3-9e6a-7a0753f54d57
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #70'
+  network: ws
+  password: baf5cd0e-0293-4957-a05e-5ca2d40e527e
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F150.230.204.21%3D10243'
+- name: '(JP)Oracle Corporation-[NTls] #78'
+  network: ws
+  password: bf0a052e-4912-432d-b9e1-477b2319ff43
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F141.147.144.15%3D13357'
+- name: '(JP)Oracle Corporation-[NTls] #79'
+  network: ws
+  password: aad54ca4-840f-4161-b712-fd19f00a134b
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.48.109%3D26412'
+- name: '(JP)Oracle Corporation-[Tls] #71'
+  network: ws
+  password: 3ebc7ace-409e-4940-9972-98c534d52001
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F64.110.101.90%3D55007'
+- name: '(JP)Oracle Corporation-[NTls]''... #90'
+  password: 08e1f7c4-d9bf-4b23-8a19-463265639805
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Hosthatch-[Tls]
+  network: ws
+  password: 0e93c768-1cf1-46bf-bf89-0628871790d3
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F212.52.0.61%3D1846'
+- name: '(JP)Oracle Corporation-[Tls] #73'
+  network: ws
+  password: f5c76b65-43e4-42a3-9e6a-7a0753f54d57
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F131.186.63.89%3D11655'
+- name: '(JP)Akamai Technologies-[NTls]... #16'
+  password: 00cfa329-5948-4d67-a0dc-6cd785b07e02
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]<... #78'
+  password: 7188573b-1048-4000-9eff-9f72d6cd2b8b
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #80'
+  network: ws
+  password: 08e1f7c4-d9bf-4b23-8a19-463265639805
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.83.56.110%3D56417'
+- name: '(JP)M Europe SRL-[Tls]</pre> #7'
+  password: 8cd19df4-5053-4504-a031-cb338e78f285
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)AKILE LTD-[NTls]</pre> #2'
+  password: 37d35d9d-0c1f-4a17-bb8e-7fa07540874e
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #81'
+  network: ws
+  password: 9317be0c-2822-4ce6-b0e0-6e27101c695e
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F131.186.33.175%3D443'
+- name: '(JP)Oracle Corporation-[NTls] #82'
+  network: ws
+  password: 3454a7d2-6d47-479e-a4d3-6af52010ba91
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F150.230.5.34%3D45681'
+- name: '(JP)Techavenue International L... #5'
+  network: ws
+  password: 306e9e90-ffda-4358-afdc-148f9735d6bd
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F202.144.195.204%3D443'
+- name: '(JP)Oracle Corporation-[NTls]<... #89'
+  password: 9317be0c-2822-4ce6-b0e0-6e27101c695e
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #75'
+  network: ws
+  password: 80ae6937-086b-4a6f-940b-8ef3c0ab3cc7
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.10.217%3D27446'
+- name: '(JP)Oracle Corporation-[Tls]'')... #89'
+  password: ea7170b2-97ed-40e0-9886-00bafbdaceb3
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Dmit Cloud Services-[NTls]... #3'
+  password: 5724e874-0ee1-4648-bb1f-cf3282d8abe2
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[Tls] #15'
+  network: ws
+  password: 3fd31492-8fad-4246-a93e-afbec4072287
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F45.77.25.6%3D48828'
+- name: '(JP)Amazon.com-[Tls] #3'
+  network: ws
+  password: 3895e7b3-22ae-4a53-8190-5ce943284beb
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F18.183.158.211%3D443'
+- name: '(JP)Oracle Corporation-[Tls] #77'
+  network: ws
+  password: 0fcf38f0-f649-4a32-88c9-98d594bffb2b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F152.69.199.70%3D8443'
+- name: '(JP)The Constant Company-[Tls]... #36'
+  password: de933ed2-3878-4a90-a9c0-cb9479408bfe
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)The Constant Company-[NTls... #45'
+  network: ws
+  password: 5f7545ad-c9d4-4082-8c46-3200a08d5113
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F45.77.25.6%3D27854'
+- name: '(JP)Oracle Corporation-[Tls] #78'
+  network: ws
+  password: 38079f88-39b1-49b3-819b-d2dc39548564
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F217.142.236.93%3D443'
+- name: '(JP)Oracle Corporation-[NTls]<... #104'
+  password: aea2b87d-505e-4e83-b7ae-e0f545a97001
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Xtom Japan Corporation-[Tl... #10'
+  network: ws
+  password: 6e0fbb68-9e74-4868-b150-514661b893cc
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F141.98.197.101%3D11665'
+- name: '(JP)Oracle Corporation-[Tls]</... #71'
+  password: 782b59ea-a3f9-4733-808d-e6bc36918702
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #81'
+  network: ws
+  password: 5c029d57-2a3a-4244-a6a7-a06246c797b5
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F217.142.250.195%3D587'
+- name: '(JP)Oracle Corporation-[NTls] #85'
+  network: ws
+  password: fd10308d-fe41-4e6e-8c6c-4c8a031333e3
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.83.59.158%3D15805'
+- name: (JP)Datacamp Limited-[Tls]
+  network: ws
+  password: 998a08bf-a7d5-415c-a683-940d4ea43714
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F45.11.1.118%3D44004'
+- name: '(JP)Oracle Corporation-[Tls] #82'
+  network: ws
+  password: 473f186e-de14-4fd7-9264-2568fef2883c
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.48.109%3D26412'
+- name: '(JP)Oracle Corporation-[Tls] #83'
+  network: ws
+  password: e169d0a9-e046-433a-b8a0-284db8d70a1d
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.46.67%3D443'
+- name: '(JP)Oracle Corporation-[NTls] #86'
+  network: ws
+  password: 03575127-76e9-4771-aa00-199da4687394
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F132.226.8.109%3D43257'
+- name: '(JP)M Europe SRL-[Tls]</pre> #6'
+  password: 5e4f36d7-5321-49a4-9a13-91f32001f188
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #84'
+  network: ws
+  password: f7d05050-6b19-428b-b72a-ccb52e4c48b7
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F152.70.82.101%3D18650'
+- name: '(JP)Oracle Corporation-[NTls] #87'
+  network: ws
+  password: 258fe516-c395-4968-8351-e42c965bdd17
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.83.57.183%3D22735'
+- name: (JP)Nearoute Limited-[Tls]
+  network: ws
+  password: 03914d83-2024-44c1-ad43-a7823f38c0ec
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F103.20.199.118%3D12999'
+- name: '(JP)Oracle Corporation-[Tls] #85'
+  network: ws
+  password: db8d4771-9f1a-4cf5-88be-72ede9f72752
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.238.37.103%3D14782'
+- name: '(JP)Gmo Internet Group-[Tls]'')... #1'
+  password: 5dd6b441-fe91-45d5-a2f6-0086d65625ca
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #88'
+  network: ws
+  password: 1e3eed66-5463-471c-b156-bb29062a54a4
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.238.37.103%3D14782'
+- name: '(JP)The Constant Company-[Tls]... #34'
+  password: 1b036611-508e-4dce-be4c-0c8f1744928b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #87'
+  network: ws
+  password: 61504b04-4e14-460d-a98c-238793604c97
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.192.16%3D54584'
+- name: '(JP)Oracle Corporation-[NTls]<... #94'
+  password: 7b4a4d6b-e42e-4957-92f0-74cd33ea7be5
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)M Europe SRL-[Tls] #7'
+  network: ws
+  password: 5e4f36d7-5321-49a4-9a13-91f32001f188
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F38.180.28.163%3D8443'
+- name: '(JP)Oracle Corporation-[Tls] #91'
+  network: ws
+  password: 6a88d24a-cd19-4e44-8e99-43bf1cf0fe07
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F158.101.157.75%3D57105'
+- name: '(JP)Brainstorm Network-[NTls] #3'
+  network: ws
+  password: 5ce33c05-4a12-4cd0-b645-060e16be8e9a
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F103.106.228.126%3D2053'
+- name: (JP)Optage Inc.-[NTls]
+  network: ws
+  password: 89efe822-6816-4822-b4c1-0d934b3eb08e
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F121.85.55.59%3D19842'
+- name: '(JP)Gmo Internet Group-[Tls] #1'
+  network: ws
+  password: 5dd6b441-fe91-45d5-a2f6-0086d65625ca
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F118.27.12.40%3D38443'
+- name: '(JP)Alibaba us Technology Co.-... #30'
+  network: ws
+  password: 0c25aeaf-bbc1-4424-a5dc-26c8567e8627
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F47.245.59.226%3D59215'
+- name: '(JP)The Constant Company-[Tls] #18'
+  network: ws
+  password: 8e7dc599-5bb9-41a5-97cf-603c0a399e8c
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F108.160.139.154%3D8443'
+- name: '(JP)Oracle Corporation-[Tls]'')... #85'
+  password: baf5cd0e-0293-4957-a05e-5ca2d40e527e
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)AKILE LTD-[Tls] #3'
+  network: ws
+  password: 746b4010-7e78-45c1-942d-2a1f4f4d0bd1
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F82.163.16.69%3D8080'
+- name: '(JP)GLOBAL CONNECTIVITY SOLUTI... #11'
+  network: ws
+  password: 43624489-bdb0-4ecb-abdf-a731a4c5ef65
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F147.45.49.164%3D24443'
+- name: '(JP)Oracle Corporation-[Tls]'')... #86'
+  password: 2bc944bb-2206-4244-91c2-9a5351483d5f
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Jcom Co.-[NTls]'')">Copy Tr... #1'
+  password: f1a2c2b4-900e-4069-b17d-9d96f6a3ca46
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]''... #96'
+  password: 3454a7d2-6d47-479e-a4d3-6af52010ba91
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls]''... #93'
+  password: 03575127-76e9-4771-aa00-199da4687394
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #94'
+  network: ws
+  password: af6e6cf2-b604-4ed6-bda5-96e5699b70cf
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F158.101.152.6%3D2919'
+- name: '(JP)Oracle Corporation-[Tls] #95'
+  network: ws
+  password: 3395bde6-5a4a-4970-b8ea-6e9acd60cdc7
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.59.96%3D10129'
+- name: '(JP)M Europe SRL-[NTls]</pre> #7'
+  password: 79b7cb77-c235-4427-af83-35a8b6d5b0e2
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #96'
+  network: ws
+  password: 982fd55e-bc8a-47f6-8420-68c0a18d12a7
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F132.145.116.192%3D44009'
+- name: '(JP)Oracle Corporation-[Tls]'')... #95'
+  password: d2fa1327-30a4-4911-9601-757d32aa2640
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Alibaba us Technology Co.-... #32'
+  network: ws
+  password: cb1d5945-3b18-4d8c-b51e-5bfe2edeeed6
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F47.245.59.226%3D59215'
+- name: '(JP)Akamai Technologies-[NTls] #7'
+  network: ws
+  password: aa1cf981-422f-4ec5-ba2b-dc11d751ee34
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F139.162.84.132%3D18836'
+- name: '(JP)Xtom Japan Corporation-[NT... #10'
+  network: ws
+  password: dc678d2c-a579-4ffd-80dc-6bb966b4943f
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F141.98.197.101%3D11665'
+- name: '(JP)Oracle Corporation-[NTls] #97'
+  network: ws
+  password: 378cda4f-187b-4b05-bbce-20b3dad095ef
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F158.101.154.245%3D47001'
+- name: (JP)Dmit Cloud Services-[NTls]
+  network: ws
+  password: 5724e874-0ee1-4648-bb1f-cf3282d8abe2
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F154.31.113.72%3D443'
+- name: '(JP)Microsoft Corporation-[Tls... #4'
+  network: ws
+  password: 15598a63-c003-476b-be08-2aec2dd12f7b
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F20.243.85.49%3D10443'
+- name: '(JP)Techavenue International L... #10'
+  network: ws
+  password: 3d2c3496-1335-4cac-a7ce-511684f46cd9
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F202.144.195.204%3D443'
+- name: '(JP)Oracle Corporation-[Tls]'')... #104'
+  password: 959e14ba-819c-4d7b-abdc-d88988f22223
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: (JP)Dmit Cloud Services-[Tls]
+  network: ws
+  password: 03c89930-9dd4-4d4a-97b9-d1439192c206
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F154.31.113.72%3D443'
+- name: '(JP)Amazon.com-[NTls] #3'
+  network: ws
+  password: 66c71144-0342-4067-9d9a-77fe5d625b61
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F18.183.158.211%3D443'
+- name: '(JP)Hosthatch-[NTls] #1'
+  network: ws
+  password: 98bceda6-130a-4492-bfcc-ca377f215645
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F212.52.0.61%3D1846'
+- name: '(JP)Oracle Corporation-[NTls] #100'
+  network: ws
+  password: ab3ab042-4919-488d-a1f1-20fcd65c257b
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F217.142.230.253%3D587'
+- name: '(JP)Akamai Technologies-[Tls] #9'
+  network: ws
+  password: 967d53e7-00ff-4bbc-a0a4-01b8bae35181
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F139.162.84.132%3D18836'
+- name: '(JP)Oracle Corporation-[NTls]''... #103'
+  password: 6ba4aec9-482e-4a4d-8924-c33cd2110509
+  port: 80
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[NTls] #101'
+  network: ws
+  password: 70eb1b0c-ab3c-4e01-ba1d-f60bdaa3bcc9
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.12.103%3D14453'
+- name: '(JP)Oracle Corporation-[NTls] #102'
+  network: ws
+  password: 7b4a4d6b-e42e-4957-92f0-74cd33ea7be5
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F168.138.197.147%3D12345'
+- name: '(JP)Oracle Corporation-[Tls] #101'
+  network: ws
+  password: 2862b842-4872-470d-88ff-15086617a7ba
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F138.2.12.103%3D14453'
+- name: '(JP)Oracle Corporation-[Tls] #102'
+  network: ws
+  password: 4a5adad3-8e92-406a-bcf0-7b0e84883049
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F141.147.144.15%3D13357'
+- name: '(JP)Oracle Corporation-[NTls] #104'
+  network: ws
+  password: 1d8f1d8c-0c64-4fe9-8e90-8477ca8334fb
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F150.230.97.136%3D12502'
+- name: '(JP)Oracle Corporation-[Tls] #104'
+  network: ws
+  password: 139e005c-7c45-471d-b52e-e901145946d3
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F140.83.57.114%3D25965'
+- name: '(JP)WAP.AC LTD-[Tls] #1'
+  network: ws
+  password: e2913d37-00f4-45be-a589-8d1373d84bd0
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F103.238.129.215%3D42734'
+- name: '(JP)M Europe SRL-[NTls] #7'
+  network: ws
+  password: cf4b73af-db79-48a1-91f7-c5abaac86979
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F38.180.28.163%3D8443'
+- name: '(JP)The Constant Company-[NTls... #53'
+  network: ws
+  password: 99411f26-67f5-4402-b27d-ff5bca2ad528
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F64.176.40.224%3D3533'
+- name: '(JP)Akamai Technologies-[NTls] #8'
+  network: ws
+  password: 7e88f729-d18b-4707-bdb4-972c6947f872
+  port: 80
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F139.162.127.39%3D18836'
+- name: '(JP)Oracle Corporation-[Tls]</... #105'
+  password: 4a5adad3-8e92-406a-bcf0-7b0e84883049
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: trojan
+- name: '(JP)Oracle Corporation-[Tls] #107'
+  network: ws
+  password: 93d1cce5-7bff-41a3-8e99-781dfa392ed5
+  port: 443
+  server: zoomgov.vipren.biz.id
+  sni: zoomgov.vipren.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zoomgov.vipren.biz.id
+    path: '%2F141.147.147.180%3D443'

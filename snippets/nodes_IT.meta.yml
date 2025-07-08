@@ -1,47 +1,282 @@
 proxies:
-- name: 🔗 Vauth - 4101
-  network: splithttp
-  port: 2086
-  server: 172.67.204.84
-  tls: false
+- client-fingerprint: randomized
+  name: (AM) GLOBAL CONNECTIVITY SOLUT...
+  network: ws
+  port: 443
+  server: ads.ruangguru.com.joss.checker-ip.web.id
+  servername: ads.ruangguru.com.joss.checker-ip.web.id
+  tls: true
   type: vless
-  uuid: c548e8b9-ac16-ee24-1e65-54485ee05746
+  uuid: 84449898-2fa2-4c31-932e-5b7d4f3e78c1
   ws-opts:
     headers:
-      Host: xhttp.fr1.inservices.ir
-    path: /Devil?ed%3D2560@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- name: 🔒 VL-SPLITHTTP-NONE 🏴‍☠️ NA-10...
-  network: splithttp
-  port: 2086
-  server: 104.21.69.44
-  tls: false
+      Host: ads.ruangguru.com.joss.checker-ip.web.id
+    path: /Free-VPN-CF-Geo-Project%2F194.156.103.58%3D41210
+- client-fingerprint: randomized
+  name: '(AM) GLOBAL CONNECTIVITY SOLUT... #1'
+  network: ws
+  port: 443
+  server: ads.ruangguru.com.joss.checker-ip.web.id
+  servername: ads.ruangguru.com.joss.checker-ip.web.id
+  tls: true
   type: vless
-  uuid: c548e8b9-ac16-ee24-1e65-54485ee05746
+  uuid: 4778ece1-2a94-4d6e-b422-590bc69bf97c
   ws-opts:
     headers:
-      Host: xhttp.fr1.inservices.ir
-    path: /Devil?ed%3D2560@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+      Host: ads.ruangguru.com.joss.checker-ip.web.id
+    path: /Free-VPN-CF-Geo-Project%2F194.156.103.31%3D8443
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #2'
+  network: ws
+  password: 84449898-2fa2-4c31-932e-5b7d4f3e78c1
+  port: 443
+  server: ads.ruangguru.com.joss.checker-ip.web.id
+  sni: ads.ruangguru.com.joss.checker-ip.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.joss.checker-ip.web.id
+    path: /Free-VPN-CF-Geo-Project%2F194.156.103.58%3D41210
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #3'
+  network: ws
+  password: 4778ece1-2a94-4d6e-b422-590bc69bf97c
+  port: 443
+  server: ads.ruangguru.com.joss.checker-ip.web.id
+  sni: ads.ruangguru.com.joss.checker-ip.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.joss.checker-ip.web.id
+    path: /Free-VPN-CF-Geo-Project%2F194.156.103.31%3D8443
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #4'
+  port: 443
+  server: api.midtrans.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 9adc25bc-04ba-401d-8492-35bfe9bb4161
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #5'
+  password: 9adc25bc-04ba-401d-8492-35bfe9bb4161
+  port: 443
+  server: api.midtrans.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #6'
+  port: 443
+  server: api.midtrans.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 48e93e46-4cb2-471d-9909-238adf694550
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #7'
+  password: 48e93e46-4cb2-471d-9909-238adf694550
+  port: 443
+  server: api.midtrans.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #8'
+  port: 443
+  server: ava.game.naver.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: cf583245-48cb-454a-a589-3187b68da30b
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #9'
+  password: edab65f2-4bb2-4c55-a0e6-ca8e19a74a79
+  port: 443
+  server: ava.game.naver.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #10'
+  password: cf583245-48cb-454a-a589-3187b68da30b
+  port: 443
+  server: ava.game.naver.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #11'
+  port: 443
+  server: ava.game.naver.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: edab65f2-4bb2-4c55-a0e6-ca8e19a74a79
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #12'
+  password: 3a797628-14c1-4572-bd95-fc9681dd1e2c
+  port: 443
+  server: beta.zoom.us.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #13'
+  password: 115edce8-2001-405a-9181-87568ffc68db
+  port: 443
+  server: beta.zoom.us.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #14'
+  port: 443
+  server: beta.zoom.us.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 115edce8-2001-405a-9181-87568ffc68db
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #15'
+  port: 443
+  server: beta.zoom.us.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 3a797628-14c1-4572-bd95-fc9681dd1e2c
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #16'
+  port: 443
+  server: blog.webex.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 8e68a7ef-3c90-443b-a26b-3bd99146b4b9
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #17'
+  password: 0a49e3d5-7731-4ab1-9648-3e4dbc9d5989
+  port: 443
+  server: blog.webex.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #18'
+  password: 8e68a7ef-3c90-443b-a26b-3bd99146b4b9
+  port: 443
+  server: blog.webex.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #19'
+  port: 443
+  server: blog.webex.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 0a49e3d5-7731-4ab1-9648-3e4dbc9d5989
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #20'
+  password: e9c32775-76c1-41c7-a979-ca534c86e594
+  port: 443
+  server: cache.netflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #21'
+  password: 23fd53b9-3d33-4a57-99e0-5ab165f3d2aa
+  port: 443
+  server: cache.netflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #22'
+  port: 443
+  server: cache.netflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 23fd53b9-3d33-4a57-99e0-5ab165f3d2aa
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #23'
+  port: 443
+  server: cache.netflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: e9c32775-76c1-41c7-a979-ca534c86e594
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #24'
+  port: 443
+  server: creativeservices.netflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 5394456d-7e14-4e15-9ab6-50b60efdb2ec
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #25'
+  password: e738deb6-e746-417d-8dca-56560335d431
+  port: 443
+  server: creativeservices.netflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #26'
+  password: 5394456d-7e14-4e15-9ab6-50b60efdb2ec
+  port: 443
+  server: creativeservices.netflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #27'
+  port: 443
+  server: creativeservices.netflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: e738deb6-e746-417d-8dca-56560335d431
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #28'
+  port: 443
+  server: data.mt.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: e46abd33-8da6-4cfc-9b0d-2e2e5442cd4d
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #29'
+  password: e46abd33-8da6-4cfc-9b0d-2e2e5442cd4d
+  port: 443
+  server: data.mt.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #30'
+  port: 443
+  server: data.mt.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 0aaff4ba-c424-4360-bf1d-313fc70a5d93
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #31'
+  password: 0aaff4ba-c424-4360-bf1d-313fc70a5d93
+  port: 443
+  server: data.mt.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #32'
+  password: b9bb220c-92ad-441a-893a-f80857108d8f
+  port: 443
+  server: df.game.naver.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #33'
+  port: 443
+  server: df.game.naver.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: fd9ba4eb-7000-48b6-b1af-98b237794656
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #34'
+  password: fd9ba4eb-7000-48b6-b1af-98b237794656
+  port: 443
+  server: df.game.naver.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #35'
+  port: 443
+  server: df.game.naver.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: b9bb220c-92ad-441a-893a-f80857108d8f
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: random
+  name: 🇮🇹 @iProxyRobot [IT↹🇮🇷]
+  network: ws
+  port: 80
+  server: 81.12.92.231
+  tls: false
+  type: vless
+  uuid: 469ea395-6372-ba2e-05c0-6790e06848d9
+  ws-opts:
+    headers:
+      Host: web.rubika.ir
+    path: '%2FIVApi%2FIT%2F1'
+- name: 🇺🇸 @iProxyRobot [US↹🇮🇷]
+  port: 80
+  server: 81.12.92.231
+  tls: false
+  type: vless
+  uuid: 469ea395-6372-ba2e-05c0-6790e06848d9
+- name: 'redhat_vpn- 🇮🇹-ایتالیا-qr6nt17... #1'
+  network: tcp
+  port: 11951
+  server: g1.lalash.ir
+  tls: false
+  type: vless
+  uuid: 0d4e694b-6437-4068-aae7-38d6a99261dc
+  ws-opts:
+    headers:
+      Host: speedtest.net
+    path: '%2F'
 - alpn:
   - h3
   - h2
   - http/1.1
-  client-fingerprint: chrome
-  name: 🔗 Vauth - 2976
+  client-fingerprint: random
+  name: ' Vauth - 1629 #1'
   network: splithttp
-  port: 2087
-  server: 104.16.3.189
-  servername: tyop.nim-kafe.xyz
+  port: 2053
+  server: 172.67.198.217
+  servername: 9-9.9-9.lol
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 94e31e3d-3b84-4a05-9caa-b71926043084
+  uuid: 6b91d025-da4e-45c1-a9a0-1124454b0765
   ws-opts:
     headers:
-      Host: tyop.nim-kafe.xyz
-    path: '%2Fpark'
+      Host: 9-9.9-9.lol
+    path: '%2F9-9.9-9.lol9-9.9-9.lol'
 - alpn:
   - h3
   client-fingerprint: chrome
-  name: 🔗 Vauth - 1830
+  name: ' Vauth - 1830'
   network: splithttp
   port: 2087
   server: 172.67.238.244
@@ -57,26 +292,8 @@ proxies:
   - h3
   - h2
   - http/1.1
-  client-fingerprint: random
-  name: 🔗 Vauth - 3569
-  network: splithttp
-  port: 2053
-  server: 104.21.92.214
-  servername: 9-9.9-9.lol
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6b91d025-da4e-45c1-a9a0-1124454b0765
-  ws-opts:
-    headers:
-      Host: 9-9.9-9.lol
-    path: '%2F9-9.9-9.lol9-9.9-9.lol'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
   client-fingerprint: chrome
-  name: 🔗 Vauth - 3694
+  name: ' Vauth - 3694 #1'
   network: splithttp
   port: 2087
   server: 104.16.4.189
@@ -88,111 +305,251 @@ proxies:
     headers:
       Host: tyop.nim-kafe.xyz
     path: '%2Fpark'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔗 Vauth - 2553
-  network: splithttp
-  port: 2087
-  server: 104.16.5.189
-  servername: tyop.nim-kafe.xyz
-  tls: true
-  type: vless
-  uuid: 94e31e3d-3b84-4a05-9caa-b71926043084
-  ws-opts:
-    headers:
-      Host: tyop.nim-kafe.xyz
-    path: '%2Fpark'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔗 Vauth - 1264
-  network: splithttp
-  port: 2087
-  server: 104.16.2.189
-  servername: tyop.nim-kafe.xyz
-  tls: true
-  type: vless
-  uuid: 94e31e3d-3b84-4a05-9caa-b71926043084
-  ws-opts:
-    headers:
-      Host: tyop.nim-kafe.xyz
-    path: '%2Fpark'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🔗 Vauth - 1753
-  network: splithttp
-  port: 2087
-  server: 104.16.6.189
-  servername: tyop.nim-kafe.xyz
-  tls: true
-  type: vless
-  uuid: 94e31e3d-3b84-4a05-9caa-b71926043084
-  ws-opts:
-    headers:
-      Host: tyop.nim-kafe.xyz
-    path: '%2Fpark'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: random
-  name: 🔗 Vauth - 1629
-  network: splithttp
-  port: 2053
-  server: 172.67.198.217
-  servername: 9-9.9-9.lol
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6b91d025-da4e-45c1-a9a0-1124454b0765
-  ws-opts:
-    headers:
-      Host: 9-9.9-9.lol
-    path: '%2F9-9.9-9.lol9-9.9-9.lol'
-- name: '6124'
-  network: httpupgrade
-  port: 8880
-  server: 104.17.148.22
-  tls: false
-  type: vless
-  uuid: 66941ec6-d1ce-489c-97ee-934fafb55a03
-  ws-opts:
-    headers:
-      Host: Tt.parqi.ir.
-    path: '%2F'
-- name: '@appsooner+کانال+تلگرام+🇮🇹'
-  network: httpupgrade
-  port: 8080
-  server: 172.64.111.69
-  tls: false
-  type: vless
-  uuid: 4ee50f98-d646-4491-b5a5-339fd79153a4
-  ws-opts:
-    headers:
-      Host: h17.Xn--gmq282ekfhyys3gs.Com.
-    path: '%2Fspeedtest.net%3Fed%3DTELEGRAM-MARAMBASHI%2F%3Fed%3D2048'
-- name: '[+🇮🇹+]+Channel+:+@HELIX_Server...'
-  network: httpupgrade
-  port: 8080
-  server: www.speedtest.net
-  tls: false
-  type: vless
-  uuid: 4ee50f98-d646-4491-b5a5-339fd79153a4
-  ws-opts:
-    headers:
-      Host: h17.Xn--gmq282ekfhyys3gs.Com.
-    path: '%2Fspeedtest.net%3Fed%3D2560'
-- name: Italy
-  network: tcp
-  password: 9e4fa728-3d7d-4371-8053-f175c019ef2c
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #36'
   port: 443
-  server: yangleduo.cf
+  server: img.email1.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: b876602c-7154-489b-929e-26403e5ba5f6
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #37'
+  port: 443
+  server: img.email1.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 809e6bb5-fde4-4543-9187-b6c23e277c49
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #38'
+  password: 809e6bb5-fde4-4543-9187-b6c23e277c49
+  port: 443
+  server: img.email1.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #39'
+  password: b876602c-7154-489b-929e-26403e5ba5f6
+  port: 443
+  server: img.email1.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #40'
+  password: 76775478-875f-414f-889b-9f904bf04b96
+  port: 443
+  server: img.email2.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #41'
+  port: 443
+  server: img.email2.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: bac4db6f-cfd4-4eae-8eab-ccc4dd72969b
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #42'
+  port: 443
+  server: img.email2.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 76775478-875f-414f-889b-9f904bf04b96
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #43'
+  password: bac4db6f-cfd4-4eae-8eab-ccc4dd72969b
+  port: 443
+  server: img.email2.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #44'
+  port: 443
+  server: img.email3.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 1ec166c4-ebc5-4416-8b27-c4b9055e9f8a
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #45'
+  port: 443
+  server: img.email3.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: f684588e-28d9-40f4-ab49-2ef78a2d8982
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #46'
+  password: f684588e-28d9-40f4-ab49-2ef78a2d8982
+  port: 443
+  server: img.email3.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #47'
+  password: 1ec166c4-ebc5-4416-8b27-c4b9055e9f8a
+  port: 443
+  server: img.email3.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #48'
+  port: 443
+  server: io.ruangguru.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 20ccc356-591b-48fb-bdaf-75ad49061953
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #49'
+  password: 937a8f8e-e707-41b7-a5d0-ca36baf021f0
+  port: 443
+  server: io.ruangguru.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #50'
+  port: 443
+  server: io.ruangguru.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 937a8f8e-e707-41b7-a5d0-ca36baf021f0
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #51'
+  password: 20ccc356-591b-48fb-bdaf-75ad49061953
+  port: 443
+  server: io.ruangguru.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #52'
+  password: dd4cc951-0bd7-4791-adef-10cf76c9295a
+  port: 443
+  server: joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #53'
+  port: 443
+  server: joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: c4407975-d989-4658-a4cb-fe3af00cbd27
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #54'
+  port: 443
+  server: joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: dd4cc951-0bd7-4791-adef-10cf76c9295a
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #55'
+  password: c4407975-d989-4658-a4cb-fe3af00cbd27
+  port: 443
+  server: joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #56'
+  port: 443
+  server: live.iflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 3963f618-455d-458d-a8d3-f736d85c5399
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #57'
+  password: 3963f618-455d-458d-a8d3-f736d85c5399
+  port: 443
+  server: live.iflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #58'
+  port: 443
+  server: live.iflix.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 1e8de9b8-4065-408d-a81d-8e6fa1c48b5a
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #59'
+  password: 1e8de9b8-4065-408d-a81d-8e6fa1c48b5a
+  port: 443
+  server: live.iflix.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #60'
+  port: 443
+  server: mssdk24-normal-useast2a.tiktokv.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: ee24f416-3f18-4f15-9e71-55ff0b676c12
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #61'
+  password: f38bf305-9c0b-4478-b942-6558edd16178
+  port: 443
+  server: mssdk24-normal-useast2a.tiktokv.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #62'
+  password: ee24f416-3f18-4f15-9e71-55ff0b676c12
+  port: 443
+  server: mssdk24-normal-useast2a.tiktokv.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #63'
+  port: 443
+  server: mssdk24-normal-useast2a.tiktokv.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: f38bf305-9c0b-4478-b942-6558edd16178
+- name: nv1.032041.xyz" target="_blank...
+  port: 443
+  server: nv1.032041.xyz
+  tls: false
+  type: vless
+  uuid: 755e5ad8-3f0c-48b8-9e7d-31e1d4c9a3fd
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #64'
+  port: 443
+  server: quiz.int.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: befed9c8-f141-44ae-866c-37dbb2786a14
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #65'
+  port: 443
+  server: quiz.int.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: b2443cdf-61cc-4c66-9249-d8b71645b7a0
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #66'
+  password: befed9c8-f141-44ae-866c-37dbb2786a14
+  port: 443
+  server: quiz.int.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #67'
+  password: b2443cdf-61cc-4c66-9249-d8b71645b7a0
+  port: 443
+  server: quiz.int.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #68'
+  port: 443
+  server: quiz.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 260cfa9d-94e4-4d98-a89f-cff624ade6b8
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #69'
+  port: 443
+  server: quiz.vidio.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: f6599436-b905-4ea7-8d6b-769bce50849b
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #70'
+  password: f6599436-b905-4ea7-8d6b-769bce50849b
+  port: 443
+  server: quiz.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #71'
+  password: 260cfa9d-94e4-4d98-a89f-cff624ade6b8
+  port: 443
+  server: quiz.vidio.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #72'
+  password: 8fb25179-bd4c-4601-8211-32abf6b93ca7
+  port: 443
+  server: support.zoom.us.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #73'
+  port: 443
+  server: support.zoom.us.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 8fb25179-bd4c-4601-8211-32abf6b93ca7
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #74'
+  port: 443
+  server: support.zoom.us.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 9117c2d9-b008-4444-b925-bf0a261b3a93
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #75'
+  password: 9117c2d9-b008-4444-b925-bf0a261b3a93
+  port: 443
+  server: support.zoom.us.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #76'
+  password: 09ef7669-4bf5-4b4a-a90b-e33d4b1a0f55
+  port: 443
+  server: zaintest.vuclip.com.joss.checker-ip.web.id
+  type: trojan
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #77'
+  port: 443
+  server: zaintest.vuclip.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: fda4e626-30db-45cb-a1cf-c8d417e86393
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #78'
+  port: 443
+  server: zaintest.vuclip.com.joss.checker-ip.web.id
+  tls: false
+  type: vless
+  uuid: 09ef7669-4bf5-4b4a-a90b-e33d4b1a0f55
+- name: '(AM) GLOBAL CONNECTIVITY SOLUT... #79'
+  password: fda4e626-30db-45cb-a1cf-c8d417e86393
+  port: 443
+  server: zaintest.vuclip.com.joss.checker-ip.web.id
   type: trojan

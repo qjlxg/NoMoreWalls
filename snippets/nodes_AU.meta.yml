@@ -1,56 +1,93 @@
 proxies:
-- name: 澳大利亚_070418024
-  network: httpupgrade
-  port: 8880
-  server: 103.169.142.77
+- name: 'AU #2'
+  port: 443
+  server: 168.138.13.201
   tls: false
   type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 澳大利亚_070418061
-  network: httpupgrade
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+- name: 澳大利亚(mibei77.com 米贝节点分享)
+  network: ws
   port: 8880
-  server: 103.169.142.131
+  server: 185.207.196.168
+  servername: kjgx.laoyoutiao.link
   tls: false
   type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 澳大利亚_070418062
-  network: httpupgrade
+      Host: kjgx.laoyoutiao.link
+    path: Telegram%40WangCai2%2F%3Fed%3D2560
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'AU #1'
+  network: ws
+  port: 443
+  server: 168.138.13.201
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      Host: jv.bgm2024.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- name: '澳大利亚(mibei77.com 米贝节点分享) #1'
   port: 8880
-  server: 103.169.142.99
+  server: 103.133.1.177
   tls: false
   type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
-  ws-opts:
-    headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 澳大利亚_070418079
-  network: httpupgrade
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: '澳大利亚(mibei77.com 米贝节点分享) #2'
+  network: ws
   port: 8880
-  server: 103.169.142.163
+  server: 103.133.1.177
+  servername: ip.langmanshanxi.top
   tls: false
   type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
   ws-opts:
     headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
-- name: 澳大利亚_070418085
-  network: httpupgrade
+      Host: ip.langmanshanxi.top
+    path: '%2FTelegram%40WangCai2%2F%3Fed%3D2560'
+- name: '澳大利亚(mibei77.com 米贝节点分享) #3'
   port: 8880
-  server: 103.169.142.137
+  server: 192.65.217.168
   tls: false
   type: vless
-  uuid: b99590df-eda0-4e34-e1a9-3d1118faed83
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: '澳大利亚(mibei77.com 米贝节点分享) #4'
+  network: ws
+  port: 8880
+  server: 192.65.217.168
+  servername: kjgx.laoyoutiao.link
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: nufillter.jtip.sbs.
-    path: ''
+      Host: kjgx.laoyoutiao.link
+    path: Telegram%40WangCai2%2F%3Fed%3D2560
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'AU #3'
+  network: ws
+  port: 443
+  server: 168.138.13.201
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      Host: dv.bgm2024.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- name: '澳大利亚(mibei77.com 米贝节点分享) #5'
+  port: 8880
+  server: 185.207.196.168
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf

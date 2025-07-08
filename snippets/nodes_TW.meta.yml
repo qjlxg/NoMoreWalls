@@ -1,15 +1,42 @@
 proxies:
-- name: 'https://t.me/VTWORAY_WOLF #2'
-  network: httpupgrade
-  port: 80
-  server: speedtest-fr5.gcore.com
+- name: 'TW #2'
+  port: 81
+  server: 210.61.97.241
   tls: false
   type: vless
-  uuid: f4e82258-9328-46fe-bac7-8d31a905e25a
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'TW #1'
+  network: ws
+  port: 81
+  server: 210.61.97.241
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      Host: ap.ir
-    path: '%2F'
+      Host: jv.bgm2024.dpdns.org
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 'TW #3'
+  network: ws
+  port: 81
+  server: 210.61.97.241
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      Host: dv.bgm2024.dpdns.org
+    path: '%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
   name: 台湾v2|@ripaojiedian
@@ -20,8 +47,13 @@ proxies:
   tls: false
   type: vmess
   uuid: fe797d32-6607-4b46-8e39-c4fb1e3c0872
-- client-fingerprint: chrome
-  name: '[openproxylist.com] vless-TW'
+- name: '[openproxylist.com] vless-TW'
+  port: 8443
+  server: 45.131.209.130
+  tls: true
+  type: vless
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+- name: '[openproxylist.com] vless-TW``... #1'
   network: ws
   port: 8443
   server: 104.21.3.219
@@ -32,4 +64,77 @@ proxies:
   ws-opts:
     headers:
       Host: ovhwuxian.pai50288.uk
-    path: /57ba2ab1
+    path: '%2F57ba2ab1'
+- client-fingerprint: chrome
+  name: '[openproxylist.com] vless-TW #2'
+  network: tcp
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  server: 103.137.247.92
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  tls: false
+  type: vless
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW-111.243.71.24-5217
+  network: ws
+  port: 80
+  server: twjxlnnoljxc2.jkhkgj.xyz
+  servername: file.dingtalk.com
+  tls: false
+  type: vmess
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      Host: twjxlnnoljxc2.jkhkgj.xyz
+    path: /market/tw?ed=512
+- name: '[openproxylist.com] vless-TW #3'
+  network: ws
+  port: 8443
+  server: 45.131.209.130
+  servername: ovhwuxian.pai50288.uk
+  tls: true
+  type: vless
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  ws-opts:
+    headers:
+      Host: ovhwuxian.pai50288.uk
+    path: '%2F57ba2ab1'
+- client-fingerprint: random
+  name: 老油条-台湾
+  network: ws
+  port: 443
+  server: tw.laoyoutiao.link
+  servername: tw.laoyoutiao.link
+  tls: true
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: tw.laoyoutiao.link
+    path: '%2F%3Fed%3D2560'
+- name: '老油条-台湾 #1'
+  port: 443
+  server: tw.laoyoutiao.link
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 台湾
+  network: ws
+  port: 18964
+  server: 35.221.245.255
+  tls: false
+  type: vless
+  uuid: 0eea4513-bc27-4bca-f2f7-2b9d2de01ab4
+- name: '台湾 #1'
+  network: ws
+  port: 18964
+  server: 35.221.245.255
+  tls: false
+  type: vless
+  uuid: 0eea4513-bc27-4bca-f2f7-2b9d2de01ab4
+  ws-opts:
+    path: '%2Fxbz'
